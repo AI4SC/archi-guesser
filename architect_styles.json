@@ -1112,7 +1112,7 @@
             "time_range": "Late 19th century to mid-20th century",
             "period": "Revivalism",
             "description": "Architectural style that emulated the aesthetics of colonial-era buildings in America, particularly those built during the 18th and early 19th centuries",
-            "characteristics": "Symmetrical designs, simple ornamentation, steep roofs, dormer windows, and often featured columns and pediments",
+            "characteristics": ["Symmetrical designs", "simple ornamentation", "steep roofs", "dormer windows", "featured columns and pediments"],
             "examples": [
                 "The White House in Washington D.C.",
                 "The Mark Twain House in Hartford, Connecticut",
@@ -1606,7 +1606,7 @@
             "time_range": "late 18th century to mid-19th century",
             "period": "Neoclassical architecture",
             "description": "Architectural movement that emulated the buildings and style of ancient Greece and Rome",
-            "characteristics": "Symmetrical facades with columns and pediments, use of marble and stone, friezes with classical motifs, domed roofs, grand entrances",
+            "characteristics": ["Symmetrical facades with columns and pediments", "use of marble and stone", "friezes with classical motifs", "domed roofs, grand entrances"],
             "examples": [
                 "The United States Capitol Building",
                 "The White House",
@@ -2397,7 +2397,7 @@
             "time_range": "Late 19th to early 20th century",
             "period": "Victorian-era architecture",
             "description": "A style that emphasizes traditional craftsmanship and simple forms, often with natural materials.",
-            "characteristics": "Hand-crafted details, exposed joinery, open floor plans, use of natural materials, emphasis on function over decoration.",
+            "characteristics": ["Hand-crafted details", "exposed joinery", "open floor plans", "use of natural materials", "emphasis on function over decoration"],
             "examples": [
                 "Charles Rennie Mackintosh's Glasgow School of Art",
                 "William Morris's Red House",
