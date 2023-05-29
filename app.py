@@ -17,7 +17,7 @@ try:
 except:
     architects_by_style = {}
 
-for k,v in architects_by_style.items():
+for k, v in architects_by_style.items():
     if 'architects' not in v: print("MISSING architects", k)
     for a in v['architects']:
         if 'name' not in a: print("MISSING architect name", k, a)
@@ -53,12 +53,11 @@ for fn in os.listdir('examples'):
         examples_img[fn.replace('.png', '').replace('_', ' ')] = img
         pil_image = img
 
-
-style_ccc=[None for c in style_img.keys()]
-sel_style=None
-sel_location=None
-sel_epoche=None
-rnd_style="Bauhaus architecture"
+style_ccc = [None for c in style_img.keys()]
+sel_style = None
+sel_location = None
+sel_epoche = None
+rnd_style = "Bauhaus architecture"
 
 with open("countries.geojson", 'tr') as fi:
     counties = json.load(fi)
@@ -159,22 +158,22 @@ app.layout = dbc.Container([
                             html.Img(src=img, alt=n), html.Br(),
                             html.P(n, style={}),
                         ],
-                        color=None,
-                        name=n,
-                        style={"width": "130px", "height": "160px"},
-                        id={"type": "style-selection", "index": n})) for n, img in style_img.items()
+                            color=None,
+                            name=n,
+                            style={"width": "130px", "height": "160px"},
+                            id={"type": "style-selection", "index": n})) for n, img in style_img.items()
                 ], className="no-gutters no-padders"),
                 style={"width": "100%", "height": "320px", "overflow": "scroll"},
                 className="scrollable"),
             dbc.Label("Location"),
-            #dcc.Graph(figure=mapfig, id='map', style={'width': '100%', 'height': '30%'}),
+            # dcc.Graph(figure=mapfig, id='map', style={'width': '100%', 'height': '30%'}),
             dl.Map([dl.TileLayer(),
-                    #dl.GeoJSON(data=counties),
-                    dl.LayerGroup(id="layer")], #url=bwtileurl
-                 id="map", style={'width': '100%', 'height': '30vh', 'margin': "auto", "display": "block",
-                                 #'filter': 'brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7)'},
-                                'filter': 'invert(1) hue-rotate(180deg) brightness(.95) contrast(.9)'},
-                    maxZoom=4, zoom=1),
+                    # dl.GeoJSON(data=counties),
+                    dl.LayerGroup(id="layer")],  # url=bwtileurl
+                   id="map", style={'width': '100%', 'height': '30vh', 'margin': "auto", "display": "block",
+                                    # 'filter': 'brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7)'},
+                                    'filter': 'invert(1) hue-rotate(180deg) brightness(.95) contrast(.9)'},
+                   maxZoom=4, zoom=1),
             dbc.Label("Epoche"),
             dcc.Slider(0, 2025,
                        step=5,
@@ -201,16 +200,17 @@ app.layout = dbc.Container([
         dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
         dbc.ModalBody([], id="style_body"),
         dbc.ModalFooter([
-            dbc.Button("Close",id="close",class_name="ms-auto")
+            dbc.Button("Close", id="close", class_name="ms-auto")
         ])
-    ],id="resultmodal"),
-    html.Button("1",id="new_run", style={'visibility':'hidden'}, disabled=True) # used as event notifier
+    ], id="resultmodal"),
+    html.Button("1", id="new_run", style={'visibility': 'hidden'}, disabled=True)  # used as event notifier
 ], fluid=True)
 
-#@app.callback(
+
+# @app.callback(
 #    Output('GUESS', 'disabled', allow_duplicate=True),
 #    Input('map', 'clickData'), prevent_initial_call=True)
-#def display_selected_data(clickData):
+# def display_selected_data(clickData):
 #    global sel_location
 #    if clickData is None: return True
 #    sel_location=clickData['points'][0]['location']
@@ -224,9 +224,9 @@ app.layout = dbc.Container([
 def display_selected_data(click_lat_lng):
     global sel_location
     if click_lat_lng is None: return True, []
-    sel_location=click_lat_lng
+    sel_location = click_lat_lng
     print(sel_location, sel_style, sel_epoche)
-    return  sel_location is None or sel_style is None or sel_epoche is None, [dl.Marker(position=click_lat_lng, children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)))]
+    return sel_location is None or sel_style is None or sel_epoche is None, [dl.Marker(position=click_lat_lng, children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)))]
 
 
 @app.callback(
@@ -235,7 +235,7 @@ def display_selected_data(click_lat_lng):
 def display_selected_epoche(value):
     global sel_epoche
     if value is None: return True
-    sel_epoche=value
+    sel_epoche = value
     return sel_location is None or sel_style is None or sel_epoche is None
 
 
@@ -250,15 +250,16 @@ def select_style(n, names):
     global sel_style
     if callback_context.triggered_prop_ids:
         for v in callback_context.triggered_prop_ids.values():
-            sel_style=v['index']
-            styles = ['primary' if sel_style==n else None for n in names]
+            sel_style = v['index']
+            styles = ['primary' if sel_style == n else None for n in names]
             return sel_location is None or sel_style is None or sel_epoche is None, styles
     else:
         return True, style_ccc
 
+
 @app.callback(
     Output("resultmodal", "is_open"),
-    Output("new_run", "disabled"), # used as event notifier
+    Output("new_run", "disabled"),  # used as event notifier
     [Input("GUESS", "n_clicks"),
      Input("close", "n_clicks")],
     [State("resultmodal", "is_open"),
@@ -269,41 +270,45 @@ def toggle_modal(n1, n2, is_open, new_run):
         return not is_open, not new_run
     return is_open, new_run
 
+
 def tostr(obj):
     if isinstance(obj, str): return obj
-    if isinstance(obj, list): return ", ".join(obj)
-    else: return str(obj)
+    if isinstance(obj, list):
+        return ", ".join(obj)
+    else:
+        return str(obj)
+
 
 @app.callback(
     Output('GUESS', 'disabled', allow_duplicate=True),
     Output("example_img", "src"),
     Output("style_body", "children"),
-    Input("new_run", "disabled"), # used as event notifier
+    Input("new_run", "disabled"),  # used as event notifier
     prevent_initial_call=True
 )
 def select_random_style(new_run):
     global rnd_style, sel_style, sel_epoche, sel_location
-    rnd_style=random.choice(list(architects_by_style.keys()))
-    rnd_img=random.choice(list(examples_img.values()))
+    rnd_style = random.choice(list(architects_by_style.keys()))
+    rnd_img = random.choice(list(examples_img.values()))
     print(rnd_style)
-    astyle=architects_by_style[rnd_style]["style"]
-    aarch=architects_by_style[rnd_style]["architects"]
+    astyle = architects_by_style[rnd_style]["style"]
+    aarch = architects_by_style[rnd_style]["architects"]
     print(rnd_style, astyle, aarch)
-    sel_style, sel_epoche, sel_location=None, None, None
+    sel_style, sel_epoche, sel_location = None, None, None
     return True, rnd_img, [
-            html.H3(rnd_style),
-            html.Label("Epoche"),
-            html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
-            html.Label("Location"),
-            html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
-            html.Label("Description"),
-            html.P(astyle["description"]),
-            html.Label("Characteristics"),
-            html.Ul([html.Li(c) for c in astyle["characteristics"]]),
-            html.Label("Examples"),
-            html.Ul([html.Li(c) for c in astyle["examples"]]),
-            html.Label("Architects"),
-            html.Ul([html.Li(c["name"]) for c in aarch]),
+        html.H3(rnd_style),
+        html.Label("Epoche"),
+        html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
+        html.Label("Location"),
+        html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
+        html.Label("Description"),
+        html.P(astyle["description"]),
+        html.Label("Characteristics"),
+        html.Ul([html.Li(c) for c in astyle["characteristics"]]),
+        html.Label("Examples"),
+        html.Ul([html.Li(c) for c in astyle["examples"]]),
+        html.Label("Architects"),
+        html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
 
 
