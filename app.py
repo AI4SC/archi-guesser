@@ -9,12 +9,27 @@ from dash.dependencies import Input, Output, State
 from urllib.request import urlopen
 from PIL import Image
 import dash_leaflet as dl
+import random
 
 try:
     with open("architect_styles.json", 'tr') as fi:
         architects_by_style = json.load(fi)
 except:
     architects_by_style = {}
+
+for k,v in architects_by_style.items():
+    if 'architects' not in v: print("MISSING architects", k)
+    for a in v['architects']:
+        if 'name' not in a: print("MISSING architect name", k, a)
+    if 'terms' not in v: print("MISSING terms", k)
+    if 'style' not in v: print("MISSING style", k)
+    if 'time_range' not in v['style']: print("MISSING time_range", k)
+    if 'period' not in v['style']: print("MISSING period", k)
+    if 'description' not in v['style']: print("MISSING description", k)
+    if 'characteristics' not in v['style']: print("MISSING characteristics", k)
+    if 'examples' not in v['style']: print("MISSING examples", k)
+    if 'continent' not in v['style']: print("MISSING continent", k)
+    if 'country' not in v['style']: print("MISSING country", k)
 
 bwtileurl = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key='
 bwtileurl2 = "http://{{s}}.tile.stamen.com/{}/{{z}}/{{x}}/{{y}}.png"
@@ -36,6 +51,7 @@ style_ccc=[None for c in style_img.keys()]
 sel_style=None
 sel_location=None
 sel_epoche=None
+rnd_style="Bauhaus architecture"
 
 with open("countries.geojson", 'tr') as fi:
     counties = json.load(fi)
@@ -174,17 +190,13 @@ app.layout = dbc.Container([
     ]),
     dbc.Modal([
         dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
-        dbc.ModalBody([
-            html.H1('style',id='style_name'),
-            html.P('Epoche',id='style_epoche'),
-            html.P('style',id='style_decription'),
-        ]),
+        dbc.ModalBody([], id="style_body"),
         dbc.ModalFooter([
             dbc.Button("Close",id="close",class_name="ms-auto")
         ])
-    ])
+    ],id="resultmodal"),
+    html.Button("1",id="new_run", style={'visibility':'hidden'}, disabled=True) # used as event notifier
 ], fluid=True)
-
 
 #@app.callback(
 #    Output('GUESS', 'disabled', allow_duplicate=True),
@@ -235,17 +247,51 @@ def select_style(n, names):
     else:
         return True, style_ccc
 
-
 @app.callback(
-    Output("modal", "is_open"),
+    Output("resultmodal", "is_open"),
+    Output("new_run", "disabled"), # used as event notifier
     [Input("GUESS", "n_clicks"),
      Input("close", "n_clicks")],
-    [State("modal", "is_open")],
+    [State("resultmodal", "is_open"),
+     State("new_run", "disabled")],
 )
-def toggle_modal(n1, n2, is_open):
+def toggle_modal(n1, n2, is_open, new_run):
     if n1 or n2:
-        return not is_open
-    return is_open
+        return not is_open, not new_run
+    return is_open, new_run
+
+def tostr(obj):
+    if isinstance(obj, str): return obj
+    if isinstance(obj, list): return ", ".join(obj)
+    else: return str(obj)
+@app.callback(
+    Output('GUESS', 'active', allow_duplicate=True),
+    Output("style_body", "children"),
+    Input("new_run", "disabled"), # used as event notifier
+    prevent_initial_call=True
+)
+def select_random_style(new_run):
+    global rnd_style
+    rnd_style=random.choice(list(architects_by_style.keys()))
+    print(rnd_style)
+    astyle=architects_by_style[rnd_style]["style"]
+    aarch=architects_by_style[rnd_style]["architects"]
+    print(rnd_style, astyle, aarch)
+    return False, [
+            html.H3(rnd_style),
+            html.Label("Epoche"), html.Br(),
+            html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
+            html.Label("Location"), html.Br(),
+            html.P(f'{tostr(astyle["country"])} ({astyle["continent"]})'),
+            html.Label("Description"), html.Br(),
+            html.P(astyle["description"]),
+            html.Label("Characteristics"), html.Br(),
+            html.Ul([html.Li(c) for c in astyle["characteristics"]]),
+            html.Label("Examples"), html.Br(),
+            html.Ul([html.Li(c) for c in astyle["examples"]]),
+            html.Label("Architects"), html.Br(),
+            html.Ul([html.Li(c["name"]) for c in aarch]),
+    ]
 
 if __name__ == '__main__':
     # run application
