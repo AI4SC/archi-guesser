@@ -30,6 +30,8 @@ for fn in os.listdir('styles120'):
         img = Image.open(os.path.join('styles120', fn))
         style_img[fn.replace('.png', '').replace('_', ' ')] = img
 
+style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
+
 style_ccc=[None for c in style_img.keys()]
 sel_style=None
 sel_location=None
@@ -132,17 +134,20 @@ app.layout = dbc.Container([
                         ],
                         color=None,
                         name=n,
-                        style={"width": "130px", "height": "150px"},
+                        style={"width": "130px", "height": "160px"},
                         id={"type": "style-selection", "index": n})) for n, img in style_img.items()
                 ], className="no-gutters no-padders"),
-                style={"width": "100%", "height": "300px", "overflow": "scroll"},
+                style={"width": "100%", "height": "320px", "overflow": "scroll"},
                 className="scrollable"),
             dbc.Label("Location"),
             #dcc.Graph(figure=mapfig, id='map', style={'width': '100%', 'height': '30%'}),
-            dl.Map([dl.TileLayer(), dl.GeoJSON(data=counties), dl.LayerGroup(id="layer")], #url=bwtileurl
-                id="map", style={'width': '100%', 'height': '30vh', 'margin': "auto", "display": "block",
-                                 'filter': 'brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7)'},
-                    ),
+            dl.Map([dl.TileLayer(),
+                    #dl.GeoJSON(data=counties),
+                    dl.LayerGroup(id="layer")], #url=bwtileurl
+                 id="map", style={'width': '100%', 'height': '30vh', 'margin': "auto", "display": "block",
+                                 #'filter': 'brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7)'},
+                                'filter': 'invert(1) hue-rotate(180deg) brightness(.95) contrast(.9)'},
+                    maxZoom=4, zoom=1),
             dbc.Label("Epoche"),
             dcc.Slider(0, 2025,
                        step=5,
@@ -166,6 +171,17 @@ app.layout = dbc.Container([
             ]),
             dbc.Label("", id="out1")
         ], width=6)
+    ]),
+    dbc.Modal([
+        dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
+        dbc.ModalBody([
+            html.H1('style',id='style_name'),
+            html.P('Epoche',id='style_epoche'),
+            html.P('style',id='style_decription'),
+        ]),
+        dbc.ModalFooter([
+            dbc.Button("Close",id="close",class_name="ms-auto")
+        ])
     ])
 ], fluid=True)
 
@@ -221,15 +237,15 @@ def select_style(n, names):
 
 
 @app.callback(
-    Output('out1', 'children'),
-    Input('GUESS', 'n_clicks'))
-def guess_button(n):
-    if n is None:
-        return None
-    else:
-        #print(sel_location, sel_style, sel_epoche)
-        return f"Clicked {sel_location}, {sel_style}, {sel_epoche} times."
-
+    Output("modal", "is_open"),
+    [Input("GUESS", "n_clicks"),
+     Input("close", "n_clicks")],
+    [State("modal", "is_open")],
+)
+def toggle_modal(n1, n2, is_open):
+    if n1 or n2:
+        return not is_open
+    return is_open
 
 if __name__ == '__main__':
     # run application
