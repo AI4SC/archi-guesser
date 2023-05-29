@@ -280,26 +280,27 @@ def tostr(obj):
     prevent_initial_call=True
 )
 def select_random_style(new_run):
-    global rnd_style
+    global rnd_style, sel_style, sel_epoche, sel_location
     rnd_style=random.choice(list(architects_by_style.keys()))
     rnd_img=random.choice(list(examples_img.values()))
     print(rnd_style)
     astyle=architects_by_style[rnd_style]["style"]
     aarch=architects_by_style[rnd_style]["architects"]
     print(rnd_style, astyle, aarch)
+    sel_style, sel_epoche, sel_location=None, None, None
     return True, rnd_img, [
             html.H3(rnd_style),
-            html.Label("Epoche"), html.Br(),
+            html.Label("Epoche"),
             html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
-            html.Label("Location"), html.Br(),
-            html.P(f'{tostr(astyle["country"])} ({astyle["continent"]})'),
-            html.Label("Description"), html.Br(),
+            html.Label("Location"),
+            html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
+            html.Label("Description"),
             html.P(astyle["description"]),
-            html.Label("Characteristics"), html.Br(),
+            html.Label("Characteristics"),
             html.Ul([html.Li(c) for c in astyle["characteristics"]]),
-            html.Label("Examples"), html.Br(),
+            html.Label("Examples"),
             html.Ul([html.Li(c) for c in astyle["examples"]]),
-            html.Label("Architects"), html.Br(),
+            html.Label("Architects"),
             html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
 
