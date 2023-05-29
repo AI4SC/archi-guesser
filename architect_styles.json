@@ -1,71 +1,4 @@
 {
-    "Greek classical architecture": {
-        "architects": [
-            {
-                "name": "Iktinos",
-                "birthdate": "5th century BCE",
-                "nationality": "Greek",
-                "description": "One of the architects who designed the Parthenon, he is credited with the idea of the octostyle arrangement of columns for the temple.",
-                "notable_buildings": [
-                    "The Parthenon"
-                ]
-            },
-            {
-                "name": "Phidias",
-                "birthdate": "5th century BCE",
-                "nationality": "Greek",
-                "description": "A sculptor and architect, he was responsible for creating the large decorative statues and reliefs on the Parthenon.",
-                "notable_buildings": [
-                    "The Parthenon"
-                ]
-            },
-            {
-                "name": "Mnesikles",
-                "birthdate": "5th century BCE",
-                "nationality": "Greek",
-                "description": "An architect who designed famous buildings on the Acropolis, including the Erechtheion temple and the Propylaea gateway.",
-                "notable_buildings": [
-                    "The Erechtheion",
-                    "The Propylaea"
-                ]
-            }
-        ]
-    },
-    "Roman classical architecture": {
-        "architects": [
-            {
-                "name": "Vitruvius",
-                "birth_date": "80-70 BC",
-                "nationality": "Roman",
-                "description": "Vitruvius was a Roman author, architect, and engineer who is known for his multi-volume work, 'De Architectura' (On Architecture).",
-                "notable_buildings": [
-                    "No notable buildings are directly attributed to Vitruvius."
-                ]
-            },
-            {
-                "name": "Marcus Vipsanius Agrippa",
-                "birth_date": "63 BC - 12 BC",
-                "nationality": "Roman",
-                "description": "Agrippa was a Roman statesman and general who served as a close associate and friend of Emperor Augustus. He was also an accomplished architect who designed several public buildings in Rome.",
-                "notable_buildings": [
-                    "Pantheon",
-                    "Therm\u00e6 Agripp\u00e6",
-                    "Aqueducts of Rome"
-                ]
-            },
-            {
-                "name": "Lucius Cornelius Balbus",
-                "birth_date": "1st century BC",
-                "nationality": "Roman",
-                "description": "Balbus was a Roman general and statesman who was also known for his architecture. He was a patron of the arts and commissioned several buildings in Rome.",
-                "notable_buildings": [
-                    "Theater of Balbus",
-                    "Porticus of Balbus",
-                    "Basilica of Balbus"
-                ]
-            }
-        ]
-    },
     "Persian Islamic architecture": {
         "architects": [
             {
@@ -180,8 +113,7 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": "Nouns: buildings, structures, domes, arches, columns, symmetry, proportion, harmony\nAdjectives: elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
-        "reply2": "format?\n\n{\n   \"time_range\": \"15th-17th century\",\n   \"period\": \"Renaissance\",\n   \"description\": \"Renaissance architecture was a style that emerged in Europe during the 15th century and lasted until the 17th century. It was marked by a revival of classical forms and a focus on proportion, symmetry, and geometry in design.\",\n   \"characteristics\": [\n      \"Use of classical orders and motifs\",\n      \"Symmetry and proportion in design\",\n      \"Use of domes and arches\",\n      \"Incorporation of sculpture and painting\",\n      \"Use of perspective in design\"\n   ],\n   \"examples\": [\n      \"St. Peter's Basilica in Rome, Italy\",\n      \"Palazzo Vecchio in Florence, Italy\",\n      \"Ch\u00e2teau de Chambord in Loir-et-Cher, France\",\n      \"The Royal Palace of Caserta in Caserta, Italy\"\n   ],\n   \"continent\": \"Europe\",\n   \"country\": [\"Italy\", \"France\", \"Spain\", \"England\"]\n}"
+        "terms": "Nouns: buildings, structures, domes, arches, columns, symmetry, proportion, harmony\nAdjectives: elegant, extravagant, ornate, classical, monumental, grand, sophisticated"
     },
     "Secession architecture": {
         "architects": [
@@ -284,7 +216,7 @@
             }
         ],
         "style": {
-            "timeRange": "1919-1933",
+            "time_range": "1919-1933",
             "period": "Interwar period",
             "description": "Bauhaus architecture was a design movement in Germany that aimed to combine fine arts with craftsmanship to create functional and affordable buildings. It emphasized the use of new materials and industrial techniques, resulting in minimalist and functional designs.",
             "characteristics": [
@@ -339,6 +271,7 @@
         ],
         "style": {
             "time_range": "late 19th to early 20th century",
+            "period": "19th century",
             "description": "Architectural style that draws inspiration from various historical styles and combines them to create a unique building design.",
             "characteristics": [
                 "Eclectic mix of historical styles",
@@ -357,106 +290,6 @@
             "country": "England"
         },
         "terms": "Nouns: architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation\nAdjectives: contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
-    },
-    "Greco-Roman Classical architecture": {
-        "architects": [
-            {
-                "name": "Andrea Palladio",
-                "birth_date": "November 30, 1508",
-                "nationality": "Italian",
-                "description": "Palladio was one of the most influential architects of the Renaissance, known for his mastery of Greco-Roman architectural principles.",
-                "notable_buildings": [
-                    "Palazzo Chiericati",
-                    "The Basilica Palladiana",
-                    "Villa Capra (Villa La Rotonda)"
-                ]
-            },
-            {
-                "name": "Christopher Wren",
-                "birth_date": "October 20, 1632",
-                "nationality": "British",
-                "description": "Wren was one of the most famous British architects of all time, who worked within the Greco-Roman classical tradition.",
-                "notable_buildings": [
-                    "St. Paul's Cathedral",
-                    "Greenwich Hospital",
-                    "Hampton Court Palace"
-                ]
-            },
-            {
-                "name": "Silvio Berlusconi",
-                "birth_date": "September 29, 1936",
-                "nationality": "Italian",
-                "description": "Berlusconi was a controversial Italian politician who was also a notable architect in the Greco-Roman classical style.",
-                "notable_buildings": [
-                    "The Piazza di Spagna Building",
-                    "The Piazza di Pietra Building",
-                    "The Piazza della Cancelleria Building"
-                ]
-            }
-        ],
-        "style": {
-            "time range": "5th century BCE - 5th century CE",
-            "description": "A style of architecture developed in ancient Greece and Rome, characterized by symmetry, proportion, and the use of columns, arches, and domes.",
-            "characteristics": [
-                "Symmetry",
-                "Proportion",
-                "Columnar fa\u00e7ades",
-                "Pediments",
-                "Friezes",
-                "Arches",
-                "Domes",
-                "Classical orders (Doric, Ionic, Corinthian)",
-                "Emphasis on horizontal and vertical lines",
-                "Use of marble and stone",
-                "Decorative motifs (acanthus leaves, metopes, triglyphs)"
-            ],
-            "examples": [
-                "Parthenon in Athens, Greece",
-                "Colosseum in Rome, Italy",
-                "Pantheon in Rome, Italy",
-                "Agora in Athens, Greece",
-                "Temple of Olympian Zeus in Athens, Greece",
-                "Forum of Trajan in Rome, Italy"
-            ],
-            "continent": "Europe",
-            "country": [
-                "Greece",
-                "Italy"
-            ]
-        },
-        "terms": "columns, pediments, symmetry, proportion, elegance, marble, majestic, ornate, refined, iconic."
-    },
-    "Ancient Roman architecture": {
-        "architects": [
-            {
-                "name": "Vitruvius",
-                "birth_date": "80-70 BC",
-                "nationality": "Roman",
-                "description": "Roman author, architect, and engineer",
-                "notable_buildings": "No known buildings"
-            },
-            {
-                "name": "Apollodorus of Damascus",
-                "birth_date": "1st century AD",
-                "nationality": "Syrian",
-                "description": "Engineer and architect of the Roman Empire",
-                "notable_buildings": [
-                    "Trajan's Column",
-                    "Forum of Trajan",
-                    "Markets of Trajan"
-                ]
-            },
-            {
-                "name": "Marcus Vipsanius Agrippa",
-                "birth_date": "63 BC",
-                "nationality": "Roman",
-                "description": "Statesman, general, and architect of the Roman Republic",
-                "notable_buildings": [
-                    "Pantheon",
-                    "Therm\u00e6 Nov\u00e6 (Baths of Agrippa)"
-                ]
-            }
-        ]
     },
     "Modern architecture": {
         "architects": [
@@ -496,6 +329,7 @@
         ],
         "style": {
             "time_range": "Early 20th century to present day",
+            "period": "20th century",
             "description": "Modern architecture is known for its functional and minimalist style, emphasizing clean lines, simple shapes, and the use of industrial materials. Its philosophy is focused on solving practical problems through design rather than ornamental expression. Buildings are often characterized by their lack of ornamentation, use of new materials such as steel and concrete, exposed structural elements, and large open spaces.",
             "characteristics": [
                 "Functionalism",
@@ -521,13 +355,12 @@
                 }
             ],
             "continent": "Global",
-            "country": "Multiple countries"
+            "country": "Varous"
         },
         "terms": "Nouns: buildings, structures, design, materials, functionality\nAdjectives: innovative, futuristic, sleek, minimalistic, functional."
     },
     "Neoclassical architecture": {
-        "architects": {
-            "famousArchitects": [
+        "architects": [
                 {
                     "name": "Andrea Palladio",
                     "birthDate": "November 30, 1508",
@@ -558,10 +391,9 @@
                         "Monticello"
                     ]
                 }
-            ]
-        },
+            ],
         "style": {
-            "time range": "mid-18th to early-19th centuries",
+            "time_range": "mid-18th to early-19th centuries",
             "period": "Late Enlightenment, Age of Reason, Romanticism",
             "description": "A revival of classical architecture that emerged in the 18th century characterized by symmetry, order, and simplicity. It was a reaction against the elaborate, ornate, and irregular Baroque and Rococo styles.",
             "characteristics": [
@@ -619,7 +451,7 @@
             }
         ],
         "style": {
-            "time range": "12th to 16th centuries",
+            "time_range": "12th to 16th centuries",
             "period": "Medieval period",
             "description": "Gothic architecture is a style of architecture that originated in France in the 12th century and continued in Europe until the 16th century. It is characterized by its pointed arches, ribbed vaults, and flying buttresses, which allowed for taller and more intricate structures than earlier Romanesque architecture. Gothic architecture was used predominantly for churches, cathedrals, and civic buildings.",
             "characteristics": [
@@ -708,7 +540,7 @@
                 "The Empire State Building in New York City"
             ],
             "continent": "North America, Europe, Asia",
-            "country": "United States, United Kingdom, France, India, China"
+            "country": ["United States of America", "United Kingdom", "France", "India", "China"]
         },
         "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design."
     },
@@ -749,7 +581,7 @@
             }
         ],
         "style": {
-            "timeRange": "1945-1975",
+            "time_range": "1945-1975",
             "period": "Post-World War II",
             "description": "Mid-century modern architecture is characterized by its clean lines, simplicity, and integration with nature. This design movement focused on functionality and minimalism, emphasizing the use of new materials and technologies. ",
             "characteristics": [
@@ -767,7 +599,7 @@
                 "Seagram Building"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "Nouns: architecture, design, furniture, interior, style, buildings\nAdjectives: sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
     },
@@ -863,7 +695,7 @@
             }
         ],
         "style": {
-            "time range": "1830s-1870s",
+            "time_range": "1830s-1870s",
             "period": "Victorian era",
             "description": "Italianate architecture is a style characterized by an emphasis on Italian Renaissance elements, such as tall towers, elaborate decorative brackets, and pedimented windows and doors. The style is often used in buildings such as public institutions, homes, and commercial buildings.",
             "characteristics": [
@@ -884,7 +716,7 @@
                 "Palace of Fine Arts (San Francisco, California)"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces."
     },
@@ -922,7 +754,7 @@
             }
         ],
         "style": {
-            "time range": "1950s-1970s",
+            "time_range": "1950s-1970s",
             "period": "Modernist architecture",
             "description": "Brutalist architecture is characterized by the use of raw concrete, simple geometric shapes, and a focus on function over form. It emerged in the 1950s as a response to the ornamentation and excesses of the preceding Art Deco and Beaux-Arts movements, and was often associated with social housing and government buildings.",
             "characteristics": [
@@ -945,8 +777,7 @@
         "terms": "concrete, stark, minimalist, monolithic, functional, authoritarian, imposing, uncompromising, brutal, utilitarian, massive."
     },
     "Deconstructivism architecture": {
-        "architects": {
-            "1": {
+        "architects": [{
                 "name": "Frank Gehry",
                 "birth_date": "February 28, 1929",
                 "nationality": "Canadian-American",
@@ -955,8 +786,7 @@
                     "Walt Disney Concert Hall, Los Angeles",
                     "Guggenheim Museum Bilbao, Spain"
                 ]
-            },
-            "2": {
+            }, {
                 "name": "Zaha Hadid",
                 "birth_date": "October 31, 1950",
                 "nationality": "British-Iraqi",
@@ -965,8 +795,7 @@
                     "Heydar Aliyev Center, Baku, Azerbaijan",
                     "Guangzhou Opera House, China"
                 ]
-            },
-            "3": {
+            }, {
                 "name": "Rem Koolhaas",
                 "birth_date": "November 17, 1944",
                 "nationality": "Dutch",
@@ -975,8 +804,7 @@
                     "Casa da M\u00fasica, Porto, Portugal",
                     "Seattle Central Library, Seattle, Washington"
                 ]
-            }
-        },
+            }],
         "style": {
             "time_range": "1980s-1990s",
             "period": "Postmodernism",
@@ -1040,7 +868,7 @@
             }
         ],
         "style": {
-            "time range": "Late 19th century to early 20th century",
+            "time_range": "Late 19th century to early 20th century",
             "period": "Neoclassical",
             "description": "Beaux Arts architecture originated in France and became popular in the United States, Canada, and other countries. It is characterized by a grandiose, monumental style, often incorporating classical Greek and Roman elements.",
             "characteristics": [
@@ -1061,7 +889,7 @@
             "continent": "North America",
             "country": [
                 "France",
-                "United States",
+                "United States of America",
                 "Canada"
             ]
         },
@@ -1104,7 +932,7 @@
             }
         ],
         "style": {
-            "time range": "1880s-1900s",
+            "time_range": "1880s-1900s",
             "period": "Late 19th century",
             "description": "Shingle Style is a style of architecture that originated in the late 19th century in America. It is characterized by the use of shingles, which cover the roof and walls, creating a uniform and continuous surface. The style is often associated with seaside resorts and vacation homes, as its relaxed and informal aesthetic fits well with the coastal landscape.",
             "characteristics": [
@@ -1123,7 +951,7 @@
                 "Peabody and Stearns House"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "Nouns: architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal.\n\nAdjectives: unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions."
     },
@@ -1240,7 +1068,7 @@
                 "Palos Verdes homes"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "nouns: house, architecture\nadjectives: ranch-style"
     },
@@ -1281,7 +1109,7 @@
             }
         ],
         "style": {
-            "time range": "Late 19th century to mid-20th century",
+            "time_range": "Late 19th century to mid-20th century",
             "period": "Revivalism",
             "description": "Architectural style that emulated the aesthetics of colonial-era buildings in America, particularly those built during the 18th and early 19th centuries",
             "characteristics": "Symmetrical designs, simple ornamentation, steep roofs, dormer windows, and often featured columns and pediments",
@@ -1291,7 +1119,7 @@
                 "The Biltmore Estate in Asheville, North Carolina"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist."
     },
@@ -1385,7 +1213,7 @@
             }
         ],
         "style": {
-            "time range": "509 BC \u2013 4th century AD",
+            "time_range": "509 BC \u2013 4th century AD",
             "period": "Classical antiquity",
             "description": "Roman Classical architecture is a style that emerged in ancient Rome and was heavily influenced by Ancient Greek architecture. It is characterized by its use of classical orders, such as the Doric, Ionic, and Corinthian, as well as its use of arches, vaults, and domes. The architecture was grand and impressive, with many buildings featuring large colonnades and intricate details.",
             "characteristics": {
@@ -1528,6 +1356,7 @@
         ],
         "style": {
             "time_range": "1950s - present",
+            "period": "20th century",
             "description": "Postmodern architecture emerged in the late 20th century as a reaction against the modernist movement. It seeks to incorporate historical elements and playful ornamentation, often creating eclectic and whimsical designs.",
             "characteristics": [
                 "Incorporation of historical and traditional styles",
@@ -1580,7 +1409,7 @@
             }
         ],
         "style": {
-            "timeRange": "Approximately 800 to 1200 CE",
+            "time_range": "Approximately 800 to 1200 CE",
             "period": "Medieval period",
             "description": "Romanesque architecture is a style of architecture that emerged in Europe in the Middle Ages. It is characterized by rounded arches, barrel and groin vaults, and thick walls. Romanesque architecture was initially used for churches, monasteries, and castles.",
             "characteristics": [
@@ -1593,22 +1422,7 @@
                 "Rustic"
             ],
             "examples": [
-                {
-                    "buildingName": "St. Sernin, Toulouse",
-                    "location": "France"
-                },
-                {
-                    "buildingName": "Speyer Cathedral",
-                    "location": "Germany"
-                },
-                {
-                    "buildingName": "Durham Cathedral",
-                    "location": "England"
-                },
-                {
-                    "buildingName": "Pisa Cathedral",
-                    "location": "Italy"
-                }
+                "St. Sernin, Toulouse", "Speyer Cathedral","Durham Cathedral","Pisa Cathedral"
             ],
             "continent": "Europe",
             "country": [
@@ -1657,7 +1471,7 @@
             }
         ],
         "style": {
-            "time range": "mid-18th century to early 19th century",
+            "time_range": "mid-18th century to early 19th century",
             "period": "Late Baroque/Enlightenment",
             "description": "Rococo architecture is characterized by its elaborate decoration, asymmetrical designs, and emphasis on ornamentation. It is often associated with the aristocracy and was popular in Europe during the mid-18th century to early 19th century. ",
             "characteristics": [
@@ -1725,7 +1539,7 @@
             }
         ],
         "style": {
-            "time range": "1890s - 1910s",
+            "time_range": "1890s - 1910s",
             "period": "Late 19th century - Early 20th century",
             "description": "Art Nouveau is an artistic style that emerged in the late 19th century characterized by organic and curved lines, asymmetry, and the use of natural elements such as flowers, plants, and insects. It was a reaction against the academic art of the 19th century and aimed to create a new style that was modern and original.",
             "characteristics": [
@@ -1802,7 +1616,7 @@
             "continent": "Europe",
             "country": [
                 "Greece",
-                "United States",
+                "United States of America",
                 "United Kingdom"
             ]
         },
@@ -1924,7 +1738,7 @@
             "country": [
                 "Germany",
                 "France",
-                "United States",
+                "United States of America",
                 "Switzerland",
                 "Netherlands"
             ]
@@ -2029,7 +1843,7 @@
             }
         ],
         "style": {
-            "time range": "1950s to present",
+            "time_range": "1950s to present",
             "period": "Contemporary architecture",
             "description": "Postmodern architecture is an eclectic style that emerged in the late 20th century. It is characterized by the use of playful forms, bright colors, and references to historical architectural styles and pop culture. Postmodernism rejects the strict rules of modernism and celebrates individualism and creativity.",
             "characteristics": [
@@ -2048,7 +1862,7 @@
                 "Vitra Design Museum in Germany"
             ],
             "continent": "North America, Europe",
-            "country": "United States, Germany, Italy"
+            "country": ["United States of America", "Germany", "Italy"]
         },
         "terms": "Nouns: movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology \n\nAdjectives: eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital"
     },
@@ -2141,7 +1955,7 @@
             }
         ],
         "style": {
-            "time range": "1485-1603",
+            "time_range": "1485-1603",
             "period": "Late Gothic/Early Renaissance",
             "description": "Tudor architecture is an architectural style which developed during the Tudor period in England between the late Medieval period and the early Renaissance. It is characterized by half-timbered buildings with exposed wood beams, ornate chimneys, and steeply pitched roofs. Tudor architecture is known for its symmetry, often featuring large, decorative chimneys on each end of the building, and large mullioned windows. ",
             "characteristics": [
@@ -2200,7 +2014,7 @@
             }
         ],
         "style": {
-            "time range": "15th century - mid 19th century",
+            "time_range": "15th century - mid 19th century",
             "period": "Colonial period",
             "description": "Architecture style characterized by the buildings constructed during the colonial era by European settlers in the Americas, Africa, and Asia. The style is influenced by the architectural styles prevalent in the mother country combined with the local cultures and materials available.",
             "characteristics": [
@@ -2230,7 +2044,7 @@
                 "Asia"
             ],
             "country": [
-                "United States",
+                "United States of America",
                 "Brazil",
                 "India",
                 "Indonesia",
@@ -2270,7 +2084,7 @@
             }
         ],
         "style": {
-            "timeRange": "5th century BCE to 4th century BCE",
+            "time_range": "5th century BCE to 4th century BCE",
             "period": "Classical period",
             "description": "Greek Classical architecture is characterized by its simplicity, harmony, and order. Buildings were designed to be functional and aesthetically pleasing, with a focus on proportion and balance. The style is known for its use of columns, capitals, and friezes, as well as pediments, cornices, and entablatures. The Greek Classical style influenced architecture throughout Europe and continues to be a major influence in modern architecture.",
             "characteristics": [
@@ -2429,7 +2243,7 @@
                 "Church of the Nativity, Bethlehem"
             ],
             "continent": "Europe",
-            "country": "Turkey, Greece, Italy, Palestine"
+            "country": ["Turkey", "Greece", "Italy", "Palestine"]
         },
         "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless."
     },
@@ -2592,7 +2406,7 @@
             "continent": "Europe and North America",
             "country": [
                 "United Kingdom",
-                "United States"
+                "United States of America"
             ]
         },
         "terms": "Nouns: architecture, movement, style, houses, buildings\nAdjectives: traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible."
@@ -2707,7 +2521,7 @@
                 "Bjarke Ingels Group\u2019s Amager Bakke Waste-to-Energy Plant in Copenhagen"
             ],
             "continent": "Global",
-            "country": "N/A (as it is a global design style)"
+            "country": "Various"
         },
         "terms": "Parametric architecture: architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative."
     },
@@ -2764,7 +2578,7 @@
                 "Lovell Health House by Richard Neutra"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States of America"
         },
         "terms": "Nouns: Architecture, Nature, Building, Design, Materials, Space \nAdjectives: Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
     },
@@ -2862,7 +2676,7 @@
             }
         ],
         "style": {
-            "time range": "1960s-present",
+            "time_range": "1960s-present",
             "period": "Contemporary architecture",
             "description": "Neo-futurism is a late 20th and early 21st century architectural style characterized by a futuristic aesthetic and a rejection of modernist design principles. It takes inspiration from science fiction, technology, and the concept of a utopian future.",
             "characteristics": [
