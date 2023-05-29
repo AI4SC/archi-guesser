@@ -3,13 +3,13 @@ import os
 import pandas as pd
 import dash_bootstrap_components as dbc
 import json
-from dash import dcc, html, Dash, ALL, MATCH, callback_context
+from dash import dcc, html, Dash, ALL, callback_context
 import plotly.express as px
 from dash.dependencies import Input, Output, State
-from urllib.request import urlopen
 from PIL import Image
 import dash_leaflet as dl
 import random
+from flask import Flask
 
 try:
     with open("architect_styles.json", 'tr') as fi:
@@ -134,7 +134,9 @@ mapfig = px.choropleth_mapbox(dfc, geojson=counties, locations='id', color='regi
 mapfig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0}, showlegend=False)
 
 # Build App
-app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = Flask(__name__)
+app = Dash(server=server, external_stylesheets=[dbc.themes.DARKLY])
+app.title = "ArchiGuessr"
 
 app.layout = dbc.Container([
     dbc.Row([
@@ -307,7 +309,7 @@ def select_random_style(new_run):
 
 if __name__ == '__main__':
     # run application
-    # if 'DEBUG' in os.environ:
-    app.run_server(host='0.0.0.0', dev_tools_ui=True, debug=True, dev_tools_hot_reload=True, threaded=True)
-# else:
-#    app.app.run_server(host='0.0.0.0', debug=False)
+    if 'DASH_DEBUG_MODE' in os.environ:
+        app.run_server(host='0.0.0.0', dev_tools_ui=True, debug=True, dev_tools_hot_reload=True, threaded=True)
+    else:
+        app.run_server(host='0.0.0.0', debug=False)

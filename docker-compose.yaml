@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  archiguessr_dashboard:
+    build:
+      context: ./
+    container_name: archiguessr_dashboard
+    hostname: archiguessr_dashboard
+    restart: always
+    ports:
+      - 8050:8050
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
