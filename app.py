@@ -34,7 +34,6 @@ for k,v in architects_by_style.items():
 bwtileurl = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key='
 bwtileurl2 = "http://{{s}}.tile.stamen.com/{}/{{z}}/{{x}}/{{y}}.png"
 
-pil_image = Image.open("convert_hangars_building_in_Secession_architecture_by_Joseph_Ma_4c8b6db9-9cfa-4e78-8991-3abb3593584d.png")
 style_image = Image.open("styles_crop.png")
 ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
@@ -46,6 +45,14 @@ for fn in os.listdir('styles120'):
         style_img[fn.replace('.png', '').replace('_', ' ')] = img
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
+
+examples_img = {}
+for fn in os.listdir('examples'):
+    if fn.endswith(".png"):
+        img = Image.open(os.path.join('examples', fn))
+        examples_img[fn.replace('.png', '').replace('_', ' ')] = img
+        pil_image = img
+
 
 style_ccc=[None for c in style_img.keys()]
 sel_style=None
@@ -133,11 +140,13 @@ app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             html.H1("Architecture Guesser")
-        ], width=12),
+        ], width=8),
+        dbc.Col(html.Img(src=ai4sc_image, style={'height': '60px'}), width=2),
+        dbc.Col(html.Img(src=urost_image, style={'height': '60px'}), width=2),
     ]),
     dbc.Row([
         dbc.Col([
-            html.Img(src=pil_image, style={'width': '100%'})
+            html.Img(src=pil_image, style={'width': '100%'}, id='example_img')
         ], width=6),
         dbc.Col([
             dbc.Label("Style"),
@@ -182,8 +191,6 @@ app.layout = dbc.Container([
                        ),
             dbc.Row([
                 dbc.Col(dbc.Button("GUESS", style={'height': '40px'}, id="GUESS", disabled=True)),
-                dbc.Col(html.Img(src=ai4sc_image, style={'height': '40px'})),
-                dbc.Col(html.Img(src=urost_image, style={'height': '40px'})),
             ]),
             dbc.Label("", id="out1")
         ], width=6)
@@ -264,8 +271,10 @@ def tostr(obj):
     if isinstance(obj, str): return obj
     if isinstance(obj, list): return ", ".join(obj)
     else: return str(obj)
+
 @app.callback(
-    Output('GUESS', 'active', allow_duplicate=True),
+    Output('GUESS', 'disabled', allow_duplicate=True),
+    Output("example_img", "src"),
     Output("style_body", "children"),
     Input("new_run", "disabled"), # used as event notifier
     prevent_initial_call=True
@@ -273,11 +282,12 @@ def tostr(obj):
 def select_random_style(new_run):
     global rnd_style
     rnd_style=random.choice(list(architects_by_style.keys()))
+    rnd_img=random.choice(list(examples_img.values()))
     print(rnd_style)
     astyle=architects_by_style[rnd_style]["style"]
     aarch=architects_by_style[rnd_style]["architects"]
     print(rnd_style, astyle, aarch)
-    return False, [
+    return True, rnd_img, [
             html.H3(rnd_style),
             html.Label("Epoche"), html.Br(),
             html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
@@ -292,6 +302,7 @@ def select_random_style(new_run):
             html.Label("Architects"), html.Br(),
             html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
+
 
 if __name__ == '__main__':
     # run application
