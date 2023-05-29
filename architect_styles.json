@@ -1,0 +1,2888 @@
+{
+    "Greek classical architecture": {
+        "architects": [
+            {
+                "name": "Iktinos",
+                "birthdate": "5th century BCE",
+                "nationality": "Greek",
+                "description": "One of the architects who designed the Parthenon, he is credited with the idea of the octostyle arrangement of columns for the temple.",
+                "notable_buildings": [
+                    "The Parthenon"
+                ]
+            },
+            {
+                "name": "Phidias",
+                "birthdate": "5th century BCE",
+                "nationality": "Greek",
+                "description": "A sculptor and architect, he was responsible for creating the large decorative statues and reliefs on the Parthenon.",
+                "notable_buildings": [
+                    "The Parthenon"
+                ]
+            },
+            {
+                "name": "Mnesikles",
+                "birthdate": "5th century BCE",
+                "nationality": "Greek",
+                "description": "An architect who designed famous buildings on the Acropolis, including the Erechtheion temple and the Propylaea gateway.",
+                "notable_buildings": [
+                    "The Erechtheion",
+                    "The Propylaea"
+                ]
+            }
+        ]
+    },
+    "Roman classical architecture": {
+        "architects": [
+            {
+                "name": "Vitruvius",
+                "birth_date": "80-70 BC",
+                "nationality": "Roman",
+                "description": "Vitruvius was a Roman author, architect, and engineer who is known for his multi-volume work, 'De Architectura' (On Architecture).",
+                "notable_buildings": [
+                    "No notable buildings are directly attributed to Vitruvius."
+                ]
+            },
+            {
+                "name": "Marcus Vipsanius Agrippa",
+                "birth_date": "63 BC - 12 BC",
+                "nationality": "Roman",
+                "description": "Agrippa was a Roman statesman and general who served as a close associate and friend of Emperor Augustus. He was also an accomplished architect who designed several public buildings in Rome.",
+                "notable_buildings": [
+                    "Pantheon",
+                    "Therm\u00e6 Agripp\u00e6",
+                    "Aqueducts of Rome"
+                ]
+            },
+            {
+                "name": "Lucius Cornelius Balbus",
+                "birth_date": "1st century BC",
+                "nationality": "Roman",
+                "description": "Balbus was a Roman general and statesman who was also known for his architecture. He was a patron of the arts and commissioned several buildings in Rome.",
+                "notable_buildings": [
+                    "Theater of Balbus",
+                    "Porticus of Balbus",
+                    "Basilica of Balbus"
+                ]
+            }
+        ]
+    },
+    "Persian Islamic architecture": {
+        "architects": [
+            {
+                "name": "Ustad Ali Akbar Isfahani",
+                "birth_date": "1590",
+                "nationality": "Persian",
+                "description": "Prominent architect of the Safavid era known for his work on Masjid-i Shah in Isfahan",
+                "notable_buildings": [
+                    "Masjid-i Shah",
+                    "Chehel Sotoun"
+                ]
+            },
+            {
+                "name": "Muhammad-Reza Isfahani",
+                "birth_date": "1875",
+                "nationality": "Persian",
+                "description": "Influential architect of the late Qajar period known for his work on Tehran's Golestan Palace",
+                "notable_buildings": [
+                    "Golestan Palace"
+                ]
+            },
+            {
+                "name": "Hajj Ahmad Tabrizi",
+                "birth_date": "1828",
+                "nationality": "Persian",
+                "description": "Famous architect of the Qajar era known for his work on the Nasir al-Mulk Mosque in Shiraz",
+                "notable_buildings": [
+                    "Nasir al-Mulk Mosque"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "9th-19th century CE",
+            "period": "Islamic era",
+            "description": "Persian Islamic architecture, also known as Iranian Islamic architecture, is a style of architecture that combines elements of Islamic and Persian art and architecture. It emerged in the 9th century CE and continued to develop until the 19th century CE. It is characterized by its use of intricate geometric and floral patterns, as well as extensive use of calligraphy and tile work.",
+            "characteristics": [
+                "Extensive use of calligraphy and tile work",
+                "Intricate geometric and floral patterns",
+                "Use of domes, minarets, and arches",
+                "Influence of pre-Islamic Persian architecture",
+                "Use of muqarnas",
+                "Use of bright colors"
+            ],
+            "examples": [
+                "The Great Mosque of Isfahan",
+                "The Shah Mosque",
+                "The Sheikh Lotfollah Mosque",
+                "The Chehel Sotoun",
+                "The Ali Qapu",
+                "The Golestan Palace"
+            ],
+            "continent": "Asia",
+            "country": "Iran"
+        },
+        "terms": "mosques, minarets, domes, tilework, motifs, intricate, ornate, geometric, calligraphic, colorful, historical, impressive, influential"
+    },
+    "Renaissance architecture": {
+        "architects": [
+            {
+                "name": "Filippo Brunelleschi",
+                "birth_date": "1377",
+                "nationality": "Italian",
+                "description": "Considered the founding father of Renaissance architecture, Brunelleschi was an architect, engineer, and designer. He played a key role in the development of perspective and was known for his use of classical elements in his designs.",
+                "notable_buildings": [
+                    "Basilica di San Lorenzo, Florence",
+                    "Pazzi Chapel, Florence",
+                    "Dome of Florence Cathedral"
+                ]
+            },
+            {
+                "name": "Leon Battista Alberti",
+                "birth_date": "1404",
+                "nationality": "Italian",
+                "description": "Alberti was an Italian humanist, architect, and poet. He is considered a pioneer in the field of architecture and played a key role in the revival of classical architecture in the Renaissance period.",
+                "notable_buildings": [
+                    "Sant'Andrea, Mantua",
+                    "Tempietto, Rome",
+                    "Palazzo Rucellai, Florence"
+                ]
+            },
+            {
+                "name": "Andrea Palladio",
+                "birth_date": "1508",
+                "nationality": "Italian",
+                "description": "A distinguished architect who dominated Venetian architecture for many years, Palladio was known for his use of classical elements such as columns, pediments, and domes. His designs were characterized by symmetry, simplicity, and proportion.",
+                "notable_buildings": [
+                    "Villa Rotonda, Vicenza",
+                    "Basilica Palladiana, Vicenza",
+                    "Teatro Olimpico, Vicenza"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "14th-17th century",
+            "period": "Renaissance",
+            "description": "An architectural style that emerged in Italy in the 14th century and spread throughout Europe, characterized by a revival of classical forms and a focus on symmetry, proportion, and harmony.",
+            "characteristics": [
+                "Use of classical orders (Doric, Ionic, Corinthian)",
+                "Symmetrical and balanced compositions",
+                "Emphasis on mathematical proportion and harmony",
+                "Decorative elements such as pilasters, pediments, and cornices",
+                "Use of domes, columns, and arcades",
+                "Integration of sculpture and painting into architectural compositions"
+            ],
+            "examples": [
+                "St. Peter's Basilica in Vatican City",
+                "Palazzo Rucellai in Florence, Italy",
+                "Ch\u00e2teau de Chambord in France",
+                "El Escorial monastery in Spain",
+                "Ponte Vecchio in Florence, Italy"
+            ],
+            "continent": "Europe",
+            "country": "Italy"
+        },
+        "terms": "Nouns: buildings, structures, domes, arches, columns, symmetry, proportion, harmony\nAdjectives: elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
+        "reply2": "format?\n\n{\n   \"time_range\": \"15th-17th century\",\n   \"period\": \"Renaissance\",\n   \"description\": \"Renaissance architecture was a style that emerged in Europe during the 15th century and lasted until the 17th century. It was marked by a revival of classical forms and a focus on proportion, symmetry, and geometry in design.\",\n   \"characteristics\": [\n      \"Use of classical orders and motifs\",\n      \"Symmetry and proportion in design\",\n      \"Use of domes and arches\",\n      \"Incorporation of sculpture and painting\",\n      \"Use of perspective in design\"\n   ],\n   \"examples\": [\n      \"St. Peter's Basilica in Rome, Italy\",\n      \"Palazzo Vecchio in Florence, Italy\",\n      \"Ch\u00e2teau de Chambord in Loir-et-Cher, France\",\n      \"The Royal Palace of Caserta in Caserta, Italy\"\n   ],\n   \"continent\": \"Europe\",\n   \"country\": [\"Italy\", \"France\", \"Spain\", \"England\"]\n}"
+    },
+    "Secession architecture": {
+        "architects": [
+            {
+                "name": "Otto Wagner",
+                "birth_date": "July 13, 1841",
+                "nationality": "Austrian",
+                "description": "One of the key figures of modern architecture and a pioneer of the Secession movement.",
+                "notable_buildings": [
+                    "Vienna Postal Savings Bank",
+                    "Kirche am Steinhof",
+                    "Majolika House"
+                ]
+            },
+            {
+                "name": "Joseph Maria Olbrich",
+                "birth_date": "December 22, 1867",
+                "nationality": "Austrian",
+                "description": "A leading member of the Vienna Secession movement and a prot\u00e9g\u00e9 of Otto Wagner.",
+                "notable_buildings": [
+                    "Selected works in the Viennese Karlsplatz Stadtbahn Station",
+                    "Vienna Secession Building",
+                    "Adele Bloch-Bauer's home"
+                ]
+            },
+            {
+                "name": "Adolf Loos",
+                "birth_date": "December 10, 1870",
+                "nationality": "Austrian",
+                "description": "Regarded as one of the pioneers of modern architecture in Europe and a key figure of the Viennese Secession.",
+                "notable_buildings": [
+                    "Caf\u00e9 Museum",
+                    "Goldman & Salatsch Building",
+                    "Villa M\u00fcller"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1860s-1910s",
+            "period": "Late 19th century/ Early 20th century",
+            "description": "Secession architecture, also known as Jugendstil or Art Nouveau, was a highly decorative and ornamental architectural style that emerged in Europe in the late 19th century. It was characterized by its use of organic forms, flowing lines, floral motifs, and bold colors.",
+            "characteristics": [
+                "Organic forms",
+                "Flowing lines",
+                "Floral motifs",
+                "Bold colors",
+                "Highly decorative",
+                "Ornamental"
+            ],
+            "examples": [
+                "Secession Building in Vienna, Austria",
+                "Palais Stoclet in Brussels, Belgium",
+                "Horta Museum in Brussels, Belgium",
+                "St. Peter's Church in Leipzig, Germany",
+                "Hotel Tassel in Brussels, Belgium"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Austria",
+                "Belgium",
+                "Germany"
+            ]
+        },
+        "terms": "Nouns: architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation.\n\nAdjectives: ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
+    },
+    "Bauhaus architecture": {
+        "architects": [
+            {
+                "name": "Walter Gropius",
+                "birthdate": "May 18, 1883",
+                "nationality": "German",
+                "description": "Founder of the Bauhaus school, Gropius was a visionary who sought to reconcile art and technology to create an architecture that was both functional and beautiful, with an emphasis on simplicity and rationality.",
+                "notable_buildings": [
+                    "The Fagus Factory",
+                    "Bauhaus Dessau",
+                    "Harvard Graduate Center"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthdate": "March 27, 1886",
+                "nationality": "German",
+                "description": "Mies van der Rohe was a master of modern architecture, with a focus on steel and glass construction that emphasized the Minimalist aesthetic. He was a director of the Bauhaus school before it was closed by the Nazis in 1933.",
+                "notable_buildings": [
+                    "Tugendhat House",
+                    "Barcelona Pavilion",
+                    "Seagram Building"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthdate": "October 6, 1887",
+                "nationality": "Swiss",
+                "description": "A pioneer of modern architecture and urban planning, Le Corbusier believed in the importance of creating functional, efficient, and beautiful buildings that served the needs of society. His work had a profound influence on the Bauhaus and vice versa.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Notre-Dame-du-Haut"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "1919-1933",
+            "period": "Interwar period",
+            "description": "Bauhaus architecture was a design movement in Germany that aimed to combine fine arts with craftsmanship to create functional and affordable buildings. It emphasized the use of new materials and industrial techniques, resulting in minimalist and functional designs.",
+            "characteristics": [
+                "Minimalist design",
+                "Use of new materials",
+                "Functional and affordable buildings",
+                "Emphasis on craftsmanship"
+            ],
+            "examples": [
+                "Bauhaus building in Dessau",
+                "Fagus Factory in Alfeld",
+                "Haus am Horn in Weimar"
+            ],
+            "continent": "Europe",
+            "country": "Germany"
+        },
+        "terms": "Nouns: design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism\nAdjectives: simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative"
+    },
+    "Historicism architecture": {
+        "architects": [
+            {
+                "name": "Charles Garnier",
+                "birth_date": "November 6, 1825",
+                "nationality": "French",
+                "description": "Best known for his work on the Op\u00e9ra Garnier in Paris, which is a masterpiece of 19th-century Historicism architecture.",
+                "notable_buildings": [
+                    "Op\u00e9ra Garnier",
+                    "Biblioth\u00e8que-Mus\u00e9e de l'Op\u00e9ra National de Paris"
+                ]
+            },
+            {
+                "name": "Augustus Pugin",
+                "birth_date": "March 1, 1812",
+                "nationality": "British",
+                "description": "A leader in the Gothic Revival movement in 19th-century Britain, known for his intricate designs and attention to detail.",
+                "notable_buildings": [
+                    "Palace of Westminster",
+                    "St. Giles' Catholic Church",
+                    "St. Chad's Cathedral"
+                ]
+            },
+            {
+                "name": "Eduard van der N\u00fcll",
+                "birth_date": "January 9, 1812",
+                "nationality": "Austrian",
+                "description": "A prominent figure in the Historicism movement in 19th-century Austria, who worked on numerous public buildings and private residences.",
+                "notable_buildings": [
+                    "Vienna State Opera",
+                    "Kaiser Franz Joseph Museum"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 19th to early 20th century",
+            "description": "Architectural style that draws inspiration from various historical styles and combines them to create a unique building design.",
+            "characteristics": [
+                "Eclectic mix of historical styles",
+                "Rich ornamentation and decorative details",
+                "Symmetrical facades",
+                "Use of high-quality materials",
+                "Combination of traditional and modern construction techniques"
+            ],
+            "examples": [
+                "Ch\u00e2teau Frontenac in Quebec City, Canada",
+                "Glasgow City Chambers in Glasgow, Scotland",
+                "El Capitolio in Havana, Cuba",
+                "The Victoria Terminus in Mumbai, India"
+            ],
+            "continent": "Europe",
+            "country": "England"
+        },
+        "terms": "Nouns: architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation\nAdjectives: contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
+    },
+    "Greco-Roman Classical architecture": {
+        "architects": [
+            {
+                "name": "Andrea Palladio",
+                "birth_date": "November 30, 1508",
+                "nationality": "Italian",
+                "description": "Palladio was one of the most influential architects of the Renaissance, known for his mastery of Greco-Roman architectural principles.",
+                "notable_buildings": [
+                    "Palazzo Chiericati",
+                    "The Basilica Palladiana",
+                    "Villa Capra (Villa La Rotonda)"
+                ]
+            },
+            {
+                "name": "Christopher Wren",
+                "birth_date": "October 20, 1632",
+                "nationality": "British",
+                "description": "Wren was one of the most famous British architects of all time, who worked within the Greco-Roman classical tradition.",
+                "notable_buildings": [
+                    "St. Paul's Cathedral",
+                    "Greenwich Hospital",
+                    "Hampton Court Palace"
+                ]
+            },
+            {
+                "name": "Silvio Berlusconi",
+                "birth_date": "September 29, 1936",
+                "nationality": "Italian",
+                "description": "Berlusconi was a controversial Italian politician who was also a notable architect in the Greco-Roman classical style.",
+                "notable_buildings": [
+                    "The Piazza di Spagna Building",
+                    "The Piazza di Pietra Building",
+                    "The Piazza della Cancelleria Building"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "5th century BCE - 5th century CE",
+            "description": "A style of architecture developed in ancient Greece and Rome, characterized by symmetry, proportion, and the use of columns, arches, and domes.",
+            "characteristics": [
+                "Symmetry",
+                "Proportion",
+                "Columnar fa\u00e7ades",
+                "Pediments",
+                "Friezes",
+                "Arches",
+                "Domes",
+                "Classical orders (Doric, Ionic, Corinthian)",
+                "Emphasis on horizontal and vertical lines",
+                "Use of marble and stone",
+                "Decorative motifs (acanthus leaves, metopes, triglyphs)"
+            ],
+            "examples": [
+                "Parthenon in Athens, Greece",
+                "Colosseum in Rome, Italy",
+                "Pantheon in Rome, Italy",
+                "Agora in Athens, Greece",
+                "Temple of Olympian Zeus in Athens, Greece",
+                "Forum of Trajan in Rome, Italy"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Greece",
+                "Italy"
+            ]
+        },
+        "terms": "columns, pediments, symmetry, proportion, elegance, marble, majestic, ornate, refined, iconic."
+    },
+    "Ancient Roman architecture": {
+        "architects": [
+            {
+                "name": "Vitruvius",
+                "birth_date": "80-70 BC",
+                "nationality": "Roman",
+                "description": "Roman author, architect, and engineer",
+                "notable_buildings": "No known buildings"
+            },
+            {
+                "name": "Apollodorus of Damascus",
+                "birth_date": "1st century AD",
+                "nationality": "Syrian",
+                "description": "Engineer and architect of the Roman Empire",
+                "notable_buildings": [
+                    "Trajan's Column",
+                    "Forum of Trajan",
+                    "Markets of Trajan"
+                ]
+            },
+            {
+                "name": "Marcus Vipsanius Agrippa",
+                "birth_date": "63 BC",
+                "nationality": "Roman",
+                "description": "Statesman, general, and architect of the Roman Republic",
+                "notable_buildings": [
+                    "Pantheon",
+                    "Therm\u00e6 Nov\u00e6 (Baths of Agrippa)"
+                ]
+            }
+        ]
+    },
+    "Modern architecture": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birthDate": "1867-06-08",
+                "nationality": "American",
+                "description": "One of America's most prominent architects, who designed buildings and furniture.",
+                "notableBuildings": [
+                    "Fallingwater",
+                    "Guggenheim Museum",
+                    "Robie House"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthDate": "1887-10-06",
+                "nationality": "Swiss-French",
+                "description": "A pioneer of modern architecture and a key figure in the development of International Style.",
+                "notableBuildings": [
+                    "Villa Savoye",
+                    "Chandigarh",
+                    "Unit\u00e9 d'Habitation"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthDate": "1886-03-27",
+                "nationality": "German-American",
+                "description": "Known for his minimalist approach to design and the creation of the modern-day skyscraper.",
+                "notableBuildings": [
+                    "Seagram Building",
+                    "Farnsworth House",
+                    "Lake Shore Drive Apartments"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Early 20th century to present day",
+            "description": "Modern architecture is known for its functional and minimalist style, emphasizing clean lines, simple shapes, and the use of industrial materials. Its philosophy is focused on solving practical problems through design rather than ornamental expression. Buildings are often characterized by their lack of ornamentation, use of new materials such as steel and concrete, exposed structural elements, and large open spaces.",
+            "characteristics": [
+                "Functionalism",
+                "Minimalism",
+                "Clean lines",
+                "Simple shapes",
+                "Industrial materials",
+                "Exposed structural elements",
+                "Large open spaces"
+            ],
+            "examples": [
+                {
+                    "name": "Guggenheim Museum Bilbao",
+                    "location": "Bilbao, Spain"
+                },
+                {
+                    "name": "Fallingwater",
+                    "location": "Mill Run, Pennsylvania, United States"
+                },
+                {
+                    "name": "Sydney Opera House",
+                    "location": "Sydney, Australia"
+                }
+            ],
+            "continent": "Global",
+            "country": "Multiple countries"
+        },
+        "terms": "Nouns: buildings, structures, design, materials, functionality\nAdjectives: innovative, futuristic, sleek, minimalistic, functional."
+    },
+    "Neoclassical architecture": {
+        "architects": {
+            "famousArchitects": [
+                {
+                    "name": "Andrea Palladio",
+                    "birthDate": "November 30, 1508",
+                    "nationality": "Italian",
+                    "description": "Considered one of the most influential architects in Western architecture history, known for his rigorous design and proportion theories.",
+                    "notableBuildings": [
+                        "Basilica Palladiana",
+                        "Villa Capra 'La Rotonda'"
+                    ]
+                },
+                {
+                    "name": "Robert Adam",
+                    "birthDate": "July 3, 1728",
+                    "nationality": "Scottish",
+                    "description": "Famous for his elegant, decorative, and refined designs, Adam was one of the key figures of the Georgian era.",
+                    "notableBuildings": [
+                        "Kenwood House",
+                        "Syon House"
+                    ]
+                },
+                {
+                    "name": "Thomas Jefferson",
+                    "birthDate": "April 13, 1743",
+                    "nationality": "American",
+                    "description": "An American Founding Father, Jefferson was also a skilled architect and archaeologist who contributed to the development of the neoclassical style in the United States.",
+                    "notableBuildings": [
+                        "Virginia State Capitol",
+                        "Monticello"
+                    ]
+                }
+            ]
+        },
+        "style": {
+            "time range": "mid-18th to early-19th centuries",
+            "period": "Late Enlightenment, Age of Reason, Romanticism",
+            "description": "A revival of classical architecture that emerged in the 18th century characterized by symmetry, order, and simplicity. It was a reaction against the elaborate, ornate, and irregular Baroque and Rococo styles.",
+            "characteristics": [
+                "Symmetrical fa\u00e7ades",
+                "Use of columns, triangular pediments, and domes",
+                "Flat roofs",
+                "Clean, refined, and elegant lines",
+                "Use of mathematical proportions and ratios",
+                "Emphasis on functionality and practicality"
+            ],
+            "examples": [
+                "The White House in Washington D.C.",
+                "The \u00c9cole Militaire in Paris",
+                "The Brandenburg Gate in Berlin",
+                "The Royal Palace of Caserta in Italy",
+                "St. George's Hall in Liverpool"
+            ],
+            "continent": "Europe",
+            "country": "France"
+        },
+        "terms": "Nouns: classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades\n\nAdjectives: simple, elegant, restrained, balanced, ordered, harmonious, timeless"
+    },
+    "Gothic architecture": {
+        "architects": [
+            {
+                "name": "Abbot Suger",
+                "birth_date": "1081",
+                "nationality": "French",
+                "description": "Considered the father of Gothic architecture",
+                "notable_buildings": [
+                    "Basilica of Saint-Denis"
+                ]
+            },
+            {
+                "name": "Peter Parler",
+                "birth_date": "1333",
+                "nationality": "German",
+                "description": "Master builder of St. Vitus Cathedral in Prague",
+                "notable_buildings": [
+                    "St. Vitus Cathedral",
+                    "Charles Bridge Tower",
+                    "Karl\u0161tejn Castle"
+                ]
+            },
+            {
+                "name": "Gothic Architecture",
+                "birth_date": "12th century",
+                "nationality": "Various",
+                "description": "A style of architecture that flourished during the high and late medieval period",
+                "notable_buildings": [
+                    "Notre-Dame de Paris",
+                    "Salisbury Cathedral",
+                    "Westminster Abbey"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "12th to 16th centuries",
+            "period": "Medieval period",
+            "description": "Gothic architecture is a style of architecture that originated in France in the 12th century and continued in Europe until the 16th century. It is characterized by its pointed arches, ribbed vaults, and flying buttresses, which allowed for taller and more intricate structures than earlier Romanesque architecture. Gothic architecture was used predominantly for churches, cathedrals, and civic buildings.",
+            "characteristics": [
+                "Pointed arches",
+                "Ribbed vaults",
+                "Flying buttresses",
+                "Gargoyles and grotesques",
+                "Stained glass windows",
+                "Elaborate decoration",
+                "Towers and spires",
+                "Rose windows"
+            ],
+            "examples": [
+                "Notre-Dame de Paris",
+                "Westminster Abbey",
+                "Cologne Cathedral",
+                "St. Vitus Cathedral",
+                "Salisbury Cathedral",
+                "Chartres Cathedral"
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "England",
+                "Germany",
+                "Czech Republic",
+                "Spain",
+                "Belgium"
+            ]
+        },
+        "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals."
+    },
+    "Art Deco architecture": {
+        "architects": [
+            {
+                "name": "William Van Alen",
+                "birth_date": "August 10, 1883",
+                "nationality": "American",
+                "description": "Master of Art Deco designs, popularized the use of stainless steel in architecture",
+                "notable_buildings": [
+                    "Chrysler Building, New York"
+                ]
+            },
+            {
+                "name": "Erich Mendelsohn",
+                "birth_date": "March 21, 1887",
+                "nationality": "German",
+                "description": "Known for designing dynamic, streamlined Art Deco buildings that combined technology, science, and modern industrial materials",
+                "notable_buildings": [
+                    "Einstein Tower",
+                    "De La Warr Pavilion"
+                ]
+            },
+            {
+                "name": "Timothy Pflueger",
+                "birth_date": "September 26, 1892",
+                "nationality": "American",
+                "description": "Pioneered Art Deco architecture in San Francisco, blending classicism with modernism",
+                "notable_buildings": [
+                    "Pflueger Office Building",
+                    "Castro Theatre"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1920s-1930s",
+            "period": "Interwar period",
+            "description": "Art Deco is a style that emerged in the 1920s and 1930s, and is characterized by bold geometric shapes, bright colors, and luxurious materials. It was influenced by various art movements, including Cubism and Futurism, and was seen as a celebration of modernity.",
+            "characteristics": [
+                "Geometric shapes",
+                "Bold lines",
+                "Bright colors",
+                "Luxurious materials",
+                "Streamlined forms",
+                "Symmetry",
+                "Zigzag patterns",
+                "Sunburst motifs",
+                "Emphasis on verticality",
+                "Figurative decoration"
+            ],
+            "examples": [
+                "Chrysler Building in New York City",
+                "The Daily Express Building in Manchester, UK",
+                "Radio City Music Hall in New York City",
+                "The Hoover Building in London, UK",
+                "The Empire State Building in New York City"
+            ],
+            "continent": "North America, Europe, Asia",
+            "country": "United States, United Kingdom, France, India, China"
+        },
+        "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design."
+    },
+    "Mid-century modern architecture": {
+        "architects": [
+            {
+                "name": "Ludwig Mies van der Rohe",
+                "birth_date": "March 27, 1886",
+                "nationality": "German",
+                "description": "One of the pioneers of modernist architecture, known for his use of simple shapes, clean lines, and minimal ornamentation.",
+                "notable_buildings": [
+                    "Farnsworth House",
+                    "Seagram Building",
+                    "Lake Shore Drive Apartments"
+                ]
+            },
+            {
+                "name": "Richard Neutra",
+                "birth_date": "April 8, 1892",
+                "nationality": "Austrian",
+                "description": "One of the most important architects of the mid-century modern movement, known for his use of glass and steel to create light-filled, open-plan homes.",
+                "notable_buildings": [
+                    "Kaufmann House",
+                    "Lovell Health House",
+                    "Neutra VDL House"
+                ]
+            },
+            {
+                "name": "Eero Saarinen",
+                "birth_date": "August 20, 1910",
+                "nationality": "Finnish",
+                "description": "An influential architect and industrial designer who helped shape the mid-century modern aesthetic with his use of sculptural forms and organic shapes.",
+                "notable_buildings": [
+                    "TWA Flight Center",
+                    "Miller House",
+                    "Gateway Arch"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "1945-1975",
+            "period": "Post-World War II",
+            "description": "Mid-century modern architecture is characterized by its clean lines, simplicity, and integration with nature. This design movement focused on functionality and minimalism, emphasizing the use of new materials and technologies. ",
+            "characteristics": [
+                "Clean lines",
+                "Minimalism",
+                "Functionality",
+                "Integration with nature",
+                "Use of new materials and technologies"
+            ],
+            "examples": [
+                "Farnsworth House",
+                "The Glass House",
+                "Eames House",
+                "Marin County Civic Center",
+                "Seagram Building"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "Nouns: architecture, design, furniture, interior, style, buildings\nAdjectives: sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
+    },
+    "Neo-Gothic architecture": {
+        "architects": [
+            {
+                "name": "Augustus Pugin",
+                "birth_date": "1812-03-01",
+                "nationality": "British",
+                "description": "Augustus Pugin was an English architect, designer, artist, and critic who is considered one of the key figures in the Gothic Revival style of architecture.",
+                "notable_buildings": [
+                    "Westminster Palace (Houses of Parliament)"
+                ]
+            },
+            {
+                "name": "Eug\u00e8ne Viollet-le-Duc",
+                "birth_date": "1814-01-27",
+                "nationality": "French",
+                "description": "Eug\u00e8ne Viollet-le-Duc was a French architect and theorist who played a key role in the restoration of many important medieval buildings in France and also designed new structures in the Gothic Revival style.",
+                "notable_buildings": [
+                    "Notre-Dame de Paris",
+                    "Carcassonne"
+                ]
+            },
+            {
+                "name": "Ralph Adams Cram",
+                "birth_date": "1863-12-16",
+                "nationality": "American",
+                "description": "Ralph Adams Cram was a prominent American architect, writer, and teacher who is known for his work in the Gothic Revival and Collegiate Gothic styles of architecture.",
+                "notable_buildings": [
+                    "Cathedral of Saint John the Divine",
+                    "Princeton University Chapel"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "mid-18th to early 20th century",
+            "period": "Victorian era",
+            "description": "A revival style that drew inspiration from medieval Gothic architecture, characterized by pointed arches, ribbed vaults, and elaborate ornamentation",
+            "characteristics": [
+                "Pointed arches",
+                "Ribbed vaults",
+                "Elaborate ornamentation",
+                "Tall towers and spires",
+                "Use of stone",
+                "Decorative tracery",
+                "Rose windows",
+                "Symmetrical facades"
+            ],
+            "examples": [
+                "Westminster Palace in London",
+                "Cathedral of St. John the Divine in New York City",
+                "Palace of Westminster in London",
+                "St. Vitus Cathedral in Prague",
+                "Notre-Dame Basilica in Montreal"
+            ],
+            "continent": "Europe",
+            "country": "England"
+        },
+        "terms": "Nouns: architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows. \nAdjectives: historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
+    },
+    "Italianate architecture": {
+        "architects": [
+            {
+                "name": "John Notman",
+                "birthdate": "July 22, 1810",
+                "nationality": "American",
+                "description": "Considered the father of the Italianate style in America",
+                "notable_buildings": [
+                    "Laurel Hill Cemetery Gatehouse, Philadelphia",
+                    "California State Capitol building, Sacramento"
+                ]
+            },
+            {
+                "name": "A. J. Downing",
+                "birthdate": "October 31, 1815",
+                "nationality": "American",
+                "description": "Landscape designer and one of the leading proponents of the Italianate style in America",
+                "notable_buildings": [
+                    "Downing's own home, the Villa Mille Fleurs, on the Hudson River",
+                    "The villa-style entrance to the U.S. Botanic Garden in Washington, D.C."
+                ]
+            },
+            {
+                "name": "Thomas S. Kirkbride",
+                "birthdate": "July 31, 1809",
+                "nationality": "American",
+                "description": "Psychiatrist and advocate for humane treatment of the mentally ill, who designed several monumental Italianate-style hospital buildings",
+                "notable_buildings": [
+                    "The Trenton State Hospital, New Jersey",
+                    "The Trans-Allegheny Lunatic Asylum, West Virginia"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1830s-1870s",
+            "period": "Victorian era",
+            "description": "Italianate architecture is a style characterized by an emphasis on Italian Renaissance elements, such as tall towers, elaborate decorative brackets, and pedimented windows and doors. The style is often used in buildings such as public institutions, homes, and commercial buildings.",
+            "characteristics": [
+                "Tall towers and belvederes",
+                "Elaborate decorative brackets",
+                "Pedimented windows and doors",
+                "Symmetrical front facade",
+                "Low-pitched or flat roof",
+                "Molded cornice",
+                "Quoins",
+                "Classical columns",
+                "Ornate embellishments"
+            ],
+            "examples": [
+                "William Watts Sherman House (Newport, Rhode Island)",
+                "Biltmore Estate (Asheville, North Carolina)",
+                "Haas-Lilienthal House (San Francisco, California)",
+                "Palace of Fine Arts (San Francisco, California)"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces."
+    },
+    "Brutalist architecture": {
+        "architects": [
+            {
+                "name": "Le Corbusier",
+                "birth_date": "6 October 1887",
+                "nationality": "Swiss-French",
+                "description": "Pioneer in the International Style and Brutalism",
+                "notable_buildings": [
+                    "Unit\u00e9 d'Habitation",
+                    "Chandigarh Capitol Complex"
+                ]
+            },
+            {
+                "name": "Paul Rudolph",
+                "birth_date": "23 October 1918",
+                "nationality": "American",
+                "description": "Leader in the Brutalist movement in the United States",
+                "notable_buildings": [
+                    "Yale Art and Architecture Building",
+                    "Government Service Center"
+                ]
+            },
+            {
+                "name": "Balkrishna Doshi",
+                "birth_date": "26 August 1927",
+                "nationality": "Indian",
+                "description": "Pioneered the use of traditional Indian architectural elements in Brutalist designs",
+                "notable_buildings": [
+                    "Indian Institute of Management Bangalore",
+                    "Aranya Low Cost Housing"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1950s-1970s",
+            "period": "Modernist architecture",
+            "description": "Brutalist architecture is characterized by the use of raw concrete, simple geometric shapes, and a focus on function over form. It emerged in the 1950s as a response to the ornamentation and excesses of the preceding Art Deco and Beaux-Arts movements, and was often associated with social housing and government buildings.",
+            "characteristics": [
+                "Raw concrete construction",
+                "Minimalist aesthetics",
+                "Geometric shapes",
+                "Functionality over ornamentation",
+                "Rejection of traditional architectural styles"
+            ],
+            "examples": [
+                "The Barbican Estate in London",
+                "Boston City Hall",
+                "Geisel Library in San Diego",
+                "Montreal's Habitat 67",
+                "The National Theatre of Ghana in Accra"
+            ],
+            "continent": "Europe",
+            "country": "United Kingdom"
+        },
+        "terms": "concrete, stark, minimalist, monolithic, functional, authoritarian, imposing, uncompromising, brutal, utilitarian, massive."
+    },
+    "Deconstructivism architecture": {
+        "architects": {
+            "1": {
+                "name": "Frank Gehry",
+                "birth_date": "February 28, 1929",
+                "nationality": "Canadian-American",
+                "description": "Known for his use of unusual building materials and undulating forms",
+                "notable_buildings": [
+                    "Walt Disney Concert Hall, Los Angeles",
+                    "Guggenheim Museum Bilbao, Spain"
+                ]
+            },
+            "2": {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "nationality": "British-Iraqi",
+                "description": "Known for her futuristic designs and use of complex geometric shapes",
+                "notable_buildings": [
+                    "Heydar Aliyev Center, Baku, Azerbaijan",
+                    "Guangzhou Opera House, China"
+                ]
+            },
+            "3": {
+                "name": "Rem Koolhaas",
+                "birth_date": "November 17, 1944",
+                "nationality": "Dutch",
+                "description": "Known for his experimentation with form and materials",
+                "notable_buildings": [
+                    "Casa da M\u00fasica, Porto, Portugal",
+                    "Seattle Central Library, Seattle, Washington"
+                ]
+            }
+        },
+        "style": {
+            "time_range": "1980s-1990s",
+            "period": "Postmodernism",
+            "description": "Deconstructivism is an architectural style or movement that rejects the traditional harmony, unity, and symmetry of architecture. It is characterized by irregular shapes, angles, and unexpected forms. The aim is to create visual complexity and confusion, challenging the viewer's perception of space. Deconstructivism can be seen as a reaction against the strict and rigorous modernism of the early 20th century.",
+            "characteristics": [
+                "Irregular shapes",
+                "Angles",
+                "Unexpected forms",
+                "Visual complexity",
+                "Challenging perception of space"
+            ],
+            "examples": [
+                "Guggenheim Museum Bilbao",
+                "Walt Disney Concert Hall",
+                "Jewish Museum Berlin",
+                "Seattle Central Library"
+            ],
+            "continent": "North America, Europe",
+            "country": [
+                "USA",
+                "Spain",
+                "Germany"
+            ]
+        },
+        "terms": "Nouns: architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces.\nAdjectives: non-linear, disorienting, angular, fragmented, complex, provocative, abstract."
+    },
+    "Beaux Arts architecture": {
+        "architects": [
+            {
+                "name": "Richard Morris Hunt",
+                "birth_date": "October 31, 1827",
+                "nationality": "American",
+                "description": "One of the first Americans to train at the \u00c9cole des Beaux-Arts in Paris, he brought the Beaux-Arts style to the United States.",
+                "notable_buildings": [
+                    "New York State Capitol",
+                    "The Breakers",
+                    "Metropolitan Museum of Art"
+                ]
+            },
+            {
+                "name": "Charles Follen McKim",
+                "birth_date": "August 24, 1847",
+                "nationality": "American",
+                "description": "Co-founder of the architectural firm McKim, Mead & White, he helped popularize the Beaux-Arts style in the United States.",
+                "notable_buildings": [
+                    "Boston Public Library",
+                    "University Club of New York",
+                    "Pennsylvania Station (original)"
+                ]
+            },
+            {
+                "name": "Jules Hardouin-Mansart",
+                "birth_date": "April 16, 1646",
+                "nationality": "French",
+                "description": "The chief architect of King Louis XIV of France, he is considered one of the greatest architects of the Baroque era.",
+                "notable_buildings": [
+                    "Ch\u00e2teau de Vaux-le-Vicomte",
+                    "Ch\u00e2teau de Versailles",
+                    "\u00c9glise Saint-Roch"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "Late 19th century to early 20th century",
+            "period": "Neoclassical",
+            "description": "Beaux Arts architecture originated in France and became popular in the United States, Canada, and other countries. It is characterized by a grandiose, monumental style, often incorporating classical Greek and Roman elements.",
+            "characteristics": [
+                "Symmetrical facade",
+                "Grand entrances with columns and pediments",
+                "Use of classical motifs such as sculptures, friezes, and cornices",
+                "Elaborate ornamentation",
+                "Use of high-quality materials like marble, granite, and bronze",
+                "Focus on balance, harmony, and symmetry"
+            ],
+            "examples": [
+                "The Brooklyn Museum in New York City",
+                "The San Francisco City Hall",
+                "The Paris Opera House",
+                "The New York Public Library",
+                "The Vancouver Art Gallery"
+            ],
+            "continent": "North America",
+            "country": [
+                "France",
+                "United States",
+                "Canada"
+            ]
+        },
+        "terms": "Classic, ornate, grandiose, symmetrical architecture style that originated in France, characterized by arches, columns, domes and elaborate decoration."
+    },
+    "Shingle Style architecture": {
+        "architects": [
+            {
+                "name": "Henry Hobson Richardson",
+                "birth_date": "September 29, 1838",
+                "nationality": "American",
+                "description": "Considered the father of Shingle Style architecture, Richardson designed a number of iconic public buildings and private residences characterized by their use of natural materials, prominent chimneys, and asymmetrical massing.",
+                "notable_buildings": [
+                    "William Watts Sherman House, Newport, RI",
+                    "Trinity Church, Boston, MA",
+                    "Marshall Field Wholesale Store, Chicago, IL"
+                ]
+            },
+            {
+                "name": "William Ralph Emerson",
+                "birth_date": "December 14, 1833",
+                "nationality": "American",
+                "description": "A prominent Boston architect, Emerson was known for his designs that emphasized the fluidity between indoor and outdoor spaces, often incorporating elaborate porches and pergolas into his homes.",
+                "notable_buildings": [
+                    "Houghton Mansion, North Adams, MA",
+                    "Beverly Farms National Bank, Beverly, MA",
+                    "Byfield Town Hall, Byfield, MA"
+                ]
+            },
+            {
+                "name": "Charles A. Platt",
+                "birth_date": "October 16, 1861",
+                "nationality": "American",
+                "description": "A prolific designer of country estates, Platt was influenced by the Arts and Crafts movement and often incorporated rustic materials such as fieldstone and cedar shingles into his work.",
+                "notable_buildings": [
+                    "Cathedral of St. John the Divine, New York, NY",
+                    "Cornwall Estate, Cold Spring, NY",
+                    "Olana State Historic Site, Hudson, NY"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1880s-1900s",
+            "period": "Late 19th century",
+            "description": "Shingle Style is a style of architecture that originated in the late 19th century in America. It is characterized by the use of shingles, which cover the roof and walls, creating a uniform and continuous surface. The style is often associated with seaside resorts and vacation homes, as its relaxed and informal aesthetic fits well with the coastal landscape.",
+            "characteristics": [
+                "use of shingles",
+                "asymmetrical and irregular shapes",
+                "steeply pitched roofs",
+                "large porches",
+                "chimneys",
+                "turrets",
+                "bay windows"
+            ],
+            "examples": [
+                "Kragsyde",
+                "The Elms",
+                "Sturgis House",
+                "Peabody and Stearns House"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "Nouns: architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal.\n\nAdjectives: unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions."
+    },
+    "American Craftsman architecture": {
+        "architects": [
+            {
+                "name": "Greene and Greene",
+                "birth_date": "Charles: Oct 12, 1868; Henry: Jan 23, 1870",
+                "nationality": "American",
+                "description": "Brothers who were influential architects in the American Arts and Crafts movement",
+                "notable_buildings": [
+                    "Gamble House",
+                    "Blacker House",
+                    "Thorsen House"
+                ]
+            },
+            {
+                "name": "Bernard Maybeck",
+                "birth_date": "February 7, 1862",
+                "nationality": "American",
+                "description": "Architect who played a key role in the development of the Arts and Crafts movement in California",
+                "notable_buildings": [
+                    "Palace of Fine Arts",
+                    "First Church of Christ, Scientist",
+                    "Faculty Club at UC Berkeley"
+                ]
+            },
+            {
+                "name": "Gustav Stickley",
+                "birth_date": "March 9, 1858",
+                "nationality": "American",
+                "description": "Furniture maker, architect, and publisher who was a leading voice in the American Craftsman style",
+                "notable_buildings": [
+                    "Craftsman Farms",
+                    "The Craftsman Building",
+                    "William L. Slayton House"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 19th century to early 20th century",
+            "period": "Arts and Crafts movement",
+            "description": "A style of architecture that emphasizes hand-crafted details, natural materials, and simple forms. It is characterized by exposed rafters, decorative brackets, and stone or brick construction.",
+            "characteristics": [
+                "Hand-crafted details",
+                "Use of natural materials",
+                "Simple forms",
+                "Exposed rafters",
+                "Decorative brackets",
+                "Stone or brick construction"
+            ],
+            "examples": [
+                "Gamble House in Pasadena, California",
+                "Robie House in Chicago, Illinois",
+                "Greene and Greene's Thorsen House in Berkeley, California"
+            ],
+            "continent": "North America",
+            "country": "United States of America"
+        },
+        "terms": "Nouns: Craftsman, architecture\n\nAdjectives: American"
+    },
+    "Ranch-style house architecture": {
+        "architects": [
+            {
+                "name": "Cliff May",
+                "birth_date": "1909-05-21",
+                "nationality": "American",
+                "description": "Known as the father of the Ranch-style house, Cliff May was an American architect who popularized this style of design across the US in the post-WWII period.",
+                "notable_buildings": [
+                    "The Robert Mondavi Winery in Oakville, California",
+                    "The Malibu Market and Design in Malibu, California",
+                    "The Elk Grove Equestrian Center in Elk Grove, California"
+                ]
+            },
+            {
+                "name": "Joseph Eichler",
+                "birth_date": "1900-06-25",
+                "nationality": "American",
+                "description": "Joseph Eichler was an American real estate developer who commissioned architects to design a series of affordable, mid-century modern homes that were built in the Bay Area of California, many of which were Ranch-style homes.",
+                "notable_buildings": [
+                    "The Eichler Homes in Sunnyvale, California",
+                    "The Eichler Homes in Lucas Valley, California",
+                    "The Eichler Homes in Piedmont, California"
+                ]
+            },
+            {
+                "name": "William Krisel",
+                "birth_date": "1924-11-14",
+                "nationality": "American",
+                "description": "William Krisel was an American architect who designed many modernist homes in Southern California, including a number of Ranch-style homes that were built in the Palm Springs area.",
+                "notable_buildings": [
+                    "The Sandpiper condominium complex in Palm Springs, California",
+                    "The Seven Lakes Country Club in Palm Springs, California",
+                    "The Racquet Club Estates in Palm Springs, California"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1940s-1970s",
+            "period": "Mid-20th century",
+            "description": "Ranch-style houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
+            "characteristics": [
+                "Single-story",
+                "Low-pitched roof",
+                "Open floor plan",
+                "Attached garage",
+                "Simple and unadorned design",
+                "Horizontal orientation"
+            ],
+            "examples": [
+                "Eichler homes",
+                "Levittown houses",
+                "Cliff May homes",
+                "Palos Verdes homes"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "nouns: house, architecture\nadjectives: ranch-style"
+    },
+    "Colonial Revival architecture": {
+        "architects": [
+            {
+                "name": "Robert A.M. Stern",
+                "birth_date": "May 23, 1939",
+                "nationality": "American",
+                "description": "Known for his traditionalist style and contributions to New Classical Architecture.",
+                "notable_buildings": [
+                    "George W. Bush Presidential Library and Museum",
+                    "Two International Place",
+                    "15 Central Park West"
+                ]
+            },
+            {
+                "name": "John Russell Pope",
+                "birth_date": "April 24, 1874",
+                "nationality": "American",
+                "description": "Known for his works in Neoclassical and Colonial Revival styles.",
+                "notable_buildings": [
+                    "National Archives Building",
+                    "Jefferson Memorial",
+                    "National Gallery of Art"
+                ]
+            },
+            {
+                "name": "H.H. Richardson",
+                "birth_date": "September 29, 1838",
+                "nationality": "American",
+                "description": "Known for his contributions to the development of American architectural styles, including the Colonial Revival.",
+                "notable_buildings": [
+                    "Trinity Church",
+                    "Marine Corps Base Quantico",
+                    "Watts Sherman House"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "Late 19th century to mid-20th century",
+            "period": "Revivalism",
+            "description": "Architectural style that emulated the aesthetics of colonial-era buildings in America, particularly those built during the 18th and early 19th centuries",
+            "characteristics": "Symmetrical designs, simple ornamentation, steep roofs, dormer windows, and often featured columns and pediments",
+            "examples": [
+                "The White House in Washington D.C.",
+                "The Mark Twain House in Hartford, Connecticut",
+                "The Biltmore Estate in Asheville, North Carolina"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist."
+    },
+    "Mesoamerican architecture": {
+        "architects": [
+            {
+                "name": "Juan Sordo Madaleno",
+                "birth_date": "August 28, 1919",
+                "nationality": "Mexican",
+                "description": "Juan Sordo Madaleno was a Mexican architect who designed some of the most iconic buildings in Mexico during the 20th century.",
+                "notable_buildings": [
+                    "Torre Latinoamericana",
+                    "Hotel Mar\u00eda Isabel",
+                    "Plaza Sat\u00e9lite"
+                ]
+            },
+            {
+                "name": "Teodoro Gonz\u00e1lez de Le\u00f3n",
+                "birth_date": "May 29, 1926",
+                "nationality": "Mexican",
+                "description": "Teodoro Gonz\u00e1lez de Le\u00f3n was a Mexican architect known for his monumental and modernist designs.",
+                "notable_buildings": [
+                    "National Auditorium",
+                    "Museo Tamayo Arte Contempor\u00e1neo",
+                    "Mexican Pavilion at Expo '92 in Seville, Spain"
+                ]
+            },
+            {
+                "name": "Miguel \u00c1ngel Aragones",
+                "birth_date": "September 4, 1946",
+                "nationality": "Mexican",
+                "description": "Miguel \u00c1ngel Aragones is a Mexican architect known for his minimalist designs that emphasize the relationship between structure, light, and space.",
+                "notable_buildings": [
+                    "House in Lomas de Chapultepec",
+                    "Tres Casas in Santa Fe",
+                    "Astor Santa Fe"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "2000 BCE to 1521 CE",
+            "period": "Pre-Columbian era",
+            "description": "Mesoamerican architecture refers to the various architectural styles developed by the indigenous peoples of Mesoamerica. It encompasses a wide range of structures, including pyramids, temples, palaces, ball courts, and residential buildings.",
+            "characteristics": [
+                "Use of stone, clay, and other local materials",
+                "Elaborate decorative motifs and sculptures",
+                "Highly organized and planned cities",
+                "Specialized structures for religious and political purposes"
+            ],
+            "examples": [
+                "Teotihuacan",
+                "Chichen Itza",
+                "Palenque",
+                "Tikal"
+            ],
+            "continent": "North America",
+            "country": [
+                "Mexico",
+                "Guatemala",
+                "Honduras",
+                "El Salvador",
+                "Belize",
+                "Nicaragua",
+                "Costa Rica"
+            ]
+        },
+        "terms": "pyramids, temples, palaces, courtyards, terraces, intricate, hierarchical, symbolic, monumental, impressive, powerful, colorful, geometrical, ornate, religious, cultural"
+    },
+    "Roman Classical architecture": {
+        "architects": [
+            {
+                "name": "Vitruvius",
+                "birth_date": "c. 80\u201370 BC",
+                "nationality": "Roman",
+                "description": "Ancient Roman writer, architect and engineer",
+                "notable_buildings": "None extant"
+            },
+            {
+                "name": "Apollodorus of Damascus",
+                "birth_date": "c. 50-60 AD",
+                "nationality": "Syrian",
+                "description": "Greek-roman architect",
+                "notable_buildings": "Trajan's Column, Market of Trajan, Hadrian's Wall"
+            },
+            {
+                "name": "Marcus Vitruvius Pollio",
+                "birth_date": "c. 80\u201370 BC",
+                "nationality": "Roman",
+                "description": "Roman writer, architect, and engineer",
+                "notable_buildings": "None extant"
+            }
+        ],
+        "style": {
+            "time range": "509 BC \u2013 4th century AD",
+            "period": "Classical antiquity",
+            "description": "Roman Classical architecture is a style that emerged in ancient Rome and was heavily influenced by Ancient Greek architecture. It is characterized by its use of classical orders, such as the Doric, Ionic, and Corinthian, as well as its use of arches, vaults, and domes. The architecture was grand and impressive, with many buildings featuring large colonnades and intricate details.",
+            "characteristics": {
+                "Use of classical orders": true,
+                "Use of arches, vaults, and domes": true,
+                "Grand and impressive": true,
+                "Large colonnades": true,
+                "Intricate details": true
+            },
+            "examples": [
+                "Colosseum",
+                "Pantheon",
+                "Roman Forum",
+                "Trajan's Column"
+            ],
+            "continent": "Europe",
+            "country": "Italy"
+        },
+        "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring."
+    },
+    "Baroque architecture": {
+        "architects": [
+            {
+                "name": "Francesco Borromini",
+                "birth_date": "25 September 1599",
+                "nationality": "Italian",
+                "description": "A master of Baroque architecture and sculpture, known for his creative, free-form style and for his innovative use of light and shadow.",
+                "notable_buildings": [
+                    "San Carlo alle Quattro Fontane",
+                    "Sant'Ivo alla Sapienza",
+                    "Palazzo Barberini"
+                ]
+            },
+            {
+                "name": "Gian Lorenzo Bernini",
+                "birth_date": "7 December 1598",
+                "nationality": "Italian",
+                "description": "An architect, sculptor, and painter who helped to define the Baroque style in Rome and throughout Europe.",
+                "notable_buildings": [
+                    "St. Peter's Square",
+                    "Biblioteca Apostolica Vaticana",
+                    "Sant'Andrea al Quirinale"
+                ]
+            },
+            {
+                "name": "Johann Bernhard Fischer von Erlach",
+                "birth_date": "20 July 1656",
+                "nationality": "Austrian",
+                "description": "An influential Austrian Baroque architect, who designed buildings in both Vienna and Salzburg.",
+                "notable_buildings": [
+                    "Karlskirche",
+                    "Schonbrunn Palace",
+                    "Church of St. John Nepomuk"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "17th to mid-18th century",
+            "period": "Baroque",
+            "description": "Architectural style characterized by opulence, dynamism, and drama",
+            "characteristics": [
+                "Elaborate ornamentation",
+                "Curvilinear forms",
+                "Dramatic use of light and shade",
+                "Large, grandiose buildings",
+                "Emphasis on illusionistic painting"
+            ],
+            "examples": [
+                "Palace of Versailles, France",
+                "St. Peter's Basilica, Vatican City",
+                "Escorial, Spain",
+                "The Trevi Fountain, Italy"
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "Vatican City",
+                "Spain",
+                "Italy"
+            ]
+        },
+        "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation"
+    },
+    "Postmodern architecture": {
+        "architects": [
+            {
+                "name": "Robert Venturi",
+                "birthdate": "June 25, 1925",
+                "nationality": "American",
+                "description": "Considered as the founder of postmodernism, Venturi's work includes elements of historicism, irony, and humor.",
+                "notable_buildings": [
+                    {
+                        "name": "Vanna Venturi House",
+                        "location": "Philadelphia, Pennsylvania",
+                        "year_built": "1964"
+                    },
+                    {
+                        "name": "Seattle Art Museum",
+                        "location": "Seattle, Washington",
+                        "year_built": "1991"
+                    }
+                ]
+            },
+            {
+                "name": "Michael Graves",
+                "birthdate": "July 9, 1934",
+                "nationality": "American",
+                "description": "Graves used classical references and bold colors in his works which blended postmodernism and neoclassicism.",
+                "notable_buildings": [
+                    {
+                        "name": "Portland Building",
+                        "location": "Portland, Oregon",
+                        "year_built": "1982"
+                    },
+                    {
+                        "name": "Disney's Hotel New York",
+                        "location": "Marne-la-Vall\u00e9e, France",
+                        "year_built": "1992"
+                    }
+                ]
+            },
+            {
+                "name": "Philip Johnson",
+                "birthdate": "July 8, 1906",
+                "nationality": "American",
+                "description": "Johnson's work often combined historic architectural styles with modernism, creating a unique and dynamic style.",
+                "notable_buildings": [
+                    {
+                        "name": "AT&T Building",
+                        "location": "New York City, New York",
+                        "year_built": "1984"
+                    },
+                    {
+                        "name": "Crystal Cathedral",
+                        "location": "Garden Grove, California",
+                        "year_built": "1980"
+                    }
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1950s - present",
+            "description": "Postmodern architecture emerged in the late 20th century as a reaction against the modernist movement. It seeks to incorporate historical elements and playful ornamentation, often creating eclectic and whimsical designs.",
+            "characteristics": [
+                "Incorporation of historical and traditional styles",
+                "Playful use of ornamentation and decorative elements",
+                "Reje\u200b\u200bction of rigid, minimalist forms",
+                "Emphasis on individuality and diversity",
+                "Collage-like assemblage of styles and materials"
+            ],
+            "examples": [
+                "Piazza d'Italia in New Orleans, USA",
+                "Lloyd's Building in London, UK",
+                "AT&T Building in New York City, USA",
+                "Guggenheim Museum Bilbao in Bilbao, Spain"
+            ],
+            "continent": "Global",
+            "country": "Various"
+        },
+        "terms": "Postmodern architecture: eclectic, playful, ironic, unconventional, fragmented, colorful, historical, humorous, decorative, multi-referential."
+    },
+    "Romanesque architecture": {
+        "architects": [
+            {
+                "name": "William of Normandy",
+                "birth_date": "1027",
+                "nationality": "Norman",
+                "description": "Norman architect who brought the Romanesque style to England after the Norman Conquest",
+                "notable_buildings": [
+                    "Durham Cathedral",
+                    "Canterbury Cathedral",
+                    "Winchester Cathedral"
+                ]
+            },
+            {
+                "name": "Abbot Suger",
+                "birth_date": "1081",
+                "nationality": "French",
+                "description": "French statesman and architect who developed the Gothic style from Romanesque architecture",
+                "notable_buildings": [
+                    "Saint-Denis Basilica"
+                ]
+            },
+            {
+                "name": "Robert de Luzarches",
+                "birth_date": "unknown",
+                "nationality": "French",
+                "description": "French architect and member of the team that designed the Notre Dame Cathedral, one of the most famous examples of Romanesque architecture",
+                "notable_buildings": [
+                    "Notre Dame Cathedral"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "Approximately 800 to 1200 CE",
+            "period": "Medieval period",
+            "description": "Romanesque architecture is a style of architecture that emerged in Europe in the Middle Ages. It is characterized by rounded arches, barrel and groin vaults, and thick walls. Romanesque architecture was initially used for churches, monasteries, and castles.",
+            "characteristics": [
+                "Rounded arches",
+                "Barrel and groin vaults",
+                "Thick walls",
+                "Symmetry",
+                "Sturdy",
+                "Simple",
+                "Rustic"
+            ],
+            "examples": [
+                {
+                    "buildingName": "St. Sernin, Toulouse",
+                    "location": "France"
+                },
+                {
+                    "buildingName": "Speyer Cathedral",
+                    "location": "Germany"
+                },
+                {
+                    "buildingName": "Durham Cathedral",
+                    "location": "England"
+                },
+                {
+                    "buildingName": "Pisa Cathedral",
+                    "location": "Italy"
+                }
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "Germany",
+                "England",
+                "Italy"
+            ]
+        },
+        "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic"
+    },
+    "Rococo architecture": {
+        "architects": [
+            {
+                "name": "Francesco Bartolomeo Rastrelli",
+                "birth_date": "1700-03-04",
+                "nationality": "Italian",
+                "description": "Rococo architect who worked mainly in Russia.",
+                "notable_buildings": [
+                    "Winter Palace",
+                    "Catherine Palace",
+                    "Peterhof Palace"
+                ]
+            },
+            {
+                "name": "Jean-Baptiste Pigalle",
+                "birth_date": "1714-01-26",
+                "nationality": "French",
+                "description": "French sculptor and architect who worked in the Rococo style.",
+                "notable_buildings": [
+                    "Fontaine des Quatre Saisons",
+                    "Fontaine de L\u00e9da",
+                    "Fontaine Saint-Sulpice"
+                ]
+            },
+            {
+                "name": "Bartolomeo Rastrelli",
+                "birth_date": "1690-11-11",
+                "nationality": "Italian",
+                "description": "Italian architect who worked in the Russian Empire.",
+                "notable_buildings": [
+                    "St. Andrew's Church",
+                    "Smolny Cathedral",
+                    "Gatchina Palace"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "mid-18th century to early 19th century",
+            "period": "Late Baroque/Enlightenment",
+            "description": "Rococo architecture is characterized by its elaborate decoration, asymmetrical designs, and emphasis on ornamentation. It is often associated with the aristocracy and was popular in Europe during the mid-18th century to early 19th century. ",
+            "characteristics": [
+                "Elaborate decoration",
+                "Asymmetrical designs",
+                "Emphasis on ornamentation",
+                "Playful and lighthearted",
+                "Curved and flowing forms",
+                "Extravagant use of gold and pastel colors"
+            ],
+            "examples": [
+                "Palace of Versailles",
+                "Sanssouci Palace",
+                "W\u00fcrzburg Residence",
+                "Hermitage Museum",
+                "Hofburg Palace"
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "Germany",
+                "Austria",
+                "Russia"
+            ]
+        },
+        "terms": "Nouns: decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality\n\nAdjectives: playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent."
+    },
+    "Art Nouveau architecture": {
+        "architects": [
+            {
+                "name": "Hector Guimard",
+                "birthDate": "March 10, 1867",
+                "nationality": "French",
+                "description": "Hector Guimard was a French architect, designer and decorator who is famous for his Art Nouveau style.",
+                "notableBuildings": [
+                    "Castel B\u00e9ranger",
+                    "Maison Coilliot",
+                    "Cit\u00e9 Monthiers",
+                    "Metro entrances"
+                ]
+            },
+            {
+                "name": "Victor Horta",
+                "birthDate": "January 6, 1861",
+                "nationality": "Belgian",
+                "description": "Victor Horta was a Belgian architect and designer who is famous for his Art Nouveau buildings and interior designs.",
+                "notableBuildings": [
+                    "Horta Museum",
+                    "Hotel Tassel",
+                    "Hotel Solvay",
+                    "House and Studio of Victor Horta"
+                ]
+            },
+            {
+                "name": "Antoni Gaud\u00ed",
+                "birthDate": "June 25, 1852",
+                "nationality": "Spanish",
+                "description": "Antoni Gaud\u00ed was a Spanish architect and designer who is famous for his Art Nouveau buildings and unique style.",
+                "notableBuildings": [
+                    "Sagrada Familia",
+                    "Park G\u00fcell",
+                    "Casa Batll\u00f3",
+                    "La Pedrera"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1890s - 1910s",
+            "period": "Late 19th century - Early 20th century",
+            "description": "Art Nouveau is an artistic style that emerged in the late 19th century characterized by organic and curved lines, asymmetry, and the use of natural elements such as flowers, plants, and insects. It was a reaction against the academic art of the 19th century and aimed to create a new style that was modern and original.",
+            "characteristics": [
+                "Organic and curved lines",
+                "Asymmetry",
+                "Natural elements such as flowers, plants, and insects",
+                "Emphasis on decorative details",
+                "Use of new materials and techniques"
+            ],
+            "examples": [
+                "H\u00f4tel Tassel in Brussels, Belgium",
+                "Majolikahaus in Vienna, Austria",
+                "Casa Batll\u00f3 in Barcelona, Spain",
+                "Horta Museum in Brussels, Belgium",
+                "\u00c9cole de Nancy in Nancy, France"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Belgium",
+                "Austria",
+                "Spain",
+                "France"
+            ]
+        },
+        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organic\nfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves\ninfluence: 19th century decorative arts, nature, Japanese art\nexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona."
+    },
+    "Greek Revival architecture": {
+        "architects": [
+            {
+                "name": "Thomas Jefferson",
+                "birth_date": "April 13, 1743",
+                "nationality": "American",
+                "description": "Third President of the United States and one of the foremost proponents of Greek Revival architecture in the country.",
+                "notable_buildings": [
+                    "University of Virginia",
+                    "Monticello",
+                    "Virginia State Capitol"
+                ]
+            },
+            {
+                "name": "Leo von Klenze",
+                "birth_date": "February 29, 1784",
+                "nationality": "German",
+                "description": "One of the most prominent architects of 19th century Germany, known for his neoclassical and Greek Revival style.",
+                "notable_buildings": [
+                    "Glyptothek Museum",
+                    "Walhalla memorial",
+                    "Herrenchiemsee Palace"
+                ]
+            },
+            {
+                "name": "Charles Robert Cockerell",
+                "birth_date": "April 27, 1788",
+                "nationality": "British",
+                "description": "British architect who contributed significantly to the Greek Revival movement in England.",
+                "notable_buildings": [
+                    "Ashmolean Museum",
+                    "University Museum of Natural History",
+                    "St. George's Hall, Liverpool"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 18th century to mid-19th century",
+            "period": "Neoclassical architecture",
+            "description": "Architectural movement that emulated the buildings and style of ancient Greece and Rome",
+            "characteristics": "Symmetrical facades with columns and pediments, use of marble and stone, friezes with classical motifs, domed roofs, grand entrances",
+            "examples": [
+                "The United States Capitol Building",
+                "The White House",
+                "Temple of Hephaestus in Athens",
+                "The Bank of England"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Greece",
+                "United States",
+                "United Kingdom"
+            ]
+        },
+        "terms": "Classical, symmetrical, columns, pediments, domes, temples, proportioned, grand, monumental, linear, order."
+    },
+    "Georgian architecture": {
+        "architects": [
+            {
+                "name": "John Nash",
+                "birth_date": "18 January 1752",
+                "nationality": "British",
+                "description": "John Nash was an English architect responsible for many important buildings in Georgian and Regency style. ",
+                "notable_buildings": [
+                    "The Royal Pavilion, Brighton",
+                    "Buckingham Palace",
+                    "Regent Street, London"
+                ]
+            },
+            {
+                "name": "Robert Adam",
+                "birth_date": "3 July 1728",
+                "nationality": "Scottish",
+                "description": "Robert Adam was a Scottish neoclassical architect, interior designer and furniture designer.",
+                "notable_buildings": [
+                    "Kedleston Hall, Derbyshire",
+                    "The Adelphi, London"
+                ]
+            },
+            {
+                "name": "James Wyatt",
+                "birth_date": "3 August 1746",
+                "nationality": "British",
+                "description": "James Wyatt was an English architect, a rival of Robert Adam, who worked in the neoclassical style and the Gothic Revival.",
+                "notable_buildings": [
+                    "Fonthill Abbey, Wiltshire",
+                    "Pantheon, London"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1714-1830",
+            "period": "Georgian era",
+            "description": "Georgian architecture is a style that emerged in Britain during the reign of George I in 1714 and continued until 1830 during the reign of George IV. It is characterized by a heightened interest in classical forms and ornamentation.",
+            "characteristics": [
+                "Symmetry",
+                "Classical proportions",
+                "Moldings and ornamental details",
+                "Sash windows",
+                "Brick or stone construction",
+                "Flat roofs with parapet walls",
+                "Central entrances with fanlights and sidelights",
+                "Columns and pediments"
+            ],
+            "examples": [
+                "Royal Crescent in Bath, England",
+                "St. Paul's Parish Church in Antigua and Barbuda",
+                "The Customs House in Dublin, Ireland",
+                "City Hall in Savannah, Georgia, USA"
+            ],
+            "continent": "Europe",
+            "country": "United Kingdom"
+        },
+        "terms": "Nouns: style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone.\n\nAdjectives: neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant."
+    },
+    "International Style architecture": {
+        "architects": [
+            {
+                "name": "Walter Gropius",
+                "birthdate": "May 18, 1883",
+                "nationality": "German",
+                "description": "Founder of the Bauhaus school and pioneer of the International Style",
+                "notable_buildings": [
+                    "The Bauhaus Building (1925) in Dessau, Germany",
+                    "The Gropius House (1938) in Lincoln, Massachusetts, USA"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthdate": "October 6, 1887",
+                "nationality": "Swiss-French",
+                "description": "Influential modernist architect and urban planner, known for his use of reinforced concrete and his espousal of the 'five points of architecture'",
+                "notable_buildings": [
+                    "Villa Savoye (1931) in Poissy, France",
+                    "Unit\u00e9 d'Habitation (1952) in Marseille, France"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthdate": "March 27, 1886",
+                "nationality": "German-American",
+                "description": "Pioneer of modernist architecture, known for his use of minimalist, industrial materials and his motto 'less is more'",
+                "notable_buildings": [
+                    "Seagram Building (1958) in New York City, USA",
+                    "Farnsworth House (1951) near Plano, Illinois, USA"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1920s-1960s",
+            "period": "Modernism",
+            "description": "The International Style was a modernist architectural movement that emerged in Europe and the United States in the 1920s. It is characterized by a minimalist approach to design, an absence of ornamentation, and the use of industrial materials such as concrete, steel, and glass.",
+            "characteristics": [
+                "Simplicity and minimalism",
+                "Functionalism",
+                "Industrial materials",
+                "Cubist geometry",
+                "Open floor plans and glass walls",
+                "Flat roofs",
+                "Ribbon windows"
+            ],
+            "examples": [
+                "Bauhaus school in Germany",
+                "Villa Savoye in France",
+                "Farnsworth House in the United States",
+                "Seagram Building in the United States",
+                "UNESCO headquarters in France"
+            ],
+            "continent": "Europe and North America",
+            "country": [
+                "Germany",
+                "France",
+                "United States",
+                "Switzerland",
+                "Netherlands"
+            ]
+        },
+        "terms": "Nouns: buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs.\n\nAdjectives: modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational."
+    },
+    "Modernist architecture": {
+        "architects": [
+            {
+                "name": "Le Corbusier",
+                "birth_date": "October 6, 1887",
+                "nationality": "Swiss-French",
+                "description": "Le Corbusier was a pioneer of modernist architecture, known for his belief in functionalism and the use of new materials in construction.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Chandigarh Capitol Complex"
+                ]
+            },
+            {
+                "name": "Ludwig Mies van der Rohe",
+                "birth_date": "March 27, 1886",
+                "nationality": "German",
+                "description": "Mies van der Rohe is often associated with the development of the modernist style known as the International Style, characterized by the use of steel and glass in buildings.",
+                "notable_buildings": [
+                    "Tugendhat Villa",
+                    "Seagram Building",
+                    "Lake Shore Drive Apartments"
+                ]
+            },
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "June 8, 1867",
+                "nationality": "American",
+                "description": "Frank Lloyd Wright was one of the most influential architects of the 20th century, known for his use of organic forms, natural materials, and integration of buildings with their surroundings.",
+                "notable_buildings": [
+                    "Fallingwater",
+                    "Taliesin West",
+                    "Guggenheim Museum"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "early 20th century to mid-20th century",
+            "period": "20th century",
+            "description": "Modernist architecture is characterized by a minimalist approach to design, with a focus on functionality and the use of modern materials such as concrete, glass, and steel. This style is often associated with the Bauhaus movement, and was popularized in the early 1900s.",
+            "characteristics": [
+                "Minimalist design",
+                "Functionality",
+                "Use of modern materials",
+                "Elimination of unnecessary ornamentation"
+            ],
+            "examples": [
+                "Farnsworth House",
+                "The Glass House",
+                "Villa Savoye",
+                "Barcelona Pavilion"
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "Germany",
+                "Switzerland"
+            ]
+        },
+        "terms": "Nouns: Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry.\n\nAdjectives: Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
+    },
+    "Postmodernism architecture": {
+        "architects": [
+            {
+                "name": "Robert Venturi",
+                "birth_date": "June 25, 1925",
+                "nationality": "American",
+                "description": "An American architect and author regarded as one of the most influential figures in postmodern architecture. He played a major role in the development of the postmodernist movement with his 1966 book, Complexity and Contradiction in Architecture.",
+                "notable_buildings": [
+                    "Vanna Venturi House",
+                    "Guild House",
+                    "National Museum of American Jewish History"
+                ]
+            },
+            {
+                "name": "Philip Johnson",
+                "birth_date": "July 8, 1906",
+                "nationality": "American",
+                "description": "An American architect best known for his works in postmodern architecture. He is one of the most renowned architects of the 20th century and played a major role in popularizing postmodern architecture through his influential buildings and writings.",
+                "notable_buildings": [
+                    "AT&T Building",
+                    "Lipstick Building",
+                    "Sony Tower"
+                ]
+            },
+            {
+                "name": "Michael Graves",
+                "birth_date": "July 9, 1934",
+                "nationality": "American",
+                "description": "An American architect and designer renowned for his postmodernist architecture and product design. Graves was one of the leading figures of the postmodernist movement and his buildings are known for their playful and eclectic style.",
+                "notable_buildings": [
+                    "Portland Building",
+                    "Humana Building",
+                    "Denver Public Library"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1950s to present",
+            "period": "Contemporary architecture",
+            "description": "Postmodern architecture is an eclectic style that emerged in the late 20th century. It is characterized by the use of playful forms, bright colors, and references to historical architectural styles and pop culture. Postmodernism rejects the strict rules of modernism and celebrates individualism and creativity.",
+            "characteristics": [
+                "Eclecticism",
+                "References to historical architecture",
+                "Playful forms",
+                "Bright colors",
+                "Irony",
+                "Humor",
+                "Exaggeration"
+            ],
+            "examples": [
+                "AT&T Building in New York City",
+                "Walt Disney Concert Hall in Los Angeles",
+                "Piazza d'Italia in New Orleans",
+                "Vitra Design Museum in Germany"
+            ],
+            "continent": "North America, Europe",
+            "country": "United States, Germany, Italy"
+        },
+        "terms": "Nouns: movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology \n\nAdjectives: eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital"
+    },
+    "Neo-Modernism architecture": {
+        "architects": [
+            {
+                "name": "Richard Meier",
+                "birthdate": "1934-10-12",
+                "nationality": "American",
+                "description": "Famous for his white, geometric buildings",
+                "notable_buildings": [
+                    "The Getty Center in Los Angeles, California",
+                    "The Rachofsky House in Dallas, Texas"
+                ]
+            },
+            {
+                "name": "Renzo Piano",
+                "birthdate": "1937-09-14",
+                "nationality": "Italian",
+                "description": "Known for his innovative designs and eco-friendly buildings",
+                "notable_buildings": [
+                    "The Shard in London, England",
+                    "The Centre Georges Pompidou in Paris, France"
+                ]
+            },
+            {
+                "name": "Frank Gehry",
+                "birthdate": "1929-02-28",
+                "nationality": "American",
+                "description": "Famous for his sculptural, unconventional designs",
+                "notable_buildings": [
+                    "The Walt Disney Concert Hall in Los Angeles, California",
+                    "The Guggenheim Museum Bilbao in Bilbao, Spain"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "mid-20th century to present day",
+            "period": "Contemporary",
+            "description": "Neo-Modernism architecture is a revival of Modernism, but with a more dynamic and daring approach. It combines the sleek lines and industrial materials of Modernism with new technologies and global design inspirations. The result is a more expressive, organic, and sculptural version of Modernism that is more attuned to contemporary needs and tastes.",
+            "characteristics": [
+                "Simplicity and functionalism",
+                "Minimalism and abstraction",
+                "Integration of nature and technology",
+                "Use of non-traditional materials",
+                "Dynamic and sculptural forms"
+            ],
+            "examples": [
+                "The Guggenheim Museum Bilbao by Frank Gehry",
+                "The CCTV building in Beijing by Rem Koolhaas",
+                "The Heydar Aliyev Center in Baku by Zaha Hadid",
+                "The HSBC Main Building in Hong Kong by Norman Foster"
+            ],
+            "continent": "Multiple continents",
+            "country": "Global"
+        },
+        "terms": "Nouns: architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation.\n\nAdjectives: contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
+    },
+    "Tudor architecture": {
+        "architects": [
+            {
+                "name": "John Thorpe",
+                "birth_date": "c. 1560",
+                "nationality": "English",
+                "description": "One of the most important Tudor architects, known for his work on country houses and palaces.",
+                "notable_buildings": [
+                    "Longleat House",
+                    "Oxford University's Pembroke College"
+                ]
+            },
+            {
+                "name": "Robert Smythson",
+                "birth_date": "1534-1540",
+                "nationality": "English",
+                "description": "A leading Elizabethan architect, known for his work on grand country houses and gardens.",
+                "notable_buildings": [
+                    "Wollaton Hall",
+                    "Hardwick Hall"
+                ]
+            },
+            {
+                "name": "John Loughborough Pearson",
+                "birth_date": "1817-1897",
+                "nationality": "English",
+                "description": "A Gothic Revival architect who designed many churches and cathedrals in Tudor style.",
+                "notable_buildings": [
+                    "Truro Cathedral",
+                    "St John's College Chapel, Cambridge"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1485-1603",
+            "period": "Late Gothic/Early Renaissance",
+            "description": "Tudor architecture is an architectural style which developed during the Tudor period in England between the late Medieval period and the early Renaissance. It is characterized by half-timbered buildings with exposed wood beams, ornate chimneys, and steeply pitched roofs. Tudor architecture is known for its symmetry, often featuring large, decorative chimneys on each end of the building, and large mullioned windows. ",
+            "characteristics": [
+                "Half-timbered buildings",
+                "Exposed wood beams",
+                "Ornate chimneys",
+                "Steeply pitched roofs",
+                "Large decorative chimneys",
+                "Large mullioned windows"
+            ],
+            "examples": [
+                "Hampton Court Palace",
+                "St. James's Palace",
+                "Hatfield House",
+                "Oxburgh Hall",
+                "Burghley House",
+                "Chatsworth House",
+                "Anne Hathaway's Cottage"
+            ],
+            "continent": "Europe",
+            "country": "England"
+        },
+        "terms": "Nouns: buildings, structures, palaces, mansions, churches, castles, houses, gardens\nAdjectives: ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate"
+    },
+    "Colonial architecture": {
+        "architects": [
+            {
+                "name": "Christopher Wren",
+                "birthDate": "October 20, 1632",
+                "nationality": "English",
+                "description": "English architect and mathematician, who designed many churches and public buildings in the Baroque style after the Great Fire of London.",
+                "notableBuildings": [
+                    "St. Paul's Cathedral, London",
+                    "Hampton Court Palace, London"
+                ]
+            },
+            {
+                "name": "Thomas Jefferson",
+                "birthDate": "April 13, 1743",
+                "nationality": "American",
+                "description": "American statesman, diplomat, lawyer, architect, philosopher, and Founding Father who served as the third president of the United States. He was a primary author of the Declaration of Independence and an advocate of Greek and Roman classics in architecture.",
+                "notableBuildings": [
+                    "Monticello, Virginia",
+                    "University of Virginia, Virginia"
+                ]
+            },
+            {
+                "name": "Charles Bulfinch",
+                "birthDate": "August 8, 1763",
+                "nationality": "American",
+                "description": "American architect who was responsible for the design of many important buildings in Boston and Washington, D.C., in the early 19th century. He was one of the first Americans to have traveled to Italy to study classical architecture.",
+                "notableBuildings": [
+                    "Massachusetts State House, Boston",
+                    "U.S. Capitol, Washington, D.C."
+                ]
+            }
+        ],
+        "style": {
+            "time range": "15th century - mid 19th century",
+            "period": "Colonial period",
+            "description": "Architecture style characterized by the buildings constructed during the colonial era by European settlers in the Americas, Africa, and Asia. The style is influenced by the architectural styles prevalent in the mother country combined with the local cultures and materials available.",
+            "characteristics": [
+                "Symmetrical facades",
+                "Tall columns",
+                "Brick or stone construction",
+                "Elaborate ornamentation",
+                "Mansard roofs",
+                "Balconies",
+                "Arcaded porches",
+                "Wooden shutters",
+                "Large windows",
+                "Central entrance",
+                "Rooftop terraces"
+            ],
+            "examples": [
+                "Spanish Colonial Revival architecture in California",
+                "Dutch colonial architecture in Indonesia",
+                "French colonial architecture in Vietnam",
+                "Portuguese colonial architecture in Brazil",
+                "British colonial architecture in India"
+            ],
+            "continent": [
+                "North America",
+                "South America",
+                "Africa",
+                "Asia"
+            ],
+            "country": [
+                "United States",
+                "Brazil",
+                "India",
+                "Indonesia",
+                "Vietnam"
+            ]
+        },
+        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofs\nadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural"
+    },
+    "Greek Classical architecture": {
+        "architects": [
+            {
+                "name": "Phidias",
+                "birth_date": "c. 480 BCE",
+                "nationality": "Greek",
+                "description": "A celebrated sculptor, architect, and master builder who worked primarily in Athens. He is best known for his monumental statues and reliefs, including the statue of Athena Parthenos in the Parthenon.",
+                "notable_buildings": [
+                    "Parthenon"
+                ]
+            },
+            {
+                "name": "Iktinos",
+                "birth_date": "c. 480 BCE",
+                "nationality": "Greek",
+                "description": "A Greek architect who designed the Parthenon together with Callicrates. Although very little is known about his life, Iktinos' contribution to the Parthenon is considered one of the finest examples of classical Greek architecture.",
+                "notable_buildings": [
+                    "Parthenon"
+                ]
+            },
+            {
+                "name": "Mnesicles",
+                "birth_date": "5th century BCE",
+                "nationality": "Greek",
+                "description": "A notable Greek architect who was responsible for the design of the Propylaea, the gateway to the Acropolis. Mnesicles' was known for his use of curved walls and his ability to create dramatic and imposing entrances to important buildings.",
+                "notable_buildings": [
+                    "Propylaea"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "5th century BCE to 4th century BCE",
+            "period": "Classical period",
+            "description": "Greek Classical architecture is characterized by its simplicity, harmony, and order. Buildings were designed to be functional and aesthetically pleasing, with a focus on proportion and balance. The style is known for its use of columns, capitals, and friezes, as well as pediments, cornices, and entablatures. The Greek Classical style influenced architecture throughout Europe and continues to be a major influence in modern architecture.",
+            "characteristics": [
+                "Symmetry and proportion",
+                "Use of columns, capitals, and friezes",
+                "Pediments, cornices, and entablatures",
+                "Simple, elegant designs"
+            ],
+            "examples": [
+                "Parthenon in Athens",
+                "Temple of Apollo at Delphi",
+                "Temple of Hephaestus in Athens"
+            ],
+            "continent": "Europe",
+            "country": "Greece"
+        },
+        "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style"
+    },
+    "Contemporary architecture": {
+        "architects": [
+            {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "nationality": "Iraqi-British",
+                "description": "Known for her bold, avant-garde designs that push the boundaries of contemporary architecture. She was the first woman to win the Pritzker Architecture Prize in 2004.",
+                "notable_buildings": [
+                    {
+                        "name": "Guangzhou Opera House",
+                        "location": "Guangzhou, China"
+                    },
+                    {
+                        "name": "Maxxi Museum",
+                        "location": "Rome, Italy"
+                    },
+                    {
+                        "name": "Heydar Aliyev Center",
+                        "location": "Baku, Azerbaijan"
+                    }
+                ]
+            },
+            {
+                "name": "Frank Gehry",
+                "birth_date": "February 28, 1929",
+                "nationality": "American",
+                "description": "Known for his unconventional, sculptural designs made of materials like titanium, steel, and glass. He has won numerous awards for his work, including the Pritzker Architecture Prize in 1989.",
+                "notable_buildings": [
+                    {
+                        "name": "Guggenheim Museum Bilbao",
+                        "location": "Bilbao, Spain"
+                    },
+                    {
+                        "name": "Walt Disney Concert Hall",
+                        "location": "Los Angeles, California, USA"
+                    },
+                    {
+                        "name": "Dancing House",
+                        "location": "Prague, Czech Republic"
+                    }
+                ]
+            },
+            {
+                "name": "Norman Foster",
+                "birth_date": "June 1, 1935",
+                "nationality": "British",
+                "description": "Known for his sleek, modern designs that prioritize sustainability and functionality. He has been awarded the Pritzker Architecture Prize, among other honors.",
+                "notable_buildings": [
+                    {
+                        "name": "The Gherkin",
+                        "location": "London, England"
+                    },
+                    {
+                        "name": "Hong Kong International Airport",
+                        "location": "Hong Kong"
+                    },
+                    {
+                        "name": "Reichstag Building",
+                        "location": "Berlin, Germany"
+                    }
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1950s - present",
+            "period": "Contemporary",
+            "description": "Contemporary architecture refers to the architecture of the present time period, which started in the 1950s and is still ongoing. It is characterized by designs that challenge traditional styles, materials, and building techniques. Contemporary architects often experiment with new materials and technologies, including sustainable and environmentally-friendly designs.",
+            "characteristics": [
+                "Simplicity",
+                "Clean lines",
+                "Minimalism",
+                "Functionalism",
+                "Bold colors and shapes",
+                "Integration of indoor and outdoor spaces",
+                "Emphasis on sustainability"
+            ],
+            "examples": [
+                "Guggenheim Museum Bilbao in Spain",
+                "The Shard in London",
+                "Burj Khalifa in Dubai",
+                "Fallingwater House by Frank Lloyd Wright",
+                "The Sydney Opera House in Australia"
+            ],
+            "continent": "Multiple",
+            "country": "Various"
+        },
+        "terms": "Contemporary architecture: minimal, innovative, sleek, geometric, sustainable, functional, dynamic, experimental."
+    },
+    "Byzantine architecture": {
+        "architects": [
+            {
+                "name": "Anthemius of Tralles",
+                "birth_date": "474 AD",
+                "nationality": "Byzantine",
+                "description": "A mathematician and architect famous for designing the Hagia Sophia.",
+                "notable_buildings": [
+                    "Hagia Sophia"
+                ]
+            },
+            {
+                "name": "Isidore of Miletus",
+                "birth_date": "6th century AD",
+                "nationality": "Byzantine",
+                "description": "An architect known for designing the Hagia Sophia.",
+                "notable_buildings": [
+                    "Hagia Sophia"
+                ]
+            },
+            {
+                "name": "Sedulius",
+                "birth_date": "5th century AD",
+                "nationality": "Byzantine",
+                "description": "An architect and theologian who designed several churches in Constantinople.",
+                "notable_buildings": [
+                    "Church of St. Irene",
+                    "Basilica of St. John the Apostle"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "4th century \u2013 15th century",
+            "period": "Late Antiquity, Byzantine era, Medieval period",
+            "description": "Byzantine architecture refers to the architectural style developed during the Byzantine Empire period, characterized by a combination of Roman, Greek, and Eastern influences. It is known for its use of intricate mosaics, domes, and vaulted ceilings.",
+            "characteristics": [
+                "Intricate mosaics",
+                "Domes and vaulted ceilings",
+                "Hypostyle halls",
+                "Multi-lobed arches",
+                "Brick or stone construction",
+                "Use of marble and gold",
+                "Religious symbolism"
+            ],
+            "examples": [
+                "Hagia Sophia, Istanbul",
+                "Church of the Holy Apostles, Thessaloniki",
+                "Church of St. John the Evangelist, Ravenna",
+                "Basilica of San Vitale, Ravenna",
+                "Church of the Nativity, Bethlehem"
+            ],
+            "continent": "Europe",
+            "country": "Turkey, Greece, Italy, Palestine"
+        },
+        "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless."
+    },
+    "Ancient Egyptian architecture": {
+        "architects": [
+            {
+                "name": "Imhotep",
+                "birthdate": "-2650",
+                "nationality": "Ancient Egyptian",
+                "description": "Imhotep is considered the first architect in history and a renowned physician. He was also the chief advisor to the pharaoh Djoser.",
+                "notable_buildings": [
+                    "Step Pyramid of Djoser at Saqqara"
+                ]
+            },
+            {
+                "name": "Senenmut",
+                "birthdate": "-1500",
+                "nationality": "Ancient Egyptian",
+                "description": "Senenmut was a notable architect during the reign of Queen Hatshepsut. He was also a high-ranking official in the royal court.",
+                "notable_buildings": [
+                    "Temple of Hatshepsut at Deir el-Bahri",
+                    "Temple of Amun at Karnak"
+                ]
+            },
+            {
+                "name": "Hemiunu",
+                "birthdate": "-2600",
+                "nationality": "Ancient Egyptian",
+                "description": "Hemiunu was an architect and a vizier during the reign of pharaoh Khufu. He is believed to have designed the Great Pyramid of Giza.",
+                "notable_buildings": [
+                    "Great Pyramid of Giza"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "c. 3100 BC \u2013 c. 30 BC",
+            "period": "Ancient Egyptian",
+            "description": "Ancient Egyptian architecture is the architecture of the ancient Egyptians, who built many of the most impressive and enduring monuments in the world. It includes temples, tombs, pyramids, obelisks, and other structures.",
+            "characteristics": [
+                "Massive scale",
+                "Use of geometry and symmetry",
+                "Hieroglyphic inscriptions",
+                "Decorative reliefs and paintings",
+                "Use of pillars and columns",
+                "Stylized depictions of gods and pharaohs"
+            ],
+            "examples": [
+                "Great Pyramids of Giza",
+                "Karnak Temple",
+                "Luxor Temple",
+                "Valley of the Kings",
+                "Abu Simbel temples"
+            ],
+            "continent": "Africa",
+            "country": "Egypt"
+        },
+        "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive."
+    },
+    "Mannerist Architecture": {
+        "architects": [
+            {
+                "name": "Giorgio Vasari",
+                "birth_date": "30 July 1511",
+                "nationality": "Italian",
+                "description": "An Italian painter, architect, writer, and historian, known for his influential work on art history and his Mannerist architecture designs.",
+                "notable_buildings": [
+                    "Palazzo degli Uffizi in Florence, Italy",
+                    "Palazzo della Cancelleria in Rome, Italy"
+                ]
+            },
+            {
+                "name": "Bartolomeo Ammannati",
+                "birth_date": "18 June 1511",
+                "nationality": "Italian",
+                "description": "An Italian architect and sculptor, known for his contributions to the development of Mannerist architecture.",
+                "notable_buildings": [
+                    "Palazzo Pitti in Florence, Italy",
+                    "Fountain of Neptune in Florence, Italy"
+                ]
+            },
+            {
+                "name": "Jacopo Barozzi da Vignola",
+                "birth_date": "1 October 1507",
+                "nationality": "Italian",
+                "description": "An Italian architect and writer, known for his work on Mannerist architecture and his influential treatise 'The Five Orders of Architecture'.",
+                "notable_buildings": [
+                    "Villa Farnese in Caprarola, Italy",
+                    "Chiesa del Ges\u00f9 in Rome, Italy"
+                ]
+            }
+        ],
+        "terms": "Mannerist Architecture: theatrical, exaggerated, ornamental, sculptural, asymmetrical, elongated, distorted, fantasy-like.",
+        "style": {
+            "time_range": "1520s-1600s",
+            "period": "Late Renaissance",
+            "description": "Mannerist architecture is characterized by a highly expressive, individualistic, and exaggerated style that departed from the classical simplicity and harmony of the Renaissance. Architects often used distorted and asymmetrical forms, intricate decorative details, and complex spatial relationships to create a sense of spectacle and drama.",
+            "characteristics": [
+                "Distorted and asymmetrical forms",
+                "Intricate decorative details",
+                "Complex spatial relationships",
+                "Spectacle and drama",
+                "Emphasis on individual expression"
+            ],
+            "examples": [
+                "Palazzo del T\u00e8 in Mantua, Italy",
+                "Fontainebleau Palace in France",
+                "Escorial Monastery in Spain",
+                "Il Ges\u00f9 Church in Rome",
+                "Villa Farnese in Caprarola, Italy"
+            ],
+            "continent": "Europe",
+            "country": "Italy"
+        }
+    },
+    "Arts and Crafts architecture": {
+        "architects": [
+            {
+                "name": "William Morris",
+                "birth_date": "1834-03-24",
+                "nationality": "English",
+                "description": "A leading figure in the Arts and Crafts movement, Morris was primarily a designer and writer, but also a social activist and entrepreneur. He believed in the importance of traditional craftsmanship and rejected industrialization and mass production. Morris's architectural work was largely limited to designing interiors and furnishings for his own homes and those of his friends.",
+                "notable_buildings": [
+                    "The Red House"
+                ]
+            },
+            {
+                "name": "C.F.A. Voysey",
+                "birth_date": "1857-05-28",
+                "nationality": "English",
+                "description": "Voysey was a pioneering modernist architect and designer who advocated for simplicity and functionality over ornamentation and historical styles. His Arts and Crafts work was characterized by clean lines, simple geometric forms, and an emphasis on natural materials. He was a key member of the Arts and Crafts Exhibition Society and the author of several influential books on architecture and design.",
+                "notable_buildings": [
+                    "Broadleys",
+                    "The Homewood",
+                    "The Lodge",
+                    "The Orchard"
+                ]
+            },
+            {
+                "name": "Charles Rennie Mackintosh",
+                "birth_date": "1868-06-07",
+                "nationality": "Scottish",
+                "description": "Mackintosh was a pioneering modernist architect, designer, and artist who was a key figure in the Art Nouveau and Arts and Crafts movements. His style was characterized by a distinctive blend of traditional Scottish motifs, Japanese design, and modernist simplicity. His most famous works include the Glasgow School of Art, the Hill House, and the Willow Tea Rooms.",
+                "notable_buildings": [
+                    "Glasgow School of Art",
+                    "Hill House",
+                    "The Willow Tea Rooms"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 19th to early 20th century",
+            "period": "Victorian-era architecture",
+            "description": "A style that emphasizes traditional craftsmanship and simple forms, often with natural materials.",
+            "characteristics": "Hand-crafted details, exposed joinery, open floor plans, use of natural materials, emphasis on function over decoration.",
+            "examples": [
+                "Charles Rennie Mackintosh's Glasgow School of Art",
+                "William Morris's Red House",
+                "Greene and Greene's Gamble House"
+            ],
+            "continent": "Europe and North America",
+            "country": [
+                "United Kingdom",
+                "United States"
+            ]
+        },
+        "terms": "Nouns: architecture, movement, style, houses, buildings\nAdjectives: traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible."
+    },
+    "Victorian architecture": {
+        "architects": [
+            {
+                "name": "Charles Barry",
+                "birth_date": "23 May 1795",
+                "nationality": "British",
+                "description": "Charles Barry was an English architect, best known for his role in the rebuilding of the Palace of Westminster in London after it was destroyed by fire in 1834.",
+                "notable_buildings": [
+                    "The Palace of Westminster in London, England"
+                ]
+            },
+            {
+                "name": "William Burges",
+                "birth_date": "2 December 1827",
+                "nationality": "British",
+                "description": "William Burges was a Victorian era architect and designer who is best known for his Gothic Revival architecture.",
+                "notable_buildings": [
+                    "Cardiff Castle in Wales",
+                    "Saint Fin Barre's Cathedral in Cork, Ireland"
+                ]
+            },
+            {
+                "name": "Augustus Pugin",
+                "birth_date": "1 March 1812",
+                "nationality": "British",
+                "description": "Augustus Pugin was an English architect, designer, and critic, best known for his work on the interiors and exteriors of the Houses of Parliament in Westminster.",
+                "notable_buildings": [
+                    "The Palace of Westminster in London, England",
+                    "St. Giles' Catholic Church in Cheadle, England"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1837-1901",
+            "period": "Victorian era",
+            "description": "Architecture style characterized by Gothic Revival, Italianate, and Queen Anne styles",
+            "characteristics": [
+                "ornate details",
+                "steeply pitched roofs",
+                "tall chimneys",
+                "pointed arches",
+                "use of iron and glass",
+                "polychromatic brickwork",
+                "elaborate decoration"
+            ],
+            "examples": [
+                "Big Ben in London",
+                "St Pancras Station in London",
+                "Tower Bridge in London",
+                "The Palace of Westminster",
+                "The Victoria and Albert Museum in London"
+            ],
+            "continent": "Europe",
+            "country": "United Kingdom"
+        },
+        "terms": "Nouns: style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans \n\nAdjectives: ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic"
+    },
+    "Parametric architecture": {
+        "architects": [
+            {
+                "name": "Zaha Hadid",
+                "birthDate": "31 October 1950",
+                "nationality": "Iraqi-British",
+                "description": "Pioneer of parametric and deconstructivist architecture",
+                "notableBuildings": [
+                    "Heydar Aliyev Centre in Baku, Azerbaijan",
+                    "Riverside Museum in Glasgow, Scotland",
+                    "Guangzhou Opera House in Guangzhou, China"
+                ]
+            },
+            {
+                "name": "Frank Gehry",
+                "birthDate": "28 February 1929",
+                "nationality": "Canadian-American",
+                "description": "Known for his use of computer-aided design in creating complex forms",
+                "notableBuildings": [
+                    "Walt Disney Concert Hall in Los Angeles, California",
+                    "Guggenheim Museum Bilbao in Bilbao, Spain",
+                    "The Dancing House in Prague, Czech Republic"
+                ]
+            },
+            {
+                "name": "Fumihiko Maki",
+                "birthDate": "6 September 1928",
+                "nationality": "Japanese",
+                "description": "Combines traditional Japanese elements with modern technology",
+                "notableBuildings": [
+                    "Spiral Building in Tokyo, Japan",
+                    "Makuhari Messe in Chiba, Japan",
+                    "United Nations Headquarters in New York, United States"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1990s - present",
+            "period": "Contemporary Architecture",
+            "description": "Parametric Architecture is a form of digital design that uses algorithms to create complex and fluid forms. It emphasizes the use of parametric tools and techniques to generate intricate and unique designs.",
+            "characteristics": [
+                "Incorporates advanced digital design technology",
+                "Focuses on creating complex and fluid forms",
+                "Uses algorithms and parametric tools to generate designs",
+                "Emphasizes customization and variation",
+                "Often incorporates sustainable design principles"
+            ],
+            "examples": [
+                "Zaha Hadid\u2019s Guangzhou Opera House in China",
+                "Frank Gehry\u2019s Walt Disney Concert Hall in Los Angeles",
+                "Bjarke Ingels Group\u2019s Amager Bakke Waste-to-Energy Plant in Copenhagen"
+            ],
+            "continent": "Global",
+            "country": "N/A (as it is a global design style)"
+        },
+        "terms": "Parametric architecture: architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative."
+    },
+    "Organic architecture": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "1867-06-08",
+                "nationality": "American",
+                "description": "Pioneer of Organic Architecture. He believed in designing buildings that were in harmony with humanity and its environment, a philosophy he called \"organic architecture\". ",
+                "notable_buildings": [
+                    "Fallingwater",
+                    "Taliesin West",
+                    "Solomon R. Guggenheim Museum"
+                ]
+            },
+            {
+                "name": "Antoni Gaud\u00ed",
+                "birth_date": "1852-06-25",
+                "nationality": "Spanish",
+                "description": "Known for his highly individualistic organic style.",
+                "notable_buildings": [
+                    "Sagrada Fam\u00edlia",
+                    "Park G\u00fcell",
+                    "Casa Batll\u00f3"
+                ]
+            },
+            {
+                "name": "Louis Sullivan",
+                "birth_date": "1856-09-03",
+                "nationality": "American",
+                "description": "Often referred to as the \"father of modernism\". He is best known for his pioneering work in skyscraper design.",
+                "notable_buildings": [
+                    "Wainwright Building",
+                    "Guaranty Building",
+                    "Carson, Pirie, Scott and Company Building"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 19th century to mid-20th century",
+            "period": "Modernism",
+            "description": "Organic architecture is an architectural style that emphasizes the harmony between human habitation and the natural world. It is characterized by the use of natural materials, integration with the surrounding environment, and fluid, organic shapes inspired by nature.",
+            "characteristics": [
+                "Use of natural materials, such as wood, stone, and glass",
+                "Integration with the surrounding environment",
+                "Fluid, organic shapes inspired by nature",
+                "Emphasis on the harmony between human habitation and the natural world"
+            ],
+            "examples": [
+                "Fallingwater house by Frank Lloyd Wright",
+                "Taliesin West by Frank Lloyd Wright",
+                "Solomon R. Guggenheim Museum by Frank Lloyd Wright",
+                "Lovell Health House by Richard Neutra"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "Nouns: Architecture, Nature, Building, Design, Materials, Space \nAdjectives: Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
+    },
+    "Sustainable or Green architecture": {
+        "architects": [
+            {
+                "name": "Norman Foster",
+                "birth_date": "1 June 1935",
+                "nationality": "British",
+                "description": "Norman Foster is a prolific British architect who is known for his sustainable and environmentally conscious design approach",
+                "notable_buildings": [
+                    "HSBC Building, Hong Kong",
+                    "Commerzbank Tower, Frankfurt",
+                    "Millennium Bridge, London",
+                    "The Gherkin, London"
+                ]
+            },
+            {
+                "name": "Bjarke Ingels",
+                "birth_date": "2 October 1974",
+                "nationality": "Danish",
+                "description": "Bjarke Ingels is a young Danish architect known for his focus on innovative and sustainable architecture designs with a focus on creating a better living experience for humans",
+                "notable_buildings": [
+                    "VM Houses, Copenhagen",
+                    "8 House, Copenhagen",
+                    "Via 57 West, New York City",
+                    "The Twist, Jevnaker"
+                ]
+            },
+            {
+                "name": "Renzo Piano",
+                "birth_date": "14 September 1937",
+                "nationality": "Italian",
+                "description": "Renzo Piano is a renowned Italian architect known for his innovative, sustainable and green architecture designs which are best exemplified by his focus on using materials and technology that were ecologically friendly",
+                "notable_buildings": [
+                    "The Shard, London",
+                    "Centre Georges Pompidou, Paris",
+                    "The New York Times Building, New York City",
+                    "The Whitney Museum of American Art, New York City"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 20th century - present",
+            "period": "Contemporary architecture",
+            "description": "Sustainable or Green architecture is an approach to the design and construction of buildings that focuses on reducing the negative impact of the built environment on the natural environment. This approach seeks to use resources more efficiently, reduce waste, and minimize the use of harmful materials.",
+            "characteristics": [
+                "Use of renewable energy sources such as solar, wind, and hydro power",
+                "Use of energy efficient technologies to reduce energy consumption",
+                "Green roofs and walls to help reduce the urban heat island effect and improve air quality",
+                "Use of sustainable materials such as bamboo, recycled steel, and straw bale construction",
+                "Water conservation strategies, including rainwater harvesting and greywater systems"
+            ],
+            "examples": [
+                "The Bullitt Center in Seattle, USA",
+                "The Pixel Building in Melbourne, Australia",
+                "The BedZED development in London, UK"
+            ],
+            "continent": "Various",
+            "country": "Various"
+        },
+        "terms": "Nouns: environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community\nAdjectives: sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
+    },
+    "Neo-futurism architecture": {
+        "architects": [
+            {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "nationality": "British-Iraqi",
+                "description": "Zaha Hadid was an architect known for her innovative designs using flowing lines and organic shapes, often with an emphasis on large-scale projects.",
+                "notable_buildings": [
+                    "Heydar Aliyev Center in Baku, Azerbaijan",
+                    "MAXXI - National Museum of XXI Century Arts in Rome, Italy"
+                ]
+            },
+            {
+                "name": "Santiago Calatrava",
+                "birth_date": "July 28, 1951",
+                "nationality": "Spanish",
+                "description": "Santiago Calatrava is a Spanish architect known for his sleek and futuristic structures that often incorporate striking geometric shapes and intricate details.",
+                "notable_buildings": [
+                    "City of Arts and Sciences in Valencia, Spain",
+                    "Turning Torso tower in Malm\u00f6, Sweden"
+                ]
+            },
+            {
+                "name": "Bjarke Ingels",
+                "birth_date": "October 2, 1974",
+                "nationality": "Danish",
+                "description": "Bjarke Ingels is a Danish architect who is known for his playful and forward-thinking designs that often incorporate sustainable and environmentally conscious features.",
+                "notable_buildings": [
+                    "The Mountain residential complex in Copenhagen, Denmark",
+                    "The Google North Bayshore headquarters in Mountain View, California"
+                ]
+            }
+        ],
+        "style": {
+            "time range": "1960s-present",
+            "period": "Contemporary architecture",
+            "description": "Neo-futurism is a late 20th and early 21st century architectural style characterized by a futuristic aesthetic and a rejection of modernist design principles. It takes inspiration from science fiction, technology, and the concept of a utopian future.",
+            "characteristics": [
+                "Strong visual impact",
+                "Use of new materials and technology",
+                "Sculptural and organic forms",
+                "Dynamic and fluid shapes",
+                "Emphasis on light and transparency",
+                "Functionality and sustainability"
+            ],
+            "examples": [
+                "Guggenheim Museum Bilbao, Spain",
+                "London Aquatics Centre, UK",
+                "City of Arts and Sciences, Valencia, Spain",
+                "Heydar Aliyev Center, Baku, Azerbaijan",
+                "Niter\u00f3i Contemporary Art Museum, Brazil"
+            ],
+            "continent": "Global",
+            "country": "Various"
+        },
+        "terms": "Nouns: architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance.\n\nAdjectives: avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
+    }
+}
