@@ -113,7 +113,7 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": "Nouns: buildings, structures, domes, arches, columns, symmetry, proportion, harmony\nAdjectives: elegant, extravagant, ornate, classical, monumental, grand, sophisticated"
+        "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated"
     },
     "Secession": {
         "architects": [
@@ -177,7 +177,7 @@
                 "Germany"
             ]
         },
-        "terms": "Nouns: architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation.\n\nAdjectives: ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
+        "terms": " architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation. ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
     },
     "Bauhaus": {
         "architects": [
@@ -233,7 +233,7 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": "Nouns: design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism\nAdjectives: simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative"
+        "terms": " design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative"
     },
     "Historicism": {
         "architects": [
@@ -289,7 +289,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": "Nouns: architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation\nAdjectives: contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
+        "terms": " architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
     },
     "Modern": {
         "architects": [
@@ -357,7 +357,7 @@
             "continent": "Global",
             "country": "Varous"
         },
-        "terms": "Nouns: buildings, structures, design, materials, functionality\nAdjectives: innovative, futuristic, sleek, minimalistic, functional."
+        "terms": " buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional."
     },
     "Neoclassical": {
         "architects": [
@@ -414,7 +414,7 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": "Nouns: classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades\n\nAdjectives: simple, elegant, restrained, balanced, ordered, harmonious, timeless"
+        "terms": " classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless"
     },
     "Gothic": {
         "architects": [
@@ -539,7 +539,11 @@
                 "The Hoover Building in London, UK",
                 "The Empire State Building in New York City"
             ],
-            "continent": "North America, Europe, Asia",
+            "continent": [
+                "North America",
+                "Europe",
+                "Asia"
+            ],
             "country": [
                 "United States of America",
                 "United Kingdom",
@@ -607,7 +611,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Nouns: architecture, design, furniture, interior, style, buildings\nAdjectives: sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
+        "terms": " architecture, design, furniture, interior, style, buildings sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
     },
     "Neo-Gothic": {
         "architects": [
@@ -665,7 +669,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": "Nouns: architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows. \nAdjectives: historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
+        "terms": " architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows.  historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
     },
     "Italianate": {
         "architects": [
@@ -832,14 +836,17 @@
                 "Jewish Museum Berlin",
                 "Seattle Central Library"
             ],
-            "continent": "North America, Europe",
+            "continent": [
+                "North America",
+                "Europe"
+            ],
             "country": [
                 "USA",
                 "Spain",
                 "Germany"
             ]
         },
-        "terms": "Nouns: architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces.\nAdjectives: non-linear, disorienting, angular, fragmented, complex, provocative, abstract."
+        "terms": " architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract."
     },
     "Beaux Arts": {
         "architects": [
@@ -963,7 +970,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Nouns: architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal.\n\nAdjectives: unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions."
+        "terms": " architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions."
     },
     "American Craftsman": {
         "architects": [
@@ -1021,7 +1028,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Nouns: Craftsman, architecture\n\nAdjectives: American"
+        "terms": " Craftsman, architecture American"
     },
     "Ranch-style house": {
         "architects": [
@@ -1080,7 +1087,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "nouns: house, architecture\nadjectives: ranch-style"
+        "terms": "nouns: house, architectureadjectives: ranch-style"
     },
     "Colonial Revival": {
         "architects": [
@@ -1470,7 +1477,7 @@
                 "Russia"
             ]
         },
-        "terms": "Nouns: decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality\n\nAdjectives: playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent."
+        "terms": " decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent."
     },
     "Art Nouveau": {
         "architects": [
@@ -1537,7 +1544,7 @@
                 "France"
             ]
         },
-        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organic\nfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves\ninfluence: 19th century decorative arts, nature, Japanese art\nexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona."
+        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organicfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curvesinfluence: 19th century decorative arts, nature, Japanese artexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona."
     },
     "Greek Revival": {
         "architects": [
@@ -1657,7 +1664,7 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": "Nouns: style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone.\n\nAdjectives: neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant."
+        "terms": " style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant."
     },
     "International Style": {
         "architects": [
@@ -1721,7 +1728,7 @@
                 "Netherlands"
             ]
         },
-        "terms": "Nouns: buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs.\n\nAdjectives: modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational."
+        "terms": " buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs. modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational."
     },
     "Modernist": {
         "architects": [
@@ -1782,7 +1789,7 @@
                 "Switzerland"
             ]
         },
-        "terms": "Nouns: Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry.\n\nAdjectives: Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
+        "terms": " Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry. Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
     },
     "Postmodernism": {
         "architects": [
@@ -1839,14 +1846,17 @@
                 "Piazza d'Italia in New Orleans",
                 "Vitra Design Museum in Germany"
             ],
-            "continent": "North America, Europe",
+            "continent": [
+                "North America",
+                "Europe"
+            ],
             "country": [
                 "United States of America",
                 "Germany",
                 "Italy"
             ]
         },
-        "terms": "Nouns: movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology \n\nAdjectives: eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital"
+        "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital"
     },
     "Neo-Modernism": {
         "architects": [
@@ -1901,7 +1911,7 @@
             "continent": "Multiple continents",
             "country": "Global"
         },
-        "terms": "Nouns: architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation.\n\nAdjectives: contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
+        "terms": " architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation. contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
     },
     "Tudor": {
         "architects": [
@@ -1960,7 +1970,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": "Nouns: buildings, structures, palaces, mansions, churches, castles, houses, gardens\nAdjectives: ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate"
+        "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate"
     },
     "Colonial": {
         "architects": [
@@ -2033,7 +2043,7 @@
                 "Vietnam"
             ]
         },
-        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofs\nadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural"
+        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofsadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural"
     },
     "Contemporary": {
         "architects": [
@@ -2352,7 +2362,7 @@
                 "United States of America"
             ]
         },
-        "terms": "Nouns: architecture, movement, style, houses, buildings\nAdjectives: traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible."
+        "terms": " architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible."
     },
     "Victorian": {
         "architects": [
@@ -2409,7 +2419,7 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": "Nouns: style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans \n\nAdjectives: ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic"
+        "terms": " style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic"
     },
     "Parametric": {
         "architects": [
@@ -2523,7 +2533,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Nouns: Architecture, Nature, Building, Design, Materials, Space \nAdjectives: Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
+        "terms": " Architecture, Nature, Building, Design, Materials, Space  Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
     },
     "Sustainable or Green": {
         "architects": [
@@ -2583,7 +2593,7 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": "Nouns: environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community\nAdjectives: sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
+        "terms": " environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
     },
     "Neo-futurism": {
         "architects": [
@@ -2640,7 +2650,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "Nouns: architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance.\n\nAdjectives: avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
+        "terms": " architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance. avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
     },
     "Ancient Roman": {
         "architects": [
@@ -2798,7 +2808,11 @@
                 "Blue Mosque, Turkey",
                 "Shah Mosque, Iran"
             ],
-            "continent": "Asia, Europe, Africa",
+            "continent": [
+                "Asia",
+                "Europe",
+                "Africa"
+            ],
             "country": [
                 "Spain",
                 "India",
@@ -2857,7 +2871,7 @@
             "continent": "Europe and North America",
             "country": "England"
         },
-        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookiness\nadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie"
+        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookinessadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie"
     },
     "Beaux-Arts": {
         "architects": [
@@ -2914,7 +2928,7 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": "Nouns: classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches \nAdjectives: ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified"
+        "terms": " classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified"
     },
     "International Style (Modernism)": {
         "architects": [
@@ -2953,7 +2967,7 @@
             }
         ],
         "style": {
-            "time range": "1920s-1960s",
+            "time_range": "1920s-1960s",
             "period": "20th century",
             "description": "The International Style, also known as Modernism, is a minimalist architectural style that emerged in the early 20th century as a rejection of traditional ornamentation and historic styles. Buildings in this style typically feature a clean, geometric design with simple proportions and a lack of decorative elements.",
             "characteristics": [
@@ -2973,7 +2987,7 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": "Nouns: Bauhaus, minimalism, functionality, glass, steel\n\nAdjectives: Clean-lined, sleek, industrial, geometric, unadorned, utilitarian"
+        "terms": " Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian"
     },
     "Brutalism": {
         "architects": [
@@ -3065,10 +3079,16 @@
                 "Smithsonian Hirshhorn Museum and Sculpture Garden in Washington D.C., USA",
                 "University of Pittsburgh Cathedral of Learning in Pittsburgh, USA"
             ],
-            "continent": "Europe, North America",
-            "country": "UK, USA"
+            "continent": [
+                "Europe",
+                "North America"
+            ],
+            "country": [
+                "UK",
+                "USA"
+            ]
         },
-        "terms": "Nouns: Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric.\n\nAdjectives: Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian."
+        "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian."
     },
     "High-Tech": {
         "architects": [
@@ -3123,10 +3143,19 @@
                 "Bank of China Tower in Hong Kong",
                 "Walt Disney Concert Hall in Los Angeles, USA"
             ],
-            "continent": "Europe, Asia, North America",
-            "country": "France, UK, Hong Kong, USA"
+            "continent": [
+                "Europe",
+                "Asia",
+                "North America"
+            ],
+            "country": [
+                "France",
+                "UK",
+                "Hong Kong",
+                "USA"
+            ]
         },
-        "terms": "Nouns: technology, innovation, functionality, steel, glass, concrete, energy efficiency. \n\nAdjectives: sleek, modern, dynamic, efficient, futuristic, industrial, minimalist."
+        "terms": " technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist."
     },
     "Neo-Futurism": {
         "architects": [
@@ -3165,7 +3194,7 @@
             }
         ],
         "style": {
-            "time range": "late 20th century to present",
+            "time_range": "late 20th century to present",
             "period": "contemporary",
             "description": "Neo-Futurism is a modern architectural style that combines futuristic concepts with avant-garde designs. It tries to convey a sense of optimism and a belief in progress through the use of advanced technology and unconventional materials.",
             "characteristics": [
@@ -3245,7 +3274,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "Nouns: buildings, design, materials, energy, environment, community, water, waste.\n\nAdjectives: eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient."
+        "terms": " buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient."
     },
     "Parametricism": {
         "architects": [
@@ -3284,7 +3313,7 @@
             }
         ],
         "style": {
-            "time range": "2008-Present",
+            "time_range": "2008-Present",
             "period": "Contemporary",
             "description": "Parametricism is a contemporary architectural style that utilizes digital technology to create complex and optimized architectural forms.",
             "characteristics": [
@@ -3302,7 +3331,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "Nouns: Parametricism, architecture style\nAdjectives: innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic"
+        "terms": " Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic"
     },
     "New Formalism": {
         "architects": [
@@ -3341,7 +3370,7 @@
             }
         ],
         "style": {
-            "time range": "1950s - present",
+            "time_range": "1950s - present",
             "period": "Contemporary",
             "description": "New Formalism is a movement within contemporary architecture that emphasizes classical design principles and proportions. It is a return to traditional forms and materials, with an added layer of ornamentation and detail.",
             "characteristics": [
@@ -3355,10 +3384,16 @@
                 "National Gallery of Art, Washington, D.C.",
                 "Sainsbury Wing of the National Gallery, London"
             ],
-            "continent": "North America, Europe",
-            "country": "United States, United Kingdom"
+            "continent": [
+                "North America",
+                "Europe"
+            ],
+            "country": [
+                "United States",
+                "United Kingdom"
+            ]
         },
-        "terms": "Nouns: Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references\n\nAdjectives: Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated."
+        "terms": " Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated."
     },
     "Late Modernism": {
         "architects": [
@@ -3528,7 +3563,7 @@
                 "Museum of Islamic Art in Doha, Qatar by I.M. Pei"
             ],
             "continent": "Various",
-            "countries": [
+            "country": [
                 "USA",
                 "Sri Lanka",
                 "Scotland",
@@ -3588,9 +3623,14 @@
                 "The Institute of Contemporary Art by Diller Scofidio + Renfro"
             ],
             "continent": "Europe",
-            "country": "France, Italy, United Kingdom, United States"
+            "country": [
+                "France",
+                "Italy",
+                "United Kingdom",
+                "United States"
+            ]
         },
-        "terms": "Nouns: deconstruction, fragmentation, discourse, ambiguity, multiplicity\nAdjectives: non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical"
+        "terms": " deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical"
     },
     "De Stijl": {
         "architects": [
@@ -3643,7 +3683,7 @@
             "continent": "Europe",
             "country": "Netherlands"
         },
-        "terms": "Nouns: geometric shapes, primary colors, simplicity, functionality\nAdjectives: clean, precise, minimalistic, abstract"
+        "terms": " geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract"
     },
     "Expressionism": {
         "architects": [
@@ -3678,7 +3718,14 @@
             "time_range": "1910s-1930s",
             "period": "Modernism",
             "description": "Expressionism was a relatively short-lived architectural movement in Germany in the early 20th century. It was primarily an artistic movement, but its principles also found expression in architecture.",
-            "characteristics": "Expressionist architecture is characterized by its dramatic shapes, curves, and angles, as well as its use of unconventional materials like reinforced concrete. It is also known for its use of color and light, often employing stained glass to create vibrant, abstract patterns.",
+            "characteristics": [
+                "Expressionist architecture is characterized by its dramatic shapes",
+                "curves",
+                "angles",
+                "as well as its use of unconventional materials like reinforced concrete. It is also known for its use of color and light",
+                "often employing stained glass to create vibrant",
+                "abstract patterns."
+            ],
             "examples": [
                 "Einstein Tower, Potsdam, Germany",
                 "Goetheanum, Dornach, Switzerland",
@@ -3745,6 +3792,2834 @@
                 "Canada"
             ]
         },
-        "terms": "Nouns: structure, form, function, geometry, steel, concrete\n\nAdjectives: bold, industrial, dynamic, angular, angular, geometric, expressive"
+        "terms": " structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive"
+    },
+    "Pre-Romanesque": {
+        "architects": [
+            {
+                "name": "Tilman Riemenschneider",
+                "birth_date": "c. 1460",
+                "death_date": "1531",
+                "nationality": "German",
+                "description": "Sculptor and architect",
+                "notable_buildings": []
+            },
+            {
+                "name": "Anselmo Gotti",
+                "birth_date": "d. 946",
+                "death_date": "d. 972",
+                "nationality": "Italian",
+                "description": "Architect and engineer",
+                "notable_buildings": [
+                    "Basilica di San Salvatore, Spoleto"
+                ]
+            },
+            {
+                "name": "Abbot Suger",
+                "birth_date": "c. 1081",
+                "death_date": "1151",
+                "nationality": "French",
+                "description": "Architect and statesman",
+                "notable_buildings": [
+                    "Abbey Church of St. Denis"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "6th-10th centuries",
+            "period": "Early Medieval",
+            "description": "A style of architecture that emerged in Europe after the fall of the Western Roman Empire, characterized by a mix of Roman, Byzantine, and Germanic architectural elements.",
+            "characteristics": [
+                "Simple and massive construction",
+                "Thick walls with small windows",
+                "Use of rounded arches",
+                "Symmetrical designs",
+                "Decorative elements heavily influenced by Germanic art"
+            ],
+            "examples": [
+                "San Vittore alle Chiuse in Italy",
+                "The Church of the Nativity in Bethlehem",
+                "The Aachen Cathedral in Germany"
+            ],
+            "continent": "Europe",
+            "country": "Various"
+        },
+        "terms": "Architecture style: Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical"
+    },
+    "Constructivism": {
+        "architects": [
+            {
+                "name": "Konstantin Melnikov",
+                "birth_date": "August 3, 1890",
+                "death_date": "November 28, 1974",
+                "nationality": "Russian",
+                "description": "Melnikov was a leading Soviet Constructivist architect, known for his pioneering work in using modern materials such as reinforced concrete and glass.",
+                "notable_buildings": [
+                    "Melknikov House",
+                    "Rusakov Workers' Club",
+                    "Bakhmetevsky Bus Garage"
+                ]
+            },
+            {
+                "name": "Moisei Ginzburg",
+                "birth_date": "October 3, 1892",
+                "death_date": "January 6, 1946",
+                "nationality": "Russian",
+                "description": "Ginzburg was a prominent Soviet architect and theorist, known for his contributions to the development of Constructivism and Rationalism.",
+                "notable_buildings": [
+                    "Narkomfin Building",
+                    "Gosstrakh Building",
+                    "Ginzburg House"
+                ]
+            },
+            {
+                "name": "Ivan Leonidov",
+                "birth_date": "February 9, 1902",
+                "death_date": "November 6, 1959",
+                "nationality": "Russian",
+                "description": "Leonidov was a Soviet architect and artist, known for his innovative designs that combined elements of Constructivism, Futurism, and Surrealism.",
+                "notable_buildings": [
+                    "Lenin Institute of Librarianship",
+                    "Pavilion of the USSR at the World's Fair in Paris",
+                    "Lenin Memorial on Lenin Hills"
+                ]
+            }
+        ],
+        "reply2": "format?\n\n{\n    \"style\": \"Constructivism\",\n    \"time_range\": \"1920s-1930s\",\n    \"period\": \"Modernist\",\n    \"description\": \"An architectural style that originated in the Soviet Union. Characterized by the use of industrial materials like concrete and steel and the rejection of decorative elements in favor of functional ones.\",\n    \"characteristics\": [\n        \"Emphasizes geometric shapes and asymmetry\",\n        \"Minimalist and utilitarian design\",\n        \"Use of primary colors\",\n        \"Incorporation of political and social messages in the design\"\n    ],\n    \"examples\": [\n        \"Narkomfin Building in Moscow, Russia\",\n        \"Palace of the Soviets in Moscow, Russia\",\n        \"Red Banner Textile Factory in St. Petersburg, Russia\",\n        \"Bauhaus Dessau in Germany\"\n    ],\n    \"continent\": \"Europe\",\n    \"country\": \"Russia\"\n}",
+        "terms": " unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
+        "style": {
+            "time_range": "1919-1934",
+            "period": "20th century",
+            "description": "The use of simple geometric forms, clear lines, and utilitarian designs that rejected ornamentation and celebrated industrial materials and production techniques.",
+            "characteristics": [
+                "Functionalism",
+                "Simplicity",
+                "Geometric shapes",
+                "Emphasis on technology",
+                "Use of industrial materials",
+                "Minimalism"
+            ],
+            "examples": [
+                "Narkomfin Building in Moscow, Russia",
+                "Tsentrosoyuz Building in Moscow, Russia",
+                "Tatlin's Tower in St. Petersburg, Russia",
+                "Melnikov House in Moscow, Russia",
+                "Bauhaus School in Dessau, Germany"
+            ],
+            "continent": "Europe",
+            "country": "Russia"
+        }
+    },
+    "Neolithic": {
+        "architects": [
+            {
+                "name": "Unknown",
+                "birth_date": "8000 BCE",
+                "death_date": "3000 BCE",
+                "nationality": "Various",
+                "description": "Neolithic builders were skilled in the use of mud, wood, and stone. They built structures to meet their needs and worship their gods.",
+                "notable_buildings": [
+                    "Stonehenge",
+                    "\u00c7atalh\u00f6y\u00fck",
+                    "Jericho"
+                ]
+            },
+            {
+                "name": "Dolmen builders",
+                "birth_date": "5000 BCE",
+                "death_date": "2000 BCE",
+                "nationality": "Various",
+                "description": "Dolmen builders are known for their megalithic structures, which are a type of large stone monument.",
+                "notable_buildings": [
+                    "Megalithic temples of Malta",
+                    "Callanish Stones",
+                    "Dolmens of Korea"
+                ]
+            },
+            {
+                "name": "Mound Builders",
+                "birth_date": "3400 BCE",
+                "death_date": "1600 CE",
+                "nationality": "Various",
+                "description": "Mound builders created massive earthworks for various purposes, including ceremonial centers, burial mounds, and defensive structures.",
+                "notable_buildings": [
+                    "Cahokia Mounds",
+                    "Moundville Archaeological Site",
+                    "Poverty Point"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "6000 BC - 2000 BC",
+            "period": "Prehistoric",
+            "description": "The Neolithic architecture style refers to the buildings and structures constructed during the Neolithic period, which is also known as the New Stone Age. During this time, humans transitioned from a nomadic lifestyle to a more settled one, leading to the development of permanent structures and the advent of agriculture.",
+            "characteristics": [
+                "Use of natural materials such as wood, stone, mud, and thatch",
+                "Circular or rectangular structures",
+                "Use of post-and-beam construction",
+                "Roofs made of thatch or animal hides",
+                "Strictly functional design with little decoration",
+                "Incorporation of religious or spiritual symbols in some structures",
+                "Use of megaliths for ceremonies and burial sites"
+            ],
+            "examples": [
+                "Stonehenge in England",
+                "Newgrange in Ireland",
+                "Carnac Stones in France",
+                "Jar burial sites in China",
+                "\u00c7atalh\u00f6y\u00fck in Turkey"
+            ],
+            "continent": "Various",
+            "country": "Various"
+        },
+        "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures"
+    },
+    "Mesopotamia": {
+        "architects": [
+            {
+                "name": "Imhotep",
+                "birth_date": "27th century BC",
+                "death_date": "26th century BC",
+                "nationality": "Ancient Egyptian",
+                "description": "Regarded as the first architect in history and a highly influential figure in ancient Egyptian architecture.",
+                "notable_buildings": [
+                    "Step Pyramid of Djoser",
+                    "Mastaba of Ti"
+                ]
+            },
+            {
+                "name": "Hammurabi",
+                "birth_date": "1810 BC",
+                "death_date": "1750 BC",
+                "nationality": "Babylonian",
+                "description": "Hammurabi was the sixth king of Babylon and a prolific builder, known for his contributions to the traditional Mesopotamian architecture style.",
+                "notable_buildings": [
+                    "Hammurabi's palace"
+                ]
+            },
+            {
+                "name": "Sennacherib",
+                "birth_date": "704 BC",
+                "death_date": "681 BC",
+                "nationality": "Assyrian",
+                "description": "One of the greatest kings of the Assyrian Empire and a patron of Mesopotamian art and architecture.",
+                "notable_buildings": [
+                    "Palace of Sennacherib"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "4000 BCE - 539 BCE",
+            "period": "Ancient",
+            "description": "Mesopotamian architecture encompasses the various structures that were built by the civilizations of ancient Mesopotamia, which include the Sumerians, Babylonians, and Assyrians. These structures were typically constructed with brick and mud and were decorated with intricate carvings and reliefs.",
+            "characteristics": [
+                "Use of mud bricks as main building material",
+                "Complex systems for drainage and irrigation",
+                "Ziggurats (stepped pyramids) as religious structures",
+                "Use of cuneiform writing for inscriptions and decoration",
+                "Palaces with grand entrance gates and courtyards"
+            ],
+            "examples": [
+                "Ziggurat of Ur",
+                "Hanging Gardens of Babylon",
+                "Ishtar Gate",
+                "Palace of Sargon II"
+            ],
+            "continent": "Asia",
+            "country": [
+                "Iraq",
+                "Iran",
+                "Syria",
+                "Turkey"
+            ]
+        },
+        "terms": "ziggurats, mud bricks, crenellations, arched doorways, decorative tiles, monumental, ancient, pragmatic, utilitarian"
+    },
+    "Ancient Persian": {
+        "architects": [
+            {
+                "name": "Ustad Ali Akbar Isfahani",
+                "birth_date": "1590",
+                "death_date": "1655",
+                "nationality": "Persian",
+                "description": "One of the most famous architects and builders of the Safavid period.",
+                "notable_buildings": [
+                    "Sheikh Lotfollah Mosque",
+                    "Ali Qapu Palace"
+                ]
+            },
+            {
+                "name": "Hassan Fathy",
+                "birth_date": "1900",
+                "death_date": "1989",
+                "nationality": "Egyptian",
+                "description": "An Egyptian architect who worked on various projects in Iran.",
+                "notable_buildings": [
+                    "New Gourna Village",
+                    "Dar al-Islam Mosque"
+                ]
+            },
+            {
+                "name": "Fariborz Sahba",
+                "birth_date": "1948",
+                "death_date": "--",
+                "nationality": "Iranian",
+                "description": "A contemporary architect who designed the Bah\u00e1'\u00ed House of Worship in Delhi, India, which is inspired by Persian architecture.",
+                "notable_buildings": [
+                    "Bah\u00e1'\u00ed House of Worship, Delhi"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "550 BCE - 330 BCE",
+            "period": "Ancient Persian",
+            "description": "Persian architecture refers to the distinctive styles and techniques developed by the ancient Persian empires, including the Achaemenid Empire and the Sassanid Empire. It is characterized by symmetry, decorative motifs such as lotus and rosette, and the use of ornate facades and columns.",
+            "characteristics": [
+                "Symmetry",
+                "Decorative motifs such as lotus and rosette",
+                "Ornate facades and columns",
+                "Use of materials such as limestone, marble, and turquoise",
+                "Incorporation of natural elements such as water",
+                "Development of the Persian gardens"
+            ],
+            "examples": [
+                "Persepolis",
+                "Pasargadae",
+                "The Palace of Darius in Susa",
+                "The Tachara Palace in Persepolis",
+                "The Apadana Palace in Persepolis"
+            ],
+            "continent": "Asia",
+            "country": "Iran"
+        },
+        "terms": "Persian architecture style: elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate."
+    },
+    "Muscovite": {
+        "architects": [
+            {
+                "name": "Ivan Starov",
+                "birth_date": "1745",
+                "death_date": "1808",
+                "nationality": "Russian",
+                "description": "One of the most prominent architects of the 18th century in Russia, known for his work in the Muscovite Baroque style.",
+                "notable_buildings": [
+                    "Catherine Palace",
+                    "Tauride Palace",
+                    "Kazan Cathedral"
+                ]
+            },
+            {
+                "name": "Matvey Kazakov",
+                "birth_date": "1733",
+                "death_date": "1812",
+                "nationality": "Russian",
+                "description": "A prominent Russian Neoclassical architect, known for incorporating elements of the Muscovite Baroque style into his designs.",
+                "notable_buildings": [
+                    "Novodevichy Convent",
+                    "Moscow State University",
+                    "Moscow Orphanage"
+                ]
+            },
+            {
+                "name": "Vasily Bazhenov",
+                "birth_date": "1737",
+                "death_date": "1799",
+                "nationality": "Russian",
+                "description": "An architect of the late Muscovite Baroque period, known for his innovative designs and use of new materials.",
+                "notable_buildings": [
+                    "Tsaritsyno Palace",
+                    "Lopukhins' Estate",
+                    "Moscow State University"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "14th - 17th century",
+            "period": "Medieval/Renaissance",
+            "description": "A style of architecture that developed in the Grand Duchy of Moscow and was later adopted throughout the Russian Empire. It is characterized by verticality, decorative brickwork, and onion-shaped domes.",
+            "characteristics": [
+                "Verticality",
+                "Decorative brickwork",
+                "Onion-shaped domes"
+            ],
+            "examples": [
+                "St. Basil's Cathedral",
+                "The Cathedral of the Assumption",
+                "The Cathedral of the Archangel"
+            ],
+            "continent": "Europe/Asia",
+            "country": "Russia"
+        },
+        "terms": " Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich"
+    },
+    "Chinese Imperial": {
+        "architects": [
+            {
+                "name": "Yu Wenxiu",
+                "birth_date": "1868",
+                "death_date": "1951",
+                "nationality": "Chinese",
+                "description": "Yu Wenxiu was a famous Chinese architect who was known for his expertise in the Chinese Imperial style of architecture.",
+                "notable_buildings": [
+                    "Hall of Supreme Harmony",
+                    "Hall of Central Harmony",
+                    "Hall of Preserving Harmony"
+                ]
+            },
+            {
+                "name": "Li Jie",
+                "birth_date": "1314",
+                "death_date": "1380",
+                "nationality": "Chinese",
+                "description": "Li Jie was a renowned architect during the Yuan and Ming dynasties in China. He contributed greatly to the Chinese Imperial style of architecture.",
+                "notable_buildings": [
+                    "Forbidden City",
+                    "Temple of Heaven",
+                    "Summer Palace"
+                ]
+            },
+            {
+                "name": "I.M. Pei",
+                "birth_date": "1917",
+                "death_date": "2019",
+                "nationality": "Chinese American",
+                "description": "I.M. Pei was a renowned architect who contributed to the contemporary interpretation of Chinese Imperial style in architecture.",
+                "notable_buildings": [
+                    "Suzhou Museum",
+                    "Bank of China Tower",
+                    "Louvre Pyramid"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "618-1912 AD",
+            "period": "Imperial China",
+            "description": "Chinese Imperial architecture style is characterized by its grandeur, intricate details, and strong emphasis on symmetry. It is influenced by traditional Chinese beliefs and philosophy, such as feng shui and the balance of yin and yang. The style also incorporates elements of Buddhist and Taoist architecture.",
+            "characteristics": [
+                "Symmetrical layout and design",
+                "Emphasis on grandeur and grandiose structures",
+                "Intricate detailing, often made from wood or stone",
+                "Use of bright colors and ornate decorations",
+                "Incorporation of elements of nature and traditional Chinese beliefs",
+                "Axial designs, with buildings often arranged around a central axis"
+            ],
+            "examples": [
+                "The Forbidden City in Beijing",
+                "The Temple of Heaven in Beijing",
+                "The Summer Palace in Beijing",
+                "The Great Wall of China",
+                "The Mausoleum of the First Qin Emperor in Shaanxi"
+            ],
+            "continent": "Asia",
+            "country": "China"
+        },
+        "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual."
+    },
+    "Gupta": {
+        "architects": [
+            {
+                "name": "Chandragupta II",
+                "birthDate": "c. 376 AD",
+                "deathDate": "c. 415 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Dasavatara Temple",
+                    "Dashavatara Vishnu Temple",
+                    "Bhitargaon Temple"
+                ]
+            },
+            {
+                "name": "Skandagupta",
+                "birthDate": "c. 455 AD",
+                "deathDate": "c. 467 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Bodh Gaya Temple",
+                    "Udayagiri Caves",
+                    "Ajanta Caves"
+                ]
+            },
+            {
+                "name": "Kumara Gupta",
+                "birthDate": "c. 415 AD",
+                "deathDate": "c. 455 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Dashavatara Temple",
+                    "Udayagiri Caves",
+                    "Ajanta Caves"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "320-550 AD",
+            "period": "Gupta Empire",
+            "description": "The Gupta style of architecture is characterized by its intricate carving and elaborate decoration. It is known for its use of stone and brick, and the use of pillars, domes, and arches. The Gupta period is often considered the golden age of Indian art and architecture.",
+            "characteristics": [
+                "Intricate carving",
+                "Elaborate decoration",
+                "Use of stone and brick",
+                "Use of pillars, domes, and arches"
+            ],
+            "examples": [
+                "Ajanta Caves",
+                "Ellora Caves",
+                "Taj Mahal"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent."
+    },
+    "Nagara": {
+        "architects": [
+            {
+                "name": "Arnoldt Sumino",
+                "birth_date": "January 1, 1914",
+                "death_date": "July 9, 1997",
+                "nationality": "Japanese",
+                "description": "Arnoldt Sumino was a Japanese architect known for his work in the Nagara style of architecture.",
+                "notable_buildings": [
+                    "Kodenji Temple",
+                    "Tomyoji Temple",
+                    "Hiranoya Hotel"
+                ]
+            },
+            {
+                "name": "Takaharu Tezuka",
+                "birth_date": "February 6, 1964",
+                "death_date": null,
+                "nationality": "Japanese",
+                "description": "Takaharu Tezuka is a Japanese architect known for his innovative designs that incorporate the Nagara style of architecture.",
+                "notable_buildings": [
+                    "Fuji Kindergarten",
+                    "Tsuda University Innovation Center",
+                    "House of the Cherry Tree"
+                ]
+            },
+            {
+                "name": "Hiroshi Nakamura",
+                "birth_date": "February 13, 1974",
+                "death_date": null,
+                "nationality": "Japanese",
+                "description": "Hiroshi Nakamura is a Japanese architect who combines the Nagara style of architecture with modern design principles.",
+                "notable_buildings": [
+                    "Sayama Forest Chapel",
+                    "The Ribbon Chapel",
+                    "Knot terrace"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "11th-13th century",
+            "period": "Medieval India",
+            "description": "Nagara architecture style is a North Indian temple architecture style that emerged in the 11th century. It is characterized by a shikhara (tower) over the garbha griha (sanctum sanctorum), a mandapa (pillared hall) in front of the garbha griha, and a large entrance gate (gopuram) decorated with intricate carvings and sculptures.",
+            "characteristics": [
+                "Shikhara (tower) over the garbha griha (sanctum sanctorum)",
+                "Mandapa (pillared hall) in front of the garbha griha",
+                "Large entrance gate (gopuram) decorated with intricate carvings and sculptures"
+            ],
+            "examples": [
+                "Brihadeeswarar Temple in Thanjavur",
+                "Sun Temple in Konark",
+                "Kandariya Mahadeva Temple in Khajuraho"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "Nagara architecture style: traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires."
+    },
+    "Dravidian": {
+        "architects": [
+            {
+                "name": "Periyar E. V. Ramasamy",
+                "birthDate": "September 17, 1879",
+                "deathDate": "December 24, 1973",
+                "nationality": "Indian",
+                "description": "Social activist, politician and architect. Known for advocating Dravidian ideology and Dravidian architecture",
+                "notableBuildings": [
+                    "Periyar Thidal",
+                    "Periyar Self-respect Propaganda Institution",
+                    "Dravidar Kazhagam"
+                ]
+            },
+            {
+                "name": "M. Karunanidhi",
+                "birthDate": "June 3, 1924",
+                "deathDate": "August 7, 2018",
+                "nationality": "Indian",
+                "description": "Screenwriter, playwright, poet, and architect. One of the prominent Dravidian leaders.",
+                "notableBuildings": [
+                    "Anna Centenary Library",
+                    "Tamil Nadu Legislative Assembly complex"
+                ]
+            },
+            {
+                "name": "M. G. Ramachandran",
+                "birthDate": "January 17, 1917",
+                "deathDate": "December 24, 1987",
+                "nationality": "Indian",
+                "description": "Actor, director, screenwriter, producer, and architect. One of the prominent Dravidian leaders.",
+                "notableBuildings": [
+                    "MG R Government Film and Television Training Institute",
+                    "Dr. M.G.R. Janaki College of Arts and Science"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "2500 BCE - 1000 BCE",
+            "period": "Prehistoric",
+            "description": "Dravidian architecture is an architectural style that developed in the Indus Valley Civilization and the surrounding areas. It is characterized by the use of baked bricks, stone, and wood to create complex structures that showcase an advanced knowledge of engineering and design.",
+            "characteristics": [
+                "Use of baked bricks, stone, and wood",
+                "Complex masonry featuring ornate carvings and sculptures",
+                "Innovative engineering techniques",
+                "Use of water in the design of buildings",
+                "Symmetrical layouts"
+            ],
+            "examples": [
+                "Mohenjo-daro in modern-day Pakistan",
+                "Harappa in modern-day India",
+                "Dholavira in modern-day India",
+                "Lothal in modern-day India"
+            ],
+            "continent": "Asia",
+            "country": [
+                "India",
+                "Pakistan"
+            ]
+        },
+        "terms": " temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned"
+    },
+    "Vesara": {
+        "architects": [
+            {
+                "name": "Mahendravarman I",
+                "birthDate": "603 AD",
+                "deathDate": "630 AD",
+                "nationality": "Indian",
+                "description": "One of the earliest practitioners of Vesara style.",
+                "notableBuildings": [
+                    "Shore Temple in Mahabalipuram"
+                ]
+            },
+            {
+                "name": "Pulakeshin II",
+                "birthDate": "610 AD",
+                "deathDate": "642 AD",
+                "nationality": "Indian",
+                "description": "The most famous of the Chalukya dynasty kings and a patron of Vesara architecture.",
+                "notableBuildings": [
+                    "Virupaksha Temple in Pattadakal",
+                    "Kailashnath Temple in Ellora"
+                ]
+            },
+            {
+                "name": "Rajaraja Chola I",
+                "birthDate": "947 AD",
+                "deathDate": "1014 AD",
+                "nationality": "Indian",
+                "description": "One of the greatest monarchs of the Chola dynasty and an enthusiastic promoter of Vesara style.",
+                "notableBuildings": [
+                    "Brihadeeswarar Temple in Thanjavur"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "8th to 12th century CE",
+            "period": "Medieval Era",
+            "description": "A hybrid architectural style that emerged from the mixing of Dravidian (South Indian) and Nagara (North Indian) styles during the Chalukya and Rashtrakuta dynasties. Vesara architecture features both square and circular shapes in its buildings with the use of carved stone as a major decorative element.",
+            "characteristics": [
+                "Mix of North and South Indian architectural features",
+                "Use of carved stone as a decorative element",
+                "Square and circular shapes in buildings",
+                "Integration of mandapa (pillared hall) into the temple structure"
+            ],
+            "examples": [
+                "Chennakesava Temple in Belur",
+                "Hoysaleswara Temple in Halebidu",
+                "Kedareshwara Temple in Balligavi"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "Architecture style: Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal."
+    },
+    "Jain architecture": {
+        "architects": [
+            {
+                "name": "Virchand Gandhi",
+                "birth_date": "August 25, 1864",
+                "death_date": "August 7, 1901",
+                "nationality": "Indian",
+                "description": "Indian Jain philosopher and reformer who helped introduce Jainism to the Western world",
+                "notable_buildings": [
+                    "Jain Temple of New York",
+                    "Jain Temple of Philadelphia"
+                ]
+            },
+            {
+                "name": "Lalchand Hirachand",
+                "birth_date": "November 11, 1864",
+                "death_date": "April 23, 1942",
+                "nationality": "Indian",
+                "description": "Indian businessman and philanthropist who funded numerous Jain temples and institutions",
+                "notable_buildings": [
+                    "Shantinath Temple, Girnar",
+                    "Sri Mahaveer Swami Jain Temple, Mumbai"
+                ]
+            },
+            {
+                "name": "Somapura Mahavihara",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Bangladeshi",
+                "description": "Ancient Buddhist monastery in Bangladesh that has significant influence on Jain architecture",
+                "notable_buildings": [
+                    "Ruins of Somapura Mahavihara"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "10th to 17th century CE",
+            "period": "Medieval period",
+            "description": "Jain architecture is a style of architecture that flourished among the Jains in India. It is characterized by intricate carvings and sculptures on temples and other religious structures. Jain architecture is known for its emphasis on symmetry and proportion, with many structures featuring multiple domes and towers.",
+            "characteristics": [
+                "Intricate carvings and sculptures",
+                "Emphasis on symmetry and proportion",
+                "Multiple domes and towers",
+                "Influence of Hindu and Buddhist architecture"
+            ],
+            "examples": [
+                "Dilwara Temples in Mount Abu",
+                "Palitana temples in Gujarat",
+                "Girnar temples in Junagadh",
+                "Ranakpur Temple in Rajasthan"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": " temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual"
+    },
+    "M\u0101ru-Gurjara": {
+        "architects": [
+            {
+                "name": "Vastupala Tejpal",
+                "birth date": "1177 CE",
+                "death date": "1252 CE",
+                "nationality": "Indian",
+                "description": "A Jain merchant who became a patron of art and architecture.",
+                "notable buildings": [
+                    "Dilwara Temples"
+                ]
+            },
+            {
+                "name": "Somapura",
+                "birth date": "unknown",
+                "death date": "unknown",
+                "nationality": "Indian",
+                "description": "An architect and scholar who worked under the patronage of the Chalukya dynasty.",
+                "notable buildings": [
+                    "Lakkundi temples"
+                ]
+            },
+            {
+                "name": "Jinasimha",
+                "birth date": "13th century CE",
+                "death date": "unknown",
+                "nationality": "Indian",
+                "description": "An architect who worked for the Solanki dynasty.",
+                "notable buildings": [
+                    "Sun Temple at Modhera"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "6th century AD - 13th century AD",
+            "period": "Early Medieval period",
+            "description": "The M\u0101ru-Gurjara architecture style is a blend of Indian and Persian architectural styles created by the Gurjara-Pratihara and Solanki dynasties in present-day Rajasthan and Gujarat. This style is characterized by the use of large domes, intricate stone carvings, and ornate pillars.",
+            "characteristics": [
+                "Large domes",
+                "Intricate stone carvings",
+                "Ornate pillars",
+                "Blend of Indian and Persian architectural styles"
+            ],
+            "examples": [
+                "Surya Mandir in Jaipur",
+                "Adalaj Stepwell in Gandhinagar",
+                "Patan Laxmi Temple in Gujarat"
+            ],
+            "continent": "Asia",
+            "country": [
+                "India (Rajasthan and Gujarat)"
+            ]
+        },
+        "terms": " Architecture style, M\u0101ru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical"
+    },
+    "Asuka and Nara": {
+        "architects": [
+            {
+                "name": "Prince Sh\u014dtoku",
+                "birth_date": "574",
+                "death_date": "622",
+                "nationality": "Japanese",
+                "description": "One of the most important figures in early Japanese architecture, known for his promotion of Buddhism and architectural innovations.",
+                "notable_buildings": [
+                    "H\u014dry\u016b-ji",
+                    "Shitenn\u014d-ji"
+                ]
+            },
+            {
+                "name": "Soga no Umako",
+                "birth_date": "d. 626",
+                "death_date": "d. 626",
+                "nationality": "Japanese",
+                "description": "A powerful political figure who played a key role in the construction of many of the early Asuka period temples.",
+                "notable_buildings": [
+                    "Asukadera",
+                    "Kudara-ji"
+                ]
+            },
+            {
+                "name": "Fujiwara no Kamatari",
+                "birth_date": "614",
+                "death_date": "669",
+                "nationality": "Japanese",
+                "description": "Founder of the powerful Fujiwara clan and a patron of architecture and Buddhism.",
+                "notable_buildings": [
+                    "Gang\u014d-ji",
+                    "T\u014ddai-ji"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "6th to 8th century CE",
+            "period": "Asuka and Nara period",
+            "description": "Asuka and Nara architecture style is a reflection of the influence of Buddhism and the introduction of new building techniques from China and Korea. It is characterized by the use of wood, the construction of temples and shrines, and the integration of natural surroundings.",
+            "characteristics": [
+                "Wood construction",
+                "Symmetry and balance",
+                "Roofs with a pronounced incline",
+                "Decorative motifs influenced by Buddhism"
+            ],
+            "examples": [
+                "Horyu-ji Temple",
+                "Todai-ji Temple"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": " Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical"
+    },
+    "Heian period": {
+        "architects": [
+            {
+                "name": "Kukai",
+                "birth_date": "774 AD",
+                "death_date": "835 AD",
+                "nationality": "Japanese",
+                "description": "Monk, poet, calligrapher, and architect",
+                "notable_buildings": [
+                    "To-ji pagoda",
+                    "Todai-ji temple"
+                ]
+            },
+            {
+                "name": "Kobori Enshu",
+                "birth_date": "1579 AD",
+                "death_date": "1647 AD",
+                "nationality": "Japanese",
+                "description": "Samurai, landscape architect, and tea ceremony master",
+                "notable_buildings": [
+                    "Katsura Imperial Villa",
+                    "Joju-in Temple"
+                ]
+            },
+            {
+                "name": "Takeda Sokaku",
+                "birth_date": "1863 AD",
+                "death_date": "1945 AD",
+                "nationality": "Japanese",
+                "description": "Architect and scholar of Japanese architecture",
+                "notable_buildings": [
+                    "Kyoto Imperial Palace",
+                    "Nijo Castle"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "794-1185 AD",
+            "period": "Medieval period",
+            "description": "Heian architecture is the style of architecture that was prominent during the Heian period in Japan. The Heian period is characterized by the flourishing of art and culture, including architecture, literature, and music. Japanese architecture during this era was influenced by Chinese and Korean architecture, but it also had a distinct Japanese character.",
+            "characteristics": [
+                "Emphasis on simplicity and elegance",
+                "Use of natural materials like wood and paper",
+                "Complex roof structures with multiple levels and curved lines",
+                "Use of symmetrical and asymmetrical balance",
+                "Integration with surrounding gardens and nature"
+            ],
+            "examples": [
+                "Byodo-in Phoenix Hall",
+                "Todaiji Temple",
+                "Sanjusangendo Hall"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": " wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist."
+    },
+    "Kamakura and Muromachi periods": {
+        "architects": [
+            {
+                "name": "Kenz\u014d Tange",
+                "birthdate": "4 September 1913",
+                "deathdate": "22 March 2005",
+                "nationality": "Japanese",
+                "description": "One of the most significant architects of the 20th century in Japan, known for combining traditional Japanese architectural elements with modernism.",
+                "notable_buildings": [
+                    "The Yamanashi Press and Broadcasting Center",
+                    "The Kagawa Prefectural Gymnasium",
+                    "The Tokyo Bay Aqua-Line"
+                ]
+            },
+            {
+                "name": "T\u014d-ji",
+                "birthdate": "794",
+                "deathdate": "Unknown",
+                "nationality": "Japanese",
+                "description": "A Buddhist temple in Kyoto known for its distinctive pagoda tower, which is the tallest wooden tower in Japan.",
+                "notable_buildings": [
+                    "The pagoda tower at T\u014d-ji"
+                ]
+            },
+            {
+                "name": "H\u014dry\u016b-ji",
+                "birthdate": "7th century",
+                "deathdate": "Unknown",
+                "nationality": "Japanese",
+                "description": "Another Buddhist temple in Nara known for its ancient wooden architecture, including the world's oldest surviving wooden structure.",
+                "notable_buildings": [
+                    "The world's oldest surviving wooden structure at H\u014dry\u016b-ji"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1185-1333 (Kamakura period), 1336-1573 (Muromachi period)",
+            "period": "Medieval Japan",
+            "description": "The Kamakura and Muromachi periods in Japan were marked by the emergence of feudalism and the samurai warrior class. The architecture of these periods was characterized by the use of natural materials such as wood and earth, and a focus on simplicity, functionality and respect for nature. Zen Buddhism exerted a strong influence on architecture during the Muromachi period, leading to the development of the tea ceremony and the construction of tea houses. Many of the surviving buildings from this period are temples, shrines and castles.",
+            "characteristics": [
+                "Use of natural materials such as wood, bamboo, earth and straw",
+                "Simple and functional design",
+                "Emphasis on harmony with nature",
+                "Influence of Zen Buddhism and the tea ceremony",
+                "Use of sliding doors and screens to create flexible spaces",
+                "Strong emphasis on asymmetry and imperfection",
+                "Use of curved lines and irregular shapes"
+            ],
+            "examples": [
+                "Horyu-ji temple complex (8th century, Kamakura period)",
+                "Kinkaku-ji temple (1397, Muromachi period)",
+                "Katsura Imperial Villa (17th century, Muromachi period)",
+                "Osaka Castle (1583, Muromachi period)"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "Minimalistic, rustic, wooden, simplistic, elegant, Zen-inspired, refined, temple-like, asymmetrical, airy, naturalistic."
+    },
+    "Azuchi\u2013Momoyama": {
+        "architects": [
+            {
+                "name": "Toyotomi Hideyoshi",
+                "birth_date": "1536",
+                "death_date": "1598",
+                "nationality": "Japanese",
+                "description": "One of the most powerful feudal lords in Japan's history, who commissioned the construction of the Castle of Azuchi.",
+                "notable_buildings": [
+                    {
+                        "name": "Castle of Azuchi",
+                        "location": "Azuchi, Shiga Prefecture, Japan",
+                        "year_built": "1579-1583"
+                    }
+                ]
+            },
+            {
+                "name": "Sen no Rikyu",
+                "birth_date": "1522",
+                "death_date": "1591",
+                "nationality": "Japanese",
+                "description": "The most famous tea master in Japanese history, who popularized the tea ceremony and influenced the aesthetics of Azuchi-Momoyama architecture.",
+                "notable_buildings": [
+                    {
+                        "name": "Roji tea garden at Taian teahouse",
+                        "location": "Kyoto, Japan",
+                        "year_built": "1590"
+                    }
+                ]
+            },
+            {
+                "name": "Takayama Ukon",
+                "birth_date": "1551",
+                "death_date": "1615",
+                "nationality": "Japanese",
+                "description": "A samurai warrior and master builder who worked on the construction of the Castle of Azuchi and other Azuchi-Momoyama style buildings.",
+                "notable_buildings": [
+                    {
+                        "name": "Castle of Azuchi",
+                        "location": "Azuchi, Shiga Prefecture, Japan",
+                        "year_built": "1579-1583"
+                    },
+                    {
+                        "name": "Nijo Castle",
+                        "location": "Kyoto, Japan",
+                        "year_built": "1603-1606"
+                    }
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 16th century to early 17th century",
+            "period": "Japanese architecture",
+            "description": "A fusion of traditional Japanese architecture with Chinese and European influences, characterized by grandeur, decorative facade, and use of new materials such as plaster and glass.",
+            "characteristics": [
+                "Integration of traditional Japanese features with foreign influences",
+                "Elaborate decorative facade with relief carvings and paintings",
+                "Use of new materials such as plaster and glass",
+                "Increased use of symmetry and axial planning",
+                "Large-scale buildings with imposing entrances",
+                "Attention to detail and finish",
+                "Expansion of the concept of architectural space",
+                "Incorporation of water into garden design"
+            ],
+            "examples": [
+                "Osaka Castle",
+                "Nijo Castle",
+                "Himeji Castle",
+                "Katsura Imperial Villa"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "nouns: Castles, palaces, tea ceremony rooms, gardensadjectives: Ornate, extravagant, symmetrical, practical, functional"
+    },
+    "Edo period": {
+        "architects": [
+            {
+                "name": "Itoh Kanejirou",
+                "birth_date": "1632",
+                "death_date": "1716",
+                "nationality": "Japanese",
+                "description": "Itoh Kanejirou was a Japanese architect and stonemason during the Edo period. He is known for designing and constructing several buildings in Japan.",
+                "notable_buildings": [
+                    "Matsumoto Castle"
+                ]
+            },
+            {
+                "name": "Rokusuke Ei",
+                "birth_date": "1707",
+                "death_date": "1783",
+                "nationality": "Japanese",
+                "description": "Rokusuke Ei was a Japanese architect and carpenter during the Edo period. He is considered one of the architects who introduced Western architectural elements to Japanese traditional architecture.",
+                "notable_buildings": [
+                    "Tsunamachi Mitsui Club",
+                    "Osaka Castle"
+                ]
+            },
+            {
+                "name": "Chohei Anai",
+                "birth_date": "1733",
+                "death_date": "1806",
+                "nationality": "Japanese",
+                "description": "Chohei Anai was a Japanese architect and carpenter during the Edo period. He specialized in designing and constructing traditional tea houses, and his work is known for its simplicity and harmony with nature.",
+                "notable_buildings": [
+                    "Kyoto's Katsura Imperial Villa"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1603-1868",
+            "period": "Edo period",
+            "description": "The Edo period is a period in Japanese history when Japan was ruled by the Tokugawa shogunate. It was a time of stability, prosperity, and peace that lasted for more than 250 years.",
+            "characteristics": [
+                "Emphasis on simplicity, practicality, and natural materials",
+                "Vertical lines and geometric patterns",
+                "Large roofs with protruding eaves",
+                "Use of natural materials like wood, paper, and clay",
+                "Indoor-outdoor connection through the use of sliding doors and panels",
+                "Integration of nature into design with gardens and water features"
+            ],
+            "examples": [
+                "Katsura Imperial Villa in Kyoto",
+                "Toshogu Shrine in Nikko",
+                "Himeji Castle in Himeji",
+                "Nijo Castle in Kyoto",
+                "Tokyo Imperial Palace in Tokyo"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard."
+    },
+    "Meiji and Taish\u014d and early Sh\u014dwa": {
+        "architects": [
+            {
+                "name": "Yoshikazu Uchida",
+                "birth_date": "1868",
+                "death_date": "1942",
+                "nationality": "Japanese",
+                "description": "Yoshikazu Uchida was one of the foremost architects of the Meiji period and was known for his Western-style designs.",
+                "notable_buildings": [
+                    "Tokyo Station",
+                    "Kudan Kaikan",
+                    "Nara Hotel"
+                ]
+            },
+            {
+                "name": "Kiyoshi Seike",
+                "birth_date": "1906",
+                "death_date": "1969",
+                "nationality": "Japanese",
+                "description": "Kiyoshi Seike was a prominent architect in the early 20th century and was known for his modernist designs influenced by Bauhaus.",
+                "notable_buildings": [
+                    "Hanshin Department Store",
+                    "Minami Azabu Building",
+                    "Kodama Gallery"
+                ]
+            },
+            {
+                "name": "Tetsuro Yoshida",
+                "birth_date": "1894",
+                "death_date": "1956",
+                "nationality": "Japanese",
+                "description": "Tetsuro Yoshida was a prolific architect who worked primarily during the Taish\u014d and early Sh\u014dwa periods and was known for his eclectic mix of styles.",
+                "notable_buildings": [
+                    "Tama Art University",
+                    "Tokyo Metropolitan Art Museum",
+                    "Yodobashi Church"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1868-1945",
+            "period": "Meiji and Taish\u014d and early Sh\u014dwa",
+            "description": "This architectural style emerged during the Meiji era (1868-1912) and continued through the Taish\u014d era (1912-1926) and early Sh\u014dwa era (1926-1945) in Japan. It represents a fusion of traditional Japanese architecture and Western styles, reflecting the country's modernization and opening up to the world during this period.",
+            "characteristics": [
+                "Incorporation of Western elements, such as steel and concrete construction, into traditional Japanese architectural forms",
+                "Simplicity and functionalism, with emphasis on rational design",
+                "Use of natural materials, such as wood and stone",
+                "Symmetry and balance",
+                "Minimal ornamentation"
+            ],
+            "examples": [
+                "Tokyo Station (1914)",
+                "Bank of Japan (1896)",
+                "Japan Pavilion at the Paris Exposition (1900)",
+                "Kyoto Imperial Palace (1855)"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": " Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant."
+    },
+    "Late Showa": {
+        "architects": [
+            {
+                "name": "Kenzo Tange",
+                "birth_date": "September 4, 1913",
+                "death_date": "March 22, 2005",
+                "nationality": "Japanese",
+                "description": "Kenzo Tange is considered one of the most influential architects of the 20th century in Japan, and is known for his melding of traditional Japanese architecture with modernist principles.",
+                "notable_buildings": [
+                    "Tokyo Metropolitan Government Building",
+                    "Hiroshima Peace Memorial Museum",
+                    "Yoyogi National Gymnasium"
+                ]
+            },
+            {
+                "name": "Kisho Kurokawa",
+                "birth_date": "April 8, 1934",
+                "death_date": "October 12, 2007",
+                "nationality": "Japanese",
+                "description": "Kisho Kurokawa is known for his concept of Metabolism, which was a Japanese architectural movement that focused on large, adaptable buildings designed to grow and change with the times.",
+                "notable_buildings": [
+                    "Nakagin Capsule Tower",
+                    "National Ethnographic Museum",
+                    "The National Art Center, Tokyo"
+                ]
+            },
+            {
+                "name": "Fumihiko Maki",
+                "birth_date": "September 6, 1928",
+                "death_date": null,
+                "nationality": "Japanese",
+                "description": "Fumihiko Maki is known for his minimalist approach to architecture and his focus on creating spaces that are both functional and aesthetically pleasing.",
+                "notable_buildings": [
+                    "Tokyo Metropolitan Gymnasium",
+                    "The National Museum of Modern Art, Kyoto",
+                    "Spiral Building"
+                ]
+            }
+        ],
+        "reply2": "format?\n\n{\n   \"time_range\": \"1970s-1980s\",\n   \"period\": \"Postmodernism\",\n   \"description\": \"The Late Showa period in Japan was characterized by a combination of traditional Japanese aesthetics and modern architectural elements, reflecting the country's economic and social growth during the time. Buildings were often asymmetrical, with bold shapes and bright colors.\",\n   \"characteristics\": [\n      \"Use of traditional Japanese elements, such as wood and shoji screens\",\n      \"Incorporation of modern materials, such as steel and concrete\",\n      \"Mix of asymmetrical and geometric shapes\",\n      \"Vibrant colors and bold patterns\"\n   ],\n   \"examples\": [\n      \"Tokyo Metropolitan Government Building\",\n      \"Bubble Palace in Karuizawa\",\n      \"Centre Pompidou-Metz in France (Japanese architect Shigeru Ban)\"\n   ],\n   \"continent\": \"Asia\",\n   \"country\": \"Japan\"\n}",
+        "style": {
+            "time_range": "1970s-1980s",
+            "period": "Postmodernism",
+            "description": "A transitional style that combined elements of traditional Japanese architecture and modern Western architecture",
+            "characteristics": [
+                "Emphasis on asymmetry and complexity",
+                "Incorporation of traditional Japanese materials and motifs",
+                "Use of concrete and steel"
+            ],
+            "examples": [
+                "Nakagin Capsule Tower",
+                "Tokyo Metropolitan Government Building",
+                "Osaka Station City"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "Art Deco, Streamlined, Geometric, Bold, Dramatic, Ornate, Opulent, Splendid, Luxurious, Innovative, Progressive, Extravagant."
+    },
+    "Kamakura and Muromachi": {
+        "architects": [
+            {
+                "name": "Takauji Ashikaga",
+                "birth_date": "1305",
+                "death_date": "1358",
+                "nationality": "Japanese",
+                "description": "Founder of the Ashikaga Shogunate, patron of tea ceremony, and patron of Zen Buddhism.",
+                "notable_buildings": [
+                    "Kinkaku-ji (Golden Pavilion)"
+                ]
+            },
+            {
+                "name": "Mus\u014d Soseki",
+                "birth_date": "1275",
+                "death_date": "1351",
+                "nationality": "Japanese",
+                "description": "Zen monk, teacher, poet, and garden designer.",
+                "notable_buildings": [
+                    "Zuih\u014d-in"
+                ]
+            },
+            {
+                "name": "Karesansui",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Japanese",
+                "description": "Style of Japanese garden design characterized by a minimalist approach and an emphasis on natural materials.",
+                "notable_buildings": [
+                    "Ry\u014dan-ji"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1185-1573",
+            "period": "Medieval Japan",
+            "description": "The Kamakura and Muromachi periods saw the rise of Buddhism as a dominant religion in Japan and the emergence of the samurai class. During this time, the architecture reflected these cultural and societal changes.",
+            "characteristics": [
+                "Integration of natural elements into design",
+                "Minimalist and rustic style",
+                "Heavy use of wood and natural materials",
+                "Influence from Chinese and Korean architecture",
+                "Simplicity and functionality",
+                "Use of defensive features"
+            ],
+            "examples": [
+                "Horyuji Temple",
+                "Todaiji Temple",
+                "Kinkakuji Temple",
+                "Ginkakuji Temple",
+                "Nijo Castle"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "Zen Buddhist, minimalistic, elegant, wooden, asymmetrical, simplistic, serene, naturalistic, rustic."
+    },
+    "Khmer Empire": {
+        "architects": [
+            {
+                "name": "Yajnavaraha",
+                "birth_date": "10th century",
+                "death_date": "Unknown",
+                "nationality": "Khmer",
+                "description": "A celebrated architect who lived during the reign of King Rajendravarman.",
+                "notable_buildings": [
+                    "Bakong Temple",
+                    "Lolei Temple"
+                ]
+            },
+            {
+                "name": "Isanavarman II",
+                "birth_date": "Unknown",
+                "death_date": "Unknown",
+                "nationality": "Khmer",
+                "description": "A powerful king renowned for his patronage of the arts and architecture.",
+                "notable_buildings": [
+                    "Phimeanakas",
+                    "Baphuon Temple"
+                ]
+            },
+            {
+                "name": "Jayavarman VII",
+                "birth_date": "1125",
+                "death_date": "1218",
+                "nationality": "Khmer",
+                "description": "One of the most accomplished kings of the Khmer Empire, he was known for his military campaigns as well as his patronage of the arts.",
+                "notable_buildings": [
+                    "Ta Prohm",
+                    "Bayon Temple"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "9th century \u2013 15th century",
+            "period": "Medieval period",
+            "description": "The Khmer Empire architecture style is known for its elaborate and grand temples and palaces, characterized by intricate carvings and ornamentation, towering structures, and impressive water management systems.",
+            "characteristics": [
+                "Use of sandstone as the primary building material",
+                "Symmetrical and intricate designs with carvings depicting Hindu and Buddhist iconography",
+                "Towering structures with multiple levels and galleries",
+                "Sophisticated water management systems, including complex reservoirs and canals",
+                "Incorporation of nature and landscape in the design",
+                "Influence from Indian and local styles"
+            ],
+            "examples": [
+                "Angkor Wat",
+                "Bayon Temple",
+                "Baphuon Temple",
+                "Ta Prohm Temple",
+                "Pre Rup Temple",
+                "Phimeanakas Temple",
+                "Baksei Chamkrong Temple"
+            ],
+            "continent": "Asia",
+            "country": "Cambodia"
+        },
+        "terms": " temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring."
+    },
+    "Mughal Empire": {
+        "architects": [
+            {
+                "name": "Ustad Ahmad Lahauri",
+                "birth_date": "d. 1670",
+                "death_date": "NA",
+                "nationality": "Mughal",
+                "description": "Chief Architect of the Taj Mahal",
+                "notable_buildings": "Taj Mahal"
+            },
+            {
+                "name": "Mirak Mirza Ghiyas",
+                "birth_date": "1550",
+                "death_date": "1621",
+                "nationality": "Persian",
+                "description": "Architect and advisor to Emperor Jahangir",
+                "notable_buildings": "Tomb of Jahangir and Akbar's Tomb"
+            },
+            {
+                "name": "Nuruddin Salim Jahangir",
+                "birth_date": "1569",
+                "death_date": "1627",
+                "nationality": "Mughal",
+                "description": "Emperor and architectural patron, known for his love of gardens and landscape design",
+                "notable_buildings": "Shalimar Bagh and Jahangir's Tomb"
+            }
+        ],
+        "style": {
+            "time_range": "1526-1857",
+            "period": "Islamic architecture",
+            "description": "A blend of Islamic, Indian, and Persian architectural styles developed during the rule of the Mughal Empire in South Asia.",
+            "characteristics": [
+                "Symmetry",
+                "intricate ornamentation",
+                "onion domes",
+                "arches",
+                "minarets",
+                "ornate floral motifs",
+                "marble inlay work."
+            ],
+            "examples": [
+                "Taj Mahal",
+                "Badshahi Mosque",
+                "Humayun's Tomb",
+                "Agra Fort",
+                "Fatehpur Sikri"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "Grand, ornate, elegant, Islamic, Persian, Indian, domes, arches, minarets, symmetrical, detailed, monumental, majestic, intricate, colorful, grandiose."
+    },
+    "Joseon Dynasty": {
+        "architects": [
+            {
+                "name": "Jeong Yak-yong",
+                "birth_date": "1762",
+                "death_date": "1836",
+                "nationality": "Korean",
+                "description": "Influential scholar-official who studied and promoted Korean traditional architecture",
+                "notable_buildings": [
+                    "Changdeokgung Palace",
+                    "Gyeongbokgung Palace",
+                    "Bongjeongsa Temple"
+                ]
+            },
+            {
+                "name": "Kim Hong-do",
+                "birth_date": "1745",
+                "death_date": "after 1806",
+                "nationality": "Korean",
+                "description": "Painter, calligrapher, and architect who specialized in Korean traditional architecture",
+                "notable_buildings": [
+                    "Gyeonggi Provincial Government Office",
+                    "Hwaseong Fortress",
+                    "Chungha Building in Hanyang"
+                ]
+            },
+            {
+                "name": "Hong Dae-yong",
+                "birth_date": "1577",
+                "death_date": "1646",
+                "nationality": "Korean",
+                "description": "Architect and scholar who designed and supervised the construction of palaces and fortresses during the Joseon Dynasty",
+                "notable_buildings": [
+                    "Gyeongbokgung Palace",
+                    "Suwon Hwaseong Fortress",
+                    "Changgyeonggung Palace"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1392-1910",
+            "period": "Late medieval to early modern period",
+            "description": "The Joseon Dynasty architecture style is characterized by its Confucian-inspired simplicity, balance, and harmony with nature. It features a unique system of wooden brackets and pillars known as dougong, which allowed for intricate roof designs. The use of ceramic tiles, painted murals, and brick walls were also prominent features of the style.",
+            "characteristics": [
+                "Simplicity",
+                "Balance",
+                "Harmony with nature",
+                "Dougong system",
+                "Intricate roof designs",
+                "Ceramic tiles",
+                "Painted murals",
+                "Brick walls"
+            ],
+            "examples": [
+                "Changdeokgung Palace",
+                "Gyeongbokgung Palace",
+                "Jongmyo Shrine",
+                "Hwaseong Fortress"
+            ],
+            "continent": "Asia",
+            "country": "South Korea"
+        },
+        "terms": "Traditional, wooden, curved, ornate, grand, and intricate architecture characterized the Joseon Dynasty."
+    },
+    "Safavid Dynasty": {
+        "architects": [
+            {
+                "name": "Shah Abbas I",
+                "birth_date": "January 27, 1571",
+                "death_date": "January 19, 1629",
+                "nationality": "Persian",
+                "description": "Shah Abbas I was a powerful ruler during the Safavid dynasty and patronized the arts, leading to the creation of many spectacular architectural structures.",
+                "notable_buildings": [
+                    "The Royal Mosque in Isfahan",
+                    "The Chehel Sotoun Palace",
+                    "The Ali Qapu Palace"
+                ]
+            },
+            {
+                "name": "Muhammad Reza ibn Ustad Ali",
+                "birth_date": "Unknown",
+                "death_date": "1624",
+                "nationality": "Persian",
+                "description": "Muhammad Reza ibn Ustad Ali was a prominent architect during the Safavid dynasty and is responsible for designing many of the era's most significant buildings.",
+                "notable_buildings": [
+                    "The Imam Reza shrine in Mashhad",
+                    "The Gonbad-e Ali",
+                    "The Dar al-Shifa hospital"
+                ]
+            },
+            {
+                "name": "Ostad Isa Shirazi",
+                "birth_date": "Unknown",
+                "death_date": "Unknown",
+                "nationality": "Persian",
+                "description": "Ostad Isa Shirazi was a well-known architect during the Safavid era who specialized in designing exquisite domes for mosques and public buildings.",
+                "notable_buildings": [
+                    "The Shah Mosque in Isfahan",
+                    "The Jame Mosque in Isfahan",
+                    "The Safavid Palace in Qazvin"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1501-1722",
+            "period": "Islamic architecture",
+            "description": "The Safavid Dynasty architecture style combines influences from Persian, Turkish, and Islamic traditions. It is characterized by intricate tilework, symmetrical designs, and domed structures.",
+            "characteristics": [
+                "Intricate tilework",
+                "Symmetrical designs",
+                "Domed structures",
+                "Calligraphy"
+            ],
+            "examples": [
+                "Sheikh Lotfollah Mosque in Isfahan, Iran",
+                "Ali Qapu palace in Isfahan, Iran",
+                "Chehel Sotoun palace in Isfahan, Iran"
+            ],
+            "continent": "Asia",
+            "country": "Iran"
+        },
+        "terms": "colorful, ornate tiles, domes, arches, intricate patterns, grand halls, impressive courtyards, Islamic designs, symmetrical layouts, majestic minarets, impressive iwans."
+    },
+    "Nguyen Dynasty": {
+        "architects": [
+            {
+                "name": "Viet Trinh",
+                "birth_date": "18th century",
+                "death_date": "Unknown",
+                "nationality": "Vietnamese",
+                "description": "Vietnamese architect who worked during the Nguyen Dynasty period.",
+                "notable_buildings": [
+                    "Thai Hoa Palace",
+                    "Mieu Temple"
+                ]
+            },
+            {
+                "name": "Tran Duy",
+                "birth_date": "1804",
+                "death_date": "1864",
+                "nationality": "Vietnamese",
+                "description": "Vietnamese architect who worked during the Nguyen Dynasty period.",
+                "notable_buildings": [
+                    "Nam Giao Esplanade",
+                    "Cao Dai Temple"
+                ]
+            },
+            {
+                "name": "Nguyen Van Tao",
+                "birth_date": "1828",
+                "death_date": "1885",
+                "nationality": "Vietnamese",
+                "description": "Vietnamese architect who worked during the Nguyen Dynasty period.",
+                "notable_buildings": [
+                    "Hue Imperial City",
+                    "Dien Huu Pagoda"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1802-1945",
+            "period": "19th-20th century",
+            "description": "The Nguyen Dynasty was the last ruling dynasty of Vietnam, known for its distinctive architectural style that blends traditional Vietnamese designs with Chinese and French influences. During this period, the use of gold trimmings and elaborate carvings increased, along with the incorporation of Western elements such as glass and wrought iron.",
+            "characteristics": [
+                "Elaborate carvings and gold trimmings",
+                "Incorporation of Western elements",
+                "Use of ceramic roof tiles",
+                "Decorative motifs featuring dragons and other mythological creatures"
+            ],
+            "examples": [
+                "The Imperial City in Hue",
+                "The Tomb of Minh Mang",
+                "The Temple of Literature in Hanoi",
+                "Hoi An Ancient Town"
+            ],
+            "continent": "Asia",
+            "country": "Vietnam"
+        },
+        "terms": " Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways"
+    },
+    "Mauryan Period": {
+        "architects": [
+            {
+                "name": "Ashoka",
+                "birth_date": "-304",
+                "death_date": "-232",
+                "nationality": "Indian",
+                "description": "Emperor of India who promoted Buddhism and promoted construction of monuments",
+                "notable_buildings": [
+                    "Sanchi Stupa",
+                    "Mahabodhi Temple",
+                    "Pillars of Ashoka"
+                ]
+            },
+            {
+                "name": "Bhadrabahu",
+                "birth_date": "4th century BCE",
+                "death_date": "3rd century BCE",
+                "nationality": "Indian",
+                "description": "Jain religious leader and ascetic who advised Chandragupta Maurya on architecture",
+                "notable_buildings": [
+                    "Jain shrines and temples across India"
+                ]
+            },
+            {
+                "name": "Vishnudharmottara Purana",
+                "birth_date": "Between 6th and 8th century CE",
+                "death_date": "N/A",
+                "nationality": "Indian",
+                "description": "Hindu text that contains guidelines on architecture, sculpture, and iconography",
+                "notable_buildings": [
+                    "Numerous Hindu temples across India"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "322 BCE \u2013 185 BCE",
+            "period": "Mauryan Period",
+            "description": "The Mauryan period was defined by the political, economic, and cultural growth of the Mauryan empire. The architecture of this period reflected the empire\u2019s stability and prosperity, and was characterized by a focus on monumental stone masonry works.",
+            "characteristics": [
+                "Use of large, monolithic stone pillars and columns",
+                "Incorporation of animal motifs and Buddhist symbols",
+                "Symmetrical and geometric designs",
+                "Intricate and detailed carvings",
+                "Use of courtyards and open spaces"
+            ],
+            "examples": [
+                "Ashoka Pillar at Sarnath",
+                "Great Stupa at Sanchi",
+                "Ruins of the Mauryan palace at Pataliputra",
+                "Chandragupta Maurya's palace at Kumhrar"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "Sturdy, grand, monumental, polished, and ornate stone structures with intricate carvings, towering columns, and arched gateways characterized the Mauryan Period architecture."
+    },
+    "Tang Dynasty": {
+        "architects": [
+            {
+                "name": "Li Jie",
+                "birth_date": "502 AD",
+                "death_date": "577 AD",
+                "nationality": "Chinese",
+                "description": "Li Jie was a Chinese architect and author known for his book Yingzao Fashi, which was a comprehensive manual of Chinese architecture and craftsmanship during the Tang Dynasty.",
+                "notable_buildings": [
+                    "The Grand Canal of China"
+                ]
+            },
+            {
+                "name": "Yu Hao",
+                "birth_date": "919 AD",
+                "death_date": "985 AD",
+                "nationality": "Chinese",
+                "description": "Yu Hao was a Tang Dynasty Chinese architect and engineer who is best known for his involvement in the construction of the Liaodi Pagoda, which is considered to be one of the great achievements of Chinese architecture.",
+                "notable_buildings": [
+                    "Liaodi Pagoda",
+                    "Tian Tan Pagoda"
+                ]
+            },
+            {
+                "name": "Yang Guangxian",
+                "birth_date": "unknown",
+                "death_date": "unknown",
+                "nationality": "Chinese",
+                "description": "Yang Guangxian was a Tang Dynasty Chinese architect and engineer who is best known for his work on the construction of the Big Wild Goose Pagoda, which is considered to be one of the most important landmarks in the city of Xi'an.",
+                "notable_buildings": [
+                    "Big Wild Goose Pagoda",
+                    "Small Wild Goose Pagoda"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "618-907 AD",
+            "period": "Chinese imperial era",
+            "description": "Tang Dynasty architecture style is characterized by its grandeur, elegance, and symmetry. This architectural style is known for wooden structures, brick and stone buildings, and heavy roof eaves. It reflects the harmony between man and nature and the belief in the power of heaven and earth.",
+            "characteristics": [
+                "Symmetry",
+                "Heavy roof eaves",
+                "Colorful paintings and carvings",
+                "Elaborate and ornate detailing",
+                "Wooden and brick structures"
+            ],
+            "examples": [
+                "The Great Wild Goose Pagoda in Xi'an",
+                "The Tang Dynasty Palace in Chang'an",
+                "The Famen Temple in Shaanxi",
+                "The Giant Wild Goose Pagoda in Shaanxi"
+            ],
+            "continent": "Asia",
+            "country": "China"
+        },
+        "terms": " grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls"
+    },
+    "Pre-Columbian Period": {
+        "architects": [
+            {
+                "name": "Unknown",
+                "birth_date": null,
+                "death_date": null,
+                "nationality": "Mayan",
+                "description": "Mayan architects made extensive use of intricate stonework and carved reliefs to decorate their buildings. They also designed elaborate public plazas and ball courts.",
+                "notable_buildings": [
+                    "Pyramid of the Sun",
+                    "Pyramid of the Moon",
+                    "Temple of the Feathered Serpent"
+                ]
+            },
+            {
+                "name": "Unknown",
+                "birth_date": null,
+                "death_date": null,
+                "nationality": "Aztec",
+                "description": "Aztec architects built large pyramids topped with temples, as well as smaller courtyard structures like the temazcal and the cuicacalli. They also had a sophisticated system of aqueducts and canals.",
+                "notable_buildings": [
+                    "Templo Mayor",
+                    "Great Temple of Tenochtitl\u00e1n",
+                    "Calixtlahuaca"
+                ]
+            },
+            {
+                "name": "Unknown",
+                "birth_date": null,
+                "death_date": null,
+                "nationality": "Inca",
+                "description": "Inca architects designed massive stone structures without the use of mortar. They also built extensive road networks and irrigation systems.",
+                "notable_buildings": [
+                    "Machu Picchu",
+                    "Sacsayhuam\u00e1n",
+                    "Ollantaytambo"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "10,000 BCE - 1492 CE",
+            "period": "Pre-Columbian Period",
+            "description": "The Pre-Columbian Period refers to the time in the Americas before the arrival of Columbus in 1492. During this time, various civilizations developed unique architectural styles that were influenced by their religious beliefs, geographical location, and available materials.",
+            "characteristics": [
+                "Use of local materials like stone, adobe, and wood",
+                "Incorporation of natural elements like water and vegetation",
+                "Use of complex geometric shapes and patterns",
+                "Symbolic representations of gods and animals in architecture",
+                "Innovative engineering techniques like corbel arches and earthquake-resistant structures"
+            ],
+            "examples": [
+                "Mayan pyramids and temples in Mexico and Central America",
+                "Inca terraced cities and Machu Picchu in Peru",
+                "Chimu citadels and Moche huacas in Peru",
+                "Anasazi cliff dwellings in the American Southwest",
+                "Hohokam ballcourts and canals in Arizona"
+            ],
+            "continent": "North and South America",
+            "country": [
+                "Mexico",
+                "Peru",
+                "the United States"
+            ]
+        },
+        "terms": "adjectives: indigenous, traditional, complex, symbolicnouns: pyramids, temples, plazas, canals, terraces, adobe, stone"
+    },
+    "Mid-Century Modern": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "June 8, 1867",
+                "death_date": "April 9, 1959",
+                "nationality": "American",
+                "description": "Considered one of the greatest American architects, Wright is known for his organic architecture that emphasizes the relationship between buildings and nature.",
+                "notable_buildings": [
+                    "Fallingwater (1935)",
+                    "Solomon R. Guggenheim Museum (1959)",
+                    "Johnson Wax Headquarters (1936)"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birth_date": "March 27, 1886",
+                "death_date": "August 17, 1969",
+                "nationality": "German-American",
+                "description": "A pioneer of modernist architecture, Mies van der Rohe is known for his minimalistic and functional designs that emphasize clean lines and industrial materials.",
+                "notable_buildings": [
+                    "Seagram Building (1958)",
+                    "Farnsworth House (1951)",
+                    "Crown Hall (1956)"
+                ]
+            },
+            {
+                "name": "Richard Neutra",
+                "birth_date": "April 8, 1892",
+                "death_date": "April 16, 1970",
+                "nationality": "Austrian-American",
+                "description": "A leading figure in the mid-century modern movement, Neutra's designs reflect a blend of European modernism and California's landscape.",
+                "notable_buildings": [
+                    "Kaufmann House (1946)",
+                    "Lovell Health House (1929)",
+                    "Bailey House (Case Study House #21) (1945)"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1940s-1960s",
+            "period": "20th century",
+            "description": "Mid-Century Modern is a style of architecture, interior design, and product design that originated in the mid-20th century. The style is characterized by clean lines, minimal ornamentation, and an emphasis on functionality. It emphasizes the use of natural materials such as wood and stone, as well as new materials such as plastic and fiberglass. The style is often associated with the post-World War II period, when there was a need for practical and affordable housing for the middle class.",
+            "characteristics": [
+                "Clean lines and minimal ornamentation",
+                "Emphasis on functionality",
+                "Use of natural and new materials",
+                "Integration of indoor and outdoor spaces",
+                "Open floor plans",
+                "Large windows and ample natural light"
+            ],
+            "examples": [
+                "The Farnsworth House by Ludwig Mies van der Rohe",
+                "The Eames House by Charles and Ray Eames",
+                "The Solomon R. Guggenheim Museum by Frank Lloyd Wright",
+                "The Seagram Building by Ludwig Mies van der Rohe",
+                "The Stahl House by Pierre Koenig"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular."
+    },
+    "Umayyad Period": {
+        "architects": [
+            {
+                "name": "Al-Walid ibn Abd al-Malik",
+                "birth_date": "668 CE",
+                "death_date": "715 CE",
+                "nationality": "Umayyad",
+                "description": "Caliph and patron of early Islamic architecture",
+                "notable_buildings": [
+                    "Great Mosque of Damascus",
+                    "Al-Walid's palace in Raqqa",
+                    "Qasr al-Hayr al-Gharbi"
+                ]
+            },
+            {
+                "name": "Hisham ibn Abd al-Malik",
+                "birth_date": "691 CE",
+                "death_date": "743 CE",
+                "nationality": "Umayyad",
+                "description": "Caliph and patron of early Islamic architecture",
+                "notable_buildings": [
+                    "Qasr al-Mshatta",
+                    "Qasr al-Hayr al-Sharqi",
+                    "Great Mosque of Aleppo"
+                ]
+            },
+            {
+                "name": "Anthemius of Tralles",
+                "birth_date": "474 CE",
+                "death_date": "558 CE",
+                "nationality": "Byzantine",
+                "description": "Byzantine architect and mathematician who contributed to early Islamic architecture",
+                "notable_buildings": [
+                    "Hagia Sophia in Constantinople",
+                    "Church of Saint John in Ephesus",
+                    "Baths of Zeuxippus in Constantinople"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "661-750 CE",
+            "period": "Islamic Golden Age",
+            "description": "Umayyad architecture was characterized by extensive use of mosaics, carved stucco decoration, and the use of hypostyle mosques with large courtyards and prayer halls with carved wooden roofs",
+            "characteristics": [
+                "Extensive use of mosaics",
+                "Carved stucco decoration",
+                "Hypostyle mosques",
+                "Large courtyards",
+                "Prayer halls with carved wooden roofs"
+            ],
+            "examples": [
+                "Dome of the Rock, Jerusalem",
+                "Great Mosque of Damascus, Syria",
+                "Alhambra Palace, Granada, Spain"
+            ],
+            "continent": "Asia",
+            "country": [
+                "Syria",
+                "Spain"
+            ]
+        },
+        "terms": "mosques, domes, arches, glazed, decorative, ornate, geometric patterns, extravagant, monumental, lavish, grandiose."
+    },
+    "Abbasid Period": {
+        "architects": [
+            {
+                "name": "Al-Wasiti",
+                "birth_date": "10th century",
+                "death_date": "11th century",
+                "nationality": "Iraqi",
+                "description": "One of the most important Abbasid architects, credited for designing several palaces and public buildings.",
+                "notable_buildings": [
+                    "Al-Mustansiriya School",
+                    "Al-Aqmar Mosque",
+                    "Palace of the Caliphs"
+                ]
+            },
+            {
+                "name": "Badi' al-Zaman al-Hamadani",
+                "birth_date": "980 CE",
+                "death_date": "1012 CE",
+                "nationality": "Persian",
+                "description": "A renowned architect and mathematician, known for his contributions to the field of Islamic architecture.",
+                "notable_buildings": [
+                    "Royal Mosque of Isfahan",
+                    "Qabus Mosque",
+                    "Badi' al-Zaman Palace"
+                ]
+            },
+            {
+                "name": "Sinan",
+                "birth_date": "1489 CE",
+                "death_date": "1588 CE",
+                "nationality": "Turkish",
+                "description": "Considered one of the greatest architects of the Ottoman Empire, Sinan is credited for designing over 300 buildings.",
+                "notable_buildings": [
+                    "Suleymaniye Mosque",
+                    "Selimiye Mosque",
+                    "Kilic Ali Pasha Complex"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "750-1258 CE",
+            "period": "Islamic Golden Age",
+            "description": "The Abbasid period of Islamic architecture is characterized by a synthesis of architectural styles from various regions and the infusion of new ideas into Islamic design. This period saw the development of new building forms, such as the madrasa, which became prominent throughout the Islamic world. Architecture during the Abbasid period was heavily influenced by the art and culture of ancient Greece and Rome, and Islamic architecture developed a unique style that incorporated elements of these classical traditions.",
+            "characteristics": [
+                "The use of geometric shapes and patterns in decoration",
+                "The use of calligraphy as an important decorative element",
+                "The use of domes and arches to create large interior spaces",
+                "The incorporation of gardens and courtyards into architecture"
+            ],
+            "examples": [
+                "The Great Mosque of Samarra, Iraq",
+                "The Alhambra, Granada, Spain",
+                "The Mosque of Ibn Tulun, Cairo, Egypt"
+            ],
+            "continent": "Asia and Europe",
+            "country": [
+                "Iraq",
+                "Spain",
+                "Egypt"
+            ]
+        },
+        "terms": "Islamic, ornate, geometric, domes, minarets, mosaics, intricate, luxurious, symmetrical, grand, courtyards, symmetrical, calligraphy, brick."
+    },
+    "Fatimid Period": {
+        "architects": [
+            {
+                "name": "Al-Ma'mun al-Bata'ihi",
+                "birth_date": "d. 1075",
+                "death_date": "1075",
+                "nationality": "Arab",
+                "description": "A prominent Fatimid architect, known for his work on mosques and palaces.",
+                "notable_buildings": [
+                    "Mosque of al-Hakim",
+                    "Palace of the Caliphs"
+                ]
+            },
+            {
+                "name": "Badr al-Jamali",
+                "birth_date": "d. 1094",
+                "death_date": "1094",
+                "nationality": "Fatimid",
+                "description": "A general and vizier of the Fatimid Caliphate, who was also an architect and patron of several important buildings.",
+                "notable_buildings": [
+                    "Al-Jamali Mosque",
+                    "City of Victory"
+                ]
+            },
+            {
+                "name": "Hassan ibn Sabbah",
+                "birth_date": "1050",
+                "death_date": "1124",
+                "nationality": "Ismaili",
+                "description": "A Persian Ismaili theologian and philosopher, who founded the Order of Assassins and was also a patron of several important buildings.",
+                "notable_buildings": [
+                    "Alamut Castle",
+                    "Lambsar Castle"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "909 AD \u2013 1171 AD",
+            "period": "Islamic Golden Age",
+            "description": "The Fatimid Period marked a significant era of Islamic art and architecture characterized by the use of ornate decorations, symmetrical designs, intricate calligraphy, and the revival of ancient techniques. It was also notable for its innovation in dome construction and the use of geometric patterns in buildings.",
+            "characteristics": [
+                "Ornate decorations",
+                "Symmetrical designs",
+                "Intricate calligraphy",
+                "Revival of ancient techniques",
+                "Innovation in dome construction",
+                "Use of geometric patterns"
+            ],
+            "examples": [
+                "Al-Azhar Mosque in Cairo",
+                "Al-Hakim Mosque in Cairo",
+                "Al-Aqmar Mosque in Cairo",
+                "Al-Atiq Mosque in Cairo"
+            ],
+            "continent": "Africa",
+            "country": "Egypt"
+        },
+        "terms": "Islamic, ornate, geometric, limestone, caliphate, arches, domes, intricate, intricate stucco, enameled, glazed, arabesque, calligraphy, muqarnas, surah, medallions, minarets, courtyards, vaulted, mihrab, towers, porticos, serenity, symmetry."
+    },
+    "Andalusian Period": {
+        "architects": [
+            {
+                "name": "Musa ibn Ali",
+                "birth_date": "ca. 1002",
+                "death_date": "1070",
+                "nationality": "Andalusian",
+                "description": "Prolific architect and polymath during the reign of Caliph al-Muqtadir",
+                "notable_buildings": [
+                    "Great Mosque of Cordoba",
+                    "Al-Zahira Palace",
+                    "Royal Mosque of Medina Azahara"
+                ]
+            },
+            {
+                "name": "Ahmad Ibn Baso",
+                "birth_date": "11th century",
+                "death_date": "unknown",
+                "nationality": "Andalusian",
+                "description": "Prominent architect during the Taifa period",
+                "notable_buildings": [
+                    "Almunia de la Almudaina",
+                    "Tombs of the Kings of Granada",
+                    "Mihrab of the Aljaferia"
+                ]
+            },
+            {
+                "name": "Ibn al-Qadi al-Nu'man",
+                "birth_date": "964",
+                "death_date": "1042",
+                "nationality": "Andalusian",
+                "description": "Leading architect of the Umayyad dynasty and author of the influential 'Book of the Art of Building'",
+                "notable_buildings": [
+                    "Dome of the Rock",
+                    "Al-Aqsa Mosque",
+                    "Umayyad Mosque of Damascus"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "8th to 15th century",
+            "period": "Islamic period",
+            "description": "Unique architecture characterized by a blend of Islamic and European styles",
+            "characteristics": [
+                "Use of horseshoe arches",
+                "Ornate tilework",
+                "Intricate geometrical patterns",
+                "Use of stucco and plaster in decoration",
+                "Courtyard gardens",
+                "Water features"
+            ],
+            "examples": [
+                "Great Mosque of Cordoba",
+                "Alhambra Palace",
+                "Aljaferia Palace"
+            ],
+            "continent": "Europe",
+            "country": "Spain"
+        },
+        "terms": "Moorish, Islamic, ornate, intricate, geometric, colorful, grand, arched, domed, tiled, courtyarded, fountains, gardens."
+    },
+    "Seljuk Period": {
+        "architects": [
+            {
+                "name": "Ali ibn Anushtegin",
+                "birthdate": "unknown",
+                "deathdate": "1186",
+                "nationality": "Persian",
+                "description": "Chief architect and designer of the Great Mosque of Isfahan during the Seljuk period.",
+                "notable_buildings": [
+                    "Great Mosque of Isfahan"
+                ]
+            },
+            {
+                "name": "Muhammad ibn Ahmad al-Shirazi",
+                "birthdate": "1145",
+                "deathdate": "1215",
+                "nationality": "Persian",
+                "description": "Seljuk architect who specialized in designing and building towers and minarets.",
+                "notable_buildings": [
+                    "Gonbad-e Qabus tower"
+                ]
+            },
+            {
+                "name": "Nizam al-Mulk",
+                "birthdate": "1018",
+                "deathdate": "1092",
+                "nationality": "Persian",
+                "description": "Chief minister and patron of the arts during the Seljuk period, responsible for the construction of many buildings and the establishment of educational institutions.",
+                "notable_buildings": [
+                    "Nizamiyya madrasas"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "11th-14th century",
+            "period": "Islamic Architecture",
+            "description": "The Seljuk period architecture is a combination of Islamic and Turkish styles that emerged during the Seljuk Empire in the 11th century. The architecture is characterized by the use of arched entrances, domes, and vaulted ceilings. The decoration is often intricate and includes intricate geometric and floral designs. Seljuk architecture was influenced by earlier Islamic architecture, as well as Byzantine and Sassanid styles.",
+            "characteristics": [
+                "Use of arched entrances, domes, and vaulted ceilings",
+                "Intricate decoration with geometric and floral designs",
+                "Influenced by earlier Islamic architecture, Byzantine, and Sassanid styles"
+            ],
+            "examples": [
+                "Great Mosque of Isfahan (Iran)",
+                "Alaeddin Mosque (Turkey)",
+                "Tomb of Ahmed Sanjar (Uzbekistan)"
+            ],
+            "continent": "Asia",
+            "country": [
+                "Iran",
+                "Turkey",
+                "Uzbekistan"
+            ]
+        },
+        "terms": "ornate, intricate, geometric, dome-shaped, pointed, arches and columns, glazed tiles, mosaics, sturdy, monumental, Islamic-inspired, minarets, embellished, decorative, courtyards, caravanserais."
+    },
+    "Mamluk Period": {
+        "architects": [
+            {
+                "name": "Al-Suyuti",
+                "birth_date": "October 3, 1445",
+                "death_date": "October 17, 1505",
+                "nationality": "Egyptian",
+                "description": "A theologian and scholar who was also skilled in architecture.",
+                "notable_buildings": [
+                    "Dome of Al-Sakhina in Cairo",
+                    "Mosque of Al-Masjid Al-Aqmar in Cairo"
+                ]
+            },
+            {
+                "name": "Al-Maqrizi",
+                "birth_date": "1364",
+                "death_date": "1442",
+                "nationality": "Egyptian",
+                "description": "A historian, writer and architect who wrote extensively about the architecture of the Mamluk period.",
+                "notable_buildings": [
+                    "Tombs of the Mamluk sultans in Cairo"
+                ]
+            },
+            {
+                "name": "Qalawun",
+                "birth_date": "1222",
+                "death_date": "1290",
+                "nationality": "Syrian",
+                "description": "A sultan of the Mamluk dynasty who commissioned many important buildings during his reign.",
+                "notable_buildings": [
+                    "The Qalawun Complex in Cairo",
+                    "The Madrasa of Sultan Hassan in Cairo"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1250-1517 CE",
+            "period": "Medieval Islamic architecture",
+            "description": "Architecture of the Mamluk dynasty, a Muslim ruling class that ruled Egypt and Syria during the medieval period",
+            "characteristics": [
+                "Incorporates elements from different Islamic architectural styles",
+                "Use of intricate decorative patterns and calligraphy",
+                "Prominence of domes and minarets",
+                "Innovations in the use of light and shadow",
+                "Use of muqarnas (stalactite-like stone or brick elements used for vaulting)",
+                "Emphasis on symmetry and proportion"
+            ],
+            "examples": [
+                "Mosque of Sultan Hasan and the Mosque of Ibn Tulun in Cairo, Egypt",
+                "Madrasa al-Zahiriyah, Al-Gawhara Palace, and Qalawun complex in Syria",
+                "Bab Zuweila and Bab al-Barqiyya, gates in Cairo, Egypt"
+            ],
+            "continent": "Africa and Asia",
+            "country": "Egypt and Syria"
+        },
+        "terms": "Towering minarets, intricate arabesque patterns, opulent palaces, majestic domes, decorative muqarnas, elegant courtyards, ornate mausoleums, stately arches, grand gateways, rich stone carvings, sprawling madrasas, vibrant tilework, colorful stained-glass windows, refined calligraphy, lavish marble floors, monumental fortifications, sophisticated irrigation systems."
+    },
+    "Safavid Period": {
+        "architects": [
+            {
+                "name": "Ali Akbar Isfahani",
+                "birth_date": "unknown",
+                "death_date": "unknown",
+                "nationality": "Persian",
+                "description": "One of the most famous architects of the Safavid period, who worked on many important palaces, mosques, and public buildings.",
+                "notable_buildings": [
+                    "Chehel Sotoun Palace",
+                    "Hasht Behesht Palace",
+                    "Shah Mosque of Isfahan"
+                ]
+            },
+            {
+                "name": "Sheikh Bahai",
+                "birth_date": "1547",
+                "death_date": "1621",
+                "nationality": "Persian",
+                "description": "An influential architect, mathematician, and philosopher, who also served as a statesman at the court of Shah Abbas I.",
+                "notable_buildings": [
+                    "Imam Mosque of Isfahan",
+                    "Ali Qapu Palace",
+                    "Masjed-e-Jameh of Isfahan"
+                ]
+            },
+            {
+                "name": "Mohammadreza Isfahani",
+                "birth_date": "unknown",
+                "death_date": "unknown",
+                "nationality": "Persian",
+                "description": "A prolific architect who was one of the most important figures in the Safavid period, responsible for many important structures in Isfahan and other cities.",
+                "notable_buildings": [
+                    "Vakil Mosque",
+                    "Vakil Bazaar",
+                    "Sheikh Lotfollah Mosque"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1501-1722",
+            "period": "Islamic Golden Age",
+            "description": "The Safavid Period architecture style is historically significant in Iran because it was during this era that Shia Islam became the official state religion. Safavid architecture was characterized by the widespread use of domes, Iwan designs, minarets, intricate geometric patterns, and the incorporation of a distinct Persian style, which gave the architectural design its own identity.",
+            "characteristics": [
+                "Highly decorated facades",
+                "Floral motifs",
+                "Vibrant colors",
+                "Ceramic tilework",
+                "Calligraphy",
+                "Elaborate arches",
+                "Symmetrical layouts"
+            ],
+            "examples": [
+                "Chehel Sotoun Palace in Isfahan",
+                "Shah Mosque in Isfahan",
+                "Sheikh Lotfollah Mosque in Isfahan",
+                "Ali Qapu palace in Isfahan",
+                "Imam Reza Shrine in Mashhad"
+            ],
+            "continent": "Asia",
+            "country": "Iran"
+        },
+        "terms": "Blue tilework, domes, arches, intricate calligraphy, radiant, elegant, symmetrical, harmonious."
+    },
+    "Ottoman Period": {
+        "architects": [
+            {
+                "name": "Mimar Sinan",
+                "birth_date": "1489",
+                "death_date": "1588",
+                "nationality": "Turkish",
+                "description": "Chief Ottoman architect and civil engineer during the reign of Suleiman the Magnificent",
+                "notable_buildings": [
+                    "Suleymaniye Mosque",
+                    "Selimiye Mosque",
+                    "Rustem Pasha Mosque"
+                ]
+            },
+            {
+                "name": "Mimar Koca Sinan",
+                "birth_date": "1512",
+                "death_date": "1588",
+                "nationality": "Turkish",
+                "description": "One of the most famous Ottoman architects, known for his monumental structures and bridge-building skills",
+                "notable_buildings": [
+                    "Suleymaniye Mosque",
+                    "Selimiye Mosque",
+                    "Rustem Pasha Mosque"
+                ]
+            },
+            {
+                "name": "Mimar Mehmet Aga",
+                "birth_date": "1540",
+                "death_date": "1623",
+                "nationality": "Turkish",
+                "description": "Chief Ottoman architect during the reign of Ahmed I",
+                "notable_buildings": [
+                    "Ahmed I Mosque",
+                    "Ibrahim Pasha Mosque",
+                    "Zal Mahmut Pasha Mosque"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1299-1922",
+            "period": "Medieval to Modern",
+            "description": "The Ottoman Period architecture style encompasses the structure and design created during the Ottoman Empire, which emerged in the late medieval period and lasted until the early 20th century. This style is characterized by its intricate use of geometry, pattern, and structure, often incorporating Islamic motifs and styles.",
+            "characteristics": [
+                "Intricate use of geometry, pattern, and structure",
+                "Islamic motifs and styles",
+                "Elongated shapes and domes",
+                "Hand-painted tiles and mosaics",
+                "Use of a variety of materials, including stone, brick, and wood"
+            ],
+            "examples": [
+                "Hagia Sophia",
+                "Topkapi Palace",
+                "Blue Mosque",
+                "Dolmabahce Palace",
+                "Sultan Ahmed Mosque"
+            ],
+            "continent": "Asia",
+            "country": "Turkey"
+        },
+        "terms": "exquisite, grandiose, Islamic, ornate, domes, arches, calligraphy, tiles, geometric patterns, mosques, palaces, minarets."
+    },
+    "Modern Islamic Architecture": {
+        "architects": [
+            {
+                "name": "Hassan Fathy",
+                "birth_date": "March 23, 1900",
+                "death_date": "November 30, 1989",
+                "nationality": "Egyptian",
+                "description": "An influential Egyptian architect and a pioneer of sustainable architecture.",
+                "notable_buildings": [
+                    "New Gourna Village, Luxor Governorate, Egypt",
+                    "Dar al-Islam, Abiqui\u00fa, New Mexico, USA"
+                ]
+            },
+            {
+                "name": "Balkrishna Doshi",
+                "birth_date": "August 26, 1927",
+                "death_date": null,
+                "nationality": "Indian",
+                "description": "An Indian architect, urban planner, and teacher who is known for his use of sustainable design principles and materials.",
+                "notable_buildings": [
+                    "Sangath, Ahmedabad, India",
+                    "Indian Institute of Management Bangalore, Karnataka, India"
+                ]
+            },
+            {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "death_date": "March 31, 2016",
+                "nationality": "Iraqi-British",
+                "description": "An internationally renowned architect and the first woman to receive the Pritzker Architecture Prize.",
+                "notable_buildings": [
+                    "Heydar Aliyev Center, Baku, Azerbaijan",
+                    "Bridge Pavilion, Zaragoza, Spain"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "20th century - present day",
+            "period": "Contemporary",
+            "description": "Modern Islamic Architecture is a movement inspired by Islamic traditions and blended with modern influences to create avant-garde architectural designs. Emphasis is placed on simple geometry, clean lines, and minimal ornamentation. It is a style that reflects the fusion of traditional Islamic architecture with modern technology and contemporary design.",
+            "characteristics": [
+                "Clean lines",
+                "Minimal ornamentation",
+                "Simple geometry",
+                "Incorporation of modern technology",
+                "Use of modern materials",
+                "Creative use of light and space"
+            ],
+            "examples": [
+                "Petronas Towers in Kuala Lumpur, Malaysia",
+                "Hassan II Mosque in Casablanca, Morocco",
+                "Bahrain World Trade Center in Manama, Bahrain",
+                "King Abdullah Petroleum Studies and Research Center in Riyadh, Saudi Arabia"
+            ],
+            "continent": "Asia",
+            "country": "various"
+        },
+        "terms": " geometric patterns, courtyards, arches, domes, calligraphy, incised detailing, mashrabiya screens, Islamic symbolism.  contemporary, minimalist, sleek, elegant, chic, symbolic, traditional, cultural."
+    },
+    "Timurid Period": {
+        "architects": [
+            {
+                "name": "Ulugh Beg",
+                "birth_date": "March 22, 1394",
+                "death_date": "October 27, 1449",
+                "nationality": "Timurid",
+                "description": "A Timurid ruler and astronomer who also contributed to architecture during the Timurid period.",
+                "notable_buildings": [
+                    "Observatory of Samarkand"
+                ]
+            },
+            {
+                "name": "Ghiyath al-Din Tughluq",
+                "birth_date": "Unknown",
+                "death_date": "March 23, 1388",
+                "nationality": "Timurid",
+                "description": "A Timurid architect and builder of the Tughlaqabad Fort in India.",
+                "notable_buildings": [
+                    "Tughlaqabad Fort"
+                ]
+            },
+            {
+                "name": "Abdul-Qadir Gilani",
+                "birth_date": "July 29, 1077",
+                "death_date": "March 14, 1166",
+                "nationality": "Timurid",
+                "description": "A prominent Sufi saint and scholar who also influenced architecture during the Timurid period.",
+                "notable_buildings": [
+                    "Tomb of Abdul-Qadir Gilani"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1370-1507 CE",
+            "period": "Islamic Golden Age",
+            "description": "The Timurid architecture style was characterized by the fusion of Islamic and Central Asian architecture. It was known for its elaborate decorations, use of ceramic tiles, and minarets with twisted fluting. The Timurids also developed the use of muqarnas, a type of decorative corbel or bracket, which became a defining characteristic of Islamic architecture.",
+            "characteristics": [
+                "Elaborate decorations",
+                "Use of ceramic tiles",
+                "Minarets with twisted fluting",
+                "Use of muqarnas"
+            ],
+            "examples": [
+                "Gur-e-Amir Mausoleum in Samarkand, Uzbekistan",
+                "Registan Square in Samarkand, Uzbekistan",
+                "Shah-i-Zinda Necropolis in Samarkand, Uzbekistan",
+                "Timurid Palace in Herat, Afghanistan"
+            ],
+            "continent": "Asia",
+            "country": "Uzbekistan"
+        },
+        "terms": "Timurid Period architecture style was characterized by intricate details, vibrant tiles, glazed bricks, geometric motifs, blue and turquoise coloring, majestic domes, grand entrances, and monumental structures."
+    },
+    "Modern Islamic": {
+        "architects": [
+            {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "death_date": "March 31, 2016",
+                "nationality": "British",
+                "description": "First woman to receive the Pritzker Architecture Prize. Known for her revolutionary designs and organic forms",
+                "notable_buildings": [
+                    "Heydar Aliyev Centre in Baku, Azerbaijan",
+                    "MAXXI Museum in Rome, Italy",
+                    "Riverside Museum in Glasgow, Scotland"
+                ]
+            },
+            {
+                "name": "Mohammed A. Al-Bayati",
+                "birth_date": "Unknown",
+                "death_date": "Unknown",
+                "nationality": "Iraqi",
+                "description": "One of the leading architects in Iraq",
+                "notable_buildings": [
+                    "Al-Imamain Al-Kadhimain Shrine in Baghdad, Iraq",
+                    "Manqulat Al-Shuhada Mosque in Baghdad, Iraq",
+                    "Al-Nasiriyah Olympic Stadium in Nasiriyah, Iraq"
+                ]
+            },
+            {
+                "name": "Hassan Fathy",
+                "birth_date": "March 23, 1900",
+                "death_date": "November 30, 1989",
+                "nationality": "Egyptian",
+                "description": "Known for his use of traditional Islamic architectural elements and his commitment to sustainable design",
+                "notable_buildings": [
+                    "New Baris Village in Aswan, Egypt",
+                    "Dar Al-Islam in Abiquiu, New Mexico",
+                    "Abu al-Reesh Pediatric Hospital in Cairo, Egypt"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "20th century - present day",
+            "period": "Contemporary",
+            "description": "Modern Islamic architecture integrates traditional Islamic design elements with contemporary styles and technologies.",
+            "characteristics": [
+                "Clean lines and simple forms",
+                "Use of modern materials, such as glass and steel",
+                "Incorporation of traditional Islamic geometric patterns and calligraphy",
+                "Use of light and shadow to create dynamic spaces"
+            ],
+            "examples": [
+                "The Abraj Al Bait Clock Tower in Mecca, Saudi Arabia",
+                "The Petronas Towers in Kuala Lumpur, Malaysia",
+                "The Museum of Islamic Art in Doha, Qatar"
+            ],
+            "continent": "Asia",
+            "country": "Various countries in the Middle East and Southeast Asia"
+        },
+        "terms": "Clean lines, minimal ornamentation, geometric shapes, innovative materials, functional, spacious, contemporary, sustainable, energy-efficient, culturally influenced."
+    },
+    "Indigenous Australian": {
+        "architects": [
+            {
+                "name": "Gregory Burgess",
+                "birth_date": "October 24, 1944",
+                "death_date": null,
+                "nationality": "Australian",
+                "description": "Known for his eco-sensitive designs that merge architectural modernism with traditional indigenous Australian motifs and themes",
+                "notable_buildings": [
+                    "Magical Earth Retreat, WA",
+                    "Abrolhos Island Lodge, WA",
+                    "Desert Knowledge Australia Centre, NT"
+                ]
+            },
+            {
+                "name": "Peter Latz",
+                "birth_date": "July 7, 1945",
+                "death_date": null,
+                "nationality": "Australian",
+                "description": "Known for his focus on sustainable architecture and using indigenous Australian plants in his designs",
+                "notable_buildings": [
+                    "Alice Springs Desert Park, NT",
+                    "Mutitjulu Waterhole, Ulu\u1e5fu-Kata Tju\u1e6fa National Park, NT"
+                ]
+            },
+            {
+                "name": "Richard Leplastrier",
+                "birth_date": "October 18, 1939",
+                "death_date": null,
+                "nationality": "Australian",
+                "description": "Known for his minimalist and ecological approach to architecture, influenced by the traditional building methods of indigenous Australian and Japanese cultures",
+                "notable_buildings": [
+                    "Rainforest House, NSW",
+                    "Rivendell House, NSW",
+                    "Coastal House, NSW"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Pre-colonial times to present day",
+            "period": "Contemporary",
+            "description": "Indigenous Australian architecture refers to the traditional and contemporary building techniques that have been used by Aboriginal and Torres Strait Islander peoples in Australia. It is closely connected to the land, environment, and cultural traditions of these groups.",
+            "characteristics": [
+                "Incorporates natural materials such as wood, bark, stone, and mud",
+                "Utilizes sustainable building techniques",
+                "Often designed to be low-maintenance and adaptable to the environment",
+                "May incorporate decorative elements such as carvings or paintings",
+                "Can be both functional and spiritual in purpose"
+            ],
+            "examples": [
+                "The 12 Apostles Visitor Centre in Victoria, Australia",
+                "The Tamar Valley Centre in Tasmania, Australia",
+                "The Warrnambool City Council Offices in Victoria, Australia"
+            ],
+            "continent": "Australia",
+            "country": "Australia"
+        },
+        "terms": "earthen, organic, circular, thatched, bark, intricate, woven, intricately-carved, natural, sustainable, spiritual, harmonious."
+    },
+    "Polynesian": {
+        "architects": [
+            {
+                "name": "John M. Hara",
+                "birth_date": "1945-05-21",
+                "death_date": null,
+                "nationality": "American",
+                "description": "One of Hawaii's most famous architects who specializes in contemporary Polynesian architecture.",
+                "notable_buildings": [
+                    "Mystical Rose Oratory at Saint Louis School in Honolulu, Hawaii",
+                    "Maryknoll School's new Sullivan Center in Honolulu, Hawaii"
+                ]
+            },
+            {
+                "name": "David Wong",
+                "birth_date": "1967-06-21",
+                "death_date": null,
+                "nationality": "Samoan",
+                "description": "A Samoan architect who specializes in traditional and contemporary Polynesian architecture.",
+                "notable_buildings": [
+                    "Fale O Samoa, a traditional Samoan meeting house in Auckland, New Zealand",
+                    "Otatara House, a contemporary Polynesian-style residence in Dunedin, New Zealand"
+                ]
+            },
+            {
+                "name": "Vaha'akolo Kiteau",
+                "birth_date": "1938-09-12",
+                "death_date": "1997-07-21",
+                "nationality": "Tongan",
+                "description": "A Tongan architect who was renowned for designing traditional Polynesian-style buildings and structures.",
+                "notable_buildings": [
+                    "Free Wesleyan Church of Tonga, a grand cathedral in Nuku'alofa, Tonga",
+                    "Ha'apai High School, a school complex in the Ha'apai Islands, Tonga"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1000 BCE \u2013 1800 CE",
+            "period": "Pre-contact and early contact periods",
+            "description": "Polynesian architecture is the indigenous architecture of the Polynesian people who inhabited the islands of the Polynesian triangle. This architecture style is characterized by its simplicity, functionality, and the use of natural materials such as wood, thatch, and stone. Most buildings were multi-purpose structures that served as houses, meeting houses, and ceremonial spaces.",
+            "characteristics": [
+                "Use of natural materials such as wood, thatch, and stone",
+                "Multi-purpose buildings",
+                "Simple and functional design",
+                "Roofs often have steep pitches to shed rainwater",
+                "Ornamentation is often symbolic"
+            ],
+            "examples": [
+                "Fale, traditional Samoan houses",
+                "Marae, Polynesian civic and religious spaces",
+                "Pa, Maori fortified settlements"
+            ],
+            "continent": "Oceania",
+            "country": [
+                "Various Polynesian islands such as Samoa",
+                "Tonga",
+                "Hawaii",
+                "New Zealand"
+            ]
+        },
+        "terms": " Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical"
+    },
+    "Pacific Islander": {
+        "architects": [
+            {
+                "name": "James K.M. Cheng",
+                "birth_date": "1947-06-20",
+                "death_date": null,
+                "nationality": "Canadian",
+                "description": "James K.M. Cheng is a Canadian architect known for designing contemporary high-rise buildings with over 40 years of experience.",
+                "notable_buildings": [
+                    "Shangri-La Vancouver",
+                    "Fairmont Pacific Rim",
+                    "The Private Residences at Hotel Georgia"
+                ]
+            },
+            {
+                "name": "Ian Astbury",
+                "birth_date": "1956-05-14",
+                "death_date": null,
+                "nationality": "New Zealander",
+                "description": "Ian Astbury is a New Zealand-born architect and urban designer. He is known for his work in sustainable design.",
+                "notable_buildings": [
+                    "Iwikau Village"
+                ]
+            },
+            {
+                "name": "Rudolph Schindler",
+                "birth_date": "1887-09-10",
+                "death_date": "1953-08-22",
+                "nationality": "Austrian",
+                "description": "Rudolph Schindler was an Austrian-born architect who contributed to the development of the Los Angeles architecture scene. He was known for his modernist style influenced by the Pacific Islander architecture.",
+                "notable_buildings": [
+                    "Schindler House",
+                    "Kings Road House",
+                    "Fitzpatrick-Leland House"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Primitive period to present day",
+            "period": "Pre-Colonial to Post-Colonial",
+            "description": "The Pacific Islander architecture style encompasses a wide variety of traditional architectural designs from the various island groups located in the Pacific Ocean. It is characterized by the use of locally-sourced materials, such as wood, thatch, and coral, and the integration of natural elements into the structure. The designs range from simple huts to elaborate communal buildings and temples, and incorporate intricate carvings and motifs that reflect the culture and beliefs of the people who inhabit the islands.",
+            "characteristics": [
+                "Use of natural, locally-sourced materials",
+                "Incorporation of natural elements into the structure",
+                "Intricate carvings and motifs inspired by local culture and beliefs",
+                "Variety of shapes and sizes, from simple huts to elaborate communal buildings and temples",
+                "Open and airy design to combat heat and humidity"
+            ],
+            "examples": [
+                "Fale (Samoa)",
+                "Tongan house (Tonga)",
+                "Bure (Fiji)",
+                "Whare (New Zealand)",
+                "Bale (Papua New Guinea)"
+            ],
+            "continent": "Oceania",
+            "country": "various island groups in the Pacific Ocean"
+        },
+        "terms": "Organic, tropical, wooden, airy, high-pitched roof, post-and-beam construction, symmetrical, traditional, culturally significant, simplistic."
+    },
+    "Contemporary Oceania": {
+        "architects": [
+            {
+                "name": "Glenn Murcutt",
+                "birth_date": "July 25, 1936",
+                "death_date": "-",
+                "nationality": "Australian",
+                "description": "Pritzker Prize-winning architect known for his energy-efficient and environmentally-sensitive designs.",
+                "notable_buildings": [
+                    "Marika-Alderton House",
+                    "Simpson-Lee House",
+                    "Bowali Visitor Information Centre"
+                ]
+            },
+            {
+                "name": "Peter Stutchbury",
+                "birth_date": "1951",
+                "death_date": "-",
+                "nationality": "Australian",
+                "description": "Architect known for his focus on the relationship between buildings and their environment.",
+                "notable_buildings": [
+                    "Green House",
+                    "Wall House",
+                    "Mansfield House"
+                ]
+            },
+            {
+                "name": "Kerry Hill",
+                "birth_date": "1943",
+                "death_date": "2018",
+                "nationality": "Australian",
+                "description": "Architect known for his elegant, minimalist designs and extensive use of natural materials.",
+                "notable_buildings": [
+                    "Oceanside Resort",
+                    "Bali Villas",
+                    "Rockpool Bar & Grill Perth"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 20th century to present",
+            "period": "Contemporary",
+            "description": "Contemporary Oceania architecture is characterized by its blend of traditional and modern styles, utilizing sustainable materials and techniques while also incorporating cultural elements.",
+            "characteristics": [
+                "Integration of indigenous materials and design elements with modern technologies and global design influences",
+                "use of sustainable materials and techniques",
+                "focus on environmental stewardship and cultural preservation."
+            ],
+            "examples": [
+                "Te Kaitaka - The Cloak",
+                "Auckland War Memorial Museum",
+                "National Museum of Australia"
+            ],
+            "continent": "Oceania",
+            "country": [
+                "New Zealand",
+                "Australia"
+            ]
+        },
+        "terms": "Minimalist, organic, sustainable, tropical, traditional, indigenous-inspired, open, airy, geometric, innovative."
+    },
+    "Indigenous Contemporary": {
+        "architects": [
+            {
+                "name": "Douglas Cardinal",
+                "birth_date": "March 7, 1934",
+                "death_date": "",
+                "nationality": "Canadian",
+                "description": "An Indigenous Canadian architect known for his organic style and incorporation of natural elements into his designs.",
+                "notable_buildings": [
+                    "Canadian Museum of History",
+                    "First Nations University of Canada",
+                    "St. Albert Place"
+                ]
+            },
+            {
+                "name": "Francis K\u00e9r\u00e9",
+                "birth_date": "April 19, 1965",
+                "death_date": "",
+                "nationality": "Burkinabe",
+                "description": "An Indigenous Burkinabe architect known for his use of sustainable and traditional materials in his designs, as well as his emphasis on community involvement in the building process.",
+                "notable_buildings": [
+                    "Gando Primary School",
+                    "Opera Village",
+                    "Burkina Faso National Assembly"
+                ]
+            },
+            {
+                "name": "Diego Pe\u00f1aloza",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Bolivian",
+                "description": "An Indigenous Bolivian architect known for his work on sustainable and community-driven projects in Bolivia, with a focus on preserving traditional techniques and materials.",
+                "notable_buildings": [
+                    "Ecolodge La Estancia",
+                    "Sumaj Orcko Eco-Resort",
+                    "Mausoleum of the ex-president Juan Lech\u00edn Oquendo"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1980s - present",
+            "period": "Contemporary",
+            "description": "Indigenous Contemporary architecture is a style that incorporates traditional indigenous design elements with modern techniques and materials. It emphasizes sustainability, community involvement, and cultural identity.",
+            "characteristics": [
+                "Incorporation of traditional indigenous design elements",
+                "use of local and sustainable materials",
+                "emphasis on cultural identity",
+                "community involvement in design and construction process."
+            ],
+            "examples": [
+                "Nk'Mip Desert Cultural Centre (Canada)",
+                "Te Kura Whare (New Zealand)",
+                "Guna Yala Congress Hall (Panama)"
+            ],
+            "continent": [
+                "North America",
+                "Oceania",
+                "South America"
+            ],
+            "country": [
+                "Canada",
+                "New Zealand",
+                "Panama"
+            ]
+        },
+        "terms": " Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature."
+    },
+    "Mud Brick": {
+        "architects": [
+            {
+                "name": "Hassan Fathy",
+                "birthDate": "March 23, 1900",
+                "deathDate": "November 30, 1989",
+                "nationality": "Egyptian",
+                "description": "Known for his advocacy of mud brick architecture and for integrating traditional Egyptian building techniques with modern architectural principles.",
+                "notableBuildings": [
+                    "New Gourna Village",
+                    "Dar al-Islam",
+                    "Karanis House"
+                ]
+            },
+            {
+                "name": "Nader Khalili",
+                "birthDate": "April 22, 1936",
+                "deathDate": "March 5, 2008",
+                "nationality": "Iranian",
+                "description": "Founder of the California Institute of Earth Art and Architecture, known for his work with adobe architecture and for developing Superadobe, a patented building system based on earthbag construction.",
+                "notableBuildings": [
+                    "Bagh-e-Babur Mosque",
+                    "Ecorock",
+                    "Vaulted Houses"
+                ]
+            },
+            {
+                "name": "Simone Swan",
+                "birthDate": "1925",
+                "deathDate": "February 8, 1997",
+                "nationality": "American",
+                "description": "Known for her work in sustainable architecture and for her advocacy of sustainable building materials such as mud brick and adobe.",
+                "notableBuildings": [
+                    "Adobe House",
+                    "Aragon House",
+                    "California House"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "4000 BC - Present",
+            "period": "Prehistoric - Present",
+            "description": "Mud brick architecture is a traditional style of construction that uses mud or clay as the primary building material. It is prevalent in arid and semi-arid regions where mud is readily available and provides natural insulation against harsh climates.",
+            "characteristics": [
+                "Heavy use of mud bricks as building blocks",
+                "Use of mud as mortar or plaster",
+                "Simple design with flat roofs and rounded corners",
+                "Decorative features such as wooden beams, plaster reliefs, and painted motifs",
+                "High thermal mass and energy efficiency"
+            ],
+            "examples": [
+                "The ancient city of Jericho in Palestine",
+                "The Great Mosque of Djenne in Mali",
+                "The traditional houses of Yemen",
+                "The city of Shibam in Yemen",
+                "The city of Mudhera in Sudan"
+            ],
+            "continent": [
+                "Africa",
+                "Asia",
+                "South America"
+            ],
+            "country": [
+                "Palestine",
+                "Mali",
+                "Yemen",
+                "Sudan",
+                "Peru",
+                "Mexico",
+                "Iran",
+                "India",
+                "Egypt",
+                "Iraq",
+                "Morocco",
+                "Tunisia"
+            ]
+        },
+        "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional."
     }
 }
