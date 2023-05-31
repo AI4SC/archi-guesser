@@ -2806,32 +2806,58 @@
                 "Turkey",
                 "Iran"
             ]
-        }
+        },
+        "terms": "Arabic, geometric, intricate, repetitive, domes, arches, minarets, colorful, ornate, symmetrical, calligraphy, courtyards, mosaic, tile work, light, spirituality."
     },
     "Gothic Revival": {
-        "reply": "As an AI language model, I cannot do the research but I can provide you with the syntax. Here's an example of how you can structure JSON data for 3 famous architects with birth date, nationality, description and their notable buildings for \"Gothic Revival\" architecture style:\n\n```\n[\n  {\n    \"name\": \"Augustus Pugin\",\n    \"birth_date\": \"1 March 1812\",\n    \"nationality\": \"English\",\n    \"description\": \"A leading figure in the Gothic Revival style in the UK, he was a designer of many buildings and interiors, including Catholic churches and the Palace of Westminster.\",\n    \"notable_buildings\": [\"Westminster Palace\", \"St. Giles' Catholic Church\", \"St. Chad's Catholic Cathedral\"]\n  },\n  {\n    \"name\": \"Eugene Viollet-le-Duc\",\n    \"birth_date\": \"27 January 1814\",\n    \"nationality\": \"French\",\n    \"description\": \"A prominent architect and theorist of the Gothic Revival style in France, he is best known for his restorations of medieval buildings such as the Notre-Dame Cathedral and the Sainte-Chapelle in Paris.\",\n    \"notable_buildings\": [\"Notre-Dame Cathedral\", \"Sainte-Chapelle\", \"La Madeleine\"]\n  },\n  {\n    \"name\": \"William Butterfield\",\n    \"birth_date\": \"7 September 1814\",\n    \"nationality\": \"English\",\n    \"description\": \"An architect who was influential in the revival of Gothic architecture in England in the mid-19th century, he designed many churches and other buildings in a distinctive, polychromatic style.\",\n    \"notable_buildings\": [\"All Saints, Margaret Street\", \"Keble College Chapel\", \"St Augustine's, Kilburn\"]\n  }\n]\n```",
+        "architects": [
+            {
+                "name": "Augustus Pugin",
+                "birth_date": "1 March 1812",
+                "nationality": "British",
+                "description": "Augustus Welby Northmore Pugin was an English architect and design reformer who is credited with popularising the Gothic Revival style in architecture.",
+                "notable_buildings": [
+                    "The Palace of Westminster"
+                ]
+            },
+            {
+                "name": "Eduardo VII",
+                "birth_date": "9 November 1841",
+                "nationality": "Portugal",
+                "description": "King Edward VII was a monarch known for his interest in art, fashion, and architecture. He was a patron of the Arts and Crafts Movement and the Gothic Revival style.",
+                "notable_buildings": [
+                    "Westminster Cathedral"
+                ]
+            },
+            {
+                "name": "Charles Barry",
+                "birth_date": "23 May 1795",
+                "nationality": "British",
+                "description": "Charles Barry was an English architect known for his work on the Palace of Westminster. He was a proponent of the Gothic Revival style in architecture, which he believed was a more appropriate style for the new Houses of Parliament than the original neoclassical design.",
+                "notable_buildings": [
+                    "The Palace of Westminster"
+                ]
+            }
+        ],
         "style": {
-            "time_range": "mid-18th century to late-19th century",
-            "period": "Victorian era",
-            "description": "Architectural style that emerged in the 1740s in England as a reaction against the symmetry and neoclassicism of the previous Georgian period. The style is characterized by intricate, ornamental designs, pointed arches, pillars and buttresses, and stained-glass windows. Gothic Revival architecture was often used for churches, university buildings, and government structures.",
+            "time_range": "c. 1740\u20131900",
+            "period": "19th century",
+            "description": "A style that originated in England and spread across Europe and North America, characterized by the use of ornamentation, pointed arches, vaults, and steeply pitched roofs to evoke a medieval past.",
             "characteristics": [
-                "Pointed arches",
-                "Ribbed vaults",
-                "Tall spires and pinnacles",
-                "Ornate decoration",
-                "Stained-glass windows",
-                "Buttresses"
+                "Pointed arches and windows",
+                "Steeply pitched roofs",
+                "Use of Gothic-inspired ornamentation",
+                "Vaulted ceilings"
             ],
             "examples": [
                 "Westminster Abbey in London",
                 "Notre Dame Cathedral in Paris",
-                "Cologne Cathedral in Germany",
-                "Palais Garnier in Paris",
-                "The Houses of Parliament in London"
+                "St. Patrick's Cathedral in New York City"
             ],
-            "continent": "Europe",
+            "continent": "Europe and North America",
             "country": "England"
-        }
+        },
+        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookiness\nadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie"
     },
     "Beaux-Arts": {
         "architects": [
@@ -2887,7 +2913,8 @@
             ],
             "continent": "Europe",
             "country": "France"
-        }
+        },
+        "terms": "Nouns: classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches \nAdjectives: ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified"
     },
     "International Style (Modernism)": {
         "architects": [
@@ -2924,7 +2951,29 @@
                     "Harvard Graduate Center"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time range": "1920s-1960s",
+            "period": "20th century",
+            "description": "The International Style, also known as Modernism, is a minimalist architectural style that emerged in the early 20th century as a rejection of traditional ornamentation and historic styles. Buildings in this style typically feature a clean, geometric design with simple proportions and a lack of decorative elements.",
+            "characteristics": [
+                "rectangular shapes",
+                "use of glass, steel, and concrete",
+                "flat roofs",
+                "lack of ornamentation",
+                "emphasis on functionality",
+                "open interior spaces"
+            ],
+            "examples": [
+                "Bauhaus building in Dessau, Germany",
+                "Seagram Building in New York City, USA",
+                "Farnsworth House in Plano, Illinois, USA",
+                "Unit\u00e9 d'Habitation in Marseille, France"
+            ],
+            "continent": "Europe",
+            "country": "Germany"
+        },
+        "terms": "Nouns: Bauhaus, minimalism, functionality, glass, steel\n\nAdjectives: Clean-lined, sleek, industrial, geometric, unadorned, utilitarian"
     },
     "Brutalism": {
         "architects": [
@@ -3000,7 +3049,26 @@
                     }
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1950s-1970s",
+            "period": "20th century",
+            "description": "Brutalism is an architectural style characterized by rough concrete surfaces, bold geometric shapes, and an overall monumental and austere appearance. It emerged in the mid-20th century as a response to the International Style and sought to express the true nature of raw materials in an honest and straightforward way.",
+            "characteristics": [
+                "Heavy use of raw, unornamented concrete",
+                "Angular, geometric forms",
+                "Bold, imposing structures",
+                "Lack of decoration or ornamentation"
+            ],
+            "examples": [
+                "National Theatre in London, UK",
+                "Smithsonian Hirshhorn Museum and Sculpture Garden in Washington D.C., USA",
+                "University of Pittsburgh Cathedral of Learning in Pittsburgh, USA"
+            ],
+            "continent": "Europe, North America",
+            "country": "UK, USA"
+        },
+        "terms": "Nouns: Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric.\n\nAdjectives: Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian."
     },
     "High-Tech": {
         "architects": [
@@ -3037,7 +3105,28 @@
                     "California Academy of Sciences in San Francisco, USA"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1960s- present day",
+            "period": "Contemporary architecture",
+            "description": "High-Tech is an architectural style that emphasizes technology, innovation, and the expression of structure and materials. The style is characterized by exposed structure, industrial materials, and the use of advanced building systems and techniques.",
+            "characteristics": [
+                "Emphasis on technology and innovation",
+                "Exposed structure and industrial materials",
+                "Use of advanced building systems and techniques",
+                "Incorporation of new materials and technologies",
+                "Functionalism and efficiency"
+            ],
+            "examples": [
+                "Pompidou Centre in Paris, France",
+                "Lloyd's Building in London, UK",
+                "Bank of China Tower in Hong Kong",
+                "Walt Disney Concert Hall in Los Angeles, USA"
+            ],
+            "continent": "Europe, Asia, North America",
+            "country": "France, UK, Hong Kong, USA"
+        },
+        "terms": "Nouns: technology, innovation, functionality, steel, glass, concrete, energy efficiency. \n\nAdjectives: sleek, modern, dynamic, efficient, futuristic, industrial, minimalist."
     },
     "Neo-Futurism": {
         "architects": [
@@ -3074,7 +3163,29 @@
                     "The Twist"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time range": "late 20th century to present",
+            "period": "contemporary",
+            "description": "Neo-Futurism is a modern architectural style that combines futuristic concepts with avant-garde designs. It tries to convey a sense of optimism and a belief in progress through the use of advanced technology and unconventional materials.",
+            "characteristics": [
+                "Innovative and daring designs",
+                "Use of organic and unconventional shapes",
+                "Energy efficient and eco-friendly designs",
+                "Minimalism and simplicity in form",
+                "Emphasis on functionality and practicality",
+                "Use of advanced technology and modern materials"
+            ],
+            "examples": [
+                "Phaeno Science Center in Germany",
+                "Guggenheim Museum in Spain",
+                "Heydar Aliyev Center in Azerbaijan",
+                "The Dancing House in Czech Republic"
+            ],
+            "continent": "Europe",
+            "country": "Germany"
+        },
+        "terms": "Dynamic, asymmetrical, unconventional, innovative, sustainable, minimalistic, interactive, experiential, adaptable."
     },
     "Sustainable (Green)": {
         "architects": [
@@ -3111,7 +3222,30 @@
                     "The 8 House in Copenhagen"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "Late 20th century - present",
+            "period": "Contemporary",
+            "description": "Sustainable (Green) architecture is focused on minimizing the negative impact of buildings on the environment. This style emphasizes energy efficiency, use of renewable resources, and reduction of waste and pollution.",
+            "characteristics": [
+                "Use of passive solar design",
+                "Integration of renewable energy sources",
+                "Highly insulated building envelope",
+                "Use of recycled and non-toxic materials",
+                "Water conservation and management",
+                "Community-oriented design",
+                "Adaptive reuse of existing structures"
+            ],
+            "examples": [
+                "The Helix, Singapore",
+                "The Edge, Amsterdam",
+                "One Angel Square, Manchester",
+                "Bullitt Center, Seattle"
+            ],
+            "continent": "Global",
+            "country": "Various"
+        },
+        "terms": "Nouns: buildings, design, materials, energy, environment, community, water, waste.\n\nAdjectives: eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient."
     },
     "Parametricism": {
         "architects": [
@@ -3148,7 +3282,27 @@
                     "Google North Bayshore Campus in Mountain View, California"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time range": "2008-Present",
+            "period": "Contemporary",
+            "description": "Parametricism is a contemporary architectural style that utilizes digital technology to create complex and optimized architectural forms.",
+            "characteristics": [
+                "Use of parametric computer software to design complex geometric forms",
+                "Emphasis on optimization and efficiency",
+                "Fluidity and flexibility in design",
+                "Integration of technology and design",
+                "Sustainability and environmental considerations"
+            ],
+            "examples": [
+                "Zaha Hadid's Galaxy SOHO in Beijing",
+                "Heatherwick Studio's Vessel in New York City",
+                "UNStudio's Ardmore Residence in Singapore"
+            ],
+            "continent": "Global",
+            "country": "Various"
+        },
+        "terms": "Nouns: Parametricism, architecture style\nAdjectives: innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic"
     },
     "New Formalism": {
         "architects": [
@@ -3185,7 +3339,26 @@
                     "Rainier Tower"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time range": "1950s - present",
+            "period": "Contemporary",
+            "description": "New Formalism is a movement within contemporary architecture that emphasizes classical design principles and proportions. It is a return to traditional forms and materials, with an added layer of ornamentation and detail.",
+            "characteristics": [
+                "Classical design principles and proportions",
+                "Use of traditional materials",
+                "Ornamentation and detail",
+                "Symmetry and order"
+            ],
+            "examples": [
+                "Getty Center, Los Angeles, California",
+                "National Gallery of Art, Washington, D.C.",
+                "Sainsbury Wing of the National Gallery, London"
+            ],
+            "continent": "North America, Europe",
+            "country": "United States, United Kingdom"
+        },
+        "terms": "Nouns: Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references\n\nAdjectives: Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated."
     },
     "Late Modernism": {
         "architects": [
@@ -3222,7 +3395,27 @@
                     "Millennium Bridge"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1950s-1970s",
+            "period": "Post World War II",
+            "description": "Late Modernism is marked by a departure from the International Style in the 1960s and a move towards more expressive and sculptural forms. Buildings in this style often feature bold shapes, intricate forms, and irregular angles, with a focus on the use of new materials and construction methods.",
+            "characteristics": [
+                "expressive and sculptural forms",
+                "bold shapes",
+                "irregular angles",
+                "use of new materials and construction methods"
+            ],
+            "examples": [
+                "Sydney Opera House in Australia",
+                "Seagram Building in New York City, USA",
+                "Centre Georges Pompidou in Paris, France",
+                "TWA Terminal at John F. Kennedy International Airport in New York City, USA"
+            ],
+            "continent": "Various",
+            "country": "Various"
+        },
+        "terms": "late, modernist, abstract expressionist, bold, angular, minimalist, experimental, functionalist, simplistic, geometric, sleek, asymmetrical, industrial, glassy, towering, sculptural, brutalist."
     },
     "Neo-Expressionism": {
         "architects": [
@@ -3259,7 +3452,30 @@
                     "Freedom Tower"
                 ]
             }
-        ]
+        ],
+        "reply2": "{\n    \"time_range\": \"1970s-1990s\",\n    \"period\": \"Contemporary\",\n    \"description\": \"Neo-Expressionism is a postmodern architectural style that emerged in the 1970s as a reaction against modernism. It is characterized by its use of asymmetry, rough textures, bright colors, and historical references. The style emphasizes the emotional and individualistic expression of the artist/architect, rather than the functional concerns of the building's use.\",\n    \"characteristics\": [\n        \"Asymmetry\",\n        \"Rough textures\",\n        \"Bright colors\",\n        \"Historical references\",\n        \"Emotional expression\",\n        \"Individualistic\",\n    ],\n    \"examples\": [\n        \"Museum of Contemporary Art, Barcelona, Spain\",\n        \"Philippe Starck's Royalton Hotel, New York City, USA\",\n        \"Guggenheim Museum, Bilbao, Spain\",\n        \"Sony Center, Berlin, Germany\"\n    ],\n    \"continent\": \"Europe\",\n    \"country\": \"Spain\"\n}",
+        "terms": "Bold, raw, emotional, energetic brushstrokes and colors, figurative, primitive, gestural, chaotic, intense, eclectic mix of styles, dark, post-modern, rebellious, purposefully nonconformist.",
+        "style": {
+            "time_range": "1970s-1980s",
+            "period": "Postmodernism",
+            "description": "Neo-Expressionism in architecture is a reaction against the modernist and minimalist approach of architecture. It is characterized by using bold forms, complicated geometries, fragmented shapes, and vibrant colors.",
+            "characteristics": [
+                "Bold forms",
+                "Complicated geometries",
+                "Fragmented shapes",
+                "Vibrant colors"
+            ],
+            "examples": [
+                "Museum of Contemporary Art, Barcelona, Spain",
+                "Guggenheim Museum Bilbao, Bilbao, Spain",
+                "Dancing House, Prague, Czech Republic"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Spain",
+                "Czech Republic"
+            ]
+        }
     },
     "Critical Regionalism": {
         "architects": [
@@ -3292,7 +3508,34 @@
                     "Boyd Education Centre"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1980s - present",
+            "period": "Contemporary",
+            "description": "Critical Regionalism is an architectural style that seeks to find a balance between modern design principles and local cultural and environmental context. This style advocates for a solution that is both universal and unique, and rejects the homogenization of architecture brought about by globalisation.",
+            "characteristics": [
+                "Uses modern design elements but incorporates local materials and techniques",
+                "Emphasizes the importance of site-specific design",
+                "Respects the local culture and climate",
+                "Avoids mimicking the dominant architectural styles",
+                "Prioritizes sustainability and regional identity"
+            ],
+            "examples": [
+                "Salk Institute in California, USA by Louis Kahn",
+                "Cape Cod Modern House Trust in Massachusetts, USA by Peter McMahon",
+                "Kandalama Hotel in Dambulla, Sri Lanka by Geoffrey Bawa",
+                "Scottish Parliament Building in Edinburgh, Scotland by Enric Miralles and Benedetta Tagliabue",
+                "Museum of Islamic Art in Doha, Qatar by I.M. Pei"
+            ],
+            "continent": "Various",
+            "countries": [
+                "USA",
+                "Sri Lanka",
+                "Scotland",
+                "Qatar"
+            ]
+        },
+        "terms": "Critical Regionalism is a architectural style that emphasizes the use of local materials, craftsmanship, and cultural references, while rejecting the homogenizing effects of modern technology and globalized design trends. It is characterized by a focus on social, environmental, and economic sustainability, and a sensitivity to the unique context and history of each place. The style seeks to create a sense of place by integrating local traditions and vernacular architecture with contemporary design principles."
     },
     "Post-Structuralism": {
         "architects": [
@@ -3326,7 +3569,28 @@
                     "China Central Television (CCTV) headquarters in Beijing, China"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1960s - 1990s",
+            "period": "Late Modernism",
+            "description": "Post-Structuralism is a theoretical framework that challenges the notion of a fixed and universal meaning. In architecture, it focuses on deconstructing and destabilizing conventional design principles, and exploring the complex relationships between the built environment, space, and social context.",
+            "characteristics": [
+                "Emphasis on deconstruction and fragmentation",
+                "Rejection of traditional form and structure",
+                "Exploration of symbolic and metaphorical meanings",
+                "Use of non-traditional materials and construction methods",
+                "Focus on context and site-specificity"
+            ],
+            "examples": [
+                "La Villette Park by Bernard Tschumi",
+                "The Pompidou Center by Renzo Piano and Richard Rogers",
+                "The Lloyd's Building by Richard Rogers",
+                "The Institute of Contemporary Art by Diller Scofidio + Renfro"
+            ],
+            "continent": "Europe",
+            "country": "France, Italy, United Kingdom, United States"
+        },
+        "terms": "Nouns: deconstruction, fragmentation, discourse, ambiguity, multiplicity\nAdjectives: non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical"
     },
     "De Stijl": {
         "architects": [
@@ -3360,7 +3624,26 @@
                     "Caf\u00e9 De Unie"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1917-1931",
+            "period": "Modernist",
+            "description": "De Stijl, also known as Neoplasticism, was a Dutch art and design movement characterized by geometric shapes, primary colors, and a focus on abstraction and simplicity. It aimed to create a universal language of form that could be used in all aspects of design, including architecture.",
+            "characteristics": [
+                "Geometric shapes",
+                "Primary colors",
+                "Abstraction and simplicity",
+                "Universal language of form"
+            ],
+            "examples": [
+                "Schr\u00f6der House in Utrecht, Netherlands",
+                "Caf\u00e9 de Unie in Rotterdam, Netherlands",
+                "Van Doesburg House in Meudon, France"
+            ],
+            "continent": "Europe",
+            "country": "Netherlands"
+        },
+        "terms": "Nouns: geometric shapes, primary colors, simplicity, functionality\nAdjectives: clean, precise, minimalistic, abstract"
     },
     "Expressionism": {
         "architects": [
@@ -3390,7 +3673,21 @@
                     "De La Warr Pavilion"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1910s-1930s",
+            "period": "Modernism",
+            "description": "Expressionism was a relatively short-lived architectural movement in Germany in the early 20th century. It was primarily an artistic movement, but its principles also found expression in architecture.",
+            "characteristics": "Expressionist architecture is characterized by its dramatic shapes, curves, and angles, as well as its use of unconventional materials like reinforced concrete. It is also known for its use of color and light, often employing stained glass to create vibrant, abstract patterns.",
+            "examples": [
+                "Einstein Tower, Potsdam, Germany",
+                "Goetheanum, Dornach, Switzerland",
+                "Haus des Lehrers, Berlin, Germany"
+            ],
+            "continent": "Europe",
+            "country": "Germany"
+        },
+        "terms": "Emotion, distortion, abstraction, angularity, vibrant colors, rawness, wood, brick, steel."
     },
     "Structural Expressionism": {
         "architects": [
@@ -3427,6 +3724,27 @@
                     "Fondation Louis Vuitton in Paris, France"
                 ]
             }
-        ]
+        ],
+        "style": {
+            "time_range": "1950s-1970s",
+            "period": "Post-World War II",
+            "description": "An architectural style characterized by angular shapes and the use of raw materials such as steel and concrete, expressing the structure of the building.",
+            "characteristics": [
+                "Structural expression",
+                "Raw materials",
+                "Angular shapes",
+                "Industrial aesthetic"
+            ],
+            "examples": [
+                "Smithsonian National Air and Space Museum, Washington D.C.",
+                "Toronto City Hall, Canada"
+            ],
+            "continent": "North America",
+            "country": [
+                "United States",
+                "Canada"
+            ]
+        },
+        "terms": "Nouns: structure, form, function, geometry, steel, concrete\n\nAdjectives: bold, industrial, dynamic, angular, angular, geometric, expressive"
     }
 }
