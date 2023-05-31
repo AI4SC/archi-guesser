@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Ancient Egyptian",
+        "start_year": "3100 BCE",
+        "end_year": "30 BCE",
+        "description": "Architecture of ancient Egypt characterized by monumental structures, pyramids, temples, and elaborate tombs.",
+        "characteristics": "Massive stone structures, hieroglyphic carvings, axial symmetry.",
+        "examples": "Great Pyramid of Giza, Temple of Karnak.",
+        "continent": "Africa",
+        "country": "Egypt",
+        "architects": []
+    },
+    {
+        "name": "Ancient Greek",
+        "start_year": "900 BCE",
+        "end_year": "1st century BCE",
+        "description": "Architecture of ancient Greece known for its harmony, balance, and use of columns.",
+        "characteristics": "Symmetry, columnar facades, pediments, friezes.",
+        "examples": "Parthenon, Temple of Artemis.",
+        "continent": "Europe",
+        "country": "Greece",
+        "architects": [
+            "Ictinus",
+            "Callicrates",
+            "Phidias"
+        ]
+    },
+    {
+        "name": "Ancient Roman",
+        "start_year": "753 BCE",
+        "end_year": "4th century CE",
+        "description": "Architecture of ancient Rome characterized by grandeur, arches, and vaults.",
+        "characteristics": "Architectural arches, vaults, domes, concrete.",
+        "examples": "Colosseum, Pantheon.",
+        "continent": "Europe",
+        "country": "Italy",
+        "architects": [
+            "Vitruvius",
+            "Apollodorus of Damascus"
+        ]
+    },
+    {
+        "name": "Byzantine",
+        "start_year": "330 CE",
+        "end_year": "1453 CE",
+        "description": "Architecture of the Byzantine Empire with a blend of Roman, Greek, and Eastern influences.",
+        "characteristics": "Domes, rounded arches, mosaics, rich ornamentation.",
+        "examples": "Hagia Sophia, Basilica of San Vitale.",
+        "continent": "Europe",
+        "country": "Turkey",
+        "architects": []
+    },
+    {
+        "name": "Romanesque",
+        "start_year": "6th century CE",
+        "end_year": "12th century CE",
+        "description": "Romanesque architecture characterized by thick walls, round arches, and barrel vaults.",
+        "characteristics": "Round arches, thick walls, small windows, decorative arcading.",
+        "examples": "Cluny Abbey, Durham Cathedral.",
+        "continent": "Europe",
+        "country": "",
+        "architects": []
+    },
+    {
+        "name": "Gothic",
+        "start_year": "12th century CE",
+        "end_year": "16th century CE",
+        "description": "Gothic architecture known for its pointed arches, ribbed vaults, and flying buttresses.",
+        "characteristics": "Pointed arches, ribbed vaults, stained glass windows, flying buttresses.",
+        "examples": "Chartres Cathedral, Notre-Dame de Paris.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Abbot Suger",
+            "Viollet-le-Duc"
+        ]
+    },
+    {
+        "name": "Renaissance",
+        "start_year": "14th century CE",
+        "end_year": "17th century CE",
+        "description": "Architecture of the Renaissance characterized by a revival of classical elements.",
+        "characteristics": "Symmetry, classical orders, domes, mathematical proportions.",
+        "examples": "St. Peter's Basilica, Palazzo Medici-Riccardi.",
+        "continent": "Europe",
+        "country": "Italy",
+        "architects": [
+            "Filippo Brunelleschi",
+            "Leon Battista Alberti"
+        ]
+    },
+    {
+        "name": "Baroque",
+        "start_year": "16th century CE",
+        "end_year": "18th century CE",
+        "description": "Baroque architecture known for its drama, grandeur, and intricate detailing.",
+        "characteristics": "Curves, elaborate ornamentation, dramatic use of light and shadow.",
+        "examples": "Palace of Versailles, St. Peter's Square.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Gian Lorenzo Bernini",
+            "Francesco Borromini"
+        ]
+    },
+    {
+        "name": "Rococo",
+        "start_year": "18th century CE",
+        "end_year": "19th century CE",
+        "description": "Rococo architecture characterized by elegance, decorative motifs, and asymmetry.",
+        "characteristics": "Ornate decoration, pastel colors, asymmetry, light-heartedness.",
+        "examples": "Amalienburg, Petit Trianon.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "François de Cuvilliés",
+            "Ange-Jacques Gabriel"
+        ]
+    },
+    {
+        "name": "Neoclassical",
+        "start_year": "18th century CE",
+        "end_year": "19th century CE",
+        "description": "Revival of classical architecture characterized by simplicity and order.",
+        "characteristics": "Symmetry, classical orders, clean lines, restrained ornamentation.",
+        "examples": "The Parthenon, The White House.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Andrea Palladio",
+            "Étienne-Louis Boullée"
+        ]
+    },
+    {
+        "name": "Georgian",
+        "start_year": "1714 CE",
+        "end_year": "1837 CE",
+        "description": "Architecture of the Georgian era known for its proportion, balance, and elegance.",
+        "characteristics": "Symmetry, classical proportions, sash windows, ornate doorways.",
+        "examples": "Royal Crescent, Buckingham Palace.",
+        "continent": "Europe",
+        "country": "United Kingdom",
+        "architects": [
+            "John Wood the Elder",
+            "Robert Adam"
+        ]
+    },
+    {
+        "name": "Victorian",
+        "start_year": "1837 CE",
+        "end_year": "1901 CE",
+        "description": "Architecture of the Victorian era characterized by eclecticism and ornate detailing.",
+        "characteristics": "Ornamentation, eclectic styles, decorative elements, textured facades.",
+        "examples": "Big Ben, St. Pancras Station.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Charles Barry",
+            "Augustus Pugin"
+        ]
+    },
+    {
+        "name": "Gothic Revival",
+        "start_year": "19th century CE",
+        "end_year": "20th century CE",
+        "description": "Revival of Gothic architecture popularized in the 19th century.",
+        "characteristics": "Pointed arches, ribbed vaults, decorative tracery, tall spires.",
+        "examples": "Westminster Abbey, Cologne Cathedral.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Augustus Pugin",
+            "Eugène Viollet-le-Duc"
+        ]
+    },
+    {
+        "name": "Art Nouveau",
+        "start_year": "1890 CE",
+        "end_year": "1914 CE",
+        "description": "Artistic style characterized by organic forms and ornate decorative motifs.",
+        "characteristics": "Curvilinear forms, flowing lines, floral motifs, stained glass.",
+        "examples": "Hôtel Tassel, Casa Batlló.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Victor Horta",
+            "Antoni Gaudí"
+        ]
+    },
+    {
+        "name": "Beaux-Arts",
+        "start_year": "Late 19th century CE",
+        "end_year": "early 20th century CE",
+        "description": "Academic architectural style characterized by grandeur and classical elements.",
+        "characteristics": "Symmetry, monumental scale, classical ornamentation.",
+        "examples": "Palais Garnier, Grand Central Terminal.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Charles Garnier",
+            "Richard Morris Hunt"
+        ]
+    },
+    {
+        "name": "Arts and Crafts",
+        "start_year": "Late 19th century CE",
+        "end_year": "early 20th century CE",
+        "description": "Reaction against industrialization with an emphasis on craftsmanship and simplicity.",
+        "characteristics": "Natural materials, handcrafted details, simplicity, functionalism.",
+        "examples": "Red House, Gamble House.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "William Morris",
+            "Charles Voysey"
+        ]
+    },
+    {
+        "name": "Art Deco",
+        "start_year": "1920 CE",
+        "end_year": "1939 CE",
+        "description": "Style characterized by geometric forms, sleek lines, and decorative elements.",
+        "characteristics": "Geometric patterns, streamlined forms, decorative motifs.",
+        "examples": "Chrysler Building, Empire State Building.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Raymond Hood",
+            "William Van Alen",
+            "Erich Mendelsohn"
+        ]
+    },
+    {
+        "name": "International Style (Modernism)",
+        "start_year": "1920 CE",
+        "end_year": "1950 CE",
+        "description": "Modernist architectural style emphasizing functionality and simplicity.",
+        "characteristics": "Simplicity, clean lines, open spaces, lack of ornamentation.",
+        "examples": "Bauhaus, Farnsworth House.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Walter Gropius",
+            "Le Corbusier"
+        ]
+    },
+    {
+        "name": "Brutalism",
+        "start_year": "1950 CE",
+        "end_year": "1970 CE",
+        "description": "Style characterized by raw concrete, bold forms, and expressing function.",
+        "characteristics": "Exposed concrete, geometric shapes, functional expression.",
+        "examples": "Trellick Tower, Boston City Hall.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Le Corbusier",
+            "Paul Rudolph"
+        ]
+    },
+    {
+      "name": "Mid-century Modern",
+      "start_year": "1945 CE",
+      "end_year": "1975 CE"
+    },
+    {
+        "name": "Postmodernism",
+        "start_year": "1960 CE",
+        "end_year": "2000 CE",
+        "description": "Rejection of modernist principles, combining historical references and playful design.",
+        "characteristics": "Historical references, irony, eclectic forms, ornamentation.",
+        "examples": "Vanna Venturi House, AT&T Building.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Robert Venturi",
+            "Michael Graves",
+            "Philip Johnson"
+        ]
+    },
+    {
+        "name": "Deconstructivism",
+        "start_year": "1980 CE",
+        "end_year": "present",
+        "description": "Style characterized by fragmentation, distorted forms, and unconventional geometry.",
+        "characteristics": "Fragmentation, non-linear forms, complex geometry.",
+        "examples": "Guggenheim Museum Bilbao, Walt Disney Concert Hall.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Frank Gehry",
+            "Zaha Hadid"
+        ]
+    },
+    {
+        "name": "Neo-Futurism",
+        "start_year": "1980 CE",
+        "end_year": "present",
+        "description": "Futuristic architectural style emphasizing technology, sustainability, and organic forms.",
+        "characteristics": "Sustainable design, biomorphic shapes, high-tech materials.",
+        "examples": "Dancing House, The Gherkin.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Norman Foster",
+            "Bjarke Ingels"
+        ]
+    },
+    {
+        "name": "Neo-Expressionism",
+        "start_year": "1960 CE",
+        "end_year": "present",
+        "description": "Style characterized by expressive forms, bold colors, and sculptural elements.",
+        "characteristics": "Expressive forms, bold colors, sculptural elements.",
+        "examples": "Casa da Música, Walt Disney Concert Hall.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Peter Eisenman",
+            "Coop Himmelb(l)au"
+        ]
+    },
+    {
+        "name": "High-Tech Architecture",
+        "start_year": "1970 CE",
+        "end_year": "1990 CE",
+        "description": "Style emphasizing the use of industrial and technological elements.",
+        "characteristics": "Exposed steel structures, use of steel and glass, technological aesthetics.",
+        "examples": "Lloyd's Building, Pompidou Centre.",
+        "continent": "Europe",
+        "country": "",
+        "architects": [
+            "Richard Rogers",
+            "Renzo Piano",
+            "Norman Foster"
+        ]
+    },
+    {
+        "name": "Sustainable (Green) Architecture",
+        "start_year": "1970 CE",
+        "end_year": "present",
+        "description": "Design approach focused on environmental and social sustainability.",
+        "characteristics": "Energy efficiency, use of renewable materials, ecological design.",
+        "examples": "The Edge, Masdar City, One Angel Square.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Ken Yeang",
+            "Stefan Behnisch",
+            "Norman Foster",
+            "William McDonough"
+        ]
+    },
+    {
+        "name": "Parametricism",
+        "start_year": "2000 CE",
+        "end_year": "present",
+        "description": "Style characterized by complex, algorithmically generated forms and patterns.",
+        "characteristics": "Curvilinear forms, intricate patterns, computational design.",
+        "examples": "Heydar Aliyev Center, Guangzhou Opera House.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Zaha Hadid",
+            "Patrik Schumacher"
+        ]
+    },
+    {
+        "name": "New Classical",
+        "start_year": "1980 CE",
+        "end_year": "present",
+        "description": "Revival of classical architectural principles combined with modern techniques.",
+        "characteristics": "Classical proportions, traditional detailing, modern construction methods.",
+        "examples": "Quadracci Pavilion, Public Library of New South Wales.",
+        "continent": "",
+        "country": "",
+        "architects": [
+            "Robert A. M. Stern",
+            "Leon Krier"
+        ]
+    },
+    {
+      "name": "Organic Architecture",
+      "start_year": "2000 CE",
+      "end_year": "present"
+    }
+]
