@@ -3488,7 +3488,6 @@
                 ]
             }
         ],
-        "reply2": "{\n    \"time_range\": \"1970s-1990s\",\n    \"period\": \"Contemporary\",\n    \"description\": \"Neo-Expressionism is a postmodern architectural style that emerged in the 1970s as a reaction against modernism. It is characterized by its use of asymmetry, rough textures, bright colors, and historical references. The style emphasizes the emotional and individualistic expression of the artist/architect, rather than the functional concerns of the building's use.\",\n    \"characteristics\": [\n        \"Asymmetry\",\n        \"Rough textures\",\n        \"Bright colors\",\n        \"Historical references\",\n        \"Emotional expression\",\n        \"Individualistic\",\n    ],\n    \"examples\": [\n        \"Museum of Contemporary Art, Barcelona, Spain\",\n        \"Philippe Starck's Royalton Hotel, New York City, USA\",\n        \"Guggenheim Museum, Bilbao, Spain\",\n        \"Sony Center, Berlin, Germany\"\n    ],\n    \"continent\": \"Europe\",\n    \"country\": \"Spain\"\n}",
         "terms": "Bold, raw, emotional, energetic brushstrokes and colors, figurative, primitive, gestural, chaotic, intense, eclectic mix of styles, dark, post-modern, rebellious, purposefully nonconformist.",
         "style": {
             "time_range": "1970s-1980s",
@@ -3885,7 +3884,6 @@
                 ]
             }
         ],
-        "reply2": "format?\n\n{\n    \"style\": \"Constructivism\",\n    \"time_range\": \"1920s-1930s\",\n    \"period\": \"Modernist\",\n    \"description\": \"An architectural style that originated in the Soviet Union. Characterized by the use of industrial materials like concrete and steel and the rejection of decorative elements in favor of functional ones.\",\n    \"characteristics\": [\n        \"Emphasizes geometric shapes and asymmetry\",\n        \"Minimalist and utilitarian design\",\n        \"Use of primary colors\",\n        \"Incorporation of political and social messages in the design\"\n    ],\n    \"examples\": [\n        \"Narkomfin Building in Moscow, Russia\",\n        \"Palace of the Soviets in Moscow, Russia\",\n        \"Red Banner Textile Factory in St. Petersburg, Russia\",\n        \"Bauhaus Dessau in Germany\"\n    ],\n    \"continent\": \"Europe\",\n    \"country\": \"Russia\"\n}",
         "terms": " unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
         "style": {
             "time_range": "1919-1934",
@@ -4963,7 +4961,6 @@
                 ]
             }
         ],
-        "reply2": "format?\n\n{\n   \"time_range\": \"1970s-1980s\",\n   \"period\": \"Postmodernism\",\n   \"description\": \"The Late Showa period in Japan was characterized by a combination of traditional Japanese aesthetics and modern architectural elements, reflecting the country's economic and social growth during the time. Buildings were often asymmetrical, with bold shapes and bright colors.\",\n   \"characteristics\": [\n      \"Use of traditional Japanese elements, such as wood and shoji screens\",\n      \"Incorporation of modern materials, such as steel and concrete\",\n      \"Mix of asymmetrical and geometric shapes\",\n      \"Vibrant colors and bold patterns\"\n   ],\n   \"examples\": [\n      \"Tokyo Metropolitan Government Building\",\n      \"Bubble Palace in Karuizawa\",\n      \"Centre Pompidou-Metz in France (Japanese architect Shigeru Ban)\"\n   ],\n   \"continent\": \"Asia\",\n   \"country\": \"Japan\"\n}",
         "style": {
             "time_range": "1970s-1980s",
             "period": "Postmodernism",
