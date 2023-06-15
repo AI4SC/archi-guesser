@@ -6618,5 +6618,86 @@
             ]
         },
         "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional."
+    },
+    "Stilt House": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "June 8, 1867",
+                "death_date": "April 9, 1959",
+                "nationality": "American",
+                "description": "One of the most influential architects of the 20th century, Wright was known for his organic architecture style that emphasized a harmonious relationship between the built environment and nature.",
+                "notable_buildings": [
+                    "Fallingwater",
+                    "Wingspread",
+                    "Kentuck Knob"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birth_date": "October 6, 1887",
+                "death_date": "August 27, 1965",
+                "nationality": "Swiss",
+                "description": "A pioneer of the modern architecture movement, Le Corbusier was known for his functionalist approach to design and his belief that architecture should meet the needs of society.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Chapel of Notre Dame du Haut"
+                ]
+            },
+            {
+                "name": "Bjarke Ingels",
+                "birth_date": "October 2, 1974",
+                "death_date": null,
+                "nationality": "Danish",
+                "description": "A postmodern architect known for his innovative and sustainable designs, Ingels is the founder of the Bjarke Ingels Group (BIG), an architecture firm with offices around the world.",
+                "notable_buildings": [
+                    "The Mountain",
+                    "8 House",
+                    "Danish National Maritime Museum"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Ancient times to present day",
+            "period": "Varies by region",
+            "description": "Stilt Houses are dwellings that are elevated off the ground on stilts or pillars. They are commonly found in areas that experience flooding, high tides, or heavy snowfall. They can be made of various materials such as wood, bamboo, metal or concrete.",
+            "characteristics": [
+                "The main feature of the Stilt House architecture style is the use of stilts or pillars to elevate the house above the ground. Other common characteristics include a simple and compact design",
+                " often with a single room",
+                " and a low-pitched roof that slopes downward to shed water. The houses can be either permanent or temporary structures",
+                " depending on the needs of the residents."
+            ],
+            "examples": [
+                "Examples of Stilt Houses can be found all over the world",
+                " including in Southeast Asia (Malaysia",
+                " Indonesia",
+                " Thailand)",
+                " Africa (Nigeria",
+                " Cameroon)",
+                " South America (Peru",
+                " Brazil)",
+                " and North America (Louisiana",
+                " Florida)."
+            ],
+            "continent": [
+                "Asia",
+                "Africa",
+                "South America",
+                "North America"
+            ],
+            "country": [
+                "Malaysia",
+                "Indonesia",
+                "Thailand",
+                "Nigeria",
+                "Cameroon",
+                "Peru",
+                "Brazil",
+                "Louisiana",
+                "Florida"
+            ]
+        },
+        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic"
     }
 }
