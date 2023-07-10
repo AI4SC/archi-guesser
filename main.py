@@ -9,12 +9,12 @@ import dash_leaflet as dl
 import random
 from flask import Flask
 
-demo_mode = False
+demo_mode = True
 demo_step = 0
 demo_sub  = 0
 
 
-demo_steps = [{
+demo_steps_long = [{
     "sel_style": "Gothic Revival",
     "sel_location": [45.43162972000005, 2.8125],
     "sel_epoche": 1884,
@@ -36,17 +36,17 @@ demo_steps = [{
     "points": 2000,
     "rnd_img": "Neuschwanstein_Parametric"
 }, {
-    "sel_style": "Chinese",
+    "sel_style": "chinese_imperial",
     "sel_location": [49.38237278700955, 16.875000000000004],
     "sel_epoche": 1600,
     "rnd_style": "Chinese Imperial",
     "points": 1000,
     "rnd_img": "Neuschwanstein_Chinese_Imperial"
 }, {
-    "sel_style": "Chinese",
+    "sel_style": "japanese_edo",
     "sel_location": [33.7243396617476, 135.70312500000003],
     "sel_epoche": 1600,
-    "rnd_style": "Chinese Imperial",
+    "rnd_style": "Edo period",
     "points": 1000,
     "rnd_img": "Pagoda"
 }, {
@@ -128,6 +128,86 @@ demo_steps = [{
     "rnd_img": "qom-art-monument_sidney_opera"
 }]
 
+
+demo_steps = [{
+    "sel_style": "Gothic Revival",
+    "sel_location": [45.43162972000005, 2.8125],
+    "sel_epoche": 1884,
+    "rnd_style": "Gothic Revival",
+    "points": 1000,
+    "rnd_img": "Neuschwanstein"
+},{
+    "sel_style": "Gothic Revival",
+    "sel_location": [45.43162972000005, 2.8125],
+    "sel_epoche": 1884,
+    "rnd_style": "Gothic Revival",
+    "points": 1000,
+    "rnd_img": "Neuschwanstein"
+}, {
+    "sel_style": "Chinese Imperial",
+    "sel_location": [49.38237278700955, 16.875000000000004],
+    "sel_epoche": 1600,
+    "rnd_style": "Chinese Imperial",
+    "points": 1000,
+    "rnd_img": "Neuschwanstein_Chinese_Imperial"
+}, {
+    "sel_style": "Japanese Edo",
+    "sel_location": [33.7243396617476, 135.70312500000003],
+    "sel_epoche": 1600,
+    "rnd_style": "Edo Period",
+    "points": 1000,
+    "rnd_img": "Pagoda"
+}, {
+    "sel_style": "Prairie",
+    "sel_location": [19.973348786110613, 101.25000000000001],
+    "sel_epoche": 1400,
+    "rnd_style": "Indigenous Australian",
+    "points": 1000,
+    "rnd_img": "Pagoda_MudBrickHouse"
+}, {
+    "sel_style": "Mud Brick",
+    "sel_location": [11.938881539525834, 5.625],
+    "sel_epoche": 1884,
+    "rnd_style": "Mud Brick",
+    "points": 1000,
+    "rnd_img": "MudBrickHouse"
+}, {
+    "sel_style": "International",
+    "sel_location": [19.973348786110613, -11.25],
+    "sel_epoche": 1930,
+    "rnd_style": "International Style",
+    "points": 1000,
+    "rnd_img": "MudBrickHouse_Art_Deco"
+}, {
+    "sel_style": "Art Deco",
+    "sel_location": [41.50857729743935, -76.640625],
+    "sel_epoche": 1930,
+    "rnd_style": "Art Deco",
+    "points": 1000,
+    "rnd_img": "NewYorkArtDeco"
+}, {
+    "sel_style": "Georgian",
+    "sel_location": [29.53522956294847, 27.421875000000004],
+    "sel_epoche": 1930,
+    "rnd_style": "Georgian",
+    "points": 1000,
+    "rnd_img": "NewYorkArtDeco_Persian"
+}, {
+    "sel_style": "Indoislamic",
+    "sel_location": [25.25320751294064, 41.48437500000001],
+    "sel_epoche": 1884,
+    "rnd_style": "Ancient Persian",
+    "points": 1000,
+    "rnd_img": "qom-art-monument"
+}, {
+    "sel_style": "Expressionism",
+    "sel_location": [-27.059125784374054, 135.00000000000003],
+    "sel_epoche": 1970,
+    "rnd_style": "Neo-Expressionism",
+    "points": 1000,
+    "rnd_img": "qom-art-monument_sidney_opera"
+}]
+
 try:
     with open("architect_styles.json", 'tr') as fi:
         architects_by_style = json.load(fi)
@@ -162,11 +242,12 @@ for fn in os.listdir('styles120'):
         img = Image.open(os.path.join('styles120', fn))
         style_img[fn.replace('.png', '').replace('_', ' ').title()] = img
 
-style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
-
 if demo_mode:
-    demo_keys=list(set([s["sel_style"] for s in demo_steps]))
+    demo_keys=list(set([s["sel_style"] for s in demo_steps]))+["Bauhaus","Ancient Greek"]
     style_img= {k:style_img[k] for k in demo_keys}
+
+
+style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 
 examples_img = {}
 for fn in os.listdir('examples'):
@@ -390,7 +471,7 @@ app.layout = dbc.Container(
                                     "top": "100px",
                                 })
                     ], style={"width": "50%",
-                              "height": "460px",
+                              "height": "500px",
                               "position": "fixed",
                               "top": "455px",
                               "left": "50%",
@@ -429,7 +510,7 @@ app.layout = dbc.Container(
                     ], style={"width": "50%",
                               "height": "50px",
                               "position": "fixed",
-                              "top": "920px",
+                              "top": "980px",
                               "left": "50%",
                               "z-index": "20",
                               "background-color": "rgba(34, 34, 34, 0.8)"
@@ -452,7 +533,7 @@ app.layout = dbc.Container(
             id="resultmodal"),
         html.Button("", id="new_run", style={"visibility": "hidden"
                                       }, disabled=True),  # used as event notifier
-        dcc.Interval(id='interval1', interval=5000)
+        dcc.Interval(id='interval1', interval=1000)
     ],
     fluid=True)
 
@@ -496,6 +577,7 @@ if demo_mode:
             demo_step += 1
             if demo_step >= len(demo_steps): demo_step = 0
             sel_style, sel_location, sel_epoche = None, None, 0
+            demostep = demo_steps[demo_step]
         elif demo_sub == 2:
             sel_style = demostep['sel_style']
         elif demo_sub == 3:
@@ -518,7 +600,7 @@ if demo_mode:
         print(rnd_style, astyle, aarch)
 
         demo_sub += 1
-        if demo_sub == 6: demo_sub = 0
+        if demo_sub == 7: demo_sub = 0
 
         return guess_btn_disabled, \
                rnd_img, \

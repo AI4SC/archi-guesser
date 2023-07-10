@@ -6669,16 +6669,10 @@
                 " depending on the needs of the residents."
             ],
             "examples": [
-                "Examples of Stilt Houses can be found all over the world",
-                " including in Southeast Asia (Malaysia",
-                " Indonesia",
-                " Thailand)",
-                " Africa (Nigeria",
-                " Cameroon)",
-                " South America (Peru",
-                " Brazil)",
-                " and North America (Louisiana",
-                " Florida)."
+                "Southeast Asia (Malaysia, Indonesia, Thailand)",
+                "Africa (Nigeria Cameroon)",
+                "South America (Peru, Brazil)",
+                "North America (Louisiana Florida)."
             ],
             "continent": [
                 "Asia",
