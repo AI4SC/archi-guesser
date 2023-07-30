@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARUCO Marker Detection</title>
+</head>
+<body>
+  <h1>ARUCO Marker Detection</h1>
+  <video id="video" width="640" height="480" autoplay></video>
+  <canvas id="canvas" width="640" height="480"></canvas>
+  <button onclick="captureImage()">Capture Image</button>
+  <script src="https://cdn.jsdelivr.net/npm/opencv.js@1.2.1/opencv.min.js" onload="onOpenCvReady()" async></script>
+  <script src="app.js"></script>
+</body>
+</html>

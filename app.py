@@ -10,6 +10,7 @@ from PIL import Image
 import dash_leaflet as dl
 import random
 from flask import Flask
+import flask
 
 try:
     with open("architect_styles.json", 'tr') as fi:
@@ -311,6 +312,9 @@ def select_random_style(new_run):
         html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
 
+@app.server.route("/marker")
+def get_marker():
+    return flask.send_from_directory('marker', "index.html")
 
 if __name__ == '__main__':
     # run application
