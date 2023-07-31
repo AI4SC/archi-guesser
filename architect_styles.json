@@ -9407,6 +9407,9 @@
                 "Elaborate Ornamentation: Federal buildings are often adorned with elaborate decorative elements, including intricate moldings, swags, and motifs such as eagles and stars. These decorative elements are typically found on the fa\u00e7ade and around entryways."
             ]
         },
-        "short": "Federal architecture style emerged in early America, characterized by symmetry, classical elements, and visual harmony, often seen in government buildings and grand mansions."
+        "short": "Federal architecture style emerged in early America, characterized by symmetry, classical elements, and visual harmony, often seen in government buildings and grand mansions.",
+        "Start_Year": " 1790 CE",
+        "End_Year": " 1850 CE",
+        "icon": "federal.png"
     }
 }
