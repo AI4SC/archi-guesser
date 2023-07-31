@@ -5103,7 +5103,10 @@
                 }
             ]
         },
-        "short": "\"Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.\""
+        "short": "\"Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.\"",
+        "significance": {
+            "scale of significance": 8
+        }
     },
     "Vesara": {
         "architects": [
@@ -5364,7 +5367,8 @@
                 "Integration of nature and architecture through gardens and courtyards"
             ]
         },
-        "short": "Asuka and Nara architecture is characterized by the use of wood, symmetrical layouts, and Buddhist influences, reflecting Japan's early architectural traditions."
+        "short": "Asuka and Nara architecture is characterized by the use of wood, symmetrical layouts, and Buddhist influences, reflecting Japan's early architectural traditions.",
+        "significance": 6
     },
     "Heian period": {
         "architects": [
