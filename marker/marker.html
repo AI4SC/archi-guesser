@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARUCO Marker Detection</title>
+  <script type="text/javascript" src="js-aruco2/src/cv.js"></script>
+  <script type="text/javascript" src="js-aruco2/src/aruco.js"></script>
+  <script type="text/javascript" src="js-aruco2/src/dictionaries/aruco_mip_36h12.js"></script>
+  <style>
+    svg {
+      float: left; 
+      height:1cm;
+      width: 1cm;
+    }
+    .idx {
+      text-align: right;
+      vertical-align: top;
+    }
+    .icn {
+      text-align: center
+    }
+    .name {
+      text-align: center;
+      font-weight: bold;
+    }
+    img {
+      width: 3cm;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      -webkit-filter: invert(100%) !important;
+    }
+    .card {
+      height: 7cm;
+      width: 4cm;
+      border: 1px solid black;
+      margin: 5px;
+      font-family: 'DINPro-Regular', 'Trebuchet MS';
+    }
+  </style>
+</head>
+<body style="font-family: monospace;">
+
+  <div id="markerSVGs" style="width: 100%; display:flex; flex-wrap: wrap;"></div>
+
+  <script>
+    
+    var markerSVGs = document.getElementById("markerSVGs");
+    var dictionaryType = "ARUCO_MIP_36h12";
+    var dictionary = new AR.Dictionary(dictionaryType);
+
+    fetch('../architect_styles_sub.json')
+      .then((response) => response.json())
+      .then((styles) => {
+        console.log(styles)
+        markerSVGs.innerHTML = '';
+        var i=20;
+        for (const [styleid, style] of Object.entries(styles)) {
+          var div = document.createElement("div");
+          div.className="card"
+          var tbl = document.createElement("table");
+
+          var tr = document.createElement("tr");
+          var td = document.createElement("td");
+          tr.appendChild(td);
+          var svg = document.createElement("div");
+          svg.innerHTML = dictionary.generateSVG(i++);
+          td.appendChild(svg);
+          var td = document.createElement("td");
+          td.className="idx";
+          td.innerHTML = ""+i+"";
+          tr.appendChild(td);
+          tbl.appendChild(tr);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML = "<td colspan=\"2\" class=\"icn\"><img src=\"../styles120/"+style["icon"]+"\"/></td>";
+          tbl.appendChild(tr);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML = "<td colspan=\"2\" class=\"name\">"+styleid+"</td>";
+          tbl.appendChild(tr);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML = "<td>Start</td><td>"+style["Start_Year"]+"</td>";
+          tbl.appendChild(tr);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML = "<td>End</td><td>"+style["End_Year"]+"</td>";
+          tbl.appendChild(tr);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML = "<td>Period</td><td>"+style["style"]["period"]+"</td>";
+          tbl.appendChild(tr);
+
+          div.appendChild(tbl);
+          markerSVGs.appendChild(div);
+        };
+      });
+
+  </script>
+</body>
+</html>
