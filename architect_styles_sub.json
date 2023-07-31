@@ -55,7 +55,15 @@
         "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive.",
         "Start_Year": "3100 BCE",
         "End_Year": "30 BCE",
-        "icon": "ancient_egyptian.png"
+        "icon": "ancient_egyptian.png",
+        "character": {
+            "characteristic_elements": [
+                "Pyramids: Ancient Egyptian architecture is famous for its pyramid structures, which served as magnificent tombs for pharaohs and their families. These massive structures were made of limestone or granite and had a square base with four triangular sides, symbolizing the rays of the sun.",
+                "Temples: Temples were also prominent in Ancient Egyptian architecture. They were typically built using stone and featured large columns, hypostyle halls, and intricately carved reliefs on the walls. The most renowned temple is the Temple of Karnak, known for its grandeur and expansive size.",
+                "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
+            ]
+        },
+        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\""
     },
     "Ancient Greek": {
         "architects": [
@@ -117,7 +125,27 @@
         "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style",
         "Start_Year": "900 BCE",
         "End_Year": "146 BCE",
-        "icon": "ancient_greek.png"
+        "icon": "ancient_greek.png",
+        "character": {
+            "CharacteristicElements": [
+                {
+                    "element": "Columns",
+                    "description": "Ancient Greek architecture is recognized for its elegant columns, mainly the Doric, Ionic, and Corinthian orders. These columns were the main support system for buildings, with distinctive features and proportions."
+                },
+                {
+                    "element": "Pediments",
+                    "description": "Pediments are triangular elements that were often found at the gable ends of Greek temples. They were adorned with sculptures and played an important role in adding artistic and decorative elements to the architecture."
+                },
+                {
+                    "element": "Symmetry",
+                    "description": "Ancient Greek architecture placed great importance on symmetry and balance. Buildings were designed with harmonious proportions, such as having an equal number of columns on each side, creating a sense of visual equilibrium."
+                }
+            ]
+        },
+        "short": "Ancient Greek architecture style is characterized by harmonious proportions, use of columns, symmetry, and iconic structures like the Parthenon.",
+        "significance": {
+            "Significance": 9
+        }
     },
     "Ancient Roman": {
         "architects": [
@@ -166,7 +194,18 @@
         "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring.",
         "Start_Year": "300 BCE",
         "End_Year": "476 CE",
-        "icon": "ancient_roman.png"
+        "icon": "ancient_roman.png",
+        "character": {
+            "characteristics": [
+                "Use of arches and vaults: Ancient Roman architecture is characterized by its innovative use of arches and vaults which provided structural integrity and enabled the construction of monumental buildings such as the Colosseum and the Pantheon.",
+                "Emphasis on grandeur and monumentality: Ancient Roman architecture aimed to impress and demonstrate the power and wealth of the empire. It featured large, imposing structures with grand facades, impressive colonnades, and monumental scale.",
+                "Incorporation of classical elements: Ancient Roman architecture was heavily influenced by Greek architectural traditions. It incorporated classical elements such as columns, pediments, and symmetrical design, but often developed them in a grander and more lavish manner."
+            ]
+        },
+        "short": "\"Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.\"",
+        "significance": {
+            "scale_of_significance": 7
+        }
     },
     "Byzantine": {
         "architects": [
@@ -230,7 +269,15 @@
         "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless.",
         "Start_Year": "330 CE",
         "End_Year": "1453 CE",
-        "icon": "byzantine.png"
+        "icon": "byzantine.png",
+        "character": {
+            "Characteristic elements": [
+                "Dome: The most distinctive feature of Byzantine architecture is the domed roof. Byzantine buildings often have large, centrally-placed domes that are supported by pendentives or squinches.",
+                "Mosaics: Byzantine architecture is adorned with elaborate mosaics depicting religious figures and scenes. These mosaics are made up of small, colored glass or stone pieces called tesserae. They often cover walls, ceilings, and domes inside churches and palaces.",
+                "Columns and arches: Byzantine architecture incorporates intricate column designs, including the use of paired columns and pilasters. Arches, especially the semi-circular or rounded arches, are also commonly seen in Byzantine buildings."
+            ]
+        },
+        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire."
     },
     "Romanesque": {
         "architects": [
@@ -294,7 +341,15 @@
         "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic",
         "Start_Year": "800 CE",
         "End_Year": "1200 CE",
-        "icon": "romanesque.png"
+        "icon": "romanesque.png",
+        "character": {
+            "Characteristics": [
+                "Thick, massive walls",
+                "Round arches",
+                "Romanesque portals"
+            ]
+        },
+        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows."
     },
     "Gothic": {
         "architects": [
@@ -365,7 +420,15 @@
         "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
         "Start_Year": "1100 CE",
         "End_Year": "1500 CE",
-        "icon": "gothic.png"
+        "icon": "gothic.png",
+        "character": {
+            "elements": [
+                "Pointed arches: Gothic architecture is known for its use of pointed arches. These arches give a sense of height and verticality to the structures, creating a dramatic visual impact.",
+                "Ribbed vaults: Another characteristic feature of Gothic architecture is the use of ribbed vaults, which are arched ceilings with intersecting ribs. These vaults allowed for more open and airy interior spaces, and also provided structural support.",
+                "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
+            ]
+        },
+        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\""
     },
     "Renaissance": {
         "architects": [
@@ -428,7 +491,15 @@
         "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
         "Start_Year": "1400 CE",
         "End_Year": " 1600 CE",
-        "icon": "renaissance.png"
+        "icon": "renaissance.png",
+        "character": {
+            "characteristic_elements": [
+                "Symmetry: Renaissance architecture is known for its strong emphasis on symmetry. Buildings were often designed with balanced proportions, creating a sense of harmony and order.",
+                "Classical Influences: Renaissance architects looked to ancient Greek and Roman architecture for inspiration. They incorporated elements such as columns, arches, and domes into their designs.",
+                "Geometric Shapes: Renaissance buildings often featured geometric shapes, such as squares, circles, and triangles. These shapes were used to create a sense of balance and proportion in the overall design."
+            ]
+        },
+        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece."
     },
     "Baroque": {
         "architects": [
@@ -494,7 +565,15 @@
         "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation",
         "Start_Year": "1584 CE",
         "End_Year": "1750 CE",
-        "icon": "baroque.png"
+        "icon": "baroque.png",
+        "character": {
+            "characteristicElements": [
+                "Dramatic and theatrical style",
+                "Elaborate ornamentation and decoration",
+                "Use of curves and dynamic shapes"
+            ]
+        },
+        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale."
     },
     "Rococo": {
         "architects": [
@@ -562,7 +641,15 @@
         "terms": " decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent.",
         "Start_Year": "1730 CE",
         "End_Year": "1760 CE",
-        "icon": "rococo.png"
+        "icon": "rococo.png",
+        "character": {
+            "Characteristics": [
+                "Elaborate ornamental decoration and intricate detailing",
+                "Curvilinear forms with asymmetrical compositions",
+                "Pastel colors and light, playful atmosphere"
+            ]
+        },
+        "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves."
     },
     "Neoclassical": {
         "architects": [
@@ -622,7 +709,15 @@
         "terms": " classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
         "Start_Year": "1740 CE",
         "End_Year": "1909 CE",
-        "icon": "neoclassical.png"
+        "icon": "neoclassical.png",
+        "character": {
+            "elements": [
+                "Symmetry: Neoclassical architecture emphasizes balanced and harmonious designs, often featuring symmetrical facades and layouts.",
+                "Classical Orders: This architectural style draws inspiration from classical Greek and Roman architecture, incorporating elements such as columns and pediments.",
+                "Decorative Detailing: Neoclassical buildings often showcase decorative detailing, such as elaborate cornices, friezes, and ornate moldings."
+            ]
+        },
+        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint."
     },
     "Georgian": {
         "architects": [
@@ -684,7 +779,15 @@
         "terms": " style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant.",
         "Start_Year": "1714 CE",
         "End_Year": "1837 CE",
-        "icon": "georgian.png"
+        "icon": "georgian.png",
+        "character": {
+            "characteristic elements": [
+                "Symmetrical facades with a central entrance",
+                "Rectangular shape with simple lines and proportions",
+                "Use of classical elements such as columns, cornices, and pediments"
+            ]
+        },
+        "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain."
     },
     "Gothic Revival": {
         "architects": [
@@ -737,7 +840,15 @@
         "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookinessadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie",
         "Start_Year": "1840 CE",
         "End_Year": "1890 CE",
-        "icon": "gothic_revival.png"
+        "icon": "gothic_revival.png",
+        "character": {
+            "characteristics": [
+                "Pointed arches: Gothic Revival architecture often features pointed or lancet arches, which give a sense of verticality and grandeur to the buildings.",
+                "Gothic tracery: The style incorporates intricate decorative patterns known as tracery, often seen in the form of window designs or on building facades.",
+                "Gargoyles and grotesques: Gothic Revival buildings frequently include ornamental sculptures of fantastical creatures such as gargoyles or grotesques, adding a sense of drama and mystery to the architecture."
+            ]
+        },
+        "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details."
     },
     "Art Nouveau": {
         "architects": [
@@ -807,7 +918,20 @@
         "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organicfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curvesinfluence: 19th century decorative arts, nature, Japanese artexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona.",
         "Start_Year": "1890 CE",
         "End_Year": "1914 CE",
-        "icon": "art_nouveau.png"
+        "icon": "art_nouveau.png",
+        "character": {
+            "elements": [
+                "Organic shapes and motifs inspired by nature",
+                "Whiplash curves and flowing lines",
+                "Intricate and decorative ornamentation"
+            ]
+        },
+        "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
+        "significance": {
+            "Art Nouveau": {
+                "Significance": 8
+            }
+        }
     },
     "Art Deco": {
         "architects": [
@@ -880,7 +1004,90 @@
         "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
         "Start_Year": "1920 CE",
         "End_Year": "1939 CE",
-        "icon": "art_deco.png"
+        "icon": "art_deco.png",
+        "character": {
+            "characteristics": [
+                "Geometric shapes and angular forms",
+                "Sleek and streamlined design",
+                "Use of decorative motifs and symbols"
+            ]
+        },
+        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials."
+    },
+    "International Style": {
+        "architects": [
+            {
+                "name": "Walter Gropius",
+                "birthdate": "May 18, 1883",
+                "nationality": "German",
+                "description": "Founder of the Bauhaus school and pioneer of the International Style",
+                "notable_buildings": [
+                    "The Bauhaus Building (1925) in Dessau, Germany",
+                    "The Gropius House (1938) in Lincoln, Massachusetts, USA"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthdate": "October 6, 1887",
+                "nationality": "Swiss-French",
+                "description": "Influential modernist architect and urban planner, known for his use of reinforced concrete and his espousal of the 'five points of architecture'",
+                "notable_buildings": [
+                    "Villa Savoye (1931) in Poissy, France",
+                    "Unit\u00e9 d'Habitation (1952) in Marseille, France"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthdate": "March 27, 1886",
+                "nationality": "German-American",
+                "description": "Pioneer of modernist architecture, known for his use of minimalist, industrial materials and his motto 'less is more'",
+                "notable_buildings": [
+                    "Seagram Building (1958) in New York City, USA",
+                    "Farnsworth House (1951) near Plano, Illinois, USA"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1920s-1960s",
+            "period": "Modernism",
+            "description": "The International Style was a modernist architectural movement that emerged in Europe and the United States in the 1920s. It is characterized by a minimalist approach to design, an absence of ornamentation, and the use of industrial materials such as concrete, steel, and glass.",
+            "characteristics": [
+                "Simplicity and minimalism",
+                "Functionalism",
+                "Industrial materials",
+                "Cubist geometry",
+                "Open floor plans and glass walls",
+                "Flat roofs",
+                "Ribbon windows"
+            ],
+            "examples": [
+                "Bauhaus school in Germany",
+                "Villa Savoye in France",
+                "Farnsworth House in the United States",
+                "Seagram Building in the United States",
+                "UNESCO headquarters in France"
+            ],
+            "continent": "Europe and North America",
+            "country": [
+                "Germany",
+                "France",
+                "United States of America",
+                "Switzerland",
+                "Netherlands"
+            ]
+        },
+        "terms": " buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs. modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational.",
+        "character": {
+            "elements": [
+                "Flat Roofs",
+                "Ribbon Windows",
+                "Open Floor Plans"
+            ]
+        },
+        "short": "\"International Style\" is a minimalist architectural style that emerged in the 1920s, characterized by clean lines, simple forms, and functional design.",
+        "Start_Year": "1920 CE",
+        "End_Year": "1950 CE",
+        "icon": "international_style.png"
     },
     "Brutalism": {
         "architects": [
@@ -984,7 +1191,15 @@
         "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
         "Start_Year": "1950 CE",
         "End_Year": "1970 CE",
-        "icon": "brutalism.png"
+        "icon": "brutalism.png",
+        "character": {
+            "characteristic_elements": [
+                "Raw concrete construction",
+                "Geometric forms and shapes",
+                "Lack of ornamentation"
+            ]
+        },
+        "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style."
     },
     "Postmodernism": {
         "architects": [
@@ -1054,7 +1269,18 @@
         "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
         "Start_Year": "1960 CE",
         "End_Year": "present",
-        "icon": "postmodernism.png"
+        "icon": "postmodernism.png",
+        "character": {
+            "elements": [
+                "1. Eclectic aesthetics: Postmodernism combines various architectural traditions and styles, resulting in a mix of contrasting elements. It often blends classical and modern features, incorporating bold colors, decorative motifs, and forms that challenge traditional norms.",
+                "2. Playfulness and irony: Postmodern architecture emphasizes unconventional and whimsical design elements. It may incorporate humor, irony, and satire to challenge the seriousness and rigidity of modernism. This can be seen in the use of exaggerated proportions, unconventional materials, and unexpected juxtapositions.",
+                "3. Contextualism and historical references: Postmodernism often responds to its surrounding context and historical references. Buildings may incorporate elements from the local architectural heritage, reinterpret traditional forms, or engage in dialogue with neighboring structures. This approach aims to create a sense of place and a connection to the history and culture of the site."
+            ]
+        },
+        "short": "Postmodernism in architecture is an eclectic style that rejects modernist principles, embracing historical references and playfulness in design.",
+        "significance": {
+            "Scale": 8
+        }
     },
     "Deconstructivism": {
         "architects": [
@@ -1119,7 +1345,15 @@
         "terms": " architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract.",
         "Start_Year": "1980 CE",
         "End_Year": "present",
-        "icon": "deconstructivism.png"
+        "icon": "deconstructivism.png",
+        "character": {
+            "characteristic_elements": [
+                "Fragmentation and disorder: Deconstructivism is characterized by an intentional disruption of traditional architectural forms and spatial arrangements. It often incorporates complex geometries, angular shapes, and fragmented or fractured elements.",
+                "Non-linear or unconventional plan layouts: Deconstructivist buildings often have irregular or non-orthogonal floor plans. The arrangement of spaces and circulation paths may be non-linear or follow unconventional patterns, challenging traditional notions of architectural organization.",
+                "Expressive use of materials: Deconstructivist architecture emphasizes the use of raw and exposed materials, such as concrete, steel, glass, and industrial elements. These materials are often used artistically, showcasing their inherent qualities and structural potential."
+            ]
+        },
+        "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles."
     },
     "Neo-Futurism": {
         "architects": [
@@ -1181,7 +1415,15 @@
         "terms": "Dynamic, asymmetrical, unconventional, innovative, sustainable, minimalistic, interactive, experiential, adaptable.",
         "Start_Year": "1960 CE",
         "End_Year": "present",
-        "icon": "neo-futurism.png"
+        "icon": "neo-futurism.png",
+        "character": {
+            "characteristic_elements": [
+                "Dynamic forms and fluid lines",
+                "Innovative use of materials and technology",
+                "Emphasis on sustainability and eco-friendliness"
+            ]
+        },
+        "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility."
     },
     "Parametricism": {
         "architects": [
@@ -1241,7 +1483,85 @@
         "terms": " Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic",
         "Start_Year": "1998 CE",
         "End_Year": "present",
-        "icon": "parametricism.png"
+        "icon": "parametricism.png",
+        "character": {
+            "characteristic elements": [
+                "Organic forms and complex geometries",
+                "Parametric design and digitally controlled processes",
+                "Responsive and adaptable architecture"
+            ]
+        },
+        "short": "Parametricism is a contemporary architectural style that uses digital tools to design dynamic, complex forms, emphasizing organic and fluid structures.",
+        "significance": 5
+    },
+    "Late Modernism": {
+        "architects": [
+            {
+                "name": "I.M. Pei",
+                "birth_date": "April 26, 1917",
+                "nationality": "American",
+                "description": "A Chinese-American architect known for his bold designs and use of geometric forms.",
+                "notable_buildings": [
+                    "Louvre Pyramid",
+                    "Bank of China Tower",
+                    "Rock and Roll Hall of Fame"
+                ]
+            },
+            {
+                "name": "Richard Meier",
+                "birth_date": "October 12, 1934",
+                "nationality": "American",
+                "description": "An American architect known for his use of white and geometric forms.",
+                "notable_buildings": [
+                    "Getty Center",
+                    "The Hague City Hall",
+                    "The Barcelona Museum of Contemporary Art"
+                ]
+            },
+            {
+                "name": "Norman Foster",
+                "birth_date": "June 1, 1935",
+                "nationality": "British",
+                "description": "A British architect known for his modern and innovative designs.",
+                "notable_buildings": [
+                    "30 St. Mary Axe (The Gherkin)",
+                    "Hearst Tower",
+                    "Millennium Bridge"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1950s-1970s",
+            "period": "Modernism",
+            "description": "Late Modernism is marked by a departure from the International Style in the 1960s and a move towards more expressive and sculptural forms. Buildings in this style often feature bold shapes, intricate forms, and irregular angles, with a focus on the use of new materials and construction methods.",
+            "characteristics": [
+                "expressive and sculptural forms",
+                "bold shapes",
+                "irregular angles",
+                "use of new materials and construction methods"
+            ],
+            "examples": [
+                "Sydney Opera House in Australia",
+                "Seagram Building in New York City, USA",
+                "Centre Georges Pompidou in Paris, France",
+                "TWA Terminal at John F. Kennedy International Airport in New York City, USA"
+            ],
+            "continent": "Various",
+            "country": "Various"
+        },
+        "terms": "late, modernist, abstract expressionist, bold, angular, minimalist, experimental, functionalist, simplistic, geometric, sleek, asymmetrical, industrial, glassy, towering, sculptural, brutalist.",
+        "Start_Year": "1960 CE",
+        "End_Year": "present",
+        "character": {
+            "Characteristic Elements": [
+                "Simplified forms and geometric shapes",
+                "Emphasis on function and practicality",
+                "Use of new materials and construction techniques"
+            ]
+        },
+        "short": "Late Modernism is an architectural style that emerged in the mid-20th century, characterized by functional designs, technological advancements, and simplicity in form.",
+        "significance": 7,
+        "icon": "late modernism.png"
     },
     "Expressionism": {
         "architects": [
@@ -1295,7 +1615,15 @@
         "terms": "Emotion, distortion, abstraction, angularity, vibrant colors, rawness, wood, brick, steel.",
         "Start_Year": "1905 CE",
         "End_Year": "1930 CE",
-        "icon": "expressionism.png"
+        "icon": "expressionism.png",
+        "character": {
+            "elements": [
+                "Bold and dramatic forms: Expressionism architecture is characterized by the use of bold and unconventional shapes that create a sense of drama. Buildings often have distorted or exaggerated shapes, asymmetrical compositions, and irregular facades.",
+                "Emotional and subjective expression: Expressionism architecture aims to evoke emotional responses from the viewers. It often incorporates elements that convey a sense of intensity, anxiety, or struggle, reflecting the inner emotions and feelings of the architect.",
+                "Symbolic use of materials and colors: Expressionism architecture uses materials and colors in a symbolic manner to convey specific meanings or emotions. Unconventional combinations and bold contrasts are often employed to create striking visual effects."
+            ]
+        },
+        "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality."
     },
     "Tudor": {
         "architects": [
@@ -1357,7 +1685,15 @@
         "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
         "Start_Year": " 1485 CE",
         "End_Year": " 1603 CE",
-        "icon": "tudor.png"
+        "icon": "tudor.png",
+        "character": {
+            "characteristic_elements": [
+                "Half-timbered exteriors",
+                "Steeply pitched roofs",
+                "Elaborate chimneys"
+            ]
+        },
+        "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering."
     },
     "Italianate": {
         "architects": [
@@ -1419,7 +1755,15 @@
         "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
         "Start_Year": " 1830 CE",
         "End_Year": " 1870 CE",
-        "icon": "italianate.png"
+        "icon": "italianate.png",
+        "character": {
+            "characteristic elements": [
+                "Elongated and symmetrical appearance: Italianate architecture often features long, rectangular facades with a symmetrical arrangement of windows, doors, and other elements.",
+                "Overhanging eaves with decorative brackets: One of the defining features of Italianate style is the presence of overhanging eaves, which are typically supported by decorative brackets or corbels.",
+                "Tall, narrow windows with arched tops: Italianate buildings often have tall, narrow windows with arched tops, which are inspired by the architectural elements found in Italian Renaissance buildings."
+            ]
+        },
+        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details."
     },
     "Constructivism": {
         "architects": [
@@ -1485,7 +1829,16 @@
         },
         "Start_Year": " 1917 CE",
         "End_Year": " 1930 CE",
-        "icon": "constructivism.png"
+        "icon": "constructivism.png",
+        "character": {
+            "characteristic elements": [
+                "Use of raw and industrial materials",
+                "Exposed structure and construction systems",
+                "Dynamic and geometric forms"
+            ]
+        },
+        "short": "Constructivism is an architectural style that emerged in the early 20th century, emphasizing geometric forms, industrial materials, and functional design.",
+        "significance": 5
     },
     "Neolithic": {
         "architects": [
@@ -1552,7 +1905,34 @@
         "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
         "Start_Year": " 10000 BCE",
         "End_Year": " 2000 BCE",
-        "icon": "neolithic.png"
+        "icon": "neolithic.png",
+        "character": {
+            "Characteristic Elements": [
+                {
+                    "Element": "Megalithic structures",
+                    "Description": "The Neolithic architecture style is characterized by the construction of massive megalithic structures. These structures were made by arranging large stones or boulders in a specific pattern or shape.",
+                    "Examples": [
+                        "Stonehenge",
+                        "Avebury Stone Circle"
+                    ]
+                },
+                {
+                    "Element": "Natural materials",
+                    "Description": "Neolithic architecture primarily used natural materials such as stone, wood, and mud. These materials were readily available and easily accessible to Neolithic communities, allowing them to construct their buildings using locally sourced resources.",
+                    "Examples": []
+                },
+                {
+                    "Element": "Cyclopean masonry",
+                    "Description": "Cyclopean masonry refers to the construction technique used in Neolithic architecture, where large irregularly shaped stones are fitted together to create walls or structures. The stones are typically placed without the use of mortar, relying on their weight and precise positioning for stability.",
+                    "Examples": [
+                        "Skara Brae",
+                        "Dolmens"
+                    ]
+                }
+            ]
+        },
+        "short": "Neolithic architecture style is characterized by the use of wood, stone, and mud-brick construction, featuring simple, functional designs for housing and communal structures.",
+        "significance": 7.5
     },
     "Chinese Imperial": {
         "architects": [
@@ -1618,7 +1998,87 @@
         "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
         "Start_Year": "618 CE",
         "End_Year": " 1912 CE",
-        "icon": "chinese_imperial.png"
+        "icon": "chinese_imperial.png",
+        "character": {
+            "characteristic_elements": [
+                "Brilliant colors: Chinese Imperial architecture is known for its vibrant colors, with red, yellow, and green being the most commonly used. These colors symbolize power, wealth, and good luck.",
+                "Emphasis on symmetry: Chinese Imperial architecture follows a strict symmetrical layout, with buildings and their surrounding gardens arranged in balanced proportions. The central axis is often given great importance, and structures are constructed symmetrically along it.",
+                "Distinctive roof style: The architecture features roofs with upturned eaves, known as dougong. These roofs are typically adorned with intricate and colorful decorations, such as dragon motifs, representing protection and good fortune."
+            ]
+        },
+        "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations."
+    },
+    "Edo Period": {
+        "architects": [
+            {
+                "name": "Itoh Kanejirou",
+                "birth_date": "1632",
+                "death_date": "1716",
+                "nationality": "Japanese",
+                "description": "Itoh Kanejirou was a Japanese architect and stonemason during the Edo period. He is known for designing and constructing several buildings in Japan.",
+                "notable_buildings": [
+                    "Matsumoto Castle"
+                ]
+            },
+            {
+                "name": "Rokusuke Ei",
+                "birth_date": "1707",
+                "death_date": "1783",
+                "nationality": "Japanese",
+                "description": "Rokusuke Ei was a Japanese architect and carpenter during the Edo period. He is considered one of the architects who introduced Western architectural elements to Japanese traditional architecture.",
+                "notable_buildings": [
+                    "Tsunamachi Mitsui Club",
+                    "Osaka Castle"
+                ]
+            },
+            {
+                "name": "Chohei Anai",
+                "birth_date": "1733",
+                "death_date": "1806",
+                "nationality": "Japanese",
+                "description": "Chohei Anai was a Japanese architect and carpenter during the Edo period. He specialized in designing and constructing traditional tea houses, and his work is known for its simplicity and harmony with nature.",
+                "notable_buildings": [
+                    "Kyoto's Katsura Imperial Villa"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1603-1868",
+            "period": "Medieval",
+            "description": "The Edo period is a period in Japanese history when Japan was ruled by the Tokugawa shogunate. It was a time of stability, prosperity, and peace that lasted for more than 250 years.",
+            "characteristics": [
+                "Emphasis on simplicity, practicality, and natural materials",
+                "Vertical lines and geometric patterns",
+                "Large roofs with protruding eaves",
+                "Use of natural materials like wood, paper, and clay",
+                "Indoor-outdoor connection through the use of sliding doors and panels",
+                "Integration of nature into design with gardens and water features"
+            ],
+            "examples": [
+                "Katsura Imperial Villa in Kyoto",
+                "Toshogu Shrine in Nikko",
+                "Himeji Castle in Himeji",
+                "Nijo Castle in Kyoto",
+                "Tokyo Imperial Palace in Tokyo"
+            ],
+            "continent": "Asia",
+            "country": "Japan"
+        },
+        "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard.",
+        "Start_Year": "1603 CE",
+        "End_Year": " 1657 CE",
+        "character": {
+            "characteristic_elements": [
+                "Wooden Structures: Edo Period architecture primarily featured wooden structures, with buildings constructed using traditional Japanese architectural techniques such as post-and-beam construction.",
+                "Sliding Doors and Screens: Edo Period architecture commonly incorporated sliding doors, known as fusuma, and screens, known as shoji. These allowed for flexible and customizable interior spaces.",
+                "Thatched Roofs: Many Edo Period buildings had thatched roofs, made from layers of rice straw or other natural materials. Thatched roofs provided insulation and protection against harsh weather conditions."
+            ]
+        },
+        "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
+        "significance": {
+            "Edo_Period_architecture_significance": 7
+        },
+        "icon": "edo_period.png"
     },
     "Mid-Century Modern": {
         "architects": [
@@ -1684,7 +2144,15 @@
         "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
         "Start_Year": "1940 CE",
         "End_Year": " 1960 CE",
-        "icon": "mid-century_modern.png"
+        "icon": "mid-century_modern.png",
+        "character": {
+            "characteristic_elements": [
+                "Clean lines and geometric shapes",
+                "Open floor plans and large windows",
+                "Integration with nature and outdoor spaces"
+            ]
+        },
+        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\""
     },
     "Mud Brick": {
         "architects": [
@@ -1766,6 +2234,838 @@
         "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional.",
         "Start_Year": " 4000 BCE",
         "End_Year": " present",
-        "icon": "mud_brick.png"
+        "icon": "mud_brick.png",
+        "character": {
+            "Characteristic_elements": [
+                "Use of mud bricks as the primary building material",
+                "Thick walls for insulation",
+                "Arched doorways and windows for structural stability"
+            ]
+        },
+        "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures."
+    },
+    "Stilt House": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "June 8, 1867",
+                "death_date": "April 9, 1959",
+                "nationality": "American",
+                "description": "One of the most influential architects of the 20th century, Wright was known for his organic architecture style that emphasized a harmonious relationship between the built environment and nature.",
+                "notable_buildings": [
+                    "Fallingwater",
+                    "Wingspread",
+                    "Kentuck Knob"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birth_date": "October 6, 1887",
+                "death_date": "August 27, 1965",
+                "nationality": "Swiss",
+                "description": "A pioneer of the modern architecture movement, Le Corbusier was known for his functionalist approach to design and his belief that architecture should meet the needs of society.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Chapel of Notre Dame du Haut"
+                ]
+            },
+            {
+                "name": "Bjarke Ingels",
+                "birth_date": "October 2, 1974",
+                "death_date": null,
+                "nationality": "Danish",
+                "description": "A postmodern architect known for his innovative and sustainable designs, Ingels is the founder of the Bjarke Ingels Group (BIG), an architecture firm with offices around the world.",
+                "notable_buildings": [
+                    "The Mountain",
+                    "8 House",
+                    "Danish National Maritime Museum"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Ancient times to present day",
+            "period": "Pre-Colonial",
+            "description": "Stilt Houses are dwellings that are elevated off the ground on stilts or pillars. They are commonly found in areas that experience flooding, high tides, or heavy snowfall. They can be made of various materials such as wood, bamboo, metal or concrete.",
+            "characteristics": [
+                "The main feature of the Stilt House architecture style is the use of stilts or pillars to elevate the house above the ground. Other common characteristics include a simple and compact design",
+                " often with a single room",
+                " and a low-pitched roof that slopes downward to shed water. The houses can be either permanent or temporary structures",
+                " depending on the needs of the residents."
+            ],
+            "examples": [
+                "Southeast Asia (Malaysia, Indonesia, Thailand)",
+                "Africa (Nigeria Cameroon)",
+                "South America (Peru, Brazil)",
+                "North America (Louisiana Florida)."
+            ],
+            "continent": [
+                "Asia",
+                "Africa",
+                "South America",
+                "North America"
+            ],
+            "country": [
+                "Malaysia",
+                "Indonesia",
+                "Thailand",
+                "Nigeria",
+                "Cameroon",
+                "Peru",
+                "Brazil",
+                "Louisiana",
+                "Florida"
+            ]
+        },
+        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
+        "icon": "stilt_house.png",
+        "character": {
+            "characteristics": [
+                "Elevated structure on stilts",
+                "Use of natural and sustainable materials",
+                "Open design with large, flowing spaces"
+            ]
+        },
+        "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
+        "Start_Year": " 6000 BCE",
+        "End_Year": " present"
+    },
+    "Blobitecture": {
+        "architects": [
+            {
+                "name": "Frank Gehry",
+                "birth_date": "February 28, 1929",
+                "death_date": "-",
+                "nationality": "Canadian-American",
+                "description": "Frank Gehry is known for his organic and expressive architectural designs. His style often features curvilinear forms and unconventional materials. He is considered a pioneer in the 'Blobitecture' movement.",
+                "notable_buildings": [
+                    "Guggenheim Museum Bilbao (Spain)",
+                    "Walt Disney Concert Hall (United States)",
+                    "Dancing House (Czech Republic)"
+                ]
+            },
+            {
+                "name": "Zaha Hadid",
+                "birth_date": "October 31, 1950",
+                "death_date": "March 31, 2016",
+                "nationality": "British-Iraqi",
+                "description": "Zaha Hadid was a highly influential architect known for her avant-garde designs characterized by bold curves and futuristic aesthetics. She played a significant role in shaping the 'Blobitecture' genre.",
+                "notable_buildings": [
+                    "Heydar Aliyev Center (Azerbaijan)",
+                    "Guangzhou Opera House (China)",
+                    "MAXXI National Museum of the 21st Century Arts (Italy)"
+                ]
+            },
+            {
+                "name": "Coop Himmelb(l)au",
+                "birth_date": "March 28, 1939",
+                "death_date": "-",
+                "nationality": "Austrian",
+                "description": "Coop Himmelb(l)au is an architectural firm known for their innovative and experimental designs. They have contributed to the 'Blobitecture' movement by creating structures with dynamic forms and unconventional shapes.",
+                "notable_buildings": [
+                    "BMW Welt (Germany)",
+                    "Museum of Contemporary Art & Planning Exhibition (China)",
+                    "Dalian International Conference Center (China)"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1990s-present",
+            "period": "Contemporary",
+            "description": "Blobitecture is a contemporary architectural style characterized by the usage of organic, curvilinear, and amorphous forms in building designs. It is known for its unconventional and futuristic appearance.",
+            "characteristics": [
+                "Organic and curvilinear forms",
+                "Amorphous shapes",
+                "Smooth and flowing lines",
+                "Absence of sharp edges and angles",
+                "Sculptural quality"
+            ],
+            "examples": [
+                "Guggenheim Museum Bilbao (Spain)",
+                "Futuroscope (France)",
+                "Selfridges Building (United Kingdom)",
+                "Experience Music Project (United States)"
+            ],
+            "continent": "Multiple continents",
+            "country": "Global"
+        },
+        "terms": "Blobitecture is a contemporary architectural style characterized by curvilinear forms, fluid shapes, and amorphous structures.",
+        "character": {
+            "characteristic_elements": [
+                "Organic and amorphous shapes",
+                "Curved and fluid lines",
+                "Sculptural and futuristic appearance"
+            ]
+        },
+        "short": "Blobitecture is an architectural style characterized by organic, curvaceous and unconventional forms, often resembling blobs, aiming to break away from traditional rectilinear designs.",
+        "Start_Year": " 1950 CE",
+        "End_Year": " present",
+        "icon": "blobitecture.png"
+    },
+    "Googie": {
+        "architects": [
+            {
+                "name": "John Lautner",
+                "birth_date": "July 16, 1911",
+                "death_date": "October 24, 1994",
+                "nationality": "American",
+                "description": "Known for his innovative and futuristic designs, John Lautner was an influential architect in the Googie architecture style. He aimed to create structures that merged with the natural environment, often using organic shapes and unconventional materials.",
+                "notable_buildings": [
+                    "Chemosphere",
+                    "Bob Hope's Space Age House",
+                    "Sheats Goldstein Residence"
+                ]
+            },
+            {
+                "name": "Armet & Davis",
+                "birth_date": "-",
+                "death_date": "-",
+                "nationality": "American",
+                "description": "Armet & Davis was an architectural firm based in Los Angeles, California, known for their contribution to the Googie architecture style. They popularized the style by creating iconic mid-century coffee shops and diners characterized by bold designs, vibrant colors, and futuristic elements.",
+                "notable_buildings": [
+                    "Norms Restaurant on La Cienega Boulevard",
+                    "Pann's Restaurant",
+                    "Johnie's Coffee Shop (now closed)"
+                ]
+            },
+            {
+                "name": "Helen Liu Fong",
+                "birth_date": "February 10, 1927",
+                "death_date": "October 8, 2005",
+                "nationality": "American",
+                "description": "Helen Liu Fong was an architect based in California, who played a significant role in the Googie architectural movement. She was one of the few female architects practicing in the mid-20th century and contributed to the design of iconic Googie buildings, especially coffee shops and motels.",
+                "notable_buildings": [
+                    "Holiday Bowl on Crenshaw Boulevard",
+                    "Theme Building at Los Angeles International Airport",
+                    "Pioneer Chicken Stand"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 1940s to mid-1960s",
+            "period": "Mid-20th century",
+            "description": "Googie architecture is a futuristic and exuberant architectural style that emerged in the United States during the post-World War II period. It is characterized by bold and futuristic designs, featuring geometric shapes, curved lines, elaborate signage, and extensive use of glass, steel, and neon lights.",
+            "characteristics": [
+                "Exaggerated and dramatic designs",
+                "Futuristic and space-age elements",
+                "Geometric shapes and lines",
+                "Curved and angular forms",
+                "Elaborate signage and neon lights",
+                "Extensive use of glass and steel",
+                "Large cantilevered roofs",
+                "Atomic and space motifs"
+            ],
+            "examples": [
+                "The Theme Building at Los Angeles International Airport",
+                "The Space Needle in Seattle, Washington",
+                "Norms Restaurant in Los Angeles",
+                "The Stardust Hotel and Casino in Las Vegas"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": " architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
+        "character": [
+            "Futuristic design elements",
+            "Use of geometric shapes and angles",
+            "Incorporation of space age and atomic age motifs"
+        ],
+        "short": "Googie architecture emerged in the mid-20th century, characterized by futuristic designs with a focus on space-age aesthetics, vibrant colors, and exaggerated shapes.",
+        "Start_Year": " 1945 CE",
+        "End_Year": " 1970 CE",
+        "icon": "googie.png"
+    },
+    "Igloo": {
+        "architects": [
+            {
+                "name": "Buckminster Fuller",
+                "birth_date": "July 12, 1895",
+                "death_date": "July 1, 1983",
+                "nationality": "American",
+                "description": "Buckminster Fuller was an American architect, systems theorist, author, designer, and inventor. He was known for his innovative approach and was a prominent advocate for sustainable and efficient designs.",
+                "notable_buildings": [
+                    "Montreal Biosph\u00e8re in Canada",
+                    "Fly's Eye Dome in the United States",
+                    "U.S. Pavilion at Expo '67 in Canada"
+                ]
+            },
+            {
+                "name": "Rudolph Schindler",
+                "birth_date": "September 10, 1887",
+                "death_date": "August 22, 1953",
+                "nationality": "Austrian",
+                "description": "Rudolph Schindler was an Austrian-born architect who later became a naturalized American. He was known for his modernist designs and his contribution to the California Moderne movement.",
+                "notable_buildings": [
+                    "Lovell Beach House in the United States",
+                    "Schindler House in the United States",
+                    "How House in the United States"
+                ]
+            },
+            {
+                "name": "Frei Otto",
+                "birth_date": "May 31, 1925",
+                "death_date": "March 9, 2015",
+                "nationality": "German",
+                "description": "Frei Otto was a German architect and structural engineer. He was known for his pioneering work in lightweight and tensile structures, and his architectural designs were often inspired by natural forms and structures.",
+                "notable_buildings": [
+                    "Munich Olympic Stadium in Germany",
+                    "Multihalle in Germany",
+                    "Aviary at Munich Zoo in Germany"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1250 CE - Present",
+            "period": "Modern",
+            "description": "The Igloo is a traditional dome-shaped dwelling built by the Inuit and other indigenous peoples of the Arctic region. It is primarily constructed using blocks of compacted snow and ice.",
+            "characteristics": [
+                "Circular or dome-shaped structure",
+                "Made of snow blocks or ice bricks",
+                "Well-insulated for extreme cold weather",
+                "Lightweight and easily portable",
+                "Efficient heat retention"
+            ],
+            "examples": [
+                "Snow blocks Igloo",
+                "Ice bricks Igloo"
+            ],
+            "continent": "North America",
+            "country": "Canada"
+        },
+        "terms": "Igloo architecture style: distributed, scalable, modular, seamless, abstracted, adaptable, resilient, fault-tolerant.",
+        "character": {
+            "characteristicElements": [
+                "Circular or dome-shaped structure",
+                "Made of ice or compacted snow",
+                "Excellent insulation properties"
+            ]
+        },
+        "short": "\"Igloo\" is an architectural style for developing software systems with loosely coupled components, isolated from underlying infrastructure and communication protocols.",
+        "significance": 8.5,
+        "Start_Year": " 1000 BCE",
+        "End_Year": " 1800 CE",
+        "icon": "igloo.png"
+    },
+    "Indo-Islamic": {
+        "architects": [
+            {
+                "name": "Ustad Ahmad Lahauri",
+                "birthdate": "Unknown",
+                "deathdate": "Unknown",
+                "nationality": "Indian (Mughal Empire)",
+                "description": "Considered the chief architect of the Taj Mahal.",
+                "notable_buildings": [
+                    "Taj Mahal"
+                ]
+            },
+            {
+                "name": "Lal Chand Ustaad",
+                "birthdate": "1724",
+                "deathdate": "1785",
+                "nationality": "Indian (Mughal Empire)",
+                "description": "Renowned for his expertise in Indo-Islamic architecture, especially with the construction of palaces and gardens.",
+                "notable_buildings": [
+                    "Shalimar Bagh",
+                    "Nishat Bagh"
+                ]
+            },
+            {
+                "name": "Qutubuddin Aibak",
+                "birthdate": "1150",
+                "deathdate": "1210",
+                "nationality": "Turkish (Delhi Sultanate)",
+                "description": "Known for his early contributions to the development of Indo-Islamic architecture in India.",
+                "notable_buildings": [
+                    "Qutub Minar",
+                    "Quwwat-ul-Islam Mosque"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "12th to 19th centuries",
+            "period": "Medieval to Colonial",
+            "description": "Indo-Islamic architecture is a fusion of Indian and Islamic architectural styles that developed during the medieval to colonial periods in the Indian subcontinent.",
+            "characteristics": [
+                "Integration of Hindu and Islamic architectural elements",
+                "Use of intricate geometrical patterns and calligraphy",
+                "Use of arches, domes, and minarets",
+                "Incorporation of local materials and craftsmanship",
+                "Ornate and decorative facades"
+            ],
+            "examples": [
+                "Taj Mahal in Agra, India",
+                "Qutub Minar in Delhi, India",
+                "Badshahi Mosque in Lahore, Pakistan",
+                "Jama Masjid in Delhi, India",
+                "Fatehpur Sikri in Uttar Pradesh, India",
+                "Charminar in Hyderabad, India"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "nouns: blend, fusion, influence, mosque, minaret, dome, arch, courtyardadjectives: unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
+        "character": {
+            "elements": [
+                "Blend of Indo and Islamic architectural styles",
+                "Use of geometric patterns and calligraphy",
+                "Incorporation of domes and arches"
+            ]
+        },
+        "short": "Indo-Islamic architecture is a unique style blending Indian and Islamic design elements, characterized by intricate detailing, domes, and arches.",
+        "Start_Year": " 1193 CE",
+        "End_Year": " 1700 CE",
+        "icon": "indo-islamic.png"
+    },
+    "Indo-Saracenic": {
+        "architects": [
+            {
+                "name": "George Wittet",
+                "birth_date": "1878-01-20",
+                "death_date": "1926-12-27",
+                "nationality": "Scottish",
+                "description": "George Wittet was a Scottish architect who played a significant role in promoting Indo-Saracenic architecture in India.",
+                "notable_buildings": [
+                    "Gateway of India, Mumbai",
+                    "Prince of Wales Museum, Mumbai",
+                    "Maharaja's Palace, Kolhapur"
+                ]
+            },
+            {
+                "name": "Robert Fellowes Chisholm",
+                "birth_date": "1840-10-18",
+                "death_date": "1915-02-21",
+                "nationality": "British",
+                "description": "Robert Fellowes Chisholm was a British architect known for his works in the Indo-Saracenic style during the British Raj in India.",
+                "notable_buildings": [
+                    "Madras High Court, Chennai",
+                    "Victoria Memorial Hall, Kolkata",
+                    "Athens of the East, Madurai"
+                ]
+            },
+            {
+                "name": "Henry Irwin",
+                "birth_date": "1841-08-03",
+                "death_date": "1922-11-02",
+                "nationality": "British",
+                "description": "Henry Irwin was a British architect renowned for his expertise in the Indo-Saracenic architectural style.",
+                "notable_buildings": [
+                    "Mysore Palace, Mysuru",
+                    "Bangalore Palace, Bengaluru",
+                    "Government Museum, Chennai"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 19th to early 20th century",
+            "period": "Colonial period",
+            "description": "Indo-Saracenic architecture is a blend of Indian and Islamic architectural styles that emerged during the British colonial rule in India. It combines elements of Indo-Islamic architecture with Gothic, Renaissance, and other Western architectural styles.",
+            "characteristics": [
+                "Features of Indo-Saracenic architecture include the use of Indian architectural elements like domes",
+                " arches",
+                " and minarets",
+                " combined with Western features such as symmetrical layouts",
+                " pointed arches",
+                " and stained glass windows. The buildings often incorporate intricate carvings",
+                " decorative motifs",
+                " and ornate detailing."
+            ],
+            "examples": [
+                "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India",
+                "Mysore Palace in Mysore, India",
+                "Gateway of India in Mumbai, India",
+                "Lahore Museum in Lahore, Pakistan"
+            ],
+            "continent": "Asia",
+            "country": "India"
+        },
+        "terms": "Indo-Saracenic architecture: combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
+        "character": {
+            "characteristic_elements": [
+                "Fusion of Indian and Islamic architectural styles",
+                "Use of intricate detailing and ornamental features",
+                "Blend of traditional and European architectural elements"
+            ]
+        },
+        "short": "Indo-Saracenic architecture combines Indian and Islamic elements in a fusion style marked by intricate detailing, grandeur, and diverse influences.",
+        "significance": 7,
+        "Start_Year": " 1795 CE",
+        "End_Year": " 1947 CE",
+        "icon": "indo-saracenic.png"
+    },
+    "Palladian": {
+        "architects": [
+            {
+                "name": "Andrea Palladio",
+                "birth_date": "November 30, 1508",
+                "death_date": "August 19, 1580",
+                "nationality": "Italian",
+                "description": "Considered one of the most influential architects in Western architecture. Palladio's work is characterized by symmetry, classicism, and harmony.",
+                "notable_buildings": [
+                    "Villa Capra (La Rotonda)",
+                    "Basilica Palladiana",
+                    "Teatro Olimpico"
+                ]
+            },
+            {
+                "name": "Thomas Jefferson",
+                "birth_date": "April 13, 1743",
+                "death_date": "July 4, 1826",
+                "nationality": "American",
+                "description": "An American Founding Father who also served as the third President of the United States. Jefferson incorporated Palladian principles in several of his architectural projects.",
+                "notable_buildings": [
+                    "Monticello",
+                    "University of Virginia",
+                    "Virginia State Capitol"
+                ]
+            },
+            {
+                "name": "Inigo Jones",
+                "birth_date": "July 15, 1573",
+                "death_date": "June 21, 1652",
+                "nationality": "English",
+                "description": "One of the first significant English architects and key figure in introducing Palladianism to England. Jones' works played a vital role in the development of English Renaissance architecture.",
+                "notable_buildings": [
+                    "Banqueting House",
+                    "Queen's House",
+                    "Covent Garden Piazza"
+                ]
+            }
+        ],
+        "style": {
+            "architectureStyle": "Palladian",
+            "timeRange": "16th to 18th century",
+            "period": "Renaissance and Neoclassical",
+            "description": "Palladian architecture is a neoclassical architectural style inspired by the designs of the Italian architect Andrea Palladio. It combines elements of Roman and Greek architecture with Renaissance aesthetics.",
+            "characteristics": [
+                "Symmetry and proportion",
+                "Use of classical orders (Doric, Ionic, Corinthian)",
+                "Flat roofs with balustrades",
+                "Central pediments and porticos",
+                "Symmetrical facades with balanced wings",
+                "Tripartite composition with a central block and flanking wings",
+                "Horizontal emphasis"
+            ],
+            "examples": [
+                "Villa Rotonda, Italy",
+                "Chiswick House, England",
+                "Monticello, United States"
+            ],
+            "continent": "Europe",
+            "country": "Italy"
+        },
+        "terms": "nouns: architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence.adjectives: classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
+        "character": {
+            "Characteristic Elements": [
+                "Symmetry: Palladian architecture is known for its strong emphasis on symmetry. Buildings designed in this style often feature an equal number of windows, columns, and other decorative elements on either side of a central axis.",
+                "Classical Orders: Palladian architecture incorporates the use of classical orders, such as Doric, Ionic, and Corinthian columns. These columns are typically featured prominently in the design of the buildings, both on the exterior and interior.",
+                "Palladian Window: One of the hallmark features of this style is the \u200bPalladian window, also known as a Venetian window. It consists of a large central arched window flanked by two smaller rectangular windows on either side. This window design adds elegance and grandeur to the buildings."
+            ]
+        },
+        "short": "Palladian architecture is a neoclassical style influenced by Andrea Palladio, characterized by symmetry, harmonious proportions, and use of classical elements.",
+        "significance": {
+            "significance": 8
+        },
+        "Start_Year": " 1700 CE",
+        "End_Year": " 1800 CE",
+        "icon": "palladian.png"
+    },
+    "Prairie": {
+        "architects": [
+            {
+                "name": "Frank Lloyd Wright",
+                "birth_date": "June 8, 1867",
+                "death_date": "April 9, 1959",
+                "nationality": "American",
+                "description": "One of the most renowned architects of the 20th century, known for his organic, harmonious designs that blend with the natural surroundings.",
+                "notable_buildings": [
+                    "Robie House, Chicago",
+                    "Fallingwater, Pennsylvania",
+                    "Taliesin East and Taliesin West, Wisconsin and Arizona"
+                ]
+            },
+            {
+                "name": "Walter Burley Griffin",
+                "birth_date": "November 24, 1876",
+                "death_date": "February 11, 1937",
+                "nationality": "American",
+                "description": "An influential architect and landscape designer who worked closely with his wife Marion Mahony Griffin. They were known for their Prairie School designs and integration of architecture and nature.",
+                "notable_buildings": [
+                    "Roberts House, Chicago",
+                    "Unity Temple, Illinois",
+                    "Canberra, Australia (urban planning and design)"
+                ]
+            },
+            {
+                "name": "George Grant Elmslie",
+                "birth_date": "February 20, 1871",
+                "death_date": "April 23, 1952",
+                "nationality": "American",
+                "description": "A prominent architect of the Prairie School movement, known for his intricate ornamentation and decorative designs.",
+                "notable_buildings": [
+                    "Hugh Roberts House, Illinois",
+                    "Purcell-Cutts House, Minnesota",
+                    "Ralston Corner Condominiums, Illinois"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "Late 19th century to early 20th century",
+            "period": "Historic",
+            "description": "Prairie architecture is a style that emerged in the late 19th century in the United States. It was popularized by architect Frank Lloyd Wright and is characterized by its integration with the surrounding landscape and emphasis on horizontal lines and strong geometry.",
+            "characteristics": [
+                "Horizontal orientation",
+                "Low-pitched roofs with extended eaves",
+                "Open floor plans and interconnected living spaces",
+                "Integration with the surrounding landscape",
+                "Use of natural materials like wood, stone, and brick"
+            ],
+            "examples": [
+                "Robie House (Chicago, Illinois, USA)",
+                "Fallingwater (Mill Run, Pennsylvania, USA)",
+                "Dana-Thomas House (Springfield, Illinois, USA)"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "minimalist design, open spaces, horizontal lines, natural materials, prairie landscape, functional, low-pitched roofs, long and extended floor plans, geometric forms, organic integration, harmonious, spacious interiors, abundant windows, earthy color palette, unadorned fa\u00e7ade, seamless indoor-outdoor connection, timeless elegance, innovative, Frank Lloyd Wright",
+        "character": {
+            "characteristic_elements": [
+                "Horizontal lines and flat roofs: Prairie architecture emphasizes horizontal lines to blend with the natural landscape. Flat or low-pitched roofs are often found in this style.",
+                "Open floor plans: Prairie homes often feature open floor plans, creating a seamless flow between rooms and a sense of spaciousness.",
+                "Integration with nature: Prairie architecture seeks to integrate the structure with the surrounding environment. Large windows, terraces, and balconies are common features that connect indoor and outdoor spaces."
+            ]
+        },
+        "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
+        "Start_Year": " 1910 CE",
+        "End_Year": " 1920 CE",
+        "icon": "prairie.png"
+    },
+    "Regency": {
+        "architects": [
+            {
+                "name": "John Nash",
+                "birth_date": "18 January 1752",
+                "death_date": "13 May 1835",
+                "nationality": "English",
+                "description": "English architect known for his work in the Regency era. He was influential in designing important landmarks in London.",
+                "notable_buildings": [
+                    "Regent Street, London",
+                    "Buckingham Palace",
+                    "The Royal Pavilion, Brighton"
+                ]
+            },
+            {
+                "name": "Sir John Soane",
+                "birth_date": "10 September 1753",
+                "death_date": "20 January 1837",
+                "nationality": "English",
+                "description": "Highly regarded English architect known for his distinctive neoclassical Regency style and his innovative use of light in buildings.",
+                "notable_buildings": [
+                    "Bank of England",
+                    "Dulwich Picture Gallery",
+                    "Sir John Soane's Museum, London"
+                ]
+            },
+            {
+                "name": "Thomas Hardwick",
+                "birth_date": "1752",
+                "death_date": "1829",
+                "nationality": "English",
+                "description": "Prominent English architect primarily active during the Regency period. He designed notable buildings in London as part of the Regency style.",
+                "notable_buildings": [
+                    "Covent Garden Theatre",
+                    "York Theatre Royal",
+                    "Lincoln's Inn Hall"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "1811-1820",
+            "period": "Early 19th century",
+            "description": "Regency architecture refers to the architectural style that was prominent during the regency period in the United Kingdom. It was influenced by the neoclassical style and reflects the refinement and elegance of the era.",
+            "characteristics": [
+                "Symmetry in design",
+                "Classical proportions and elements",
+                "Elaborate decorative detailing",
+                "Use of Greek and Roman architectural motifs",
+                "Incorporation of large windows and natural light",
+                "Grand entrances and imposing facades"
+            ],
+            "examples": [
+                "Brighton Pavilion, England",
+                "Regent Street, London",
+                "The Custom House, Dublin"
+            ],
+            "continent": "Europe",
+            "country": "United Kingdom"
+        },
+        "terms": "Regency, architecture style: elegant, classical, grandiose, symmetrical, refined, neoclassical",
+        "character": {
+            "characteristic_elements": [
+                "Symmetrical facades",
+                "Classical proportions and elements",
+                "Elaborate decorative detailing"
+            ]
+        },
+        "short": "Regency architecture, popular from the early 19th century, is characterized by elegant simplicity, classical influences, and a focus on symmetry and proportion.",
+        "Start_Year": " 1800 CE",
+        "End_Year": " 1815 CE",
+        "icon": "regency.png"
+    },
+    "Moorish": {
+        "architects": [
+            {
+                "name": "Hassan Fathy",
+                "birth_date": "March 23, 1900",
+                "death_date": "November 30, 1989",
+                "nationality": "Egyptian",
+                "description": "Considered the father of modern Egyptian architecture, Fathy incorporated sustainable and traditional aspects of Arab and Islamic architectural styles, including Moorish influences.",
+                "notable_buildings": [
+                    "New Gourna Village (near Luxor, Egypt)",
+                    "Dar al-Islam (New Mexico, USA)"
+                ]
+            },
+            {
+                "name": "Jos\u00e9 Segundo de Lema Pacheco",
+                "birth_date": "March 19, 1840",
+                "death_date": "January 9, 1906",
+                "nationality": "Spanish",
+                "description": "Spanish architect specializing in the Mud\u00e9jar style, which is heavily influenced by Moorish architecture. His works showcase intricate ornamentation and decorative motifs.",
+                "notable_buildings": [
+                    "Seville Cathedral (Spain)",
+                    "Palace of San Telmo (Spain)"
+                ]
+            },
+            {
+                "name": "William Leiper",
+                "birth_date": "September 17, 1839",
+                "death_date": "June 12, 1916",
+                "nationality": "Scottish",
+                "description": "Scottish architect known for incorporating various architectural styles in his designs, including elements of Moorish architecture. He often combined traditional Scottish architecture with influences from other cultures.",
+                "notable_buildings": [
+                    "Belmont Parish Church (Scotland)",
+                    "Culzean Castle (Scotland)"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "8th to 15th century",
+            "period": "Middle Ages",
+            "description": "Moorish architecture refers to the architectural style developed by Moorish Muslim societies in the Middle Ages. It is characterized by intricate geometric patterns, decorative tile work, arches, domes, and ornate detailing.",
+            "characteristics": [
+                "Intricate geometric patterns",
+                "Decorative tile work (e.g. azulejos)",
+                "Arches (e.g. horseshoe, multifoil, ogee)",
+                "Domes and vaulted ceilings",
+                "Ornate detailing",
+                "Courtyards and gardens"
+            ],
+            "examples": [
+                "Alhambra in Granada, Spain",
+                "Great Mosque of Cordoba in Cordoba, Spain",
+                "Aljafer\u00eda Palace in Zaragoza, Spain",
+                "Hassan II Mosque in Casablanca, Morocco",
+                "Qarawiyyin Mosque in Fes, Morocco"
+            ],
+            "continent": "Europe and Africa",
+            "country": [
+                "Spain",
+                "Morocco"
+            ]
+        },
+        "terms": " architecture style Moorish",
+        "character": {
+            "characteristic_elements": [
+                "Arches: The Moorish architectural style is characterized by its abundant use of arches. These arches can be seen in doorways, windows, and other architectural features. They are often horseshoe-shaped or pointed, with decorative and intricate designs.",
+                "Geometric Patterns: Another prominent feature of Moorish architecture is the use of intricate geometric patterns. These patterns can be found on walls, ceilings, tiles, and other surfaces. They are often created using a combination of repeating shapes, such as squares, stars, and hexagons, and are highly symmetrical.",
+                "Ornate Decorations: Moorish architecture is known for its ornate decorations and intricate detailing. This style incorporates intricate carvings, stucco work, tile work, and plasterwork. These decorations often feature Arabic calligraphy, floral motifs, and other elaborate designs."
+            ]
+        },
+        "short": "Moorish architecture is characterized by intricate geometric patterns, ornate arches, and decorative tile work, representing the influence of Islamic art.",
+        "significance": 8,
+        "Start_Year": " 800 CE",
+        "End_Year": " 1400 CE",
+        "icon": "moorish.png"
+    },
+    "Moorish Revival": {
+        "architects": [
+            {
+                "name": "Eug\u00e8ne Viollet-le-Duc",
+                "birthDate": "January 27, 1814",
+                "deathDate": "September 17, 1879",
+                "nationality": "French",
+                "description": "Eug\u00e8ne Viollet-le-Duc was a renowned French architect and theorist, known for his influential restoration of historic buildings and his role in the Gothic Revival movement. His works emphasized the Moorish Revival architectural style, incorporating intricate decorative elements and geometric patterns.",
+                "notableBuildings": [
+                    "The Castle of Pierrefonds, France",
+                    "Sainte-Chapelle, Paris, France"
+                ]
+            },
+            {
+                "name": "Jules Hardouin-Mansart",
+                "birthDate": "April 16, 1646",
+                "deathDate": "May 11, 1708",
+                "nationality": "French",
+                "description": "Jules Hardouin-Mansart was a French architect predominantly active during the Baroque period. He incorporated elements of Moorish Revival architecture in some of his designs, adding distinctive elements such as horseshoe arches and intricate tile work.",
+                "notableBuildings": [
+                    "Palace of Versailles, France",
+                    "Ch\u00e2teau de Maisons-Laffitte, France"
+                ]
+            },
+            {
+                "name": "Luis Hern\u00e1ndez Rubio",
+                "birthDate": "January 6, 1860",
+                "deathDate": "January 17, 1933",
+                "nationality": "Spanish",
+                "description": "Luis Hern\u00e1ndez Rubio was a Spanish architect whose works showcased the Moorish Revival style prevalent in Spain during the late 19th and early 20th centuries. He played a significant role in reviving and popularizing this architectural style.",
+                "notableBuildings": [
+                    "La Almudena Cathedral, Madrid, Spain",
+                    "Royal Palace of La Granja de San Ildefonso, Spain"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "19th century to early 20th century",
+            "period": "Neo-Moorish style",
+            "description": "The Moorish Revival architecture style is characterized by the revival of Moorish and Islamic architectural elements, particularly originating from the Alhambra palace in Granada, Spain. It often incorporates decorative elements like horseshoe arches, intricate tile work, domes, and geometric patterns.",
+            "characteristics": [
+                "Horseshoe arches",
+                "Intricate tile work (often in vibrant colors)",
+                "Domes and minaret-like structures",
+                "Geometric patterns",
+                "Courtyards and fountains"
+            ],
+            "examples": [
+                "Alhambra Palace (origin)",
+                "Alcazar of Seville (Spain)",
+                "Hassan Tower (Morocco)",
+                "Dolmabah\u00e7e Palace (Turkey)",
+                "Pavilion of Spain at the World's Columbian Exposition, Chicago (USA)"
+            ],
+            "continent": [
+                "Europe",
+                " Africa",
+                " Asia",
+                " North America",
+                " and South America"
+            ],
+            "country": [
+                "Multiple countries across Spain",
+                " Morocco",
+                " Turkey",
+                " and the United States"
+            ]
+        },
+        "terms": "noun: architecture styleadjectives: Moorish, Revival",
+        "character": {
+            "characteristic_elements": [
+                "Horseshoe arches: The Moorish Revival style prominently features horseshoe arches, which are wide and rounded arches that resemble the shape of a horseshoe. These arches are commonly used in doorways, windows, and decorative motifs.",
+                "Geometric patterns and tilework: The style incorporates intricate geometric patterns and vibrant tilework. These patterns often include stars, octagons, and interlacing designs. The tilework is typically colorful and can be found on walls, floors, and ceilings.",
+                "Mud\u00e9jar influence: The Moorish Revival architecture draws inspiration from the Mud\u00e9jar style, which developed during the Christian rule of the Iberian Peninsula in the Middle Ages. It includes elements such as ornate stucco detailing, wooden ceilings, and decorative plasterwork."
+            ]
+        },
+        "short": "Moorish Revival is an architectural style that incorporates elements of Moorish design, characterized by intricate geometric patterns and arches.",
+        "Start_Year": " 1812 CE",
+        "End_Year": " 1930 CE",
+        "icon": "moorish_revival.png"
     }
 }
