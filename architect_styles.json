@@ -32,7 +32,7 @@
         ],
         "style": {
             "time_range": "9th-19th century CE",
-            "period": "Islamic era",
+            "period": "Medieval",
             "description": "Persian Islamic architecture, also known as Iranian Islamic architecture, is a style of architecture that combines elements of Islamic and Persian art and architecture. It emerged in the 9th century CE and continued to develop until the 19th century CE. It is characterized by its use of intricate geometric and floral patterns, as well as extensive use of calligraphy and tile work.",
             "characteristics": [
                 "Extensive use of calligraphy and tile work",
@@ -93,7 +93,7 @@
         ],
         "style": {
             "time_range": "14th-17th century",
-            "period": "Renaissance",
+            "period": "Medieval",
             "description": "An architectural style that emerged in Italy in the 14th century and spread throughout Europe, characterized by a revival of classical forms and a focus on symmetry, proportion, and harmony.",
             "characteristics": [
                 "Use of classical orders (Doric, Ionic, Corinthian)",
@@ -113,7 +113,10 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated"
+        "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
+        "Start_Year": "1400 CE",
+        "End_Year": " 1600 CE",
+        "icon": "renaissance.png"
     },
     "Secession": {
         "architects": [
@@ -153,7 +156,7 @@
         ],
         "style": {
             "time_range": "1860s-1910s",
-            "period": "Late 19th century/ Early 20th century",
+            "period": "19th century",
             "description": "Secession architecture, also known as Jugendstil or Art Nouveau, was a highly decorative and ornamental architectural style that emerged in Europe in the late 19th century. It was characterized by its use of organic forms, flowing lines, floral motifs, and bold colors.",
             "characteristics": [
                 "Organic forms",
@@ -217,7 +220,7 @@
         ],
         "style": {
             "time_range": "1919-1933",
-            "period": "Interwar period",
+            "period": "20th century",
             "description": "Bauhaus architecture was a design movement in Germany that aimed to combine fine arts with craftsmanship to create functional and affordable buildings. It emphasized the use of new materials and industrial techniques, resulting in minimalist and functional designs.",
             "characteristics": [
                 "Minimalist design",
@@ -233,7 +236,8 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": " design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative"
+        "terms": " design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative",
+        "icon": "bauhaus.png"
     },
     "Historicism": {
         "architects": [
@@ -357,7 +361,8 @@
             "continent": "Global",
             "country": "Varous"
         },
-        "terms": " buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional."
+        "terms": " buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional.",
+        "icon": "modern.png"
     },
     "Neoclassical": {
         "architects": [
@@ -394,7 +399,7 @@
         ],
         "style": {
             "time_range": "mid-18th to early-19th centuries",
-            "period": "Late Enlightenment, Age of Reason, Romanticism",
+            "period": "18th century",
             "description": "A revival of classical architecture that emerged in the 18th century characterized by symmetry, order, and simplicity. It was a reaction against the elaborate, ornate, and irregular Baroque and Rococo styles.",
             "characteristics": [
                 "Symmetrical fa\u00e7ades",
@@ -414,7 +419,10 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": " classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless"
+        "terms": " classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
+        "Start_Year": "1740 CE",
+        "End_Year": "1909 CE",
+        "icon": "neoclassical.png"
     },
     "Gothic": {
         "architects": [
@@ -452,7 +460,7 @@
         ],
         "style": {
             "time_range": "12th to 16th centuries",
-            "period": "Medieval period",
+            "period": "Medieval",
             "description": "Gothic architecture is a style of architecture that originated in France in the 12th century and continued in Europe until the 16th century. It is characterized by its pointed arches, ribbed vaults, and flying buttresses, which allowed for taller and more intricate structures than earlier Romanesque architecture. Gothic architecture was used predominantly for churches, cathedrals, and civic buildings.",
             "characteristics": [
                 "Pointed arches",
@@ -482,7 +490,10 @@
                 "Belgium"
             ]
         },
-        "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals."
+        "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
+        "Start_Year": "1100 CE",
+        "End_Year": "1500 CE",
+        "icon": "gothic.png"
     },
     "Art Deco": {
         "architects": [
@@ -518,7 +529,7 @@
         ],
         "style": {
             "time_range": "1920s-1930s",
-            "period": "Interwar period",
+            "period": "20th century",
             "description": "Art Deco is a style that emerged in the 1920s and 1930s, and is characterized by bold geometric shapes, bright colors, and luxurious materials. It was influenced by various art movements, including Cubism and Futurism, and was seen as a celebration of modernity.",
             "characteristics": [
                 "Geometric shapes",
@@ -552,7 +563,10 @@
                 "China"
             ]
         },
-        "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design."
+        "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
+        "Start_Year": "1920 CE",
+        "End_Year": "1939 CE",
+        "icon": "art_deco.png"
     },
     "Mid-century modern": {
         "architects": [
@@ -592,7 +606,7 @@
         ],
         "style": {
             "time_range": "1945-1975",
-            "period": "Post-World War II",
+            "period": "20th century",
             "description": "Mid-century modern architecture is characterized by its clean lines, simplicity, and integration with nature. This design movement focused on functionality and minimalism, emphasizing the use of new materials and technologies. ",
             "characteristics": [
                 "Clean lines",
@@ -647,7 +661,7 @@
         ],
         "style": {
             "time_range": "mid-18th to early 20th century",
-            "period": "Victorian era",
+            "period": "18th century",
             "description": "A revival style that drew inspiration from medieval Gothic architecture, characterized by pointed arches, ribbed vaults, and elaborate ornamentation",
             "characteristics": [
                 "Pointed arches",
@@ -706,7 +720,7 @@
         ],
         "style": {
             "time_range": "1830s-1870s",
-            "period": "Victorian era",
+            "period": "18th century",
             "description": "Italianate architecture is a style characterized by an emphasis on Italian Renaissance elements, such as tall towers, elaborate decorative brackets, and pedimented windows and doors. The style is often used in buildings such as public institutions, homes, and commercial buildings.",
             "characteristics": [
                 "Tall towers and belvederes",
@@ -728,7 +742,10 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces."
+        "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
+        "Start_Year": " 1830 CE",
+        "End_Year": " 1870 CE",
+        "icon": "italianate.png"
     },
     "Brutalist": {
         "architects": [
@@ -765,7 +782,7 @@
         ],
         "style": {
             "time_range": "1950s-1970s",
-            "period": "Modernist architecture",
+            "period": "Modernism",
             "description": "Brutalist architecture is characterized by the use of raw concrete, simple geometric shapes, and a focus on function over form. It emerged in the 1950s as a response to the ornamentation and excesses of the preceding Art Deco and Beaux-Arts movements, and was often associated with social housing and government buildings.",
             "characteristics": [
                 "Raw concrete construction",
@@ -846,7 +863,10 @@
                 "Germany"
             ]
         },
-        "terms": " architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract."
+        "terms": " architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract.",
+        "Start_Year": "1980 CE",
+        "End_Year": "present",
+        "icon": "deconstructivism.png"
     },
     "Beaux Arts": {
         "architects": [
@@ -886,7 +906,7 @@
         ],
         "style": {
             "time_range": "Late 19th century to early 20th century",
-            "period": "Neoclassical",
+            "period": "19th century",
             "description": "Beaux Arts architecture originated in France and became popular in the United States, Canada, and other countries. It is characterized by a grandiose, monumental style, often incorporating classical Greek and Roman elements.",
             "characteristics": [
                 "Symmetrical facade",
@@ -950,7 +970,7 @@
         ],
         "style": {
             "time_range": "1880s-1900s",
-            "period": "Late 19th century",
+            "period": "19th century",
             "description": "Shingle Style is a style of architecture that originated in the late 19th century in America. It is characterized by the use of shingles, which cover the roof and walls, creating a uniform and continuous surface. The style is often associated with seaside resorts and vacation homes, as its relaxed and informal aesthetic fits well with the coastal landscape.",
             "characteristics": [
                 "use of shingles",
@@ -970,7 +990,9 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": " architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions."
+        "terms": " architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions.",
+        "Start_Year": " 1880 CE",
+        "End_Year": " 1900 CE"
     },
     "American Craftsman": {
         "architects": [
@@ -1010,7 +1032,7 @@
         ],
         "style": {
             "time_range": "late 19th century to early 20th century",
-            "period": "Arts and Crafts movement",
+            "period": "19th century",
             "description": "A style of architecture that emphasizes hand-crafted details, natural materials, and simple forms. It is characterized by exposed rafters, decorative brackets, and stone or brick construction.",
             "characteristics": [
                 "Hand-crafted details",
@@ -1068,7 +1090,7 @@
         ],
         "style": {
             "time_range": "1940s-1970s",
-            "period": "Mid-20th century",
+            "period": "20th century",
             "description": "Ranch-style houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
             "characteristics": [
                 "Single-story",
@@ -1087,7 +1109,9 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "nouns: house, architectureadjectives: ranch-style"
+        "terms": "nouns: house, architectureadjectives: ranch-style",
+        "Start_Year": " 1930 CE",
+        "End_Year": " 1970 CE"
     },
     "Colonial Revival": {
         "architects": [
@@ -1127,7 +1151,7 @@
         ],
         "style": {
             "time_range": "Late 19th century to mid-20th century",
-            "period": "Revivalism",
+            "period": "19th century",
             "description": "Architectural style that emulated the aesthetics of colonial-era buildings in America, particularly those built during the 18th and early 19th centuries",
             "characteristics": [
                 "Symmetrical designs",
@@ -1144,7 +1168,9 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist."
+        "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist.",
+        "Start_Year": " 1880 CE",
+        "End_Year": " 1930 CE"
     },
     "Mesoamerican": {
         "architects": [
@@ -1184,7 +1210,7 @@
         ],
         "style": {
             "time_range": "2000 BCE to 1521 CE",
-            "period": "Pre-Columbian era",
+            "period": "Pre-Colonial",
             "description": "Mesoamerican architecture refers to the various architectural styles developed by the indigenous peoples of Mesoamerica. It encompasses a wide range of structures, including pyramids, temples, palaces, ball courts, and residential buildings.",
             "characteristics": [
                 "Use of stone, clay, and other local materials",
@@ -1209,7 +1235,9 @@
                 "Costa Rica"
             ]
         },
-        "terms": "pyramids, temples, palaces, courtyards, terraces, intricate, hierarchical, symbolic, monumental, impressive, powerful, colorful, geometrical, ornate, religious, cultural"
+        "terms": "pyramids, temples, palaces, courtyards, terraces, intricate, hierarchical, symbolic, monumental, impressive, powerful, colorful, geometrical, ornate, religious, cultural",
+        "Start_Year": " 2000 BCE",
+        "End_Year": " 1519 CE"
     },
     "Baroque": {
         "architects": [
@@ -1249,7 +1277,7 @@
         ],
         "style": {
             "time_range": "17th to mid-18th century",
-            "period": "Baroque",
+            "period": "Medieval",
             "description": "Architectural style characterized by opulence, dynamism, and drama",
             "characteristics": [
                 "Elaborate ornamentation",
@@ -1272,7 +1300,9 @@
                 "Italy"
             ]
         },
-        "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation"
+        "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation",
+        "Start_Year": "1584 CE",
+        "End_Year": "1750 CE"
     },
     "Postmodern": {
         "architects": [
@@ -1387,7 +1417,7 @@
         ],
         "style": {
             "time_range": "Approximately 800 to 1200 CE",
-            "period": "Medieval period",
+            "period": "Medieval",
             "description": "Romanesque architecture is a style of architecture that emerged in Europe in the Middle Ages. It is characterized by rounded arches, barrel and groin vaults, and thick walls. Romanesque architecture was initially used for churches, monasteries, and castles.",
             "characteristics": [
                 "Rounded arches",
@@ -1412,7 +1442,10 @@
                 "Italy"
             ]
         },
-        "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic"
+        "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic",
+        "Start_Year": "800 CE",
+        "End_Year": "1200 CE",
+        "icon": "romanesque.png"
     },
     "Rococo": {
         "architects": [
@@ -1452,7 +1485,7 @@
         ],
         "style": {
             "time_range": "mid-18th century to early 19th century",
-            "period": "Late Baroque/Enlightenment",
+            "period": "18th century",
             "description": "Rococo architecture is characterized by its elaborate decoration, asymmetrical designs, and emphasis on ornamentation. It is often associated with the aristocracy and was popular in Europe during the mid-18th century to early 19th century. ",
             "characteristics": [
                 "Elaborate decoration",
@@ -1477,7 +1510,10 @@
                 "Russia"
             ]
         },
-        "terms": " decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent."
+        "terms": " decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent.",
+        "Start_Year": "1730 CE",
+        "End_Year": "1760 CE",
+        "icon": "rococo.png"
     },
     "Art Nouveau": {
         "architects": [
@@ -1520,7 +1556,7 @@
         ],
         "style": {
             "time_range": "1890s - 1910s",
-            "period": "Late 19th century - Early 20th century",
+            "period": "19th century",
             "description": "Art Nouveau is an artistic style that emerged in the late 19th century characterized by organic and curved lines, asymmetry, and the use of natural elements such as flowers, plants, and insects. It was a reaction against the academic art of the 19th century and aimed to create a new style that was modern and original.",
             "characteristics": [
                 "Organic and curved lines",
@@ -1544,7 +1580,10 @@
                 "France"
             ]
         },
-        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organicfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curvesinfluence: 19th century decorative arts, nature, Japanese artexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona."
+        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organicfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curvesinfluence: 19th century decorative arts, nature, Japanese artexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona.",
+        "Start_Year": "1890 CE",
+        "End_Year": "1914 CE",
+        "icon": "art_nouveau.png"
     },
     "Greek Revival": {
         "architects": [
@@ -1643,7 +1682,7 @@
         ],
         "style": {
             "time_range": "1714-1830",
-            "period": "Georgian era",
+            "period": "18th century",
             "description": "Georgian architecture is a style that emerged in Britain during the reign of George I in 1714 and continued until 1830 during the reign of George IV. It is characterized by a heightened interest in classical forms and ornamentation.",
             "characteristics": [
                 "Symmetry",
@@ -1664,7 +1703,10 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": " style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant."
+        "terms": " style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant.",
+        "Start_Year": "1714 CE",
+        "End_Year": "1837 CE",
+        "icon": "georgian.png"
     },
     "International Style": {
         "architects": [
@@ -1829,7 +1871,7 @@
         ],
         "style": {
             "time_range": "1950s to present",
-            "period": "Contemporary architecture",
+            "period": "Contemporary",
             "description": "Postmodern architecture is an eclectic style that emerged in the late 20th century. It is characterized by the use of playful forms, bright colors, and references to historical architectural styles and pop culture. Postmodernism rejects the strict rules of modernism and celebrates individualism and creativity.",
             "characteristics": [
                 "Eclecticism",
@@ -1856,7 +1898,9 @@
                 "Italy"
             ]
         },
-        "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital"
+        "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
+        "Start_Year": "1960 CE",
+        "End_Year": "present"
     },
     "Neo-Modernism": {
         "architects": [
@@ -1948,7 +1992,7 @@
         ],
         "style": {
             "time_range": "1485-1603",
-            "period": "Late Gothic/Early Renaissance",
+            "period": "Medieval",
             "description": "Tudor architecture is an architectural style which developed during the Tudor period in England between the late Medieval period and the early Renaissance. It is characterized by half-timbered buildings with exposed wood beams, ornate chimneys, and steeply pitched roofs. Tudor architecture is known for its symmetry, often featuring large, decorative chimneys on each end of the building, and large mullioned windows. ",
             "characteristics": [
                 "Half-timbered buildings",
@@ -1970,7 +2014,10 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate"
+        "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
+        "Start_Year": " 1485 CE",
+        "End_Year": " 1603 CE",
+        "icon": "tudor.png"
     },
     "Colonial": {
         "architects": [
@@ -2007,7 +2054,7 @@
         ],
         "style": {
             "time_range": "15th century - mid 19th century",
-            "period": "Colonial period",
+            "period": "Colonial",
             "description": "Architecture style characterized by the buildings constructed during the colonial era by European settlers in the Americas, Africa, and Asia. The style is influenced by the architectural styles prevalent in the mother country combined with the local cultures and materials available.",
             "characteristics": [
                 "Symmetrical facades",
@@ -2043,7 +2090,9 @@
                 "Vietnam"
             ]
         },
-        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofsadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural"
+        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofsadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
+        "Start_Year": " 1600 CE",
+        "End_Year": " 1947 CE"
     },
     "Contemporary": {
         "architects": [
@@ -2166,7 +2215,7 @@
         ],
         "style": {
             "time_range": "4th century \u2013 15th century",
-            "period": "Late Antiquity, Byzantine era, Medieval period",
+            "period": "Medieval",
             "description": "Byzantine architecture refers to the architectural style developed during the Byzantine Empire period, characterized by a combination of Roman, Greek, and Eastern influences. It is known for its use of intricate mosaics, domes, and vaulted ceilings.",
             "characteristics": [
                 "Intricate mosaics",
@@ -2192,7 +2241,10 @@
                 "Palestine"
             ]
         },
-        "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless."
+        "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless.",
+        "Start_Year": "330 CE",
+        "End_Year": "1453 CE",
+        "icon": "byzantine.png"
     },
     "Ancient Egyptian": {
         "architects": [
@@ -2227,7 +2279,7 @@
         ],
         "style": {
             "time_range": "c. 3100 BC \u2013 c. 30 BC",
-            "period": "Ancient Egyptian",
+            "period": "Ancient",
             "description": "Ancient Egyptian architecture is the architecture of the ancient Egyptians, who built many of the most impressive and enduring monuments in the world. It includes temples, tombs, pyramids, obelisks, and other structures.",
             "characteristics": [
                 "Massive scale",
@@ -2247,7 +2299,10 @@
             "continent": "Africa",
             "country": "Egypt"
         },
-        "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive."
+        "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive.",
+        "Start_Year": "3100 BCE",
+        "End_Year": "30 BCE",
+        "icon": "ancient_egyptian.png"
     },
     "Mannerist": {
         "architects": [
@@ -2285,7 +2340,7 @@
         "terms": "Mannerist Architecture: theatrical, exaggerated, ornamental, sculptural, asymmetrical, elongated, distorted, fantasy-like.",
         "style": {
             "time_range": "1520s-1600s",
-            "period": "Late Renaissance",
+            "period": "Renaissance",
             "description": "Mannerist architecture is characterized by a highly expressive, individualistic, and exaggerated style that departed from the classical simplicity and harmony of the Renaissance. Architects often used distorted and asymmetrical forms, intricate decorative details, and complex spatial relationships to create a sense of spectacle and drama.",
             "characteristics": [
                 "Distorted and asymmetrical forms",
@@ -2342,7 +2397,7 @@
         ],
         "style": {
             "time_range": "Late 19th to early 20th century",
-            "period": "Victorian-era architecture",
+            "period": "Victorian",
             "description": "A style that emphasizes traditional craftsmanship and simple forms, often with natural materials.",
             "characteristics": [
                 "Hand-crafted details",
@@ -2362,7 +2417,9 @@
                 "United States of America"
             ]
         },
-        "terms": " architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible."
+        "terms": " architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible.",
+        "Start_Year": "1890 CE",
+        "End_Year": " 1930 CE"
     },
     "Victorian": {
         "architects": [
@@ -2398,7 +2455,7 @@
         ],
         "style": {
             "time_range": "1837-1901",
-            "period": "Victorian era",
+            "period": "Victorian",
             "description": "Architecture style characterized by Gothic Revival, Italianate, and Queen Anne styles",
             "characteristics": [
                 "ornate details",
@@ -2419,7 +2476,9 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": " style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic"
+        "terms": " style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
+        "Start_Year": "1837 CE",
+        "End_Year": "1901 CE"
     },
     "Parametric": {
         "architects": [
@@ -2459,7 +2518,7 @@
         ],
         "style": {
             "time_range": "1990s - present",
-            "period": "Contemporary Architecture",
+            "period": "Contemporary",
             "description": "Parametric Architecture is a form of digital design that uses algorithms to create complex and fluid forms. It emphasizes the use of parametric tools and techniques to generate intricate and unique designs.",
             "characteristics": [
                 "Incorporates advanced digital design technology",
@@ -2576,7 +2635,7 @@
         ],
         "style": {
             "time_range": "Late 20th century - present",
-            "period": "Contemporary architecture",
+            "period": "Contemporary",
             "description": "Sustainable or Green architecture is an approach to the design and construction of buildings that focuses on reducing the negative impact of the built environment on the natural environment. This approach seeks to use resources more efficiently, reduce waste, and minimize the use of harmful materials.",
             "characteristics": [
                 "Use of renewable energy sources such as solar, wind, and hydro power",
@@ -2630,7 +2689,7 @@
         ],
         "style": {
             "time_range": "1960s-present",
-            "period": "Contemporary architecture",
+            "period": "Contemporary",
             "description": "Neo-futurism is a late 20th and early 21st century architectural style characterized by a futuristic aesthetic and a rejection of modernist design principles. It takes inspiration from science fiction, technology, and the concept of a utopian future.",
             "characteristics": [
                 "Strong visual impact",
@@ -2678,7 +2737,7 @@
         ],
         "style": {
             "time_range": "509 BC \u2013 4th century AD",
-            "period": "Classical antiquity",
+            "period": "Classical",
             "description": "Roman Classical architecture is a style that emerged in ancient Rome and was heavily influenced by Ancient Greek architecture. It is characterized by its use of classical orders, such as the Doric, Ionic, and Corinthian, as well as its use of arches, vaults, and domes. The architecture was grand and impressive, with many buildings featuring large colonnades and intricate details.",
             "characteristics": {
                 "Use of classical orders": true,
@@ -2696,7 +2755,10 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring."
+        "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring.",
+        "Start_Year": "300 BCE",
+        "End_Year": "476 CE",
+        "icon": "ancient_roman.png"
     },
     "Ancient Greek": {
         "architects": [
@@ -2739,7 +2801,7 @@
         ],
         "style": {
             "time_range": "5th century BCE to 4th century BCE",
-            "period": "Classical period",
+            "period": "Classical",
             "description": "Greek Classical architecture is characterized by its simplicity, harmony, and order. Buildings were designed to be functional and aesthetically pleasing, with a focus on proportion and balance. The style is known for its use of columns, capitals, and friezes, as well as pediments, cornices, and entablatures. The Greek Classical style influenced architecture throughout Europe and continues to be a major influence in modern architecture.",
             "characteristics": [
                 "Symmetry and proportion",
@@ -2755,7 +2817,10 @@
             "continent": "Europe",
             "country": "Greece"
         },
-        "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style"
+        "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style",
+        "Start_Year": "900 BCE",
+        "End_Year": "146 BCE",
+        "icon": "ancient_greek.png"
     },
     "Islamic": {
         "architects": [
@@ -2792,7 +2857,7 @@
         ],
         "style": {
             "time_range": "7th - 21st century",
-            "period": "Islamic Golden Age to Modern Era",
+            "period": "Islamic Golden Age",
             "description": "Islamic architecture is characterized by its focus on geometric patterns, calligraphy, and intricate decorative designs often inspired by nature. It also emphasizes the importance of prayer in its design, with mosques typically having large central prayer halls and mihrabs indicating the direction of Mecca. Islamic architecture has been influenced by a variety of cultural and regional styles, including Persian, Byzantine, and Moorish.",
             "characteristics": [
                 "Geometric Patterns",
@@ -2821,7 +2886,9 @@
                 "Iran"
             ]
         },
-        "terms": "Arabic, geometric, intricate, repetitive, domes, arches, minarets, colorful, ornate, symmetrical, calligraphy, courtyards, mosaic, tile work, light, spirituality."
+        "terms": "Arabic, geometric, intricate, repetitive, domes, arches, minarets, colorful, ornate, symmetrical, calligraphy, courtyards, mosaic, tile work, light, spirituality.",
+        "Start_Year": "622 CE",
+        "End_Year": "1500 CE"
     },
     "Gothic Revival": {
         "architects": [
@@ -2871,7 +2938,10 @@
             "continent": "Europe and North America",
             "country": "England"
         },
-        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookinessadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie"
+        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookinessadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie",
+        "Start_Year": "1840 CE",
+        "End_Year": "1890 CE",
+        "icon": "gothic_revival.png"
     },
     "Beaux-Arts": {
         "architects": [
@@ -2910,7 +2980,7 @@
         ],
         "style": {
             "time_range": "Late 19th century to early 20th century",
-            "period": "Academicism",
+            "period": "19th century",
             "description": "A grandiose, aristocratic architectural style characterized by its monumental scale, lavish ornamentation, and the integration of sculpture, painting, and decorative arts into the building design.",
             "characteristics": [
                 "Classical architectural elements, such as columns, pediments, and domes",
@@ -2928,7 +2998,9 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": " classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified"
+        "terms": " classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified",
+        "Start_Year": "1830 CE",
+        "End_Year": "1900 CE"
     },
     "International Style (Modernism)": {
         "architects": [
@@ -2987,7 +3059,9 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": " Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian"
+        "terms": " Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian",
+        "Start_Year": "1920 CE",
+        "End_Year": "1950 CE"
     },
     "Brutalism": {
         "architects": [
@@ -3088,7 +3162,10 @@
                 "USA"
             ]
         },
-        "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian."
+        "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
+        "Start_Year": "1950 CE",
+        "End_Year": "1970 CE",
+        "icon": "brutalism.png"
     },
     "High-Tech": {
         "architects": [
@@ -3128,7 +3205,7 @@
         ],
         "style": {
             "time_range": "1960s- present day",
-            "period": "Contemporary architecture",
+            "period": "Contemporary",
             "description": "High-Tech is an architectural style that emphasizes technology, innovation, and the expression of structure and materials. The style is characterized by exposed structure, industrial materials, and the use of advanced building systems and techniques.",
             "characteristics": [
                 "Emphasis on technology and innovation",
@@ -3155,7 +3232,9 @@
                 "USA"
             ]
         },
-        "terms": " technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist."
+        "terms": " technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist.",
+        "Start_Year": "1960 CE",
+        "End_Year": "present"
     },
     "Neo-Futurism": {
         "architects": [
@@ -3195,7 +3274,7 @@
         ],
         "style": {
             "time_range": "late 20th century to present",
-            "period": "contemporary",
+            "period": "Contemporary",
             "description": "Neo-Futurism is a modern architectural style that combines futuristic concepts with avant-garde designs. It tries to convey a sense of optimism and a belief in progress through the use of advanced technology and unconventional materials.",
             "characteristics": [
                 "Innovative and daring designs",
@@ -3214,7 +3293,10 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": "Dynamic, asymmetrical, unconventional, innovative, sustainable, minimalistic, interactive, experiential, adaptable."
+        "terms": "Dynamic, asymmetrical, unconventional, innovative, sustainable, minimalistic, interactive, experiential, adaptable.",
+        "Start_Year": "1960 CE",
+        "End_Year": "present",
+        "icon": "neo-futurism.png"
     },
     "Sustainable (Green)": {
         "architects": [
@@ -3274,7 +3356,9 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": " buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient."
+        "terms": " buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient.",
+        "Start_Year": " 1970 CE",
+        "End_Year": "present"
     },
     "Parametricism": {
         "architects": [
@@ -3331,7 +3415,10 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": " Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic"
+        "terms": " Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic",
+        "Start_Year": "1998 CE",
+        "End_Year": "present",
+        "icon": "parametricism.png"
     },
     "New Formalism": {
         "architects": [
@@ -3393,7 +3480,9 @@
                 "United Kingdom"
             ]
         },
-        "terms": " Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated."
+        "terms": " Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated.",
+        "Start_Year": "1950 CE",
+        "End_Year": "1980 CE"
     },
     "Late Modernism": {
         "architects": [
@@ -3433,7 +3522,7 @@
         ],
         "style": {
             "time_range": "1950s-1970s",
-            "period": "Post World War II",
+            "period": "Modernism",
             "description": "Late Modernism is marked by a departure from the International Style in the 1960s and a move towards more expressive and sculptural forms. Buildings in this style often feature bold shapes, intricate forms, and irregular angles, with a focus on the use of new materials and construction methods.",
             "characteristics": [
                 "expressive and sculptural forms",
@@ -3450,7 +3539,9 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": "late, modernist, abstract expressionist, bold, angular, minimalist, experimental, functionalist, simplistic, geometric, sleek, asymmetrical, industrial, glassy, towering, sculptural, brutalist."
+        "terms": "late, modernist, abstract expressionist, bold, angular, minimalist, experimental, functionalist, simplistic, geometric, sleek, asymmetrical, industrial, glassy, towering, sculptural, brutalist.",
+        "Start_Year": "1960 CE",
+        "End_Year": "present"
     },
     "Neo-Expressionism": {
         "architects": [
@@ -3509,7 +3600,9 @@
                 "Spain",
                 "Czech Republic"
             ]
-        }
+        },
+        "Start_Year": "1970 CE",
+        "End_Year": "present"
     },
     "Critical Regionalism": {
         "architects": [
@@ -3569,7 +3662,9 @@
                 "Qatar"
             ]
         },
-        "terms": "Critical Regionalism is a architectural style that emphasizes the use of local materials, craftsmanship, and cultural references, while rejecting the homogenizing effects of modern technology and globalized design trends. It is characterized by a focus on social, environmental, and economic sustainability, and a sensitivity to the unique context and history of each place. The style seeks to create a sense of place by integrating local traditions and vernacular architecture with contemporary design principles."
+        "terms": "Critical Regionalism is a architectural style that emphasizes the use of local materials, craftsmanship, and cultural references, while rejecting the homogenizing effects of modern technology and globalized design trends. It is characterized by a focus on social, environmental, and economic sustainability, and a sensitivity to the unique context and history of each place. The style seeks to create a sense of place by integrating local traditions and vernacular architecture with contemporary design principles.",
+        "Start_Year": "1980 CE",
+        "End_Year": "present"
     },
     "Post-Structuralism": {
         "architects": [
@@ -3606,7 +3701,7 @@
         ],
         "style": {
             "time_range": "1960s - 1990s",
-            "period": "Late Modernism",
+            "period": "Modernism",
             "description": "Post-Structuralism is a theoretical framework that challenges the notion of a fixed and universal meaning. In architecture, it focuses on deconstructing and destabilizing conventional design principles, and exploring the complex relationships between the built environment, space, and social context.",
             "characteristics": [
                 "Emphasis on deconstruction and fragmentation",
@@ -3629,7 +3724,9 @@
                 "United States"
             ]
         },
-        "terms": " deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical"
+        "terms": " deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical",
+        "Start_Year": "1980 CE",
+        "End_Year": "present"
     },
     "De Stijl": {
         "architects": [
@@ -3666,7 +3763,7 @@
         ],
         "style": {
             "time_range": "1917-1931",
-            "period": "Modernist",
+            "period": "Modernism",
             "description": "De Stijl, also known as Neoplasticism, was a Dutch art and design movement characterized by geometric shapes, primary colors, and a focus on abstraction and simplicity. It aimed to create a universal language of form that could be used in all aspects of design, including architecture.",
             "characteristics": [
                 "Geometric shapes",
@@ -3682,7 +3779,9 @@
             "continent": "Europe",
             "country": "Netherlands"
         },
-        "terms": " geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract"
+        "terms": " geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract",
+        "Start_Year": "1917 CE",
+        "End_Year": "1931 CE"
     },
     "Expressionism": {
         "architects": [
@@ -3733,7 +3832,10 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": "Emotion, distortion, abstraction, angularity, vibrant colors, rawness, wood, brick, steel."
+        "terms": "Emotion, distortion, abstraction, angularity, vibrant colors, rawness, wood, brick, steel.",
+        "Start_Year": "1905 CE",
+        "End_Year": "1930 CE",
+        "icon": "expressionism.png"
     },
     "Structural Expressionism": {
         "architects": [
@@ -3773,7 +3875,7 @@
         ],
         "style": {
             "time_range": "1950s-1970s",
-            "period": "Post-World War II",
+            "period": "Modernism",
             "description": "An architectural style characterized by angular shapes and the use of raw materials such as steel and concrete, expressing the structure of the building.",
             "characteristics": [
                 "Structural expression",
@@ -3791,7 +3893,9 @@
                 "Canada"
             ]
         },
-        "terms": " structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive"
+        "terms": " structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive",
+        "Start_Year": "1950 CE",
+        "End_Year": "1980 CE"
     },
     "Pre-Romanesque": {
         "architects": [
@@ -3826,7 +3930,7 @@
         ],
         "style": {
             "time_range": "6th-10th centuries",
-            "period": "Early Medieval",
+            "period": "Medieval",
             "description": "A style of architecture that emerged in Europe after the fall of the Western Roman Empire, characterized by a mix of Roman, Byzantine, and Germanic architectural elements.",
             "characteristics": [
                 "Simple and massive construction",
@@ -3843,7 +3947,9 @@
             "continent": "Europe",
             "country": "Various"
         },
-        "terms": "Architecture style: Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical"
+        "terms": "Architecture style: Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical",
+        "Start_Year": "300 CE",
+        "End_Year": "800 CE"
     },
     "Constructivism": {
         "architects": [
@@ -3906,7 +4012,9 @@
             ],
             "continent": "Europe",
             "country": "Russia"
-        }
+        },
+        "Start_Year": " 1917 CE",
+        "End_Year": " 1930 CE"
     },
     "Neolithic": {
         "architects": [
@@ -3970,7 +4078,10 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures"
+        "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
+        "Start_Year": " 10000 BCE",
+        "End_Year": " 2000 BCE",
+        "icon": "neolithic.png"
     },
     "Mesopotamia": {
         "architects": [
@@ -4031,7 +4142,9 @@
                 "Turkey"
             ]
         },
-        "terms": "ziggurats, mud bricks, crenellations, arched doorways, decorative tiles, monumental, ancient, pragmatic, utilitarian"
+        "terms": "ziggurats, mud bricks, crenellations, arched doorways, decorative tiles, monumental, ancient, pragmatic, utilitarian",
+        "Start_Year": " 10000 BCE",
+        "End_Year": " 6000 BCE"
     },
     "Ancient Persian": {
         "architects": [
@@ -4070,7 +4183,7 @@
         ],
         "style": {
             "time_range": "550 BCE - 330 BCE",
-            "period": "Ancient Persian",
+            "period": "Ancient",
             "description": "Persian architecture refers to the distinctive styles and techniques developed by the ancient Persian empires, including the Achaemenid Empire and the Sassanid Empire. It is characterized by symmetry, decorative motifs such as lotus and rosette, and the use of ornate facades and columns.",
             "characteristics": [
                 "Symmetry",
@@ -4090,7 +4203,9 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "Persian architecture style: elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate."
+        "terms": "Persian architecture style: elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate.",
+        "Start_Year": " 550 BCE",
+        "End_Year": " 330 BCE"
     },
     "Muscovite": {
         "architects": [
@@ -4133,7 +4248,7 @@
         ],
         "style": {
             "time_range": "14th - 17th century",
-            "period": "Medieval/Renaissance",
+            "period": "Medieval",
             "description": "A style of architecture that developed in the Grand Duchy of Moscow and was later adopted throughout the Russian Empire. It is characterized by verticality, decorative brickwork, and onion-shaped domes.",
             "characteristics": [
                 "Verticality",
@@ -4148,7 +4263,9 @@
             "continent": "Europe/Asia",
             "country": "Russia"
         },
-        "terms": " Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich"
+        "terms": " Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
+        "Start_Year": "1407 CE",
+        "End_Year": " 1692 CE"
     },
     "Chinese Imperial": {
         "architects": [
@@ -4191,7 +4308,7 @@
         ],
         "style": {
             "time_range": "618-1912 AD",
-            "period": "Imperial China",
+            "period": "Medieval",
             "description": "Chinese Imperial architecture style is characterized by its grandeur, intricate details, and strong emphasis on symmetry. It is influenced by traditional Chinese beliefs and philosophy, such as feng shui and the balance of yin and yang. The style also incorporates elements of Buddhist and Taoist architecture.",
             "characteristics": [
                 "Symmetrical layout and design",
@@ -4211,7 +4328,10 @@
             "continent": "Asia",
             "country": "China"
         },
-        "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual."
+        "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
+        "Start_Year": "618 CE",
+        "End_Year": " 1912 CE",
+        "icon": "chinese_imperial.png"
     },
     "Gupta": {
         "architects": [
@@ -4254,7 +4374,7 @@
         ],
         "style": {
             "time_range": "320-550 AD",
-            "period": "Gupta Empire",
+            "period": "Medieval",
             "description": "The Gupta style of architecture is characterized by its intricate carving and elaborate decoration. It is known for its use of stone and brick, and the use of pillars, domes, and arches. The Gupta period is often considered the golden age of Indian art and architecture.",
             "characteristics": [
                 "Intricate carving",
@@ -4270,7 +4390,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent."
+        "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent.",
+        "Start_Year": "320 CE",
+        "End_Year": " 550 CE"
     },
     "Nagara": {
         "architects": [
@@ -4313,7 +4435,7 @@
         ],
         "style": {
             "time_range": "11th-13th century",
-            "period": "Medieval India",
+            "period": "Medieval",
             "description": "Nagara architecture style is a North Indian temple architecture style that emerged in the 11th century. It is characterized by a shikhara (tower) over the garbha griha (sanctum sanctorum), a mandapa (pillared hall) in front of the garbha griha, and a large entrance gate (gopuram) decorated with intricate carvings and sculptures.",
             "characteristics": [
                 "Shikhara (tower) over the garbha griha (sanctum sanctorum)",
@@ -4328,7 +4450,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Nagara architecture style: traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires."
+        "terms": "Nagara architecture style: traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires.",
+        "Start_Year": "1000 CE",
+        "End_Year": " 1200 CE"
     },
     "Dravidian": {
         "architects": [
@@ -4390,7 +4514,9 @@
                 "Pakistan"
             ]
         },
-        "terms": " temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned"
+        "terms": " temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned",
+        "Start_Year": "2500 BCE",
+        "End_Year": " 1000 BCE"
     },
     "Vesara": {
         "architects": [
@@ -4428,7 +4554,7 @@
         ],
         "style": {
             "time_range": "8th to 12th century CE",
-            "period": "Medieval Era",
+            "period": "Medieval",
             "description": "A hybrid architectural style that emerged from the mixing of Dravidian (South Indian) and Nagara (North Indian) styles during the Chalukya and Rashtrakuta dynasties. Vesara architecture features both square and circular shapes in its buildings with the use of carved stone as a major decorative element.",
             "characteristics": [
                 "Mix of North and South Indian architectural features",
@@ -4444,7 +4570,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Architecture style: Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal."
+        "terms": "Architecture style: Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal.",
+        "Start_Year": "603 CE",
+        "End_Year": " 1200 CE"
     },
     "Jain architecture": {
         "architects": [
@@ -4483,7 +4611,7 @@
         ],
         "style": {
             "time_range": "10th to 17th century CE",
-            "period": "Medieval period",
+            "period": "Medieval",
             "description": "Jain architecture is a style of architecture that flourished among the Jains in India. It is characterized by intricate carvings and sculptures on temples and other religious structures. Jain architecture is known for its emphasis on symmetry and proportion, with many structures featuring multiple domes and towers.",
             "characteristics": [
                 "Intricate carvings and sculptures",
@@ -4500,7 +4628,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": " temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual"
+        "terms": " temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual",
+        "Start_Year": "1000 CE",
+        "End_Year": " 1800 CE"
     },
     "M\u0101ru-Gurjara": {
         "architects": [
@@ -4537,7 +4667,7 @@
         ],
         "style": {
             "time_range": "6th century AD - 13th century AD",
-            "period": "Early Medieval period",
+            "period": "Medieval",
             "description": "The M\u0101ru-Gurjara architecture style is a blend of Indian and Persian architectural styles created by the Gurjara-Pratihara and Solanki dynasties in present-day Rajasthan and Gujarat. This style is characterized by the use of large domes, intricate stone carvings, and ornate pillars.",
             "characteristics": [
                 "Large domes",
@@ -4555,7 +4685,9 @@
                 "India (Rajasthan and Gujarat)"
             ]
         },
-        "terms": " Architecture style, M\u0101ru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical"
+        "terms": " Architecture style, M\u0101ru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical",
+        "Start_Year": "600 CE",
+        "End_Year": " 1300 CE"
     },
     "Asuka and Nara": {
         "architects": [
@@ -4595,7 +4727,7 @@
         ],
         "style": {
             "time_range": "6th to 8th century CE",
-            "period": "Asuka and Nara period",
+            "period": "Medieval",
             "description": "Asuka and Nara architecture style is a reflection of the influence of Buddhism and the introduction of new building techniques from China and Korea. It is characterized by the use of wood, the construction of temples and shrines, and the integration of natural surroundings.",
             "characteristics": [
                 "Wood construction",
@@ -4610,7 +4742,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical"
+        "terms": " Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical",
+        "Start_Year": "592 CE",
+        "End_Year": " 710 CE"
     },
     "Heian period": {
         "architects": [
@@ -4650,7 +4784,7 @@
         ],
         "style": {
             "time_range": "794-1185 AD",
-            "period": "Medieval period",
+            "period": "Medieval",
             "description": "Heian architecture is the style of architecture that was prominent during the Heian period in Japan. The Heian period is characterized by the flourishing of art and culture, including architecture, literature, and music. Japanese architecture during this era was influenced by Chinese and Korean architecture, but it also had a distinct Japanese character.",
             "characteristics": [
                 "Emphasis on simplicity and elegance",
@@ -4667,7 +4801,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist."
+        "terms": " wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist.",
+        "Start_Year": "794 CE",
+        "End_Year": "1185 CE"
     },
     "Kamakura and Muromachi periods": {
         "architects": [
@@ -4706,7 +4842,7 @@
         ],
         "style": {
             "time_range": "1185-1333 (Kamakura period), 1336-1573 (Muromachi period)",
-            "period": "Medieval Japan",
+            "period": "Medieval",
             "description": "The Kamakura and Muromachi periods in Japan were marked by the emergence of feudalism and the samurai warrior class. The architecture of these periods was characterized by the use of natural materials such as wood and earth, and a focus on simplicity, functionality and respect for nature. Zen Buddhism exerted a strong influence on architecture during the Muromachi period, leading to the development of the tea ceremony and the construction of tea houses. Many of the surviving buildings from this period are temples, shrines and castles.",
             "characteristics": [
                 "Use of natural materials such as wood, bamboo, earth and straw",
@@ -4780,7 +4916,7 @@
         ],
         "style": {
             "time_range": "late 16th century to early 17th century",
-            "period": "Japanese architecture",
+            "period": "Medieval",
             "description": "A fusion of traditional Japanese architecture with Chinese and European influences, characterized by grandeur, decorative facade, and use of new materials such as plaster and glass.",
             "characteristics": [
                 "Integration of traditional Japanese features with foreign influences",
@@ -4801,7 +4937,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "nouns: Castles, palaces, tea ceremony rooms, gardensadjectives: Ornate, extravagant, symmetrical, practical, functional"
+        "terms": "nouns: Castles, palaces, tea ceremony rooms, gardensadjectives: Ornate, extravagant, symmetrical, practical, functional",
+        "Start_Year": "1568 CE",
+        "End_Year": " 1600 CE"
     },
     "Edo period": {
         "architects": [
@@ -4839,7 +4977,7 @@
         ],
         "style": {
             "time_range": "1603-1868",
-            "period": "Edo period",
+            "period": "Medieval",
             "description": "The Edo period is a period in Japanese history when Japan was ruled by the Tokugawa shogunate. It was a time of stability, prosperity, and peace that lasted for more than 250 years.",
             "characteristics": [
                 "Emphasis on simplicity, practicality, and natural materials",
@@ -4859,7 +4997,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard."
+        "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard.",
+        "Start_Year": "1603 CE",
+        "End_Year": " 1657 CE"
     },
     "Meiji and Taish\u014d and early Sh\u014dwa": {
         "architects": [
@@ -4902,7 +5042,7 @@
         ],
         "style": {
             "time_range": "1868-1945",
-            "period": "Meiji and Taish\u014d and early Sh\u014dwa",
+            "period": "19th century",
             "description": "This architectural style emerged during the Meiji era (1868-1912) and continued through the Taish\u014d era (1912-1926) and early Sh\u014dwa era (1926-1945) in Japan. It represents a fusion of traditional Japanese architecture and Western styles, reflecting the country's modernization and opening up to the world during this period.",
             "characteristics": [
                 "Incorporation of Western elements, such as steel and concrete construction, into traditional Japanese architectural forms",
@@ -4920,7 +5060,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant."
+        "terms": " Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant.",
+        "Start_Year": " 1868 CE",
+        "End_Year": " 1965 CE"
     },
     "Late Showa": {
         "architects": [
@@ -4978,7 +5120,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "Art Deco, Streamlined, Geometric, Bold, Dramatic, Ornate, Opulent, Splendid, Luxurious, Innovative, Progressive, Extravagant."
+        "terms": "Art Deco, Streamlined, Geometric, Bold, Dramatic, Ornate, Opulent, Splendid, Luxurious, Innovative, Progressive, Extravagant.",
+        "Start_Year": " 1947 CE",
+        "End_Year": " 1991 CE"
     },
     "Kamakura and Muromachi": {
         "architects": [
@@ -5015,7 +5159,7 @@
         ],
         "style": {
             "time_range": "1185-1573",
-            "period": "Medieval Japan",
+            "period": "Medieval",
             "description": "The Kamakura and Muromachi periods saw the rise of Buddhism as a dominant religion in Japan and the emergence of the samurai class. During this time, the architecture reflected these cultural and societal changes.",
             "characteristics": [
                 "Integration of natural elements into design",
@@ -5035,7 +5179,9 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "Zen Buddhist, minimalistic, elegant, wooden, asymmetrical, simplistic, serene, naturalistic, rustic."
+        "terms": "Zen Buddhist, minimalistic, elegant, wooden, asymmetrical, simplistic, serene, naturalistic, rustic.",
+        "Start_Year": "1185 CE",
+        "End_Year": "1573 CE"
     },
     "Khmer Empire": {
         "architects": [
@@ -5075,7 +5221,7 @@
         ],
         "style": {
             "time_range": "9th century \u2013 15th century",
-            "period": "Medieval period",
+            "period": "Medieval",
             "description": "The Khmer Empire architecture style is known for its elaborate and grand temples and palaces, characterized by intricate carvings and ornamentation, towering structures, and impressive water management systems.",
             "characteristics": [
                 "Use of sandstone as the primary building material",
@@ -5097,7 +5243,9 @@
             "continent": "Asia",
             "country": "Cambodia"
         },
-        "terms": " temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring."
+        "terms": " temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
+        "Start_Year": "825 CE",
+        "End_Year": " 1431 CE"
     },
     "Mughal Empire": {
         "architects": [
@@ -5149,7 +5297,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Grand, ornate, elegant, Islamic, Persian, Indian, domes, arches, minarets, symmetrical, detailed, monumental, majestic, intricate, colorful, grandiose."
+        "terms": "Grand, ornate, elegant, Islamic, Persian, Indian, domes, arches, minarets, symmetrical, detailed, monumental, majestic, intricate, colorful, grandiose.",
+        "Start_Year": "1526 CE",
+        "End_Year": " 1857 CE"
     },
     "Joseon Dynasty": {
         "architects": [
@@ -5192,7 +5342,7 @@
         ],
         "style": {
             "time_range": "1392-1910",
-            "period": "Late medieval to early modern period",
+            "period": "Medieval",
             "description": "The Joseon Dynasty architecture style is characterized by its Confucian-inspired simplicity, balance, and harmony with nature. It features a unique system of wooden brackets and pillars known as dougong, which allowed for intricate roof designs. The use of ceramic tiles, painted murals, and brick walls were also prominent features of the style.",
             "characteristics": [
                 "Simplicity",
@@ -5213,7 +5363,9 @@
             "continent": "Asia",
             "country": "South Korea"
         },
-        "terms": "Traditional, wooden, curved, ornate, grand, and intricate architecture characterized the Joseon Dynasty."
+        "terms": "Traditional, wooden, curved, ornate, grand, and intricate architecture characterized the Joseon Dynasty.",
+        "Start_Year": "1392 CE",
+        "End_Year": " 1897 CE"
     },
     "Safavid Dynasty": {
         "architects": [
@@ -5272,7 +5424,9 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "colorful, ornate tiles, domes, arches, intricate patterns, grand halls, impressive courtyards, Islamic designs, symmetrical layouts, majestic minarets, impressive iwans."
+        "terms": "colorful, ornate tiles, domes, arches, intricate patterns, grand halls, impressive courtyards, Islamic designs, symmetrical layouts, majestic minarets, impressive iwans.",
+        "Start_Year": "1501 CE",
+        "End_Year": " 1736 CE"
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -5312,7 +5466,7 @@
         ],
         "style": {
             "time_range": "1802-1945",
-            "period": "19th-20th century",
+            "period": "19th century",
             "description": "The Nguyen Dynasty was the last ruling dynasty of Vietnam, known for its distinctive architectural style that blends traditional Vietnamese designs with Chinese and French influences. During this period, the use of gold trimmings and elaborate carvings increased, along with the incorporation of Western elements such as glass and wrought iron.",
             "characteristics": [
                 "Elaborate carvings and gold trimmings",
@@ -5329,7 +5483,9 @@
             "continent": "Asia",
             "country": "Vietnam"
         },
-        "terms": " Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways"
+        "terms": " Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways",
+        "Start_Year": "1802 CE",
+        "End_Year": " 1945 CE"
     },
     "Mauryan Period": {
         "architects": [
@@ -5368,7 +5524,7 @@
         ],
         "style": {
             "time_range": "322 BCE \u2013 185 BCE",
-            "period": "Mauryan Period",
+            "period": "Classical",
             "description": "The Mauryan period was defined by the political, economic, and cultural growth of the Mauryan empire. The architecture of this period reflected the empire\u2019s stability and prosperity, and was characterized by a focus on monumental stone masonry works.",
             "characteristics": [
                 "Use of large, monolithic stone pillars and columns",
@@ -5386,7 +5542,9 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Sturdy, grand, monumental, polished, and ornate stone structures with intricate carvings, towering columns, and arched gateways characterized the Mauryan Period architecture."
+        "terms": "Sturdy, grand, monumental, polished, and ornate stone structures with intricate carvings, towering columns, and arched gateways characterized the Mauryan Period architecture.",
+        "Start_Year": "322 BCE",
+        "End_Year": " 185 BCE"
     },
     "Tang Dynasty": {
         "architects": [
@@ -5425,7 +5583,7 @@
         ],
         "style": {
             "time_range": "618-907 AD",
-            "period": "Chinese imperial era",
+            "period": "Medieval",
             "description": "Tang Dynasty architecture style is characterized by its grandeur, elegance, and symmetry. This architectural style is known for wooden structures, brick and stone buildings, and heavy roof eaves. It reflects the harmony between man and nature and the belief in the power of heaven and earth.",
             "characteristics": [
                 "Symmetry",
@@ -5443,7 +5601,9 @@
             "continent": "Asia",
             "country": "China"
         },
-        "terms": " grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls"
+        "terms": " grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls",
+        "Start_Year": "618 CE",
+        "End_Year": " 907 CE"
     },
     "Pre-Columbian Period": {
         "architects": [
@@ -5486,7 +5646,7 @@
         ],
         "style": {
             "time_range": "10,000 BCE - 1492 CE",
-            "period": "Pre-Columbian Period",
+            "period": "Pre-Colonial",
             "description": "The Pre-Columbian Period refers to the time in the Americas before the arrival of Columbus in 1492. During this time, various civilizations developed unique architectural styles that were influenced by their religious beliefs, geographical location, and available materials.",
             "characteristics": [
                 "Use of local materials like stone, adobe, and wood",
@@ -5509,7 +5669,9 @@
                 "the United States"
             ]
         },
-        "terms": "adjectives: indigenous, traditional, complex, symbolicnouns: pyramids, temples, plazas, canals, terraces, adobe, stone"
+        "terms": "adjectives: indigenous, traditional, complex, symbolicnouns: pyramids, temples, plazas, canals, terraces, adobe, stone",
+        "Start_Year": "10000 BCE",
+        "End_Year": " 1492 CE"
     },
     "Mid-Century Modern": {
         "architects": [
@@ -5572,7 +5734,10 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular."
+        "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
+        "Start_Year": "1940 CE",
+        "End_Year": " 1960 CE",
+        "icon": "mid-century_modern.png"
     },
     "Umayyad Period": {
         "architects": [
@@ -5615,7 +5780,7 @@
         ],
         "style": {
             "time_range": "661-750 CE",
-            "period": "Islamic Golden Age",
+            "period": "Medieval",
             "description": "Umayyad architecture was characterized by extensive use of mosaics, carved stucco decoration, and the use of hypostyle mosques with large courtyards and prayer halls with carved wooden roofs",
             "characteristics": [
                 "Extensive use of mosaics",
@@ -5635,7 +5800,9 @@
                 "Spain"
             ]
         },
-        "terms": "mosques, domes, arches, glazed, decorative, ornate, geometric patterns, extravagant, monumental, lavish, grandiose."
+        "terms": "mosques, domes, arches, glazed, decorative, ornate, geometric patterns, extravagant, monumental, lavish, grandiose.",
+        "Start_Year": "661 CE",
+        "End_Year": "750 CE"
     },
     "Abbasid Period": {
         "architects": [
@@ -5678,7 +5845,7 @@
         ],
         "style": {
             "time_range": "750-1258 CE",
-            "period": "Islamic Golden Age",
+            "period": "Medieval",
             "description": "The Abbasid period of Islamic architecture is characterized by a synthesis of architectural styles from various regions and the infusion of new ideas into Islamic design. This period saw the development of new building forms, such as the madrasa, which became prominent throughout the Islamic world. Architecture during the Abbasid period was heavily influenced by the art and culture of ancient Greece and Rome, and Islamic architecture developed a unique style that incorporated elements of these classical traditions.",
             "characteristics": [
                 "The use of geometric shapes and patterns in decoration",
@@ -5698,7 +5865,9 @@
                 "Egypt"
             ]
         },
-        "terms": "Islamic, ornate, geometric, domes, minarets, mosaics, intricate, luxurious, symmetrical, grand, courtyards, symmetrical, calligraphy, brick."
+        "terms": "Islamic, ornate, geometric, domes, minarets, mosaics, intricate, luxurious, symmetrical, grand, courtyards, symmetrical, calligraphy, brick.",
+        "Start_Year": "750 CE",
+        "End_Year": "1258 CE"
     },
     "Fatimid Period": {
         "architects": [
@@ -5738,7 +5907,7 @@
         ],
         "style": {
             "time_range": "909 AD \u2013 1171 AD",
-            "period": "Islamic Golden Age",
+            "period": "Medieval",
             "description": "The Fatimid Period marked a significant era of Islamic art and architecture characterized by the use of ornate decorations, symmetrical designs, intricate calligraphy, and the revival of ancient techniques. It was also notable for its innovation in dome construction and the use of geometric patterns in buildings.",
             "characteristics": [
                 "Ornate decorations",
@@ -5757,7 +5926,9 @@
             "continent": "Africa",
             "country": "Egypt"
         },
-        "terms": "Islamic, ornate, geometric, limestone, caliphate, arches, domes, intricate, intricate stucco, enameled, glazed, arabesque, calligraphy, muqarnas, surah, medallions, minarets, courtyards, vaulted, mihrab, towers, porticos, serenity, symmetry."
+        "terms": "Islamic, ornate, geometric, limestone, caliphate, arches, domes, intricate, intricate stucco, enameled, glazed, arabesque, calligraphy, muqarnas, surah, medallions, minarets, courtyards, vaulted, mihrab, towers, porticos, serenity, symmetry.",
+        "Start_Year": "909 CE",
+        "End_Year": "1171 CE"
     },
     "Andalusian Period": {
         "architects": [
@@ -5800,7 +5971,7 @@
         ],
         "style": {
             "time_range": "8th to 15th century",
-            "period": "Islamic period",
+            "period": "Medieval",
             "description": "Unique architecture characterized by a blend of Islamic and European styles",
             "characteristics": [
                 "Use of horseshoe arches",
@@ -5818,7 +5989,9 @@
             "continent": "Europe",
             "country": "Spain"
         },
-        "terms": "Moorish, Islamic, ornate, intricate, geometric, colorful, grand, arched, domed, tiled, courtyarded, fountains, gardens."
+        "terms": "Moorish, Islamic, ornate, intricate, geometric, colorful, grand, arched, domed, tiled, courtyarded, fountains, gardens.",
+        "Start_Year": "711 CE",
+        "End_Year": "1492 CE"
     },
     "Seljuk Period": {
         "architects": [
@@ -5855,7 +6028,7 @@
         ],
         "style": {
             "time_range": "11th-14th century",
-            "period": "Islamic Architecture",
+            "period": "Medieval",
             "description": "The Seljuk period architecture is a combination of Islamic and Turkish styles that emerged during the Seljuk Empire in the 11th century. The architecture is characterized by the use of arched entrances, domes, and vaulted ceilings. The decoration is often intricate and includes intricate geometric and floral designs. Seljuk architecture was influenced by earlier Islamic architecture, as well as Byzantine and Sassanid styles.",
             "characteristics": [
                 "Use of arched entrances, domes, and vaulted ceilings",
@@ -5874,7 +6047,9 @@
                 "Uzbekistan"
             ]
         },
-        "terms": "ornate, intricate, geometric, dome-shaped, pointed, arches and columns, glazed tiles, mosaics, sturdy, monumental, Islamic-inspired, minarets, embellished, decorative, courtyards, caravanserais."
+        "terms": "ornate, intricate, geometric, dome-shaped, pointed, arches and columns, glazed tiles, mosaics, sturdy, monumental, Islamic-inspired, minarets, embellished, decorative, courtyards, caravanserais.",
+        "Start_Year": "1037 CE",
+        "End_Year": "1194 CE"
     },
     "Mamluk Period": {
         "architects": [
@@ -5913,7 +6088,7 @@
         ],
         "style": {
             "time_range": "1250-1517 CE",
-            "period": "Medieval Islamic architecture",
+            "period": "Medieval",
             "description": "Architecture of the Mamluk dynasty, a Muslim ruling class that ruled Egypt and Syria during the medieval period",
             "characteristics": [
                 "Incorporates elements from different Islamic architectural styles",
@@ -5931,7 +6106,9 @@
             "continent": "Africa and Asia",
             "country": "Egypt and Syria"
         },
-        "terms": "Towering minarets, intricate arabesque patterns, opulent palaces, majestic domes, decorative muqarnas, elegant courtyards, ornate mausoleums, stately arches, grand gateways, rich stone carvings, sprawling madrasas, vibrant tilework, colorful stained-glass windows, refined calligraphy, lavish marble floors, monumental fortifications, sophisticated irrigation systems."
+        "terms": "Towering minarets, intricate arabesque patterns, opulent palaces, majestic domes, decorative muqarnas, elegant courtyards, ornate mausoleums, stately arches, grand gateways, rich stone carvings, sprawling madrasas, vibrant tilework, colorful stained-glass windows, refined calligraphy, lavish marble floors, monumental fortifications, sophisticated irrigation systems.",
+        "Start_Year": "1250 CE",
+        "End_Year": "1517 CE"
     },
     "Safavid Period": {
         "architects": [
@@ -5974,7 +6151,7 @@
         ],
         "style": {
             "time_range": "1501-1722",
-            "period": "Islamic Golden Age",
+            "period": "Medieval",
             "description": "The Safavid Period architecture style is historically significant in Iran because it was during this era that Shia Islam became the official state religion. Safavid architecture was characterized by the widespread use of domes, Iwan designs, minarets, intricate geometric patterns, and the incorporation of a distinct Persian style, which gave the architectural design its own identity.",
             "characteristics": [
                 "Highly decorated facades",
@@ -6038,7 +6215,7 @@
         ],
         "style": {
             "time_range": "1299-1922",
-            "period": "Medieval to Modern",
+            "period": "Medieval",
             "description": "The Ottoman Period architecture style encompasses the structure and design created during the Ottoman Empire, which emerged in the late medieval period and lasted until the early 20th century. This style is characterized by its intricate use of geometry, pattern, and structure, often incorporating Islamic motifs and styles.",
             "characteristics": [
                 "Intricate use of geometry, pattern, and structure",
@@ -6057,7 +6234,9 @@
             "continent": "Asia",
             "country": "Turkey"
         },
-        "terms": "exquisite, grandiose, Islamic, ornate, domes, arches, calligraphy, tiles, geometric patterns, mosques, palaces, minarets."
+        "terms": "exquisite, grandiose, Islamic, ornate, domes, arches, calligraphy, tiles, geometric patterns, mosques, palaces, minarets.",
+        "Start_Year": "1299 CE",
+        "End_Year": "1922 CE"
     },
     "Modern Islamic Architecture": {
         "architects": [
@@ -6153,7 +6332,7 @@
         ],
         "style": {
             "time_range": "1370-1507 CE",
-            "period": "Islamic Golden Age",
+            "period": "Medieval",
             "description": "The Timurid architecture style was characterized by the fusion of Islamic and Central Asian architecture. It was known for its elaborate decorations, use of ceramic tiles, and minarets with twisted fluting. The Timurids also developed the use of muqarnas, a type of decorative corbel or bracket, which became a defining characteristic of Islamic architecture.",
             "characteristics": [
                 "Elaborate decorations",
@@ -6170,7 +6349,9 @@
             "continent": "Asia",
             "country": "Uzbekistan"
         },
-        "terms": "Timurid Period architecture style was characterized by intricate details, vibrant tiles, glazed bricks, geometric motifs, blue and turquoise coloring, majestic domes, grand entrances, and monumental structures."
+        "terms": "Timurid Period architecture style was characterized by intricate details, vibrant tiles, glazed bricks, geometric motifs, blue and turquoise coloring, majestic domes, grand entrances, and monumental structures.",
+        "Start_Year": "1370 CE",
+        "End_Year": "1507 CE"
     },
     "Modern Islamic": {
         "architects": [
@@ -6229,7 +6410,9 @@
             "continent": "Asia",
             "country": "Various countries in the Middle East and Southeast Asia"
         },
-        "terms": "Clean lines, minimal ornamentation, geometric shapes, innovative materials, functional, spacious, contemporary, sustainable, energy-efficient, culturally influenced."
+        "terms": "Clean lines, minimal ornamentation, geometric shapes, innovative materials, functional, spacious, contemporary, sustainable, energy-efficient, culturally influenced.",
+        "Start_Year": "1922 CE",
+        "End_Year": "present"
     },
     "Indigenous Australian": {
         "architects": [
@@ -6288,7 +6471,9 @@
             "continent": "Australia",
             "country": "Australia"
         },
-        "terms": "earthen, organic, circular, thatched, bark, intricate, woven, intricately-carved, natural, sustainable, spiritual, harmonious."
+        "terms": "earthen, organic, circular, thatched, bark, intricate, woven, intricately-carved, natural, sustainable, spiritual, harmonious.",
+        "Start_Year": "10000 BCE",
+        "End_Year": "1803 CE"
     },
     "Polynesian": {
         "architects": [
@@ -6328,7 +6513,7 @@
         ],
         "style": {
             "time_range": "1000 BCE \u2013 1800 CE",
-            "period": "Pre-contact and early contact periods",
+            "period": "Pre-Colonial",
             "description": "Polynesian architecture is the indigenous architecture of the Polynesian people who inhabited the islands of the Polynesian triangle. This architecture style is characterized by its simplicity, functionality, and the use of natural materials such as wood, thatch, and stone. Most buildings were multi-purpose structures that served as houses, meeting houses, and ceremonial spaces.",
             "characteristics": [
                 "Use of natural materials such as wood, thatch, and stone",
@@ -6350,7 +6535,9 @@
                 "New Zealand"
             ]
         },
-        "terms": " Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical"
+        "terms": " Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical",
+        "Start_Year": "1000 BCE",
+        "End_Year": " 1800 CE"
     },
     "Pacific Islander": {
         "architects": [
@@ -6391,7 +6578,7 @@
         ],
         "style": {
             "time_range": "Primitive period to present day",
-            "period": "Pre-Colonial to Post-Colonial",
+            "period": "Pre-Colonial",
             "description": "The Pacific Islander architecture style encompasses a wide variety of traditional architectural designs from the various island groups located in the Pacific Ocean. It is characterized by the use of locally-sourced materials, such as wood, thatch, and coral, and the integration of natural elements into the structure. The designs range from simple huts to elaborate communal buildings and temples, and incorporate intricate carvings and motifs that reflect the culture and beliefs of the people who inhabit the islands.",
             "characteristics": [
                 "Use of natural, locally-sourced materials",
@@ -6410,7 +6597,9 @@
             "continent": "Oceania",
             "country": "various island groups in the Pacific Ocean"
         },
-        "terms": "Organic, tropical, wooden, airy, high-pitched roof, post-and-beam construction, symmetrical, traditional, culturally significant, simplistic."
+        "terms": "Organic, tropical, wooden, airy, high-pitched roof, post-and-beam construction, symmetrical, traditional, culturally significant, simplistic.",
+        "Start_Year": "10000 BCE",
+        "End_Year": " present"
     },
     "Contemporary Oceania": {
         "architects": [
@@ -6471,7 +6660,9 @@
                 "Australia"
             ]
         },
-        "terms": "Minimalist, organic, sustainable, tropical, traditional, indigenous-inspired, open, airy, geometric, innovative."
+        "terms": "Minimalist, organic, sustainable, tropical, traditional, indigenous-inspired, open, airy, geometric, innovative.",
+        "Start_Year": "1990 CE",
+        "End_Year": " present"
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -6538,7 +6729,9 @@
                 "Panama"
             ]
         },
-        "terms": " Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature."
+        "terms": " Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature.",
+        "Start_Year": "1980 CE",
+        "End_Year": " present"
     },
     "Mud Brick": {
         "architects": [
@@ -6581,7 +6774,7 @@
         ],
         "style": {
             "time_range": "4000 BC - Present",
-            "period": "Prehistoric - Present",
+            "period": "Prehistoric",
             "description": "Mud brick architecture is a traditional style of construction that uses mud or clay as the primary building material. It is prevalent in arid and semi-arid regions where mud is readily available and provides natural insulation against harsh climates.",
             "characteristics": [
                 "Heavy use of mud bricks as building blocks",
@@ -6617,7 +6810,10 @@
                 "Tunisia"
             ]
         },
-        "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional."
+        "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional.",
+        "Start_Year": " 4000 BCE",
+        "End_Year": " present",
+        "icon": "mud_brick.png"
     },
     "Stilt House": {
         "architects": [
@@ -6660,7 +6856,7 @@
         ],
         "style": {
             "time_range": "Ancient times to present day",
-            "period": "Varies by region",
+            "period": "Pre-Colonial",
             "description": "Stilt Houses are dwellings that are elevated off the ground on stilts or pillars. They are commonly found in areas that experience flooding, high tides, or heavy snowfall. They can be made of various materials such as wood, bamboo, metal or concrete.",
             "characteristics": [
                 "The main feature of the Stilt House architecture style is the use of stilts or pillars to elevate the house above the ground. Other common characteristics include a simple and compact design",
@@ -6692,6 +6888,7 @@
                 "Florida"
             ]
         },
-        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic"
+        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
+        "icon": "stilt_house.png"
     }
 }
