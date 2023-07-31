@@ -1772,8 +1772,8 @@
             ]
         },
         "short": "Greek Revival architecture is characterized by its use of classical Greek design elements such as columns, pediments, and symmetrical shapes, popularized in the 19th century",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 1850 CE",
+        "End_Year": " 1950 CE"
     },
     "Georgian": {
         "architects": [
@@ -8003,7 +8003,7 @@
         "Start_Year": " 1193 CE",
         "End_Year": " 1700 CE",
         "icon": "indo-islamic.png",
-        "significance": "8"
+        "significance": 8
     },
     "Indo-Saracenic": {
         "architects": [
@@ -8597,8 +8597,8 @@
             ]
         },
         "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\"",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 1000 CE",
+        "End_Year": " present"
     },
     "Persian": {
         "architects": [
@@ -8687,8 +8687,8 @@
             ]
         },
         "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures.",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 600 BCE",
+        "End_Year": " 600 CE"
     },
     "Swahili": {
         "architects": [
@@ -8763,8 +8763,8 @@
         },
         "short": "Swahili architecture is a unique blend of Arab, Persian, and Indian influences, characterized by intricately carved wooden doors, coral stone buildings, and rooftop terraces.",
         "significance": 7,
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 800 CE",
+        "End_Year": " 1800 CE"
     },
     "Federation": {
         "architects": [
@@ -8837,8 +8837,8 @@
             ]
         },
         "short": "\"Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 1950 CE",
+        "End_Year": " present"
     },
     "Korean": {
         "architects": [
@@ -8910,8 +8910,8 @@
         },
         "short": "\"Korean architecture combines traditional influences with modern elements, known for its emphasis on harmony, use of natural materials, and elegant simplicity.\"",
         "significance": 8,
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 1400 CE",
+        "End_Year": " present"
     },
     "Indonesian": {
         "architects": [
@@ -8988,8 +8988,8 @@
         },
         "short": "Indonesian architecture style is characterized by intricate carvings, steep roofs, and use of natural materials like wood and bamboo.",
         "significance": 6,
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 600 BCE",
+        "End_Year": " 600 CE"
     },
     "Vietnamese": {
         "architects": [
@@ -9059,8 +9059,8 @@
             ]
         },
         "short": "Vietnamese architecture blends traditional elements, such as curved roofs and open courtyards, with influences from Chinese and French colonial styles.",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 600 CE",
+        "End_Year": " present"
     },
     "Berber": {
         "architects": [
@@ -9136,8 +9136,8 @@
         },
         "short": "Berber architecture is a traditional style characterized by earth-built structures, flat roofs, and intricate geometric patterns, prevalent in North Africa.",
         "significance": 8,
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 600 CE",
+        "End_Year": " present"
     },
     "Nubian": {
         "architects": [
@@ -9205,8 +9205,8 @@
         },
         "short": "Nubian architecture is a traditional style characterized by mud-brick construction, vaulted roofs, and intricate decorative elements found in ancient Nubia.",
         "significance": 8.5,
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 3000 BCE",
+        "End_Year": " 1500 BCE"
     },
     "Indian": {
         "architects": [
@@ -9280,7 +9280,7 @@
             ]
         },
         "short": "\"Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.\"",
-        "Start_Year": " TBD",
-        "End_Year": " TBD"
+        "Start_Year": " 300 BCE",
+        "End_Year": " present"
     }
 }
