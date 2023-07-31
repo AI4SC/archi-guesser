@@ -1302,7 +1302,8 @@
         },
         "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation",
         "Start_Year": "1584 CE",
-        "End_Year": "1750 CE"
+        "End_Year": "1750 CE",
+        "icon": "baroque.png"
     },
     "Postmodern": {
         "architects": [
@@ -1900,7 +1901,8 @@
         },
         "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
         "Start_Year": "1960 CE",
-        "End_Year": "present"
+        "End_Year": "present",
+        "icon": "postmodernism.png"
     },
     "Neo-Modernism": {
         "architects": [
@@ -4014,7 +4016,8 @@
             "country": "Russia"
         },
         "Start_Year": " 1917 CE",
-        "End_Year": " 1930 CE"
+        "End_Year": " 1930 CE",
+        "icon": "constructivism.png"
     },
     "Neolithic": {
         "architects": [
