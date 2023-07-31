@@ -143,9 +143,7 @@
             ]
         },
         "short": "Ancient Greek architecture style is characterized by harmonious proportions, use of columns, symmetry, and iconic structures like the Parthenon.",
-        "significance": {
-            "Significance": 9
-        }
+        "significance": 9
     },
     "Ancient Roman": {
         "architects": [
@@ -203,9 +201,7 @@
             ]
         },
         "short": "\"Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.\"",
-        "significance": {
-            "scale_of_significance": 7
-        }
+        "significance": 7
     },
     "Byzantine": {
         "architects": [
@@ -277,7 +273,8 @@
                 "Columns and arches: Byzantine architecture incorporates intricate column designs, including the use of paired columns and pilasters. Arches, especially the semi-circular or rounded arches, are also commonly seen in Byzantine buildings."
             ]
         },
-        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire."
+        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire.",
+        "significance": 9
     },
     "Romanesque": {
         "architects": [
@@ -349,7 +346,8 @@
                 "Romanesque portals"
             ]
         },
-        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows."
+        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows.",
+        "significance": 7
     },
     "Gothic": {
         "architects": [
@@ -499,7 +497,8 @@
                 "Geometric Shapes: Renaissance buildings often featured geometric shapes, such as squares, circles, and triangles. These shapes were used to create a sense of balance and proportion in the overall design."
             ]
         },
-        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece."
+        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece.",
+        "significance": 8.5
     },
     "Baroque": {
         "architects": [
@@ -573,7 +572,8 @@
                 "Use of curves and dynamic shapes"
             ]
         },
-        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale."
+        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale.",
+        "significance": 9
     },
     "Rococo": {
         "architects": [
@@ -927,11 +927,7 @@
             ]
         },
         "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
-        "significance": {
-            "Art Nouveau": {
-                "Significance": 8
-            }
-        }
+        "significance": 8
     },
     "Art Deco": {
         "architects": [
@@ -1012,7 +1008,8 @@
                 "Use of decorative motifs and symbols"
             ]
         },
-        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials."
+        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials.",
+        "significance": 8
     },
     "International Style": {
         "architects": [
@@ -1278,9 +1275,7 @@
             ]
         },
         "short": "Postmodernism in architecture is an eclectic style that rejects modernist principles, embracing historical references and playfulness in design.",
-        "significance": {
-            "Scale": 8
-        }
+        "significance": 8
     },
     "Deconstructivism": {
         "architects": [
@@ -1763,7 +1758,8 @@
                 "Tall, narrow windows with arched tops: Italianate buildings often have tall, narrow windows with arched tops, which are inspired by the architectural elements found in Italian Renaissance buildings."
             ]
         },
-        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details."
+        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details.",
+        "significance": 7
     },
     "Constructivism": {
         "architects": [
@@ -2075,9 +2071,7 @@
             ]
         },
         "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
-        "significance": {
-            "Edo_Period_architecture_significance": 7
-        },
+        "significance": 7,
         "icon": "edo_period.png"
     },
     "Mid-Century Modern": {
@@ -2614,7 +2608,8 @@
         "short": "Indo-Islamic architecture is a unique style blending Indian and Islamic design elements, characterized by intricate detailing, domes, and arches.",
         "Start_Year": " 1193 CE",
         "End_Year": " 1700 CE",
-        "icon": "indo-islamic.png"
+        "icon": "indo-islamic.png",
+        "significance": 8
     },
     "Indo-Saracenic": {
         "architects": [
@@ -2762,9 +2757,7 @@
             ]
         },
         "short": "Palladian architecture is a neoclassical style influenced by Andrea Palladio, characterized by symmetry, harmonious proportions, and use of classical elements.",
-        "significance": {
-            "significance": 8
-        },
+        "significance": 8,
         "Start_Year": " 1700 CE",
         "End_Year": " 1800 CE",
         "icon": "palladian.png"
@@ -2838,7 +2831,8 @@
         "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
         "Start_Year": " 1910 CE",
         "End_Year": " 1920 CE",
-        "icon": "prairie.png"
+        "icon": "prairie.png",
+        "significance": 9
     },
     "Regency": {
         "architects": [
