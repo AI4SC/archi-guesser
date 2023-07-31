@@ -1697,11 +1697,7 @@
             ]
         },
         "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
-        "significance": {
-            "Art Nouveau": {
-                "Significance": 8
-            }
-        }
+        "significance":  8
     },
     "Greek Revival": {
         "architects": [
@@ -2057,9 +2053,7 @@
             ]
         },
         "short": "Postmodernism in architecture is an eclectic style that rejects modernist principles, embracing historical references and playfulness in design.",
-        "significance": {
-            "Scale": 8
-        }
+        "significance": 8
     },
     "Neo-Modernism": {
         "architects": [
@@ -2277,9 +2271,7 @@
             ]
         },
         "short": "\"Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.\"",
-        "significance": {
-            "significance": 6
-        }
+        "significance":  6
     },
     "Contemporary": {
         "architects": [
@@ -2997,9 +2989,7 @@
             ]
         },
         "short": "\"Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.\"",
-        "significance": {
-            "scale_of_significance": 7
-        }
+        "significance": 7
     },
     "Ancient Greek": {
         "architects": [
@@ -3079,9 +3069,7 @@
             ]
         },
         "short": "Ancient Greek architecture style is characterized by harmonious proportions, use of columns, symmetry, and iconic structures like the Parthenon.",
-        "significance": {
-            "Significance": 9
-        }
+        "significance": 9
     },
     "Islamic": {
         "architects": [
@@ -3158,9 +3146,7 @@
             ]
         },
         "short": "Islamic architecture is characterized by its geometric patterns, pointed arches, domes, and intricate ornamentation, reflecting a strong emphasis on spirituality and unity in Muslim culture.",
-        "significance": {
-            "importance": 8
-        }
+        "significance": 8
     },
     "Gothic Revival": {
         "architects": [
@@ -4362,9 +4348,7 @@
             ]
         },
         "short": "Pre-Romanesque architecture, prevalent from the 9th to 11th centuries, displays a blend of Roman, Byzantine, and Germanic influences with emphasis on simplicity and monumental structures.",
-        "significance": {
-            "pre-romanesque_architecture_significance": 8
-        }
+        "significance":  8
     },
     "Constructivism": {
         "architects": [
@@ -5575,9 +5559,7 @@
             ]
         },
         "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
-        "significance": {
-            "Edo_Period_architecture_significance": 7
-        },
+        "significance": 7,
         "icon": "edo_period.png"
     },
     "Meiji and Taish\u014d and early Sh\u014dwa": {
@@ -6203,10 +6185,7 @@
             ]
         },
         "short": "The Mauryan Period architecture style was characterized by the use of rock and brick work, with impressive pillared structures and Buddhist stupas.",
-        "significance": {
-            "architecture_style": "Mauryan Period",
-            "significance_scale": 7
-        }
+        "significance": 7
     },
     "Tang Dynasty": {
         "architects": [
@@ -6786,10 +6765,7 @@
             ]
         },
         "short": "The Seljuk Period architecture style, prevalent in the 11th-14th century, is known for its combination of Islamic and Persian influences in intricate designs and decorative elements.",
-        "significance": {
-            "architecture style": "Seljuk Period",
-            "significance": 7
-        }
+        "significance": 7
     },
     "Mamluk Period": {
         "architects": [
@@ -8163,9 +8139,7 @@
             ]
         },
         "short": "Palladian architecture is a neoclassical style influenced by Andrea Palladio, characterized by symmetry, harmonious proportions, and use of classical elements.",
-        "significance": {
-            "significance": 8
-        },
+        "significance": 8,
         "Start_Year": " 1700 CE",
         "End_Year": " 1800 CE",
         "icon": "palladian.png"
@@ -9148,9 +9122,7 @@
             ]
         },
         "short": "Berber architecture is a traditional style characterized by earth-built structures, flat roofs, and intricate geometric patterns, prevalent in North Africa.",
-        "significance": {
-            "scale_of_significance": 8
-        },
+        "significance":  8,
         "Start_Year": " TBD",
         "End_Year": " TBD"
     },
@@ -9219,9 +9191,7 @@
             "Element 3": "Incorporation of stone columns and vaulted roofs"
         },
         "short": "Nubian architecture is a traditional style characterized by mud-brick construction, vaulted roofs, and intricate decorative elements found in ancient Nubia.",
-        "significance": {
-            "answer": 8.5
-        },
+        "significance":  8.5,
         "Start_Year": " TBD",
         "End_Year": " TBD"
     },
