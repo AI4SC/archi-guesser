@@ -4391,7 +4391,10 @@
                 "Integration of engineering principles: Structural Expressionism emphasizes the integration of engineering principles into the architectural design, allowing the structural elements to be seen as essential features of the building rather than hidden and minimized."
             ]
         },
-        "short": "\"Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.\""
+        "short": "\"Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.\"",
+        "significance": {
+            "score": 7
+        }
     },
     "Pre-Romanesque": {
         "architects": [
@@ -7971,7 +7974,10 @@
                 "Sculptural and futuristic appearance"
             ]
         },
-        "short": "Blobitecture is an architectural style characterized by organic, curvaceous and unconventional forms, often resembling blobs, aiming to break away from traditional rectilinear designs."
+        "short": "Blobitecture is an architectural style characterized by organic, curvaceous and unconventional forms, often resembling blobs, aiming to break away from traditional rectilinear designs.",
+        "significance": {
+            "score": 8
+        }
     },
     "Googie": {
         "architects": [
@@ -8750,7 +8756,10 @@
                 "Raised Platform and Pillars: Traditional Thai buildings are typically elevated on a raised platform supported by wooden or stone pillars. This design element serves various purposes, including protection from floods, ventilation, and providing a sense of grandeur. The raised platform also creates a shaded area underneath the building."
             ]
         },
-        "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\""
+        "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\"",
+        "significance": {
+            "scale": 8
+        }
     },
     "Persian": {
         "architects": [
