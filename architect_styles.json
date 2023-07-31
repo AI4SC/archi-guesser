@@ -9282,5 +9282,77 @@
         "short": "\"Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.\"",
         "Start_Year": " 300 BCE",
         "End_Year": " present"
+    },
+    "Federal": {
+        "architects": [
+            {
+                "name": "Benjamin Henry Latrobe",
+                "birth_date": "May 1, 1764",
+                "death_date": "September 3, 1820",
+                "nationality": "American",
+                "description": "Benjamin Henry Latrobe was an English-born American architect known as the 'Father of American Architecture'. He was influential in developing the Federal style of architecture in the United States.",
+                "notable_buildings": [
+                    "United States Capitol, Washington, D.C.",
+                    "Baltimore Basilica, Baltimore, Maryland",
+                    "Bank of Pennsylvania, Philadelphia, Pennsylvania"
+                ]
+            },
+            {
+                "name": "Charles Bulfinch",
+                "birth_date": "August 8, 1763",
+                "death_date": "April 15, 1844",
+                "nationality": "American",
+                "description": "Charles Bulfinch was an American architect who played a significant role in the development of Federal architecture in the United States. He is known for his neoclassical designs and influential role in shaping the city of Boston.",
+                "notable_buildings": [
+                    "Massachusetts State House, Boston, Massachusetts",
+                    "U.S. Capitol Building (Wings), Washington, D.C.",
+                    "King's Chapel, Boston, Massachusetts"
+                ]
+            },
+            {
+                "name": "Samuel McIntire",
+                "birth_date": "January 16, 1757",
+                "death_date": "February 6, 1811",
+                "nationality": "American",
+                "description": "Samuel McIntire was an American architect and woodcarver, primarily known for his work in the Federal style of architecture. He played a crucial role in transforming the city of Salem, Massachusetts with his elegant designs.",
+                "notable_buildings": [
+                    "Peirce\u2013Nichols House, Salem, Massachusetts",
+                    "Gardner-Pingree House, Salem, Massachusetts",
+                    "Hamilton Hall, Salem, Massachusetts"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 18th century to mid-19th century",
+            "period": "Neoclassical",
+            "description": "Federal architecture is a style that emerged in the United States during the early years of the Republic (late 18th century to mid-19th century). It is characterized by the adaptation of classical architectural forms and motifs to American building traditions. The style was heavily influenced by the ideals of the American Revolution and the architectural concepts of ancient Greece and Rome.",
+            "characteristics": [
+                "Symmetrical fa\u00e7ades",
+                "Rectangular shape",
+                "Central entrance",
+                "Simple ornamentation",
+                "Use of classical columns (Doric, Ionic, Corinthian)",
+                "Elegant proportions",
+                "Balanced and refined appearance"
+            ],
+            "examples": [
+                "United States Capitol",
+                "White House",
+                "Monticello",
+                "Faneuil Hall",
+                "Old City Hall (Boston)"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "noun: architecture style\nadjective: federal",
+        "character": {
+            "Characteristic Elements": [
+                "Symmetry: Federal architecture is known for its symmetrical designs, both exterior and interior. This includes evenly spaced windows and doors, as well as balanced proportions.",
+                "Classical Influences: Federal architecture draws heavily from classical styles, particularly the Georgian and Roman Classical styles. This can be seen in features such as columns, pediments, and cornices.",
+                "Elaborate Ornamentation: Federal buildings are often adorned with elaborate decorative elements, including intricate moldings, swags, and motifs such as eagles and stars. These decorative elements are typically found on the fa\u00e7ade and around entryways."
+            ]
+        },
+        "short": "Federal architecture style emerged in early America, characterized by symmetry, classical elements, and visual harmony, often seen in government buildings and grand mansions."
     }
 }
