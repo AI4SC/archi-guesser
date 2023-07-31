@@ -4,13 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ARUCO Marker Detection</title>
+  <script type="text/javascript" src="js-aruco2/src/cv.js"></script>
+  <script type="text/javascript" src="js-aruco2/src/aruco.js"></script>
+  <script type="text/javascript" src="numeric-1.2.6.min.js"></script>
+  <script type="text/javascript" src="perspective-transform.min.js"></script>
+  <script type="text/javascript" src="aruco2_app.js"></script>
 </head>
-<body>
-  <h1>ARUCO Marker Detection</h1>
-  <video id="video" width="640" height="480" autoplay></video>
-  <canvas id="canvas" width="640" height="480"></canvas>
-  <button onclick="captureImage()">Capture Image</button>
-  <script src="https://cdn.jsdelivr.net/npm/opencv.js@1.2.1/opencv.min.js" onload="onOpenCvReady()" async></script>
-  <script src="app.js"></script>
+<body style="font-family: monospace;">
+
+  <center>
+    <div style="margin: 10px;"><strong>-= Augmented Reality Marker Detector =-</strong></div>
+    <video id="video" autoplay="true" style="display:none;"></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div id="info" style="margin: 15px;"></div>
+  </center>
+
 </body>
 </html>
