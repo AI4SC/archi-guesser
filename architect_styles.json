@@ -440,9 +440,7 @@
             ]
         },
         "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint.",
-        "significance": {
-            "score": 8
-        }
+        "significance": 8
     },
     "Gothic": {
         "architects": [
@@ -522,9 +520,7 @@
             ]
         },
         "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\"",
-        "significance": {
-            "scale": 9.5
-        }
+        "significance": 9.5
     },
     "Art Deco": {
         "architects": [
@@ -924,9 +920,7 @@
             ]
         },
         "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles.",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Beaux Arts": {
         "architects": [
@@ -1189,9 +1183,7 @@
             ]
         },
         "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
-        "significance": {
-            "significance": 8
-        }
+        "significance": 8
     },
     "Colonial Revival": {
         "architects": [
@@ -1333,9 +1325,7 @@
             ]
         },
         "short": "Mesoamerican architecture is characterized by pyramids, temples, and palaces, with intricate carvings and symbols, reflecting the culture and beliefs of indigenous civilizations.",
-        "significance": {
-            "score": 8.5
-        }
+        "significance": 8.5
     },
     "Baroque": {
         "architects": [
@@ -1639,9 +1629,7 @@
             ]
         },
         "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves.",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Art Nouveau": {
         "architects": [
@@ -1792,9 +1780,7 @@
         "short": "Greek Revival architecture is characterized by its use of classical Greek design elements such as columns, pediments, and symmetrical shapes, popularized in the 19th century",
         "Start_Year": " 1850 CE",
         "End_Year": " 1950 CE",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Georgian": {
         "architects": [
@@ -1865,9 +1851,7 @@
             ]
         },
         "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain.",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8
     },
     "International Style": {
         "architects": [
@@ -1943,9 +1927,7 @@
         "Start_Year": "1920 CE",
         "End_Year": "1950 CE",
         "icon": "international_style.png",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Modernist": {
         "architects": [
@@ -2211,9 +2193,7 @@
             ]
         },
         "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Colonial": {
         "architects": [
@@ -2405,9 +2385,7 @@
         "short": "\"Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.\"",
         "Start_Year": " 1950 CE",
         "End_Year": " present",
-        "significance": {
-            "scale": 6
-        }
+        "significance": 6
     },
     "Byzantine": {
         "architects": [
@@ -2547,9 +2525,7 @@
             ]
         },
         "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\"",
-        "significance": {
-            "scale": 8.5
-        }
+        "significance": 8.5
     },
     "Mannerist": {
         "architects": [
@@ -2743,9 +2719,7 @@
             ]
         },
         "short": "\"Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.\"",
-        "significance": {
-            "scale": 9
-        }
+        "significance": 9
     },
     "Parametric": {
         "architects": [
@@ -3253,9 +3227,7 @@
             ]
         },
         "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Beaux-Arts": {
         "architects": [
@@ -3497,9 +3469,7 @@
             ]
         },
         "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style.",
-        "significance": {
-            "scale": 9
-        }
+        "significance": 9
     },
     "High-Tech": {
         "architects": [
@@ -3648,9 +3618,7 @@
             ]
         },
         "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility.",
-        "significance": {
-            "score": 8
-        }
+        "significance": 8
     },
     "Sustainable (Green)": {
         "architects": [
@@ -3730,9 +3698,7 @@
             ]
         },
         "short": "\"Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.\"",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Parametricism": {
         "architects": [
@@ -3874,9 +3840,7 @@
             ]
         },
         "short": "\"New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.\"",
-        "significance": {
-            "scale": 4
-        }
+        "significance": 4
     },
     "Late Modernism": {
         "architects": [
@@ -4015,9 +3979,7 @@
             ]
         },
         "short": "\"Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.\"",
-        "significance": {
-            "scale": 6
-        }
+        "significance": 6
     },
     "Critical Regionalism": {
         "architects": [
@@ -4088,9 +4050,7 @@
             ]
         },
         "short": "Critical Regionalism is an architectural style that blends modern elements with local traditions, materials, and culture, promoting sustainable and contextual designs.",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8
     },
     "Post-Structuralism": {
         "architects": [
@@ -4159,9 +4119,7 @@
             "Characteristic 3": "Exploration of fluidity and flexibility in design"
         },
         "short": "Post-Structuralism architecture rejects traditional principles, focusing on fluidity, fragmentation, and deconstruction of space to challenge societal norms and hierarchies.",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "De Stijl": {
         "architects": [
@@ -4661,9 +4619,7 @@
             ]
         },
         "short": "\"Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.\"",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Ancient Persian": {
         "architects": [
@@ -4733,9 +4689,7 @@
             ]
         },
         "short": "\"Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.\"",
-        "significance": {
-            "significance": 8
-        }
+        "significance": 8
     },
     "Muscovite": {
         "architects": [
@@ -4804,9 +4758,7 @@
             ]
         },
         "short": "Muscovite architecture refers to the distinctive style of buildings in Moscow, characterized by ornate decorations, bright colors, and onion-domed churches.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Chinese Imperial": {
         "architects": [
@@ -4881,9 +4833,7 @@
             ]
         },
         "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations.",
-        "significance": {
-            "scale": 7.5
-        }
+        "significance": 7.5
     },
     "Gupta": {
         "architects": [
@@ -5104,9 +5054,7 @@
             ]
         },
         "short": "\"Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.\"",
-        "significance": {
-            "scale of significance": 8
-        }
+        "significance": 8
     },
     "Vesara": {
         "architects": [
@@ -5436,9 +5384,7 @@
             ]
         },
         "short": "The Heian period architecture style was characterized by simplicity, symmetry, and the use of natural materials, reflecting the influence of Chinese design.",
-        "significance": {
-            "scale": 9.5
-        }
+        "significance": 9.5
     },
     "Kamakura and Muromachi periods": {
         "architects": [
@@ -5583,9 +5529,7 @@
             ]
         },
         "short": "Azuchi-Momoyama architecture was a unique blend of traditional Japanese design and new influences, characterized by grand castles, intricate detailing, and bold stylized decorations.",
-        "significance": {
-            "scale": 7.5
-        }
+        "significance": 7.5
     },
     "Edo Period": {
         "architects": [
@@ -5727,9 +5671,7 @@
             ]
         },
         "short": "Meiji, Taish\u014d, and early Sh\u014dwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new.",
-        "significance": {
-            "scale": 6
-        }
+        "significance": 6
     },
     "Late Showa": {
         "architects": [
@@ -6152,9 +6094,7 @@
             ]
         },
         "short": "The Safavid Dynasty architecture style was characterized by grand domed structures, intricate tilework, and the use of Persian motifs and calligraphy.",
-        "significance": {
-            "scale": 6
-        }
+        "significance": 6
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -6222,10 +6162,7 @@
             ]
         },
         "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences.",
-        "significance": {
-            "architecture_style": "Nguyen Dynasty",
-            "significance_scale": 9
-        }
+        "significance": 9
     },
     "Mauryan Period": {
         "architects": [
@@ -6361,9 +6298,7 @@
             ]
         },
         "short": "Tang Dynasty architecture featured elegant and symmetrical designs, prominent use of brick and wood, multi-story pagodas, and grand imperial palaces.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Pre-Columbian Period": {
         "architects": [
@@ -6440,9 +6375,7 @@
             ]
         },
         "short": "Pre-Columbian Period architecture was characterized by stone structures with intricate carvings, pyramids, and monumental cities in Mesoamerica and South America.",
-        "significance": {
-            "scale": 7.5
-        }
+        "significance": 7.5
     },
     "Mid-Century Modern": {
         "architects": [
@@ -6517,9 +6450,7 @@
             ]
         },
         "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\"",
-        "significance": {
-            "score": 8.5
-        }
+        "significance": 8.5
     },
     "Umayyad Period": {
         "architects": [
@@ -6602,9 +6533,7 @@
             ]
         },
         "short": "The Umayyad Period architecture style featured grand structures with Islamic motifs, such as horseshoe arches, domes, and intricate decoration, influencing future Islamic architecture.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Abbasid Period": {
         "architects": [
@@ -6678,9 +6607,7 @@
             ]
         },
         "short": "The Abbasid Period, from the 8th to the 13th century, featured Islamic architecture with grand mosques, elaborate domes, arches, and calligraphy.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Fatimid Period": {
         "architects": [
@@ -6750,9 +6677,7 @@
             ]
         },
         "short": "Fatimid architecture style was prominent during the 10th-12th centuries in Egypt, characterized by geometric designs, dome structures, and minarets.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Andalusian Period": {
         "architects": [
@@ -6957,9 +6882,7 @@
             "characteristic_3": "Prominent use of arches and domes"
         },
         "short": "The Mamluk Period architecture style was characterized by intricate geometric patterns, bold calligraphy, and the use of local materials.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Safavid Period": {
         "architects": [
@@ -7220,9 +7143,7 @@
             ]
         },
         "short": "The Timurid Period architecture style was characterized by intricate tile work, ribbed vaults, and dome structures, blending Persian and Central Asian designs.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Modern Islamic": {
         "architects": [
@@ -7302,9 +7223,7 @@
             }
         ],
         "short": "\"Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.\"",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Indigenous Australian": {
         "architects": [
@@ -7374,9 +7293,7 @@
             ]
         },
         "short": "Indigenous Australian architecture is characterized by its connection to the land, use of natural materials, and harmonious integration with the environment.",
-        "significance": {
-            "scale": 8.5
-        }
+        "significance": 8.5
     },
     "Polynesian": {
         "architects": [
@@ -7591,9 +7508,7 @@
             ]
         },
         "short": "Contemporary Oceania architecture style embodies a fusion of modern design elements and indigenous cultural influence found in the Pacific region.",
-        "significance": {
-            "significance_scale": 7
-        }
+        "significance": 7
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -7671,9 +7586,7 @@
             ]
         },
         "short": "\"Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.\"",
-        "significance": {
-            "scale_of_significance": 7.5
-        }
+        "significance": 7.5
     },
     "Mud Brick": {
         "architects": [
@@ -7764,9 +7677,7 @@
             ]
         },
         "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures.",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Stilt House": {
         "architects": [
@@ -7853,9 +7764,7 @@
         "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
         "Start_Year": " 6000 BCE",
         "End_Year": " present",
-        "significance": {
-            "score": 8
-        }
+        "significance": 8
     },
     "Blobitecture": {
         "architects": [
@@ -7928,9 +7837,7 @@
         "Start_Year": " 1950 CE",
         "End_Year": " present",
         "icon": "blobitecture.png",
-        "significance": {
-            "scale": 6.5
-        }
+        "significance": 6.5
     },
     "Googie": {
         "architects": [
@@ -8441,9 +8348,7 @@
         "Start_Year": " 1800 CE",
         "End_Year": " 1815 CE",
         "icon": "regency.png",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Moorish": {
         "architects": [
@@ -8600,9 +8505,7 @@
         "Start_Year": " 1812 CE",
         "End_Year": " 1930 CE",
         "icon": "moorish_revival.png",
-        "significance": {
-            "scale": 8.5
-        }
+        "significance": 8.5
     },
     "Ottoman": {
         "architects": [
@@ -8837,9 +8740,7 @@
         "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures.",
         "Start_Year": " 600 BCE",
         "End_Year": " 600 CE",
-        "significance": {
-            "score": 9
-        }
+        "significance": 9
     },
     "Swahili": {
         "architects": [
@@ -9212,9 +9113,7 @@
         "short": "Vietnamese architecture blends traditional elements, such as curved roofs and open courtyards, with influences from Chinese and French colonial styles.",
         "Start_Year": " 600 CE",
         "End_Year": " present",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Berber": {
         "architects": [
@@ -9436,9 +9335,7 @@
         "short": "\"Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.\"",
         "Start_Year": " 300 BCE",
         "End_Year": " present",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7
     },
     "Federal": {
         "architects": [
@@ -9502,7 +9399,7 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": "noun: architecture style\nadjective: federal",
+        "terms": "noun: architecture styleadjective: federal",
         "character": {
             "Characteristic Elements": [
                 "Symmetry: Federal architecture is known for its symmetrical designs, both exterior and interior. This includes evenly spaced windows and doors, as well as balanced proportions.",
