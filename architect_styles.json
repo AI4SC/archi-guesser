@@ -124,10 +124,7 @@
                 "Geometric Shapes: Renaissance buildings often featured geometric shapes, such as squares, circles, and triangles. These shapes were used to create a sense of balance and proportion in the overall design."
             ]
         },
-        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece.",
-        "significance": {
-            "scale": 7.5
-        }
+        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece."
     },
     "Secession": {
         "architects": [
@@ -441,10 +438,7 @@
                 "Decorative Detailing: Neoclassical buildings often showcase decorative detailing, such as elaborate cornices, friezes, and ornate moldings."
             ]
         },
-        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint."
     },
     "Gothic": {
         "architects": [
@@ -523,10 +517,7 @@
                 "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
             ]
         },
-        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\"",
-        "significance": {
-            "scale": 9
-        }
+        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\""
     },
     "Art Deco": {
         "architects": [
@@ -607,10 +598,7 @@
                 "Use of decorative motifs and symbols"
             ]
         },
-        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials."
     },
     "Mid-century modern": {
         "architects": [
@@ -797,10 +785,7 @@
                 "Tall, narrow windows with arched tops: Italianate buildings often have tall, narrow windows with arched tops, which are inspired by the architectural elements found in Italian Renaissance buildings."
             ]
         },
-        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details.",
-        "significance": {
-            "scale": 7.5
-        }
+        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details."
     },
     "Brutalist": {
         "architects": [
@@ -929,10 +914,7 @@
                 "Expressive use of materials: Deconstructivist architecture emphasizes the use of raw and exposed materials, such as concrete, steel, glass, and industrial elements. These materials are often used artistically, showcasing their inherent qualities and structural potential."
             ]
         },
-        "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles."
     },
     "Beaux Arts": {
         "architects": [
@@ -1067,9 +1049,7 @@
             ]
         },
         "short": "Shingle Style is an architectural style characterized by the use of shingles as the primary exterior material, often showcasing asymmetrical designs and rustic aesthetics.",
-        "significance": {
-            "scale": "7"
-        }
+        "significance": 7
     },
     "American Craftsman": {
         "architects": [
@@ -1196,10 +1176,7 @@
                 "Open floor plan with a strong connection to the outdoor space"
             ]
         },
-        "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
-        "significance": {
-            "scale": 6
-        }
+        "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America."
     },
     "Colonial Revival": {
         "architects": [
@@ -1265,9 +1242,7 @@
             "3": "Use of columns and pillars for support"
         },
         "short": "The Colonial Revival architectural style was popular in the late 19th and early 20th centuries, characterized by a return to traditional colonial-era American design elements.",
-        "significance": {
-            "score": 8
-        }
+        "significance": 8
     },
     "Mesoamerican": {
         "architects": [
@@ -1342,10 +1317,7 @@
                 "Courtyard and open-air spaces: Mesoamerican architecture frequently incorporates the use of courtyards and open-air spaces. These allow for open gathering areas, religious ceremonies, and social interaction within the structures."
             ]
         },
-        "short": "Mesoamerican architecture is characterized by pyramids, temples, and palaces, with intricate carvings and symbols, reflecting the culture and beliefs of indigenous civilizations.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Mesoamerican architecture is characterized by pyramids, temples, and palaces, with intricate carvings and symbols, reflecting the culture and beliefs of indigenous civilizations."
     },
     "Baroque": {
         "architects": [
@@ -1419,10 +1391,7 @@
                 "Use of curves and dynamic shapes"
             ]
         },
-        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale.",
-        "significance": {
-            "score": 8
-        }
+        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale."
     },
     "Postmodern": {
         "architects": [
@@ -1573,10 +1542,7 @@
                 "Romanesque portals"
             ]
         },
-        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows."
     },
     "Rococo": {
         "architects": [
@@ -1652,10 +1618,7 @@
                 "Pastel colors and light, playful atmosphere"
             ]
         },
-        "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves.",
-        "significance": {
-            "score": 8.5
-        }
+        "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves."
     },
     "Art Nouveau": {
         "architects": [
@@ -1808,9 +1771,8 @@
             ]
         },
         "short": "Greek Revival architecture is characterized by its use of classical Greek design elements such as columns, pediments, and symmetrical shapes, popularized in the 19th century",
-        "significance": {
-            "scale": 8.5
-        }
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Georgian": {
         "architects": [
@@ -1880,10 +1842,7 @@
                 "Use of classical elements such as columns, cornices, and pediments"
             ]
         },
-        "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain."
     },
     "International Style": {
         "architects": [
@@ -1956,9 +1915,9 @@
             ]
         },
         "short": "\"International Style\" is a minimalist architectural style that emerged in the 1920s, characterized by clean lines, simple forms, and functional design.",
-        "significance": {
-            "scale": 8
-        }
+        "Start_Year": "1920 CE",
+        "End_Year": "1950 CE",
+        "icon": "international_style.png"
     },
     "Modernist": {
         "architects": [
@@ -2225,11 +2184,7 @@
                 "Elaborate chimneys"
             ]
         },
-        "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering.",
-        "significance": {
-            "scale": 8,
-            "reasoning": "The Tudor architecture style was significant on a rating of 8 because it had a substantial impact on the development of architecture during the Tudor period in England. This style emerged during the 16th century and combined elements of Gothic and Renaissance architecture. It featured distinct characteristics such as half-timbered exteriors, tall chimneys, decorative brickwork, and elaborate details. Tudor architecture played a pivotal role in shaping the architectural landscape of England and continues to be considered an influential style. However, it may not be rated a complete 10 as there have been other architectural styles throughout history that have had a wider global impact."
-        }
+        "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering."
     },
     "Colonial": {
         "architects": [
@@ -2421,9 +2376,8 @@
             ]
         },
         "short": "\"Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.\"",
-        "significance": {
-            "score": 7
-        }
+        "Start_Year": " 1950 CE",
+        "End_Year": " present"
     },
     "Byzantine": {
         "architects": [
@@ -2495,10 +2449,7 @@
                 "Columns and arches: Byzantine architecture incorporates intricate column designs, including the use of paired columns and pilasters. Arches, especially the semi-circular or rounded arches, are also commonly seen in Byzantine buildings."
             ]
         },
-        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire.",
-        "significance": {
-            "score": 8.5
-        }
+        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire."
     },
     "Ancient Egyptian": {
         "architects": [
@@ -2564,10 +2515,7 @@
                 "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
             ]
         },
-        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\"",
-        "significance": {
-            "score": 9.5
-        }
+        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\""
     },
     "Mannerist": {
         "architects": [
@@ -2693,9 +2641,7 @@
             ]
         },
         "short": "The Arts and Crafts architecture style emerged in the late 19th century, emphasizing craftsmanship, natural materials, and simpler, more functional design.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8
     },
     "Victorian": {
         "architects": [
@@ -2762,10 +2708,7 @@
                 "Use of diverse architectural styles: Victorian architecture draws inspiration from various architectural styles, including Gothic Revival, Italianate, Queen Anne, and Second Empire. This results in a diverse range of architectural features, such as pointed arches, towers, bay windows, and decorative brackets."
             ]
         },
-        "short": "\"Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.\"",
-        "significance": {
-            "scale": 8
-        }
+        "short": "\"Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.\""
     },
     "Parametric": {
         "architects": [
@@ -3055,7 +2998,7 @@
         },
         "short": "\"Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.\"",
         "significance": {
-            "scale": 8
+            "scale_of_significance": 7
         }
     },
     "Ancient Greek": {
@@ -3278,10 +3221,7 @@
                 "Gargoyles and grotesques: Gothic Revival buildings frequently include ornamental sculptures of fantastical creatures such as gargoyles or grotesques, adding a sense of drama and mystery to the architecture."
             ]
         },
-        "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details."
     },
     "Beaux-Arts": {
         "architects": [
@@ -3349,9 +3289,7 @@
             ]
         },
         "short": "Beaux-Arts is an architectural style characterized by grandeur, classical elements, and symmetry, popularized in the late 19th and early 20th centuries.",
-        "significance": {
-            "scale": 9
-        }
+        "significance": "7"
     },
     "International Style (Modernism)": {
         "architects": [
@@ -3524,10 +3462,7 @@
                 "Lack of ornamentation"
             ]
         },
-        "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style."
     },
     "High-Tech": {
         "architects": [
@@ -3604,10 +3539,7 @@
                 "3. Technological integration and innovation: High-Tech buildings showcase advanced technology and often incorporate it into their design. This could include integrated smart systems, energy-efficient features, sustainable practices, and innovative construction techniques."
             ]
         },
-        "short": "\"High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.\"",
-        "significance": {
-            "score": 9.5
-        }
+        "short": "\"High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.\""
     },
     "Neo-Futurism": {
         "architects": [
@@ -3677,10 +3609,7 @@
                 "Emphasis on sustainability and eco-friendliness"
             ]
         },
-        "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility.",
-        "significance": {
-            "score": 7
-        }
+        "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility."
     },
     "Sustainable (Green)": {
         "architects": [
@@ -3759,10 +3688,7 @@
                 }
             ]
         },
-        "short": "\"Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.\"",
-        "significance": {
-            "score": 8
-        }
+        "short": "\"Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.\""
     },
     "Parametricism": {
         "architects": [
@@ -3830,7 +3756,8 @@
                 "Responsive and adaptable architecture"
             ]
         },
-        "short": "Parametricism is a contemporary architectural style that uses digital tools to design dynamic, complex forms, emphasizing organic and fluid structures."
+        "short": "Parametricism is a contemporary architectural style that uses digital tools to design dynamic, complex forms, emphasizing organic and fluid structures.",
+        "significance": 5
     },
     "New Formalism": {
         "architects": [
@@ -3902,11 +3829,7 @@
                 "Use of high-quality materials and craftsmanship"
             ]
         },
-        "short": "\"New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.\"",
-        "significance": {
-            "scale": "1 to 10",
-            "rating": 5
-        }
+        "short": "\"New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.\""
     },
     "Late Modernism": {
         "architects": [
@@ -3974,9 +3897,8 @@
             ]
         },
         "short": "Late Modernism is an architectural style that emerged in the mid-20th century, characterized by functional designs, technological advancements, and simplicity in form.",
-        "significance": {
-            "score": 8
-        }
+        "significance": 7,
+        "icon": "late modernism.png"
     },
     "Neo-Expressionism": {
         "architects": [
@@ -4045,10 +3967,7 @@
                 "Emotional and subjective design approach"
             ]
         },
-        "short": "\"Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.\"",
-        "significance": {
-            "scale": 7
-        }
+        "short": "\"Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.\""
     },
     "Critical Regionalism": {
         "architects": [
@@ -4118,10 +4037,7 @@
                 "Sense of place: Critical Regionalism aims to create a sense of place and identity in architecture. It focuses on capturing the spirit of the region while addressing the needs of the contemporary world."
             ]
         },
-        "short": "Critical Regionalism is an architectural style that blends modern elements with local traditions, materials, and culture, promoting sustainable and contextual designs.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Critical Regionalism is an architectural style that blends modern elements with local traditions, materials, and culture, promoting sustainable and contextual designs."
     },
     "Post-Structuralism": {
         "architects": [
@@ -4189,10 +4105,7 @@
             "Characteristic 2": "Emphasis on deconstruction and fragmentation",
             "Characteristic 3": "Exploration of fluidity and flexibility in design"
         },
-        "short": "Post-Structuralism architecture rejects traditional principles, focusing on fluidity, fragmentation, and deconstruction of space to challenge societal norms and hierarchies.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Post-Structuralism architecture rejects traditional principles, focusing on fluidity, fragmentation, and deconstruction of space to challenge societal norms and hierarchies."
     },
     "De Stijl": {
         "architects": [
@@ -4256,9 +4169,7 @@
             ]
         },
         "short": "De Stijl architecture style is characterized by geometric shapes, primary colors, and simplicity, reflecting the principles of neoplasticism and the pursuit of visual balance.",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8
     },
     "Expressionism": {
         "architects": [
@@ -4320,10 +4231,7 @@
                 "Symbolic use of materials and colors: Expressionism architecture uses materials and colors in a symbolic manner to convey specific meanings or emotions. Unconventional combinations and bold contrasts are often employed to create striking visual effects."
             ]
         },
-        "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality.",
-        "significance": {
-            "score": 8
-        }
+        "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality."
     },
     "Structural Expressionism": {
         "architects": [
@@ -4391,10 +4299,7 @@
                 "Integration of engineering principles: Structural Expressionism emphasizes the integration of engineering principles into the architectural design, allowing the structural elements to be seen as essential features of the building rather than hidden and minimized."
             ]
         },
-        "short": "\"Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.\"",
-        "significance": {
-            "score": 7
-        }
+        "short": "\"Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.\""
     },
     "Pre-Romanesque": {
         "architects": [
@@ -4533,7 +4438,8 @@
                 "Dynamic and geometric forms"
             ]
         },
-        "short": "Constructivism is an architectural style that emerged in the early 20th century, emphasizing geometric forms, industrial materials, and functional design."
+        "short": "Constructivism is an architectural style that emerged in the early 20th century, emphasizing geometric forms, industrial materials, and functional design.",
+        "significance": 5
     },
     "Neolithic": {
         "architects": [
@@ -4627,9 +4533,7 @@
             ]
         },
         "short": "Neolithic architecture style is characterized by the use of wood, stone, and mud-brick construction, featuring simple, functional designs for housing and communal structures.",
-        "significance": {
-            "scale": 7.5
-        }
+        "significance": 7.5
     },
     "Mesopotamia": {
         "architects": [
@@ -4700,10 +4604,7 @@
                 "Archways and Vaults: Mesopotamian architecture incorporated the use of archways and vaults, which were key elements in creating monumental structures. These architectural features provided stability and allowed for the construction of large, open spaces."
             ]
         },
-        "short": "\"Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.\"",
-        "significance": {
-            "scale": 7
-        }
+        "short": "\"Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.\""
     },
     "Ancient Persian": {
         "architects": [
@@ -4772,10 +4673,7 @@
                 "Extensive use of glazed ceramic tiles for decorative purposes"
             ]
         },
-        "short": "\"Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.\"",
-        "significance": {
-            "scale": 8
-        }
+        "short": "\"Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.\""
     },
     "Muscovite": {
         "architects": [
@@ -4843,10 +4741,7 @@
                 "Horizontal emphasis: Muscovite architecture typically showcases a strong horizontal emphasis, with long, low buildings that feature elongated facades and horizontal lines."
             ]
         },
-        "short": "Muscovite architecture refers to the distinctive style of buildings in Moscow, characterized by ornate decorations, bright colors, and onion-domed churches.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Muscovite architecture refers to the distinctive style of buildings in Moscow, characterized by ornate decorations, bright colors, and onion-domed churches."
     },
     "Chinese Imperial": {
         "architects": [
@@ -4920,10 +4815,7 @@
                 "Distinctive roof style: The architecture features roofs with upturned eaves, known as dougong. These roofs are typically adorned with intricate and colorful decorations, such as dragon motifs, representing protection and good fortune."
             ]
         },
-        "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations.",
-        "significance": {
-            "scale": 8.5
-        }
+        "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations."
     },
     "Gupta": {
         "architects": [
@@ -4992,7 +4884,8 @@
                 "Three-tiered roof structures"
             ]
         },
-        "short": "The Gupta architecture style is a blend of Hindu and Buddhist influences, known for its elaborate and ornate structures, including temples and palaces."
+        "short": "The Gupta architecture style is a blend of Hindu and Buddhist influences, known for its elaborate and ornate structures, including temples and palaces.",
+        "significance": 5
     },
     "Nagara": {
         "architects": [
@@ -5060,7 +4953,8 @@
                 "Intricate carvings and sculptures on pillars and walls"
             ]
         },
-        "short": "\"Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens."
+        "short": "\"Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens.",
+        "significance": 5
     },
     "Dravidian": {
         "architects": [
@@ -5203,9 +5097,10 @@
             "2": "Incorporation of both indigenous and foreign elements",
             "3": "Use of intricate and decorative ornamentation"
         },
-        "short": "Vesara architecture style combines elements of Dravidian and Indo-Aryan styles, characterized by sturdiness, intricately carved ornamentation, and a fusion of regional styles."
+        "short": "Vesara architecture style combines elements of Dravidian and Indo-Aryan styles, characterized by sturdiness, intricately carved ornamentation, and a fusion of regional styles.",
+        "significance": 5
     },
-    "Jain architecture": {
+    "Jain": {
         "architects": [
             {
                 "name": "Virchand Gandhi",
@@ -5269,7 +5164,8 @@
                 "Mandapas: Jain temples feature mandapas, which are pillared halls or pavilions used for religious ceremonies, gatherings, and performances. These mandapas are usually adorned with elaborately carved pillars and ceilings, enhancing the grandeur of the temple."
             ]
         },
-        "short": "Jain architecture is a rich and intricate style characterized by ornate temple designs and intricate sculptures, reflecting Jain beliefs and values."
+        "short": "Jain architecture is a rich and intricate style characterized by ornate temple designs and intricate sculptures, reflecting Jain beliefs and values.",
+        "significance": 5
     },
     "M\u0101ru-Gurjara": {
         "architects": [
@@ -5334,10 +5230,7 @@
                 "Presence of jharokhas (balconies) and chhatris (domed pavilions)"
             ]
         },
-        "short": "M\u0101ru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India.",
-        "significance": {
-            "score": 8.5
-        }
+        "short": "M\u0101ru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India."
     },
     "Asuka and Nara": {
         "architects": [
@@ -5469,10 +5362,7 @@
                 "Distinct roof structures: The roofs of Heian period architecture were easily recognizable, with sweeping curved lines and exaggerated eaves. The roofs were often the most decorative part of the buildings, showcasing intricate patterns and stylized elements."
             ]
         },
-        "short": "The Heian period architecture style was characterized by simplicity, symmetry, and the use of natural materials, reflecting the influence of Chinese design.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "The Heian period architecture style was characterized by simplicity, symmetry, and the use of natural materials, reflecting the influence of Chinese design."
     },
     "Kamakura and Muromachi periods": {
         "architects": [
@@ -5616,10 +5506,7 @@
                 "Integration of natural elements, such as gardens and water features"
             ]
         },
-        "short": "Azuchi-Momoyama architecture was a unique blend of traditional Japanese design and new influences, characterized by grand castles, intricate detailing, and bold stylized decorations.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Azuchi-Momoyama architecture was a unique blend of traditional Japanese design and new influences, characterized by grand castles, intricate detailing, and bold stylized decorations."
     },
     "Edo Period": {
         "architects": [
@@ -5690,7 +5577,8 @@
         "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
         "significance": {
             "Edo_Period_architecture_significance": 7
-        }
+        },
+        "icon": "edo_period.png"
     },
     "Meiji and Taish\u014d and early Sh\u014dwa": {
         "architects": [
@@ -5761,10 +5649,7 @@
                 "3. Emphasis on grandeur and symbolism: Buildings of this style often displayed a sense of grandeur and symbolism. They were designed to project power and promote national identity. The architecture often featured large entrance gates, imposing facades, and ornate roofs with symbolic motifs."
             ]
         },
-        "short": "Meiji, Taish\u014d, and early Sh\u014dwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Meiji, Taish\u014d, and early Sh\u014dwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new."
     },
     "Late Showa": {
         "architects": [
@@ -5908,10 +5793,7 @@
                 "Integration of the surrounding nature into the design, often through elements like gardens and open spaces"
             ]
         },
-        "short": "\"Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.\"",
-        "significance": {
-            "scale": 9
-        }
+        "short": "\"Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.\""
     },
     "Khmer Empire": {
         "architects": [
@@ -5983,10 +5865,7 @@
                 "Bas-Reliefs: Elaborate and extensive carvings depicting religious and historical scenes"
             ]
         },
-        "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale.",
-        "significance": {
-            "scale": 10
-        }
+        "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale."
     },
     "Mughal Empire": {
         "architects": [
@@ -6048,10 +5927,7 @@
                 "Garden and water features: The Mughal architecture style often includes the incorporation of lush gardens and water features. Mughal gardens are known for their symmetry, geometric design, and the integration of fountains, canals, and pools, creating a harmonious and serene environment."
             ]
         },
-        "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes.",
-        "significance": {
-            "scale": 9
-        }
+        "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes."
     },
     "Joseon Dynasty": {
         "architects": [
@@ -6192,10 +6068,7 @@
                 "Domed roofs: Many Safavid buildings had domed roofs, which gave them a distinct silhouette. The domes were usually decorated with intricate tilework or painted patterns and were often supported by squinches or pendentives, architectural elements that allowed for the transition from square rooms to circular domes."
             ]
         },
-        "short": "The Safavid Dynasty architecture style was characterized by grand domed structures, intricate tilework, and the use of Persian motifs and calligraphy.",
-        "significance": {
-            "scale": 10
-        }
+        "short": "The Safavid Dynasty architecture style was characterized by grand domed structures, intricate tilework, and the use of Persian motifs and calligraphy."
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -6262,10 +6135,7 @@
                 "3. Symmetry and Balance: The architecture of the Nguyen Dynasty emphasizes balance and symmetrical layouts. Buildings are often centered around a main axis and feature identical or mirrored elements."
             ]
         },
-        "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences.",
-        "significance": {
-            "scale": 7.5
-        }
+        "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences."
     },
     "Mauryan Period": {
         "architects": [
@@ -6403,10 +6273,7 @@
                 "Decorative artworks: Tang Dynasty architecture featured intricate and elaborate decorative artworks. These included ornate carvings, painted murals, and glazed ceramic tiles, which were used to embellish the exteriors and interiors of the buildings."
             ]
         },
-        "short": "Tang Dynasty architecture featured elegant and symmetrical designs, prominent use of brick and wood, multi-story pagodas, and grand imperial palaces.",
-        "significance": {
-            "scale": 9.5
-        }
+        "short": "Tang Dynasty architecture featured elegant and symmetrical designs, prominent use of brick and wood, multi-story pagodas, and grand imperial palaces."
     },
     "Pre-Columbian Period": {
         "architects": [
@@ -6482,10 +6349,7 @@
                 "Symbolic and religious importance: The architecture of this period was deeply connected to the religious and ceremonial activities of the indigenous cultures. The structures were designed as sacred spaces and served as focal points for rituals and offerings. They were decorated with elaborate symbols and motifs representing various deities and spiritual beliefs."
             ]
         },
-        "short": "Pre-Columbian Period architecture was characterized by stone structures with intricate carvings, pyramids, and monumental cities in Mesoamerica and South America.",
-        "significance": {
-            "scale": 6
-        }
+        "short": "Pre-Columbian Period architecture was characterized by stone structures with intricate carvings, pyramids, and monumental cities in Mesoamerica and South America."
     },
     "Mid-Century Modern": {
         "architects": [
@@ -6559,10 +6423,7 @@
                 "Integration with nature and outdoor spaces"
             ]
         },
-        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\"",
-        "significance": {
-            "scale": 8
-        }
+        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\""
     },
     "Umayyad Period": {
         "architects": [
@@ -6644,10 +6505,7 @@
                 }
             ]
         },
-        "short": "The Umayyad Period architecture style featured grand structures with Islamic motifs, such as horseshoe arches, domes, and intricate decoration, influencing future Islamic architecture.",
-        "significance": {
-            "scale": 9
-        }
+        "short": "The Umayyad Period architecture style featured grand structures with Islamic motifs, such as horseshoe arches, domes, and intricate decoration, influencing future Islamic architecture."
     },
     "Abbasid Period": {
         "architects": [
@@ -6720,10 +6578,7 @@
                 "Emphasis on intricate decorative elements"
             ]
         },
-        "short": "The Abbasid Period, from the 8th to the 13th century, featured Islamic architecture with grand mosques, elaborate domes, arches, and calligraphy.",
-        "significance": {
-            "scale": 9
-        }
+        "short": "The Abbasid Period, from the 8th to the 13th century, featured Islamic architecture with grand mosques, elaborate domes, arches, and calligraphy."
     },
     "Fatimid Period": {
         "architects": [
@@ -6792,10 +6647,7 @@
                 "The presence of domes and arches as significant architectural features"
             ]
         },
-        "short": "Fatimid architecture style was prominent during the 10th-12th centuries in Egypt, characterized by geometric designs, dome structures, and minarets.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "Fatimid architecture style was prominent during the 10th-12th centuries in Egypt, characterized by geometric designs, dome structures, and minarets."
     },
     "Andalusian Period": {
         "architects": [
@@ -6867,9 +6719,7 @@
             ]
         },
         "short": "The Andalusian architectural style in less than 150 characters is characterized by Islamic influences, use of geometric patterns, ornate decorations, and arches.",
-        "significance": {
-            "scale": 8
-        }
+        "significance": 8.5
     },
     "Seljuk Period": {
         "architects": [
@@ -7004,10 +6854,7 @@
             "characteristic_2": "Use of geometric patterns and arabesque motifs",
             "characteristic_3": "Prominent use of arches and domes"
         },
-        "short": "The Mamluk Period architecture style was characterized by intricate geometric patterns, bold calligraphy, and the use of local materials.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "The Mamluk Period architecture style was characterized by intricate geometric patterns, bold calligraphy, and the use of local materials."
     },
     "Safavid Period": {
         "architects": [
@@ -7144,9 +6991,7 @@
             ]
         },
         "short": "The Ottoman Period architecture style is characterized by ornate designs, domes, and minarets, reflecting a fusion of Islamic and Byzantine influences.",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8
     },
     "Modern Islamic Architecture": {
         "architects": [
@@ -7269,10 +7114,7 @@
                 "Integration of traditional and innovative architectural techniques"
             ]
         },
-        "short": "The Timurid Period architecture style was characterized by intricate tile work, ribbed vaults, and dome structures, blending Persian and Central Asian designs.",
-        "significance": {
-            "scale": 8
-        }
+        "short": "The Timurid Period architecture style was characterized by intricate tile work, ribbed vaults, and dome structures, blending Persian and Central Asian designs."
     },
     "Modern Islamic": {
         "architects": [
@@ -7351,10 +7193,7 @@
                 "example": "Masjid al-Haram Expansion Project in Mecca, Saudi Arabia"
             }
         ],
-        "short": "\"Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.\"",
-        "significance": {
-            "scale": 8.5
-        }
+        "short": "\"Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.\""
     },
     "Indigenous Australian": {
         "architects": [
@@ -7423,10 +7262,7 @@
                 "Sustainable design practices: Indigenous Australian architecture values sustainability and strives for a minimal environmental impact. It utilizes techniques such as passive design, natural ventilation, and water harvesting to create environmentally friendly and energy-efficient buildings."
             ]
         },
-        "short": "Indigenous Australian architecture is characterized by its connection to the land, use of natural materials, and harmonious integration with the environment.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Indigenous Australian architecture is characterized by its connection to the land, use of natural materials, and harmonious integration with the environment."
     },
     "Polynesian": {
         "architects": [
@@ -7498,10 +7334,7 @@
                 "Intricate carvings: Another characteristic element of Polynesian architecture is the intricate carvings found on various structures. These carvings often depict figures from Polynesian mythology or represent important cultural symbols and stories."
             ]
         },
-        "short": "Polynesian architecture is characterized by its open-air structures, thatched roofs, natural materials, and harmonious integration with the surrounding environment.",
-        "significance": {
-            "scale": 8.5
-        }
+        "short": "Polynesian architecture is characterized by its open-air structures, thatched roofs, natural materials, and harmonious integration with the surrounding environment."
     },
     "Pacific Islander": {
         "architects": [
@@ -7572,9 +7405,7 @@
             ]
         },
         "short": "Pacific Islander architecture style is characterized by open-air spaces, thatched roofs, natural materials, intricate carvings, and harmonious integration with the surrounding environment.",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8
     },
     "Contemporary Oceania": {
         "architects": [
@@ -7645,10 +7476,7 @@
                 "Incorporation of traditional design elements"
             ]
         },
-        "short": "Contemporary Oceania architecture style embodies a fusion of modern design elements and indigenous cultural influence found in the Pacific region.",
-        "significance": {
-            "scale": 7
-        }
+        "short": "Contemporary Oceania architecture style embodies a fusion of modern design elements and indigenous cultural influence found in the Pacific region."
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -7725,10 +7553,7 @@
                 "Community-centered approach: Indigenous contemporary architecture is often developed with a community-centered approach, involving local stakeholders and indigenous communities in the design process. The architecture style aims to promote community cohesion, cultural revitalization, and empowerment through architecture that reflects the needs and aspirations of the indigenous community."
             ]
         },
-        "short": "\"Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.\"",
-        "significance": {
-            "score": 9
-        }
+        "short": "\"Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.\""
     },
     "Mud Brick": {
         "architects": [
@@ -7903,9 +7728,8 @@
             ]
         },
         "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
-        "significance": {
-            "scale": 6
-        }
+        "Start_Year": " 6000 BCE",
+        "End_Year": " present"
     },
     "Blobitecture": {
         "architects": [
@@ -7975,9 +7799,9 @@
             ]
         },
         "short": "Blobitecture is an architectural style characterized by organic, curvaceous and unconventional forms, often resembling blobs, aiming to break away from traditional rectilinear designs.",
-        "significance": {
-            "score": 8
-        }
+        "Start_Year": " 1950 CE",
+        "End_Year": " present",
+        "icon": "blobitecture.png"
     },
     "Googie": {
         "architects": [
@@ -8041,13 +7865,16 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": "Nouns: architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners\n\nAdjectives: bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
+        "terms": " architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
         "character": [
             "Futuristic design elements",
             "Use of geometric shapes and angles",
             "Incorporation of space age and atomic age motifs"
         ],
-        "short": "Googie architecture emerged in the mid-20th century, characterized by futuristic designs with a focus on space-age aesthetics, vibrant colors, and exaggerated shapes."
+        "short": "Googie architecture emerged in the mid-20th century, characterized by futuristic designs with a focus on space-age aesthetics, vibrant colors, and exaggerated shapes.",
+        "Start_Year": " 1945 CE",
+        "End_Year": " 1970 CE",
+        "icon": "googie.png"
     },
     "Igloo": {
         "architects": [
@@ -8115,9 +7942,10 @@
             ]
         },
         "short": "\"Igloo\" is an architectural style for developing software systems with loosely coupled components, isolated from underlying infrastructure and communication protocols.",
-        "significance": {
-            "rating": 8.5
-        }
+        "significance": 8.5,
+        "Start_Year": " 1000 BCE",
+        "End_Year": " 1800 CE",
+        "icon": "igloo.png"
     },
     "Indo-Islamic": {
         "architects": [
@@ -8176,7 +8004,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "nouns: blend, fusion, influence, mosque, minaret, dome, arch, courtyard\nadjectives: unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
+        "terms": "nouns: blend, fusion, influence, mosque, minaret, dome, arch, courtyardadjectives: unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
         "character": {
             "elements": [
                 "Blend of Indo and Islamic architectural styles",
@@ -8185,9 +8013,9 @@
             ]
         },
         "short": "Indo-Islamic architecture is a unique style blending Indian and Islamic design elements, characterized by intricate detailing, domes, and arches.",
-        "significance": {
-            "scale": 8
-        }
+        "Start_Year": " 1193 CE",
+        "End_Year": " 1700 CE",
+        "icon": "indo-islamic.png"
     },
     "Indo-Saracenic": {
         "architects": [
@@ -8232,7 +8060,16 @@
             "time_range": "Late 19th to early 20th century",
             "period": "Colonial period",
             "description": "Indo-Saracenic architecture is a blend of Indian and Islamic architectural styles that emerged during the British colonial rule in India. It combines elements of Indo-Islamic architecture with Gothic, Renaissance, and other Western architectural styles.",
-            "characteristics": "Features of Indo-Saracenic architecture include the use of Indian architectural elements like domes, arches, and minarets, combined with Western features such as symmetrical layouts, pointed arches, and stained glass windows. The buildings often incorporate intricate carvings, decorative motifs, and ornate detailing.",
+            "characteristics": [
+                "Features of Indo-Saracenic architecture include the use of Indian architectural elements like domes",
+                " arches",
+                " and minarets",
+                " combined with Western features such as symmetrical layouts",
+                " pointed arches",
+                " and stained glass windows. The buildings often incorporate intricate carvings",
+                " decorative motifs",
+                " and ornate detailing."
+            ],
             "examples": [
                 "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India",
                 "Mysore Palace in Mysore, India",
@@ -8251,9 +8088,10 @@
             ]
         },
         "short": "Indo-Saracenic architecture combines Indian and Islamic elements in a fusion style marked by intricate detailing, grandeur, and diverse influences.",
-        "significance": {
-            "scale": 7
-        }
+        "significance": 7,
+        "Start_Year": " 1795 CE",
+        "End_Year": " 1947 CE",
+        "icon": "indo-saracenic.png"
     },
     "Palladian": {
         "architects": [
@@ -8316,7 +8154,7 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": "nouns: architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence.\n\nadjectives: classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
+        "terms": "nouns: architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence.adjectives: classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
         "character": {
             "Characteristic Elements": [
                 "Symmetry: Palladian architecture is known for its strong emphasis on symmetry. Buildings designed in this style often feature an equal number of windows, columns, and other decorative elements on either side of a central axis.",
@@ -8327,7 +8165,10 @@
         "short": "Palladian architecture is a neoclassical style influenced by Andrea Palladio, characterized by symmetry, harmonious proportions, and use of classical elements.",
         "significance": {
             "significance": 8
-        }
+        },
+        "Start_Year": " 1700 CE",
+        "End_Year": " 1800 CE",
+        "icon": "palladian.png"
     },
     "Prairie": {
         "architects": [
@@ -8396,9 +8237,9 @@
             ]
         },
         "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
-        "significance": {
-            "scale": 7
-        }
+        "Start_Year": " 1910 CE",
+        "End_Year": " 1920 CE",
+        "icon": "prairie.png"
     },
     "Regency": {
         "architects": [
@@ -8468,9 +8309,9 @@
             ]
         },
         "short": "Regency architecture, popular from the early 19th century, is characterized by elegant simplicity, classical influences, and a focus on symmetry and proportion.",
-        "significance": {
-            "score": 8
-        }
+        "Start_Year": " 1800 CE",
+        "End_Year": " 1815 CE",
+        "icon": "regency.png"
     },
     "Moorish": {
         "architects": [
@@ -8533,7 +8374,7 @@
                 "Morocco"
             ]
         },
-        "terms": "Nouns: architecture style\nAdjectives: Moorish",
+        "terms": " architecture style Moorish",
         "character": {
             "characteristic_elements": [
                 "Arches: The Moorish architectural style is characterized by its abundant use of arches. These arches can be seen in doorways, windows, and other architectural features. They are often horseshoe-shaped or pointed, with decorative and intricate designs.",
@@ -8542,9 +8383,10 @@
             ]
         },
         "short": "Moorish architecture is characterized by intricate geometric patterns, ornate arches, and decorative tile work, representing the influence of Islamic art.",
-        "significance": {
-            "scale": 6
-        }
+        "significance": 8,
+        "Start_Year": " 800 CE",
+        "End_Year": " 1400 CE",
+        "icon": "moorish.png"
     },
     "Moorish Revival": {
         "architects": [
@@ -8600,10 +8442,21 @@
                 "Dolmabah\u00e7e Palace (Turkey)",
                 "Pavilion of Spain at the World's Columbian Exposition, Chicago (USA)"
             ],
-            "continent": "Europe, Africa, Asia, North America, and South America",
-            "country": "Multiple countries across Spain, Morocco, Turkey, and the United States"
+            "continent": [
+                "Europe",
+                " Africa",
+                " Asia",
+                " North America",
+                " and South America"
+            ],
+            "country": [
+                "Multiple countries across Spain",
+                " Morocco",
+                " Turkey",
+                " and the United States"
+            ]
         },
-        "terms": "noun: architecture style\nadjectives: Moorish, Revival",
+        "terms": "noun: architecture styleadjectives: Moorish, Revival",
         "character": {
             "characteristic_elements": [
                 "Horseshoe arches: The Moorish Revival style prominently features horseshoe arches, which are wide and rounded arches that resemble the shape of a horseshoe. These arches are commonly used in doorways, windows, and decorative motifs.",
@@ -8612,9 +8465,9 @@
             ]
         },
         "short": "Moorish Revival is an architectural style that incorporates elements of Moorish design, characterized by intricate geometric patterns and arches.",
-        "significance": {
-            "scale": 7
-        }
+        "Start_Year": " 1812 CE",
+        "End_Year": " 1930 CE",
+        "icon": "moorish_revival.png"
     },
     "Ottoman": {
         "architects": [
@@ -8676,7 +8529,7 @@
             "continent": "Europe and Asia",
             "country": "Turkey"
         },
-        "terms": "nouns: architecture, style\nadjectives: Ottoman.",
+        "terms": "nouns: architecture, styleadjectives: Ottoman.",
         "character": {
             "Characteristic Elements": [
                 "1. Use of domes and arches: Ottoman architecture is known for its grand domes and arches. These architectural elements are prominently featured in mosques, palaces, and other structures, giving them a distinctive look and feel.",
@@ -8685,9 +8538,9 @@
             ]
         },
         "short": "Ottoman architecture style was characterized by grandeur and elegance, combining elements of Byzantine, Islamic, and Persian design in monumental structures.",
-        "significance": {
-            "rating": 9
-        }
+        "significance": 9,
+        "Start_Year": " 1299 CE",
+        "End_Year": " 1922 CE"
     },
     "Thai": {
         "architects": [
@@ -8748,7 +8601,7 @@
             "continent": "Asia",
             "country": "Thailand"
         },
-        "terms": "nouns: pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colors\nadjectives: traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
+        "terms": "nouns: pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colorsadjectives: traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
         "character": {
             "characteristics": [
                 "Elaborate Roof Structures: Thai architecture is known for its dramatic and intricately designed roof structures. These roofs often feature multiple tiers, elaborate gables, and decorative finials. The roofs are usually steeply pitched and made of materials like ceramic tiles or thatched palm leaves.",
@@ -8757,9 +8610,8 @@
             ]
         },
         "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\"",
-        "significance": {
-            "scale": 8
-        }
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Persian": {
         "architects": [
@@ -8839,7 +8691,7 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "Nouns: domes, minarets, courtyards, tile work, arches, gardens\nAdjectives: intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
+        "terms": " domes, minarets, courtyards, tile work, arches, gardens intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
         "character": {
             "elements": [
                 "Iwan: A large, vaulted recess or chamber, usually opening onto a courtyard and characterized by a tall, pointed arch on one side. It is often used as an entrance or a prayer hall in Persian architecture.",
@@ -8847,7 +8699,9 @@
                 "Tilework: Intricate and colorful tile designs are a signature element of Persian architecture. They are often used to decorate the facades, domes, and interior spaces of buildings, featuring complex geometric patterns, floral motifs, and calligraphy."
             ]
         },
-        "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures."
+        "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures.",
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Swahili": {
         "architects": [
@@ -8912,7 +8766,7 @@
             "continent": "Africa",
             "country": "Kenya and Tanzania"
         },
-        "terms": "Nouns: Swahili, architecture, style  \nAdjectives: traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
+        "terms": " Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
         "character": {
             "Characteristic elements": [
                 "Influenced by African, Islamic, and Indian architectural styles",
@@ -8921,9 +8775,9 @@
             ]
         },
         "short": "Swahili architecture is a unique blend of Arab, Persian, and Indian influences, characterized by intricately carved wooden doors, coral stone buildings, and rooftop terraces.",
-        "significance": {
-            "rating": 7
-        }
+        "significance": 7,
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Federation": {
         "architects": [
@@ -8977,8 +8831,14 @@
                 "Microservices-based systems",
                 "Decentralized social networks"
             ],
-            "continent": "N/A, applicable globally",
-            "country": "N/A, applicable globally"
+            "continent": [
+                "N/A",
+                " applicable globally"
+            ],
+            "country": [
+                "N/A",
+                " applicable globally"
+            ]
         },
         "terms": "Federation: Distributed, Collaborative, Modular, Interconnected, Autonomous, Scalable.",
         "character": {
@@ -8989,7 +8849,9 @@
                 "Heterogeneous systems and technologies"
             ]
         },
-        "short": "\"Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity."
+        "short": "\"Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Korean": {
         "architects": [
@@ -9051,7 +8913,7 @@
             "continent": "Asia",
             "country": "South Korea"
         },
-        "terms": "Nouns: Traditional elements, wooden framework, angled roofs, courtyard, hanok (traditional Korean house), Buddhism influence, palaces, temples, gateways\n\nAdjectives: Elegant, minimalist, harmonious, earthy, rustic, symbolic, intricate, ornamental, timeless, culturally significant",
+        "terms": " Traditional elements, wooden framework, angled roofs, courtyard, hanok (traditional Korean house), Buddhism influence, palaces, temples, gateways Elegant, minimalist, harmonious, earthy, rustic, symbolic, intricate, ornamental, timeless, culturally significant",
         "character": {
             "characteristic elements": [
                 "Hanok: Traditional Korean houses, typically made of wood and stone with a tiled roof",
@@ -9060,9 +8922,9 @@
             ]
         },
         "short": "\"Korean architecture combines traditional influences with modern elements, known for its emphasis on harmony, use of natural materials, and elegant simplicity.\"",
-        "significance": {
-            "rating": 8
-        }
+        "significance": 8,
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Indonesian": {
         "architects": [
@@ -9137,7 +8999,10 @@
                 "Volcanic stone: Another notable characteristic element in Indonesian architecture is the use of volcanic stone, particularly in prominent structures like temples and palaces. Volcanic stone, known locally as batu candi, is not only durable but also provides a distinct aesthetic appeal to the buildings."
             ]
         },
-        "short": "Indonesian architecture style is characterized by intricate carvings, steep roofs, and use of natural materials like wood and bamboo."
+        "short": "Indonesian architecture style is characterized by intricate carvings, steep roofs, and use of natural materials like wood and bamboo.",
+        "significance": 6,
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Vietnamese": {
         "architects": [
@@ -9198,7 +9063,7 @@
             "continent": "Asia",
             "country": "Vietnam"
         },
-        "terms": "Nouns: Pagodas, temples, wooden structures, stone carving, courtyards, houses\nAdjectives: Ornate, elegant, symmetrical, traditional, influenced, harmonious, colorful.",
+        "terms": " Pagodas, temples, wooden structures, stone carving, courtyards, houses Ornate, elegant, symmetrical, traditional, influenced, harmonious, colorful.",
         "character": {
             "characteristics": [
                 "Influence of Chinese and French architectural styles",
@@ -9207,9 +9072,8 @@
             ]
         },
         "short": "Vietnamese architecture blends traditional elements, such as curved roofs and open courtyards, with influences from Chinese and French colonial styles.",
-        "significance": {
-            "score": 7
-        }
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Berber": {
         "architects": [
@@ -9268,9 +9132,14 @@
                 "Kasbah of Algiers in Algiers, Algeria"
             ],
             "continent": "Africa",
-            "country": "Morocco, Algeria, Tunisia, Libya"
+            "country": [
+                "Morocco",
+                " Algeria",
+                " Tunisia",
+                " Libya"
+            ]
         },
-        "terms": "noun: Berber architecture\n\nadjectives: traditional, vernacular, organic, earthy, sustainable, functional, harmonious",
+        "terms": "noun: Berber architectureadjectives: traditional, vernacular, organic, earthy, sustainable, functional, harmonious",
         "character": {
             "Characteristic elements of Berber architecture style": [
                 "Mud and stone construction",
@@ -9280,8 +9149,10 @@
         },
         "short": "Berber architecture is a traditional style characterized by earth-built structures, flat roofs, and intricate geometric patterns, prevalent in North Africa.",
         "significance": {
-            "scale": 8
-        }
+            "scale_of_significance": 8
+        },
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Nubian": {
         "architects": [
@@ -9349,8 +9220,10 @@
         },
         "short": "Nubian architecture is a traditional style characterized by mud-brick construction, vaulted roofs, and intricate decorative elements found in ancient Nubia.",
         "significance": {
-            "scale": 7
-        }
+            "answer": 8.5
+        },
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     },
     "Indian": {
         "architects": [
@@ -9415,7 +9288,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Nouns: Temples, palaces, gateways, minarets, courtyards, arches, domes, columns.\nAdjectives: Ornate, vibrant, colorful, intricate, symmetrical, grand, majestic, ancient, sacred, spiritual, diverse.",
+        "terms": " Temples, palaces, gateways, minarets, courtyards, arches, domes, columns. Ornate, vibrant, colorful, intricate, symmetrical, grand, majestic, ancient, sacred, spiritual, diverse.",
         "character": {
             "characteristics": [
                 "Intricate and decorative designs: Indian architecture is known for its intricate and highly detailed designs. It often incorporates elaborate carvings, patterns, and motifs, especially in religious buildings like temples.",
@@ -9424,8 +9297,7 @@
             ]
         },
         "short": "\"Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.\"",
-        "significance": {
-            "scale": 7
-        }
+        "Start_Year": " TBD",
+        "End_Year": " TBD"
     }
 }
