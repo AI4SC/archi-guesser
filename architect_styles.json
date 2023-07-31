@@ -124,7 +124,8 @@
                 "Geometric Shapes: Renaissance buildings often featured geometric shapes, such as squares, circles, and triangles. These shapes were used to create a sense of balance and proportion in the overall design."
             ]
         },
-        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece."
+        "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece.",
+        "significance": 8.5
     },
     "Secession": {
         "architects": [
@@ -598,7 +599,8 @@
                 "Use of decorative motifs and symbols"
             ]
         },
-        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials."
+        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials.",
+        "significance": 8
     },
     "Mid-century modern": {
         "architects": [
@@ -785,7 +787,8 @@
                 "Tall, narrow windows with arched tops: Italianate buildings often have tall, narrow windows with arched tops, which are inspired by the architectural elements found in Italian Renaissance buildings."
             ]
         },
-        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details."
+        "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details.",
+        "significance": 7
     },
     "Brutalist": {
         "architects": [
@@ -1391,7 +1394,8 @@
                 "Use of curves and dynamic shapes"
             ]
         },
-        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale."
+        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale.",
+        "significance": 9
     },
     "Postmodern": {
         "architects": [
@@ -1542,7 +1546,8 @@
                 "Romanesque portals"
             ]
         },
-        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows."
+        "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows.",
+        "significance": 7
     },
     "Rococo": {
         "architects": [
@@ -1697,7 +1702,7 @@
             ]
         },
         "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
-        "significance":  8
+        "significance": 8
     },
     "Greek Revival": {
         "architects": [
@@ -2271,7 +2276,7 @@
             ]
         },
         "short": "\"Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.\"",
-        "significance":  6
+        "significance": 6
     },
     "Contemporary": {
         "architects": [
@@ -2441,7 +2446,8 @@
                 "Columns and arches: Byzantine architecture incorporates intricate column designs, including the use of paired columns and pilasters. Arches, especially the semi-circular or rounded arches, are also commonly seen in Byzantine buildings."
             ]
         },
-        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire."
+        "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire.",
+        "significance": 9
     },
     "Ancient Egyptian": {
         "architects": [
@@ -3525,7 +3531,8 @@
                 "3. Technological integration and innovation: High-Tech buildings showcase advanced technology and often incorporate it into their design. This could include integrated smart systems, energy-efficient features, sustainable practices, and innovative construction techniques."
             ]
         },
-        "short": "\"High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.\""
+        "short": "\"High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.\"",
+        "significance": 8
     },
     "Neo-Futurism": {
         "architects": [
@@ -4348,7 +4355,7 @@
             ]
         },
         "short": "Pre-Romanesque architecture, prevalent from the 9th to 11th centuries, displays a blend of Roman, Byzantine, and Germanic influences with emphasis on simplicity and monumental structures.",
-        "significance":  8
+        "significance": 8
     },
     "Constructivism": {
         "architects": [
@@ -5214,7 +5221,8 @@
                 "Presence of jharokhas (balconies) and chhatris (domed pavilions)"
             ]
         },
-        "short": "M\u0101ru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India."
+        "short": "M\u0101ru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India.",
+        "significance": 8
     },
     "Asuka and Nara": {
         "architects": [
@@ -5775,7 +5783,8 @@
                 "Integration of the surrounding nature into the design, often through elements like gardens and open spaces"
             ]
         },
-        "short": "\"Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.\""
+        "short": "\"Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.\"",
+        "significance": 8
     },
     "Khmer Empire": {
         "architects": [
@@ -5847,7 +5856,8 @@
                 "Bas-Reliefs: Elaborate and extensive carvings depicting religious and historical scenes"
             ]
         },
-        "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale."
+        "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale.",
+        "significance": 8
     },
     "Mughal Empire": {
         "architects": [
@@ -5909,7 +5919,8 @@
                 "Garden and water features: The Mughal architecture style often includes the incorporation of lush gardens and water features. Mughal gardens are known for their symmetry, geometric design, and the integration of fountains, canals, and pools, creating a harmonious and serene environment."
             ]
         },
-        "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes."
+        "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes.",
+        "significance": 9
     },
     "Joseon Dynasty": {
         "architects": [
@@ -7991,7 +8002,8 @@
         "short": "Indo-Islamic architecture is a unique style blending Indian and Islamic design elements, characterized by intricate detailing, domes, and arches.",
         "Start_Year": " 1193 CE",
         "End_Year": " 1700 CE",
-        "icon": "indo-islamic.png"
+        "icon": "indo-islamic.png",
+        "significance": "8"
     },
     "Indo-Saracenic": {
         "architects": [
@@ -8213,7 +8225,8 @@
         "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
         "Start_Year": " 1910 CE",
         "End_Year": " 1920 CE",
-        "icon": "prairie.png"
+        "icon": "prairie.png",
+        "significance": 9
     },
     "Regency": {
         "architects": [
@@ -9122,7 +9135,7 @@
             ]
         },
         "short": "Berber architecture is a traditional style characterized by earth-built structures, flat roofs, and intricate geometric patterns, prevalent in North Africa.",
-        "significance":  8,
+        "significance": 8,
         "Start_Year": " TBD",
         "End_Year": " TBD"
     },
@@ -9191,7 +9204,7 @@
             "Element 3": "Incorporation of stone columns and vaulted roofs"
         },
         "short": "Nubian architecture is a traditional style characterized by mud-brick construction, vaulted roofs, and intricate decorative elements found in ancient Nubia.",
-        "significance":  8.5,
+        "significance": 8.5,
         "Start_Year": " TBD",
         "End_Year": " TBD"
     },
