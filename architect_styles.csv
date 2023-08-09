@@ -1,57 +1,59 @@
-style,Start_Year,End_Year
-Ancient Egyptian,3100 BCE,30 BCE
-Ancient Greek,900 BCE,146 BCE
-Ancient Roman,300 BCE,476 CE
-Byzantine,330 CE,1453 CE
-Islamic,622 CE,1500 CE
-Pre-Romanesque,300 CE,800 CE
-Romanesque,800 CE,1200 CE
-Gothic,1100 CE,1500 CE
-Renaissance,1400 CE, 1600 CE
-Baroque,1584 CE,1750 CE
-Rococo,1730 CE,1760 CE
-Neoclassical,1740 CE,1909 CE
-Georgian,1714 CE,1837 CE
-Victorian,1837 CE,1901 CE
-Gothic Revival,1840 CE,1890 CE
-Art Nouveau,1890 CE,1914 CE
-Beaux-Arts,1830 CE,1900 CE
-Arts and Crafts,1890 CE, 1930 CE
-Art Deco,1920 CE,1939 CE
-International Style,1920 CE,1950 CE
-Brutalism,1950 CE,1970 CE
-Postmodernism,1960 CE,present
-High-Tech,1960 CE,present
-Deconstructivism,1980 CE,present
-Neo-Futurism,1960 CE,present
-Sustainable (Green), 1970 CE,present
-Parametricism,1998 CE,present
-New Formalism,1950 CE,1980 CE
-Structural Expressionism,1950 CE,1980 CE
-Late Modernism,1960 CE,present
-Neo-Expressionism,1970 CE,present
-Critical Regionalism,1980 CE,present
-Post-Structuralism,1980 CE,present
-De Stijl,1917 CE,1931 CE
-Expressionism,1905 CE,1930 CE
-Tudor, 1485 CE, 1603 CE
-Colonial, 1600 CE, 1947 CE
-Italianate, 1830 CE, 1870 CE
-Shingle Style, 1880 CE, 1900 CE
-Ranch-style house, 1930 CE, 1970 CE
-Colonial Revival, 1880 CE, 1930 CE
-Mesoamerican, 2000 BCE, 1519 CE
-Constructivism, 1917 CE, 1930 CE
-Neolithic, 10000 BCE, 2000 BCE
-Mesopotamia, 10000 BCE, 6000 BCE
-Ancient Persian, 550 BCE, 330 BCE
-Muscovite,1407 CE, 1692 CE
-Chinese Imperial,618 CE, 1912 CE
-Gupta,320 CE, 550 CE
-Nagara,1000 CE, 1200 CE
-Dravidian,2500 BCE, 1000 BCE
-Vesara,603 CE, 1200 CE
-Jain,1000 CE, 1800 CE
+style,Start_Year,End_Year, google, scholar, continent, parent
+Ancient Egyptian,3100 BCE,30 BCE, 38.900.000, 469.000, Africa
+Ancient Greek,900 BCE,146 BCE,119.000.000,985.000, Europe
+Ancient Roman,300 BCE,476 CE,297.000.000,1.410.000, Europe
+Byzantine,330 CE,1453 CE,  30.200.000, 320.000, Europe
+Islamic,622 CE,1500 CE,259.000.000, 1.480.000, Arabia
+Pre-Romanesque,300 CE,800 CE, 3.170.000, 2.610 , Europe
+Romanesque,800 CE,1200 CE,14.600.000, 106.000, Europe
+Gothic,1100 CE,1500 CE,  89.600.000,398.000 , Europe
+Renaissance,1400 CE, 1600 CE, 172.000.000, 1.460.000 , Europe
+Baroque,1584 CE,1750 CE, 51.000.000, 182.000, Europe
+Rococo,1730 CE,1760 CE, 8.000.000,33.600, Europe
+Neoclassical,1740 CE,1909 CE, 14.800.000, 85.200, Europe
+Georgian,1714 CE,1837 CE, 69.000.000, 186.000, Europe
+Victorian,1837 CE,1901 CE, 150.000.000, 478.000, Europe
+Gothic Revival,1840 CE,1890 CE, 8.780.000, 82.300 , Europe
+Art Nouveau,1890 CE,1914 CE, 114.000.000, 205.000, Europe
+Beaux-Arts,1830 CE,1900 CE, 37.400.000, 90.100, Europe
+Arts and Crafts,1890 CE, 1930 CE, 91.700.000, 390.000, America
+Art Deco,1920 CE,1939 CE,  116.000.000, 103.000, America
+International Style,1920 CE,1950 CE, 622.000.000 , 2.880.000, International
+Brutalism,1950 CE,1970 CE,  3.130.000, 14.900 , Europe
+Postmodernism,1960 CE,2000 CE, 25.300.000, 276.000, International
+High-Tech,1960 CE,present, 1.150.000.000, 378.000, International
+Deconstructivism,1980 CE,present, 364.000, 9.310, International, Postmodernism
+Neo-Futurism,1960 CE,present, 498.000, 179, International, Parametricism
+Sustainable (Green), 1970 CE,present,365.000.000,11.700, International, 
+Parametricism,1998 CE,present,38.100.000,21.000,International,
+New Formalism,1950 CE,1980 CE, 4.400.000,266.000,America,
+Structural Expressionism,1950 CE,1980 CE, 284.000 ,28.800, International, Modernism
+Late Modernism,1960 CE,present,342.000.000, 468.000, International, Modernism
+Neo-Expressionism,1970 CE,present, 966.000 ,1.150,International
+Critical Regionalism,1980 CE,present, 2.390.000, 65.200, Europe
+Post-Structuralism,1980 CE,present, 196.000.000, 38.000, International, Postmodernism
+De Stijl,1917 CE,1931 CE, 4.390.000, 21.700, Europe, Modernism
+Expressionism,1905 CE,1930 CE,  9.980.000, 49.000, Europe, 
+
+Tudor, 1485 CE, 1603 CE, 133.000, 834, Europe, Medieval
+Colonial, 1600 CE, 1947 CE, 4.440.000, 17.600, International, 
+Italianate, 1830 CE, 1870 CE, 103.000, 556, International
+Shingle Style, 1880 CE, 1900 CE, 38.600, 97, America
+Ranch-style house, 1930 CE, 1970 CE, 71.600, 110, America
+Colonial Revival, 1880 CE, 1930 CE,121.000 ,449, America
+Mesoamerican, 2000 BCE, 1519 CE,  27.600, 732, America
+Constructivism, 1917 CE, 1930 CE, 42.700, 117, Asia
+Neolithic, 10000 BCE, 2000 BCE, 27.600 , 843, Europe
+Mesopotamia, 10000 BCE, 6000 BCE,   7.980, 48, Arabia
+Ancient Persian, 550 BCE, 330 BCE,  32.800, 87, Arabia
+Muscovite,1407 CE, 1692 CE, 3.050, 100, Asia, Baroque
+Chinese Imperial,618 CE, 1912 CE, 2.990.000 , 13.900 , Asia
+Gupta,320 CE, 550 CE, 17.500, 277, Asia
+Nagara,1000 CE, 1200 CE,  12.400, 104, Asia
+Dravidian,2500 BCE, 1000 BCE, 180.000 , 364, Asia
+Vesara,603 CE, 1200 CE, 2.850 , 30, Asia
+Jain,1000 CE, 1800 CE,  43.300, 329, Asia
+
 Māru-Gurjara,600 CE, 1300 CE
 Asuka and Nara,592 CE, 710 CE
 Heian period,794 CE,1185 CE
@@ -109,3 +111,4 @@ Berber, 600 CE, present
 Nubian, 3000 BCE, 1500 BCE
 Indian, 300 BCE, present
 Federal, 1790 CE, 1850 CE
+Rationalism, 1924 CE, 1980 CE
