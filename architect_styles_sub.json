@@ -63,7 +63,8 @@
                 "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
             ]
         },
-        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\""
+        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\"",
+        "significance": 8.5
     },
     "Ancient Greek": {
         "architects": [
@@ -426,7 +427,8 @@
                 "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
             ]
         },
-        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\""
+        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\"",
+        "significance": 9.5
     },
     "Renaissance": {
         "architects": [
@@ -488,7 +490,7 @@
         },
         "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
         "Start_Year": "1400 CE",
-        "End_Year": " 1600 CE",
+        "End_Year": "1600 CE",
         "icon": "renaissance.png",
         "character": {
             "characteristic_elements": [
@@ -649,7 +651,8 @@
                 "Pastel colors and light, playful atmosphere"
             ]
         },
-        "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves."
+        "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves.",
+        "significance": 7
     },
     "Neoclassical": {
         "architects": [
@@ -717,7 +720,8 @@
                 "Decorative Detailing: Neoclassical buildings often showcase decorative detailing, such as elaborate cornices, friezes, and ornate moldings."
             ]
         },
-        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint."
+        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint.",
+        "significance": 8
     },
     "Georgian": {
         "architects": [
@@ -787,7 +791,8 @@
                 "Use of classical elements such as columns, cornices, and pediments"
             ]
         },
-        "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain."
+        "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain.",
+        "significance": 8
     },
     "Gothic Revival": {
         "architects": [
@@ -848,7 +853,8 @@
                 "Gargoyles and grotesques: Gothic Revival buildings frequently include ornamental sculptures of fantastical creatures such as gargoyles or grotesques, adding a sense of drama and mystery to the architecture."
             ]
         },
-        "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details."
+        "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details.",
+        "significance": 8
     },
     "Art Nouveau": {
         "architects": [
@@ -1084,7 +1090,8 @@
         "short": "\"International Style\" is a minimalist architectural style that emerged in the 1920s, characterized by clean lines, simple forms, and functional design.",
         "Start_Year": "1920 CE",
         "End_Year": "1950 CE",
-        "icon": "international_style.png"
+        "icon": "international_style.png",
+        "significance": 8
     },
     "Brutalism": {
         "architects": [
@@ -1196,7 +1203,76 @@
                 "Lack of ornamentation"
             ]
         },
-        "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style."
+        "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style.",
+        "significance": 9
+    },
+    "Bauhaus": {
+        "architects": [
+            {
+                "name": "Walter Gropius",
+                "birthdate": "May 18, 1883",
+                "nationality": "German",
+                "description": "Founder of the Bauhaus school, Gropius was a visionary who sought to reconcile art and technology to create an architecture that was both functional and beautiful, with an emphasis on simplicity and rationality.",
+                "notable_buildings": [
+                    "The Fagus Factory",
+                    "Bauhaus Dessau",
+                    "Harvard Graduate Center"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthdate": "March 27, 1886",
+                "nationality": "German",
+                "description": "Mies van der Rohe was a master of modern architecture, with a focus on steel and glass construction that emphasized the Minimalist aesthetic. He was a director of the Bauhaus school before it was closed by the Nazis in 1933.",
+                "notable_buildings": [
+                    "Tugendhat House",
+                    "Barcelona Pavilion",
+                    "Seagram Building"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthdate": "October 6, 1887",
+                "nationality": "Swiss",
+                "description": "A pioneer of modern architecture and urban planning, Le Corbusier believed in the importance of creating functional, efficient, and beautiful buildings that served the needs of society. His work had a profound influence on the Bauhaus and vice versa.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Notre-Dame-du-Haut"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1919-1933",
+            "period": "20th century",
+            "description": "Bauhaus architecture was a design movement in Germany that aimed to combine fine arts with craftsmanship to create functional and affordable buildings. It emphasized the use of new materials and industrial techniques, resulting in minimalist and functional designs.",
+            "characteristics": [
+                "Minimalist design",
+                "Use of new materials",
+                "Functional and affordable buildings",
+                "Emphasis on craftsmanship"
+            ],
+            "examples": [
+                "Bauhaus building in Dessau",
+                "Fagus Factory in Alfeld",
+                "Haus am Horn in Weimar"
+            ],
+            "continent": "Europe",
+            "country": "Germany"
+        },
+        "terms": " design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative",
+        "icon": "bauhaus.png",
+        "character": {
+            "characteristic elements": [
+                "Functionality and simplicity: The Bauhaus architecture style emphasized the idea that buildings should be designed primarily for their intended purpose, rather than for decorative or ornamental purposes. The focus was on clean lines, geometric shapes, and a minimalistic aesthetic.",
+                "Form follows function: This principle states that the shape and design of a building should be dictated by its function or purpose. Bauhaus architects believed that the design of a building should be determined by its use and the materials used, rather than following traditional architectural styles or conventions.",
+                "Integration of art and technology: The Bauhaus movement sought to combine art and technology, incorporating new industrial materials and techniques into architectural design. This involved using innovative construction methods and materials, such as reinforced concrete and steel, and incorporating artworks and decorative elements into the overall design of buildings."
+            ]
+        },
+        "short": "Bauhaus architecture is a modernist style that focuses on simplicity, functionality, and the integration of art and technology.",
+        "significance": 8,
+        "Start_Year": "1919 CE",
+        "End_Year": "1933 CE"
     },
     "Postmodernism": {
         "architects": [
@@ -1265,7 +1341,7 @@
         },
         "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
         "Start_Year": "1960 CE",
-        "End_Year": "present",
+        "End_Year": "2000 CE",
         "icon": "postmodernism.png",
         "character": {
             "elements": [
@@ -1348,7 +1424,8 @@
                 "Expressive use of materials: Deconstructivist architecture emphasizes the use of raw and exposed materials, such as concrete, steel, glass, and industrial elements. These materials are often used artistically, showcasing their inherent qualities and structural potential."
             ]
         },
-        "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles."
+        "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles.",
+        "significance": 7
     },
     "Neo-Futurism": {
         "architects": [
@@ -1418,7 +1495,8 @@
                 "Emphasis on sustainability and eco-friendliness"
             ]
         },
-        "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility."
+        "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility.",
+        "significance": 8
     },
     "Parametricism": {
         "architects": [
@@ -1618,7 +1696,8 @@
                 "Symbolic use of materials and colors: Expressionism architecture uses materials and colors in a symbolic manner to convey specific meanings or emotions. Unconventional combinations and bold contrasts are often employed to create striking visual effects."
             ]
         },
-        "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality."
+        "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality.",
+        "significance": 7
     },
     "Tudor": {
         "architects": [
@@ -1678,8 +1757,8 @@
             "country": "England"
         },
         "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
-        "Start_Year": " 1485 CE",
-        "End_Year": " 1603 CE",
+        "Start_Year": "1485 CE",
+        "End_Year": "1603 CE",
         "icon": "tudor.png",
         "character": {
             "characteristic_elements": [
@@ -1688,7 +1767,8 @@
                 "Elaborate chimneys"
             ]
         },
-        "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering."
+        "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering.",
+        "significance": 8
     },
     "Italianate": {
         "architects": [
@@ -1748,8 +1828,8 @@
             "country": "United States of America"
         },
         "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
-        "Start_Year": " 1830 CE",
-        "End_Year": " 1870 CE",
+        "Start_Year": "1830 CE",
+        "End_Year": "1870 CE",
         "icon": "italianate.png",
         "character": {
             "characteristic elements": [
@@ -1823,8 +1903,8 @@
             "continent": "Europe",
             "country": "Russia"
         },
-        "Start_Year": " 1917 CE",
-        "End_Year": " 1930 CE",
+        "Start_Year": "1917 CE",
+        "End_Year": "1930 CE",
         "icon": "constructivism.png",
         "character": {
             "characteristic elements": [
@@ -1899,8 +1979,8 @@
             "country": "Various"
         },
         "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
-        "Start_Year": " 10000 BCE",
-        "End_Year": " 2000 BCE",
+        "Start_Year": "10000 BCE",
+        "End_Year": "2000 BCE",
         "icon": "neolithic.png",
         "character": {
             "Characteristic Elements": [
@@ -1993,7 +2073,7 @@
         },
         "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
         "Start_Year": "618 CE",
-        "End_Year": " 1912 CE",
+        "End_Year": "1912 CE",
         "icon": "chinese_imperial.png",
         "character": {
             "characteristic_elements": [
@@ -2002,7 +2082,8 @@
                 "Distinctive roof style: The architecture features roofs with upturned eaves, known as dougong. These roofs are typically adorned with intricate and colorful decorations, such as dragon motifs, representing protection and good fortune."
             ]
         },
-        "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations."
+        "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations.",
+        "significance": 7.5
     },
     "Edo Period": {
         "architects": [
@@ -2062,7 +2143,7 @@
         },
         "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard.",
         "Start_Year": "1603 CE",
-        "End_Year": " 1657 CE",
+        "End_Year": "1657 CE",
         "character": {
             "characteristic_elements": [
                 "Wooden Structures: Edo Period architecture primarily featured wooden structures, with buildings constructed using traditional Japanese architectural techniques such as post-and-beam construction.",
@@ -2137,7 +2218,7 @@
         },
         "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
         "Start_Year": "1940 CE",
-        "End_Year": " 1960 CE",
+        "End_Year": "1960 CE",
         "icon": "mid-century_modern.png",
         "character": {
             "characteristic_elements": [
@@ -2146,7 +2227,8 @@
                 "Integration with nature and outdoor spaces"
             ]
         },
-        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\""
+        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\"",
+        "significance": 8.5
     },
     "Mud Brick": {
         "architects": [
@@ -2226,8 +2308,8 @@
             ]
         },
         "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional.",
-        "Start_Year": " 4000 BCE",
-        "End_Year": " present",
+        "Start_Year": "4000 BCE",
+        "End_Year": "present",
         "icon": "mud_brick.png",
         "character": {
             "Characteristic_elements": [
@@ -2236,7 +2318,8 @@
                 "Arched doorways and windows for structural stability"
             ]
         },
-        "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures."
+        "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures.",
+        "significance": 7
     },
     "Stilt House": {
         "architects": [
@@ -2321,8 +2404,9 @@
             ]
         },
         "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
-        "Start_Year": " 6000 BCE",
-        "End_Year": " present"
+        "Start_Year": "6000 BCE",
+        "End_Year": "present",
+        "significance": 8
     },
     "Blobitecture": {
         "architects": [
@@ -2392,9 +2476,10 @@
             ]
         },
         "short": "Blobitecture is an architectural style characterized by organic, curvaceous and unconventional forms, often resembling blobs, aiming to break away from traditional rectilinear designs.",
-        "Start_Year": " 1950 CE",
-        "End_Year": " present",
-        "icon": "blobitecture.png"
+        "Start_Year": "1990 CE",
+        "End_Year": "present",
+        "icon": "blobitecture.png",
+        "significance": 6.5
     },
     "Googie": {
         "architects": [
@@ -2465,8 +2550,8 @@
             "Incorporation of space age and atomic age motifs"
         ],
         "short": "Googie architecture emerged in the mid-20th century, characterized by futuristic designs with a focus on space-age aesthetics, vibrant colors, and exaggerated shapes.",
-        "Start_Year": " 1945 CE",
-        "End_Year": " 1970 CE",
+        "Start_Year": "1945 CE",
+        "End_Year": "1970 CE",
         "icon": "googie.png"
     },
     "Igloo": {
@@ -2536,8 +2621,8 @@
         },
         "short": "\"Igloo\" is an architectural style for developing software systems with loosely coupled components, isolated from underlying infrastructure and communication protocols.",
         "significance": 8.5,
-        "Start_Year": " 1000 BCE",
-        "End_Year": " 1800 CE",
+        "Start_Year": "1000 BCE",
+        "End_Year": "1800 CE",
         "icon": "igloo.png"
     },
     "Indo-Islamic": {
@@ -2606,8 +2691,8 @@
             ]
         },
         "short": "Indo-Islamic architecture is a unique style blending Indian and Islamic design elements, characterized by intricate detailing, domes, and arches.",
-        "Start_Year": " 1193 CE",
-        "End_Year": " 1700 CE",
+        "Start_Year": "1193 CE",
+        "End_Year": "1700 CE",
         "icon": "indo-islamic.png",
         "significance": 8
     },
@@ -2683,8 +2768,8 @@
         },
         "short": "Indo-Saracenic architecture combines Indian and Islamic elements in a fusion style marked by intricate detailing, grandeur, and diverse influences.",
         "significance": 7,
-        "Start_Year": " 1795 CE",
-        "End_Year": " 1947 CE",
+        "Start_Year": "1795 CE",
+        "End_Year": "1947 CE",
         "icon": "indo-saracenic.png"
     },
     "Palladian": {
@@ -2758,8 +2843,8 @@
         },
         "short": "Palladian architecture is a neoclassical style influenced by Andrea Palladio, characterized by symmetry, harmonious proportions, and use of classical elements.",
         "significance": 8,
-        "Start_Year": " 1700 CE",
-        "End_Year": " 1800 CE",
+        "Start_Year": "1700 CE",
+        "End_Year": "1800 CE",
         "icon": "palladian.png"
     },
     "Prairie": {
@@ -2829,8 +2914,8 @@
             ]
         },
         "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
-        "Start_Year": " 1910 CE",
-        "End_Year": " 1920 CE",
+        "Start_Year": "1910 CE",
+        "End_Year": "1920 CE",
         "icon": "prairie.png",
         "significance": 9
     },
@@ -2902,9 +2987,10 @@
             ]
         },
         "short": "Regency architecture, popular from the early 19th century, is characterized by elegant simplicity, classical influences, and a focus on symmetry and proportion.",
-        "Start_Year": " 1800 CE",
-        "End_Year": " 1815 CE",
-        "icon": "regency.png"
+        "Start_Year": "1800 CE",
+        "End_Year": "1815 CE",
+        "icon": "regency.png",
+        "significance": 7
     },
     "Moorish": {
         "architects": [
@@ -2977,8 +3063,8 @@
         },
         "short": "Moorish architecture is characterized by intricate geometric patterns, ornate arches, and decorative tile work, representing the influence of Islamic art.",
         "significance": 8,
-        "Start_Year": " 800 CE",
-        "End_Year": " 1400 CE",
+        "Start_Year": "800 CE",
+        "End_Year": "1400 CE",
         "icon": "moorish.png"
     },
     "Moorish Revival": {
@@ -3058,8 +3144,84 @@
             ]
         },
         "short": "Moorish Revival is an architectural style that incorporates elements of Moorish design, characterized by intricate geometric patterns and arches.",
-        "Start_Year": " 1812 CE",
-        "End_Year": " 1930 CE",
-        "icon": "moorish_revival.png"
+        "Start_Year": "1812 CE",
+        "End_Year": "1930 CE",
+        "icon": "moorish_revival.png",
+        "significance": 8.5
+    },
+    "Federal": {
+        "architects": [
+            {
+                "name": "Benjamin Henry Latrobe",
+                "birth_date": "May 1, 1764",
+                "death_date": "September 3, 1820",
+                "nationality": "American",
+                "description": "Benjamin Henry Latrobe was an English-born American architect known as the 'Father of American Architecture'. He was influential in developing the Federal style of architecture in the United States.",
+                "notable_buildings": [
+                    "United States Capitol, Washington, D.C.",
+                    "Baltimore Basilica, Baltimore, Maryland",
+                    "Bank of Pennsylvania, Philadelphia, Pennsylvania"
+                ]
+            },
+            {
+                "name": "Charles Bulfinch",
+                "birth_date": "August 8, 1763",
+                "death_date": "April 15, 1844",
+                "nationality": "American",
+                "description": "Charles Bulfinch was an American architect who played a significant role in the development of Federal architecture in the United States. He is known for his neoclassical designs and influential role in shaping the city of Boston.",
+                "notable_buildings": [
+                    "Massachusetts State House, Boston, Massachusetts",
+                    "U.S. Capitol Building (Wings), Washington, D.C.",
+                    "King's Chapel, Boston, Massachusetts"
+                ]
+            },
+            {
+                "name": "Samuel McIntire",
+                "birth_date": "January 16, 1757",
+                "death_date": "February 6, 1811",
+                "nationality": "American",
+                "description": "Samuel McIntire was an American architect and woodcarver, primarily known for his work in the Federal style of architecture. He played a crucial role in transforming the city of Salem, Massachusetts with his elegant designs.",
+                "notable_buildings": [
+                    "Peirce\u2013Nichols House, Salem, Massachusetts",
+                    "Gardner-Pingree House, Salem, Massachusetts",
+                    "Hamilton Hall, Salem, Massachusetts"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "late 18th century to mid-19th century",
+            "period": "Neoclassical",
+            "description": "Federal architecture is a style that emerged in the United States during the early years of the Republic (late 18th century to mid-19th century). It is characterized by the adaptation of classical architectural forms and motifs to American building traditions. The style was heavily influenced by the ideals of the American Revolution and the architectural concepts of ancient Greece and Rome.",
+            "characteristics": [
+                "Symmetrical fa\u00e7ades",
+                "Rectangular shape",
+                "Central entrance",
+                "Simple ornamentation",
+                "Use of classical columns (Doric, Ionic, Corinthian)",
+                "Elegant proportions",
+                "Balanced and refined appearance"
+            ],
+            "examples": [
+                "United States Capitol",
+                "White House",
+                "Monticello",
+                "Faneuil Hall",
+                "Old City Hall (Boston)"
+            ],
+            "continent": "North America",
+            "country": "United States"
+        },
+        "terms": "noun: architecture styleadjective: federal",
+        "character": {
+            "Characteristic Elements": [
+                "Symmetry: Federal architecture is known for its symmetrical designs, both exterior and interior. This includes evenly spaced windows and doors, as well as balanced proportions.",
+                "Classical Influences: Federal architecture draws heavily from classical styles, particularly the Georgian and Roman Classical styles. This can be seen in features such as columns, pediments, and cornices.",
+                "Elaborate Ornamentation: Federal buildings are often adorned with elaborate decorative elements, including intricate moldings, swags, and motifs such as eagles and stars. These decorative elements are typically found on the fa\u00e7ade and around entryways."
+            ]
+        },
+        "short": "Federal architecture style emerged in early America, characterized by symmetry, classical elements, and visual harmony, often seen in government buildings and grand mansions.",
+        "Start_Year": "1790 CE",
+        "End_Year": "1850 CE",
+        "icon": "federal.png"
     }
 }
