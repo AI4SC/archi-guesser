@@ -476,14 +476,19 @@ app.layout = dbc.Container(
         ],
         width=6)
     ]),
-    dbc.Modal([
-      dbc.ModalHeader(dbc.ModalTitle("Video Test")),
-      dbc.ModalBody([
+    #dbc.Modal([
+    #  dbc.ModalHeader(dbc.ModalTitle("Video Test")),
+    #  dbc.ModalBody([
+    #    html.Video(id="video", autoPlay=True, width=640, height=480, style={"display":"none"}), # 
+    #    html.Canvas(id="canvas", width=640, height=480), # , style={"display":"none"}
+    #  ], id="video_body"),
+    #  dbc.ModalFooter([html.Div(id="info", style={"margin": "15px"})])
+    #], id="setup_modal", is_open=True, size="lg"),
+    html.Div([
         html.Video(id="video", autoPlay=True, width=640, height=480, style={"display":"none"}), # 
         html.Canvas(id="canvas", width=640, height=480), # , style={"display":"none"}
-      ], id="video_body"),
-      dbc.ModalFooter([html.Div(id="info", style={"margin": "15px"})])
-    ], id="setup_modal", is_open=True, size="lg"),
+        html.Div(id="info", style={"margin": "15px"})
+      ], id="video_body", style={"visibility": "hidden"}, className="setupdiv"),
     dbc.Modal([
       dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
       dbc.ModalBody([], id="style_body"),
@@ -669,19 +674,20 @@ else:
       html.Label("Architects"),
       html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
-  
+
   @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
                 Output("resultmodal", "is_open", allow_duplicate=True),
                 Input('GUESS', 'n_clicks'),
                 prevent_initial_call=True)
   def evaluate_run(n):
     return [True, True, False]
-  
-  @app.callback(Output("setup_modal", "is_open"),
+
+  @app.callback(#Output("setup_modal", "is_open"),
+                Output("video_body", "style"),
                 Input('SETUP', 'n_clicks'),
                 prevent_initial_call=True)
   def display_setup_modall(n):
-    return True
+    return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
 
 
 @app.server.route("/marker")
