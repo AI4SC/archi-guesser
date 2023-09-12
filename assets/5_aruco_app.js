@@ -43,8 +43,8 @@ function onLoad(){
       console.log('Camera: ' + settings.deviceId);
       console.log('Camera width: ' + settings.width + 'px');
       console.log('Camera height:' + settings.height + 'px');
-      canvas.width=settings.width;
-      canvas.height=settings.height;
+      canvas.width = 640 || settings.width;
+      canvas.height= 480 || settings.height;
       if ("srcObject" in video) {
         video.srcObject = stream;
       } else {
