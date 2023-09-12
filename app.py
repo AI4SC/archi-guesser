@@ -300,6 +300,7 @@ server = Flask(__name__)
 app = Dash(server=server, external_stylesheets=[dbc.themes.DARKLY])
 app.title = "ArchiGuessr"
 
+
 app.layout = dbc.Container(
   [
     dbc.Row([
@@ -471,9 +472,18 @@ app.layout = dbc.Container(
         width=6)
     ]),
     dbc.Modal([
+      dbc.ModalHeader(dbc.ModalTitle("Video Test")),
+      dbc.ModalBody([
+        html.Video(id="video", autoPlay=True, width=640, height=480), # , style={"display":"none"}
+        html.Canvas(id="canvas", width=640, height=480), # , style={"display":"none"}
+        html.Div(id="info", style={"margin": "15px"}) # , style={"display":"none"}
+      ], id="video_body"),
+      dbc.ModalFooter([dbc.Button("Close", id="video_body_close", class_name="ms-auto")])
+    ], is_open=True),
+    dbc.Modal([
       dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
       dbc.ModalBody([], id="style_body"),
-      dbc.ModalFooter([dbc.Button("Close", id="close", class_name="ms-auto")])
+      dbc.ModalFooter([dbc.Button("Close", id="style_body_close", class_name="ms-auto")])
     ],
               id="resultmodal"),
     html.Button(
@@ -606,8 +616,8 @@ else:
                   'type': "style-selection",
                   'index': ALL
                 },
-                       'color',
-                       allow_duplicate=True),
+                'color',
+                allow_duplicate=True),
                 Input({
                   "type": "style-selection",
                   "index": ALL
