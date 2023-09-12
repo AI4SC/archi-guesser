@@ -474,7 +474,7 @@ app.layout = dbc.Container(
     dbc.Modal([
       dbc.ModalHeader(dbc.ModalTitle("Video Test")),
       dbc.ModalBody([
-        html.Video(id="video", autoPlay=True, width=640, height=480), # , style={"display":"none"}
+        html.Video(id="video", autoPlay=True, width=640, height=480, style={"display":"none"}), # 
         html.Canvas(id="canvas", width=640, height=480), # , style={"display":"none"}
         html.Div(id="info", style={"margin": "15px"}) # , style={"display":"none"}
       ], id="video_body"),
