@@ -10,7 +10,7 @@
  * @param {boolean | AddEventListenerOptions} options
  */
 function attachEventToDash(id, event, callback, options) {
-    debugger;
+    //debugger;
     var observer = new MutationObserver(function (_mutations, obs) {
         var ele = document.getElementById(id);
         if (ele) {
