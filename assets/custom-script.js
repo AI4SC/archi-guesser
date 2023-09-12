@@ -1,7 +1,7 @@
 // https://stackoverflow.com/questions/68337654/adding-javascript-to-my-plotly-dash-app-python
 // alert('If you see this alert, then your custom JavaScript script has run!')
 var video, canvas, context, info, imageData, detector, mpos={}, postimeout=5000;
-  
+
 function onLoad(){
   video = document.getElementById("video");
   canvas = document.getElementById("canvas");
