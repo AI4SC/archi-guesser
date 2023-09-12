@@ -4,6 +4,11 @@ function onLoad(){
   video = document.getElementById("video");
   canvas = document.getElementById("canvas");
   info = document.getElementById("info");
+  if ( video == null || canvas == null || info == null ) {
+    console.log("loading ...")
+    setTimeout(onLoad, 1000)
+    return;
+  }
   context = canvas.getContext("2d");
 
   canvas.width = parseInt(canvas.style.width);
@@ -243,4 +248,6 @@ function drawGrid(markers){
 }
 
 
-window.onload = onLoad;
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(onLoad, 1000)
+})
