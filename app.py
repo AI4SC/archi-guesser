@@ -297,7 +297,7 @@ layers.append(dl.LayerGroup(id="layer"))
 
 # Build App
 server = Flask(__name__)
-app = Dash(server=server, external_stylesheets=[dbc.themes.DARKLY])
+app = Dash(server=server, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.BOOTSTRAP]) #, dbc.icons.FONT_AWESOME
 app.title = "ArchiGuessr"
 
 
@@ -310,20 +310,22 @@ app.layout = dbc.Container(
             'height': '80px'
           })  # , html.P("An AI Art Architecture Educational Game")
         ],
-        width=8),
+        width=7),
       dbc.Col(html.Img(src=ai4sc_image, style={'height': '60px'}), width=2),
       dbc.Col(html.Img(src=urost_image, style={'height': '60px'}), width=2),
+      dbc.Col(dbc.Button(
+                html.I(className="bi bi-gear"),
+                style={'height': '60px'}, 
+                id="SETUP", color="dark", outline=True, className="border-0"), width=1),
+              
     ]),
     dbc.Row([
       dbc.Col([
         html.Img(src=pil_image,
-                 style={
-                   'width': '100%',
-                   "padding-left": "20px"
-                 },
+                 style={'width': '100%', "padding-left": "20px" },
                  id='example_img')
       ],
-              width=6),
+      width=6),
       dbc.Col(
         [
           dbc.Label("STYLE"),
@@ -465,7 +467,10 @@ app.layout = dbc.Container(
             dbc.Col(
               dbc.Button(
                 "GUESS",
-                style={'height': '40px'}, id="GUESS", disabled=True)),
+                style={'height': '40px'}, 
+                id="GUESS", 
+                disabled=True)
+              ),
           ]),
           dbc.Label("", id="out1")
         ],
@@ -476,19 +481,16 @@ app.layout = dbc.Container(
       dbc.ModalBody([
         html.Video(id="video", autoPlay=True, width=640, height=480, style={"display":"none"}), # 
         html.Canvas(id="canvas", width=640, height=480), # , style={"display":"none"}
-        html.Div(id="info", style={"margin": "15px"}) # , style={"display":"none"}
       ], id="video_body"),
-      dbc.ModalFooter([dbc.Button("Close", id="video_body_close", class_name="ms-auto")])
-    ], is_open=True),
+      dbc.ModalFooter([html.Div(id="info", style={"margin": "15px"})])
+    ], id="setup_modal", is_open=True, size="lg"),
     dbc.Modal([
       dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
       dbc.ModalBody([], id="style_body"),
       dbc.ModalFooter([dbc.Button("Close", id="style_body_close", class_name="ms-auto")])
     ],
-              id="resultmodal"),
-    html.Button(
-      "", id="new_run", style={"visibility": "hidden"
-                               }, disabled=True),  # used as event notifier
+    id="resultmodal"),
+    html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
     dcc.Interval(id='interval1', interval=5000)
   ],
   fluid=True)
@@ -667,6 +669,20 @@ else:
       html.Label("Architects"),
       html.Ul([html.Li(c["name"]) for c in aarch]),
     ]
+  
+  @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+                Output("resultmodal", "is_open", allow_duplicate=True),
+                Input('GUESS', 'n_clicks'),
+                prevent_initial_call=True)
+  def evaluate_run(n):
+    return [True, True, False]
+  
+  @app.callback(Output("setup_modal", "is_open"),
+                Input('SETUP', 'n_clicks'),
+                prevent_initial_call=True)
+  def display_setup_modall(n):
+    return True
+
 
 @app.server.route("/marker")
 def get_marker():
