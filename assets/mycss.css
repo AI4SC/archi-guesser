@@ -1,0 +1,9 @@
+.setupdiv {
+  position:absolute;
+  top: 30px;
+  right: 30px;
+  width: 640px;
+  height: 550px;
+  z-index: 25;
+  background-color: rgb(34, 34, 34);
+}
