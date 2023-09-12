@@ -660,7 +660,7 @@ else:
 
 @app.server.route("/marker")
 def get_marker():
-    return flask.send_from_directory('marker', "index.html")
+    return flask.send_from_directory('assets', "index.html")
 
 
 if __name__ == '__main__':
@@ -668,8 +668,10 @@ if __name__ == '__main__':
   if 'DASH_DEBUG_MODE' in os.environ:
     app.run_server(host='0.0.0.0',
                    dev_tools_ui=True,
-                   debug=True,
                    dev_tools_hot_reload=True,
+                   debug=True,
                    threaded=True)
   else:
-    app.run_server(host='0.0.0.0', debug=False)
+    app.run_server(host='0.0.0.0', 
+                   debug=False,
+                   threaded=True)
