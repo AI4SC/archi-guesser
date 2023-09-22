@@ -530,7 +530,7 @@
                 "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
             ]
         },
-        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\"",
+        "short": "Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.",
         "significance": 9.5
     },
     "Art Deco": {
@@ -1934,7 +1934,7 @@
                 "Open Floor Plans"
             ]
         },
-        "short": "\"International Style\" is a minimalist architectural style that emerged in the 1920s, characterized by clean lines, simple forms, and functional design.",
+        "short": "International Style\" is a minimalist architectural style that emerged in the 1920s, characterized by clean lines, simple forms, and functional design.",
         "Start_Year": "1920 CE",
         "End_Year": "1950 CE",
         "icon": "international_style.png",
@@ -2296,7 +2296,7 @@
                 }
             ]
         },
-        "short": "\"Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.\"",
+        "short": "Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.",
         "significance": 6
     },
     "Contemporary": {
@@ -2393,7 +2393,7 @@
                 "Integration with the surrounding environment: Contemporary architecture strives to seamlessly blend with the natural surroundings, often incorporating large windows, terraces, and outdoor spaces to connect the indoor and outdoor areas."
             ]
         },
-        "short": "\"Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.\"",
+        "short": "Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.",
         "Start_Year": "1950 CE",
         "End_Year": "present",
         "significance": 6
@@ -2535,7 +2535,7 @@
                 "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
             ]
         },
-        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\"",
+        "short": "Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.",
         "significance": 8.5
     },
     "Mannerist": {
@@ -2729,7 +2729,7 @@
                 "Use of diverse architectural styles: Victorian architecture draws inspiration from various architectural styles, including Gothic Revival, Italianate, Queen Anne, and Second Empire. This results in a diverse range of architectural features, such as pointed arches, towers, bay windows, and decorative brackets."
             ]
         },
-        "short": "\"Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.\"",
+        "short": "Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.",
         "significance": 9
     },
     "Parametric": {
@@ -3018,7 +3018,7 @@
                 "Incorporation of classical elements: Ancient Roman architecture was heavily influenced by Greek architectural traditions. It incorporated classical elements such as columns, pediments, and symmetrical design, but often developed them in a grander and more lavish manner."
             ]
         },
-        "short": "\"Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.\"",
+        "short": "Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.",
         "significance": 7
     },
     "Ancient Greek": {
@@ -3557,7 +3557,7 @@
                 "3. Technological integration and innovation: High-Tech buildings showcase advanced technology and often incorporate it into their design. This could include integrated smart systems, energy-efficient features, sustainable practices, and innovative construction techniques."
             ]
         },
-        "short": "\"High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.\"",
+        "short": "High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.",
         "significance": 8
     },
     "Neo-Futurism": {
@@ -3708,7 +3708,7 @@
                 }
             ]
         },
-        "short": "\"Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.\"",
+        "short": "Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.",
         "significance": 7
     },
     "Parametricism": {
@@ -3850,7 +3850,7 @@
                 "Use of high-quality materials and craftsmanship"
             ]
         },
-        "short": "\"New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.\"",
+        "short": "New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.",
         "significance": 4
     },
     "Late Modernism": {
@@ -3989,7 +3989,7 @@
                 "Emotional and subjective design approach"
             ]
         },
-        "short": "\"Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.\"",
+        "short": "Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.",
         "significance": 6
     },
     "Critical Regionalism": {
@@ -4325,7 +4325,7 @@
                 "Integration of engineering principles: Structural Expressionism emphasizes the integration of engineering principles into the architectural design, allowing the structural elements to be seen as essential features of the building rather than hidden and minimized."
             ]
         },
-        "short": "\"Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.\"",
+        "short": "Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.",
         "significance": 5
     },
     "Pre-Romanesque": {
@@ -4629,7 +4629,7 @@
                 "Archways and Vaults: Mesopotamian architecture incorporated the use of archways and vaults, which were key elements in creating monumental structures. These architectural features provided stability and allowed for the construction of large, open spaces."
             ]
         },
-        "short": "\"Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.\"",
+        "short": "Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.",
         "significance": 8
     },
     "Ancient Persian": {
@@ -4699,7 +4699,7 @@
                 "Extensive use of glazed ceramic tiles for decorative purposes"
             ]
         },
-        "short": "\"Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.\"",
+        "short": "Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.",
         "significance": 8
     },
     "Muscovite": {
@@ -4982,7 +4982,7 @@
                 "Intricate carvings and sculptures on pillars and walls"
             ]
         },
-        "short": "\"Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens.",
+        "short": "Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens.",
         "significance": 5
     },
     "Dravidian": {
@@ -5064,7 +5064,7 @@
                 }
             ]
         },
-        "short": "\"Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.\"",
+        "short": "Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.",
         "significance": 8
     },
     "Vesara": {
@@ -5759,7 +5759,7 @@
                 }
             ]
         },
-        "short": "\"Late Showa architecture style in Japan (1960s-1980s) was characterized by a blend of modernist and traditional elements, emphasizing functionality and simplicity.\""
+        "short": "Late Showa architecture style in Japan (1960s-1980s) was characterized by a blend of modernist and traditional elements, emphasizing functionality and simplicity."
     },
     "Kamakura and Muromachi": {
         "architects": [
@@ -5826,7 +5826,7 @@
                 "Integration of the surrounding nature into the design, often through elements like gardens and open spaces"
             ]
         },
-        "short": "\"Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.\"",
+        "short": "Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.",
         "significance": 8
     },
     "Khmer Empire": {
@@ -6460,7 +6460,7 @@
                 "Integration with nature and outdoor spaces"
             ]
         },
-        "short": "\"Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.\"",
+        "short": "Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.",
         "significance": 8.5
     },
     "Umayyad Period": {
@@ -7233,7 +7233,7 @@
                 "example": "Masjid al-Haram Expansion Project in Mecca, Saudi Arabia"
             }
         ],
-        "short": "\"Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.\"",
+        "short": "Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.",
         "significance": 7
     },
     "Indigenous Australian": {
@@ -7597,7 +7597,7 @@
                 "Community-centered approach: Indigenous contemporary architecture is often developed with a community-centered approach, involving local stakeholders and indigenous communities in the design process. The architecture style aims to promote community cohesion, cultural revitalization, and empowerment through architecture that reflects the needs and aspirations of the indigenous community."
             ]
         },
-        "short": "\"Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.\"",
+        "short": "Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.",
         "significance": 7.5
     },
     "Mud Brick": {
@@ -7989,7 +7989,7 @@
                 "Excellent insulation properties"
             ]
         },
-        "short": "\"Igloo\" is an architectural style for developing software systems with loosely coupled components, isolated from underlying infrastructure and communication protocols.",
+        "short": "Igloo\" is an architectural style for developing software systems with loosely coupled components, isolated from underlying infrastructure and communication protocols.",
         "significance": 8.5,
         "Start_Year": "1000 BCE",
         "End_Year": "1800 CE",
@@ -8283,7 +8283,7 @@
                 "Integration with nature: Prairie architecture seeks to integrate the structure with the surrounding environment. Large windows, terraces, and balconies are common features that connect indoor and outdoor spaces."
             ]
         },
-        "short": "\"Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.\"",
+        "short": "Prairie architecture is a distinct American style characterized by low horizontal lines, open floor plans, and integration with the surrounding landscape.",
         "Start_Year": "1910 CE",
         "End_Year": "1920 CE",
         "icon": "prairie.png",
@@ -8659,7 +8659,7 @@
                 "Raised Platform and Pillars: Traditional Thai buildings are typically elevated on a raised platform supported by wooden or stone pillars. This design element serves various purposes, including protection from floods, ventilation, and providing a sense of grandeur. The raised platform also creates a shaded area underneath the building."
             ]
         },
-        "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\"",
+        "short": "Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.",
         "Start_Year": "1000 CE",
         "End_Year": "present",
         "significance": 8.5
@@ -8901,7 +8901,7 @@
                 "Heterogeneous systems and technologies"
             ]
         },
-        "short": "\"Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
+        "short": "Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
         "Start_Year": "1950 CE",
         "End_Year": "present"
     },
@@ -8973,7 +8973,7 @@
                 "Harmony with nature: Incorporation of natural elements like gardens, courtyards, and open spaces"
             ]
         },
-        "short": "\"Korean architecture combines traditional influences with modern elements, known for its emphasis on harmony, use of natural materials, and elegant simplicity.\"",
+        "short": "Korean architecture combines traditional influences with modern elements, known for its emphasis on harmony, use of natural materials, and elegant simplicity.",
         "significance": 8,
         "Start_Year": "1400 CE",
         "End_Year": "present"
@@ -9345,7 +9345,7 @@
                 "Use of natural and organic materials: Indian architecture often utilizes natural materials like stone, wood, and earth, giving the structures a sense of harmony with the environment. Many traditional Indian buildings are made using sustainable construction techniques, which have been passed down through generations."
             ]
         },
-        "short": "\"Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.\"",
+        "short": "Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.",
         "Start_Year": "300 BCE",
         "End_Year": "present",
         "significance": 7
