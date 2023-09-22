@@ -113,7 +113,7 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
+        "terms": "buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
         "Start_Year": "1400 CE",
         "End_Year": "1600 CE",
         "icon": "renaissance.png",
@@ -189,7 +189,7 @@
                 "Germany"
             ]
         },
-        "terms": " architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation. ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
+        "terms": "architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation. ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
     },
     "Bauhaus": {
         "architects": [
@@ -245,7 +245,7 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": " design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative",
+        "terms": "design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative",
         "icon": "bauhaus.png",
         "character": {
             "characteristic elements": [
@@ -313,7 +313,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": " architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
+        "terms": "architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
     },
     "Modern": {
         "architects": [
@@ -381,7 +381,7 @@
             "continent": "Global",
             "country": "Varous"
         },
-        "terms": " buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional.",
+        "terms": "buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional.",
         "icon": "modern.png"
     },
     "Neoclassical": {
@@ -439,7 +439,7 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": " classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
+        "terms": "classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
         "Start_Year": "1740 CE",
         "End_Year": "1909 CE",
         "icon": "neoclassical.png",
@@ -519,7 +519,7 @@
                 "Belgium"
             ]
         },
-        "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
+        "terms": "pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
         "Start_Year": "1100 CE",
         "End_Year": "1500 CE",
         "icon": "gothic.png",
@@ -601,7 +601,7 @@
                 "China"
             ]
         },
-        "terms": "Art Deco architecture: geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
+        "terms": "geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
         "Start_Year": "1920 CE",
         "End_Year": "1939 CE",
         "icon": "art_deco.png",
@@ -672,7 +672,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": " architecture, design, furniture, interior, style, buildings sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
+        "terms": "architecture, design, furniture, interior, style, buildings sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
     },
     "Neo-Gothic": {
         "architects": [
@@ -730,7 +730,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": " architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows.  historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
+        "terms": "architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows.  historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
     },
     "Italianate": {
         "architects": [
@@ -789,7 +789,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Italianate architecture: style, popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
+        "terms": "popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
         "Start_Year": "1830 CE",
         "End_Year": "1870 CE",
         "icon": "italianate.png",
@@ -919,7 +919,7 @@
                 "Germany"
             ]
         },
-        "terms": " architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract.",
+        "terms": "architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract.",
         "Start_Year": "1980 CE",
         "End_Year": "present",
         "icon": "deconstructivism.png",
@@ -1055,7 +1055,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": " architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions.",
+        "terms": "architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions.",
         "Start_Year": "1880 CE",
         "End_Year": "1900 CE",
         "character": {
@@ -1124,7 +1124,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": " Craftsman, architecture American"
+        "terms": "Craftsman, architecture American"
     },
     "Ranch-style house": {
         "architects": [
@@ -1183,7 +1183,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "nouns: house, architectureadjectives: ranch-style",
+        "terms": "house, architecture, ranch-style",
         "Start_Year": "1930 CE",
         "End_Year": "1970 CE",
         "character": {
@@ -1490,7 +1490,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "Postmodern architecture: eclectic, playful, ironic, unconventional, fragmented, colorful, historical, humorous, decorative, multi-referential."
+        "terms": "eclectic, playful, ironic, unconventional, fragmented, colorful, historical, humorous, decorative, multi-referential."
     },
     "Romanesque": {
         "architects": [
@@ -1628,7 +1628,7 @@
                 "Russia"
             ]
         },
-        "terms": " decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent.",
+        "terms": "decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent.",
         "Start_Year": "1730 CE",
         "End_Year": "1760 CE",
         "icon": "rococo.png",
@@ -1707,7 +1707,7 @@
                 "France"
             ]
         },
-        "terms": "architecture: decorative, ornate, elaborate, asymmetrical, organicfeatures: curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curvesinfluence: 19th century decorative arts, nature, Japanese artexamples: Hector Guimard's Paris Metro entrances, Victor Horta's Hotel Tassel in Brussels, Antoni Gaudi's Sagrada Familia in Barcelona.",
+        "terms": "decorative, ornate, elaborate, asymmetrical, organic, curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves, 19th century decorative arts, nature, Japanese art",
         "Start_Year": "1890 CE",
         "End_Year": "1914 CE",
         "icon": "art_nouveau.png",
@@ -1850,7 +1850,7 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": " style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant.",
+        "terms": "style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, fa\u00e7ade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant.",
         "Start_Year": "1714 CE",
         "End_Year": "1837 CE",
         "icon": "georgian.png",
@@ -1926,7 +1926,7 @@
                 "Netherlands"
             ]
         },
-        "terms": " buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs. modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational.",
+        "terms": "buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs. modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational.",
         "character": {
             "elements": [
                 "Flat Roofs",
@@ -1999,7 +1999,7 @@
                 "Switzerland"
             ]
         },
-        "terms": " Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry. Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
+        "terms": "Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry. Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
     },
     "Postmodernism": {
         "architects": [
@@ -2066,7 +2066,7 @@
                 "Italy"
             ]
         },
-        "terms": " movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
+        "terms": "movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
         "Start_Year": "1960 CE",
         "End_Year": "2000 CE",
         "icon": "postmodernism.png",
@@ -2133,7 +2133,7 @@
             "continent": "Multiple continents",
             "country": "Global"
         },
-        "terms": " architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation. contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
+        "terms": "architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation. contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
     },
     "Tudor": {
         "architects": [
@@ -2192,7 +2192,7 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": " buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
+        "terms": "buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
         "Start_Year": "1485 CE",
         "End_Year": "1603 CE",
         "icon": "tudor.png",
@@ -2277,7 +2277,7 @@
                 "Vietnam"
             ]
         },
-        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofsadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
+        "terms": "buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofs, grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
         "Start_Year": "1600 CE",
         "End_Year": "1947 CE",
         "character": {
@@ -2385,7 +2385,7 @@
             "continent": "Multiple",
             "country": "Various"
         },
-        "terms": "Contemporary architecture: minimal, innovative, sleek, geometric, sustainable, functional, dynamic, experimental.",
+        "terms": "minimal, innovative, sleek, geometric, sustainable, functional, dynamic, experimental.",
         "character": {
             "characteristic_elements": [
                 "Simplicity and minimalism: Contemporary architecture emphasizes clean lines and simplicity in design, with a focus on open spaces and streamlined forms.",
@@ -2571,7 +2571,7 @@
                 ]
             }
         ],
-        "terms": "Mannerist Architecture: theatrical, exaggerated, ornamental, sculptural, asymmetrical, elongated, distorted, fantasy-like.",
+        "terms": "theatrical, exaggerated, ornamental, sculptural, asymmetrical, elongated, distorted, fantasy-like.",
         "style": {
             "time_range": "1520s-1600s",
             "period": "Renaissance",
@@ -2651,7 +2651,7 @@
                 "United States of America"
             ]
         },
-        "terms": " architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible.",
+        "terms": "architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible.",
         "Start_Year": "1890 CE",
         "End_Year": "1930 CE",
         "character": {
@@ -2719,7 +2719,7 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": " style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
+        "terms": "style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
         "Start_Year": "1837 CE",
         "End_Year": "1901 CE",
         "character": {
@@ -2787,7 +2787,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "Parametric architecture: architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative."
+        "terms": "architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative."
     },
     "Organic": {
         "architects": [
@@ -2844,7 +2844,7 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": " Architecture, Nature, Building, Design, Materials, Space  Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
+        "terms": "Architecture, Nature, Building, Design, Materials, Space  Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
     },
     "Sustainable or Green": {
         "architects": [
@@ -2904,7 +2904,7 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": " environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
+        "terms": "environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
     },
     "Neo-futurism": {
         "architects": [
@@ -2961,7 +2961,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": " architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance. avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
+        "terms": "architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance. avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
     },
     "Ancient Roman": {
         "architects": [
@@ -3226,7 +3226,7 @@
             "continent": "Europe and North America",
             "country": "England"
         },
-        "terms": "nouns: pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookinessadjectives: ornamental, medieval, dark, mysterious, dramatic, romantic, eerie",
+        "terms": "pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookiness, ornamental, medieval, dark, mysterious, dramatic, romantic, eerie",
         "Start_Year": "1840 CE",
         "End_Year": "1890 CE",
         "icon": "gothic_revival.png",
@@ -3295,7 +3295,7 @@
             "continent": "Europe",
             "country": "France"
         },
-        "terms": " classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified",
+        "terms": "classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified",
         "Start_Year": "1830 CE",
         "End_Year": "1900 CE",
         "character": {
@@ -3365,7 +3365,7 @@
             "continent": "Europe",
             "country": "Germany"
         },
-        "terms": " Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian",
+        "terms": "Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian",
         "Start_Year": "1920 CE",
         "End_Year": "1950 CE"
     },
@@ -3468,7 +3468,7 @@
                 "USA"
             ]
         },
-        "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
+        "terms": "Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
         "Start_Year": "1950 CE",
         "End_Year": "1970 CE",
         "icon": "brutalism.png",
@@ -3547,7 +3547,7 @@
                 "USA"
             ]
         },
-        "terms": " technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist.",
+        "terms": "technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist.",
         "Start_Year": "1960 CE",
         "End_Year": "present",
         "character": {
@@ -3689,7 +3689,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": " buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient.",
+        "terms": "buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient.",
         "Start_Year": "1970 CE",
         "End_Year": "present",
         "character": {
@@ -3766,7 +3766,7 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": " Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic",
+        "terms": "Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic",
         "Start_Year": "1998 CE",
         "End_Year": "present",
         "icon": "parametricism.png",
@@ -3840,7 +3840,7 @@
                 "United Kingdom"
             ]
         },
-        "terms": " Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated.",
+        "terms": "Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated.",
         "Start_Year": "1950 CE",
         "End_Year": "1980 CE",
         "character": {
@@ -4121,7 +4121,7 @@
                 "United States"
             ]
         },
-        "terms": " deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical",
+        "terms": "deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical",
         "Start_Year": "1980 CE",
         "End_Year": "present",
         "character": {
@@ -4183,7 +4183,7 @@
             "continent": "Europe",
             "country": "Netherlands"
         },
-        "terms": " geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract",
+        "terms": "geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract",
         "Start_Year": "1917 CE",
         "End_Year": "1931 CE",
         "character": {
@@ -4315,7 +4315,7 @@
                 "Canada"
             ]
         },
-        "terms": " structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive",
+        "terms": "structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive",
         "Start_Year": "1950 CE",
         "End_Year": "1980 CE",
         "character": {
@@ -4378,7 +4378,7 @@
             "continent": "Europe",
             "country": "Various"
         },
-        "terms": "Architecture style: Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical",
+        "terms": "Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical",
         "Start_Year": "300 CE",
         "End_Year": "800 CE",
         "character": {
@@ -4430,7 +4430,7 @@
                 ]
             }
         ],
-        "terms": " unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
+        "terms": "unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
         "style": {
             "time_range": "1919-1934",
             "period": "20th century",
@@ -4528,7 +4528,7 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": "adjectives: simple, functional, monumental, communalnouns: stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
+        "terms": "simple, functional, monumental, communal, stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
         "Start_Year": "10000 BCE",
         "End_Year": "2000 BCE",
         "icon": "neolithic.png",
@@ -4689,7 +4689,7 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "Persian architecture style: elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate.",
+        "terms": "elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate.",
         "Start_Year": "550 BCE",
         "End_Year": "330 BCE",
         "character": {
@@ -4758,7 +4758,7 @@
             "continent": "Europe/Asia",
             "country": "Russia"
         },
-        "terms": " Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
+        "terms": "Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
         "Start_Year": "1407 CE",
         "End_Year": "1692 CE",
         "character": {
@@ -4832,7 +4832,7 @@
             "continent": "Asia",
             "country": "China"
         },
-        "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
+        "terms": "Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
         "Start_Year": "618 CE",
         "End_Year": "1912 CE",
         "icon": "chinese_imperial.png",
@@ -4972,7 +4972,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Nagara architecture style: traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires.",
+        "terms": "traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires.",
         "Start_Year": "1000 CE",
         "End_Year": "1200 CE",
         "character": {
@@ -5045,7 +5045,7 @@
                 "Pakistan"
             ]
         },
-        "terms": " temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned",
+        "terms": "temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned",
         "Start_Year": "2500 BCE",
         "End_Year": "1000 BCE",
         "character": {
@@ -5119,7 +5119,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Architecture style: Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal.",
+        "terms": "Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal.",
         "Start_Year": "603 CE",
         "End_Year": "1200 CE",
         "character": {
@@ -5184,7 +5184,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": " temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual",
+        "terms": "temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual",
         "Start_Year": "1000 CE",
         "End_Year": "1800 CE",
         "character": {
@@ -5250,7 +5250,7 @@
                 "India (Rajasthan and Gujarat)"
             ]
         },
-        "terms": " Architecture style, M\u0101ru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical",
+        "terms": "Architecture style, M\u0101ru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical",
         "Start_Year": "600 CE",
         "End_Year": "1300 CE",
         "character": {
@@ -5316,7 +5316,7 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical",
+        "terms": "Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical",
         "Start_Year": "592 CE",
         "End_Year": "710 CE",
         "character": {
@@ -5384,7 +5384,7 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist.",
+        "terms": "wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist.",
         "Start_Year": "794 CE",
         "End_Year": "1185 CE",
         "character": {
@@ -5529,7 +5529,7 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "nouns: Castles, palaces, tea ceremony rooms, gardensadjectives: Ornate, extravagant, symmetrical, practical, functional",
+        "terms": "Castles, palaces, tea ceremony rooms, gardens, Ornate, extravagant, symmetrical, practical, functional",
         "Start_Year": "1568 CE",
         "End_Year": "1600 CE",
         "character": {
@@ -5671,7 +5671,7 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": " Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant.",
+        "terms": "Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant.",
         "Start_Year": "1868 CE",
         "End_Year": "1965 CE",
         "character": {
@@ -5889,7 +5889,7 @@
             "continent": "Asia",
             "country": "Cambodia"
         },
-        "terms": " temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
+        "terms": "temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
         "Start_Year": "825 CE",
         "End_Year": "1431 CE",
         "character": {
@@ -6162,7 +6162,7 @@
             "continent": "Asia",
             "country": "Vietnam"
         },
-        "terms": " Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways",
+        "terms": "Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways",
         "Start_Year": "1802 CE",
         "End_Year": "1945 CE",
         "character": {
@@ -6298,7 +6298,7 @@
             "continent": "Asia",
             "country": "China"
         },
-        "terms": " grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls",
+        "terms": "grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls",
         "Start_Year": "618 CE",
         "End_Year": "907 CE",
         "character": {
@@ -6375,7 +6375,7 @@
                 "the United States"
             ]
         },
-        "terms": "adjectives: indigenous, traditional, complex, symbolicnouns: pyramids, temples, plazas, canals, terraces, adobe, stone",
+        "terms": "indigenous, traditional, complex, symbolic, pyramids, temples, plazas, canals, terraces, adobe, stone",
         "Start_Year": "10000 BCE",
         "End_Year": " 1492 CE",
         "character": {
@@ -6449,7 +6449,7 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": " simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
+        "terms": "simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
         "Start_Year": "1940 CE",
         "End_Year": "1960 CE",
         "icon": "mid-century_modern.png",
@@ -7089,7 +7089,7 @@
             "continent": "Asia",
             "country": "various"
         },
-        "terms": " geometric patterns, courtyards, arches, domes, calligraphy, incised detailing, mashrabiya screens, Islamic symbolism.  contemporary, minimalist, sleek, elegant, chic, symbolic, traditional, cultural."
+        "terms": "geometric patterns, courtyards, arches, domes, calligraphy, incised detailing, mashrabiya screens, Islamic symbolism.  contemporary, minimalist, sleek, elegant, chic, symbolic, traditional, cultural."
     },
     "Timurid Period": {
         "architects": [
@@ -7366,7 +7366,7 @@
                 "New Zealand"
             ]
         },
-        "terms": " Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical",
+        "terms": "Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical",
         "Start_Year": "1000 BCE",
         "End_Year": "1800 CE",
         "character": {
@@ -7587,7 +7587,7 @@
                 "Panama"
             ]
         },
-        "terms": " Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature.",
+        "terms": "Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature.",
         "Start_Year": "1980 CE",
         "End_Year": "present",
         "character": {
@@ -7764,7 +7764,7 @@
                 "Florida"
             ]
         },
-        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
+        "terms": "stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
         "icon": "stilt_house.png",
         "character": {
             "characteristics": [
@@ -7913,7 +7913,7 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": " architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
+        "terms": "architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
         "character": [
             "Futuristic design elements",
             "Use of geometric shapes and angles",
@@ -7981,7 +7981,7 @@
             "continent": "North America",
             "country": "Canada"
         },
-        "terms": "Igloo architecture style: distributed, scalable, modular, seamless, abstracted, adaptable, resilient, fault-tolerant.",
+        "terms": "distributed, scalable, modular, seamless, abstracted, adaptable, resilient, fault-tolerant.",
         "character": {
             "characteristicElements": [
                 "Circular or dome-shaped structure",
@@ -8052,7 +8052,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "nouns: blend, fusion, influence, mosque, minaret, dome, arch, courtyardadjectives: unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
+        "terms": "blend, fusion, influence, mosque, minaret, dome, arch, courtyard, unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
         "character": {
             "elements": [
                 "Blend of Indo and Islamic architectural styles",
@@ -8128,7 +8128,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": "Indo-Saracenic architecture: combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
+        "terms": "combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
         "character": {
             "characteristic_elements": [
                 "Fusion of Indian and Islamic architectural styles",
@@ -8203,7 +8203,7 @@
             "continent": "Europe",
             "country": "Italy"
         },
-        "terms": "nouns: architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence.adjectives: classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
+        "terms": "architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence., classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
         "character": {
             "Characteristic Elements": [
                 "Symmetry: Palladian architecture is known for its strong emphasis on symmetry. Buildings designed in this style often feature an equal number of windows, columns, and other decorative elements on either side of a central axis.",
@@ -8348,7 +8348,7 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": "Regency, architecture style: elegant, classical, grandiose, symmetrical, refined, neoclassical",
+        "terms": "elegant, classical, grandiose, symmetrical, refined, neoclassical",
         "character": {
             "characteristic_elements": [
                 "Symmetrical facades",
@@ -8423,7 +8423,7 @@
                 "Morocco"
             ]
         },
-        "terms": " architecture style Moorish",
+        "terms": "architecture style Moorish",
         "character": {
             "characteristic_elements": [
                 "Arches: The Moorish architectural style is characterized by its abundant use of arches. These arches can be seen in doorways, windows, and other architectural features. They are often horseshoe-shaped or pointed, with decorative and intricate designs.",
@@ -8505,7 +8505,7 @@
                 " and the United States"
             ]
         },
-        "terms": "noun: architecture styleadjectives: Moorish, Revival",
+        "terms": "architecture style, Moorish, Revival",
         "character": {
             "characteristic_elements": [
                 "Horseshoe arches: The Moorish Revival style prominently features horseshoe arches, which are wide and rounded arches that resemble the shape of a horseshoe. These arches are commonly used in doorways, windows, and decorative motifs.",
@@ -8579,7 +8579,7 @@
             "continent": "Europe and Asia",
             "country": "Turkey"
         },
-        "terms": "nouns: architecture, styleadjectives: Ottoman.",
+        "terms": "architecture, style, Ottoman.",
         "character": {
             "Characteristic Elements": [
                 "1. Use of domes and arches: Ottoman architecture is known for its grand domes and arches. These architectural elements are prominently featured in mosques, palaces, and other structures, giving them a distinctive look and feel.",
@@ -8651,7 +8651,7 @@
             "continent": "Asia",
             "country": "Thailand"
         },
-        "terms": "nouns: pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colorsadjectives: traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
+        "terms": "pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colors, traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
         "character": {
             "characteristics": [
                 "Elaborate Roof Structures: Thai architecture is known for its dramatic and intricately designed roof structures. These roofs often feature multiple tiers, elaborate gables, and decorative finials. The roofs are usually steeply pitched and made of materials like ceramic tiles or thatched palm leaves.",
@@ -8742,7 +8742,7 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": " domes, minarets, courtyards, tile work, arches, gardens intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
+        "terms": "domes, minarets, courtyards, tile work, arches, gardens intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
         "character": {
             "elements": [
                 "Iwan: A large, vaulted recess or chamber, usually opening onto a courtyard and characterized by a tall, pointed arch on one side. It is often used as an entrance or a prayer hall in Persian architecture.",
@@ -8818,7 +8818,7 @@
             "continent": "Africa",
             "country": "Kenya and Tanzania"
         },
-        "terms": " Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
+        "terms": "Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
         "character": {
             "Characteristic elements": [
                 "Influenced by African, Islamic, and Indian architectural styles",
@@ -8892,7 +8892,7 @@
                 " applicable globally"
             ]
         },
-        "terms": "Federation: Distributed, Collaborative, Modular, Interconnected, Autonomous, Scalable.",
+        "terms": "Distributed, Collaborative, Modular, Interconnected, Autonomous, Scalable.",
         "character": {
             "architectural_style": "Federation",
             "characteristic_elements": [
@@ -8965,7 +8965,7 @@
             "continent": "Asia",
             "country": "South Korea"
         },
-        "terms": " Traditional elements, wooden framework, angled roofs, courtyard, hanok (traditional Korean house), Buddhism influence, palaces, temples, gateways Elegant, minimalist, harmonious, earthy, rustic, symbolic, intricate, ornamental, timeless, culturally significant",
+        "terms": "Traditional elements, wooden framework, angled roofs, courtyard, hanok (traditional Korean house), Buddhism influence, palaces, temples, gateways Elegant, minimalist, harmonious, earthy, rustic, symbolic, intricate, ornamental, timeless, culturally significant",
         "character": {
             "characteristic elements": [
                 "Hanok: Traditional Korean houses, typically made of wood and stone with a tiled roof",
@@ -9115,7 +9115,7 @@
             "continent": "Asia",
             "country": "Vietnam"
         },
-        "terms": " Pagodas, temples, wooden structures, stone carving, courtyards, houses Ornate, elegant, symmetrical, traditional, influenced, harmonious, colorful.",
+        "terms": "Pagodas, temples, wooden structures, stone carving, courtyards, houses Ornate, elegant, symmetrical, traditional, influenced, harmonious, colorful.",
         "character": {
             "characteristics": [
                 "Influence of Chinese and French architectural styles",
@@ -9192,7 +9192,7 @@
                 " Libya"
             ]
         },
-        "terms": "noun: Berber architectureadjectives: traditional, vernacular, organic, earthy, sustainable, functional, harmonious",
+        "terms": "Berber architecture, traditional, vernacular, organic, earthy, sustainable, functional, harmonious",
         "character": {
             "Characteristic elements of Berber architecture style": [
                 "Mud and stone construction",
@@ -9263,7 +9263,7 @@
             "continent": "Africa",
             "country": "Sudan"
         },
-        "terms": "Nubian architecture style: timeless, grandiose, sturdy, monumental, earthen, geometric patterns, arched doorways, domed roofs, dense, mudbrick construction, ornate carvings, vibrant colors",
+        "terms": "timeless, grandiose, sturdy, monumental, earthen, geometric patterns, arched doorways, domed roofs, dense, mudbrick construction, ornate carvings, vibrant colors",
         "character": {
             "Element 1": "Use of mud bricks and other natural materials",
             "Element 2": "Decorative patterns of geometric shapes and symbols",
@@ -9337,7 +9337,7 @@
             "continent": "Asia",
             "country": "India"
         },
-        "terms": " Temples, palaces, gateways, minarets, courtyards, arches, domes, columns. Ornate, vibrant, colorful, intricate, symmetrical, grand, majestic, ancient, sacred, spiritual, diverse.",
+        "terms": "Temples, palaces, gateways, minarets, courtyards, arches, domes, columns. Ornate, vibrant, colorful, intricate, symmetrical, grand, majestic, ancient, sacred, spiritual, diverse.",
         "character": {
             "characteristics": [
                 "Intricate and decorative designs: Indian architecture is known for its intricate and highly detailed designs. It often incorporates elaborate carvings, patterns, and motifs, especially in religious buildings like temples.",
@@ -9412,7 +9412,7 @@
             "continent": "North America",
             "country": "United States"
         },
-        "terms": "noun: architecture styleadjective: federal",
+        "terms": "architecture style, federal",
         "character": {
             "Characteristic Elements": [
                 "Symmetry: Federal architecture is known for its symmetrical designs, both exterior and interior. This includes evenly spaced windows and doors, as well as balanced proportions.",
@@ -9483,7 +9483,7 @@
             "continent": "Europe",
             "country": "Various countries in Europe"
         },
-        "terms": "noun: Logic, reason, geometry, orderadjective: Rational, symmetrical",
+        "terms": "Logic, reason, geometry, order, Rational, symmetrical",
         "character": {
             "Characteristic elements": [
                 "Use of geometric shapes and clean lines",
@@ -9495,5 +9495,141 @@
         "significance": 7.5,
         "Start_Year": "1924 CE",
         "End_Year": "1980 CE"
+    },
+    "Sumerian": {
+        "architects": [
+            {
+                "name": "Imhotep",
+                "birth_date": "c. 2650 BCE",
+                "death_date": "c. 2600 BCE",
+                "nationality": "Egyptian",
+                "description": "Imhotep was an Egyptian architect, physician, and high official of the Pharaoh Djoser. He is considered the first architect known by name in history.",
+                "notable_buildings": [
+                    "Step Pyramid of Djoser at Saqqara"
+                ]
+            },
+            {
+                "name": "Hammurabi",
+                "birth_date": "c. 1810 BCE",
+                "death_date": "c. 1750 BCE",
+                "nationality": "Ancient Mesopotamian",
+                "description": "Hammurabi was an Ancient Mesopotamian king known for his code of laws. Although not primarily an architect, his reign saw the construction of notable buildings in the Sumerian architectural style.",
+                "notable_buildings": [
+                    "The Great Ziggurat of Ur"
+                ]
+            },
+            {
+                "name": "Ur-Nammu",
+                "birth_date": "c. 2100 BCE",
+                "death_date": "c. 2050 BCE",
+                "nationality": "Sumerian",
+                "description": "Ur-Nammu was a Sumerian king who founded the third dynasty of Ur. During his reign, many architectural wonders were constructed in the Sumerian style.",
+                "notable_buildings": [
+                    "The Ziggurat of Ur",
+                    "The Great Wall of Ur"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "Approximately 3100 BCE - 1750 BCE",
+            "period": "Ancient Mesopotamian civilization",
+            "description": "Sumerian architecture refers to the architectural style developed by the Sumerians, who lived in ancient Mesopotamia (modern-day southern Iraq) during the Bronze Age. It is considered one of the earliest architectural styles in human history.",
+            "characteristics": [
+                "Ziggurats: Tower-like structures with a stepped or terraced pyramid design.",
+                "Mud-brick construction: Sumerians used sun-dried mud bricks as their primary building material.",
+                "Temple complexes: Built to honor various deities, these complexes often featured a central temple surrounded by other smaller buildings.",
+                "Meticulous planning: Sumerian architects laid out cities in a grid-like pattern, with straight streets and rectangular city blocks.",
+                "Use of arches and vaults: Early examples of arches and vaults were employed in Sumerian architecture.",
+                "Ornate decoration: Buildings were adorned with intricate carvings, friezes, and statues.",
+                "Cuneiform inscriptions: Sumerian writing system, known as cuneiform, was often used to record information on the buildings' walls.",
+                "Urban planning: Sumerian cities had systems for water management, defense walls, and centralized administrative buildings."
+            ],
+            "examples": [
+                "Great Ziggurat of Ur",
+                "Ziggurat of Ur-Nammu",
+                "Eshnunna ziggurat",
+                "Nippur ziggurat",
+                "Temple of Ninhursag, Khafajah"
+            ],
+            "continent": "Asia",
+            "country": "Iraq"
+        },
+        "terms": "Ziggurat, temple, city, wall, palace, monument, canal Towering, monumental, terraced, intricate, impressive, grand, ancient",
+        "character": {
+            "characteristic elements": [
+                "Use of mud brick construction",
+                "Ziggurat structures",
+                "Ornate decoration using symbols and motifs"
+            ]
+        },
+        "short": "Sumerian architecture was characterized by the use of mud-brick construction, ziggurats as religious centers, and ornate temples in Mesopotamia.",
+        "Start_Year": "5000 BCE",
+        "End_Year": " 2004 BCE"
+    },
+    "Uruk": {
+        "architects": [
+            {
+                "name": "Anu",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Sumerian",
+                "description": "Anu was a Sumerian architect known for his contributions to the Uruk architecture style. He was one of the pioneers in developing monumental structures during the Uruk period.",
+                "notable_buildings": [
+                    "Eanna Temple in Uruk"
+                ]
+            },
+            {
+                "name": "Enki",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Sumerian",
+                "description": "Enki was a prominent Sumerian architect who played a key role in the development and evolution of the Uruk architecture style. His designs focused on incorporating advanced engineering techniques and creating functional spaces.",
+                "notable_buildings": [
+                    "Ziggurat of Enki in Eridu",
+                    "White Temple of Enki in Uruk"
+                ]
+            },
+            {
+                "name": "Gilgamesh",
+                "birth_date": "",
+                "death_date": "",
+                "nationality": "Sumerian",
+                "description": "Gilgamesh was not only a legendary king but also an influential Sumerian architect who made significant contributions to Uruk architecture. His structures were grand and characterized by their massive scale and impressive design.",
+                "notable_buildings": [
+                    "Great Wall of Uruk",
+                    "Palace of Gilgamesh in Uruk"
+                ]
+            }
+        ],
+        "style": {
+            "timeRange": "4100-3200 BCE",
+            "period": "Prehistoric",
+            "description": "The Uruk architecture style refers to the architectural design and construction practices that emerged in the ancient city of Uruk during the Prehistoric period. Uruk, located in Mesopotamia (modern-day Iraq), was one of the earliest urban centers in human history.",
+            "characteristics": [
+                "Use of mud-brick construction",
+                "Ziggurats, stepped temple towers, were predominant architectural structures",
+                "Multi-story structures with interconnected courtyards",
+                "Ornamentation with glazed bricks, sculptures, and mosaics",
+                "City walls and gateways"
+            ],
+            "examples": [
+                "The White Temple of Uruk",
+                "Eanna District of Uruk",
+                "Ziggurat of Ur"
+            ],
+            "continent": "Asia",
+            "country": "Iraq"
+        },
+        "terms": "monumental structures, city walls, ziggurats, palaces, temples, gates, impressive, grand, fortified, monumental, religious, ceremonial",
+        "character": {
+            "Characteristics": [
+                "Massive mud-brick walls",
+                "Triangular shaped buttresses",
+                "Ziggurats as the focal point"
+            ]
+        },
+        "short": "Uruk architecture style was characterized by monumental structures with large mud-brick walls, ziggurats, and temple complexes in ancient Mesopotamia.",
+        "Start_Year": " 4000 BCE",
+        "End_Year": " 3100 BCE"
     }
 }
