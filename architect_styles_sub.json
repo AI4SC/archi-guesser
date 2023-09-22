@@ -50,7 +50,8 @@
                 "Abu Simbel temples"
             ],
             "continent": "Africa",
-            "country": "Egypt"
+            "country": "Egypt",
+            "style_area": "Middle East & North Africa"
         },
         "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive.",
         "Start_Year": "3100 BCE",
@@ -63,8 +64,67 @@
                 "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
             ]
         },
-        "short": "\"Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.\"",
+        "short": "Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.",
         "significance": 8.5
+    },
+    "Ancient Roman": {
+        "architects": [
+            {
+                "name": "Vitruvius",
+                "birth_date": "c. 80\u201370 BC",
+                "nationality": "Roman",
+                "description": "Ancient Roman writer, architect and engineer",
+                "notable_buildings": "None extant"
+            },
+            {
+                "name": "Apollodorus of Damascus",
+                "birth_date": "c. 50-60 AD",
+                "nationality": "Syrian",
+                "description": "Greek-roman architect",
+                "notable_buildings": "Trajan's Column, Market of Trajan, Hadrian's Wall"
+            },
+            {
+                "name": "Marcus Vitruvius Pollio",
+                "birth_date": "c. 80\u201370 BC",
+                "nationality": "Roman",
+                "description": "Roman writer, architect, and engineer",
+                "notable_buildings": "None extant"
+            }
+        ],
+        "style": {
+            "time_range": "509 BC \u2013 4th century AD",
+            "period": "Classical",
+            "description": "Roman Classical architecture is a style that emerged in ancient Rome and was heavily influenced by Ancient Greek architecture. It is characterized by its use of classical orders, such as the Doric, Ionic, and Corinthian, as well as its use of arches, vaults, and domes. The architecture was grand and impressive, with many buildings featuring large colonnades and intricate details.",
+            "characteristics": {
+                "Use of classical orders": true,
+                "Use of arches, vaults, and domes": true,
+                "Grand and impressive": true,
+                "Large colonnades": true,
+                "Intricate details": true
+            },
+            "examples": [
+                "Colosseum",
+                "Pantheon",
+                "Roman Forum",
+                "Trajan's Column"
+            ],
+            "continent": "Europe",
+            "country": "Italy",
+            "style_area": "Europe"
+        },
+        "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring.",
+        "Start_Year": "300 BCE",
+        "End_Year": "476 CE",
+        "icon": "ancient_roman.png",
+        "character": {
+            "characteristics": [
+                "Use of arches and vaults: Ancient Roman architecture is characterized by its innovative use of arches and vaults which provided structural integrity and enabled the construction of monumental buildings such as the Colosseum and the Pantheon.",
+                "Emphasis on grandeur and monumentality: Ancient Roman architecture aimed to impress and demonstrate the power and wealth of the empire. It featured large, imposing structures with grand facades, impressive colonnades, and monumental scale.",
+                "Incorporation of classical elements: Ancient Roman architecture was heavily influenced by Greek architectural traditions. It incorporated classical elements such as columns, pediments, and symmetrical design, but often developed them in a grander and more lavish manner."
+            ]
+        },
+        "short": "Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.",
+        "significance": 7
     },
     "Romanesque": {
         "architects": [
@@ -123,7 +183,8 @@
                 "Germany",
                 "England",
                 "Italy"
-            ]
+            ],
+            "style_area": "Europe"
         },
         "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic",
         "Start_Year": "800 CE",
@@ -203,9 +264,10 @@
                 "Czech Republic",
                 "Spain",
                 "Belgium"
-            ]
+            ],
+            "style_area": "Europe"
         },
-        "terms": "Gothic architecture: pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
+        "terms": "pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
         "Start_Year": "1100 CE",
         "End_Year": "1500 CE",
         "icon": "gothic.png",
@@ -216,7 +278,7 @@
                 "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
             ]
         },
-        "short": "\"Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.\"",
+        "short": "Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.",
         "significance": 9.5
     },
     "Renaissance": {
@@ -275,9 +337,10 @@
                 "Ponte Vecchio in Florence, Italy"
             ],
             "continent": "Europe",
-            "country": "Italy"
+            "country": "Italy",
+            "style_area": "Europe"
         },
-        "terms": " buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
+        "terms": "buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
         "Start_Year": "1400 CE",
         "End_Year": "1600 CE",
         "icon": "renaissance.png",
@@ -290,6 +353,152 @@
         },
         "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece.",
         "significance": 8.5
+    },
+    "Baroque": {
+        "architects": [
+            {
+                "name": "Francesco Borromini",
+                "birth_date": "25 September 1599",
+                "nationality": "Italian",
+                "description": "A master of Baroque architecture and sculpture, known for his creative, free-form style and for his innovative use of light and shadow.",
+                "notable_buildings": [
+                    "San Carlo alle Quattro Fontane",
+                    "Sant'Ivo alla Sapienza",
+                    "Palazzo Barberini"
+                ]
+            },
+            {
+                "name": "Gian Lorenzo Bernini",
+                "birth_date": "7 December 1598",
+                "nationality": "Italian",
+                "description": "An architect, sculptor, and painter who helped to define the Baroque style in Rome and throughout Europe.",
+                "notable_buildings": [
+                    "St. Peter's Square",
+                    "Biblioteca Apostolica Vaticana",
+                    "Sant'Andrea al Quirinale"
+                ]
+            },
+            {
+                "name": "Johann Bernhard Fischer von Erlach",
+                "birth_date": "20 July 1656",
+                "nationality": "Austrian",
+                "description": "An influential Austrian Baroque architect, who designed buildings in both Vienna and Salzburg.",
+                "notable_buildings": [
+                    "Karlskirche",
+                    "Schonbrunn Palace",
+                    "Church of St. John Nepomuk"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "17th to mid-18th century",
+            "period": "Medieval",
+            "description": "Architectural style characterized by opulence, dynamism, and drama",
+            "characteristics": [
+                "Elaborate ornamentation",
+                "Curvilinear forms",
+                "Dramatic use of light and shade",
+                "Large, grandiose buildings",
+                "Emphasis on illusionistic painting"
+            ],
+            "examples": [
+                "Palace of Versailles, France",
+                "St. Peter's Basilica, Vatican City",
+                "Escorial, Spain",
+                "The Trevi Fountain, Italy"
+            ],
+            "continent": "Europe",
+            "country": [
+                "France",
+                "Vatican City",
+                "Spain",
+                "Italy"
+            ],
+            "style_area": "Europe"
+        },
+        "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation",
+        "Start_Year": "1584 CE",
+        "End_Year": "1750 CE",
+        "icon": "baroque.png",
+        "character": {
+            "characteristicElements": [
+                "Dramatic and theatrical style",
+                "Elaborate ornamentation and decoration",
+                "Use of curves and dynamic shapes"
+            ]
+        },
+        "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale.",
+        "significance": 9
+    },
+    "Neoclassical": {
+        "architects": [
+            {
+                "name": "Andrea Palladio",
+                "birthDate": "November 30, 1508",
+                "nationality": "Italian",
+                "description": "Considered one of the most influential architects in Western architecture history, known for his rigorous design and proportion theories.",
+                "notableBuildings": [
+                    "Basilica Palladiana",
+                    "Villa Capra 'La Rotonda'"
+                ]
+            },
+            {
+                "name": "Robert Adam",
+                "birthDate": "July 3, 1728",
+                "nationality": "Scottish",
+                "description": "Famous for his elegant, decorative, and refined designs, Adam was one of the key figures of the Georgian era.",
+                "notableBuildings": [
+                    "Kenwood House",
+                    "Syon House"
+                ]
+            },
+            {
+                "name": "Thomas Jefferson",
+                "birthDate": "April 13, 1743",
+                "nationality": "American",
+                "description": "An American Founding Father, Jefferson was also a skilled architect and archaeologist who contributed to the development of the neoclassical style in the United States.",
+                "notableBuildings": [
+                    "Virginia State Capitol",
+                    "Monticello"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "mid-18th to early-19th centuries",
+            "period": "18th century",
+            "description": "A revival of classical architecture that emerged in the 18th century characterized by symmetry, order, and simplicity. It was a reaction against the elaborate, ornate, and irregular Baroque and Rococo styles.",
+            "characteristics": [
+                "Symmetrical fa\u00e7ades",
+                "Use of columns, triangular pediments, and domes",
+                "Flat roofs",
+                "Clean, refined, and elegant lines",
+                "Use of mathematical proportions and ratios",
+                "Emphasis on functionality and practicality"
+            ],
+            "examples": [
+                "The White House in Washington D.C.",
+                "The \u00c9cole Militaire in Paris",
+                "The Brandenburg Gate in Berlin",
+                "The Royal Palace of Caserta in Italy",
+                "St. George's Hall in Liverpool"
+            ],
+            "continent": "Europe",
+            "country": "France",
+            "style_area": "Europe"
+        },
+        "terms": "classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
+        "Start_Year": "1740 CE",
+        "End_Year": "1909 CE",
+        "icon": "neoclassical.png",
+        "character": {
+            "elements": [
+                "Symmetry: Neoclassical architecture emphasizes balanced and harmonious designs, often featuring symmetrical facades and layouts.",
+                "Classical Orders: This architectural style draws inspiration from classical Greek and Roman architecture, incorporating elements such as columns and pediments.",
+                "Decorative Detailing: Neoclassical buildings often showcase decorative detailing, such as elaborate cornices, friezes, and ornate moldings."
+            ]
+        },
+        "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint.",
+        "significance": 8
     },
     "Victorian": {
         "architects": [
@@ -344,9 +553,10 @@
                 "The Victoria and Albert Museum in London"
             ],
             "continent": "Europe",
-            "country": "United Kingdom"
+            "country": "United Kingdom",
+            "style_area": "Anglo World"
         },
-        "terms": " style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
+        "terms": "style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
         "Start_Year": "1837 CE",
         "End_Year": "1901 CE",
         "character": {
@@ -356,8 +566,171 @@
                 "Use of diverse architectural styles: Victorian architecture draws inspiration from various architectural styles, including Gothic Revival, Italianate, Queen Anne, and Second Empire. This results in a diverse range of architectural features, such as pointed arches, towers, bay windows, and decorative brackets."
             ]
         },
-        "short": "\"Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.\"",
+        "short": "Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.",
         "significance": 9
+    },
+    "Art Nouveau": {
+        "architects": [
+            {
+                "name": "Hector Guimard",
+                "birthDate": "March 10, 1867",
+                "nationality": "French",
+                "description": "Hector Guimard was a French architect, designer and decorator who is famous for his Art Nouveau style.",
+                "notableBuildings": [
+                    "Castel B\u00e9ranger",
+                    "Maison Coilliot",
+                    "Cit\u00e9 Monthiers",
+                    "Metro entrances"
+                ]
+            },
+            {
+                "name": "Victor Horta",
+                "birthDate": "January 6, 1861",
+                "nationality": "Belgian",
+                "description": "Victor Horta was a Belgian architect and designer who is famous for his Art Nouveau buildings and interior designs.",
+                "notableBuildings": [
+                    "Horta Museum",
+                    "Hotel Tassel",
+                    "Hotel Solvay",
+                    "House and Studio of Victor Horta"
+                ]
+            },
+            {
+                "name": "Antoni Gaud\u00ed",
+                "birthDate": "June 25, 1852",
+                "nationality": "Spanish",
+                "description": "Antoni Gaud\u00ed was a Spanish architect and designer who is famous for his Art Nouveau buildings and unique style.",
+                "notableBuildings": [
+                    "Sagrada Familia",
+                    "Park G\u00fcell",
+                    "Casa Batll\u00f3",
+                    "La Pedrera"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1890s - 1910s",
+            "period": "19th century",
+            "description": "Art Nouveau is an artistic style that emerged in the late 19th century characterized by organic and curved lines, asymmetry, and the use of natural elements such as flowers, plants, and insects. It was a reaction against the academic art of the 19th century and aimed to create a new style that was modern and original.",
+            "characteristics": [
+                "Organic and curved lines",
+                "Asymmetry",
+                "Natural elements such as flowers, plants, and insects",
+                "Emphasis on decorative details",
+                "Use of new materials and techniques"
+            ],
+            "examples": [
+                "H\u00f4tel Tassel in Brussels, Belgium",
+                "Majolikahaus in Vienna, Austria",
+                "Casa Batll\u00f3 in Barcelona, Spain",
+                "Horta Museum in Brussels, Belgium",
+                "\u00c9cole de Nancy in Nancy, France"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Belgium",
+                "Austria",
+                "Spain",
+                "France"
+            ],
+            "style_area": "Europe"
+        },
+        "terms": "decorative, ornate, elaborate, asymmetrical, organic, curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves, 19th century decorative arts, nature, Japanese art",
+        "Start_Year": "1890 CE",
+        "End_Year": "1914 CE",
+        "icon": "art_nouveau.png",
+        "character": {
+            "elements": [
+                "Organic shapes and motifs inspired by nature",
+                "Whiplash curves and flowing lines",
+                "Intricate and decorative ornamentation"
+            ]
+        },
+        "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
+        "significance": 8
+    },
+    "Art Deco": {
+        "architects": [
+            {
+                "name": "William Van Alen",
+                "birth_date": "August 10, 1883",
+                "nationality": "American",
+                "description": "Master of Art Deco designs, popularized the use of stainless steel in architecture",
+                "notable_buildings": [
+                    "Chrysler Building, New York"
+                ]
+            },
+            {
+                "name": "Erich Mendelsohn",
+                "birth_date": "March 21, 1887",
+                "nationality": "German",
+                "description": "Known for designing dynamic, streamlined Art Deco buildings that combined technology, science, and modern industrial materials",
+                "notable_buildings": [
+                    "Einstein Tower",
+                    "De La Warr Pavilion"
+                ]
+            },
+            {
+                "name": "Timothy Pflueger",
+                "birth_date": "September 26, 1892",
+                "nationality": "American",
+                "description": "Pioneered Art Deco architecture in San Francisco, blending classicism with modernism",
+                "notable_buildings": [
+                    "Pflueger Office Building",
+                    "Castro Theatre"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1920s-1930s",
+            "period": "20th century",
+            "description": "Art Deco is a style that emerged in the 1920s and 1930s, and is characterized by bold geometric shapes, bright colors, and luxurious materials. It was influenced by various art movements, including Cubism and Futurism, and was seen as a celebration of modernity.",
+            "characteristics": [
+                "Geometric shapes",
+                "Bold lines",
+                "Bright colors",
+                "Luxurious materials",
+                "Streamlined forms",
+                "Symmetry",
+                "Zigzag patterns",
+                "Sunburst motifs",
+                "Emphasis on verticality",
+                "Figurative decoration"
+            ],
+            "examples": [
+                "Chrysler Building in New York City",
+                "The Daily Express Building in Manchester, UK",
+                "Radio City Music Hall in New York City",
+                "The Hoover Building in London, UK",
+                "The Empire State Building in New York City"
+            ],
+            "continent": [
+                "North America",
+                "Europe",
+                "Asia"
+            ],
+            "country": [
+                "United States of America",
+                "United Kingdom",
+                "France",
+                "India",
+                "China"
+            ],
+            "style_area": "Central & South America"
+        },
+        "terms": "geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
+        "Start_Year": "1920 CE",
+        "End_Year": "1939 CE",
+        "icon": "art_deco.png",
+        "character": {
+            "characteristics": [
+                "Geometric shapes and angular forms",
+                "Sleek and streamlined design",
+                "Use of decorative motifs and symbols"
+            ]
+        },
+        "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials.",
+        "significance": 8
     },
     "Brutalism": {
         "architects": [
@@ -456,9 +829,10 @@
             "country": [
                 "UK",
                 "USA"
-            ]
+            ],
+            "style_area": "Intercultural/International Styles"
         },
-        "terms": " Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
+        "terms": "Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
         "Start_Year": "1950 CE",
         "End_Year": "1970 CE",
         "icon": "brutalism.png",
@@ -471,6 +845,75 @@
         },
         "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style.",
         "significance": 9
+    },
+    "Bauhaus": {
+        "architects": [
+            {
+                "name": "Walter Gropius",
+                "birthdate": "May 18, 1883",
+                "nationality": "German",
+                "description": "Founder of the Bauhaus school, Gropius was a visionary who sought to reconcile art and technology to create an architecture that was both functional and beautiful, with an emphasis on simplicity and rationality.",
+                "notable_buildings": [
+                    "The Fagus Factory",
+                    "Bauhaus Dessau",
+                    "Harvard Graduate Center"
+                ]
+            },
+            {
+                "name": "Mies van der Rohe",
+                "birthdate": "March 27, 1886",
+                "nationality": "German",
+                "description": "Mies van der Rohe was a master of modern architecture, with a focus on steel and glass construction that emphasized the Minimalist aesthetic. He was a director of the Bauhaus school before it was closed by the Nazis in 1933.",
+                "notable_buildings": [
+                    "Tugendhat House",
+                    "Barcelona Pavilion",
+                    "Seagram Building"
+                ]
+            },
+            {
+                "name": "Le Corbusier",
+                "birthdate": "October 6, 1887",
+                "nationality": "Swiss",
+                "description": "A pioneer of modern architecture and urban planning, Le Corbusier believed in the importance of creating functional, efficient, and beautiful buildings that served the needs of society. His work had a profound influence on the Bauhaus and vice versa.",
+                "notable_buildings": [
+                    "Villa Savoye",
+                    "Unit\u00e9 d'Habitation",
+                    "Notre-Dame-du-Haut"
+                ]
+            }
+        ],
+        "style": {
+            "time_range": "1919-1933",
+            "period": "20th century",
+            "description": "Bauhaus architecture was a design movement in Germany that aimed to combine fine arts with craftsmanship to create functional and affordable buildings. It emphasized the use of new materials and industrial techniques, resulting in minimalist and functional designs.",
+            "characteristics": [
+                "Minimalist design",
+                "Use of new materials",
+                "Functional and affordable buildings",
+                "Emphasis on craftsmanship"
+            ],
+            "examples": [
+                "Bauhaus building in Dessau",
+                "Fagus Factory in Alfeld",
+                "Haus am Horn in Weimar"
+            ],
+            "continent": "Europe",
+            "country": "Germany",
+            "style_area": "Europe"
+        },
+        "terms": "design movement, geometric shapes, minimalism, industrial materials, functionality, innovative, modernism, rationalism simple, elegant, clean, sleek, efficient, practical, precise, precise, rational, innovative",
+        "icon": "bauhaus.png",
+        "character": {
+            "characteristic elements": [
+                "Functionality and simplicity: The Bauhaus architecture style emphasized the idea that buildings should be designed primarily for their intended purpose, rather than for decorative or ornamental purposes. The focus was on clean lines, geometric shapes, and a minimalistic aesthetic.",
+                "Form follows function: This principle states that the shape and design of a building should be dictated by its function or purpose. Bauhaus architects believed that the design of a building should be determined by its use and the materials used, rather than following traditional architectural styles or conventions.",
+                "Integration of art and technology: The Bauhaus movement sought to combine art and technology, incorporating new industrial materials and techniques into architectural design. This involved using innovative construction methods and materials, such as reinforced concrete and steel, and incorporating artworks and decorative elements into the overall design of buildings."
+            ]
+        },
+        "short": "Bauhaus architecture is a modernist style that focuses on simplicity, functionality, and the integration of art and technology.",
+        "significance": 8,
+        "Start_Year": "1919 CE",
+        "End_Year": "1933 CE"
     },
     "Colonial": {
         "architects": [
@@ -541,9 +984,10 @@
                 "India",
                 "Indonesia",
                 "Vietnam"
-            ]
+            ],
+            "style_area": "Intercultural/International Styles"
         },
-        "terms": "nouns: buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofsadjectives: grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
+        "terms": "buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofs, grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
         "Start_Year": "1600 CE",
         "End_Year": "1947 CE",
         "character": {
@@ -562,7 +1006,7 @@
                 }
             ]
         },
-        "short": "\"Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.\"",
+        "short": "Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.",
         "significance": 6
     },
     "Colonial Revival": {
@@ -618,7 +1062,8 @@
                 "The Biltmore Estate in Asheville, North Carolina"
             ],
             "continent": "North America",
-            "country": "United States of America"
+            "country": "United States of America",
+            "style_area": "Anglo World"
         },
         "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist.",
         "Start_Year": "1880 CE",
@@ -692,7 +1137,8 @@
                 "Belize",
                 "Nicaragua",
                 "Costa Rica"
-            ]
+            ],
+            "style_area": "Central & South America"
         },
         "terms": "pyramids, temples, palaces, courtyards, terraces, intricate, hierarchical, symbolic, monumental, impressive, powerful, colorful, geometrical, ornate, religious, cultural",
         "Start_Year": "2000 BCE",
@@ -746,7 +1192,7 @@
                 ]
             }
         ],
-        "terms": " unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
+        "terms": "unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
         "style": {
             "time_range": "1919-1934",
             "period": "20th century",
@@ -767,7 +1213,8 @@
                 "Bauhaus School in Dessau, Germany"
             ],
             "continent": "Europe",
-            "country": "Russia"
+            "country": "Russia",
+            "style_area": "North Eurasia"
         },
         "Start_Year": "1917 CE",
         "End_Year": "1930 CE",
@@ -836,9 +1283,10 @@
                 "The Cathedral of the Archangel"
             ],
             "continent": "Europe/Asia",
-            "country": "Russia"
+            "country": "Russia",
+            "style_area": "North Eurasia"
         },
-        "terms": " Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
+        "terms": "Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
         "Start_Year": "1407 CE",
         "End_Year": "1692 CE",
         "character": {
@@ -910,9 +1358,10 @@
                 "The Mausoleum of the First Qin Emperor in Shaanxi"
             ],
             "continent": "Asia",
-            "country": "China"
+            "country": "China",
+            "style_area": "East Asia"
         },
-        "terms": " Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
+        "terms": "Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
         "Start_Year": "618 CE",
         "End_Year": "1912 CE",
         "icon": "chinese_imperial.png",
@@ -981,7 +1430,8 @@
                 "Taj Mahal"
             ],
             "continent": "Asia",
-            "country": "India"
+            "country": "India",
+            "style_area": "South Asia"
         },
         "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent.",
         "Start_Year": "320 CE",
@@ -1050,7 +1500,8 @@
                 "Tokyo Imperial Palace in Tokyo"
             ],
             "continent": "Asia",
-            "country": "Japan"
+            "country": "Japan",
+            "style_area": "East Asia"
         },
         "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard.",
         "Start_Year": "1603 CE",
@@ -1124,9 +1575,10 @@
                 "Baksei Chamkrong Temple"
             ],
             "continent": "Asia",
-            "country": "Cambodia"
+            "country": "Cambodia",
+            "style_area": "Southeast Asia & South Pacific"
         },
-        "terms": " temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
+        "terms": "temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
         "Start_Year": "825 CE",
         "End_Year": "1431 CE",
         "character": {
@@ -1189,7 +1641,8 @@
                 "Timurid Palace in Herat, Afghanistan"
             ],
             "continent": "Asia",
-            "country": "Uzbekistan"
+            "country": "Uzbekistan",
+            "style_area": "Central Asia"
         },
         "terms": "Timurid Period architecture style was characterized by intricate details, vibrant tiles, glazed bricks, geometric motifs, blue and turquoise coloring, majestic domes, grand entrances, and monumental structures.",
         "Start_Year": "1370 CE",
@@ -1259,7 +1712,8 @@
                 "The Museum of Islamic Art in Doha, Qatar"
             ],
             "continent": "Asia",
-            "country": "Various countries in the Middle East and Southeast Asia"
+            "country": "Various countries in the Middle East and Southeast Asia",
+            "style_area": "Middle East & North Africa"
         },
         "terms": "Clean lines, minimal ornamentation, geometric shapes, innovative materials, functional, spacious, contemporary, sustainable, energy-efficient, culturally influenced.",
         "Start_Year": "1922 CE",
@@ -1281,7 +1735,7 @@
                 "example": "Masjid al-Haram Expansion Project in Mecca, Saudi Arabia"
             }
         ],
-        "short": "\"Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.\"",
+        "short": "Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.",
         "significance": 7
     },
     "Mud Brick": {
@@ -1359,7 +1813,8 @@
                 "Iraq",
                 "Morocco",
                 "Tunisia"
-            ]
+            ],
+            "style_area": "Sahel & Sub-Saharan Africa"
         },
         "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional.",
         "Start_Year": "4000 BCE",
@@ -1446,9 +1901,10 @@
                 "Brazil",
                 "Louisiana",
                 "Florida"
-            ]
+            ],
+            "style_area": "Central & South America"
         },
-        "terms": " stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
+        "terms": "stilts, elevated platform, bamboo flooring, thatched roof, wooden columns eco-friendly, tropical, traditional, sturdy, simplistic",
         "icon": "stilt_house.png",
         "character": {
             "characteristics": [
@@ -1522,9 +1978,10 @@
                 "Lahore Museum in Lahore, Pakistan"
             ],
             "continent": "Asia",
-            "country": "India"
+            "country": "India",
+            "style_area": "South Asia"
         },
-        "terms": "Indo-Saracenic architecture: combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
+        "terms": "combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
         "character": {
             "characteristic_elements": [
                 "Fusion of Indian and Islamic architectural styles",
@@ -1622,9 +2079,10 @@
                 "The Sydney Opera House in Australia"
             ],
             "continent": "Multiple",
-            "country": "Various"
+            "country": "Various",
+            "style_area": "Intercultural/International Styles"
         },
-        "terms": "Contemporary architecture: minimal, innovative, sleek, geometric, sustainable, functional, dynamic, experimental.",
+        "terms": "minimal, innovative, sleek, geometric, sustainable, functional, dynamic, experimental.",
         "character": {
             "characteristic_elements": [
                 "Simplicity and minimalism: Contemporary architecture emphasizes clean lines and simplicity in design, with a focus on open spaces and streamlined forms.",
@@ -1632,7 +2090,7 @@
                 "Integration with the surrounding environment: Contemporary architecture strives to seamlessly blend with the natural surroundings, often incorporating large windows, terraces, and outdoor spaces to connect the indoor and outdoor areas."
             ]
         },
-        "short": "\"Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.\"",
+        "short": "Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.",
         "Start_Year": "1950 CE",
         "End_Year": "present",
         "significance": 6
@@ -1694,9 +2152,10 @@
                 "Grand Palace"
             ],
             "continent": "Asia",
-            "country": "Thailand"
+            "country": "Thailand",
+            "style_area": "Southeast Asia & South Pacific"
         },
-        "terms": "nouns: pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colorsadjectives: traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
+        "terms": "pagodas, temples, palaces, wooden structures, ornate carvings, intricate designs, decorative details, gilded decorations, vibrant colors, traditional, elegant, intricate, ornate, elaborate, colorful, spiritual, symbolic, cultural, historical",
         "character": {
             "characteristics": [
                 "Elaborate Roof Structures: Thai architecture is known for its dramatic and intricately designed roof structures. These roofs often feature multiple tiers, elaborate gables, and decorative finials. The roofs are usually steeply pitched and made of materials like ceramic tiles or thatched palm leaves.",
@@ -1704,7 +2163,7 @@
                 "Raised Platform and Pillars: Traditional Thai buildings are typically elevated on a raised platform supported by wooden or stone pillars. This design element serves various purposes, including protection from floods, ventilation, and providing a sense of grandeur. The raised platform also creates a shaded area underneath the building."
             ]
         },
-        "short": "\"Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.\"",
+        "short": "Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.",
         "Start_Year": "1000 CE",
         "End_Year": "present",
         "significance": 8.5
@@ -1785,9 +2244,10 @@
                 "Taq-e Bostan"
             ],
             "continent": "Asia",
-            "country": "Iran"
+            "country": "Iran",
+            "style_area": "Central Asia"
         },
-        "terms": " domes, minarets, courtyards, tile work, arches, gardens intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
+        "terms": "domes, minarets, courtyards, tile work, arches, gardens intricate, ornate, colorful, geometric, symmetrical, elegant, grand, historic",
         "character": {
             "elements": [
                 "Iwan: A large, vaulted recess or chamber, usually opening onto a courtyard and characterized by a tall, pointed arch on one side. It is often used as an entrance or a prayer hall in Persian architecture.",
@@ -1861,9 +2321,10 @@
                 "Songo Mnara, Tanzania"
             ],
             "continent": "Africa",
-            "country": "Kenya and Tanzania"
+            "country": "Kenya and Tanzania",
+            "style_area": "Sahel & Sub-Saharan Africa"
         },
-        "terms": " Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
+        "terms": "Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
         "character": {
             "Characteristic elements": [
                 "Influenced by African, Islamic, and Indian architectural styles",
