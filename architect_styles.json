@@ -53,7 +53,8 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "mosques, minarets, domes, tilework, motifs, intricate, ornate, geometric, calligraphic, colorful, historical, impressive, influential"
+        "terms": "mosques, minarets, domes, tilework, motifs, intricate, ornate, geometric, calligraphic, colorful, historical, impressive, influential",
+        "name": "Persian Islamic"
     },
     "Renaissance": {
         "architects": [
@@ -228,7 +229,8 @@
             "No",
             "No"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Renaissance"
     },
     "Secession": {
         "architects": [
@@ -292,7 +294,8 @@
                 "Germany"
             ]
         },
-        "terms": "architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation. ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant."
+        "terms": "architecture, secession, movement, buildings, decoration, ornamentation, geometry, functionality, innovation. ornate, decorative, fluid, organic, intricate, stylish, revolutionary, artistic, elegant.",
+        "name": "Secession"
     },
     "Bauhaus": {
         "architects": [
@@ -456,7 +459,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Bauhaus"
     },
     "Historicism": {
         "architects": [
@@ -512,7 +516,8 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": "architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative"
+        "terms": "architecture, style, movement, history, culture, society, heritage, tradition, identity, urban planning, construction, aesthetics, ornamentation contextual, eclectic, expressive, historic, decorative, ornate, grandiose, symbolic, culturally significant, revivalist, commemorative, monumental, decorative",
+        "name": "Historicism"
     },
     "Modern": {
         "architects": [
@@ -581,7 +586,8 @@
             "country": "Varous"
         },
         "terms": "buildings, structures, design, materials, functionality innovative, futuristic, sleek, minimalistic, functional.",
-        "icon": "modern.png"
+        "icon": "modern.png",
+        "name": "Modern"
     },
     "Neoclassical": {
         "architects": [
@@ -723,7 +729,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Neoclassical"
     },
     "Gothic": {
         "architects": [
@@ -904,7 +911,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Gothic"
     },
     "Art Deco": {
         "architects": [
@@ -1083,7 +1091,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Central & South America"
+        "style_area": "Central & South America",
+        "name": "Art Deco"
     },
     "Mid-century modern": {
         "architects": [
@@ -1142,7 +1151,8 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "architecture, design, furniture, interior, style, buildings sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless"
+        "terms": "architecture, design, furniture, interior, style, buildings sleek, minimalistic, functional, simple, geometric, innovative, symmetrical, futuristic, timeless",
+        "name": "Mid-century modern"
     },
     "Neo-Gothic": {
         "architects": [
@@ -1200,7 +1210,8 @@
             "continent": "Europe",
             "country": "England"
         },
-        "terms": "architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows.  historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic."
+        "terms": "architecture, style, aesthetic, Gothic revival, pointed arches, ornate decoration, gargoyles, stained glass windows.  historical, ornamental, grandiose, dramatic, elaborate, intricate, medieval-inspired, romantic, dark, imposing, majestic.",
+        "name": "Neo-Gothic"
     },
     "Italianate": {
         "architects": [
@@ -1376,7 +1387,8 @@
             "Mansard": 1,
             "Charming": 1,
             "Whimsical": 1
-        }
+        },
+        "name": "Italianate"
     },
     "Brutalist": {
         "architects": [
@@ -1432,7 +1444,8 @@
             "continent": "Europe",
             "country": "United Kingdom"
         },
-        "terms": "concrete, stark, minimalist, monolithic, functional, authoritarian, imposing, uncompromising, brutal, utilitarian, massive."
+        "terms": "concrete, stark, minimalist, monolithic, functional, authoritarian, imposing, uncompromising, brutal, utilitarian, massive.",
+        "name": "Brutalist"
     },
     "Deconstructivism": {
         "architects": [
@@ -1609,7 +1622,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Deconstructivism"
     },
     "Beaux Arts": {
         "architects": [
@@ -1673,7 +1687,8 @@
                 "Canada"
             ]
         },
-        "terms": "Classic, ornate, grandiose, symmetrical architecture style that originated in France, characterized by arches, columns, domes and elaborate decoration."
+        "terms": "Classic, ornate, grandiose, symmetrical architecture style that originated in France, characterized by arches, columns, domes and elaborate decoration.",
+        "name": "Beaux Arts"
     },
     "Shingle Style": {
         "architects": [
@@ -1851,7 +1866,8 @@
             "Humble": 1,
             "Columns": 1,
             "Historic": 1
-        }
+        },
+        "name": "Shingle Style"
     },
     "American Craftsman": {
         "architects": [
@@ -1909,7 +1925,8 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Craftsman, architecture American"
+        "terms": "Craftsman, architecture American",
+        "name": "American Craftsman"
     },
     "Ranch-style house": {
         "architects": [
@@ -2059,7 +2076,8 @@
             "Ranch-style": 1,
             "Wide footprint": 1,
             "Indoor-outdoor": 1
-        }
+        },
+        "name": "Ranch-style house"
     },
     "Colonial Revival": {
         "architects": [
@@ -2228,7 +2246,8 @@
             "Proud": 1,
             "err1": 1
         },
-        "style_area": "Anglo World"
+        "style_area": "Anglo World",
+        "name": "Colonial Revival"
     },
     "Mesoamerican": {
         "architects": [
@@ -2395,7 +2414,8 @@
             "Serpents": 1,
             "Jaguars": 1
         },
-        "style_area": "Central & South America"
+        "style_area": "Central & South America",
+        "name": "Mesoamerican"
     },
     "Baroque": {
         "architects": [
@@ -2573,7 +2593,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Baroque"
     },
     "Postmodern": {
         "architects": [
@@ -2652,7 +2673,8 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "eclectic, playful, ironic, unconventional, fragmented, colorful, historical, humorous, decorative, multi-referential."
+        "terms": "eclectic, playful, ironic, unconventional, fragmented, colorful, historical, humorous, decorative, multi-referential.",
+        "name": "Postmodern"
     },
     "Romanesque": {
         "architects": [
@@ -2815,7 +2837,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Romanesque"
     },
     "Rococo": {
         "architects": [
@@ -3001,7 +3024,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Rococo"
     },
     "Art Nouveau": {
         "architects": [
@@ -3170,7 +3194,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Art Nouveau"
     },
     "Greek Revival": {
         "architects": [
@@ -3336,7 +3361,8 @@
             "Symmetric": 1,
             "Graceful": 1,
             "Proportional": 1
-        }
+        },
+        "name": "Greek Revival"
     },
     "Georgian": {
         "architects": [
@@ -3495,7 +3521,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Georgian"
     },
     "International Style": {
         "architects": [
@@ -3659,7 +3686,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "International Style"
     },
     "Modernist": {
         "architects": [
@@ -3720,7 +3748,8 @@
                 "Switzerland"
             ]
         },
-        "terms": "Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry. Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary."
+        "terms": "Buildings, design, innovation, creativity, experimentation, functionality, simplicity, geometric shapes, asymmetry. Minimalistic, sleek, efficient, abstract, avant-garde, visionary, futuristic, industrial, daring, revolutionary.",
+        "name": "Modernist"
     },
     "Postmodernism": {
         "architects": [
@@ -3887,7 +3916,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Postmodernism"
     },
     "Neo-Modernism": {
         "architects": [
@@ -3942,7 +3972,8 @@
             "continent": "Multiple continents",
             "country": "Global"
         },
-        "terms": "architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation. contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free."
+        "terms": "architecture, design movement, aesthetics, functionality, technology, urbanization, globalization, innovation. contemporary, futuristic, sleek, minimalistic, advanced, eco-friendly, modular, adaptable, progressive, ornament-free.",
+        "name": "Neo-Modernism"
     },
     "Tudor": {
         "architects": [
@@ -4135,7 +4166,8 @@
             "Opulent": 1,
             "Timeless": 1,
             "Regal": 1
-        }
+        },
+        "name": "Tudor"
     },
     "Colonial": {
         "architects": [
@@ -4327,7 +4359,8 @@
             "Double-hung windows": 1,
             "Historical": 1
         },
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Colonial"
     },
     "Contemporary": {
         "architects": [
@@ -4510,7 +4543,8 @@
             "err3": 1,
             "Industrial": 1
         },
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Contemporary"
     },
     "Byzantine": {
         "architects": [
@@ -4677,7 +4711,8 @@
             "Yes",
             "Yes",
             "No"
-        ]
+        ],
+        "name": "Byzantine"
     },
     "Ancient Egyptian": {
         "architects": [
@@ -4851,7 +4886,8 @@
             "No",
             "Yes"
         ],
-        "style_area": "Middle East & North Africa"
+        "style_area": "Middle East & North Africa",
+        "name": "Ancient Egyptian"
     },
     "Mannerist": {
         "architects": [
@@ -4907,7 +4943,8 @@
             ],
             "continent": "Europe",
             "country": "Italy"
-        }
+        },
+        "name": "Mannerist"
     },
     "Arts and Crafts": {
         "architects": [
@@ -5076,7 +5113,8 @@
             "No",
             "No",
             "Yes"
-        ]
+        ],
+        "name": "Arts and Crafts"
     },
     "Victorian": {
         "architects": [
@@ -5230,7 +5268,8 @@
             "Yes",
             "No"
         ],
-        "style_area": "Anglo World"
+        "style_area": "Anglo World",
+        "name": "Victorian"
     },
     "Parametric": {
         "architects": [
@@ -5287,7 +5326,8 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative."
+        "terms": "architecture, design, method, algorithm, calculation, programming, modeling, digital, computational, precise, flexible, innovative.",
+        "name": "Parametric"
     },
     "Organic": {
         "architects": [
@@ -5344,7 +5384,8 @@
             "continent": "North America",
             "country": "United States of America"
         },
-        "terms": "Architecture, Nature, Building, Design, Materials, Space  Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious"
+        "terms": "Architecture, Nature, Building, Design, Materials, Space  Sustainable, Harmonious, Fluid, Innovative, Environmentally-conscious",
+        "name": "Organic"
     },
     "Sustainable or Green": {
         "architects": [
@@ -5404,7 +5445,8 @@
             "continent": "Various",
             "country": "Various"
         },
-        "terms": "environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable"
+        "terms": "environment, design, building, materials, energy, efficiency, ecology, technology, innovation, community sustainable, environmentally-friendly, energy-efficient, low-carbon, green, renewable, efficient, innovative, responsive, adaptable",
+        "name": "Sustainable or Green"
     },
     "Neo-futurism": {
         "architects": [
@@ -5461,7 +5503,8 @@
             "continent": "Global",
             "country": "Various"
         },
-        "terms": "architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance. avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular."
+        "terms": "architecture, movement, philosophy, innovation, technology, creativity, minimalism, performance. avant-garde, experimental, futuristic, unconventional, non-traditional, dynamic, interactive, modular.",
+        "name": "Neo-futurism"
     },
     "Ancient Roman": {
         "architects": [
@@ -5597,7 +5640,8 @@
             "Yes",
             "No"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Ancient Roman"
     },
     "Ancient Greek": {
         "architects": [
@@ -5754,7 +5798,8 @@
             "No",
             "No",
             "No"
-        ]
+        ],
+        "name": "Ancient Greek"
     },
     "Islamic": {
         "architects": [
@@ -5921,7 +5966,8 @@
             "No",
             "No",
             "No"
-        ]
+        ],
+        "name": "Islamic"
     },
     "Gothic Revival": {
         "architects": [
@@ -6077,7 +6123,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Gothic Revival"
     },
     "Beaux-Arts": {
         "architects": [
@@ -6240,7 +6287,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Beaux-Arts"
     },
     "International Style (Modernism)": {
         "architects": [
@@ -6301,7 +6349,8 @@
         },
         "terms": "Bauhaus, minimalism, functionality, glass, steel Clean-lined, sleek, industrial, geometric, unadorned, utilitarian",
         "Start_Year": "1920 CE",
-        "End_Year": "1950 CE"
+        "End_Year": "1950 CE",
+        "name": "International Style (Modernism)"
     },
     "Brutalism": {
         "architects": [
@@ -6501,7 +6550,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Brutalism"
     },
     "High-Tech": {
         "architects": [
@@ -6672,7 +6722,8 @@
             "No",
             "No 'High-Tech' is not an architecture style",
             "No"
-        ]
+        ],
+        "name": "High-Tech"
     },
     "Neo-Futurism": {
         "architects": [
@@ -6849,7 +6900,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Neo-Futurism"
     },
     "Sustainable (Green)": {
         "architects": [
@@ -7037,7 +7089,8 @@
             "No",
             "No",
             "No"
-        ]
+        ],
+        "name": "Sustainable (Green)"
     },
     "Parametricism": {
         "architects": [
@@ -7202,7 +7255,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Parametricism"
     },
     "New Formalism": {
         "architects": [
@@ -7369,7 +7423,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "New Formalism"
     },
     "Late Modernism": {
         "architects": [
@@ -7533,7 +7588,8 @@
             "Bold": 1,
             "Experimentative": 1,
             "Expressionistic": 1
-        }
+        },
+        "name": "Late Modernism"
     },
     "Neo-Expressionism": {
         "architects": [
@@ -7705,7 +7761,8 @@
             "Dynamic compositions": 1,
             "Emotional expression": 1,
             "Unpredictable": 1
-        }
+        },
+        "name": "Neo-Expressionism"
     },
     "Critical Regionalism": {
         "architects": [
@@ -7860,7 +7917,8 @@
             "Community": 1,
             "Minimalistic": 1,
             "Material-driven": 1
-        }
+        },
+        "name": "Critical Regionalism"
     },
     "Post-Structuralism": {
         "architects": [
@@ -8029,7 +8087,8 @@
             "Rhizome": 1,
             "Discontinuous": 1,
             "Challenging": 1
-        }
+        },
+        "name": "Post-Structuralism"
     },
     "De Stijl": {
         "architects": [
@@ -8199,7 +8258,8 @@
             "Neoplasticism": 1,
             "Uniformity": 1,
             "Balanced": 1
-        }
+        },
+        "name": "De Stijl"
     },
     "Expressionism": {
         "architects": [
@@ -8371,7 +8431,8 @@
             "Steel": 1,
             "Experimental": 1,
             "Evocative": 1
-        }
+        },
+        "name": "Expressionism"
     },
     "Structural Expressionism": {
         "architects": [
@@ -8548,7 +8609,8 @@
             "No",
             "Yes",
             "No"
-        ]
+        ],
+        "name": "Structural Expressionism"
     },
     "Pre-Romanesque": {
         "architects": [
@@ -8698,7 +8760,8 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "name": "Pre-Romanesque"
     },
     "Constructivism": {
         "architects": [
@@ -8874,7 +8937,8 @@
             "Dynamic forms": 1,
             "Nonconformist": 1
         },
-        "style_area": "North Eurasia"
+        "style_area": "North Eurasia",
+        "name": "Constructivism"
     },
     "Neolithic": {
         "architects": [
@@ -9086,7 +9150,8 @@
             "Long Barrow": 1,
             "Chambered Tomb": 1,
             "Temporal": 1
-        }
+        },
+        "name": "Neolithic"
     },
     "Mesopotamia": {
         "architects": [
@@ -9271,7 +9336,8 @@
             "Cuneiform script": 1,
             "Structurally advanced": 1,
             "Influential": 1
-        }
+        },
+        "name": "Mesopotamia"
     },
     "Ancient Persian": {
         "architects": [
@@ -9452,7 +9518,8 @@
             "Tile": 1,
             "Exquisite": 1,
             "Awe-inspiring": 1
-        }
+        },
+        "name": "Ancient Persian"
     },
     "Muscovite": {
         "architects": [
@@ -9664,7 +9731,8 @@
             "Dome-shaped": 1,
             "Grandiose": 1
         },
-        "style_area": "North Eurasia"
+        "style_area": "North Eurasia",
+        "name": "Muscovite"
     },
     "Chinese Imperial": {
         "architects": [
@@ -9830,7 +9898,8 @@
             "Arcade": 1,
             "Grandiose": 1
         },
-        "style_area": "East Asia"
+        "style_area": "East Asia",
+        "name": "Chinese Imperial"
     },
     "Gupta": {
         "architects": [
@@ -10008,7 +10077,8 @@
             "Arch": 1,
             "Palace": 1
         },
-        "style_area": "South Asia"
+        "style_area": "South Asia",
+        "name": "Gupta"
     },
     "Nagara": {
         "architects": [
@@ -10194,7 +10264,8 @@
             "Simplified": 1,
             "Understated": 1,
             "Zen-like": 1
-        }
+        },
+        "name": "Nagara"
     },
     "Dravidian": {
         "architects": [
@@ -10375,7 +10446,8 @@
             "Pavilion": 1,
             "Exquisite": 1,
             "Temple-focused": 1
-        }
+        },
+        "name": "Dravidian"
     },
     "Vesara": {
         "architects": [
@@ -10561,7 +10633,8 @@
             "Exuberant": 1,
             "Opulent": 1,
             "Impressive": 1
-        }
+        },
+        "name": "Vesara"
     },
     "Jain": {
         "architects": [
@@ -10725,7 +10798,8 @@
             "Palace": 1,
             "Cell": 1,
             "Exquisite": 1
-        }
+        },
+        "name": "Jain"
     },
     "Māru-Gurjara": {
         "architects": [
@@ -10904,7 +10978,8 @@
             "Serene": 1,
             "Artistic": 1,
             "Stately": 1
-        }
+        },
+        "name": "Māru-Gurjara"
     },
     "Asuka and Nara": {
         "architects": [
@@ -11077,7 +11152,8 @@
             "roof": 1,
             "lantern": 1,
             "arch": 1
-        }
+        },
+        "name": "Asuka and Nara"
     },
     "Heian period": {
         "architects": [
@@ -11259,7 +11335,8 @@
             "Lacquerware": 1,
             "Simple": 1,
             "Immersive": 1
-        }
+        },
+        "name": "Heian period"
     },
     "Kamakura and Muromachi periods": {
         "architects": [
@@ -11318,7 +11395,8 @@
             "continent": "Asia",
             "country": "Japan"
         },
-        "terms": "Minimalistic, rustic, wooden, simplistic, elegant, Zen-inspired, refined, temple-like, asymmetrical, airy, naturalistic."
+        "terms": "Minimalistic, rustic, wooden, simplistic, elegant, Zen-inspired, refined, temple-like, asymmetrical, airy, naturalistic.",
+        "name": "Kamakura and Muromachi periods"
     },
     "Azuchi–Momoyama": {
         "architects": [
@@ -11520,7 +11598,8 @@
             "Warlord": 1,
             "Moat": 1,
             "Intricate": 1
-        }
+        },
+        "name": "Azuchi–Momoyama"
     },
     "Edo Period": {
         "architects": [
@@ -11696,7 +11775,8 @@
             "Innovative": 1,
             "Modest": 1
         },
-        "style_area": "East Asia"
+        "style_area": "East Asia",
+        "name": "Edo Period"
     },
     "Meiji and Taishō": {
         "architects": [
@@ -11878,7 +11958,8 @@
             "Roof": 1,
             "Porch": 1,
             "Timeless": 1
-        }
+        },
+        "name": "Meiji and Taishō"
     },
     "Showa": {
         "architects": [
@@ -12076,7 +12157,8 @@
             "Stately": 1,
             "Enveloping": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Showa"
     },
     "Kamakura and Muromachi": {
         "architects": [
@@ -12262,7 +12344,8 @@
             "shogunate": 1,
             "architecture": 1,
             "sculptures": 1
-        }
+        },
+        "name": "Kamakura and Muromachi"
     },
     "Khmer Empire": {
         "architects": [
@@ -12459,7 +12542,8 @@
             "Sophisticated": 1,
             "Regal": 1
         },
-        "style_area": "Southeast Asia & South Pacific"
+        "style_area": "Southeast Asia & South Pacific",
+        "name": "Khmer Empire"
     },
     "Mughal Empire": {
         "architects": [
@@ -12635,7 +12719,8 @@
             "Harmonious": 1,
             "Diwan-i-Khas": 1,
             "Artistic": 1
-        }
+        },
+        "name": "Mughal Empire"
     },
     "Joseon Dynasty": {
         "architects": [
@@ -12815,7 +12900,8 @@
             "Simplicity": 1,
             "Gracious": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Joseon Dynasty"
     },
     "Safavid Dynasty": {
         "architects": [
@@ -12992,7 +13078,8 @@
             "err1": 1,
             "Expressive": 1,
             "Flamboyant": 1
-        }
+        },
+        "name": "Safavid Dynasty"
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -13163,7 +13250,8 @@
             "Bridges": 1,
             "Gates": 1,
             "Ancestral Houses": 1
-        }
+        },
+        "name": "Nguyen Dynasty"
     },
     "Mauryan Period": {
         "architects": [
@@ -13318,7 +13406,8 @@
             "Elegant": 1,
             "Palatial": 1,
             "Terraces": 1
-        }
+        },
+        "name": "Mauryan Period"
     },
     "Tang Dynasty": {
         "architects": [
@@ -13473,7 +13562,8 @@
             "Glorious": 1,
             "Towers": 1,
             "Monuments": 1
-        }
+        },
+        "name": "Tang Dynasty"
     },
     "Pre-Columbian Period": {
         "architects": [
@@ -13548,7 +13638,8 @@
             "Symbolic and religious importance: The architecture of this period was deeply connected to the religious and ceremonial activities of the indigenous cultures. The structures were designed as sacred spaces and served as focal points for rituals and offerings. They were decorated with elaborate symbols and motifs representing various deities and spiritual beliefs."
         ],
         "short": "Pre-Columbian Period architecture was characterized by stone structures with intricate carvings, pyramids, and monumental cities in Mesoamerica and South America.",
-        "significance": 7.5
+        "significance": 7.5,
+        "name": "Pre-Columbian Period"
     },
     "Mid-Century Modern": {
         "architects": [
@@ -13719,7 +13810,8 @@
             "timelessness": 1,
             "Walls of windows": 1,
             "Ranch-style": 1
-        }
+        },
+        "name": "Mid-Century Modern"
     },
     "Umayyad Period": {
         "architects": [
@@ -13906,7 +13998,8 @@
             "Arabesque": 1,
             "Sculptural": 1,
             "Rich": 1
-        }
+        },
+        "name": "Umayyad Period"
     },
     "Abbasid Period": {
         "architects": [
@@ -14082,7 +14175,8 @@
             "Integrative": 1,
             "Mausoleums": 1,
             "Majestic": 1
-        }
+        },
+        "name": "Abbasid Period"
     },
     "Fatimid Period": {
         "architects": [
@@ -14245,7 +14339,8 @@
             "Magnificent": 2,
             "Gardens": 1,
             "Diverse": 1
-        }
+        },
+        "name": "Fatimid Period"
     },
     "Andalusian Period": {
         "architects": [
@@ -14408,7 +14503,8 @@
             "Ornamentation": 1,
             "Distinctive": 1,
             "Influential": 1
-        }
+        },
+        "name": "Andalusian Period"
     },
     "Seljuk Period": {
         "architects": [
@@ -14567,7 +14663,8 @@
             "Medreses": 1,
             "Carpets": 1,
             "Bold": 1
-        }
+        },
+        "name": "Seljuk Period"
     },
     "Mamluk Period": {
         "architects": [
@@ -14746,7 +14843,8 @@
             "Innovative": 1,
             "Stately": 1,
             "Ornamental": 1
-        }
+        },
+        "name": "Mamluk Period"
     },
     "Safavid Period": {
         "architects": [
@@ -14810,7 +14908,8 @@
             "continent": "Asia",
             "country": "Iran"
         },
-        "terms": "Blue tilework, domes, arches, intricate calligraphy, radiant, elegant, symmetrical, harmonious."
+        "terms": "Blue tilework, domes, arches, intricate calligraphy, radiant, elegant, symmetrical, harmonious.",
+        "name": "Safavid Period"
     },
     "Ottoman Period": {
         "architects": [
@@ -14979,7 +15078,8 @@
             "Dominant": 1,
             "Influential": 1,
             "Distinctive": 1
-        }
+        },
+        "name": "Ottoman Period"
     },
     "Modern Islamic Architecture": {
         "architects": [
@@ -15038,7 +15138,8 @@
             "continent": "Asia",
             "country": "various"
         },
-        "terms": "geometric patterns, courtyards, arches, domes, calligraphy, incised detailing, mashrabiya screens, Islamic symbolism.  contemporary, minimalist, sleek, elegant, chic, symbolic, traditional, cultural."
+        "terms": "geometric patterns, courtyards, arches, domes, calligraphy, incised detailing, mashrabiya screens, Islamic symbolism.  contemporary, minimalist, sleek, elegant, chic, symbolic, traditional, cultural.",
+        "name": "Modern Islamic Architecture"
     },
     "Timurid Period": {
         "architects": [
@@ -15204,7 +15305,8 @@
             "Intriguing": 1,
             "Vibrant": 1
         },
-        "style_area": "Central Asia"
+        "style_area": "Central Asia",
+        "name": "Timurid Period"
     },
     "Modern Islamic": {
         "architects": [
@@ -15387,7 +15489,8 @@
             "Functionally-oriented": 1,
             "Culturally-sensitive": 1
         },
-        "style_area": "Middle East & North Africa"
+        "style_area": "Middle East & North Africa",
+        "name": "Modern Islamic"
     },
     "Indigenous Australian": {
         "architects": [
@@ -15577,7 +15680,8 @@
             "Spears": 1,
             "Bush tucker": 1,
             "Traditional dance": 1
-        }
+        },
+        "name": "Indigenous Australian"
     },
     "Polynesian": {
         "architects": [
@@ -15775,7 +15879,8 @@
             "Shelter": 1,
             "Repetitive": 1,
             "Extravagant": 1
-        }
+        },
+        "name": "Polynesian"
     },
     "Pacific Islander": {
         "architects": [
@@ -15982,7 +16087,8 @@
             "shell": 1,
             "Maritime": 1,
             "Traditional canoes": 1
-        }
+        },
+        "name": "Pacific Islander"
     },
     "Contemporary Oceania": {
         "architects": [
@@ -16159,7 +16265,8 @@
             "Climate": 1,
             "Vernacular": 1,
             "Honest": 1
-        }
+        },
+        "name": "Contemporary Oceania"
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -16324,7 +16431,8 @@
             "organic": 1,
             "expressive": 1,
             "timeless": 1
-        }
+        },
+        "name": "Indigenous Contemporary"
     },
     "Mud Brick": {
         "architects": [
@@ -16522,7 +16630,8 @@
             "adobe": 1,
             "Charming": 1
         },
-        "style_area": "Sahel & Sub-Saharan Africa"
+        "style_area": "Sahel & Sub-Saharan Africa",
+        "name": "Mud Brick"
     },
     "Stilt House": {
         "architects": [
@@ -16706,7 +16815,8 @@
             "Balanced": 1,
             "Wood": 1
         },
-        "style_area": "Central & South America"
+        "style_area": "Central & South America",
+        "name": "Stilt House"
     },
     "Blobitecture": {
         "architects": [
@@ -16854,7 +16964,8 @@
             "Elongated": 1,
             "Undulating": 1,
             "Non-traditional": 1
-        }
+        },
+        "name": "Blobitecture"
     },
     "Googie": {
         "architects": [
@@ -17023,7 +17134,8 @@
             "Extraterrestrial": 1,
             "Optimistic": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Googie"
     },
     "Igloo": {
         "architects": [
@@ -17194,7 +17306,8 @@
             "cozy": 1,
             "robust": 1,
             "arctic": 1
-        }
+        },
+        "name": "Igloo"
     },
     "Indo-Islamic": {
         "architects": [
@@ -17352,7 +17465,8 @@
             "Hindu Temple": 1,
             "err1": 1,
             "Inclusive": 1
-        }
+        },
+        "name": "Indo-Islamic"
     },
     "Indo-Saracenic": {
         "architects": [
@@ -17552,7 +17666,8 @@
             "Flamboyant": 1,
             "Mix-and-match": 1
         },
-        "style_area": "South Asia"
+        "style_area": "South Asia",
+        "name": "Indo-Saracenic"
     },
     "Palladian": {
         "architects": [
@@ -17707,7 +17822,8 @@
             "Palazzo": 1,
             "Façade": 1,
             "Pilaster": 1
-        }
+        },
+        "name": "Palladian"
     },
     "Prairie": {
         "architects": [
@@ -17887,7 +18003,8 @@
             "Organic design": 1,
             "Harmony": 1,
             "Efficient": 1
-        }
+        },
+        "name": "Prairie"
     },
     "Regency": {
         "architects": [
@@ -18064,7 +18181,8 @@
             "Terraced houses": 1,
             "Mansions": 1,
             "Crescents": 1
-        }
+        },
+        "name": "Regency"
     },
     "Moorish": {
         "architects": [
@@ -18238,7 +18356,8 @@
             "zellij tiles": 1,
             "Influential": 1,
             "Timeless": 1
-        }
+        },
+        "name": "Moorish"
     },
     "Moorish Revival": {
         "architects": [
@@ -18427,7 +18546,8 @@
             "lattice": 1,
             "stucco": 1,
             "fountain": 1
-        }
+        },
+        "name": "Moorish Revival"
     },
     "Ottoman": {
         "architects": [
@@ -18603,7 +18723,8 @@
             "Turbe": 1,
             "Hamam": 1,
             "Hypnotic": 1
-        }
+        },
+        "name": "Ottoman"
     },
     "Thai": {
         "architects": [
@@ -18796,7 +18917,8 @@
             "gate": 1,
             "authentic": 1
         },
-        "style_area": "Southeast Asia & South Pacific"
+        "style_area": "Southeast Asia & South Pacific",
+        "name": "Thai"
     },
     "Persian": {
         "architects": [
@@ -18982,7 +19104,8 @@
             "Windcatchers": 1,
             "Distinctive": 1
         },
-        "style_area": "Central Asia"
+        "style_area": "Central Asia",
+        "name": "Persian"
     },
     "Swahili": {
         "architects": [
@@ -19182,7 +19305,8 @@
             "Fluid": 1,
             "Symbolic": 1
         },
-        "style_area": "Sahel & Sub-Saharan Africa"
+        "style_area": "Sahel & Sub-Saharan Africa",
+        "name": "Swahili"
     },
     "Federation": {
         "architects": [
@@ -19326,7 +19450,8 @@
             "Centralization": 1,
             "Cooperation": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Federation"
     },
     "Korean": {
         "architects": [
@@ -19522,7 +19647,8 @@
             "Wood": 1,
             "Embellished": 1,
             "Timeless": 1
-        }
+        },
+        "name": "Korean"
     },
     "Indonesian": {
         "architects": [
@@ -19721,7 +19847,8 @@
             "Pagoda": 1,
             "Vibrant": 1,
             "Light-filled": 1
-        }
+        },
+        "name": "Indonesian"
     },
     "Vietnamese": {
         "architects": [
@@ -19906,7 +20033,8 @@
             "Intriguing": 1,
             "Artistic": 1,
             "Verdant": 1
-        }
+        },
+        "name": "Vietnamese"
     },
     "Berber": {
         "architects": [
@@ -20095,7 +20223,8 @@
             "vernacular": 1,
             "spatial": 1,
             "harmonious": 1
-        }
+        },
+        "name": "Berber"
     },
     "Nubian": {
         "architects": [
@@ -20281,7 +20410,8 @@
             "Spacious": 1,
             "Gateways": 1,
             "Sphinxes": 1
-        }
+        },
+        "name": "Nubian"
     },
     "Indian": {
         "architects": [
@@ -20455,7 +20585,8 @@
             "Monastery": 1,
             "Jharokha": 1,
             "Awe-inspiring": 1
-        }
+        },
+        "name": "Indian"
     },
     "Federal": {
         "architects": [
@@ -20622,7 +20753,8 @@
             "Rational": 1,
             "Roof": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Federal"
     },
     "Rationalism": {
         "architects": [
@@ -20786,7 +20918,8 @@
             "form": 1,
             "Ordered": 1,
             "Reasoned": 1
-        }
+        },
+        "name": "Rationalism"
     },
     "Sumerian": {
         "architects": [
@@ -20965,7 +21098,8 @@
             "Enigmatic": 1,
             "Mesmerizing": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Sumerian"
     },
     "Uruk": {
         "architects": [
@@ -21159,6 +21293,7 @@
             "Waterways": 1,
             "Roofs": 1
         },
-        "significance": -1
+        "significance": -1,
+        "name": "Uruk"
     }
 }
