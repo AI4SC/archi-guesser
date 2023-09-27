@@ -67,7 +67,7 @@
                     "Pazzi Chapel, Florence",
                     "Dome of Florence Cathedral"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -83,7 +83,7 @@
                     "Tempietto, Rome",
                     "Palazzo Rucellai, Florence"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -99,7 +99,7 @@
                     "Basilica Palladiana, Vicenza",
                     "Teatro Olimpico, Vicenza"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes"
                 ]
@@ -137,7 +137,97 @@
             "Geometric Shapes: Renaissance buildings often featured geometric shapes, such as squares, circles, and triangles. These shapes were used to create a sense of balance and proportion in the overall design."
         ],
         "short": "Renaissance architecture is characterized by its symmetry, domes, columns, and classical motifs, blending the styles of Ancient Rome and Greece.",
-        "significance": 8.5
+        "significance": 8.5,
+        "termsV2": {
+            "Cathedral": 3,
+            "Palace": 4,
+            "Villa": 3,
+            "Courtyard": 6,
+            "Dome": 8,
+            "Column": 6,
+            "Fresco": 3,
+            "Arcade": 5,
+            "Balustrade": 5,
+            "Loggia": 2,
+            "c": 20,
+            "Harmonious": 10,
+            "Symmetrical": 10,
+            "Elegant": 10,
+            "Classical": 8,
+            "Ornate": 10,
+            "Proportionate": 2,
+            "Grand": 9,
+            "Rich": 3,
+            "Appropriate": 1,
+            "Stately": 4,
+            "cathedral": 1,
+            "palace": 1,
+            "villa": 1,
+            "pilaster": 1,
+            "architrave": 1,
+            "domed ceiling": 1,
+            "fresco": 1,
+            "portico": 1,
+            "colonnade": 1,
+            "bas-relief": 1,
+            "Proportional": 8,
+            "Detailed": 1,
+            "Magnificent": 1,
+            "Influential": 2,
+            "Tower": 1,
+            "Facade": 4,
+            "Arch": 3,
+            "Decorative": 1,
+            "Polished": 1,
+            "Majestic": 3,
+            "Church": 1,
+            "Mansion": 1,
+            "Garden": 1,
+            "Rational": 1,
+            "Monumental": 1,
+            "Pilaster": 5,
+            "Pediment": 3,
+            "Portico": 2,
+            "Cornice": 3,
+            "Volutes": 1,
+            "Grotto": 1,
+            "Hierarchical": 1,
+            "Innovative": 2,
+            "Chapel": 1,
+            "Vault": 2,
+            "Humanistic": 1,
+            "Stylized": 1,
+            "arches": 1,
+            "columns": 1,
+            "domes": 1,
+            "facades": 1,
+            "palaces": 1,
+            "pilasters": 1,
+            "porticoes": 1,
+            "rosettes": 1,
+            "vaults": 1,
+            "villas": 1,
+            "Intricate": 1,
+            "Opulent": 1,
+            "Fa\u00e7ade": 1,
+            "Atrium": 1,
+            "Pantheon": 1,
+            "Prestigious": 1,
+            "Imposing": 1,
+            "Idealized": 1,
+            "Inspiring": 1,
+            "Balanced": 1,
+            "Classic": 1,
+            "Colonnade": 1,
+            "Rustication": 1,
+            "Cupola": 1,
+            "Dignified": 1
+        },
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Secession": {
         "architects": [
@@ -215,7 +305,7 @@
                     "Bauhaus Dessau",
                     "Harvard Graduate Center"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -231,7 +321,7 @@
                     "Barcelona Pavilion",
                     "Seagram Building"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -247,7 +337,7 @@
                     "Unit\u00e9 d'Habitation",
                     "Notre-Dame-du-Haut"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -282,7 +372,89 @@
         "short": "Bauhaus architecture is a modernist style that focuses on simplicity, functionality, and the integration of art and technology.",
         "significance": 8,
         "Start_Year": "1919 CE",
-        "End_Year": "1933 CE"
+        "End_Year": "1933 CE",
+        "termsV2": {
+            "Functionality": 6,
+            "Simplicity": 6,
+            "Industrialization": 1,
+            "Mass production": 1,
+            "Modularity": 6,
+            "Minimalism": 6,
+            "Geometry": 5,
+            "Efficiency": 6,
+            "Technology": 3,
+            "Integration": 2,
+            "c": 20,
+            "Functional": 10,
+            "Simplistic": 5,
+            "Minimalistic": 5,
+            "Industrial": 11,
+            "Unadorned": 1,
+            "Efficient": 10,
+            "Innovative": 9,
+            "Modern": 8,
+            "Geometric": 8,
+            "Streamlined": 2,
+            "Clean lines": 2,
+            "Industrial materials": 2,
+            "Innovation": 1,
+            "Balance": 1,
+            "Minimalist": 4,
+            "Progressive": 5,
+            "Timeless": 5,
+            "simplicity": 4,
+            "functionality": 4,
+            "rationality": 4,
+            "industrialization": 3,
+            "modernism": 1,
+            "minimalism": 2,
+            "efficiency": 3,
+            "practicality": 1,
+            "innovation": 3,
+            "experimentation": 1,
+            "Simplified": 2,
+            "Transparent": 1,
+            "Unornamented": 1,
+            "Rationality": 1,
+            "Industrialism": 1,
+            "Experimentation": 1,
+            "Clean": 2,
+            "Practical": 2,
+            "Standardization": 1,
+            "Accessibility": 1,
+            "Economical": 1,
+            "Experimental": 1,
+            "Geometric Shapes": 1,
+            "Industrial Materials": 1,
+            "Open Floor Plans": 1,
+            "Integration of Indoor and Outdoor Spaces": 1,
+            "Minimal": 1,
+            "Rational": 1,
+            "Simple": 1,
+            "Sleek": 2,
+            "geometry": 3,
+            "industrial": 1,
+            "interior": 1,
+            "lighting": 1,
+            "simplification": 1,
+            "modernity": 1,
+            "design": 1,
+            "integration": 1,
+            "Modular": 1,
+            "modularity": 1,
+            "minimism": 1,
+            "experimentalism": 1,
+            "avant-garde": 1,
+            "Abstract": 1,
+            "Transparency": 1,
+            "Open floor plans": 1,
+            "Pragmatic": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Historicism": {
         "architects": [
@@ -420,7 +592,7 @@
                     "Basilica Palladiana",
                     "Villa Capra 'La Rotonda'"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -435,7 +607,7 @@
                     "Kenwood House",
                     "Syon House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -450,7 +622,7 @@
                     "Virginia State Capitol",
                     "Monticello"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -489,7 +661,66 @@
             "Decorative Detailing: Neoclassical buildings often showcase decorative detailing, such as elaborate cornices, friezes, and ornate moldings."
         ],
         "short": "Neoclassical architecture is a revival of classical architectural elements from ancient Greece and Rome, characterized by symmetry, grandeur, and restraint.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Columns": 9,
+            "Pediments": 9,
+            "Balustrades": 7,
+            "Porticos": 7,
+            "Bas-reliefs": 1,
+            "Symmetry": 7,
+            "Pilasters": 9,
+            "Domes": 8,
+            "Facades": 2,
+            "Entablatures": 5,
+            "c": 19,
+            "Symmetrical": 10,
+            "Orderly": 6,
+            "Balance": 2,
+            "Simple": 2,
+            "Elegant": 10,
+            "Clean": 2,
+            "Harmonious": 10,
+            "Proportional": 7,
+            "Stately": 3,
+            "Rational": 5,
+            "Order": 2,
+            "Coffers": 1,
+            "Friezes": 3,
+            "Timeless": 9,
+            "Graceful": 2,
+            "Ordered": 2,
+            "Balanced": 9,
+            "Grand": 2,
+            "Refined": 5,
+            "Cornices": 4,
+            "Arches": 1,
+            "Formal": 6,
+            "Porticoes": 1,
+            "Symmetric": 1,
+            "Arcades": 1,
+            "Ornate": 1,
+            "Rigid": 1,
+            "Geometric": 1,
+            "Proportion": 1,
+            "Geometry": 1,
+            "Rustication": 1,
+            "Entablature": 3,
+            "Cornice": 2,
+            "Classical": 3,
+            "Ornaments": 1,
+            "Niches": 1,
+            "Dome": 1,
+            "Portico": 1,
+            "Proportionate": 1,
+            "Structured": 1,
+            "err1": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Gothic": {
         "architects": [
@@ -501,7 +732,7 @@
                 "notable_buildings": [
                     "Basilica of Saint-Denis"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -517,7 +748,7 @@
                     "Charles Bridge Tower",
                     "Karl\u0161tejn Castle"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -533,7 +764,7 @@
                     "Salisbury Cathedral",
                     "Westminster Abbey"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -582,7 +813,94 @@
             "Flying buttresses: Gothic buildings often feature flying buttresses, which are exterior arches that transfer the weight of the walls and roof downward and outward. This innovation allowed for thinner walls and larger windows, enabling the use of more stained glass and enhancing the play of light within the building."
         ],
         "short": "Gothic architecture is a medieval style characterized by pointed arches, ribbed vaults, and intricate decorations, emphasizing verticality and grandeur.",
-        "significance": 9.5
+        "significance": 9.5,
+        "termsV2": {
+            "Cathedral": 9,
+            "Abbey": 8,
+            "Gargoyle": 9,
+            "Vault": 8,
+            "Rose window": 9,
+            "Buttress": 2,
+            "Flying buttress": 8,
+            "Spire": 3,
+            "Stained glass": 3,
+            "Grotesque": 2,
+            "c": 20,
+            "Ornate": 7,
+            "Grim": 3,
+            "Majestic": 4,
+            "Dark": 1,
+            "Ethereal": 5,
+            "Elaborate": 2,
+            "Monumental": 2,
+            "Gloomy": 2,
+            "Vertical": 6,
+            "Spooky": 4,
+            "Nave": 2,
+            "Pointed arch": 3,
+            "Rib": 1,
+            "Tracery": 8,
+            "ornate": 3,
+            "eccentric": 1,
+            "dramatic": 3,
+            "awe-inspiring": 2,
+            "gloomy": 1,
+            "mysterious": 2,
+            "medieval": 2,
+            "majestic": 2,
+            "towering": 2,
+            "spooky": 1,
+            "Church": 2,
+            "Chapel": 4,
+            "Turret": 1,
+            "Gothic": 1,
+            "Grand": 2,
+            "Pointed": 2,
+            "Ribbed": 1,
+            "Dramatic": 6,
+            "Intricate": 1,
+            "cathedral": 2,
+            "church": 1,
+            "vaulting": 1,
+            "flying buttresses": 1,
+            "pointed arches": 1,
+            "rose windows": 1,
+            "gargoyles": 1,
+            "ribbed vaults": 1,
+            "tracery": 1,
+            "ogival arch": 1,
+            "Elegant": 1,
+            "Mysterious": 5,
+            "Imposing": 4,
+            "Haunting": 1,
+            "Austere": 1,
+            "Arcade": 1,
+            "Pinnacle": 1,
+            "grand": 1,
+            "pointed": 2,
+            "elaborate": 2,
+            "imposing": 1,
+            "Oculus": 1,
+            "vertical": 1,
+            "magnificent": 1,
+            "stark": 1,
+            "romantic": 1,
+            "Ribbed vault": 2,
+            "Vertiginous": 1,
+            "Labyrinthine": 1,
+            "Medieval": 3,
+            "Elongated": 2,
+            "Spacious": 1,
+            "Gargoylesque": 1,
+            "Rib vault": 1,
+            "Crenellation": 1,
+            "Norman architecture": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Art Deco": {
         "architects": [
@@ -594,7 +912,7 @@
                 "notable_buildings": [
                     "Chrysler Building, New York"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -609,7 +927,7 @@
                     "Einstein Tower",
                     "De La Warr Pavilion"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -624,7 +942,7 @@
                     "Pflueger Office Building",
                     "Castro Theatre"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -677,7 +995,90 @@
             "Use of decorative motifs and symbols"
         ],
         "short": "Art Deco architecture is a glamorous and luxurious style from the 1920s and 1930s characterized by bold geometric shapes, decorative motifs, and sleek materials.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "skyscraper": 3,
+            "streamline": 2,
+            "geometric": 1,
+            "luxury": 3,
+            "automobile": 1,
+            "jazz": 1,
+            "golden": 1,
+            "ocean liner": 1,
+            "symmetry": 3,
+            "industrial": 1,
+            "c": 19,
+            "Bold": 8,
+            "Elegant": 9,
+            "Geometric": 11,
+            "Luxurious": 9,
+            "Streamlined": 10,
+            "Ornamental": 5,
+            "Opulent": 7,
+            "Symmetrical": 8,
+            "Innovative": 4,
+            "Futuristic": 1,
+            "Skyscraper": 5,
+            "Ziggurat": 2,
+            "Facade": 2,
+            "Geometry": 4,
+            "Ornament": 1,
+            "Symmetry": 7,
+            "Angularity": 1,
+            "Sleekness": 2,
+            "Luxury": 2,
+            "Elegance": 2,
+            "Sleek": 6,
+            "Modern": 5,
+            "Dramatic": 2,
+            "Ornamentation": 5,
+            "Zigzag": 2,
+            "Luxe": 1,
+            "Chrome": 2,
+            "Sunburst": 1,
+            "Decadent": 1,
+            "Intricate": 1,
+            "Dynamic": 1,
+            "Skyscrapers": 2,
+            "Simplicity": 1,
+            "Extravagance": 2,
+            "Metalwork": 4,
+            "Glass": 2,
+            "Curves": 2,
+            "Ornate": 3,
+            "Modernist": 1,
+            "Marble": 2,
+            "Lacquer": 2,
+            "Daring": 1,
+            "Geometric shapes": 1,
+            "Stylized flora and fauna": 1,
+            "Marquetry": 1,
+            "ornamentation": 2,
+            "geometric shapes": 1,
+            "metal": 1,
+            "glass": 1,
+            "streamlined design": 1,
+            "automobiles": 1,
+            "aviation": 1,
+            "geometry": 1,
+            "elegance": 1,
+            "exotic": 1,
+            "glamour": 1,
+            "masculinity": 1,
+            "Sophisticated": 1,
+            "Extravagant": 1,
+            "Aztec": 1,
+            "Stylized": 1,
+            "Exotic": 1,
+            "Opulence": 1,
+            "Sculptures": 1,
+            "Ornaments": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Mid-century modern": {
         "architects": [
@@ -807,7 +1208,7 @@
                     "Laurel Hill Cemetery Gatehouse, Philadelphia",
                     "California State Capitol building, Sacramento"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -822,7 +1223,7 @@
                     "Downing's own home, the Villa Mille Fleurs, on the Hudson River",
                     "The villa-style entrance to the U.S. Botanic Garden in Washington, D.C."
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -837,7 +1238,7 @@
                     "The Trenton State Hospital, New Jersey",
                     "The Trans-Allegheny Lunatic Asylum, West Virginia"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -947,7 +1348,7 @@
                     "Walt Disney Concert Hall, Los Angeles",
                     "Guggenheim Museum Bilbao, Spain"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -962,7 +1363,7 @@
                     "Heydar Aliyev Center, Baku, Azerbaijan",
                     "Guangzhou Opera House, China"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -977,7 +1378,7 @@
                     "Casa da M\u00fasica, Porto, Portugal",
                     "Seattle Central Library, Seattle, Washington"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1021,7 +1422,97 @@
             "Expressive use of materials: Deconstructivist architecture emphasizes the use of raw and exposed materials, such as concrete, steel, glass, and industrial elements. These materials are often used artistically, showcasing their inherent qualities and structural potential."
         ],
         "short": "Deconstructivism is an avant-garde architectural style characterized by fragmented shapes, chaotic design, and the rejection of traditional forms and principles.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "Fragmentation": 8,
+            "Disorientation": 2,
+            "Asymmetry": 7,
+            "Complexity": 7,
+            "Contradiction": 7,
+            "Nonlinearity": 1,
+            "Unpredictability": 7,
+            "Visual distortion": 1,
+            "Collage": 4,
+            "Unstable equilibrium": 1,
+            "c": 20,
+            "Unconventional": 9,
+            "Disruptive": 2,
+            "Fragmented": 10,
+            "Dynamic": 8,
+            "Nonlinear": 2,
+            "Eccentric": 1,
+            "Complex": 1,
+            "Abstract": 9,
+            "Contradictory": 1,
+            "Provocative": 3,
+            "Angularity": 2,
+            "Layering": 1,
+            "Non-hierarchical": 2,
+            "Disjointed": 5,
+            "Chaotic": 4,
+            "Sculptural": 2,
+            "Experimental": 3,
+            "Non-linear": 9,
+            "Deconstructed": 1,
+            "Unpredictable": 5,
+            "Disorder": 1,
+            "Irregularity": 2,
+            "Dynamism": 2,
+            "Deformation": 1,
+            "Unconventionality": 1,
+            "Disorganized": 1,
+            "Chaos": 4,
+            "Unstable": 1,
+            "Controversial": 1,
+            "Dislocation": 3,
+            "Disruption": 1,
+            "Unexpected": 1,
+            "Structural": 1,
+            "fragmentation": 3,
+            "geometry": 2,
+            "asymmetry": 2,
+            "dislocation": 1,
+            "deformation": 1,
+            "collision": 1,
+            "dynamism": 1,
+            "complexity": 2,
+            "tension": 1,
+            "nonlinear": 1,
+            "Asymmetrical": 4,
+            "Dramatic": 2,
+            "Expressive": 2,
+            "Fragment": 1,
+            "Ambiguous": 1,
+            "Decontextualized": 1,
+            "Disjointedness": 1,
+            "Distortion": 2,
+            "Non-linearity": 1,
+            "Disorienting": 2,
+            "Challenging": 2,
+            "Symbolic": 1,
+            "Nonlinear geometry": 1,
+            "Unorthodox": 2,
+            "disruption": 1,
+            "instability": 1,
+            "nonlinearity": 1,
+            "chaos": 2,
+            "unpredictability": 2,
+            "transformation": 1,
+            "contradiction": 1,
+            "Collage-like": 1,
+            "abstraction": 1,
+            "non-linearity": 1,
+            "displacement": 1,
+            "juxtaposition": 1,
+            "contrast": 1,
+            "curvature": 1,
+            "Innovative": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Beaux Arts": {
         "architects": [
@@ -1099,7 +1590,7 @@
                     "Trinity Church, Boston, MA",
                     "Marshall Field Wholesale Store, Chicago, IL"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1115,7 +1606,7 @@
                     "Beverly Farms National Bank, Beverly, MA",
                     "Byfield Town Hall, Byfield, MA"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -1131,7 +1622,7 @@
                     "Cornwall Estate, Cold Spring, NY",
                     "Olana State Historic Site, Hudson, NY"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -1241,7 +1732,7 @@
                     "The Malibu Market and Design in Malibu, California",
                     "The Elk Grove Equestrian Center in Elk Grove, California"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1257,7 +1748,7 @@
                     "The Eichler Homes in Lucas Valley, California",
                     "The Eichler Homes in Piedmont, California"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -1273,7 +1764,7 @@
                     "The Seven Lakes Country Club in Palm Springs, California",
                     "The Racquet Club Estates in Palm Springs, California"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1324,7 +1815,7 @@
                     "Two International Place",
                     "15 Central Park West"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes, Robert A.M. Stern was an architect associated with the 'Colonial Revival' architectural style.",
                     "Yes",
                     "Yes"
@@ -1340,7 +1831,7 @@
                     "Jefferson Memorial",
                     "National Gallery of Art"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1356,7 +1847,7 @@
                     "Marine Corps Base Quantico",
                     "Watts Sherman House"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -1405,7 +1896,7 @@
                     "Hotel Mar\u00eda Isabel",
                     "Plaza Sat\u00e9lite"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -1421,7 +1912,7 @@
                     "Museo Tamayo Arte Contempor\u00e1neo",
                     "Mexican Pavilion at Expo '92 in Seville, Spain"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -1437,7 +1928,7 @@
                     "Tres Casas in Santa Fe",
                     "Astor Santa Fe"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -1494,7 +1985,7 @@
                     "Sant'Ivo alla Sapienza",
                     "Palazzo Barberini"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1510,7 +2001,7 @@
                     "Biblioteca Apostolica Vaticana",
                     "Sant'Andrea al Quirinale"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1526,7 +2017,7 @@
                     "Schonbrunn Palace",
                     "Church of St. John Nepomuk"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1568,7 +2059,96 @@
             "Use of curves and dynamic shapes"
         ],
         "short": "The Baroque architectural style emerged in the 17th century, characterized by dramatic and extravagant designs, ornate details, and grandeur in scale.",
-        "significance": 9
+        "significance": 9,
+        "termsV2": {
+            "ornamentation": 1,
+            "dynamism": 1,
+            "exuberance": 1,
+            "grandeur": 1,
+            "elaboration": 1,
+            "curvilinear forms": 1,
+            "sculptural elements": 1,
+            "dramatic lighting": 1,
+            "illusion": 1,
+            "detail": 1,
+            "c": 20,
+            "true": 30,
+            "Dome": 7,
+            "Column": 1,
+            "Facade": 3,
+            "Ornamentation": 9,
+            "Chapel": 3,
+            "Altar": 2,
+            "Balustrade": 3,
+            "Palace": 2,
+            "Theatre": 1,
+            "Staircase": 1,
+            "ornate": 5,
+            "dramatic": 5,
+            "grand": 3,
+            "rich": 1,
+            "opulent": 5,
+            "lavish": 1,
+            "ornamented": 3,
+            "elaborate": 5,
+            "detailed": 1,
+            "exuberant": 3,
+            "Curves": 6,
+            "Cupola": 2,
+            "Statue": 1,
+            "Gilding": 3,
+            "Columns": 6,
+            "Frescoes": 6,
+            "Pediment": 1,
+            "Ornate": 2,
+            "Grand": 2,
+            "Dramatic": 2,
+            "Elaborate": 3,
+            "Opulent": 2,
+            "Extravagant": 1,
+            "Dynamic": 2,
+            "Contrasting": 1,
+            "Splendid": 2,
+            "Energetic": 1,
+            "Portico": 1,
+            "Pilaster": 2,
+            "Statues": 4,
+            "Rococo": 2,
+            "Curvilinear": 1,
+            "Choir loft": 1,
+            "excessive": 1,
+            "curvilinear": 1,
+            "dynamic": 4,
+            "masculine": 1,
+            "monumental": 1,
+            "Vault": 1,
+            "Grandeur": 3,
+            "Gilded": 4,
+            "Chiaroscuro": 1,
+            "Marble": 2,
+            "Bell tower": 1,
+            "Exuberant": 1,
+            "Lavish": 1,
+            "Theatrical": 1,
+            "Drama": 2,
+            "Symmetry": 1,
+            "Whimsical": 1,
+            "Fresco": 1,
+            "Stucco": 2,
+            "Arcade": 1,
+            "extravagant": 1,
+            "grandiose": 2,
+            "luxurious": 3,
+            "ornamental": 1,
+            "theatrical": 2,
+            "Domes": 1,
+            "fluid": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Postmodern": {
         "architects": [
@@ -1661,7 +2241,7 @@
                     "Canterbury Cathedral",
                     "Winchester Cathedral"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -1675,7 +2255,7 @@
                 "notable_buildings": [
                     "Saint-Denis Basilica"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -1689,7 +2269,7 @@
                 "notable_buildings": [
                     "Notre Dame Cathedral"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -1733,7 +2313,83 @@
             "Romanesque portals"
         ],
         "short": "Romanesque architecture is a medieval style characterized by rounded arches, thick walls, decorative ornamentation, and small windows.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "Abbey": 9,
+            "Cathedral": 9,
+            "Church": 7,
+            "Crypt": 2,
+            "Pilgrimage": 1,
+            "Arch": 3,
+            "Arcade": 6,
+            "Column": 3,
+            "Vault": 7,
+            "Apse": 7,
+            "c": 19,
+            "Massive": 9,
+            "Thick-walled": 5,
+            "Solid": 9,
+            "Simple": 5,
+            "Symmetrical": 8,
+            "Rounded": 3,
+            "Roman-like": 1,
+            "Sturdy": 3,
+            "Ornamented": 1,
+            "Majestic": 2,
+            "Castle": 4,
+            "Monastery": 3,
+            "Pilaster": 3,
+            "Bell Tower": 1,
+            "Round": 4,
+            "Vaulted": 1,
+            "Decorative": 4,
+            "Religious": 3,
+            "Cloister": 5,
+            "Tympanum": 4,
+            "Gargoyle": 2,
+            "Rose window": 2,
+            "Simplistic": 4,
+            "Bold": 1,
+            "Rustic": 4,
+            "Ornate": 4,
+            "Monumental": 4,
+            "Portal": 2,
+            "Fresco": 3,
+            "Ornamental": 2,
+            "Decorated": 2,
+            "Basilica": 1,
+            "Robust": 2,
+            "Gothic": 1,
+            "Pier": 1,
+            "err1": 1,
+            "Bell tower": 2,
+            "Strong": 1,
+            "Thick": 1,
+            "Round-arched": 1,
+            "Nave": 1,
+            "Transept": 1,
+            "Barrel Vault": 1,
+            "Dark": 1,
+            "abbey": 1,
+            "arch": 1,
+            "castle": 1,
+            "cathedral": 1,
+            "church": 1,
+            "fresco": 1,
+            "pilaster": 1,
+            "rose window": 1,
+            "vault": 1,
+            "cloister": 1,
+            "Semi-circular": 1,
+            "Advanced": 1,
+            "Repetitive": 1,
+            "Imposing": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Rococo": {
         "architects": [
@@ -1747,7 +2403,7 @@
                     "Catherine Palace",
                     "Peterhof Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1763,7 +2419,7 @@
                     "Fontaine de L\u00e9da",
                     "Fontaine Saint-Sulpice"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -1779,7 +2435,7 @@
                     "Smolny Cathedral",
                     "Gatchina Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1823,7 +2479,103 @@
             "Pastel colors and light, playful atmosphere"
         ],
         "short": "Rococo architecture is a highly decorative and luxurious style characterized by elaborate ornamentation, asymmetry, and flowing curves.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "Ornamentation": 7,
+            "Curves": 9,
+            "Whimsical": 4,
+            "Frivolous": 1,
+            "Gilding": 8,
+            "Pastel Colors": 2,
+            "Floral Motifs": 1,
+            "Chinoiserie": 2,
+            "Extravagance": 1,
+            "Playfulness": 3,
+            "c": 20,
+            "true": 10,
+            "Ornaments": 2,
+            "Whimsicality": 2,
+            "Pastel colors": 6,
+            "Gardens": 1,
+            "Shell motifs": 4,
+            "Volutes": 1,
+            "Gilded elements": 1,
+            "Chateau": 1,
+            "Folly": 1,
+            "ornate": 7,
+            "elegant": 5,
+            "lavish": 3,
+            "playful": 7,
+            "frivolous": 5,
+            "whimsical": 5,
+            "delicate": 6,
+            "exuberant": 3,
+            "curvaceous": 3,
+            "pastel": 3,
+            "Elegance": 2,
+            "Lightness": 1,
+            "Whimsy": 2,
+            "Pomposity": 1,
+            "Asymmetry": 5,
+            "dainty": 1,
+            "decorative": 1,
+            "light-hearted": 2,
+            "fanciful": 3,
+            "ornamentation": 1,
+            "curves": 1,
+            "interiors": 1,
+            "facades": 1,
+            "sculptures": 1,
+            "chandeliers": 1,
+            "pastel colors": 1,
+            "gilding": 1,
+            "cherubs": 1,
+            "fountains": 1,
+            "asymmetrical": 4,
+            "curved": 1,
+            "graceful": 2,
+            "Cherubs": 3,
+            "Floral motifs": 1,
+            "Volute": 1,
+            "Rocaille": 2,
+            "ornamental": 3,
+            "Exuberance": 2,
+            "Femininity": 1,
+            "Romanticism": 1,
+            "Ornate detailing": 1,
+            "Ornate": 2,
+            "Elaborate": 1,
+            "Elegant": 2,
+            "Curvaceous": 2,
+            "Playful": 2,
+            "Lavish": 1,
+            "Delicate": 2,
+            "Light-hearted": 2,
+            "Graceful": 1,
+            "Shell Motifs": 1,
+            "Scrollwork": 2,
+            "Frivolity": 2,
+            "asymmetric": 1,
+            "Elaboration": 1,
+            "Symmetry": 1,
+            "Lavishness": 1,
+            "Grandeur": 1,
+            "Pastel": 1,
+            "Luxurious": 1,
+            "Extravagant": 1,
+            "Flourishes": 1,
+            "elaborate": 2,
+            "pastel-colored": 1,
+            "Bucolic themes": 1,
+            "Frescoes": 1,
+            "extravagant": 1,
+            "romantic": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Art Nouveau": {
         "architects": [
@@ -1838,7 +2590,7 @@
                     "Cit\u00e9 Monthiers",
                     "Metro entrances"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1855,7 +2607,7 @@
                     "Hotel Solvay",
                     "House and Studio of Victor Horta"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes, Victor Horta was an architect of the 'Art Nouveau' architecture style."
@@ -1872,7 +2624,7 @@
                     "Casa Batll\u00f3",
                     "La Pedrera"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1915,7 +2667,83 @@
             "Intricate and decorative ornamentation"
         ],
         "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Flower": 1,
+            "Curves": 6,
+            "Ornamentation": 2,
+            "Whiplash": 5,
+            "Nature": 5,
+            "Organic": 12,
+            "Dynamic": 1,
+            "Elegance": 3,
+            "Free-flowing": 1,
+            "Decorative": 10,
+            "c": 18,
+            "Ornate": 5,
+            "Elegant": 9,
+            "Whimsical": 9,
+            "Curvilinear": 8,
+            "Fluid": 5,
+            "Intricate": 3,
+            "Asymmetrical": 5,
+            "Nature-inspired": 6,
+            "Floral motifs": 4,
+            "Whiplash curves": 3,
+            "Organic forms": 3,
+            "Stylized nature": 1,
+            "Ornamental ironwork": 1,
+            "Glasswork": 2,
+            "Mosaic": 1,
+            "Ceramics": 1,
+            "Gypsum decorations": 1,
+            "Floral": 4,
+            "Opulent": 1,
+            "Elaborate": 2,
+            "Fantastical": 1,
+            "Ornamental": 5,
+            "Sensual": 5,
+            "Sculpture": 2,
+            "Symbolism": 1,
+            "Ironwork": 5,
+            "Stylization": 1,
+            "Curvaceous": 2,
+            "Sinuous": 2,
+            "Innovative": 5,
+            "Unconventional": 1,
+            "Flowers": 2,
+            "Ornaments": 2,
+            "Stylized": 1,
+            "Feminine": 1,
+            "Glass": 2,
+            "Flowing": 1,
+            "Harmonious": 2,
+            "Leaves": 1,
+            "Curling vines": 1,
+            "Stylized foliage": 1,
+            "Serpentine lines": 1,
+            "Ornate ironwork": 1,
+            "Glass panels": 1,
+            "Intricate mosaics": 1,
+            "Exotic creatures": 1,
+            "Detailed": 1,
+            "Whiplash lines": 1,
+            "Stained glass": 1,
+            "Goddesses": 1,
+            "Flowing lines": 1,
+            "err1": 2,
+            "Curved lines": 1,
+            "Stylized plant forms": 1,
+            "Ornamental details": 1,
+            "Asymmetry": 1,
+            "Organic shapes": 1,
+            "Emphasis on craftsmanship": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Greek Revival": {
         "architects": [
@@ -1929,7 +2757,7 @@
                     "Monticello",
                     "Virginia State Capitol"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1945,7 +2773,7 @@
                     "Walhalla memorial",
                     "Herrenchiemsee Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -1961,7 +2789,7 @@
                     "University Museum of Natural History",
                     "St. George's Hall, Liverpool"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2014,7 +2842,7 @@
                     "Buckingham Palace",
                     "Regent Street, London"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2029,7 +2857,7 @@
                     "Kedleston Hall, Derbyshire",
                     "The Adelphi, London"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2044,7 +2872,7 @@
                     "Fonthill Abbey, Wiltshire",
                     "Pantheon, London"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2084,7 +2912,82 @@
             "Use of classical elements such as columns, cornices, and pediments"
         ],
         "short": "Georgian architecture style is characterized by symmetrical facades, elegant proportions, elaborate details, and use of classical elements, popular in the 18th-century Britain.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Mansion": 5,
+            "Column": 4,
+            "Facade": 1,
+            "Cornice": 3,
+            "Sash window": 3,
+            "Pediment": 5,
+            "mantelpiece": 1,
+            "Staircase": 2,
+            "Porch": 3,
+            "Portico": 6,
+            "c": 18,
+            "Symmetrical": 10,
+            "Elegant": 10,
+            "Proportional": 7,
+            "Formal": 8,
+            "Refined": 6,
+            "Classical": 1,
+            "Traditional": 1,
+            "Balanced": 9,
+            "Regal": 4,
+            "Timeless": 9,
+            "Brick": 2,
+            "Window": 1,
+            "Roof": 2,
+            "Column capital": 1,
+            "Entrance": 2,
+            "Balustrade": 4,
+            "Proportionate": 3,
+            "Neoclassical": 4,
+            "Grand": 5,
+            "Dignified": 3,
+            "Palladian window": 3,
+            "Gable": 2,
+            "Doric order": 1,
+            "Hipped roof": 1,
+            "Fanlight": 2,
+            "Swag": 1,
+            "Harmonious": 2,
+            "Classic": 5,
+            "Stately": 6,
+            "Pilaster": 1,
+            "Dormer": 1,
+            "err1": 2,
+            "Palace": 2,
+            "Townhouse": 2,
+            "Manor": 1,
+            "Terrace": 1,
+            "Orderly": 1,
+            "Cottage": 1,
+            "Palladian Window": 1,
+            "Sash Window": 1,
+            "Geometric": 1,
+            "Columns": 2,
+            "Symmetry": 2,
+            "Windows": 1,
+            "Chimney": 1,
+            "Graceful": 2,
+            "Terraced": 1,
+            "Rustic": 1,
+            "Colonial": 1,
+            "Pediments": 1,
+            "Pilasters": 1,
+            "Porticoes": 1,
+            "Sash windows": 1,
+            "Cornices": 1,
+            "Balustrades": 1,
+            "Dormer windows": 1,
+            "Porticos": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "International Style": {
         "architects": [
@@ -2097,7 +3000,7 @@
                     "The Bauhaus Building (1925) in Dessau, Germany",
                     "The Gropius House (1938) in Lincoln, Massachusetts, USA"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2112,7 +3015,7 @@
                     "Villa Savoye (1931) in Poissy, France",
                     "Unit\u00e9 d'Habitation (1952) in Marseille, France"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2127,7 +3030,7 @@
                     "Seagram Building (1958) in New York City, USA",
                     "Farnsworth House (1951) near Plano, Illinois, USA"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2173,7 +3076,82 @@
         "Start_Year": "1920 CE",
         "End_Year": "1950 CE",
         "icon": "international_style.png",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Glass": 9,
+            "Steel": 9,
+            "Concrete": 9,
+            "Open plan": 2,
+            "Minimalism": 9,
+            "Functionality": 8,
+            "Simplicity": 7,
+            "Geometric shapes": 2,
+            "Horizontal planes": 1,
+            "Natural light": 1,
+            "c": 20,
+            "Modern": 2,
+            "Sleek": 9,
+            "Minimalistic": 5,
+            "Functional": 10,
+            "Geometric": 7,
+            "Industrial": 9,
+            "Clean": 5,
+            "Efficient": 10,
+            "Abstract": 3,
+            "Timeless": 7,
+            "glass": 1,
+            "steel": 1,
+            "concrete": 1,
+            "simplicity": 1,
+            "abstraction": 1,
+            "functionality": 1,
+            "transparency": 1,
+            "openness": 1,
+            "modularity": 1,
+            "minimalism": 1,
+            "Minimalist": 4,
+            "Simplified": 1,
+            "Rational": 5,
+            "Unornamented": 2,
+            "Contemporary": 1,
+            "Progressive": 5,
+            "Openness": 5,
+            "Modularity": 1,
+            "Rationalism": 4,
+            "Impersonal": 1,
+            "Open": 4,
+            "Light": 3,
+            "Skyscraper": 2,
+            "Flat roof": 1,
+            "Open floor plan": 1,
+            "Horizontal lines": 2,
+            "Curtain wall": 1,
+            "Simplistic": 1,
+            "Transparent": 1,
+            "Geometry": 2,
+            "Horizontal": 1,
+            "Transparency": 3,
+            "Clutter-free": 1,
+            "Open-plan": 1,
+            "Grid": 1,
+            "Cubism": 1,
+            "Uniformity": 1,
+            "Modernity": 1,
+            "Honest": 1,
+            "Linear": 1,
+            "Modular": 1,
+            "Industrial materials": 1,
+            "Lack of ornamentation": 1,
+            "Minimal": 1,
+            "Mass-produced": 1,
+            "Function": 1,
+            "Innovative": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Modernist": {
         "architects": [
@@ -2248,7 +3226,7 @@
                     "Guild House",
                     "National Museum of American Jewish History"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2264,7 +3242,7 @@
                     "Lipstick Building",
                     "Sony Tower"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2280,7 +3258,7 @@
                     "Humana Building",
                     "Denver Public Library"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2321,12 +3299,87 @@
         "End_Year": "2000 CE",
         "icon": "postmodernism.png",
         "character": [
-            "1. Eclectic aesthetics: Postmodernism combines various architectural traditions and styles, resulting in a mix of contrasting elements. It often blends classical and modern features, incorporating bold colors, decorative motifs, and forms that challenge traditional norms.",
-            "2. Playfulness and irony: Postmodern architecture emphasizes unconventional and whimsical design elements. It may incorporate humor, irony, and satire to challenge the seriousness and rigidity of modernism. This can be seen in the use of exaggerated proportions, unconventional materials, and unexpected juxtapositions.",
-            "3. Contextualism and historical references: Postmodernism often responds to its surrounding context and historical references. Buildings may incorporate elements from the local architectural heritage, reinterpret traditional forms, or engage in dialogue with neighboring structures. This approach aims to create a sense of place and a connection to the history and culture of the site."
+            "Eclectic aesthetics: Postmodernism combines various architectural traditions and styles, resulting in a mix of contrasting elements. It often blends classical and modern features, incorporating bold colors, decorative motifs, and forms that challenge traditional norms.",
+            "Playfulness and irony: Postmodern architecture emphasizes unconventional and whimsical design elements. It may incorporate humor, irony, and satire to challenge the seriousness and rigidity of modernism. This can be seen in the use of exaggerated proportions, unconventional materials, and unexpected juxtapositions.",
+            "Contextualism and historical references: Postmodernism often responds to its surrounding context and historical references. Buildings may incorporate elements from the local architectural heritage, reinterpret traditional forms, or engage in dialogue with neighboring structures. This approach aims to create a sense of place and a connection to the history and culture of the site."
         ],
         "short": "Postmodernism in architecture is an eclectic style that rejects modernist principles, embracing historical references and playfulness in design.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Deconstruction": 10,
+            "Irony": 10,
+            "Eclectic": 10,
+            "Fragmentation": 10,
+            "Playfulness": 10,
+            "Pastiche": 6,
+            "Parody": 4,
+            "Whimsical": 2,
+            "Pluralism": 1,
+            "Collage": 5,
+            "c": 19,
+            "Fragmented": 9,
+            "Deconstructive": 7,
+            "Playful": 9,
+            "Ironical": 9,
+            "Maximalist": 2,
+            "Referential": 5,
+            "Non-linear": 4,
+            "Subversive": 1,
+            "Self-referential": 3,
+            "Eccentricity": 1,
+            "Inclusivity": 1,
+            "Hybridity": 4,
+            "Layering": 2,
+            "Paradoxical": 2,
+            "Contradictory": 6,
+            "Challenging": 1,
+            "Non-linearity": 1,
+            "Hyperreality": 1,
+            "Multiplicity": 2,
+            "Reappropriation": 1,
+            "Inclusive": 1,
+            "Non-hierarchical": 2,
+            "Historical references": 4,
+            "Contextuality": 1,
+            "Innovative": 2,
+            "Historical": 3,
+            "Multilayered": 1,
+            "Eclecticism": 3,
+            "Bricolage": 2,
+            "Pop-culture": 1,
+            "Quotation": 1,
+            "Diverse": 1,
+            "Multimedia": 1,
+            "Mixing of architectural styles": 1,
+            "Complexity": 2,
+            "Sustainability": 1,
+            "err1": 1,
+            "Contradiction": 3,
+            "Non-linear narratives": 1,
+            "Rejection of grand narratives": 1,
+            "Hybrid": 1,
+            "Complex": 1,
+            "Revivalist": 1,
+            "Meta": 2,
+            "Expressive": 1,
+            "Recontextualization": 1,
+            "Simulation": 1,
+            "Intertextuality": 2,
+            "De-ornamentation": 1,
+            "Irreverent": 1,
+            "Conceptual": 1,
+            "Collage-like": 1,
+            "Historical reference": 1,
+            "Deconstructivist": 1,
+            "Surreal": 1,
+            "Symbolic": 1,
+            "Recontextualized": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Neo-Modernism": {
         "architects": [
@@ -2394,7 +3447,7 @@
                     "Longleat House",
                     "Oxford University's Pembroke College"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2409,7 +3462,7 @@
                     "Wollaton Hall",
                     "Hardwick Hall"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2424,7 +3477,7 @@
                     "Truro Cathedral",
                     "St John's College Chapel, Cambridge"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2478,7 +3531,7 @@
                     "St. Paul's Cathedral, London",
                     "Hampton Court Palace, London"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2493,7 +3546,7 @@
                     "Monticello, Virginia",
                     "University of Virginia, Virginia"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2508,7 +3561,7 @@
                     "Massachusetts State House, Boston",
                     "U.S. Capitol, Washington, D.C."
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2594,7 +3647,7 @@
                         "location": "Baku, Azerbaijan"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2619,7 +3672,7 @@
                         "location": "Prague, Czech Republic"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2644,7 +3697,7 @@
                         "location": "Berlin, Germany"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2695,7 +3748,7 @@
                 "notable_buildings": [
                     "Hagia Sophia"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2709,7 +3762,7 @@
                 "notable_buildings": [
                     "Hagia Sophia"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2724,7 +3777,7 @@
                     "Church of St. Irene",
                     "Basilica of St. John the Apostle"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2769,7 +3822,88 @@
             "Columns and arches: Byzantine architecture incorporates intricate column designs, including the use of paired columns and pilasters. Arches, especially the semi-circular or rounded arches, are also commonly seen in Byzantine buildings."
         ],
         "short": "Byzantine architecture is characterized by vast domes, richly decorated mosaics, and ornate columns, reflecting the grandeur and spirituality of the Byzantine Empire.",
-        "significance": 9
+        "significance": 9,
+        "termsV2": {
+            "Domes": 1,
+            "Icons": 1,
+            "Mosaics": 1,
+            "Columns": 1,
+            "Arches": 1,
+            "Frescoes": 1,
+            "Marble": 2,
+            "Vaults": 1,
+            "Pillars": 1,
+            "Basilicas": 1,
+            "c": 20,
+            "Extravagant": 2,
+            "Ornate": 10,
+            "Intricate": 10,
+            "Monumental": 3,
+            "Mosaic-filled": 1,
+            "Dome-covered": 2,
+            "Vertical": 1,
+            "Symbolic": 2,
+            "Religious": 3,
+            "Timeless": 2,
+            "Dome": 10,
+            "Vault": 8,
+            "Church": 2,
+            "Mosaic": 12,
+            "Icon": 7,
+            "Basilica": 8,
+            "Pendentive": 6,
+            "Apse": 9,
+            "Narthex": 6,
+            "Atrium": 2,
+            "Dome-shaped": 5,
+            "Vaulted": 2,
+            "Gilded": 2,
+            "Symmetrical": 5,
+            "Imposing": 3,
+            "Byzantine": 7,
+            "Column": 4,
+            "Byzantine Cross": 1,
+            "Court": 1,
+            "Magnificent": 2,
+            "Dramatic": 1,
+            "Resplendent": 1,
+            "Majestic": 3,
+            "Glorious": 1,
+            "Courtyard": 1,
+            "Fresco": 1,
+            "Minaret": 3,
+            "Mosaic-covered": 4,
+            "Richly decorated": 2,
+            "Iconic": 4,
+            "Opulent": 3,
+            "Iconostasis": 2,
+            "Dome-roofed": 1,
+            "Richly-decorated": 1,
+            "Influential": 1,
+            "Stained glass": 1,
+            "Buttress": 1,
+            "Byzantine-Roman": 1,
+            "Hagia Sophia": 3,
+            "Palace": 1,
+            "Decorative": 2,
+            "Colossal": 1,
+            "Byzantium": 1,
+            "Sophisticated": 1,
+            "Byzantian": 1,
+            "Cupola": 1,
+            "Arcade": 1,
+            "Porphyry": 1,
+            "Exonarthex": 1,
+            "Churchly": 1,
+            "Imperial": 1,
+            "Byzantium-inspired": 2,
+            "Architectural": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "No"
+        ]
     },
     "Ancient Egyptian": {
         "architects": [
@@ -2781,7 +3915,7 @@
                 "notable_buildings": [
                     "Step Pyramid of Djoser at Saqqara"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2796,7 +3930,7 @@
                     "Temple of Hatshepsut at Deir el-Bahri",
                     "Temple of Amun at Karnak"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -2810,7 +3944,7 @@
                 "notable_buildings": [
                     "Great Pyramid of Giza"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2849,7 +3983,100 @@
             "Obelisks: Another distinct feature of Ancient Egyptian architecture is the obelisk, a tall, slender stone monument with a pyramidal top. Obelisks were often placed in pairs at the entrances of temples or other significant locations. The most famous surviving obelisk is the Luxor Obelisk in Paris, originally from the Temple of Luxor in Egypt."
         ],
         "short": "Ancient Egyptian architecture features monumental structures like pyramids, temples, and tombs, characterized by symmetry, grandeur, and distinct religious motifs.",
-        "significance": 8.5
+        "significance": 8.5,
+        "termsV2": {
+            "pyramids": 4,
+            "temples": 4,
+            "obelisks": 4,
+            "sphinxes": 3,
+            "columns": 4,
+            "hieroglyphics": 2,
+            "papyrus": 4,
+            "pharaohs": 1,
+            "monuments": 1,
+            "priests": 1,
+            "c": 19,
+            "Monumental": 6,
+            "Symbolic": 6,
+            "Hierarchical": 6,
+            "Ornate": 6,
+            "Symmetrical": 6,
+            "Sacred": 2,
+            "Eternal": 1,
+            "Innovative": 1,
+            "Regal": 1,
+            "Mystical": 4,
+            "sphinx": 2,
+            "pylon": 1,
+            "hypostyle hall": 1,
+            "karnak complex": 1,
+            "funerary temple": 1,
+            "Stylized": 2,
+            "Timeless": 5,
+            "Imposing": 2,
+            "Pyramids": 3,
+            "Temples": 3,
+            "Obelisks": 3,
+            "Sphinxes": 3,
+            "Tombs": 3,
+            "Columns": 2,
+            "Pylons": 3,
+            "Courtyards": 3,
+            "Hypostyle halls": 1,
+            "Mortuary temples": 2,
+            "Grand": 2,
+            "Durability-focused": 1,
+            "Religious": 3,
+            "hieroglyphs": 3,
+            "statues": 2,
+            "tombs": 2,
+            "frescoes": 1,
+            "monumental": 4,
+            "symmetrical": 2,
+            "ornate": 3,
+            "timeless": 4,
+            "austere": 1,
+            "grand": 2,
+            "hieroglyphic": 3,
+            "sacred": 3,
+            "imposing": 2,
+            "ritualistic": 2,
+            "err1": 1,
+            "Decorative": 1,
+            "Durable": 2,
+            "Aligned": 1,
+            "pyramid": 1,
+            "obelisk": 1,
+            "temple": 1,
+            "column": 1,
+            "sarcophagus": 1,
+            "statue": 1,
+            "frieze": 1,
+            "Structural": 1,
+            "true": 10,
+            "pioneering": 1,
+            "symbolic": 2,
+            "mystical": 3,
+            "intricate": 1,
+            "harmonious": 1,
+            "monolithic": 1,
+            "Hieroglyphs": 1,
+            "awe-inspiring": 1,
+            "corbelling": 1,
+            "indigenous": 1,
+            "decorated": 1,
+            "durable": 1,
+            "religious": 1,
+            "Colonnades": 1,
+            "Stele": 1,
+            "Mastabas": 1,
+            "Majestic": 1
+        },
+        "valid": [
+            "Yes",
+            "No",
+            "Yes"
+        ]
     },
     "Mannerist": {
         "architects": [
@@ -2917,7 +4144,7 @@
                 "notable_buildings": [
                     "The Red House"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2934,7 +4161,7 @@
                     "The Lodge",
                     "The Orchard"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -2950,7 +4177,7 @@
                     "Hill House",
                     "The Willow Tea Rooms"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -2988,7 +4215,93 @@
             "Integration with the natural surroundings: Arts and Crafts architecture seeks to blend harmoniously with its environment, embracing a connection to the natural world. It often incorporates elements like large windows to maximize natural light and views, covered porches or verandas that blur the lines between indoor and outdoor spaces, and incorporation of the surrounding landscape into the design."
         ],
         "short": "The Arts and Crafts architecture style emerged in the late 19th century, emphasizing craftsmanship, natural materials, and simpler, more functional design.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Woodwork": 3,
+            "Ornamentation": 1,
+            "Brickwork": 1,
+            "Tilework": 1,
+            "Stone": 5,
+            "Metalwork": 1,
+            "Glass": 3,
+            "Nature": 4,
+            "Handcraft": 1,
+            "Texture": 3,
+            "c": 18,
+            "Simple": 9,
+            "Natural": 9,
+            "Handcrafted": 10,
+            "Functional": 9,
+            "Unadorned": 1,
+            "Authentic": 5,
+            "Honest": 8,
+            "Traditional": 4,
+            "Solid": 2,
+            "Intimate": 6,
+            "err1": 2,
+            "Handmade": 2,
+            "Rustic": 3,
+            "Organic": 3,
+            "Unpretentious": 6,
+            "Timeless": 2,
+            "Wood": 4,
+            "Brick": 3,
+            "Textiles": 1,
+            "Pottery": 1,
+            "Metal": 3,
+            "Fireplace": 4,
+            "Garden": 1,
+            "Sturdy": 1,
+            "Elegant": 1,
+            "wood": 2,
+            "stone": 2,
+            "craftsmanship": 2,
+            "simplicity": 2,
+            "nature": 2,
+            "texture": 1,
+            "craftsman": 1,
+            "handmade": 1,
+            "detail": 1,
+            "proportion": 1,
+            "Local": 1,
+            "Cozy": 1,
+            "Copper": 1,
+            "Tile": 3,
+            "Gable": 3,
+            "Veranda": 2,
+            "Trellis": 1,
+            "Proportionate": 1,
+            "Light-filled": 1,
+            "Textured": 2,
+            "Harmonious": 1,
+            "Craftsmanship": 2,
+            "Simplicity": 2,
+            "Ornamental": 2,
+            "Homely": 1,
+            "Bungalow": 2,
+            "Craftsman": 2,
+            "Cottage": 1,
+            "Tudor": 1,
+            "Stucco": 1,
+            "Roof": 1,
+            "Mitered Glass": 1,
+            "Relaxed": 1,
+            "tile": 1,
+            "metal": 1,
+            "glass": 1,
+            "rusticity": 1,
+            "handicraft": 1,
+            "Detail": 1,
+            "Shingle": 1,
+            "Turret": 1,
+            "Stained glass": 1,
+            "Natural materials": 1
+        },
+        "valid": [
+            "No",
+            "No",
+            "Yes"
+        ]
     },
     "Victorian": {
         "architects": [
@@ -3000,7 +4313,7 @@
                 "notable_buildings": [
                     "The Palace of Westminster in London, England"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3015,7 +4328,7 @@
                     "Cardiff Castle in Wales",
                     "Saint Fin Barre's Cathedral in Cork, Ireland"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3030,7 +4343,7 @@
                     "The Palace of Westminster in London, England",
                     "St. Giles' Catholic Church in Cheadle, England"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3069,7 +4382,79 @@
             "Use of diverse architectural styles: Victorian architecture draws inspiration from various architectural styles, including Gothic Revival, Italianate, Queen Anne, and Second Empire. This results in a diverse range of architectural features, such as pointed arches, towers, bay windows, and decorative brackets."
         ],
         "short": "Victorian architecture, popular in the 19th century, incorporated Gothic revival, classical, and Romanesque elements, characterized by ornamentation and grandeur.",
-        "significance": 9
+        "significance": 9,
+        "termsV2": {
+            "Gothic Revival": 10,
+            "Queen Anne": 10,
+            "Italianate": 10,
+            "Second Empire": 10,
+            "Romanesque Revival": 7,
+            "Mansard Roof": 1,
+            "Victorian Era": 2,
+            "Tudor revival": 1,
+            "Eastlake": 6,
+            "Stick Style": 4,
+            "c": 20,
+            "Ornate": 8,
+            "Elaborate": 6,
+            "Grand": 8,
+            "Elegant": 7,
+            "Symmetrical": 5,
+            "Decorative": 2,
+            "Opulent": 6,
+            "Lavish": 2,
+            "Intricate": 4,
+            "Distinctive": 2,
+            "Stick-Eastlake": 4,
+            "Shingle": 4,
+            "Richardsonian": 2,
+            "Queen Victoria": 1,
+            "Romantic": 7,
+            "Gothic": 6,
+            "Detailed": 3,
+            "Victorian Stick Style": 1,
+            "Eastlake Style": 1,
+            "Folk Victorian": 5,
+            "High Victorian": 2,
+            "Richardsonian Romanesque": 2,
+            "Victorian": 5,
+            "Classical": 1,
+            "Romanesque": 3,
+            "Tudor Revival": 1,
+            "ornate": 2,
+            "grand": 2,
+            "elaborate": 2,
+            "detailed": 2,
+            "romantic": 2,
+            "stylish": 1,
+            "opulent": 2,
+            "eclectic": 1,
+            "symmetrical": 1,
+            "elegant": 2,
+            "Carpenter Gothic": 1,
+            "Extravagant": 4,
+            "Stately": 1,
+            "Shingle style": 1,
+            "nostalgic": 1,
+            "dignified": 1,
+            "asymmetrical": 1,
+            "Shingle Style": 2,
+            "Chateauesque": 1,
+            "Renaissance Revival": 2,
+            "Eclectic": 2,
+            "Arts and Crafts": 1,
+            "Neo-Eclectic": 1,
+            "Tudor": 1,
+            "Colonial Revival": 1,
+            "Stick": 1,
+            "Rich": 1,
+            "Durable": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "No"
+        ]
     },
     "Parametric": {
         "architects": [
@@ -3310,7 +4695,7 @@
                 "nationality": "Roman",
                 "description": "Ancient Roman writer, architect and engineer",
                 "notable_buildings": "None extant",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3322,7 +4707,7 @@
                 "nationality": "Syrian",
                 "description": "Greek-roman architect",
                 "notable_buildings": "Trajan's Column, Market of Trajan, Hadrian's Wall",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3334,7 +4719,7 @@
                 "nationality": "Roman",
                 "description": "Roman writer, architect, and engineer",
                 "notable_buildings": "None extant",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3371,7 +4756,71 @@
             "Incorporation of classical elements: Ancient Roman architecture was heavily influenced by Greek architectural traditions. It incorporated classical elements such as columns, pediments, and symmetrical design, but often developed them in a grander and more lavish manner."
         ],
         "short": "Ancient Roman architecture is characterized by grandeur, symmetry, and use of arches and vaults, influencing Western architectural styles for centuries.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "Colosseum": 10,
+            "Pantheon": 10,
+            "Aqueduct": 9,
+            "Forum": 10,
+            "Basilica": 10,
+            "Amphitheater": 10,
+            "Temple": 4,
+            "Villa": 9,
+            "Thermae": 10,
+            "Triumphal Arch": 3,
+            "c": 20,
+            "Grand": 7,
+            "Majestic": 4,
+            "Impressive": 1,
+            "Sturdy": 1,
+            "Monumental": 7,
+            "Symmetrical": 7,
+            "Ornate": 6,
+            "Timeless": 2,
+            "Innovative": 7,
+            "Enduring": 1,
+            "Domus": 3,
+            "Triumphal arch": 1,
+            "Circus Maximus": 1,
+            "Elegant": 4,
+            "Harmonious": 1,
+            "Imposing": 6,
+            "Durable": 6,
+            "Functional": 2,
+            "Awe-inspiring": 1,
+            "Portico": 1,
+            "Temples": 3,
+            "grand": 2,
+            "majestic": 3,
+            "imposing": 3,
+            "ornate": 3,
+            "monumental": 3,
+            "timeless": 3,
+            "robust": 1,
+            "impressive": 2,
+            "regal": 1,
+            "enduring": 1,
+            "Arch": 3,
+            "Aqueducts": 1,
+            "durable": 1,
+            "innovative": 1,
+            "symmetrical": 2,
+            "elegant": 1,
+            "Atrium": 1,
+            "Influential": 4,
+            "Circus": 1,
+            "Sculptural": 1,
+            "grandiose": 1,
+            "sturdy": 1,
+            "sweeping": 1,
+            "Engineering": 1,
+            "Classical": 1
+        },
+        "valid": [
+            "No",
+            "Yes",
+            "No"
+        ]
     },
     "Ancient Greek": {
         "architects": [
@@ -3383,7 +4832,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -3397,7 +4846,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3411,7 +4860,7 @@
                 "notable_buildings": [
                     "Propylaea"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3425,7 +4874,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3460,7 +4909,75 @@
             "Ancient Greek architecture placed great importance on symmetry and balance. Buildings were designed with harmonious proportions, such as having an equal number of columns on each side, creating a sense of visual equilibrium."
         ],
         "short": "Ancient Greek architecture style is characterized by harmonious proportions, use of columns, symmetry, and iconic structures like the Parthenon.",
-        "significance": 9
+        "significance": 9,
+        "termsV2": {
+            "Temple": 6,
+            "Column": 7,
+            "Dome": 1,
+            "Pediment": 10,
+            "Frieze": 10,
+            "Acropolis": 4,
+            "Entablature": 10,
+            "Stoa": 3,
+            "Peristyle": 4,
+            "Agora": 1,
+            "c": 20,
+            "Harmonious": 9,
+            "Symmetrical": 10,
+            "Elegant": 10,
+            "Proportional": 9,
+            "Majestic": 1,
+            "Rational": 1,
+            "Timeless": 10,
+            "Balanced": 5,
+            "Durable": 2,
+            "Refined": 9,
+            "Doric column": 2,
+            "Ionic column": 2,
+            "Corinthian column": 2,
+            "Portico": 4,
+            "Enduring": 1,
+            "Simple": 1,
+            "Graceful": 5,
+            "Orderly": 4,
+            "Colonnade": 1,
+            "Doric order": 3,
+            "Ionic order": 3,
+            "Corinthian order": 3,
+            "Caryatid": 3,
+            "Monumental": 3,
+            "Classic": 2,
+            "Metope": 5,
+            "Doric": 3,
+            "Ionic": 3,
+            "Corinthian": 3,
+            "Sculptural": 1,
+            "Parthenon": 1,
+            "Stele": 1,
+            "Classical": 2,
+            "Doric Order": 1,
+            "Ionic Order": 1,
+            "Corinthian Order": 1,
+            "Theater": 1,
+            "Harmonic": 1,
+            "Structural": 1,
+            "Stately": 2,
+            "Precise": 1,
+            "Idealized": 2,
+            "Proportionate": 1,
+            "Ornate": 1,
+            "Gracious": 1,
+            "Capital": 1,
+            "Innovative": 2,
+            "Influential": 1,
+            "Purposeful": 1,
+            "Stylized": 1
+        },
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Islamic": {
         "architects": [
@@ -3472,7 +4989,7 @@
                 "notable_buildings": [
                     "Great Mosque of Samarra"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -3488,7 +5005,7 @@
                     "S\u00fcleymaniye Mosque",
                     "K\u0131l\u0131\u00e7 Ali Pa\u015fa Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3503,7 +5020,7 @@
                     "Bee\u2019ah Headquarters",
                     "Heydar Aliyev Center"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3550,7 +5067,84 @@
             "Minarets: Minarets are tall towers that are considered a characteristic element of Islamic architecture. They are often attached to mosques and used for the Islamic call to prayer."
         ],
         "short": "Islamic architecture is characterized by its geometric patterns, pointed arches, domes, and intricate ornamentation, reflecting a strong emphasis on spirituality and unity in Muslim culture.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Mosque": 8,
+            "Minaret": 9,
+            "Dome": 8,
+            "Arch": 3,
+            "Courtyard": 5,
+            "Mihrab": 8,
+            "Mausoleum": 5,
+            "Madrasah": 1,
+            "Minbar": 6,
+            "Iwan": 6,
+            "c": 20,
+            "Ornate": 9,
+            "Intricate": 10,
+            "Geometric": 9,
+            "Majestic": 6,
+            "Elegant": 8,
+            "Symmetrical": 10,
+            "Innovative": 6,
+            "Cultural": 1,
+            "Historical": 1,
+            "Harmonious": 4,
+            "mosque": 2,
+            "dome": 2,
+            "minaret": 2,
+            "mihrab": 2,
+            "maqsurah": 1,
+            "muqarnas": 1,
+            "madrasah": 1,
+            "qibla": 1,
+            "courtyard": 2,
+            "calligraphy": 2,
+            "Visually stunning": 1,
+            "Timeless": 2,
+            "Spiritual": 3,
+            "Unique": 1,
+            "Mimbar": 1,
+            "Madrassa": 4,
+            "Qibla": 3,
+            "Haram": 1,
+            "Ornamental": 1,
+            "Decorative": 5,
+            "Imposing": 1,
+            "Rich": 1,
+            "Mosaic": 3,
+            "Carpet": 1,
+            "Calligraphy": 3,
+            "Grand": 1,
+            "Arched": 2,
+            "Dome-shaped": 2,
+            "Arabesque": 4,
+            "Mashrabiya": 1,
+            "Peaceful": 1,
+            "Serene": 1,
+            "Sahn": 1,
+            "Inclusive": 1,
+            "Madrasa": 1,
+            "Horseshoe arch": 1,
+            "Calligraphic": 1,
+            "Courtyarded": 1,
+            "arch": 1,
+            "madrassa": 1,
+            "mausoleum": 1,
+            "horseshoe": 1,
+            "Transcendent": 1,
+            "Linear": 1,
+            "Monumental": 2,
+            "Hospitable": 1,
+            "Mehrab": 1,
+            "Islamic": 1,
+            "Proportional": 1
+        },
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Gothic Revival": {
         "architects": [
@@ -3562,7 +5156,7 @@
                 "notable_buildings": [
                     "The Palace of Westminster"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3576,7 +5170,7 @@
                 "notable_buildings": [
                     "Westminster Cathedral"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -3590,7 +5184,7 @@
                 "notable_buildings": [
                     "The Palace of Westminster"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -3625,7 +5219,88 @@
             "Gargoyles and grotesques: Gothic Revival buildings frequently include ornamental sculptures of fantastical creatures such as gargoyles or grotesques, adding a sense of drama and mystery to the architecture."
         ],
         "short": "Gothic Revival architecture: 19th-century movement inspired by medieval Gothic architecture, characterized by pointed arches, spires, and ornate details.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Gargoyles": 3,
+            "Buttresses": 3,
+            "Towers": 1,
+            "Arches": 2,
+            "Stained glass": 5,
+            "Flying buttresses": 1,
+            "Pinnacles": 1,
+            "Tracery": 3,
+            "Vaults": 3,
+            "Spires": 3,
+            "c": 17,
+            "err1": 3,
+            "Castle": 5,
+            "Cathedral": 5,
+            "Abbey": 3,
+            "Church": 1,
+            "Neo-Gothic Mansion": 1,
+            "Turret": 5,
+            "Gargoyle": 5,
+            "Stained Glass Window": 1,
+            "Buttress": 4,
+            "Spire": 4,
+            "Ornate": 8,
+            "Eccentric": 7,
+            "Dramatic": 8,
+            "Medieval-inspired": 1,
+            "Mysterious": 8,
+            "Majestic": 2,
+            "Spooky": 2,
+            "Grim": 4,
+            "Romantic": 7,
+            "Dark": 4,
+            "Turrets": 1,
+            "Stonework": 1,
+            "Gables": 1,
+            "Pointed arches": 1,
+            "Ribbed vaults": 1,
+            "Ecclesiastical": 1,
+            "Medieval": 7,
+            "Victorian": 2,
+            "Mood-evoking": 1,
+            "Imposing": 2,
+            "Chapel": 2,
+            "Rose window": 1,
+            "Flying buttress": 1,
+            "dark": 1,
+            "mysterious": 1,
+            "dramatic": 1,
+            "ornate": 1,
+            "medieval": 1,
+            "eerie": 1,
+            "romantic": 1,
+            "grand": 1,
+            "majestic": 1,
+            "spooky": 1,
+            "Mansion": 2,
+            "Monastery": 2,
+            "Vault": 1,
+            "Gloomy": 5,
+            "Aesthetic": 1,
+            "Parapet": 1,
+            "Melancholic": 3,
+            "Vertical": 2,
+            "Intricate": 1,
+            "Vaulted ceiling": 1,
+            "Pinnacle": 1,
+            "Gothic arch": 1,
+            "Gothic Revival": 1,
+            "Cathedrals": 1,
+            "Rose windows": 1,
+            "Fantastic": 1,
+            "Fantastical": 1,
+            "Grand": 1,
+            "Peculiar": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Beaux-Arts": {
         "architects": [
@@ -3639,7 +5314,7 @@
                     "Biltmore Estate",
                     "Marble House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3654,7 +5329,7 @@
                     "Paris Op\u00e9ra",
                     "Biblioth\u00e8que-Mus\u00e9e de l'Op\u00e9ra National de Paris"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3670,7 +5345,7 @@
                     "Jefferson Memorial",
                     "The Walter Reed Army Medical Center"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3706,7 +5381,89 @@
             "Grandeur and Monumentality: Beaux-Arts architecture is known for its grand and monumental scale, often featuring large, imposing structures and impressive facades that convey a sense of elegance and prestige."
         ],
         "short": "Beaux-Arts is an architectural style characterized by grandeur, classical elements, and symmetry, popularized in the late 19th and early 20th centuries.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "Classical": 10,
+            "Symmetry": 6,
+            "Ornamentation": 5,
+            "Order": 3,
+            "Grandeur": 6,
+            "Hierarchy": 2,
+            "Columns": 5,
+            "Elegance": 3,
+            "Monumentality": 3,
+            "Sculpture": 1,
+            "c": 20,
+            "Elegant": 10,
+            "Symmetrical": 10,
+            "Ornate": 10,
+            "Grand": 7,
+            "Sculptural": 1,
+            "Opulent": 10,
+            "Monumental": 10,
+            "Harmonious": 7,
+            "Imposing": 6,
+            "grandeur": 4,
+            "ornamentation": 4,
+            "symmetry": 4,
+            "proportion": 2,
+            "order": 1,
+            "columns": 4,
+            "arches": 4,
+            "domes": 3,
+            "sculptures": 1,
+            "frescoes": 1,
+            "Decorative": 1,
+            "Detailed": 2,
+            "Historic": 1,
+            "elegance": 1,
+            "sculpture": 3,
+            "balustrades": 1,
+            "facades": 1,
+            "Majestic": 6,
+            "Arches": 1,
+            "Ornaments": 1,
+            "Domes": 2,
+            "Balustrades": 1,
+            "Pilasters": 1,
+            "Cornices": 1,
+            "Statues": 1,
+            "Luxurious": 1,
+            "Grace": 1,
+            "Colonnades": 1,
+            "Classical motifs": 1,
+            "Arcades": 2,
+            "monumentality": 1,
+            "facade": 1,
+            "dome": 1,
+            "pediment": 1,
+            "Grandiose": 3,
+            "Richly-decorated": 1,
+            "classicism": 1,
+            "dignity": 1,
+            "Classic": 1,
+            "Timeless": 1,
+            "Extravagant": 1,
+            "Bas-reliefs": 1,
+            "Pediments": 1,
+            "Cupolas": 1,
+            "Palatial": 1,
+            "Regal": 1,
+            "Classicism": 1,
+            "Courtyards": 1,
+            "Dignified": 1,
+            "Facade": 1,
+            "Dome": 1,
+            "Arcade": 1,
+            "Balustrade": 1,
+            "Portico": 1,
+            "Atrium": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "International Style (Modernism)": {
         "architects": [
@@ -3793,7 +5550,7 @@
                         "year_completed": 1959
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -3821,7 +5578,7 @@
                         "year_completed": 1971
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3852,7 +5609,7 @@
                         "year_completed": 1964
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3893,7 +5650,80 @@
             "Lack of ornamentation"
         ],
         "short": "Brutalism, characterized by raw, exposed concrete structures, prioritizes functionality over aesthetics, embodying a bold and controversial architectural style.",
-        "significance": 9
+        "significance": 9,
+        "termsV2": {
+            "concrete": 3,
+            "rawness": 2,
+            "brutality": 2,
+            "mass": 1,
+            "geometry": 2,
+            "boldness": 1,
+            "scale": 1,
+            "functionality": 2,
+            "monumentality": 2,
+            "texture": 1,
+            "c": 18,
+            "Monolithic": 9,
+            "Austere": 8,
+            "Massive": 11,
+            "Raw": 13,
+            "Concrete": 15,
+            "Sculptural": 10,
+            "Harsh": 4,
+            "Bold": 12,
+            "Uncompromising": 6,
+            "Minimalistic": 1,
+            "err1": 2,
+            "Robust": 3,
+            "Unapologetic": 2,
+            "Functional": 7,
+            "Utilitarian": 4,
+            "Rawness": 3,
+            "Massiveness": 2,
+            "Geometry": 6,
+            "Modularity": 1,
+            "Simplicity": 3,
+            "Functionality": 1,
+            "Monumentality": 3,
+            "Harshness": 1,
+            "Brutalism": 1,
+            "Simplistic": 1,
+            "Minimalist": 2,
+            "Severe": 1,
+            "Functionalism": 2,
+            "Form": 2,
+            "Texture": 3,
+            "Brutality": 1,
+            "Spartan": 1,
+            "Minimal": 1,
+            "Elemental": 1,
+            "bold": 1,
+            "massive": 1,
+            "monolithic": 1,
+            "raw": 1,
+            "austere": 1,
+            "striking": 1,
+            "brutal": 1,
+            "unapologetic": 1,
+            "utilitarian": 1,
+            "Unornamented": 1,
+            "Controversial": 2,
+            "Mass": 1,
+            "Solidity": 1,
+            "Honest": 1,
+            "Scale": 1,
+            "Powerful": 1,
+            "minimalism": 1,
+            "massiveness": 1,
+            "simplicity": 1,
+            "austerity": 1,
+            "Brutal": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "High-Tech": {
         "architects": [
@@ -3907,7 +5737,7 @@
                     "Lloyd's of London building in England",
                     "Terminal 4 at Barajas Airport in Madrid, Spain"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3923,7 +5753,7 @@
                     "Reichstag Building in Berlin, Germany",
                     "Millennium Bridge in London, England"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3939,7 +5769,7 @@
                     "Centre Georges Pompidou in Paris, France",
                     "California Academy of Sciences in San Francisco, USA"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -3979,12 +5809,92 @@
         "Start_Year": "1960 CE",
         "End_Year": "present",
         "character": [
-            "1. Industrial materials and structural expressions: The use of exposed steel, glass, and concrete is common in High-Tech architecture. Structural elements and systems often remain visible, showcasing the technology behind the building's construction.",
-            "2. Functional and flexible spaces: High-Tech architecture emphasizes versatile spaces that can adapt to changing needs. Open floor plans, movable partitions, and modular components are frequently incorporated to allow for flexibility and customization.",
-            "3. Technological integration and innovation: High-Tech buildings showcase advanced technology and often incorporate it into their design. This could include integrated smart systems, energy-efficient features, sustainable practices, and innovative construction techniques."
+            "Industrial materials and structural expressions: The use of exposed steel, glass, and concrete is common in High-Tech architecture. Structural elements and systems often remain visible, showcasing the technology behind the building's construction.",
+            "Functional and flexible spaces: High-Tech architecture emphasizes versatile spaces that can adapt to changing needs. Open floor plans, movable partitions, and modular components are frequently incorporated to allow for flexibility and customization.",
+            "Technological integration and innovation: High-Tech buildings showcase advanced technology and often incorporate it into their design. This could include integrated smart systems, energy-efficient features, sustainable practices, and innovative construction techniques."
         ],
         "short": "High-Tech architecture style blends technological innovation and industrial aesthetics, often featuring steel, glass, and exposed structural elements.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "technology": 5,
+            "innovation": 5,
+            "futuristic": 1,
+            "automation": 3,
+            "electronics": 2,
+            "sustainability": 5,
+            "efficiency": 3,
+            "computing": 1,
+            "materiality": 1,
+            "laboratory": 1,
+            "c": 18,
+            "Futuristic": 9,
+            "Sleek": 9,
+            "Innovative": 9,
+            "Technological": 8,
+            "Dynamic": 9,
+            "Progressive": 5,
+            "Industrial": 3,
+            "Minimalist": 3,
+            "Efficient": 9,
+            "Intelligent": 1,
+            "Digital": 3,
+            "Contemporary": 2,
+            "Technology": 4,
+            "Innovation": 4,
+            "Futurism": 3,
+            "Sustainability": 4,
+            "Efficiency": 3,
+            "Digitalization": 1,
+            "Modularity": 1,
+            "Transparency": 2,
+            "Integration": 1,
+            "Advancement": 1,
+            "Minimalistic": 5,
+            "Transparent": 5,
+            "glass": 3,
+            "steel": 3,
+            "aluminum": 2,
+            "concrete": 3,
+            "transparency": 2,
+            "modernity": 1,
+            "Glass": 2,
+            "Steel": 1,
+            "Concrete": 1,
+            "Aluminum": 1,
+            "Computer": 1,
+            "Circuitry": 1,
+            "Highly functional": 1,
+            "Forward-thinking": 1,
+            "metal": 1,
+            "digital": 1,
+            "Modular": 1,
+            "Minimal": 1,
+            "High-performance": 1,
+            "computer": 1,
+            "energy efficiency": 1,
+            "futurism": 2,
+            "Energetic": 1,
+            "Cutting-edge": 1,
+            "Modernism": 1,
+            "Metal": 1,
+            "Functionality": 2,
+            "Digitized": 1,
+            "Sustainable": 2,
+            "functionality": 1,
+            "precision": 1,
+            "modularity": 1,
+            "err1": 1,
+            "Materials": 1,
+            "Light": 1,
+            "Geometry": 1,
+            "Minimalism": 1,
+            "Highly automated": 1
+        },
+        "valid": [
+            "No",
+            "No 'High-Tech' is not an architecture style",
+            "No"
+        ]
     },
     "Neo-Futurism": {
         "architects": [
@@ -3998,7 +5908,7 @@
                     "Guangzhou Opera House",
                     "MAXXI National Museum of the 21st Century Arts"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4014,7 +5924,7 @@
                     "City of Arts and Sciences",
                     "Oculus"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -4030,7 +5940,7 @@
                     "BIG Maze",
                     "The Twist"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4068,7 +5978,100 @@
             "Emphasis on sustainability and eco-friendliness"
         ],
         "short": "Neo-Futurism is a forward-thinking architectural style that combines futuristic aesthetics and technological advancements with sustainability and social responsibility.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Dynamic": 13,
+            "Innovative": 11,
+            "Sustainable": 10,
+            "Curvilinear": 2,
+            "Pixelated": 1,
+            "Transparent": 8,
+            "Organic": 2,
+            "Interactive": 1,
+            "Light-filled": 1,
+            "Technology-driven": 2,
+            "c": 20,
+            "Experimental": 9,
+            "Futuristic": 6,
+            "Minimalist": 4,
+            "Ecological": 2,
+            "Tech-inspired": 1,
+            "Progressive": 4,
+            "Unconventional": 2,
+            "Curve": 2,
+            "Transparency": 8,
+            "Innovation": 5,
+            "Sustainability": 6,
+            "Modularity": 7,
+            "Technology": 6,
+            "Sleekness": 1,
+            "Minimalism": 7,
+            "Verticality": 1,
+            "Fluidity": 2,
+            "Industrial": 1,
+            "Sculptural": 2,
+            "High-tech": 3,
+            "Geometry": 3,
+            "Light": 1,
+            "Simplicity": 1,
+            "Functionality": 2,
+            "Forward-thinking": 1,
+            "Technologically advanced": 2,
+            "Minimalistic": 4,
+            "Function-oriented": 1,
+            "Dynamicity": 1,
+            "Flexibility": 1,
+            "Lightness": 1,
+            "Efficiency": 1,
+            "Modular": 1,
+            "Sensibility": 1,
+            "Eclectic": 1,
+            "Bold": 2,
+            "Expressive": 2,
+            "Energetic": 1,
+            "Non-conformist": 1,
+            "Movement": 1,
+            "Flexible": 2,
+            "Contextual": 2,
+            "Eco-friendly": 1,
+            "Curved forms": 2,
+            "Exposed materials": 1,
+            "High-tech engineering": 1,
+            "Sustainable design": 2,
+            "Dynamic facades": 1,
+            "Organic shapes": 1,
+            "Open floor plans": 1,
+            "Geometric patterns": 2,
+            "Efficient": 1,
+            "Interdisciplinary": 1,
+            "Curved lines": 1,
+            "Organic forms": 1,
+            "Dynamic spaces": 2,
+            "Technological integration": 1,
+            "Asymmetry": 1,
+            "Spatial fluidity": 1,
+            "Light-filled interiors": 1,
+            "Abstract": 1,
+            "Evolving": 1,
+            "innovative": 1,
+            "futuristic": 1,
+            "experimental": 1,
+            "dynamic": 1,
+            "minimalist": 1,
+            "sustainable": 1,
+            "eclectic": 1,
+            "transparent": 1,
+            "shaping": 1,
+            "fragmented": 1,
+            "Fluid structures": 1,
+            "Technological": 1,
+            "Non-conventional": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Sustainable (Green)": {
         "architects": [
@@ -4082,7 +6085,7 @@
                     "The Paris Courthouse",
                     "The Shard in London"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -4098,7 +6101,7 @@
                     "The Swiss Re tower (The Gherkin) in London",
                     "Masdar City in Abu Dhabi"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4114,7 +6117,7 @@
                     "The Amager Bakke waste-to-energy plant in Copenhagen",
                     "The 8 House in Copenhagen"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4161,7 +6164,102 @@
             }
         ],
         "short": "Sustainable (Green) architecture focuses on minimizing environmental impact by using renewable materials, energy-efficient design, and waste reduction.",
-        "significance": 7
+        "significance": 7,
+        "termsV2": {
+            "energy efficiency": 1,
+            "renewable energy": 1,
+            "recycled materials": 1,
+            "natural ventilation": 1,
+            "daylighting": 1,
+            "rainwater harvesting": 1,
+            "green roofs": 1,
+            "passive solar design": 1,
+            "bioclimatic architecture": 1,
+            "waste reduction": 1,
+            "c": 16,
+            "Environmentally-friendly": 3,
+            "Energy-efficient": 6,
+            "Resource-conscious": 3,
+            "Recyclable": 7,
+            "Renewable": 9,
+            "Climate-responsive": 1,
+            "Low-impact": 6,
+            "Passive": 3,
+            "Healthy": 4,
+            "Innovative": 6,
+            "err1": 4,
+            "Environmentally friendly": 2,
+            "Energy efficient": 2,
+            "Holistic": 1,
+            "Resilient": 1,
+            "Renewable energy": 3,
+            "Energy efficiency": 4,
+            "Recycling": 4,
+            "Water conservation": 3,
+            "Sustainable materials": 1,
+            "Insulation": 1,
+            "Natural lighting": 1,
+            "Passive design": 3,
+            "Vegetation": 1,
+            "Green roofs": 3,
+            "Ecological": 1,
+            "Resource conscious": 1,
+            "Eco-conscious": 1,
+            "Sustainable": 6,
+            "Low impact": 1,
+            "Efficient": 3,
+            "Integrated": 1,
+            "Naturally-cooled": 1,
+            "Bioclimatic": 1,
+            "Low-carbon": 1,
+            "Natural materials": 2,
+            "Solar panels": 2,
+            "Daylighting": 1,
+            "Biodegradable": 1,
+            "environment": 2,
+            "sustainability": 2,
+            "energy-efficiency": 1,
+            "renewable": 1,
+            "natural": 1,
+            "materials": 1,
+            "design": 1,
+            "bioclimatic": 1,
+            "efficiency": 2,
+            "recycling": 2,
+            "Energy": 1,
+            "Environment": 1,
+            "Sustainability": 2,
+            "Efficiency": 1,
+            "Natural": 3,
+            "Resources": 1,
+            "Greenhouse": 1,
+            "Eco-friendly": 4,
+            "Biophilic": 2,
+            "Renewability": 1,
+            "Biodiversity": 1,
+            "Green spaces": 1,
+            "Carbon footprint": 1,
+            "energy": 1,
+            "resources": 1,
+            "innovation": 1,
+            "renewability": 1,
+            "adaptation": 1,
+            "harmony": 1,
+            "Natural light": 1,
+            "Passive heating and cooling": 1,
+            "Rainwater harvesting": 1,
+            "Recycled materials": 1,
+            "Thermal insulation": 1,
+            "Ventilation": 1,
+            "Resource-conserving": 1,
+            "Emission-reducing": 1,
+            "Environmentally responsible": 1
+        },
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Parametricism": {
         "architects": [
@@ -4175,7 +6273,7 @@
                     "Riverside Museum in Glasgow, Scotland",
                     "Guangzhou Opera House in China"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4191,7 +6289,7 @@
                     "Guggenheim Museum Bilbao in Spain",
                     "Fondation Louis Vuitton in Paris"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4207,7 +6305,7 @@
                     "2 World Trade Center in New York City",
                     "Google North Bayshore Campus in Mountain View, California"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4243,7 +6341,90 @@
             "Responsive and adaptable architecture"
         ],
         "short": "Parametricism is a contemporary architectural style that uses digital tools to design dynamic, complex forms, emphasizing organic and fluid structures.",
-        "significance": 5
+        "significance": 5,
+        "termsV2": {
+            "Curves": 7,
+            "Complexity": 7,
+            "Parametric": 13,
+            "Fluidity": 6,
+            "Geometry": 2,
+            "Digital": 10,
+            "Technology": 1,
+            "Organic": 13,
+            "Dynamic": 11,
+            "Function": 1,
+            "c": 20,
+            "Complex": 10,
+            "Non-linear": 1,
+            "Fluid": 7,
+            "Generative": 5,
+            "Progressive": 1,
+            "Experimental": 1,
+            "Algorithm": 2,
+            "Network": 1,
+            "Interconnectedness": 1,
+            "Sustainable": 4,
+            "Efficient": 5,
+            "Futuristic": 8,
+            "Innovative": 6,
+            "Flexible": 4,
+            "complexity": 3,
+            "curvature": 1,
+            "parametrics": 2,
+            "fluidity": 3,
+            "organization": 1,
+            "interconnectivity": 2,
+            "nonlinearity": 1,
+            "innovation": 1,
+            "flexibility": 3,
+            "diversity": 1,
+            "Responsive": 1,
+            "Elegant": 2,
+            "curves": 2,
+            "rationality": 1,
+            "parametric models": 1,
+            "digital design": 1,
+            "algorithm": 2,
+            "technology": 1,
+            "dynamic forms": 1,
+            "Integrated": 1,
+            "Parametrics": 1,
+            "Organic forms": 3,
+            "Digital design": 2,
+            "Mathematics": 1,
+            "Computation": 1,
+            "Generative algorithms": 2,
+            "Non-standard geometries": 1,
+            "Evolving": 1,
+            "Parametric design": 2,
+            "Computational algorithms": 1,
+            "Digital fabrication": 3,
+            "Emergence": 1,
+            "Non-linear processes": 1,
+            "Generative systems": 1,
+            "Multidimensional": 1,
+            "Precise": 1,
+            "Adaptive": 4,
+            "Information technology": 1,
+            "Sustainability": 1,
+            "Spatial continuity": 1,
+            "Sculptural": 2,
+            "computational": 1,
+            "digital": 1,
+            "geometry": 1,
+            "Surfaces": 1,
+            "Grids": 1,
+            "Patterns": 1,
+            "Parametric modeling": 1,
+            "Form finding": 1,
+            "Nonlinear systems": 1,
+            "Curvilinear": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "New Formalism": {
         "architects": [
@@ -4257,7 +6438,7 @@
                     "AT&T Building",
                     "Glass House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4273,7 +6454,7 @@
                     "U.S. Embassy in New Delhi",
                     "State University of New York at Albany"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -4289,7 +6470,7 @@
                     "McGregor Memorial Conference Center",
                     "Rainier Tower"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4329,7 +6510,88 @@
             "Use of high-quality materials and craftsmanship"
         ],
         "short": "New Formalism is an architectural style that emerged in the 20th century, characterized by a return to classical elements and a focus on elegance and simplicity.",
-        "significance": 4
+        "significance": 4,
+        "termsV2": {
+            "Classicism": 6,
+            "Order": 9,
+            "Symmetry": 9,
+            "Elegance": 6,
+            "Balance": 5,
+            "Proportion": 9,
+            "Precision": 5,
+            "Detail": 6,
+            "Formality": 1,
+            "Timelessness": 3,
+            "c": 19,
+            "Historical": 1,
+            "Classic": 3,
+            "Symmetrical": 8,
+            "Elegant": 8,
+            "Stylized": 1,
+            "Intricate": 2,
+            "Orderly": 4,
+            "Grand": 1,
+            "Ornate": 2,
+            "Harmonious": 6,
+            "Classical": 7,
+            "Traditional": 4,
+            "Hierarchy": 7,
+            "Craftsmanship": 8,
+            "Geometric": 2,
+            "Ordered": 4,
+            "Refined": 5,
+            "Stately": 1,
+            "Neoclassicism": 2,
+            "Traditionalism": 2,
+            "elegant": 1,
+            "timeless": 1,
+            "orderly": 1,
+            "symmetrical": 1,
+            "monumental": 1,
+            "traditional": 2,
+            "refined": 1,
+            "proportionate": 1,
+            "crafted": 1,
+            "precise": 1,
+            "Detailing": 2,
+            "Durability": 1,
+            "Proportionate": 2,
+            "Timeless": 5,
+            "Ornamentation": 1,
+            "Graceful": 1,
+            "Rational": 3,
+            "Balanced": 2,
+            "Sculptural": 1,
+            "Materiality": 1,
+            "Context": 1,
+            "Tradition": 2,
+            "Permanence": 1,
+            "Tasteful": 1,
+            "Crafted": 1,
+            "Dignified": 2,
+            "Respectful": 1,
+            "ornamentation": 1,
+            "classicism": 1,
+            "textiles": 1,
+            "geometry": 1,
+            "ceramics": 1,
+            "symmetry": 1,
+            "order": 1,
+            "craftsmanship": 1,
+            "proportion": 1,
+            "Proportional": 1,
+            "Clarity": 1,
+            "Simplicity": 1,
+            "Simple": 1,
+            "Luxurious": 1,
+            "New Formalism": 1,
+            "err1": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Late Modernism": {
         "architects": [
@@ -4343,7 +6605,7 @@
                     "Bank of China Tower",
                     "Rock and Roll Hall of Fame"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4359,7 +6621,7 @@
                     "The Hague City Hall",
                     "The Barcelona Museum of Contemporary Art"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4375,7 +6637,7 @@
                     "Hearst Tower",
                     "Millennium Bridge"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4411,7 +6673,12 @@
         ],
         "short": "Late Modernism is an architectural style that emerged in the mid-20th century, characterized by functional designs, technological advancements, and simplicity in form.",
         "significance": 7,
-        "icon": "late modernism.png"
+        "icon": "late modernism.png",
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Neo-Expressionism": {
         "architects": [
@@ -4425,7 +6692,7 @@
                     "Walt Disney Concert Hall",
                     "Louis Vuitton Foundation"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4441,7 +6708,7 @@
                     "Heydar Aliyev Center",
                     "Guangzhou Opera House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -4457,7 +6724,7 @@
                     "Royal Ontario Museum",
                     "Freedom Tower"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -4494,7 +6761,12 @@
             "Emotional and subjective design approach"
         ],
         "short": "Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Critical Regionalism": {
         "architects": [
@@ -4504,7 +6776,7 @@
                 "nationality": "British",
                 "description": "A megalith in the world of architecture, Frampton is known for his influential writings on Critical Regionalism and for his unending curiosity about the theoretical side of architecture.",
                 "notable_buildings": [],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4520,7 +6792,7 @@
                     "Water Temple",
                     "Punta della Dogana"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4536,7 +6808,7 @@
                     "Arthur and Yvonne Boyd Art Centre",
                     "Boyd Education Centre"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -4591,7 +6863,7 @@
                     "Wexner Center for the Arts in Columbus, Ohio",
                     "Memorial to the Murdered Jews of Europe in Berlin, Germany"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4606,7 +6878,7 @@
                     "Z\u00e9nith de Rouen in France",
                     "Acropolis Museum in Athens, Greece"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4621,7 +6893,7 @@
                     "Casa da M\u00fasica in Porto, Portugal",
                     "China Central Television (CCTV) headquarters in Beijing, China"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -4675,7 +6947,7 @@
                     "Schr\u00f6der House",
                     "Rietveld-Schr\u00f6der House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4690,7 +6962,7 @@
                     "Aubette",
                     "Caf\u00e9 L'Aubette"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -4705,7 +6977,7 @@
                     "Hague Municipal Museum",
                     "Caf\u00e9 De Unie"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4749,7 +7021,7 @@
                 "nationality": "German",
                 "description": "A German expressionist sculptor, printmaker and writer famous for his protest against the war and his social and political sculpture.",
                 "notable_buildings": [],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4763,7 +7035,7 @@
                 "notable_buildings": [
                     "Berlin Philharmonic"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4778,7 +7050,7 @@
                     "Einstein Tower",
                     "De La Warr Pavilion"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4829,7 +7101,7 @@
                     "Turning Torso in Malm\u00f6, Sweden",
                     "Bilbao Airport in Bilbao, Spain"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4845,7 +7117,7 @@
                     "MAXXI \u2013 National Museum of the 21st Century Arts in Rome, Italy",
                     "Guangzhou Opera House in Guangzhou, China"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4861,7 +7133,7 @@
                     "Walt Disney Concert Hall in Los Angeles, USA",
                     "Fondation Louis Vuitton in Paris, France"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -4897,7 +7169,102 @@
             "Integration of engineering principles: Structural Expressionism emphasizes the integration of engineering principles into the architectural design, allowing the structural elements to be seen as essential features of the building rather than hidden and minimized."
         ],
         "short": "Structural Expressionism emphasizes the aesthetic of exposed structural elements and their expression, creating bold and dynamic architectural forms.",
-        "significance": 5
+        "significance": 5,
+        "termsV2": {
+            "metal": 1,
+            "glass": 1,
+            "concrete": 1,
+            "steel": 1,
+            "lattice": 1,
+            "skyscraper": 1,
+            "grid": 1,
+            "cantilever": 1,
+            "bold": 3,
+            "angular": 1,
+            "c": 19,
+            "Bold": 8,
+            "Dynamic": 9,
+            "Expressive": 8,
+            "Sculptural": 8,
+            "Unconventional": 5,
+            "Innovative": 8,
+            "Energetic": 3,
+            "Experimental": 6,
+            "Abstract": 2,
+            "Futuristic": 7,
+            "Concrete": 8,
+            "Steel": 8,
+            "Glass": 8,
+            "Exposed Beams": 1,
+            "Open Floor Plans": 1,
+            "Skylights": 2,
+            "Cantilevers": 2,
+            "Massive Foundations": 1,
+            "Angular Shapes": 1,
+            "Minimalist Aesthetics": 1,
+            "Organic": 1,
+            "Fragmented": 1,
+            "Avant-garde": 2,
+            "Skyscraper": 4,
+            "Cantilever": 5,
+            "Grid": 1,
+            "Exoskeleton": 2,
+            "Massing": 1,
+            "Tension": 3,
+            "Cubism": 1,
+            "innovative": 2,
+            "dynamic": 2,
+            "striking": 2,
+            "unconventional": 1,
+            "expressive": 2,
+            "dramatic": 1,
+            "futuristic": 2,
+            "industrial": 2,
+            "sculptural": 2,
+            "Symmetry": 1,
+            "Geometry": 4,
+            "Transparency": 2,
+            "Height": 1,
+            "Functionality": 1,
+            "Monumental": 1,
+            "Dramatic": 2,
+            "Columns": 1,
+            "Beams": 1,
+            "Angles": 1,
+            "Curves": 1,
+            "Facades": 1,
+            "Complex": 1,
+            "Provocative": 2,
+            "Facade": 1,
+            "Exposed beams": 1,
+            "Angled columns": 1,
+            "Curved forms": 1,
+            "Brick": 1,
+            "Industrial aesthetic": 1,
+            "abstract": 1,
+            "provocative": 1,
+            "Expression": 1,
+            "Structures": 1,
+            "Organic forms": 1,
+            "Advancements": 1,
+            "Boldness": 1,
+            "Raw": 1,
+            "Imposing": 1,
+            "Industrial": 2,
+            "err1": 1,
+            "Distinctive": 1,
+            "Geometric": 1,
+            "Suspension": 1,
+            "Form": 1,
+            "Lattice": 1,
+            "Open-plan": 1,
+            "Robust": 1
+        },
+        "valid": [
+            "No",
+            "Yes",
+            "No"
+        ]
     },
     "Pre-Romanesque": {
         "architects": [
@@ -4908,7 +7275,7 @@
                 "nationality": "German",
                 "description": "Sculptor and architect",
                 "notable_buildings": [],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4923,7 +7290,7 @@
                 "notable_buildings": [
                     "Basilica di San Salvatore, Spoleto"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4938,7 +7305,7 @@
                 "notable_buildings": [
                     "Abbey Church of St. Denis"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -4973,7 +7340,81 @@
             "Heavy and massive construction: Buildings in the Pre-Romanesque style were often characterized by their heavy and solid construction. Thick walls and sturdy materials like stone or brick were used to create a sense of strength and durability in the architecture."
         ],
         "short": "Pre-Romanesque architecture, prevalent from the 9th to 11th centuries, displays a blend of Roman, Byzantine, and Germanic influences with emphasis on simplicity and monumental structures.",
-        "significance": 8
+        "significance": 8,
+        "termsV2": {
+            "Basilica": 8,
+            "Crypt": 5,
+            "Apse": 6,
+            "Arch": 6,
+            "Chapel": 7,
+            "Column": 6,
+            "Fresco": 2,
+            "Mosaic": 1,
+            "Pilaster": 1,
+            "Atrium": 2,
+            "c": 19,
+            "Massive": 8,
+            "Simplicity": 3,
+            "Rustic": 9,
+            "Solid": 7,
+            "Symmetrical": 9,
+            "Primitive": 7,
+            "Ornamental": 5,
+            "Vertical": 2,
+            "Angular": 1,
+            "Austere": 5,
+            "Palace": 4,
+            "Monastery": 6,
+            "Abbey": 4,
+            "Fortification": 1,
+            "Church": 4,
+            "Portal": 3,
+            "Simple": 5,
+            "Rectangular": 1,
+            "Earthy": 1,
+            "Monumental": 6,
+            "Tower": 3,
+            "Simplistic": 2,
+            "Robust": 4,
+            "Innovative": 1,
+            "Castle": 1,
+            "Cloister": 5,
+            "Rectilinear": 2,
+            "Minimalistic": 1,
+            "Sparse": 1,
+            "Ornamentation-less": 1,
+            "Subdued": 1,
+            "Turret": 1,
+            "Linear": 1,
+            "Cubical": 1,
+            "Unadorned": 2,
+            "Hieratic": 1,
+            "Dome": 3,
+            "Capital": 2,
+            "Cathedral": 1,
+            "Verticality": 1,
+            "Unornamented": 1,
+            "Majestic": 2,
+            "Pillar": 1,
+            "Altar": 1,
+            "Aisle": 1,
+            "Functional": 2,
+            "Lack of decorations": 1,
+            "Vault": 2,
+            "Enamel": 1,
+            "Asymmetrical": 1,
+            "Ornamented": 1,
+            "Sturdy": 2,
+            "Decorative": 1,
+            "Porch": 1,
+            "Frieze": 1,
+            "Intricate": 1
+        },
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Constructivism": {
         "architects": [
@@ -4988,7 +7429,7 @@
                     "Rusakov Workers' Club",
                     "Bakhmetevsky Bus Garage"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -5005,7 +7446,7 @@
                     "Gosstrakh Building",
                     "Ginzburg House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -5022,7 +7463,7 @@
                     "Pavilion of the USSR at the World's Fair in Paris",
                     "Lenin Memorial on Lenin Hills"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -5076,7 +7517,7 @@
                     "\u00c7atalh\u00f6y\u00fck",
                     "Jericho"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5093,7 +7534,7 @@
                     "Callanish Stones",
                     "Dolmens of Korea"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -5110,7 +7551,7 @@
                     "Moundville Archaeological Site",
                     "Poverty Point"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5182,7 +7623,7 @@
                     "Step Pyramid of Djoser",
                     "Mastaba of Ti"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5197,7 +7638,7 @@
                 "notable_buildings": [
                     "Hammurabi's palace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5212,7 +7653,7 @@
                 "notable_buildings": [
                     "Palace of Sennacherib"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5267,7 +7708,7 @@
                     "Sheikh Lotfollah Mosque",
                     "Ali Qapu Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5283,7 +7724,7 @@
                     "New Gourna Village",
                     "Dar al-Islam Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5298,7 +7739,7 @@
                 "notable_buildings": [
                     "Bah\u00e1'\u00ed House of Worship, Delhi"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5351,7 +7792,7 @@
                     "Tauride Palace",
                     "Kazan Cathedral"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -5368,7 +7809,7 @@
                     "Moscow State University",
                     "Moscow Orphanage"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5385,7 +7826,7 @@
                     "Lopukhins' Estate",
                     "Moscow State University"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -5433,7 +7874,7 @@
                     "Hall of Central Harmony",
                     "Hall of Preserving Harmony"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5450,7 +7891,7 @@
                     "Temple of Heaven",
                     "Summer Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -5467,7 +7908,7 @@
                     "Bank of China Tower",
                     "Louvre Pyramid"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5521,7 +7962,7 @@
                     "Dashavatara Vishnu Temple",
                     "Bhitargaon Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5538,7 +7979,7 @@
                     "Udayagiri Caves",
                     "Ajanta Caves"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5555,7 +7996,7 @@
                     "Udayagiri Caves",
                     "Ajanta Caves"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5604,7 +8045,7 @@
                     "Tomyoji Temple",
                     "Hiranoya Hotel"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5621,7 +8062,7 @@
                     "Tsuda University Innovation Center",
                     "House of the Cherry Tree"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5638,7 +8079,7 @@
                     "The Ribbon Chapel",
                     "Knot terrace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5686,7 +8127,7 @@
                     "Periyar Self-respect Propaganda Institution",
                     "Dravidar Kazhagam"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5702,7 +8143,7 @@
                     "Anna Centenary Library",
                     "Tamil Nadu Legislative Assembly complex"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5718,7 +8159,7 @@
                     "MG R Government Film and Television Training Institute",
                     "Dr. M.G.R. Janaki College of Arts and Science"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5770,7 +8211,7 @@
                 "notableBuildings": [
                     "Shore Temple in Mahabalipuram"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5786,7 +8227,7 @@
                     "Virupaksha Temple in Pattadakal",
                     "Kailashnath Temple in Ellora"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -5801,7 +8242,7 @@
                 "notableBuildings": [
                     "Brihadeeswarar Temple in Thanjavur"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -5849,7 +8290,7 @@
                     "Jain Temple of New York",
                     "Jain Temple of Philadelphia"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5865,7 +8306,7 @@
                     "Shantinath Temple, Girnar",
                     "Sri Mahaveer Swami Jain Temple, Mumbai"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5880,7 +8321,7 @@
                 "notable_buildings": [
                     "Ruins of Somapura Mahavihara"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5928,7 +8369,7 @@
                 "notable buildings": [
                     "Dilwara Temples"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5943,7 +8384,7 @@
                 "notable buildings": [
                     "Lakkundi temples"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -5958,7 +8399,7 @@
                 "notable buildings": [
                     "Sun Temple at Modhera"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -6008,7 +8449,7 @@
                     "H\u014dry\u016b-ji",
                     "Shitenn\u014d-ji"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No"
                 ]
@@ -6023,7 +8464,7 @@
                     "Asukadera",
                     "Kudara-ji"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6039,7 +8480,7 @@
                     "Gang\u014d-ji",
                     "T\u014ddai-ji"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6086,7 +8527,7 @@
                     "To-ji pagoda",
                     "Todai-ji temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6102,7 +8543,7 @@
                     "Katsura Imperial Villa",
                     "Joju-in Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6118,7 +8559,7 @@
                     "Kyoto Imperial Palace",
                     "Nijo Castle"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6229,7 +8670,7 @@
                         "year_built": "1579-1583"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -6248,7 +8689,7 @@
                         "year_built": "1590"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6272,7 +8713,7 @@
                         "year_built": "1603-1606"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6324,7 +8765,7 @@
                 "notable_buildings": [
                     "Matsumoto Castle"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6340,7 +8781,7 @@
                     "Tsunamachi Mitsui Club",
                     "Osaka Castle"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6355,7 +8796,7 @@
                 "notable_buildings": [
                     "Kyoto's Katsura Imperial Villa"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6409,7 +8850,7 @@
                     "Kudan Kaikan",
                     "Nara Hotel"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6426,7 +8867,7 @@
                     "Minami Azabu Building",
                     "Kodama Gallery"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -6443,7 +8884,7 @@
                     "Tokyo Metropolitan Art Museum",
                     "Yodobashi Church"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6474,9 +8915,9 @@
         "Start_Year": "1868 CE",
         "End_Year": "1965 CE",
         "character": [
-            "1. Fusion of Japanese and Western architectural styles: Meiji and Taish\u014d and early Sh\u014dwa architecture style was characterized by a blend of traditional Japanese elements with Western influences. It combined Western construction methods and materials with traditional Japanese design principles and aesthetics.",
-            "2. Ornate detailing and use of innovative materials: The architecture of this period featured intricate detailing and decorative elements. It incorporated innovative materials such as iron, glass, and concrete, which were newly introduced during the Meiji era.",
-            "3. Emphasis on grandeur and symbolism: Buildings of this style often displayed a sense of grandeur and symbolism. They were designed to project power and promote national identity. The architecture often featured large entrance gates, imposing facades, and ornate roofs with symbolic motifs."
+            "Fusion of Japanese and Western architectural styles: Meiji and Taish\u014d and early Sh\u014dwa architecture style was characterized by a blend of traditional Japanese elements with Western influences. It combined Western construction methods and materials with traditional Japanese design principles and aesthetics.",
+            "Ornate detailing and use of innovative materials: The architecture of this period featured intricate detailing and decorative elements. It incorporated innovative materials such as iron, glass, and concrete, which were newly introduced during the Meiji era.",
+            "Emphasis on grandeur and symbolism: Buildings of this style often displayed a sense of grandeur and symbolism. They were designed to project power and promote national identity. The architecture often featured large entrance gates, imposing facades, and ornate roofs with symbolic motifs."
         ],
         "short": "Meiji, Taish\u014d, and early Sh\u014dwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new.",
         "significance": 6
@@ -6494,7 +8935,7 @@
                     "Hiroshima Peace Memorial Museum",
                     "Yoyogi National Gymnasium"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -6511,7 +8952,7 @@
                     "National Ethnographic Museum",
                     "The National Art Center, Tokyo"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -6528,7 +8969,7 @@
                     "The National Museum of Modern Art, Kyoto",
                     "Spiral Building"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -6582,7 +9023,7 @@
                 "notable_buildings": [
                     "Kinkaku-ji (Golden Pavilion)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6597,7 +9038,7 @@
                 "notable_buildings": [
                     "Zuih\u014d-in"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -6612,7 +9053,7 @@
                 "notable_buildings": [
                     "Ry\u014dan-ji"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6664,7 +9105,7 @@
                     "Bakong Temple",
                     "Lolei Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -6680,7 +9121,7 @@
                     "Phimeanakas",
                     "Baphuon Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6696,7 +9137,7 @@
                     "Ta Prohm",
                     "Bayon Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -6747,7 +9188,7 @@
                 "nationality": "Mughal",
                 "description": "Chief Architect of the Taj Mahal",
                 "notable_buildings": "Taj Mahal",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -6760,7 +9201,7 @@
                 "nationality": "Persian",
                 "description": "Architect and advisor to Emperor Jahangir",
                 "notable_buildings": "Tomb of Jahangir and Akbar's Tomb",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -6773,7 +9214,7 @@
                 "nationality": "Mughal",
                 "description": "Emperor and architectural patron, known for his love of gardens and landscape design",
                 "notable_buildings": "Shalimar Bagh and Jahangir's Tomb",
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6827,7 +9268,7 @@
                     "Gyeongbokgung Palace",
                     "Bongjeongsa Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6844,7 +9285,7 @@
                     "Hwaseong Fortress",
                     "Chungha Building in Hanyang"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6861,7 +9302,7 @@
                     "Suwon Hwaseong Fortress",
                     "Changgyeonggung Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6914,7 +9355,7 @@
                     "The Chehel Sotoun Palace",
                     "The Ali Qapu Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6931,7 +9372,7 @@
                     "The Gonbad-e Ali",
                     "The Dar al-Shifa hospital"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -6948,7 +9389,7 @@
                     "The Jame Mosque in Isfahan",
                     "The Safavid Palace in Qazvin"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -6996,7 +9437,7 @@
                     "Thai Hoa Palace",
                     "Mieu Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7012,7 +9453,7 @@
                     "Nam Giao Esplanade",
                     "Cao Dai Temple"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "I'm sorry, but I couldn't find any specific information about an architect named Tran Duy and their involvement in the Nguyen Dynasty architecture style",
                     "No"
@@ -7028,7 +9469,7 @@
                     "Hue Imperial City",
                     "Dien Huu Pagoda"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7058,9 +9499,9 @@
         "Start_Year": "1802 CE",
         "End_Year": "1945 CE",
         "character": [
-            "1. Hue Imperial Citadel: Magnificent and grandiose structure, built with stone, brick and wood. It includes multiple gates, palaces, temples, and gardens.",
-            "2. Roof Design: Distinctive curved roofs with layered, overlapping tiles. The roofs are often decorated with intricate patterns and vibrant colors.",
-            "3. Symmetry and Balance: The architecture of the Nguyen Dynasty emphasizes balance and symmetrical layouts. Buildings are often centered around a main axis and feature identical or mirrored elements."
+            "Hue Imperial Citadel: Magnificent and grandiose structure, built with stone, brick and wood. It includes multiple gates, palaces, temples, and gardens.",
+            "Roof Design: Distinctive curved roofs with layered, overlapping tiles. The roofs are often decorated with intricate patterns and vibrant colors.",
+            "Symmetry and Balance: The architecture of the Nguyen Dynasty emphasizes balance and symmetrical layouts. Buildings are often centered around a main axis and feature identical or mirrored elements."
         ],
         "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences.",
         "significance": 9
@@ -7078,7 +9519,7 @@
                     "Mahabodhi Temple",
                     "Pillars of Ashoka"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7093,7 +9534,7 @@
                 "notable_buildings": [
                     "Jain shrines and temples across India"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7108,7 +9549,7 @@
                 "notable_buildings": [
                     "Numerous Hindu temples across India"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7157,7 +9598,7 @@
                 "notable_buildings": [
                     "The Grand Canal of China"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7173,7 +9614,7 @@
                     "Liaodi Pagoda",
                     "Tian Tan Pagoda"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7189,7 +9630,7 @@
                     "Big Wild Goose Pagoda",
                     "Small Wild Goose Pagoda"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7315,7 +9756,7 @@
                     "Solomon R. Guggenheim Museum (1959)",
                     "Johnson Wax Headquarters (1936)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7332,7 +9773,7 @@
                     "Farnsworth House (1951)",
                     "Crown Hall (1956)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -7349,7 +9790,7 @@
                     "Lovell Health House (1929)",
                     "Bailey House (Case Study House #21) (1945)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -7403,7 +9844,7 @@
                     "Al-Walid's palace in Raqqa",
                     "Qasr al-Hayr al-Gharbi"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -7420,7 +9861,7 @@
                     "Qasr al-Hayr al-Sharqi",
                     "Great Mosque of Aleppo"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7437,7 +9878,7 @@
                     "Church of Saint John in Ephesus",
                     "Baths of Zeuxippus in Constantinople"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7499,7 +9940,7 @@
                     "Al-Aqmar Mosque",
                     "Palace of the Caliphs"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7516,7 +9957,7 @@
                     "Qabus Mosque",
                     "Badi' al-Zaman Palace"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7533,7 +9974,7 @@
                     "Selimiye Mosque",
                     "Kilic Ali Pasha Complex"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7585,7 +10026,7 @@
                     "Mosque of al-Hakim",
                     "Palace of the Caliphs"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7601,7 +10042,7 @@
                     "Al-Jamali Mosque",
                     "City of Victory"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No Badr al-Jamali was not an architect of the Fatimid Period architecture He was a prominent military commander and vizier of the Fatimid Caliphate in Egypt",
                     "No Badr al-Jamali was not an architect of the Fatimid Period architecture style"
@@ -7617,7 +10058,7 @@
                     "Alamut Castle",
                     "Lambsar Castle"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7669,7 +10110,7 @@
                     "Al-Zahira Palace",
                     "Royal Mosque of Medina Azahara"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7686,7 +10127,7 @@
                     "Tombs of the Kings of Granada",
                     "Mihrab of the Aljaferia"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7703,7 +10144,7 @@
                     "Al-Aqsa Mosque",
                     "Umayyad Mosque of Damascus"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7752,7 +10193,7 @@
                 "notable_buildings": [
                     "Great Mosque of Isfahan"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -7767,7 +10208,7 @@
                 "notable_buildings": [
                     "Gonbad-e Qabus tower"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7782,7 +10223,7 @@
                 "notable_buildings": [
                     "Nizamiyya madrasas"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7833,7 +10274,7 @@
                     "Dome of Al-Sakhina in Cairo",
                     "Mosque of Al-Masjid Al-Aqmar in Cairo"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7848,7 +10289,7 @@
                 "notable_buildings": [
                     "Tombs of the Mamluk sultans in Cairo"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7864,7 +10305,7 @@
                     "The Qalawun Complex in Cairo",
                     "The Madrasa of Sultan Hassan in Cairo"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -7979,7 +10420,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -7996,7 +10437,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8013,7 +10454,7 @@
                     "Ibrahim Pasha Mosque",
                     "Zal Mahmut Pasha Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8122,7 +10563,7 @@
                 "notable_buildings": [
                     "Observatory of Samarkand"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -8137,7 +10578,7 @@
                 "notable_buildings": [
                     "Tughlaqabad Fort"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8152,7 +10593,7 @@
                 "notable_buildings": [
                     "Tomb of Abdul-Qadir Gilani"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8202,7 +10643,7 @@
                     "MAXXI Museum in Rome, Italy",
                     "Riverside Museum in Glasgow, Scotland"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8219,7 +10660,7 @@
                     "Manqulat Al-Shuhada Mosque in Baghdad, Iraq",
                     "Al-Nasiriyah Olympic Stadium in Nasiriyah, Iraq"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8236,7 +10677,7 @@
                     "Dar Al-Islam in Abiquiu, New Mexico",
                     "Abu al-Reesh Pediatric Hospital in Cairo, Egypt"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8297,7 +10738,7 @@
                     "Abrolhos Island Lodge, WA",
                     "Desert Knowledge Australia Centre, NT"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8313,7 +10754,7 @@
                     "Alice Springs Desert Park, NT",
                     "Mutitjulu Waterhole, Ulu\u1e5fu-Kata Tju\u1e6fa National Park, NT"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8330,7 +10771,7 @@
                     "Rivendell House, NSW",
                     "Coastal House, NSW"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -8379,7 +10820,7 @@
                     "Mystical Rose Oratory at Saint Louis School in Honolulu, Hawaii",
                     "Maryknoll School's new Sullivan Center in Honolulu, Hawaii"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8395,7 +10836,7 @@
                     "Fale O Samoa, a traditional Samoan meeting house in Auckland, New Zealand",
                     "Otatara House, a contemporary Polynesian-style residence in Dunedin, New Zealand"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8411,7 +10852,7 @@
                     "Free Wesleyan Church of Tonga, a grand cathedral in Nuku'alofa, Tonga",
                     "Ha'apai High School, a school complex in the Ha'apai Islands, Tonga"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8466,7 +10907,7 @@
                     "Fairmont Pacific Rim",
                     "The Private Residences at Hotel Georgia"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8481,7 +10922,7 @@
                 "notable_buildings": [
                     "Iwikau Village"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8498,7 +10939,7 @@
                     "Kings Road House",
                     "Fitzpatrick-Leland House"
                 ],
-                "cnt": [
+                "valid": [
                     "No Rudolph Schindler was not an architect of the \"Pacific Islander\" architecture style",
                     "No",
                     "No"
@@ -8550,7 +10991,7 @@
                     "Simpson-Lee House",
                     "Bowali Visitor Information Centre"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8567,7 +11008,7 @@
                     "Wall House",
                     "Mansfield House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -8584,7 +11025,7 @@
                     "Bali Villas",
                     "Rockpool Bar & Grill Perth"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -8635,7 +11076,7 @@
                     "First Nations University of Canada",
                     "St. Albert Place"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8652,7 +11093,7 @@
                     "Opera Village",
                     "Burkina Faso National Assembly"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -8669,7 +11110,7 @@
                     "Sumaj Orcko Eco-Resort",
                     "Mausoleum of the ex-president Juan Lech\u00edn Oquendo"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8726,7 +11167,7 @@
                     "Dar al-Islam",
                     "Karanis House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8743,7 +11184,7 @@
                     "Ecorock",
                     "Vaulted Houses"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8760,7 +11201,7 @@
                     "Aragon House",
                     "California House"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8830,7 +11271,7 @@
                     "Wingspread",
                     "Kentuck Knob"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -8847,7 +11288,7 @@
                     "Unit\u00e9 d'Habitation",
                     "Chapel of Notre Dame du Haut"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8864,7 +11305,7 @@
                     "8 House",
                     "Danish National Maritime Museum"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -8930,7 +11371,7 @@
                     "Walt Disney Concert Hall (United States)",
                     "Dancing House (Czech Republic)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8947,7 +11388,7 @@
                     "Guangzhou Opera House (China)",
                     "MAXXI National Museum of the 21st Century Arts (Italy)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -8964,7 +11405,7 @@
                     "Museum of Contemporary Art & Planning Exhibition (China)",
                     "Dalian International Conference Center (China)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9016,7 +11457,7 @@
                     "Bob Hope's Space Age House",
                     "Sheats Goldstein Residence"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -9033,7 +11474,7 @@
                     "Pann's Restaurant",
                     "Johnie's Coffee Shop (now closed)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9050,7 +11491,7 @@
                     "Theme Building at Los Angeles International Airport",
                     "Pioneer Chicken Stand"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9104,7 +11545,7 @@
                     "Fly's Eye Dome in the United States",
                     "U.S. Pavilion at Expo '67 in Canada"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9121,7 +11562,7 @@
                     "Schindler House in the United States",
                     "How House in the United States"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9138,7 +11579,7 @@
                     "Multihalle in Germany",
                     "Aviary at Munich Zoo in Germany"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9186,7 +11627,7 @@
                 "notable_buildings": [
                     "Taj Mahal"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9202,7 +11643,7 @@
                     "Shalimar Bagh",
                     "Nishat Bagh"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9218,7 +11659,7 @@
                     "Qutub Minar",
                     "Quwwat-ul-Islam Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -9272,7 +11713,7 @@
                     "Prince of Wales Museum, Mumbai",
                     "Maharaja's Palace, Kolhapur"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9289,7 +11730,7 @@
                     "Victoria Memorial Hall, Kolkata",
                     "Athens of the East, Madurai"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9306,7 +11747,7 @@
                     "Bangalore Palace, Bengaluru",
                     "Government Museum, Chennai"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9361,7 +11802,7 @@
                     "Basilica Palladiana",
                     "Teatro Olimpico"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9378,7 +11819,7 @@
                     "University of Virginia",
                     "Virginia State Capitol"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9395,7 +11836,7 @@
                     "Queen's House",
                     "Covent Garden Piazza"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9449,7 +11890,7 @@
                     "Fallingwater, Pennsylvania",
                     "Taliesin East and Taliesin West, Wisconsin and Arizona"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9466,7 +11907,7 @@
                     "Unity Temple, Illinois",
                     "Canberra, Australia (urban planning and design)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -9483,7 +11924,7 @@
                     "Purcell-Cutts House, Minnesota",
                     "Ralston Corner Condominiums, Illinois"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9534,7 +11975,7 @@
                     "Buckingham Palace",
                     "The Royal Pavilion, Brighton"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9551,7 +11992,7 @@
                     "Dulwich Picture Gallery",
                     "Sir John Soane's Museum, London"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -9568,7 +12009,7 @@
                     "York Theatre Royal",
                     "Lincoln's Inn Hall"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9619,7 +12060,7 @@
                     "New Gourna Village (near Luxor, Egypt)",
                     "Dar al-Islam (New Mexico, USA)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9635,7 +12076,7 @@
                     "Seville Cathedral (Spain)",
                     "Palace of San Telmo (Spain)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9651,7 +12092,7 @@
                     "Belmont Parish Church (Scotland)",
                     "Culzean Castle (Scotland)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -9707,7 +12148,7 @@
                     "The Castle of Pierrefonds, France",
                     "Sainte-Chapelle, Paris, France"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9723,7 +12164,7 @@
                     "Palace of Versailles, France",
                     "Ch\u00e2teau de Maisons-Laffitte, France"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9739,7 +12180,7 @@
                     "La Almudena Cathedral, Madrid, Spain",
                     "Royal Palace of La Granja de San Ildefonso, Spain"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9803,7 +12244,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9820,7 +12261,7 @@
                     "Tughra Palace",
                     "Bath (Hammam) of Sokollu Mehmet Pasha"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9837,7 +12278,7 @@
                     "Bayezid II Mosque",
                     "Ey\u00fcp Sultan Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -9867,9 +12308,9 @@
         },
         "terms": "architecture, style, Ottoman",
         "character": [
-            "1. Use of domes and arches: Ottoman architecture is known for its grand domes and arches. These architectural elements are prominently featured in mosques, palaces, and other structures, giving them a distinctive look and feel.",
-            "2. Decorative calligraphy and tilework: Ottoman architecture often incorporates intricate calligraphy and tilework, adding a touch of beauty and artistry to the buildings. These decorative elements can be found on walls, ceilings, and even in the form of ceramic tiles and mosaics.",
-            "3. Iznik ceramics and ornate woodwork: Another characteristic feature of Ottoman architecture is the use of Iznik ceramics and ornate woodwork. Iznik ceramics, with their vibrant colors and intricate patterns, are often used in the decoration of buildings, while ornate woodwork can be seen in the form of carved panels, doors, and furniture."
+            "Use of domes and arches: Ottoman architecture is known for its grand domes and arches. These architectural elements are prominently featured in mosques, palaces, and other structures, giving them a distinctive look and feel.",
+            "Decorative calligraphy and tilework: Ottoman architecture often incorporates intricate calligraphy and tilework, adding a touch of beauty and artistry to the buildings. These decorative elements can be found on walls, ceilings, and even in the form of ceramic tiles and mosaics.",
+            "Iznik ceramics and ornate woodwork: Another characteristic feature of Ottoman architecture is the use of Iznik ceramics and ornate woodwork. Iznik ceramics, with their vibrant colors and intricate patterns, are often used in the decoration of buildings, while ornate woodwork can be seen in the form of carved panels, doors, and furniture."
         ],
         "short": "Ottoman architecture style was characterized by grandeur and elegance, combining elements of Byzantine, Islamic, and Persian design in monumental structures.",
         "significance": 9,
@@ -9889,7 +12330,7 @@
                     "Phra Tamnak Isaret Rachanuson",
                     "Thammasat University Auditorium"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9906,7 +12347,7 @@
                     "Suan Pakkad Palace",
                     "Piman Rattaya Mansion"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9923,7 +12364,7 @@
                     "Mahadthai Vidhya Stateroom",
                     "The Emerald Buddha Temple Renovation"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -9979,7 +12420,7 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -10001,7 +12442,7 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "Yes"
@@ -10023,7 +12464,7 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10078,7 +12519,7 @@
                     "Fort Jesus",
                     "Old Dispensary"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10095,7 +12536,7 @@
                     "Gede Ruins Visitor Center",
                     "Shela Village Mosque"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
@@ -10112,7 +12553,7 @@
                     "Da Na Awa Mosque",
                     "Yacine Cultural Center"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10166,7 +12607,7 @@
                     "Canberra, Australia: The capital city of Australia, designed by Griffin in 1913."
                 ],
                 "architecture_style": "Federation",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10182,7 +12623,7 @@
                     "New South Wales, Australia: Woods designed several federation style residences in New South Wales."
                 ],
                 "architecture_style": "Federation",
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10198,7 +12639,7 @@
                     "Royal National Park, Australia: Hunt designed several federation style picnic shelters within the Royal National Park."
                 ],
                 "architecture_style": "Federation",
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "Yes"
@@ -10253,7 +12694,7 @@
                     "National Museum of Contemporary Art",
                     "Dojeon Residences"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "No"
@@ -10270,7 +12711,7 @@
                     "Gyeongbokgung Palace restoration",
                     "War Memorial of Korea"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10286,7 +12727,7 @@
                     "Yoo's Family Guesthouse",
                     "Haeundae I'Park Marina"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10339,7 +12780,7 @@
                     "Mall Pacific Place in Jakarta",
                     "Grand Indonesia Shopping Town Tower Signature, Jakarta"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10356,7 +12797,7 @@
                     "Gedung Sate in Bandung",
                     "Masjid Agung Jawa Tengah in Semarang"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -10373,7 +12814,7 @@
                     "Mesjid Raya Batam",
                     "Pavilion and Information Center of Kali Code Cultural Park in Yogyakarta"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10430,7 +12871,7 @@
                     "Ho Chi Minh Mausoleum, Hanoi",
                     "Ho Chi Minh Museum, Hanoi"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No Ho Chi Minh, also known as President Ho Chi Minh, was not a professional architect and he is not considered an architect of the Vietnamese architectural style He was a Vietnamese revolutionary leader and statesman who played a key role in the establishment of the Democratic Republic of Vietnam (North Vietnam) and later became the President of the country",
                     "No"
@@ -10447,7 +12888,7 @@
                     "Vietnamese History Museum, Hanoi",
                     "Presidential Palace, Hanoi"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "No",
                     "No"
@@ -10464,7 +12905,7 @@
                     "Hoi An Ancient Town, Quang Nam Province",
                     "Citadel of Hue, Thua Thien-Hue Province"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10515,7 +12956,7 @@
                     "Villa Savoye (Poissy, France)",
                     "Chandigarh Capitol Complex (Chandigarh, India)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10532,7 +12973,7 @@
                     "Dar al-Islam Mosque (Abiqui\u00fa, New Mexico, USA)",
                     "Korba Penthouse (Cairo, Egypt)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10549,7 +12990,7 @@
                     "Torcuato di Tella Institute (Buenos Aires, Argentina)",
                     "Casa Anacleto (Mar del Plata, Argentina)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10605,7 +13046,7 @@
                     "Dar al-Islam (United States)",
                     "New Baris Village (Egypt)"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10621,7 +13062,7 @@
                     "Maison Nataal (Burkina Faso)",
                     "Institut African d'Architecture (Burkina Faso)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10637,7 +13078,7 @@
                     "Nubia Museum (Egypt)",
                     "Nubian Cultural Center (Egypt)"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10689,7 +13130,7 @@
                     "Hussain-Doshi Gufa, Ahmedabad",
                     "Sangath, Ahmedabad"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10706,7 +13147,7 @@
                     "National Crafts Museum, New Delhi",
                     "Mahatma Gandhi Memorial Museum, Ahmedabad"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10723,7 +13164,7 @@
                     "Asian Games Village, New Delhi",
                     "National Institute of Immunology, New Delhi"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10778,7 +13219,7 @@
                     "Baltimore Basilica, Baltimore, Maryland",
                     "Bank of Pennsylvania, Philadelphia, Pennsylvania"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10795,7 +13236,7 @@
                     "U.S. Capitol Building (Wings), Washington, D.C.",
                     "King's Chapel, Boston, Massachusetts"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10812,7 +13253,7 @@
                     "Gardner-Pingree House, Salem, Massachusetts",
                     "Hamilton Hall, Salem, Massachusetts"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10866,7 +13307,7 @@
                     "Unit\u00e9 d'habitation",
                     "Chandigarh Capitol Complex"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10883,7 +13324,7 @@
                     "Seagram Building",
                     "Farnsworth House"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10900,7 +13341,7 @@
                     "Palace of Labour",
                     "The Pirelli Tower"
                 ],
-                "cnt": [
+                "valid": [
                     "Yes",
                     "Yes",
                     "Yes"
@@ -10949,7 +13390,7 @@
                     "Step Pyramid of Djoser",
                     "Mastaba of Mereruka"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10965,7 +13406,7 @@
                     "Etemenanki (Tower of Babel)",
                     "Ziggurat of Ur"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -10981,7 +13422,7 @@
                     "Ziggurat of Ur",
                     "Courtyard of the Royal Palace in Ur"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "Yes"
@@ -11032,7 +13473,7 @@
                     "Dar al-Islam, Abiqui\u00fa, New Mexico, USA",
                     "Fisherman's Village, Rashid, Egypt"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -11049,7 +13490,7 @@
                     "Guggenheim Museum, New York City, USA",
                     "Taliesin West, Scottsdale, Arizona, USA"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "No",
                     "No"
@@ -11066,7 +13507,7 @@
                     "Guangzhou Opera House, Guangzhou, China",
                     "MAXXI National Museum of the 21st Century Arts, Rome, Italy"
                 ],
-                "cnt": [
+                "valid": [
                     "No",
                     "Yes",
                     "No"
