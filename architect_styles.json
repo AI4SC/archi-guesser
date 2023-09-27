@@ -1279,7 +1279,12 @@
             "Tall, narrow windows with arched tops: Italianate buildings often have tall, narrow windows with arched tops, which are inspired by the architectural elements found in Italian Renaissance buildings."
         ],
         "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Brutalist": {
         "architects": [
@@ -1660,7 +1665,12 @@
             "Extensive use of wooden shingles covering walls and roofs"
         ],
         "short": "Shingle Style is an architectural style characterized by the use of shingles as the primary exterior material, often showcasing asymmetrical designs and rustic aesthetics.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "American Craftsman": {
         "architects": [
@@ -1801,7 +1811,12 @@
             "Open floor plan with a strong connection to the outdoor space"
         ],
         "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes, \"Ranch-style house\" is an architectural style",
+            "Yes",
+            "Yes"
+        ]
     },
     "Colonial Revival": {
         "architects": [
@@ -1882,7 +1897,12 @@
             "Use of columns and pillars for support"
         ],
         "short": "The Colonial Revival architectural style was popular in the late 19th and early 20th centuries, characterized by a return to traditional colonial-era American design elements.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Mesoamerican": {
         "architects": [
@@ -1971,7 +1991,12 @@
             "Courtyard and open-air spaces: Mesoamerican architecture frequently incorporates the use of courtyards and open-air spaces. These allow for open gathering areas, religious ceremonies, and social interaction within the structures."
         ],
         "short": "Mesoamerican architecture is characterized by pyramids, temples, and palaces, with intricate carvings and symbols, reflecting the culture and beliefs of indigenous civilizations.",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Baroque": {
         "architects": [
@@ -2828,7 +2853,12 @@
         "short": "Greek Revival architecture is characterized by its use of classical Greek design elements such as columns, pediments, and symmetrical shapes, popularized in the 19th century",
         "Start_Year": "1850 CE",
         "End_Year": "1950 CE",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Georgian": {
         "architects": [
@@ -3518,7 +3548,12 @@
             "Elaborate chimneys"
         ],
         "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "Yes",
+            "Yes"
+        ]
     },
     "Colonial": {
         "architects": [
@@ -3624,7 +3659,12 @@
             }
         ],
         "short": "Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Contemporary": {
         "architects": [
@@ -3736,7 +3776,12 @@
         "short": "Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.",
         "Start_Year": "1950 CE",
         "End_Year": "present",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes, \"Contemporary\" is a style of architecture"
+        ]
     },
     "Byzantine": {
         "architects": [
@@ -6678,7 +6723,84 @@
             "Yes",
             "Yes",
             "Yes"
-        ]
+        ],
+        "termsV2": {
+            "Skyscrapers": 5,
+            "Glass": 8,
+            "Concrete": 8,
+            "Steel": 8,
+            "Geometry": 4,
+            "Minimalism": 8,
+            "Simplicity": 7,
+            "Functionality": 6,
+            "Open floor plans": 4,
+            "Straight lines": 2,
+            "c": 20,
+            "Simplistic": 6,
+            "Abstract": 7,
+            "Functional": 10,
+            "Minimalist": 4,
+            "Geometric": 10,
+            "Industrial": 9,
+            "Innovative": 9,
+            "Experimental": 7,
+            "Progressive": 6,
+            "Avant-garde": 1,
+            "Skyscraper": 3,
+            "Open plan": 2,
+            "Geometric shapes": 3,
+            "Industrial materials": 1,
+            "Minimalistic": 6,
+            "Unconventional": 1,
+            "skyscraper": 1,
+            "concrete": 1,
+            "glass": 1,
+            "steel": 1,
+            "asymmetry": 1,
+            "minimalism": 1,
+            "functionalism": 1,
+            "openness": 1,
+            "abstraction": 1,
+            "innovation": 1,
+            "Sculptural": 2,
+            "Sustainable": 1,
+            "Open": 2,
+            "Transparent": 1,
+            "Mass production": 1,
+            "Clean": 2,
+            "Linear": 1,
+            "Efficient": 1,
+            "Functionalism": 1,
+            "Open floor plan": 1,
+            "Industrial aesthetics": 1,
+            "Simplified": 2,
+            "Rational": 2,
+            "Formal": 1,
+            "Open spaces": 1,
+            "Streamlined": 1,
+            "Curtain walls": 1,
+            "Low-pitched roofs": 1,
+            "Asymmetry": 2,
+            "Sleek": 1,
+            "Dynamic": 2,
+            "Expressive": 1,
+            "Cantilever": 1,
+            "Geometric forms": 1,
+            "Asymmetrical": 1,
+            "Abstraction": 1,
+            "Openness": 1,
+            "Experimentation": 1,
+            "Glass facades": 1,
+            "Steel structures": 1,
+            "Concrete buildings": 1,
+            "Minimalistic design": 1,
+            "Cantilevers": 1,
+            "Rooftop gardens": 1,
+            "Clean lines": 1,
+            "Bold": 1,
+            "Experimentative": 1,
+            "Expressionistic": 1
+        }
     },
     "Neo-Expressionism": {
         "architects": [
@@ -6850,7 +6972,12 @@
             "Sense of place: Critical Regionalism aims to create a sense of place and identity in architecture. It focuses on capturing the spirit of the region while addressing the needs of the contemporary world."
         ],
         "short": "Critical Regionalism is an architectural style that blends modern elements with local traditions, materials, and culture, promoting sustainable and contextual designs.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Post-Structuralism": {
         "architects": [
@@ -6934,7 +7061,12 @@
             "Exploration of fluidity and flexibility in design"
         ],
         "short": "Post-Structuralism architecture rejects traditional principles, focusing on fluidity, fragmentation, and deconstruction of space to challenge societal norms and hierarchies.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No 'Post-structuralism' is not an architecture style It is a theoretical framework that originated in philosophy and literary criticism, primarily associated with the works of theorists like Jacques Derrida, Michel Foucault, and Roland Barthes"
+        ]
     },
     "De Stijl": {
         "architects": [
@@ -7011,7 +7143,12 @@
             "Horizontal and vertical lines"
         ],
         "short": "De Stijl architecture style is characterized by geometric shapes, primary colors, and simplicity, reflecting the principles of neoplasticism and the pursuit of visual balance.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes",
+            "Yes",
+            "No"
+        ]
     },
     "Expressionism": {
         "architects": [
@@ -7087,7 +7224,12 @@
             "Symbolic use of materials and colors: Expressionism architecture uses materials and colors in a symbolic manner to convey specific meanings or emotions. Unconventional combinations and bold contrasts are often employed to create striking visual effects."
         ],
         "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Structural Expressionism": {
         "architects": [
@@ -7502,7 +7644,12 @@
             "Dynamic and geometric forms"
         ],
         "short": "Constructivism is an architectural style that emerged in the early 20th century, emphasizing geometric forms, industrial materials, and functional design.",
-        "significance": 5
+        "significance": 5,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Neolithic": {
         "architects": [
@@ -7609,7 +7756,12 @@
             }
         ],
         "short": "Neolithic architecture style is characterized by the use of wood, stone, and mud-brick construction, featuring simple, functional designs for housing and communal structures.",
-        "significance": 7.5
+        "significance": 7.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Mesopotamia": {
         "architects": [
@@ -7694,7 +7846,12 @@
             "Archways and Vaults: Mesopotamian architecture incorporated the use of archways and vaults, which were key elements in creating monumental structures. These architectural features provided stability and allowed for the construction of large, open spaces."
         ],
         "short": "Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Ancient Persian": {
         "architects": [
@@ -7777,7 +7934,12 @@
             "Extensive use of glazed ceramic tiles for decorative purposes"
         ],
         "short": "Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Muscovite": {
         "architects": [
@@ -7859,7 +8021,12 @@
             "Horizontal emphasis: Muscovite architecture typically showcases a strong horizontal emphasis, with long, low buildings that feature elongated facades and horizontal lines."
         ],
         "short": "Muscovite architecture refers to the distinctive style of buildings in Moscow, characterized by ornate decorations, bright colors, and onion-domed churches.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Chinese Imperial": {
         "architects": [
@@ -7947,7 +8114,12 @@
             "Distinctive roof style: The architecture features roofs with upturned eaves, known as dougong. These roofs are typically adorned with intricate and colorful decorations, such as dragon motifs, representing protection and good fortune."
         ],
         "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations.",
-        "significance": 7.5
+        "significance": 7.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Gupta": {
         "architects": [
@@ -8030,7 +8202,12 @@
             "Three-tiered roof structures"
         ],
         "short": "The Gupta architecture style is a blend of Hindu and Buddhist influences, known for its elaborate and ornate structures, including temples and palaces.",
-        "significance": 5
+        "significance": 5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Nagara": {
         "architects": [
@@ -8112,7 +8289,12 @@
             "Intricate carvings and sculptures on pillars and walls"
         ],
         "short": "Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens.",
-        "significance": 5
+        "significance": 5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Dravidian": {
         "architects": [
@@ -8198,7 +8380,12 @@
             "Colonnaded Halls: Dravidian architecture frequently incorporates large halls supported by rows of carved stone pillars known as mandapas. These halls serve as spaces for religious ceremonies, gatherings, and as shelter from the elements."
         ],
         "short": "Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Vesara": {
         "architects": [
@@ -8276,7 +8463,12 @@
             "Use of intricate and decorative ornamentation"
         ],
         "short": "Vesara architecture style combines elements of Dravidian and Indo-Aryan styles, characterized by sturdiness, intricately carved ornamentation, and a fusion of regional styles.",
-        "significance": 5
+        "significance": 5,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Jain": {
         "architects": [
@@ -8356,7 +8548,12 @@
             "Mandapas: Jain temples feature mandapas, which are pillared halls or pavilions used for religious ceremonies, gatherings, and performances. These mandapas are usually adorned with elaborately carved pillars and ceilings, enhancing the grandeur of the temple."
         ],
         "short": "Jain architecture is a rich and intricate style characterized by ornate temple designs and intricate sculptures, reflecting Jain beliefs and values.",
-        "significance": 5
+        "significance": 5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "M\u0101ru-Gurjara": {
         "architects": [
@@ -8435,7 +8632,12 @@
             "Presence of jharokhas (balconies) and chhatris (domed pavilions)"
         ],
         "short": "M\u0101ru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No 'M\u0101ru-Gurjara' is not an architecture style",
+            "Yes",
+            "Yes"
+        ]
     },
     "Asuka and Nara": {
         "architects": [
@@ -8513,7 +8715,12 @@
             "Integration of nature and architecture through gardens and courtyards"
         ],
         "short": "Asuka and Nara architecture is characterized by the use of wood, symmetrical layouts, and Buddhist influences, reflecting Japan's early architectural traditions.",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Heian period": {
         "architects": [
@@ -8594,7 +8801,12 @@
             "Distinct roof structures: The roofs of Heian period architecture were easily recognizable, with sweeping curved lines and exaggerated eaves. The roofs were often the most decorative part of the buildings, showcasing intricate patterns and stylized elements."
         ],
         "short": "The Heian period architecture style was characterized by simplicity, symmetry, and the use of natural materials, reflecting the influence of Chinese design.",
-        "significance": 9.5
+        "significance": 9.5,
+        "valid": [
+            "No",
+            "No",
+            "Yes"
+        ]
     },
     "Kamakura and Muromachi periods": {
         "architects": [
@@ -8752,7 +8964,12 @@
             "Integration of natural elements, such as gardens and water features"
         ],
         "short": "Azuchi-Momoyama architecture was a unique blend of traditional Japanese design and new influences, characterized by grand castles, intricate detailing, and bold stylized decorations.",
-        "significance": 7.5
+        "significance": 7.5,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes, Azuchi-Momoyama was an architecture style"
+        ]
     },
     "Edo Period": {
         "architects": [
@@ -8835,7 +9052,12 @@
         ],
         "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
         "significance": 7,
-        "icon": "edo_period.png"
+        "icon": "edo_period.png",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Meiji and Taish\u014d": {
         "architects": [
@@ -8920,7 +9142,12 @@
             "Emphasis on grandeur and symbolism: Buildings of this style often displayed a sense of grandeur and symbolism. They were designed to project power and promote national identity. The architecture often featured large entrance gates, imposing facades, and ornate roofs with symbolic motifs."
         ],
         "short": "Meiji, Taish\u014d, and early Sh\u014dwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new.",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Showa": {
         "architects": [
@@ -9010,7 +9237,12 @@
                 "description": "Combines traditional Japanese architectural elements with modern design and construction techniques. Balances the cultural heritage of Japan with contemporary influences."
             }
         ],
-        "short": "Late Showa architecture style in Japan (1960s-1980s) was characterized by a blend of modernist and traditional elements, emphasizing functionality and simplicity."
+        "short": "Late Showa architecture style in Japan (1960s-1980s) was characterized by a blend of modernist and traditional elements, emphasizing functionality and simplicity.",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Kamakura and Muromachi": {
         "architects": [
@@ -9091,7 +9323,12 @@
             "Integration of the surrounding nature into the design, often through elements like gardens and open spaces"
         ],
         "short": "Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Khmer Empire": {
         "architects": [
@@ -9177,7 +9414,12 @@
             "Bas-Reliefs: Elaborate and extensive carvings depicting religious and historical scenes"
         ],
         "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Mughal Empire": {
         "architects": [
@@ -9253,7 +9495,12 @@
             "Garden and water features: The Mughal architecture style often includes the incorporation of lush gardens and water features. Mughal gardens are known for their symmetry, geometric design, and the integration of fountains, canals, and pools, creating a harmonious and serene environment."
         ],
         "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes.",
-        "significance": 9
+        "significance": 9,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Joseon Dynasty": {
         "architects": [
@@ -9340,7 +9587,12 @@
             "Curved rooflines",
             "Colorful decorative details"
         ],
-        "short": "The architecture of the Joseon Dynasty in Korea was characterized by simplicity, elegance, and harmony with nature, incorporating principles of Confucianism and Buddhism."
+        "short": "The architecture of the Joseon Dynasty in Korea was characterized by simplicity, elegance, and harmony with nature, incorporating principles of Confucianism and Buddhism.",
+        "valid": [
+            "No",
+            "No The Joseon Dynasty refers to a period of Korean history that lasted from 1392 to 1897 and does not specifically refer to an architectural style However, during this period, various architectural styles and techniques were utilized in the construction of buildings and palaces",
+            "No"
+        ]
     },
     "Safavid Dynasty": {
         "architects": [
@@ -9423,7 +9675,12 @@
             "Domed roofs: Many Safavid buildings had domed roofs, which gave them a distinct silhouette. The domes were usually decorated with intricate tilework or painted patterns and were often supported by squinches or pendentives, architectural elements that allowed for the transition from square rooms to circular domes."
         ],
         "short": "The Safavid Dynasty architecture style was characterized by grand domed structures, intricate tilework, and the use of Persian motifs and calligraphy.",
-        "significance": 6
+        "significance": 6,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -9504,7 +9761,12 @@
             "Symmetry and Balance: The architecture of the Nguyen Dynasty emphasizes balance and symmetrical layouts. Buildings are often centered around a main axis and feature identical or mirrored elements."
         ],
         "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences.",
-        "significance": 9
+        "significance": 9,
+        "valid": [
+            "No The Nguyen Dynasty refers to the ruling family in Vietnam from 1802 to 1945, not an architecture style",
+            "No",
+            "No"
+        ]
     },
     "Mauryan Period": {
         "architects": [
@@ -9585,7 +9847,12 @@
             "Palaces: Mauryan architecture also included the construction of palaces, which served as administrative centers and residences for the emperor and his officials. These palaces were generally built using wood and had multiple courtyards, pillared halls, and balconies. They showcased exquisite craftsmanship and elaborate motifs."
         ],
         "short": "The Mauryan Period architecture style was characterized by the use of rock and brick work, with impressive pillared structures and Buddhist stupas.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Tang Dynasty": {
         "architects": [
@@ -9666,7 +9933,12 @@
             "Decorative artworks: Tang Dynasty architecture featured intricate and elaborate decorative artworks. These included ornate carvings, painted murals, and glazed ceramic tiles, which were used to embellish the exteriors and interiors of the buildings."
         ],
         "short": "Tang Dynasty architecture featured elegant and symmetrical designs, prominent use of brick and wood, multi-story pagodas, and grand imperial palaces.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No The Tang Dynasty was a historical period in China from 618 to 907 AD, known for its cultural and artistic achievements It was not an architectural style",
+            "No",
+            "No"
+        ]
     },
     "Pre-Columbian Period": {
         "architects": [
@@ -9829,7 +10101,11 @@
             "Integration with nature and outdoor spaces"
         ],
         "short": "Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "Yes",
+            "Yes"
+        ]
     },
     "Umayyad Period": {
         "architects": [
@@ -9925,7 +10201,12 @@
             }
         ],
         "short": "The Umayyad Period architecture style featured grand structures with Islamic motifs, such as horseshoe arches, domes, and intricate decoration, influencing future Islamic architecture.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No The Umayyad Period refers to a historical era in Islamic history, specifically the reign of the Umayyad Caliphate, which lasted from 661 to 750 AD It's not an architecture style, but during this period, several architectural styles and characteristics emerged, most notably the Umayyad architecture, which incorporated elements of Byzantine, Roman, and Persian designs",
+            "No"
+        ]
     },
     "Abbasid Period": {
         "architects": [
@@ -10012,7 +10293,12 @@
             "Emphasis on intricate decorative elements"
         ],
         "short": "The Abbasid Period, from the 8th to the 13th century, featured Islamic architecture with grand mosques, elaborate domes, arches, and calligraphy.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Fatimid Period": {
         "architects": [
@@ -10095,7 +10381,12 @@
             "The presence of domes and arches as significant architectural features"
         ],
         "short": "Fatimid architecture style was prominent during the 10th-12th centuries in Egypt, characterized by geometric designs, dome structures, and minarets.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Andalusian Period": {
         "architects": [
@@ -10180,7 +10471,12 @@
             "Islamic Calligraphy: Islamic calligraphy was a prominent feature in Andalusian Period architecture. It was often used to decorate walls, domes, and arches. The calligraphy displayed verses from the Quran and other religious texts, adding a spiritual aspect to the design."
         ],
         "short": "The Andalusian architectural style in less than 150 characters is characterized by Islamic influences, use of geometric patterns, ornate decorations, and arches.",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Seljuk Period": {
         "architects": [
@@ -10260,7 +10556,12 @@
             "Integration of regional architectural traditions: The Seljuk period saw the integration of various regional architectural traditions into a distinct style. Persian, Byzantine, and Central Asian influences can be observed in Seljuk architecture, blending together to create a unique architectural identity."
         ],
         "short": "The Seljuk Period architecture style, prevalent in the 11th-14th century, is known for its combination of Islamic and Persian influences in intricate designs and decorative elements.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Mamluk Period": {
         "architects": [
@@ -10341,7 +10642,12 @@
             "Prominent use of arches and domes"
         ],
         "short": "The Mamluk Period architecture style was characterized by intricate geometric patterns, bold calligraphy, and the use of local materials.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Safavid Period": {
         "architects": [
@@ -10491,7 +10797,12 @@
             "Ornate decoration and intricate details: Ottoman architecture is renowned for its lavish decoration and intricate details. Elaborate calligraphy, geometric patterns, floral motifs, and tilework are used extensively to adorn walls, ceilings, and even exterior facades. These decorative elements add beauty and richness to the buildings."
         ],
         "short": "The Ottoman Period architecture style is characterized by ornate designs, domes, and minarets, reflecting a fusion of Islamic and Byzantine influences.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Modern Islamic Architecture": {
         "architects": [
@@ -10628,7 +10939,12 @@
             "Integration of traditional and innovative architectural techniques"
         ],
         "short": "The Timurid Period architecture style was characterized by intricate tile work, ribbed vaults, and dome structures, blending Persian and Central Asian designs.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Modern Islamic": {
         "architects": [
@@ -10723,7 +11039,12 @@
             }
         ],
         "short": "Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Indigenous Australian": {
         "architects": [
@@ -10806,7 +11127,12 @@
             "Sustainable design practices: Indigenous Australian architecture values sustainability and strives for a minimal environmental impact. It utilizes techniques such as passive design, natural ventilation, and water harvesting to create environmentally friendly and energy-efficient buildings."
         ],
         "short": "Indigenous Australian architecture is characterized by its connection to the land, use of natural materials, and harmonious integration with the environment.",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Polynesian": {
         "architects": [
@@ -10892,7 +11218,12 @@
             "Intricate carvings: Another characteristic element of Polynesian architecture is the intricate carvings found on various structures. These carvings often depict figures from Polynesian mythology or represent important cultural symbols and stories."
         ],
         "short": "Polynesian architecture is characterized by its open-air structures, thatched roofs, natural materials, and harmonious integration with the surrounding environment.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Pacific Islander": {
         "architects": [
@@ -10976,7 +11307,12 @@
             "Use of natural materials like bamboo, wood, and stone in construction"
         ],
         "short": "Pacific Islander architecture style is characterized by open-air spaces, thatched roofs, natural materials, intricate carvings, and harmonious integration with the surrounding environment.",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No 'Pacific Islander' is not an architecture style"
+        ]
     },
     "Contemporary Oceania": {
         "architects": [
@@ -11061,7 +11397,12 @@
             "Incorporation of traditional design elements"
         ],
         "short": "Contemporary Oceania architecture style embodies a fusion of modern design elements and indigenous cultural influence found in the Pacific region.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -11152,7 +11493,12 @@
             "Community-centered approach: Indigenous contemporary architecture is often developed with a community-centered approach, involving local stakeholders and indigenous communities in the design process. The architecture style aims to promote community cohesion, cultural revitalization, and empowerment through architecture that reflects the needs and aspirations of the indigenous community."
         ],
         "short": "Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.",
-        "significance": 7.5
+        "significance": 7.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Mud Brick": {
         "architects": [
@@ -11256,7 +11602,12 @@
             "Arched doorways and windows for structural stability"
         ],
         "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures.",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Stilt House": {
         "architects": [
@@ -11356,7 +11707,12 @@
         "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
         "Start_Year": "6000 BCE",
         "End_Year": "present",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Blobitecture": {
         "architects": [
@@ -11442,7 +11798,12 @@
         "Start_Year": "1990 CE",
         "End_Year": "present",
         "icon": "blobitecture.png",
-        "significance": 6.5
+        "significance": 6.5,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Googie": {
         "architects": [
@@ -11530,7 +11891,12 @@
         "short": "Googie architecture emerged in the mid-20th century, characterized by futuristic designs with a focus on space-age aesthetics, vibrant colors, and exaggerated shapes.",
         "Start_Year": "1945 CE",
         "End_Year": "1970 CE",
-        "icon": "googie.png"
+        "icon": "googie.png",
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Igloo": {
         "architects": [
@@ -11614,7 +11980,12 @@
         "significance": 8.5,
         "Start_Year": "1000 BCE",
         "End_Year": "1800 CE",
-        "icon": "igloo.png"
+        "icon": "igloo.png",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Indo-Islamic": {
         "architects": [
@@ -11698,7 +12069,12 @@
         "Start_Year": "1193 CE",
         "End_Year": "1700 CE",
         "icon": "indo-islamic.png",
-        "significance": 8
+        "significance": 8,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Indo-Saracenic": {
         "architects": [
@@ -11787,7 +12163,12 @@
         "significance": 7,
         "Start_Year": "1795 CE",
         "End_Year": "1947 CE",
-        "icon": "indo-saracenic.png"
+        "icon": "indo-saracenic.png",
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Palladian": {
         "architects": [
@@ -11875,7 +12256,12 @@
         "significance": 8,
         "Start_Year": "1700 CE",
         "End_Year": "1800 CE",
-        "icon": "palladian.png"
+        "icon": "palladian.png",
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Prairie": {
         "architects": [
@@ -11960,7 +12346,12 @@
         "Start_Year": "1910 CE",
         "End_Year": "1920 CE",
         "icon": "prairie.png",
-        "significance": 9
+        "significance": 9,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Regency": {
         "architects": [
@@ -12046,7 +12437,12 @@
         "Start_Year": "1800 CE",
         "End_Year": "1815 CE",
         "icon": "regency.png",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "Yes",
+            "No",
+            "No"
+        ]
     },
     "Moorish": {
         "architects": [
@@ -12134,7 +12530,12 @@
         "significance": 8,
         "Start_Year": "800 CE",
         "End_Year": "1400 CE",
-        "icon": "moorish.png"
+        "icon": "moorish.png",
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Moorish Revival": {
         "architects": [
@@ -12229,7 +12630,12 @@
         "Start_Year": "1812 CE",
         "End_Year": "1930 CE",
         "icon": "moorish_revival.png",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "Yes",
+            "Yes",
+            "Yes"
+        ]
     },
     "Ottoman": {
         "architects": [
@@ -12315,7 +12721,12 @@
         "short": "Ottoman architecture style was characterized by grandeur and elegance, combining elements of Byzantine, Islamic, and Persian design in monumental structures.",
         "significance": 9,
         "Start_Year": "1299 CE",
-        "End_Year": "1922 CE"
+        "End_Year": "1922 CE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Thai": {
         "architects": [
@@ -12400,7 +12811,12 @@
         "short": "Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.",
         "Start_Year": "1000 CE",
         "End_Year": "present",
-        "significance": 8.5
+        "significance": 8.5,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Persian": {
         "architects": [
@@ -12504,7 +12920,12 @@
         "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures.",
         "Start_Year": "600 BCE",
         "End_Year": "600 CE",
-        "significance": 9
+        "significance": 9,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Swahili": {
         "architects": [
@@ -12593,7 +13014,12 @@
         "short": "Swahili architecture is a unique blend of Arab, Persian, and Indian influences, characterized by intricately carved wooden doors, coral stone buildings, and rooftop terraces.",
         "significance": 7,
         "Start_Year": "800 CE",
-        "End_Year": "1800 CE"
+        "End_Year": "1800 CE",
+        "valid": [
+            "No",
+            "No",
+            "No Swahili is not an architecture style"
+        ]
     },
     "Federation": {
         "architects": [
@@ -12679,7 +13105,12 @@
         ],
         "short": "Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
         "Start_Year": "1950 CE",
-        "End_Year": "present"
+        "End_Year": "present",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Korean": {
         "architects": [
@@ -12765,7 +13196,12 @@
         "short": "Korean architecture combines traditional influences with modern elements, known for its emphasis on harmony, use of natural materials, and elegant simplicity.",
         "significance": 8,
         "Start_Year": "1400 CE",
-        "End_Year": "present"
+        "End_Year": "present",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Indonesian": {
         "architects": [
@@ -12856,7 +13292,12 @@
         "short": "Indonesian architecture style is characterized by intricate carvings, steep roofs, and use of natural materials like wood and bamboo.",
         "significance": 6,
         "Start_Year": "600 BCE",
-        "End_Year": "600 CE"
+        "End_Year": "600 CE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Vietnamese": {
         "architects": [
@@ -12941,7 +13382,12 @@
         "short": "Vietnamese architecture blends traditional elements, such as curved roofs and open courtyards, with influences from Chinese and French colonial styles.",
         "Start_Year": "600 CE",
         "End_Year": "present",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Berber": {
         "architects": [
@@ -13031,7 +13477,12 @@
         "short": "Berber architecture is a traditional style characterized by earth-built structures, flat roofs, and intricate geometric patterns, prevalent in North Africa.",
         "significance": 8,
         "Start_Year": "600 CE",
-        "End_Year": "present"
+        "End_Year": "present",
+        "valid": [
+            "No",
+            "No",
+            "No 'Berber' is not an architectural style It refers to an ethnic group indigenous to North Africa, specifically concentrated in regions such as Morocco, Algeria, Tunisia, and Libya"
+        ]
     },
     "Nubian": {
         "architects": [
@@ -13115,7 +13566,12 @@
         "short": "Nubian architecture is a traditional style characterized by mud-brick construction, vaulted roofs, and intricate decorative elements found in ancient Nubia.",
         "significance": 8.5,
         "Start_Year": "3000 BCE",
-        "End_Year": "1500 BCE"
+        "End_Year": "1500 BCE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Indian": {
         "architects": [
@@ -13204,7 +13660,12 @@
         "short": "Indian architecture style is characterized by intricate carvings, vibrant colors, and distinctive features like domes and minarets.",
         "Start_Year": "300 BCE",
         "End_Year": "present",
-        "significance": 7
+        "significance": 7,
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Federal": {
         "architects": [
@@ -13292,7 +13753,12 @@
         "short": "Federal architecture style emerged in early America, characterized by symmetry, classical elements, and visual harmony, often seen in government buildings and grand mansions.",
         "Start_Year": "1790 CE",
         "End_Year": "1850 CE",
-        "icon": "federal.png"
+        "icon": "federal.png",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Rationalism": {
         "architects": [
@@ -13376,7 +13842,12 @@
         "short": "Rationalism is an architectural style emphasizing logic, simplicity, and functionality, often characterized by clean lines and geometric shapes.",
         "significance": 7.5,
         "Start_Year": "1924 CE",
-        "End_Year": "1980 CE"
+        "End_Year": "1980 CE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Sumerian": {
         "architects": [
@@ -13458,7 +13929,12 @@
         ],
         "short": "Sumerian architecture involved the use of mud-brick constructions, ziggurats, and monumental city walls, reflecting their advanced civilization in ancient Mesopotamia.",
         "Start_Year": "5000 BCE",
-        "End_Year": " 2004 BCE"
+        "End_Year": " 2004 BCE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     },
     "Uruk": {
         "architects": [
@@ -13541,6 +14017,11 @@
         ],
         "short": "Uruk architecture style was characterized by massive mud-brick structures, complex city planning with walls, temples, and ziggurats in ancient Mesopotamia.",
         "Start_Year": " 4000 BCE",
-        "End_Year": " 3100 BCE"
+        "End_Year": " 3100 BCE",
+        "valid": [
+            "No",
+            "No",
+            "No"
+        ]
     }
 }
