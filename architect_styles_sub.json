@@ -171,7 +171,8 @@
             "No",
             "Yes"
         ],
-        "style_area": "Middle East & North Africa"
+        "style_area": "M. East & N. Africa",
+        "name": "Ancient Egyptian"
     },
     "Ancient Roman": {
         "architects": [
@@ -307,7 +308,8 @@
             "Yes",
             "No"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Ancient Roman"
     },
     "Romanesque": {
         "architects": [
@@ -470,7 +472,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Romanesque"
     },
     "Gothic": {
         "architects": [
@@ -651,7 +654,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Gothic"
     },
     "Renaissance": {
         "architects": [
@@ -826,7 +830,8 @@
             "No",
             "No"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Renaissance"
     },
     "Baroque": {
         "architects": [
@@ -1004,7 +1009,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Baroque"
     },
     "Neoclassical": {
         "architects": [
@@ -1146,7 +1152,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Neoclassical"
     },
     "Victorian": {
         "architects": [
@@ -1300,7 +1307,8 @@
             "Yes",
             "No"
         ],
-        "style_area": "Anglo World"
+        "style_area": "Anglo World",
+        "name": "Victorian"
     },
     "Art Nouveau": {
         "architects": [
@@ -1469,7 +1477,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Art Nouveau"
     },
     "Art Deco": {
         "architects": [
@@ -1648,7 +1657,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Central & South America"
+        "style_area": "Anglo World",
+        "name": "Art Deco"
     },
     "Brutalism": {
         "architects": [
@@ -1848,7 +1858,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Brutalism"
     },
     "Bauhaus": {
         "architects": [
@@ -2012,7 +2023,8 @@
             "Yes",
             "Yes"
         ],
-        "style_area": "Europe"
+        "style_area": "Europe",
+        "name": "Bauhaus"
     },
     "Colonial": {
         "architects": [
@@ -2204,7 +2216,8 @@
             "Double-hung windows": 1,
             "Historical": 1
         },
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Colonial"
     },
     "Colonial Revival": {
         "architects": [
@@ -2373,7 +2386,8 @@
             "Proud": 1,
             "err1": 1
         },
-        "style_area": "Anglo World"
+        "style_area": "Anglo World",
+        "name": "Colonial Revival"
     },
     "Mesoamerican": {
         "architects": [
@@ -2540,7 +2554,8 @@
             "Serpents": 1,
             "Jaguars": 1
         },
-        "style_area": "Central & South America"
+        "style_area": "C. & S. America",
+        "name": "Mesoamerican"
     },
     "Constructivism": {
         "architects": [
@@ -2716,7 +2731,8 @@
             "Dynamic forms": 1,
             "Nonconformist": 1
         },
-        "style_area": "North Eurasia"
+        "style_area": "Eurasia",
+        "name": "Constructivism"
     },
     "Muscovite": {
         "architects": [
@@ -2928,7 +2944,8 @@
             "Dome-shaped": 1,
             "Grandiose": 1
         },
-        "style_area": "North Eurasia"
+        "style_area": "Eurasia",
+        "name": "Muscovite"
     },
     "Chinese Imperial": {
         "architects": [
@@ -3094,7 +3111,8 @@
             "Arcade": 1,
             "Grandiose": 1
         },
-        "style_area": "East Asia"
+        "style_area": "E. Asia",
+        "name": "Chinese Imperial"
     },
     "Gupta": {
         "architects": [
@@ -3272,7 +3290,8 @@
             "Arch": 1,
             "Palace": 1
         },
-        "style_area": "South Asia"
+        "style_area": "S. Asia",
+        "name": "Gupta"
     },
     "Edo Period": {
         "architects": [
@@ -3448,7 +3467,8 @@
             "Innovative": 1,
             "Modest": 1
         },
-        "style_area": "East Asia"
+        "style_area": "E. Asia",
+        "name": "Edo Period"
     },
     "Khmer Empire": {
         "architects": [
@@ -3645,7 +3665,8 @@
             "Sophisticated": 1,
             "Regal": 1
         },
-        "style_area": "Southeast Asia & South Pacific"
+        "style_area": "SE. Asia",
+        "name": "Khmer Empire"
     },
     "Timurid Period": {
         "architects": [
@@ -3811,7 +3832,8 @@
             "Intriguing": 1,
             "Vibrant": 1
         },
-        "style_area": "Central Asia"
+        "style_area": "C. Asia",
+        "name": "Timurid Period"
     },
     "Modern Islamic": {
         "architects": [
@@ -3994,7 +4016,8 @@
             "Functionally-oriented": 1,
             "Culturally-sensitive": 1
         },
-        "style_area": "Middle East & North Africa"
+        "style_area": "M. East & N. Africa",
+        "name": "Modern Islamic"
     },
     "Mud Brick": {
         "architects": [
@@ -4192,7 +4215,8 @@
             "adobe": 1,
             "Charming": 1
         },
-        "style_area": "Sahel & Sub-Saharan Africa"
+        "style_area": "C. & S. Africa",
+        "name": "Mud Brick"
     },
     "Stilt House": {
         "architects": [
@@ -4376,7 +4400,8 @@
             "Balanced": 1,
             "Wood": 1
         },
-        "style_area": "Central & South America"
+        "style_area": "C. & S. America",
+        "name": "Stilt House"
     },
     "Indo-Saracenic": {
         "architects": [
@@ -4576,7 +4601,8 @@
             "Flamboyant": 1,
             "Mix-and-match": 1
         },
-        "style_area": "South Asia"
+        "style_area": "S. Asia",
+        "name": "Indo-Saracenic"
     },
     "Contemporary": {
         "architects": [
@@ -4759,7 +4785,8 @@
             "err3": 1,
             "Industrial": 1
         },
-        "style_area": "Intercultural"
+        "style_area": "Intercultural",
+        "name": "Contemporary"
     },
     "Thai": {
         "architects": [
@@ -4952,7 +4979,8 @@
             "gate": 1,
             "authentic": 1
         },
-        "style_area": "Southeast Asia & South Pacific"
+        "style_area": "SE. Asia",
+        "name": "Thai"
     },
     "Persian": {
         "architects": [
@@ -5138,7 +5166,8 @@
             "Windcatchers": 1,
             "Distinctive": 1
         },
-        "style_area": "Central Asia"
+        "style_area": "C. Asia",
+        "name": "Persian"
     },
     "Swahili": {
         "architects": [
@@ -5338,6 +5367,7 @@
             "Fluid": 1,
             "Symbolic": 1
         },
-        "style_area": "Sahel & Sub-Saharan Africa"
+        "style_area": "C. & S. Africa",
+        "name": "Swahili"
     }
 }
