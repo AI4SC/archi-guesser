@@ -11,8 +11,8 @@
                     "Pazzi Chapel, Florence",
                     "Dome of Florence Cathedral"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Leon Battista Alberti",
@@ -24,8 +24,8 @@
                     "Tempietto, Rome",
                     "Palazzo Rucellai, Florence"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Andrea Palladio",
@@ -37,8 +37,8 @@
                     "Basilica Palladiana, Vicenza",
                     "Teatro Olimpico, Vicenza"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -62,8 +62,8 @@
             ],
             "continent": "Europe",
             "country": "Italy",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "St. Peter's Basilica in Vatican City": 3,
                 "Palazzo Rucellai in Florence, Italy": 3,
@@ -168,11 +168,7 @@
             "Cupola": 1,
             "Dignified": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "style_area": "Europe",
         "name": "Renaissance"
     },
@@ -188,8 +184,8 @@
                     "Bauhaus Dessau",
                     "Harvard Graduate Center"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Mies van der Rohe",
@@ -201,8 +197,8 @@
                     "Barcelona Pavilion",
                     "Seagram Building"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Le Corbusier",
@@ -214,8 +210,8 @@
                     "Unité d'Habitation",
                     "Notre-Dame-du-Haut"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -235,8 +231,8 @@
             ],
             "continent": "Europe",
             "country": "Germany",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Bauhaus building in Dessau": 3,
                 "Fagus Factory in Alfeld": 0,
@@ -331,11 +327,7 @@
             "Open floor plans": 1,
             "Pragmatic": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Bauhaus"
     },
@@ -350,8 +342,8 @@
                     "Basilica Palladiana",
                     "Villa Capra 'La Rotonda'"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Robert Adam",
@@ -362,8 +354,8 @@
                     "Kenwood House",
                     "Syon House"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Thomas Jefferson",
@@ -374,8 +366,8 @@
                     "Virginia State Capitol",
                     "Monticello"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -399,8 +391,8 @@
             ],
             "continent": "Europe",
             "country": "France",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "The White House in Washington D.C.": 3,
                 "The École Militaire in Paris": 3,
@@ -474,11 +466,7 @@
             "Structured": 1,
             "err1": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Neoclassical"
     },
@@ -492,8 +480,8 @@
                 "notable_buildings": [
                     "Basilica of Saint-Denis"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Peter Parler",
@@ -505,8 +493,8 @@
                     "Charles Bridge Tower",
                     "Karlštejn Castle"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Gothic Architecture",
@@ -518,8 +506,8 @@
                     "Salisbury Cathedral",
                     "Westminster Abbey"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0
             }
         ],
         "style": {
@@ -553,8 +541,8 @@
                 "Spain",
                 "Belgium"
             ],
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Notre-Dame de Paris": 3,
                 "Westminster Abbey": 3,
@@ -657,11 +645,7 @@
             "Crenellation": 1,
             "Norman architecture": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Gothic"
     },
@@ -675,8 +659,8 @@
                 "notable_buildings": [
                     "Chrysler Building, New York"
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Erich Mendelsohn",
@@ -687,8 +671,8 @@
                     "Einstein Tower",
                     "De La Warr Pavilion"
                 ],
-                "valid": 2,
-                "quality": 3
+                "valid": 0.66,
+                "quality": 1.0
             },
             {
                 "name": "Timothy Pflueger",
@@ -699,8 +683,8 @@
                     "Pflueger Office Building",
                     "Castro Theatre"
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -738,8 +722,8 @@
                 "India",
                 "China"
             ],
-            "example_quality": 3,
-            "quality": 3,
+            "example_quality": 1.0,
+            "quality": 1.0,
             "example_validity": {
                 "Chrysler Building in New York City": 3,
                 "The Daily Express Building in Manchester, UK": 3,
@@ -837,11 +821,7 @@
             "Sculptures": 1,
             "Ornaments": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Anglo World",
         "name": "Art Deco"
     },
@@ -856,7 +836,7 @@
                     "Laurel Hill Cemetery Gatehouse, Philadelphia",
                     "California State Capitol building, Sacramento"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -868,7 +848,7 @@
                     "Downing's own home, the Villa Mille Fleurs, on the Hudson River",
                     "The villa-style entrance to the U.S. Botanic Garden in Washington, D.C."
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -880,7 +860,7 @@
                     "The Trenton State Hospital, New Jersey",
                     "The Trans-Allegheny Lunatic Asylum, West Virginia"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -927,11 +907,7 @@
         ],
         "short": "Italianate architecture style is characterized by its resemblance to the buildings in Italy, featuring prominent cornices, arched windows, and ornamental details.",
         "significance": 7,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Villa": 7,
             "Palazzo": 6,
@@ -1032,7 +1008,7 @@
                     "Walt Disney Concert Hall, Los Angeles",
                     "Guggenheim Museum Bilbao, Spain"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -1044,7 +1020,7 @@
                     "Heydar Aliyev Center, Baku, Azerbaijan",
                     "Guangzhou Opera House, China"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -1056,7 +1032,7 @@
                     "Casa da Música, Porto, Portugal",
                     "Seattle Central Library, Seattle, Washington"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -1191,11 +1167,7 @@
             "curvature": 1,
             "Innovative": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Deconstructivism"
     },
     "Shingle Style": {
@@ -1210,7 +1182,7 @@
                     "Trinity Church, Boston, MA",
                     "Marshall Field Wholesale Store, Chicago, IL"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -1223,7 +1195,7 @@
                     "Beverly Farms National Bank, Beverly, MA",
                     "Byfield Town Hall, Byfield, MA"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -1236,7 +1208,7 @@
                     "Cornwall Estate, Cold Spring, NY",
                     "Olana State Historic Site, Hudson, NY"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -1280,11 +1252,7 @@
         ],
         "short": "Shingle Style is an architectural style characterized by the use of shingles as the primary exterior material, often showcasing asymmetrical designs and rustic aesthetics.",
         "significance": 7,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "roof": 2,
             "wall": 1,
@@ -1388,7 +1356,7 @@
                     "The Malibu Market and Design in Malibu, California",
                     "The Elk Grove Equestrian Center in Elk Grove, California"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -1401,7 +1369,7 @@
                     "The Eichler Homes in Lucas Valley, California",
                     "The Eichler Homes in Piedmont, California"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -1414,7 +1382,7 @@
                     "The Seven Lakes Country Club in Palm Springs, California",
                     "The Racquet Club Estates in Palm Springs, California"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -1457,11 +1425,7 @@
         ],
         "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "err1": 1,
             "Spacious": 7,
@@ -1538,8 +1502,8 @@
                     "Two International Place",
                     "15 Central Park West"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "John Russell Pope",
@@ -1551,8 +1515,8 @@
                     "Jefferson Memorial",
                     "National Gallery of Art"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "H.H. Richardson",
@@ -1564,8 +1528,8 @@
                     "Marine Corps Base Quantico",
                     "Watts Sherman House"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -1584,8 +1548,8 @@
                 "The Mark Twain House in Hartford, Connecticut",
                 "The Biltmore Estate in Asheville, North Carolina"
             ],
-            "example_quality": 1,
-            "quality": 3,
+            "example_quality": 0.33,
+            "quality": 1.0,
             "continent": "North America",
             "country": "United States of America",
             "example_validity": {
@@ -1604,11 +1568,7 @@
         ],
         "short": "The Colonial Revival architectural style was popular in the late 19th and early 20th centuries, characterized by a return to traditional colonial-era American design elements.",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Colonial": 8,
             "Revival": 6,
@@ -1706,8 +1666,8 @@
                     "Hotel María Isabel",
                     "Plaza Satélite"
                 ],
-                "valid": 2,
-                "quality": 1
+                "valid": 0.66,
+                "quality": 0.33
             },
             {
                 "name": "Teodoro González de León",
@@ -1719,8 +1679,8 @@
                     "Museo Tamayo Arte Contemporáneo",
                     "Mexican Pavilion at Expo '92 in Seville, Spain"
                 ],
-                "valid": 0,
-                "quality": 1
+                "valid": 0.0,
+                "quality": 0.33
             },
             {
                 "name": "Miguel Ángel Aragones",
@@ -1732,8 +1692,8 @@
                     "Tres Casas in Santa Fe",
                     "Astor Santa Fe"
                 ],
-                "valid": 2,
-                "quality": 1
+                "valid": 0.66,
+                "quality": 0.33
             }
         ],
         "style": {
@@ -1752,7 +1712,7 @@
                 "Palenque",
                 "Tikal"
             ],
-            "example_quality": 3,
+            "example_quality": 1.0,
             "continent": "North America",
             "country": [
                 "Mexico",
@@ -1763,7 +1723,7 @@
                 "Nicaragua",
                 "Costa Rica"
             ],
-            "quality": 3,
+            "quality": 1.0,
             "example_validity": {
                 "Teotihuacan": 3,
                 "Chichen Itza": 3,
@@ -1781,11 +1741,7 @@
         ],
         "short": "Mesoamerican architecture is characterized by pyramids, temples, and palaces, with intricate carvings and symbols, reflecting the culture and beliefs of indigenous civilizations.",
         "significance": 8.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Pyramids": 10,
             "Temples": 10,
@@ -1873,8 +1829,8 @@
                     "Sant'Ivo alla Sapienza",
                     "Palazzo Barberini"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Gian Lorenzo Bernini",
@@ -1886,8 +1842,8 @@
                     "Biblioteca Apostolica Vaticana",
                     "Sant'Andrea al Quirinale"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Johann Bernhard Fischer von Erlach",
@@ -1899,8 +1855,8 @@
                     "Schonbrunn Palace",
                     "Church of St. John Nepomuk"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -1927,8 +1883,8 @@
                 "Spain",
                 "Italy"
             ],
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 0.75,
             "example_validity": {
                 "Palace of Versailles, France": 3,
                 "St. Peter's Basilica, Vatican City": 3,
@@ -2031,11 +1987,7 @@
             "Domes": 1,
             "fluid": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Baroque"
     },
@@ -2051,8 +2003,8 @@
                     "Canterbury Cathedral",
                     "Winchester Cathedral"
                 ],
-                "valid": 0,
-                "quality": 3
+                "valid": 0.0,
+                "quality": 1.0
             },
             {
                 "name": "Abbot Suger",
@@ -2062,8 +2014,8 @@
                 "notable_buildings": [
                     "Saint-Denis Basilica"
                 ],
-                "valid": 1,
-                "quality": 3
+                "valid": 0.33,
+                "quality": 1.0
             },
             {
                 "name": "Robert de Luzarches",
@@ -2073,8 +2025,8 @@
                 "notable_buildings": [
                     "Notre Dame Cathedral"
                 ],
-                "valid": 0,
-                "quality": 3
+                "valid": 0.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -2103,8 +2055,8 @@
                 "England",
                 "Italy"
             ],
-            "example_quality": 2,
-            "quality": 3,
+            "example_quality": 0.66,
+            "quality": 1.0,
             "example_validity": {
                 "St. Sernin, Toulouse": 3,
                 "Speyer Cathedral": 3,
@@ -2194,11 +2146,7 @@
             "Repetitive": 1,
             "Imposing": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Romanesque"
     },
@@ -2214,7 +2162,7 @@
                     "Catherine Palace",
                     "Peterhof Palace"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2227,7 +2175,7 @@
                     "Fontaine de Léda",
                     "Fontaine Saint-Sulpice"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -2240,7 +2188,7 @@
                     "Smolny Cathedral",
                     "Gatchina Palace"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -2382,11 +2330,7 @@
             "extravagant": 1,
             "romantic": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Rococo"
     },
     "Art Nouveau": {
@@ -2402,8 +2346,8 @@
                     "Cité Monthiers",
                     "Metro entrances"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Victor Horta",
@@ -2416,8 +2360,8 @@
                     "Hotel Solvay",
                     "House and Studio of Victor Horta"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Antoni Gaudí",
@@ -2430,8 +2374,8 @@
                     "Casa Batlló",
                     "La Pedrera"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -2459,8 +2403,8 @@
                 "Spain",
                 "France"
             ],
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Hôtel Tassel in Brussels, Belgium": 3,
                 "Majolikahaus in Vienna, Austria": 3,
@@ -2551,11 +2495,7 @@
             "Organic shapes": 1,
             "Emphasis on craftsmanship": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Europe",
         "name": "Art Nouveau"
     },
@@ -2571,7 +2511,7 @@
                     "Monticello",
                     "Virginia State Capitol"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2584,7 +2524,7 @@
                     "Walhalla memorial",
                     "Herrenchiemsee Palace"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2597,7 +2537,7 @@
                     "University Museum of Natural History",
                     "St. George's Hall, Liverpool"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -2642,11 +2582,7 @@
         "Start_Year": "1850 CE",
         "End_Year": "1950 CE",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Columns": 8,
             "Pediments": 7,
@@ -2737,7 +2673,7 @@
                     "Buckingham Palace",
                     "Regent Street, London"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -2749,7 +2685,7 @@
                     "Kedleston Hall, Derbyshire",
                     "The Adelphi, London"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2761,7 +2697,7 @@
                     "Fonthill Abbey, Wiltshire",
                     "Pantheon, London"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -2877,11 +2813,7 @@
             "Dormer windows": 1,
             "Porticos": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Georgian"
     },
     "International Style": {
@@ -2895,7 +2827,7 @@
                     "The Bauhaus Building (1925) in Dessau, Germany",
                     "The Gropius House (1938) in Lincoln, Massachusetts, USA"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2907,7 +2839,7 @@
                     "Villa Savoye (1931) in Poissy, France",
                     "Unité d'Habitation (1952) in Marseille, France"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -2919,7 +2851,7 @@
                     "Seagram Building (1958) in New York City, USA",
                     "Farnsworth House (1951) near Plano, Illinois, USA"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -3042,11 +2974,7 @@
             "Function": 1,
             "Innovative": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "International Style"
     },
     "Postmodernism": {
@@ -3061,7 +2989,7 @@
                     "Guild House",
                     "National Museum of American Jewish History"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -3074,7 +3002,7 @@
                     "Lipstick Building",
                     "Sony Tower"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -3087,7 +3015,7 @@
                     "Humana Building",
                     "Denver Public Library"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -3209,11 +3137,7 @@
             "Symbolic": 1,
             "Recontextualized": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Postmodernism"
     },
     "Tudor": {
@@ -3227,7 +3151,7 @@
                     "Longleat House",
                     "Oxford University's Pembroke College"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -3239,7 +3163,7 @@
                     "Wollaton Hall",
                     "Hardwick Hall"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -3251,7 +3175,7 @@
                     "Truro Cathedral",
                     "St John's College Chapel, Cambridge"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -3301,11 +3225,7 @@
         ],
         "short": "Tudor architecture style, popular in the 16th century, features timber framing, steeply pitched roofs, elaborate chimneys, and decorative half-timbering.",
         "significance": 8,
-        "valid": [
-            "No",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 0.66,
         "termsV2": {
             "Tudor": 4,
             "architectural style": 2,
@@ -3423,8 +3343,8 @@
                     "St. Paul's Cathedral, London",
                     "Hampton Court Palace, London"
                 ],
-                "valid": 0,
-                "quality": 1
+                "valid": 0.0,
+                "quality": 0.33
             },
             {
                 "name": "Thomas Jefferson",
@@ -3435,8 +3355,8 @@
                     "Monticello, Virginia",
                     "University of Virginia, Virginia"
                 ],
-                "valid": 0,
-                "quality": 2
+                "valid": 0.0,
+                "quality": 0.66
             },
             {
                 "name": "Charles Bulfinch",
@@ -3447,8 +3367,8 @@
                     "Massachusetts State House, Boston",
                     "U.S. Capitol, Washington, D.C."
                 ],
-                "valid": 0,
-                "quality": 2
+                "valid": 0.0,
+                "quality": 0.66
             }
         ],
         "style": {
@@ -3488,8 +3408,8 @@
                 "Indonesia",
                 "Vietnam"
             ],
-            "example_quality": 1,
-            "quality": 2,
+            "example_quality": 0.33,
+            "quality": 0.66,
             "example_validity": {
                 "Spanish Colonial Revival architecture in California": 3,
                 "Dutch colonial architecture in Indonesia": 3,
@@ -3517,11 +3437,7 @@
         ],
         "short": "Colonial architecture style is characterized by symmetrical facades, columned entrances, and simple geometric shapes, influenced by European colonial settlers.",
         "significance": 6,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mansion": 5,
             "Plantation": 3,
@@ -3626,8 +3542,8 @@
                         "location": "Baku, Azerbaijan"
                     }
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Frank Gehry",
@@ -3648,8 +3564,8 @@
                         "location": "Prague, Czech Republic"
                     }
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Norman Foster",
@@ -3670,8 +3586,8 @@
                         "location": "Berlin, Germany"
                     }
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -3696,8 +3612,8 @@
             ],
             "continent": "Multiple",
             "country": "Various",
-            "example_quality": 2,
-            "quality": 3,
+            "example_quality": 0.66,
+            "quality": 1.0,
             "example_validity": {
                 "Guggenheim Museum Bilbao in Spain": 3,
                 "The Shard in London": 3,
@@ -3716,11 +3632,7 @@
         "Start_Year": "1950 CE",
         "End_Year": "present",
         "significance": 6,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Simplicity": 5,
             "Minimalism": 7,
@@ -3799,7 +3711,7 @@
                 "notable_buildings": [
                     "Hagia Sophia"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -3810,7 +3722,7 @@
                 "notable_buildings": [
                     "Hagia Sophia"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -3822,7 +3734,7 @@
                     "Church of St. Irene",
                     "Basilica of St. John the Apostle"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -3950,11 +3862,7 @@
             "Byzantium-inspired": 2,
             "Architectural": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "No"
-        ],
+        "valid": 0.66,
         "name": "Byzantine"
     },
     "Ancient Egyptian": {
@@ -3967,8 +3875,8 @@
                 "notable_buildings": [
                     "Step Pyramid of Djoser at Saqqara"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Senenmut",
@@ -3979,8 +3887,8 @@
                     "Temple of Hatshepsut at Deir el-Bahri",
                     "Temple of Amun at Karnak"
                 ],
-                "valid": 2,
-                "quality": -1
+                "valid": 0.66,
+                "quality": 1.0
             },
             {
                 "name": "Hemiunu",
@@ -3990,8 +3898,8 @@
                 "notable_buildings": [
                     "Great Pyramid of Giza"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -4015,8 +3923,8 @@
             ],
             "continent": "Africa",
             "country": "Egypt",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Great Pyramids of Giza": 3,
                 "Karnak Temple": 3,
@@ -4124,11 +4032,7 @@
             "Mastabas": 1,
             "Majestic": 1
         },
-        "valid": [
-            "Yes",
-            "No",
-            "Yes"
-        ],
+        "valid": 0.66,
         "style_area": "M. East & N. Africa",
         "name": "Ancient Egyptian"
     },
@@ -4142,7 +4046,7 @@
                 "notable_buildings": [
                     "The Red House"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -4156,7 +4060,7 @@
                     "The Lodge",
                     "The Orchard"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -4169,7 +4073,7 @@
                     "Hill House",
                     "The Willow Tea Rooms"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -4293,11 +4197,7 @@
             "Stained glass": 1,
             "Natural materials": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "Yes"
-        ],
+        "valid": 0.33,
         "name": "Arts and Crafts"
     },
     "Victorian": {
@@ -4310,8 +4210,8 @@
                 "notable_buildings": [
                     "The Palace of Westminster in London, England"
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "William Burges",
@@ -4322,8 +4222,8 @@
                     "Cardiff Castle in Wales",
                     "Saint Fin Barre's Cathedral in Cork, Ireland"
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Augustus Pugin",
@@ -4334,8 +4234,8 @@
                     "The Palace of Westminster in London, England",
                     "St. Giles' Catholic Church in Cheadle, England"
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -4358,8 +4258,8 @@
                 "The Palace of Westminster",
                 "The Victoria and Albert Museum in London"
             ],
-            "example_quality": 3,
-            "quality": 3,
+            "example_quality": 1.0,
+            "quality": 1.0,
             "continent": "Europe",
             "country": "United Kingdom",
             "example_validity": {
@@ -4447,11 +4347,7 @@
             "Rich": 1,
             "Durable": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "No"
-        ],
+        "valid": 0.66,
         "style_area": "Anglo World",
         "name": "Victorian"
     },
@@ -4463,8 +4359,8 @@
                 "nationality": "Roman",
                 "description": "Ancient Roman writer, architect and engineer",
                 "notable_buildings": "None extant",
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Apollodorus of Damascus",
@@ -4472,8 +4368,8 @@
                 "nationality": "Syrian",
                 "description": "Greek-roman architect",
                 "notable_buildings": "Trajan's Column, Market of Trajan, Hadrian's Wall",
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Marcus Vitruvius Pollio",
@@ -4481,8 +4377,8 @@
                 "nationality": "Roman",
                 "description": "Roman writer, architect, and engineer",
                 "notable_buildings": "None extant",
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -4504,8 +4400,8 @@
             ],
             "continent": "Europe",
             "country": "Italy",
-            "example_quality": 3,
-            "quality": 3,
+            "example_quality": 1.0,
+            "quality": 1.0,
             "example_validity": {
                 "Colosseum": 3,
                 "Pantheon": 3,
@@ -4583,11 +4479,7 @@
             "Engineering": 1,
             "Classical": 1
         },
-        "valid": [
-            "No",
-            "Yes",
-            "No"
-        ],
+        "valid": 0.33,
         "style_area": "Europe",
         "name": "Ancient Roman"
     },
@@ -4601,7 +4493,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -4612,7 +4504,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -4623,7 +4515,7 @@
                 "notable_buildings": [
                     "Propylaea"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -4634,7 +4526,7 @@
                 "notable_buildings": [
                     "Parthenon"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -4737,11 +4629,7 @@
             "Purposeful": 1,
             "Stylized": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "name": "Ancient Greek"
     },
     "Islamic": {
@@ -4754,7 +4642,7 @@
                 "notable_buildings": [
                     "Great Mosque of Samarra"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -4767,7 +4655,7 @@
                     "Süleymaniye Mosque",
                     "Kılıç Ali Paşa Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -4779,7 +4667,7 @@
                     "Bee’ah Headquarters",
                     "Heydar Aliyev Center"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -4905,11 +4793,7 @@
             "Islamic": 1,
             "Proportional": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "name": "Islamic"
     },
     "Gothic Revival": {
@@ -4922,7 +4806,7 @@
                 "notable_buildings": [
                     "The Palace of Westminster"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -4933,7 +4817,7 @@
                 "notable_buildings": [
                     "Westminster Cathedral"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -4944,7 +4828,7 @@
                 "notable_buildings": [
                     "The Palace of Westminster"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -5060,11 +4944,7 @@
             "Grand": 1,
             "Peculiar": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Gothic Revival"
     },
     "Beaux-Arts": {
@@ -5079,7 +4959,7 @@
                     "Biltmore Estate",
                     "Marble House"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5091,7 +4971,7 @@
                     "Paris Opéra",
                     "Bibliothèque-Musée de l'Opéra National de Paris"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5104,7 +4984,7 @@
                     "Jefferson Memorial",
                     "The Walter Reed Army Medical Center"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -5223,11 +5103,7 @@
             "Portico": 1,
             "Atrium": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Beaux-Arts"
     },
     "Brutalism": {
@@ -5254,8 +5130,8 @@
                         "year_completed": 1959
                     }
                 ],
-                "valid": 2,
-                "quality": 3
+                "valid": 0.66,
+                "quality": 1.0
             },
             {
                 "name": "Paul Rudolph",
@@ -5279,8 +5155,8 @@
                         "year_completed": 1971
                     }
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Alison and Peter Smithson",
@@ -5307,8 +5183,8 @@
                         "year_completed": 1964
                     }
                 ],
-                "valid": 3,
-                "quality": 3
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -5334,8 +5210,8 @@
                 "UK",
                 "USA"
             ],
-            "example_quality": 2,
-            "quality": 3,
+            "example_quality": 0.66,
+            "quality": 1.0,
             "example_validity": {
                 "National Theatre in London, UK": 3,
                 "Smithsonian Hirshhorn Museum and Sculpture Garden in Washington D.C., USA": 3,
@@ -5421,11 +5297,7 @@
             "austerity": 1,
             "Brutal": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "style_area": "Intercultural",
         "name": "Brutalism"
     },
@@ -5441,7 +5313,7 @@
                     "Lloyd's of London building in England",
                     "Terminal 4 at Barajas Airport in Madrid, Spain"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5454,7 +5326,7 @@
                     "Reichstag Building in Berlin, Germany",
                     "Millennium Bridge in London, England"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5467,7 +5339,7 @@
                     "Centre Georges Pompidou in Paris, France",
                     "California Academy of Sciences in San Francisco, USA"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -5593,11 +5465,7 @@
             "Minimalism": 1,
             "Highly automated": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "name": "High-Tech"
     },
     "Neo-Futurism": {
@@ -5612,7 +5480,7 @@
                     "Guangzhou Opera House",
                     "MAXXI National Museum of the 21st Century Arts"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5625,7 +5493,7 @@
                     "City of Arts and Sciences",
                     "Oculus"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -5638,7 +5506,7 @@
                     "BIG Maze",
                     "The Twist"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -5770,11 +5638,7 @@
             "Technological": 1,
             "Non-conventional": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Neo-Futurism"
     },
     "Sustainable (Green)": {
@@ -5789,7 +5653,7 @@
                     "The Paris Courthouse",
                     "The Shard in London"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -5802,7 +5666,7 @@
                     "The Swiss Re tower (The Gherkin) in London",
                     "Masdar City in Abu Dhabi"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5815,7 +5679,7 @@
                     "The Amager Bakke waste-to-energy plant in Copenhagen",
                     "The 8 House in Copenhagen"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -5958,11 +5822,7 @@
             "Emission-reducing": 1,
             "Environmentally responsible": 1
         },
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "name": "Sustainable (Green)"
     },
     "Parametricism": {
@@ -5977,7 +5837,7 @@
                     "Riverside Museum in Glasgow, Scotland",
                     "Guangzhou Opera House in China"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -5990,7 +5850,7 @@
                     "Guggenheim Museum Bilbao in Spain",
                     "Fondation Louis Vuitton in Paris"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -6003,7 +5863,7 @@
                     "2 World Trade Center in New York City",
                     "Google North Bayshore Campus in Mountain View, California"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -6122,11 +5982,7 @@
             "Nonlinear systems": 1,
             "Curvilinear": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Parametricism"
     },
     "New Formalism": {
@@ -6141,7 +5997,7 @@
                     "AT&T Building",
                     "Glass House"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6154,7 +6010,7 @@
                     "U.S. Embassy in New Delhi",
                     "State University of New York at Albany"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -6167,7 +6023,7 @@
                     "McGregor Memorial Conference Center",
                     "Rainier Tower"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -6288,11 +6144,7 @@
             "New Formalism": 1,
             "err1": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "New Formalism"
     },
     "Late Modernism": {
@@ -6307,7 +6159,7 @@
                     "Bank of China Tower",
                     "Rock and Roll Hall of Fame"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6320,7 +6172,7 @@
                     "The Hague City Hall",
                     "The Barcelona Museum of Contemporary Art"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6333,7 +6185,7 @@
                     "Hearst Tower",
                     "Millennium Bridge"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -6375,11 +6227,7 @@
         "short": "Late Modernism is an architectural style that emerged in the mid-20th century, characterized by functional designs, technological advancements, and simplicity in form.",
         "significance": 7,
         "icon": "late modernism.png",
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Skyscrapers": 5,
             "Glass": 8,
@@ -6471,7 +6319,7 @@
                     "Walt Disney Concert Hall",
                     "Louis Vuitton Foundation"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -6484,7 +6332,7 @@
                     "Heydar Aliyev Center",
                     "Guangzhou Opera House"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -6497,7 +6345,7 @@
                     "Royal Ontario Museum",
                     "Freedom Tower"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -6539,11 +6387,7 @@
         ],
         "short": "Neo-Expressionism is an architectural style characterized by bold forms, rough textures, expressive elements, and a sense of individuality.",
         "significance": 6,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Brutalism": 3,
             "Industrialism": 1,
@@ -6638,7 +6482,7 @@
                 "nationality": "British",
                 "description": "A megalith in the world of architecture, Frampton is known for his influential writings on Critical Regionalism and for his unending curiosity about the theoretical side of architecture.",
                 "notable_buildings": [],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -6651,7 +6495,7 @@
                     "Water Temple",
                     "Punta della Dogana"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -6664,7 +6508,7 @@
                     "Arthur and Yvonne Boyd Art Centre",
                     "Boyd Education Centre"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -6713,11 +6557,7 @@
         ],
         "short": "Critical Regionalism is an architectural style that blends modern elements with local traditions, materials, and culture, promoting sustainable and contextual designs.",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Place": 10,
             "Climate": 9,
@@ -6797,7 +6637,7 @@
                     "Wexner Center for the Arts in Columbus, Ohio",
                     "Memorial to the Murdered Jews of Europe in Berlin, Germany"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6809,7 +6649,7 @@
                     "Zénith de Rouen in France",
                     "Acropolis Museum in Athens, Greece"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6821,7 +6661,7 @@
                     "Casa da Música in Porto, Portugal",
                     "China Central Television (CCTV) headquarters in Beijing, China"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -6868,11 +6708,7 @@
         ],
         "short": "Post-Structuralism architecture rejects traditional principles, focusing on fluidity, fragmentation, and deconstruction of space to challenge societal norms and hierarchies.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Deconstruction": 9,
             "Fragmentation": 9,
@@ -6966,7 +6802,7 @@
                     "Schröder House",
                     "Rietveld-Schröder House"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -6978,7 +6814,7 @@
                     "Aubette",
                     "Café L'Aubette"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -6990,7 +6826,7 @@
                     "Hague Municipal Museum",
                     "Café De Unie"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -7029,11 +6865,7 @@
         ],
         "short": "De Stijl architecture style is characterized by geometric shapes, primary colors, and simplicity, reflecting the principles of neoplasticism and the pursuit of visual balance.",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "No"
-        ],
+        "valid": 0.66,
         "termsV2": {
             "Geometric forms": 2,
             "Rectangular shapes": 1,
@@ -7132,7 +6964,7 @@
                 "nationality": "German",
                 "description": "A German expressionist sculptor, printmaker and writer famous for his protest against the war and his social and political sculpture.",
                 "notable_buildings": [],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -7143,7 +6975,7 @@
                 "notable_buildings": [
                     "Berlin Philharmonic"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -7155,7 +6987,7 @@
                     "Einstein Tower",
                     "De La Warr Pavilion"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -7197,11 +7029,7 @@
         ],
         "short": "Expressionism in architecture is a movement characterized by distorted forms, unconventional materials, and a focus on conveying emotion and individuality.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Gothic": 1,
             "Industrial": 1,
@@ -7307,7 +7135,7 @@
                     "Turning Torso in Malmö, Sweden",
                     "Bilbao Airport in Bilbao, Spain"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -7320,7 +7148,7 @@
                     "MAXXI – National Museum of the 21st Century Arts in Rome, Italy",
                     "Guangzhou Opera House in Guangzhou, China"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -7333,7 +7161,7 @@
                     "Walt Disney Concert Hall in Los Angeles, USA",
                     "Fondation Louis Vuitton in Paris, France"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -7463,11 +7291,7 @@
             "Open-plan": 1,
             "Robust": 1
         },
-        "valid": [
-            "No",
-            "Yes",
-            "No"
-        ],
+        "valid": 0.33,
         "name": "Structural Expressionism"
     },
     "Pre-Romanesque": {
@@ -7479,7 +7303,7 @@
                 "nationality": "German",
                 "description": "Sculptor and architect",
                 "notable_buildings": [],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -7491,7 +7315,7 @@
                 "notable_buildings": [
                     "Basilica di San Salvatore, Spoleto"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -7503,7 +7327,7 @@
                 "notable_buildings": [
                     "Abbey Church of St. Denis"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -7612,11 +7436,7 @@
             "Frieze": 1,
             "Intricate": 1
         },
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "name": "Pre-Romanesque"
     },
     "Constructivism": {
@@ -7632,8 +7452,8 @@
                     "Rusakov Workers' Club",
                     "Bakhmetevsky Bus Garage"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Moisei Ginzburg",
@@ -7646,8 +7466,8 @@
                     "Gosstrakh Building",
                     "Ginzburg House"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Ivan Leonidov",
@@ -7660,8 +7480,8 @@
                     "Pavilion of the USSR at the World's Fair in Paris",
                     "Lenin Memorial on Lenin Hills"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "terms": "unique spaces, sustainable materials, creative forms, contextual integration, user experience innovative, dynamic, holistic, human-centered, environmentally conscious",
@@ -7686,8 +7506,8 @@
             ],
             "continent": "Europe",
             "country": "Russia",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Narkomfin Building in Moscow, Russia": 3,
                 "Tsentrosoyuz Building in Moscow, Russia": 3,
@@ -7706,11 +7526,7 @@
         ],
         "short": "Constructivism is an architectural style that emerged in the early 20th century, emphasizing geometric forms, industrial materials, and functional design.",
         "significance": 5,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Geometric shapes": 2,
             "Exposed materials": 1,
@@ -7809,7 +7625,7 @@
                     "Çatalhöyük",
                     "Jericho"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -7823,7 +7639,7 @@
                     "Callanish Stones",
                     "Dolmens of Korea"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -7837,7 +7653,7 @@
                     "Moundville Archaeological Site",
                     "Poverty Point"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -7902,11 +7718,7 @@
         ],
         "short": "Neolithic architecture style is characterized by the use of wood, stone, and mud-brick construction, featuring simple, functional designs for housing and communal structures.",
         "significance": 7.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Megaliths": 4,
             "Stone circles": 1,
@@ -8021,7 +7833,7 @@
                     "Step Pyramid of Djoser",
                     "Mastaba of Ti"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8033,7 +7845,7 @@
                 "notable_buildings": [
                     "Hammurabi's palace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8045,7 +7857,7 @@
                 "notable_buildings": [
                     "Palace of Sennacherib"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -8092,11 +7904,7 @@
         ],
         "short": "Mesopotamian architecture is characterized by the use of sun-dried bricks, ziggurats, and intricate decorative motifs, reflecting their advanced urban civilization.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Ziggurat": 11,
             "Palace": 8,
@@ -8206,7 +8014,7 @@
                     "Sheikh Lotfollah Mosque",
                     "Ali Qapu Palace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8219,7 +8027,7 @@
                     "New Gourna Village",
                     "Dar al-Islam Mosque"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8231,7 +8039,7 @@
                 "notable_buildings": [
                     "Bahá'í House of Worship, Delhi"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -8276,11 +8084,7 @@
         ],
         "short": "Ancient Persian architecture was characterized by grandeur and innovation, with iconic elements such as intricate tile work, grand arches, and towering minarets.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Persepolis": 3,
             "Apadana": 3,
@@ -8389,8 +8193,8 @@
                     "Tauride Palace",
                     "Kazan Cathedral"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Matvey Kazakov",
@@ -8403,8 +8207,8 @@
                     "Moscow State University",
                     "Moscow Orphanage"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Vasily Bazhenov",
@@ -8417,8 +8221,8 @@
                     "Lopukhins' Estate",
                     "Moscow State University"
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -8437,8 +8241,8 @@
             ],
             "continent": "Europe/Asia",
             "country": "Russia",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "St. Basil's Cathedral": 3,
                 "The Cathedral of the Assumption": 3,
@@ -8455,11 +8259,7 @@
         ],
         "short": "Muscovite architecture refers to the distinctive style of buildings in Moscow, characterized by ornate decorations, bright colors, and onion-domed churches.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Kremlin": 7,
             "Onion domes": 3,
@@ -8600,8 +8400,8 @@
                     "Hall of Central Harmony",
                     "Hall of Preserving Harmony"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Li Jie",
@@ -8614,8 +8414,8 @@
                     "Temple of Heaven",
                     "Summer Palace"
                 ],
-                "valid": 2,
-                "quality": -1
+                "valid": 0.66,
+                "quality": 0.33
             },
             {
                 "name": "I.M. Pei",
@@ -8628,8 +8428,8 @@
                     "Bank of China Tower",
                     "Louvre Pyramid"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -8653,8 +8453,8 @@
             ],
             "continent": "Asia",
             "country": "China",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 0.6,
             "example_validity": {
                 "The Forbidden City in Beijing": 3,
                 "The Temple of Heaven in Beijing": 3,
@@ -8674,11 +8474,7 @@
         ],
         "short": "Chinese Imperial architecture style is characterized by symmetrical layouts, sloping roofs adorned with dragons, intricate carvings, and colorful decorations.",
         "significance": 7.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Pagoda": 7,
             "Palace": 8,
@@ -8767,8 +8563,8 @@
                     "Dashavatara Vishnu Temple",
                     "Bhitargaon Temple"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.33
             },
             {
                 "name": "Skandagupta",
@@ -8781,8 +8577,8 @@
                     "Udayagiri Caves",
                     "Ajanta Caves"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.33
             },
             {
                 "name": "Kumara Gupta",
@@ -8795,8 +8591,8 @@
                     "Udayagiri Caves",
                     "Ajanta Caves"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.33
             }
         ],
         "style": {
@@ -8816,8 +8612,8 @@
             ],
             "continent": "Asia",
             "country": "India",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 0.33,
             "example_validity": {
                 "Ajanta Caves": 1,
                 "Ellora Caves": 0,
@@ -8834,11 +8630,7 @@
         ],
         "short": "The Gupta architecture style is a blend of Hindu and Buddhist influences, known for its elaborate and ornate structures, including temples and palaces.",
         "significance": 5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "stupas": 3,
             "temples": 3,
@@ -8944,7 +8736,7 @@
                     "Tomyoji Temple",
                     "Hiranoya Hotel"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8958,7 +8750,7 @@
                     "Tsuda University Innovation Center",
                     "House of the Cherry Tree"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -8972,7 +8764,7 @@
                     "The Ribbon Chapel",
                     "Knot terrace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -9010,11 +8802,7 @@
         ],
         "short": "Nagara\" is an architectural style that focuses on simplicity, minimalism, and harmony with nature, prominent in Japanese traditional houses and gardens.",
         "significance": 5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Temples": 6,
             "Palaces": 6,
@@ -9129,7 +8917,7 @@
                     "Periyar Self-respect Propaganda Institution",
                     "Dravidar Kazhagam"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9142,7 +8930,7 @@
                     "Anna Centenary Library",
                     "Tamil Nadu Legislative Assembly complex"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9155,7 +8943,7 @@
                     "MG R Government Film and Television Training Institute",
                     "Dr. M.G.R. Janaki College of Arts and Science"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -9200,11 +8988,7 @@
         ],
         "short": "Dravidian architecture is a distinctive style found predominantly in South India, characterized by intricately carved temples with pyramid-shaped towers.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Temple": 6,
             "Sculpture": 5,
@@ -9308,7 +9092,7 @@
                 "notableBuildings": [
                     "Shore Temple in Mahabalipuram"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9321,7 +9105,7 @@
                     "Virupaksha Temple in Pattadakal",
                     "Kailashnath Temple in Ellora"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -9333,7 +9117,7 @@
                 "notableBuildings": [
                     "Brihadeeswarar Temple in Thanjavur"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -9372,11 +9156,7 @@
         ],
         "short": "Vesara architecture style combines elements of Dravidian and Indo-Aryan styles, characterized by sturdiness, intricately carved ornamentation, and a fusion of regional styles.",
         "significance": 5,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Stone": 1,
             "Carvings": 2,
@@ -9494,7 +9274,7 @@
                     "Jain Temple of New York",
                     "Jain Temple of Philadelphia"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9507,7 +9287,7 @@
                     "Shantinath Temple, Girnar",
                     "Sri Mahaveer Swami Jain Temple, Mumbai"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9519,7 +9299,7 @@
                 "notable_buildings": [
                     "Ruins of Somapura Mahavihara"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -9560,11 +9340,7 @@
         ],
         "short": "Jain architecture is a rich and intricate style characterized by ornate temple designs and intricate sculptures, reflecting Jain beliefs and values.",
         "significance": 5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Temple": 8,
             "Pillar": 8,
@@ -9657,7 +9433,7 @@
                 "notable buildings": [
                     "Dilwara Temples"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9669,7 +9445,7 @@
                 "notable buildings": [
                     "Lakkundi temples"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9681,7 +9457,7 @@
                 "notable buildings": [
                     "Sun Temple at Modhera"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -9722,11 +9498,7 @@
         ],
         "short": "Māru-Gurjara architecture style is known for its unique blend of Indian and Islamic architectural elements, prominent in the western state of Rajasthan, India.",
         "significance": 8,
-        "valid": [
-            "No",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 0.66,
         "termsV2": {
             "Temple": 7,
             "Pavilion": 2,
@@ -9836,8 +9608,8 @@
                     "Hōryū-ji",
                     "Shitennō-ji"
                 ],
-                "valid": 0,
-                "quality": 0
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Soga no Umako",
@@ -9849,7 +9621,7 @@
                     "Asukadera",
                     "Kudara-ji"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -9862,7 +9634,7 @@
                     "Gangō-ji",
                     "Tōdai-ji"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -9899,11 +9671,7 @@
         ],
         "short": "Asuka and Nara architecture is characterized by the use of wood, symmetrical layouts, and Buddhist influences, reflecting Japan's early architectural traditions.",
         "significance": 6,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Wood": 6,
             "Minimalism": 3,
@@ -10008,7 +9776,7 @@
                     "To-ji pagoda",
                     "Todai-ji temple"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -10021,7 +9789,7 @@
                     "Katsura Imperial Villa",
                     "Joju-in Temple"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -10034,7 +9802,7 @@
                     "Kyoto Imperial Palace",
                     "Nijo Castle"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -10074,11 +9842,7 @@
         ],
         "short": "The Heian period architecture style was characterized by simplicity, symmetry, and the use of natural materials, reflecting the influence of Chinese design.",
         "significance": 9.5,
-        "valid": [
-            "No",
-            "No",
-            "Yes"
-        ],
+        "valid": 0.33,
         "termsV2": {
             "Byōbu (folding screen)": 1,
             "Shinden-zukuri (residential architecture style)": 1,
@@ -10192,7 +9956,7 @@
                         "year_built": "1579-1583"
                     }
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -10208,7 +9972,7 @@
                         "year_built": "1590"
                     }
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -10229,7 +9993,7 @@
                         "year_built": "1603-1606"
                     }
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -10274,11 +10038,7 @@
         ],
         "short": "Azuchi-Momoyama architecture was a unique blend of traditional Japanese design and new influences, characterized by grand castles, intricate detailing, and bold stylized decorations.",
         "significance": 7.5,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Azuchi Castle": 2,
             "Momoyama Castle": 2,
@@ -10390,8 +10150,8 @@
                 "notable_buildings": [
                     "Matsumoto Castle"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Rokusuke Ei",
@@ -10403,8 +10163,8 @@
                     "Tsunamachi Mitsui Club",
                     "Osaka Castle"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Chohei Anai",
@@ -10415,8 +10175,8 @@
                 "notable_buildings": [
                     "Kyoto's Katsura Imperial Villa"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -10440,8 +10200,8 @@
             ],
             "continent": "Asia",
             "country": "Japan",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 0.33,
             "example_validity": {
                 "Katsura Imperial Villa in Kyoto": 3,
                 "Toshogu Shrine in Nikko": 3,
@@ -10461,11 +10221,7 @@
         "short": "Edo Period architecture in Japan (17th-19th century) was characterized by traditional wooden structures with sliding doors, minimalist design, and integration with nature.",
         "significance": 7,
         "icon": "edo_period.png",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Pagoda": 2,
             "Castle": 2,
@@ -10569,7 +10325,7 @@
                     "Kudan Kaikan",
                     "Nara Hotel"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -10583,7 +10339,7 @@
                     "Minami Azabu Building",
                     "Kodama Gallery"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -10597,7 +10353,7 @@
                     "Tokyo Metropolitan Art Museum",
                     "Yodobashi Church"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -10639,11 +10395,7 @@
         ],
         "short": "Meiji, Taishō, and early Shōwa architecture style in Japan showcased a blend of traditional Japanese elements with Western influences, resulting in a unique fusion of old and new.",
         "significance": 6,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "mansion": 1,
             "temple": 1,
@@ -10751,7 +10503,7 @@
                     "Hiroshima Peace Memorial Museum",
                     "Yoyogi National Gymnasium"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -10765,7 +10517,7 @@
                     "National Ethnographic Museum",
                     "The National Art Center, Tokyo"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -10779,7 +10531,7 @@
                     "The National Museum of Modern Art, Kyoto",
                     "Spiral Building"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -10825,11 +10577,7 @@
             }
         ],
         "short": "Late Showa architecture style in Japan (1960s-1980s) was characterized by a blend of modernist and traditional elements, emphasizing functionality and simplicity.",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Concrete": 9,
             "Glass": 5,
@@ -10946,7 +10694,7 @@
                 "notable_buildings": [
                     "Kinkaku-ji (Golden Pavilion)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -10958,7 +10706,7 @@
                 "notable_buildings": [
                     "Zuihō-in"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -10970,7 +10718,7 @@
                 "notable_buildings": [
                     "Ryōan-ji"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -11015,11 +10763,7 @@
         ],
         "short": "Kamakura and Muromachi architecture styles in Japan were characterized by simplicity, elegance, use of wood, and incorporation of Zen Buddhist principles.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Zen gardens": 3,
             "Shrines": 2,
@@ -11134,8 +10878,8 @@
                     "Bakong Temple",
                     "Lolei Temple"
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 0.33
             },
             {
                 "name": "Isanavarman II",
@@ -11147,8 +10891,8 @@
                     "Phimeanakas",
                     "Baphuon Temple"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.33
             },
             {
                 "name": "Jayavarman VII",
@@ -11160,8 +10904,8 @@
                     "Ta Prohm",
                     "Bayon Temple"
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 0.33
             }
         ],
         "style": {
@@ -11187,8 +10931,8 @@
             ],
             "continent": "Asia",
             "country": "Cambodia",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Angkor Wat": 3,
                 "Bayon Temple": 2,
@@ -11209,11 +10953,7 @@
         ],
         "short": "The Khmer Empire's architecture style is known for its majestic temples, such as Angkor Wat, characterized by intricate carvings, towers, and grand scale.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Angkor Wat": 6,
             "Bayon Temple": 2,
@@ -11331,7 +11071,7 @@
                 "nationality": "Mughal",
                 "description": "Chief Architect of the Taj Mahal",
                 "notable_buildings": "Taj Mahal",
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -11341,7 +11081,7 @@
                 "nationality": "Persian",
                 "description": "Architect and advisor to Emperor Jahangir",
                 "notable_buildings": "Tomb of Jahangir and Akbar's Tomb",
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -11351,7 +11091,7 @@
                 "nationality": "Mughal",
                 "description": "Emperor and architectural patron, known for his love of gardens and landscape design",
                 "notable_buildings": "Shalimar Bagh and Jahangir's Tomb",
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -11397,11 +11137,7 @@
         ],
         "short": "The Mughal Empire's architecture style incorporated elements from Islamic, Persian, and Indian designs, characterized by grandeur, intricate details, and use of domes.",
         "significance": 9,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Domed": 1,
             "Minarets": 4,
@@ -11512,7 +11248,7 @@
                     "Gyeongbokgung Palace",
                     "Bongjeongsa Temple"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11526,7 +11262,7 @@
                     "Hwaseong Fortress",
                     "Chungha Building in Hanyang"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11540,7 +11276,7 @@
                     "Suwon Hwaseong Fortress",
                     "Changgyeonggung Palace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -11584,11 +11320,7 @@
             "Colorful decorative details"
         ],
         "short": "The architecture of the Joseon Dynasty in Korea was characterized by simplicity, elegance, and harmony with nature, incorporating principles of Confucianism and Buddhism.",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Palaces": 2,
             "Gates": 3,
@@ -11692,7 +11424,7 @@
                     "The Chehel Sotoun Palace",
                     "The Ali Qapu Palace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11706,7 +11438,7 @@
                     "The Gonbad-e Ali",
                     "The Dar al-Shifa hospital"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11720,7 +11452,7 @@
                     "The Jame Mosque in Isfahan",
                     "The Safavid Palace in Qazvin"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -11759,11 +11491,7 @@
         ],
         "short": "The Safavid Dynasty architecture style was characterized by grand domed structures, intricate tilework, and the use of Persian motifs and calligraphy.",
         "significance": 6,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosque": 2,
             "Palace": 2,
@@ -11867,7 +11595,7 @@
                     "Thai Hoa Palace",
                     "Mieu Temple"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11880,7 +11608,7 @@
                     "Nam Giao Esplanade",
                     "Cao Dai Temple"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -11893,7 +11621,7 @@
                     "Hue Imperial City",
                     "Dien Huu Pagoda"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -11934,11 +11662,7 @@
         ],
         "short": "The Nguyen Dynasty architecture style in Vietnam is characterized by ornate, intricate designs, vibrant colors, and a harmonious blend of traditional and modern influences.",
         "significance": 9,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Palace": 7,
             "Pagoda": 7,
@@ -12039,7 +11763,7 @@
                     "Mahabodhi Temple",
                     "Pillars of Ashoka"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12051,7 +11775,7 @@
                 "notable_buildings": [
                     "Jain shrines and temples across India"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12063,7 +11787,7 @@
                 "notable_buildings": [
                     "Numerous Hindu temples across India"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -12105,11 +11829,7 @@
         ],
         "short": "The Mauryan Period architecture style was characterized by the use of rock and brick work, with impressive pillared structures and Buddhist stupas.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "err3": 1,
             "Grand": 10,
@@ -12192,7 +11912,7 @@
                 "notable_buildings": [
                     "The Grand Canal of China"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12205,7 +11925,7 @@
                     "Liaodi Pagoda",
                     "Tian Tan Pagoda"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12218,7 +11938,7 @@
                     "Big Wild Goose Pagoda",
                     "Small Wild Goose Pagoda"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -12260,11 +11980,7 @@
         ],
         "short": "Tang Dynasty architecture featured elegant and symmetrical designs, prominent use of brick and wood, multi-story pagodas, and grand imperial palaces.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Palace": 9,
             "Pagoda": 9,
@@ -12349,7 +12065,7 @@
                     "Solomon R. Guggenheim Museum (1959)",
                     "Johnson Wax Headquarters (1936)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12363,7 +12079,7 @@
                     "Farnsworth House (1951)",
                     "Crown Hall (1956)"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -12377,7 +12093,7 @@
                     "Lovell Health House (1929)",
                     "Bailey House (Case Study House #21) (1945)"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -12423,10 +12139,7 @@
         ],
         "short": "Mid-Century Modern: a minimalist architectural style emphasizing simplicity, clean lines, open floor plans, and connection with nature.",
         "significance": 8.5,
-        "valid": [
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Glass": 4,
             "Wood": 2,
@@ -12521,7 +12234,7 @@
                     "Al-Walid's palace in Raqqa",
                     "Qasr al-Hayr al-Gharbi"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -12535,7 +12248,7 @@
                     "Qasr al-Hayr al-Sharqi",
                     "Great Mosque of Aleppo"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12549,7 +12262,7 @@
                     "Church of Saint John in Ephesus",
                     "Baths of Zeuxippus in Constantinople"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -12601,11 +12314,7 @@
         ],
         "short": "The Umayyad Period architecture style featured grand structures with Islamic motifs, such as horseshoe arches, domes, and intricate decoration, influencing future Islamic architecture.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Arches": 4,
             "Domes": 4,
@@ -12707,7 +12416,7 @@
                     "Al-Aqmar Mosque",
                     "Palace of the Caliphs"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12721,7 +12430,7 @@
                     "Qabus Mosque",
                     "Badi' al-Zaman Palace"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12735,7 +12444,7 @@
                     "Selimiye Mosque",
                     "Kilic Ali Pasha Complex"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -12778,11 +12487,7 @@
         ],
         "short": "The Abbasid Period, from the 8th to the 13th century, featured Islamic architecture with grand mosques, elaborate domes, arches, and calligraphy.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosques": 6,
             "Palaces": 6,
@@ -12881,7 +12586,7 @@
                     "Mosque of al-Hakim",
                     "Palace of the Caliphs"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12894,7 +12599,7 @@
                     "Al-Jamali Mosque",
                     "City of Victory"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -12907,7 +12612,7 @@
                     "Alamut Castle",
                     "Lambsar Castle"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -12950,11 +12655,7 @@
         ],
         "short": "Fatimid architecture style was prominent during the 10th-12th centuries in Egypt, characterized by geometric designs, dome structures, and minarets.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "err3": 1,
             "Innovative": 10,
@@ -13045,7 +12746,7 @@
                     "Al-Zahira Palace",
                     "Royal Mosque of Medina Azahara"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -13059,7 +12760,7 @@
                     "Tombs of the Kings of Granada",
                     "Mihrab of the Aljaferia"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -13073,7 +12774,7 @@
                     "Al-Aqsa Mosque",
                     "Umayyad Mosque of Damascus"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -13114,11 +12815,7 @@
         ],
         "short": "The Andalusian architectural style in less than 150 characters is characterized by Islamic influences, use of geometric patterns, ornate decorations, and arches.",
         "significance": 8.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosque": 3,
             "Palace": 3,
@@ -13205,7 +12902,7 @@
                 "notable_buildings": [
                     "Great Mosque of Isfahan"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -13217,7 +12914,7 @@
                 "notable_buildings": [
                     "Gonbad-e Qabus tower"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -13229,7 +12926,7 @@
                 "notable_buildings": [
                     "Nizamiyya madrasas"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -13271,11 +12968,7 @@
         ],
         "short": "The Seljuk Period architecture style, prevalent in the 11th-14th century, is known for its combination of Islamic and Persian influences in intricate designs and decorative elements.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosques": 4,
             "Tombs": 3,
@@ -13364,7 +13057,7 @@
                     "Dome of Al-Sakhina in Cairo",
                     "Mosque of Al-Masjid Al-Aqmar in Cairo"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -13376,7 +13069,7 @@
                 "notable_buildings": [
                     "Tombs of the Mamluk sultans in Cairo"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -13389,7 +13082,7 @@
                     "The Qalawun Complex in Cairo",
                     "The Madrasa of Sultan Hassan in Cairo"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -13430,11 +13123,7 @@
         ],
         "short": "The Mamluk Period architecture style was characterized by intricate geometric patterns, bold calligraphy, and the use of local materials.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosque": 3,
             "Palace": 3,
@@ -13543,7 +13232,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -13557,7 +13246,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -13571,7 +13260,7 @@
                     "Ibrahim Pasha Mosque",
                     "Zal Mahmut Pasha Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -13615,11 +13304,7 @@
         ],
         "short": "The Ottoman Period architecture style is characterized by ornate designs, domes, and minarets, reflecting a fusion of Islamic and Byzantine influences.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosques": 4,
             "Palaces": 4,
@@ -13711,8 +13396,8 @@
                 "notable_buildings": [
                     "Observatory of Samarkand"
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 0.66
             },
             {
                 "name": "Ghiyath al-Din Tughluq",
@@ -13723,8 +13408,8 @@
                 "notable_buildings": [
                     "Tughlaqabad Fort"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Abdul-Qadir Gilani",
@@ -13735,8 +13420,8 @@
                 "notable_buildings": [
                     "Tomb of Abdul-Qadir Gilani"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -13757,8 +13442,8 @@
             ],
             "continent": "Asia",
             "country": "Uzbekistan",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Gur-e-Amir Mausoleum in Samarkand, Uzbekistan": 3,
                 "Registan Square in Samarkand, Uzbekistan": 3,
@@ -13776,11 +13461,7 @@
         ],
         "short": "The Timurid Period architecture style was characterized by intricate tile work, ribbed vaults, and dome structures, blending Persian and Central Asian designs.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosque": 2,
             "Mausoleum": 1,
@@ -13879,8 +13560,8 @@
                     "MAXXI Museum in Rome, Italy",
                     "Riverside Museum in Glasgow, Scotland"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 0.33
             },
             {
                 "name": "Mohammed A. Al-Bayati",
@@ -13893,8 +13574,8 @@
                     "Manqulat Al-Shuhada Mosque in Baghdad, Iraq",
                     "Al-Nasiriyah Olympic Stadium in Nasiriyah, Iraq"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Hassan Fathy",
@@ -13907,8 +13588,8 @@
                     "Dar Al-Islam in Abiquiu, New Mexico",
                     "Abu al-Reesh Pediatric Hospital in Cairo, Egypt"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 0.33
             }
         ],
         "style": {
@@ -13928,8 +13609,8 @@
             ],
             "continent": "Asia",
             "country": "Various countries in the Middle East and Southeast Asia",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "The Abraj Al Bait Clock Tower in Mecca, Saudi Arabia": 2,
                 "The Petronas Towers in Kuala Lumpur, Malaysia": 1,
@@ -13958,11 +13639,7 @@
         ],
         "short": "Modern Islamic architecture merges traditional Islamic design elements with contemporary aesthetics, focusing on simplicity, functionality, and sustainability.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Geometry": 1,
             "Calligraphy": 7,
@@ -14061,7 +13738,7 @@
                     "Abrolhos Island Lodge, WA",
                     "Desert Knowledge Australia Centre, NT"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14074,7 +13751,7 @@
                     "Alice Springs Desert Park, NT",
                     "Mutitjulu Waterhole, Uluṟu-Kata Tjuṯa National Park, NT"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14088,7 +13765,7 @@
                     "Rivendell House, NSW",
                     "Coastal House, NSW"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -14128,11 +13805,7 @@
         ],
         "short": "Indigenous Australian architecture is characterized by its connection to the land, use of natural materials, and harmonious integration with the environment.",
         "significance": 8.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Bush": 2,
             "Earth": 2,
@@ -14249,7 +13922,7 @@
                     "Mystical Rose Oratory at Saint Louis School in Honolulu, Hawaii",
                     "Maryknoll School's new Sullivan Center in Honolulu, Hawaii"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14262,7 +13935,7 @@
                     "Fale O Samoa, a traditional Samoan meeting house in Auckland, New Zealand",
                     "Otatara House, a contemporary Polynesian-style residence in Dunedin, New Zealand"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14275,7 +13948,7 @@
                     "Free Wesleyan Church of Tonga, a grand cathedral in Nuku'alofa, Tonga",
                     "Ha'apai High School, a school complex in the Ha'apai Islands, Tonga"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -14320,11 +13993,7 @@
         ],
         "short": "Polynesian architecture is characterized by its open-air structures, thatched roofs, natural materials, and harmonious integration with the surrounding environment.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Hut": 1,
             "Thatched roof": 6,
@@ -14447,7 +14116,7 @@
                     "Fairmont Pacific Rim",
                     "The Private Residences at Hotel Georgia"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14459,7 +14128,7 @@
                 "notable_buildings": [
                     "Iwikau Village"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -14473,7 +14142,7 @@
                     "Kings Road House",
                     "Fitzpatrick-Leland House"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -14517,11 +14186,7 @@
         ],
         "short": "Pacific Islander architecture style is characterized by open-air spaces, thatched roofs, natural materials, intricate carvings, and harmonious integration with the surrounding environment.",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Thatched roof": 4,
             "Bamboo": 7,
@@ -14655,7 +14320,7 @@
                     "Simpson-Lee House",
                     "Bowali Visitor Information Centre"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -14669,7 +14334,7 @@
                     "Wall House",
                     "Mansfield House"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -14683,7 +14348,7 @@
                     "Bali Villas",
                     "Rockpool Bar & Grill Perth"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -14724,11 +14389,7 @@
         ],
         "short": "Contemporary Oceania architecture style embodies a fusion of modern design elements and indigenous cultural influence found in the Pacific region.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Ocean": 5,
             "Nature": 6,
@@ -14831,7 +14492,7 @@
                     "First Nations University of Canada",
                     "St. Albert Place"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -14845,7 +14506,7 @@
                     "Opera Village",
                     "Burkina Faso National Assembly"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -14859,7 +14520,7 @@
                     "Sumaj Orcko Eco-Resort",
                     "Mausoleum of the ex-president Juan Lechín Oquendo"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -14906,11 +14567,7 @@
         ],
         "short": "Indigenous Contemporary architecture blends traditional designs and materials with modern elements, representing the cultural heritage in a contemporary context.",
         "significance": 7.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Culture": 8,
             "Tradition": 7,
@@ -14995,8 +14652,8 @@
                     "Dar al-Islam",
                     "Karanis House"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Nader Khalili",
@@ -15009,8 +14666,8 @@
                     "Ecorock",
                     "Vaulted Houses"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 0.66
             },
             {
                 "name": "Simone Swan",
@@ -15023,8 +14680,8 @@
                     "Aragon House",
                     "California House"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -15064,8 +14721,8 @@
                 "Morocco",
                 "Tunisia"
             ],
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "The ancient city of Jericho in Palestine": 3,
                 "The Great Mosque of Djenne in Mali": 3,
@@ -15085,11 +14742,7 @@
         ],
         "short": "Mud Brick architecture style utilizes clay-based materials to construct buildings, blending with the natural environment to create sustainable, earthen structures.",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Adobe": 6,
             "Clay": 3,
@@ -15194,8 +14847,8 @@
                     "Wingspread",
                     "Kentuck Knob"
                 ],
-                "valid": 1,
-                "quality": 1
+                "valid": 0.33,
+                "quality": 0.0
             },
             {
                 "name": "Le Corbusier",
@@ -15208,8 +14861,8 @@
                     "Unité d'Habitation",
                     "Chapel of Notre Dame du Haut"
                 ],
-                "valid": 0,
-                "quality": 1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Bjarke Ingels",
@@ -15222,8 +14875,8 @@
                     "8 House",
                     "Danish National Maritime Museum"
                 ],
-                "valid": 0,
-                "quality": 1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -15242,7 +14895,7 @@
                 "South America (Peru, Brazil)",
                 "North America (Louisiana Florida)."
             ],
-            "example_quality": 0,
+            "example_quality": 0.0,
             "continent": [
                 "Asia",
                 "Africa",
@@ -15260,7 +14913,7 @@
                 "Louisiana",
                 "Florida"
             ],
-            "quality": 3,
+            "quality": 1.0,
             "example_validity": {
                 "Southeast Asia (Malaysia, Indonesia, Thailand)": 3,
                 "Africa (Nigeria Cameroon)": 0,
@@ -15279,11 +14932,7 @@
         "Start_Year": "6000 BCE",
         "End_Year": "present",
         "significance": 8,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "stilt": 3,
             "house": 4,
@@ -15378,7 +15027,7 @@
                     "Walt Disney Concert Hall (United States)",
                     "Dancing House (Czech Republic)"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -15392,7 +15041,7 @@
                     "Guangzhou Opera House (China)",
                     "MAXXI National Museum of the 21st Century Arts (Italy)"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -15406,7 +15055,7 @@
                     "Museum of Contemporary Art & Planning Exhibition (China)",
                     "Dalian International Conference Center (China)"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -15449,11 +15098,7 @@
         "End_Year": "present",
         "icon": "blobitecture.png",
         "significance": 6.5,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Blob": 5,
             "Organic": 17,
@@ -15526,7 +15171,7 @@
                     "Bob Hope's Space Age House",
                     "Sheats Goldstein Residence"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -15540,7 +15185,7 @@
                     "Pann's Restaurant",
                     "Johnie's Coffee Shop (now closed)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -15554,7 +15199,7 @@
                     "Theme Building at Los Angeles International Airport",
                     "Pioneer Chicken Stand"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -15599,11 +15244,7 @@
         "Start_Year": "1945 CE",
         "End_Year": "1970 CE",
         "icon": "googie.png",
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Jet": 3,
             "Rocket": 3,
@@ -15695,7 +15336,7 @@
                     "Fly's Eye Dome in the United States",
                     "U.S. Pavilion at Expo '67 in Canada"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -15709,7 +15350,7 @@
                     "Schindler House in the United States",
                     "How House in the United States"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -15723,7 +15364,7 @@
                     "Multihalle in Germany",
                     "Aviary at Munich Zoo in Germany"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -15762,11 +15403,7 @@
         "Start_Year": "1000 BCE",
         "End_Year": "1800 CE",
         "icon": "igloo.png",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Snow": 10,
             "Ice": 11,
@@ -15862,7 +15499,7 @@
                 "notable_buildings": [
                     "Taj Mahal"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -15875,7 +15512,7 @@
                     "Shalimar Bagh",
                     "Nishat Bagh"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -15888,7 +15525,7 @@
                     "Qutub Minar",
                     "Quwwat-ul-Islam Mosque"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -15935,11 +15572,7 @@
         "End_Year": "1700 CE",
         "icon": "indo-islamic.png",
         "significance": 8,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Mosque": 7,
             "Minaret": 7,
@@ -16024,8 +15657,8 @@
                     "Prince of Wales Museum, Mumbai",
                     "Maharaja's Palace, Kolhapur"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             },
             {
                 "name": "Robert Fellowes Chisholm",
@@ -16038,8 +15671,8 @@
                     "Victoria Memorial Hall, Kolkata",
                     "Athens of the East, Madurai"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 1.0
             },
             {
                 "name": "Henry Irwin",
@@ -16052,8 +15685,8 @@
                     "Bangalore Palace, Bengaluru",
                     "Government Museum, Chennai"
                 ],
-                "valid": 3,
-                "quality": -1
+                "valid": 1.0,
+                "quality": 1.0
             }
         ],
         "style": {
@@ -16078,8 +15711,8 @@
             ],
             "continent": "Asia",
             "country": "India",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India": 3,
                 "Mysore Palace in Mysore, India": 3,
@@ -16098,11 +15731,7 @@
         "Start_Year": "1795 CE",
         "End_Year": "1947 CE",
         "icon": "indo-saracenic.png",
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Mosque": 3,
             "Palace": 3,
@@ -16224,7 +15853,7 @@
                     "Basilica Palladiana",
                     "Teatro Olimpico"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -16238,7 +15867,7 @@
                     "University of Virginia",
                     "Virginia State Capitol"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -16252,7 +15881,7 @@
                     "Queen's House",
                     "Covent Garden Piazza"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -16296,11 +15925,7 @@
         "Start_Year": "1700 CE",
         "End_Year": "1800 CE",
         "icon": "palladian.png",
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Villa": 8,
             "Palace": 3,
@@ -16378,7 +16003,7 @@
                     "Fallingwater, Pennsylvania",
                     "Taliesin East and Taliesin West, Wisconsin and Arizona"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -16392,7 +16017,7 @@
                     "Unity Temple, Illinois",
                     "Canberra, Australia (urban planning and design)"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -16406,7 +16031,7 @@
                     "Purcell-Cutts House, Minnesota",
                     "Ralston Corner Condominiums, Illinois"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -16447,11 +16072,7 @@
         "End_Year": "1920 CE",
         "icon": "prairie.png",
         "significance": 9,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Horizontal lines": 5,
             "Low-pitched roofs": 5,
@@ -16557,7 +16178,7 @@
                     "Buckingham Palace",
                     "The Royal Pavilion, Brighton"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -16571,7 +16192,7 @@
                     "Dulwich Picture Gallery",
                     "Sir John Soane's Museum, London"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -16585,7 +16206,7 @@
                     "York Theatre Royal",
                     "Lincoln's Inn Hall"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -16627,11 +16248,7 @@
         "End_Year": "1815 CE",
         "icon": "regency.png",
         "significance": 7,
-        "valid": [
-            "Yes",
-            "No",
-            "No"
-        ],
+        "valid": 0.33,
         "termsV2": {
             "Dome": 2,
             "Arch": 2,
@@ -16732,7 +16349,7 @@
                     "New Gourna Village (near Luxor, Egypt)",
                     "Dar al-Islam (New Mexico, USA)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -16745,7 +16362,7 @@
                     "Seville Cathedral (Spain)",
                     "Palace of San Telmo (Spain)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -16758,7 +16375,7 @@
                     "Belmont Parish Church (Scotland)",
                     "Culzean Castle (Scotland)"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -16807,11 +16424,7 @@
         "Start_Year": "800 CE",
         "End_Year": "1400 CE",
         "icon": "moorish.png",
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Arch": 1,
             "Arches": 8,
@@ -16907,7 +16520,7 @@
                     "The Castle of Pierrefonds, France",
                     "Sainte-Chapelle, Paris, France"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -16920,7 +16533,7 @@
                     "Palace of Versailles, France",
                     "Château de Maisons-Laffitte, France"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -16933,7 +16546,7 @@
                     "La Almudena Cathedral, Madrid, Spain",
                     "Royal Palace of La Granja de San Ildefonso, Spain"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -16989,11 +16602,7 @@
         "End_Year": "1930 CE",
         "icon": "moorish_revival.png",
         "significance": 8.5,
-        "valid": [
-            "Yes",
-            "Yes",
-            "Yes"
-        ],
+        "valid": 1.0,
         "termsV2": {
             "Moorish": 2,
             "Revival": 2,
@@ -17098,7 +16707,7 @@
                     "Selimiye Mosque",
                     "Rustem Pasha Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -17112,7 +16721,7 @@
                     "Tughra Palace",
                     "Bath (Hammam) of Sokollu Mehmet Pasha"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -17126,7 +16735,7 @@
                     "Bayezid II Mosque",
                     "Eyüp Sultan Mosque"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -17170,11 +16779,7 @@
         "significance": 9,
         "Start_Year": "1299 CE",
         "End_Year": "1922 CE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Mosque": 6,
             "Minaret": 9,
@@ -17275,8 +16880,8 @@
                     "Phra Tamnak Isaret Rachanuson",
                     "Thammasat University Auditorium"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "M.R. Kukrit Pramoj",
@@ -17289,8 +16894,8 @@
                     "Suan Pakkad Palace",
                     "Piman Rattaya Mansion"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Tevfik Balmuk",
@@ -17303,8 +16908,8 @@
                     "Mahadthai Vidhya Stateroom",
                     "The Emerald Buddha Temple Renovation"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -17326,8 +16931,8 @@
             ],
             "continent": "Asia",
             "country": "Thailand",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 1.0,
             "example_validity": {
                 "Wat Arun": 3,
                 "Wat Phra Kaew": 3,
@@ -17345,11 +16950,7 @@
         "Start_Year": "1000 CE",
         "End_Year": "present",
         "significance": 8.5,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Wat": 4,
             "Chedi": 4,
@@ -17473,8 +17074,8 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 1.0
             },
             {
                 "name": "Ustad Isa",
@@ -17492,8 +17093,8 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "valid": 2,
-                "quality": -1
+                "valid": 0.66,
+                "quality": 1.0
             },
             {
                 "name": "Muhammad Reza Isfahani",
@@ -17511,8 +17112,8 @@
                         "location": "Isfahan, Iran"
                     }
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             }
         ],
         "style": {
@@ -17538,8 +17139,8 @@
             ],
             "continent": "Asia",
             "country": "Iran",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 0.8,
+            "example_quality": 0.66,
             "example_validity": {
                 "Persepolis": 2,
                 "Pasargadae": 3,
@@ -17559,11 +17160,7 @@
         "Start_Year": "600 BCE",
         "End_Year": "600 CE",
         "significance": 9,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Iwan": 8,
             "Mihrab": 6,
@@ -17656,8 +17253,8 @@
                     "Fort Jesus",
                     "Old Dispensary"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.0
             },
             {
                 "name": "Ali Mbarouk Vuga",
@@ -17670,8 +17267,8 @@
                     "Gede Ruins Visitor Center",
                     "Shela Village Mosque"
                 ],
-                "valid": 1,
-                "quality": -1
+                "valid": 0.33,
+                "quality": 0.0
             },
             {
                 "name": "Mariam Kamara",
@@ -17684,8 +17281,8 @@
                     "Da Na Awa Mosque",
                     "Yacine Cultural Center"
                 ],
-                "valid": 0,
-                "quality": -1
+                "valid": 0.0,
+                "quality": 0.33
             }
         ],
         "style": {
@@ -17711,8 +17308,8 @@
             ],
             "continent": "Africa",
             "country": "Kenya and Tanzania",
-            "quality": -1,
-            "example_quality": -1,
+            "quality": 1.0,
+            "example_quality": 0.6,
             "example_validity": {
                 "Fort Jesus in Mombasa, Kenya": 3,
                 "Old Town of Lamu, Kenya": 3,
@@ -17731,11 +17328,7 @@
         "significance": 7,
         "Start_Year": "800 CE",
         "End_Year": "1800 CE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Coast": 1,
             "Coral": 2,
@@ -17856,7 +17449,7 @@
                     "Canberra, Australia: The capital city of Australia, designed by Griffin in 1913."
                 ],
                 "architecture_style": "Federation",
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -17869,7 +17462,7 @@
                     "New South Wales, Australia: Woods designed several federation style residences in New South Wales."
                 ],
                 "architecture_style": "Federation",
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -17882,7 +17475,7 @@
                     "Royal National Park, Australia: Hunt designed several federation style picnic shelters within the Royal National Park."
                 ],
                 "architecture_style": "Federation",
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             }
         ],
@@ -17927,11 +17520,7 @@
         "short": "Federation\" is an architectural style that enables different systems to work together as a unified whole while respecting their autonomy and diversity.",
         "Start_Year": "1950 CE",
         "End_Year": "present",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Decentralization": 9,
             "Autonomy": 9,
@@ -18000,7 +17589,7 @@
                     "National Museum of Contemporary Art",
                     "Dojeon Residences"
                 ],
-                "valid": 2,
+                "valid": 0.66,
                 "quality": -1
             },
             {
@@ -18014,7 +17603,7 @@
                     "Gyeongbokgung Palace restoration",
                     "War Memorial of Korea"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18027,7 +17616,7 @@
                     "Yoo's Family Guesthouse",
                     "Haeundae I'Park Marina"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -18072,11 +17661,7 @@
         "significance": 8,
         "Start_Year": "1400 CE",
         "End_Year": "present",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Hanok": 10,
             "Bukcheong-sa": 1,
@@ -18197,7 +17782,7 @@
                     "Mall Pacific Place in Jakarta",
                     "Grand Indonesia Shopping Town Tower Signature, Jakarta"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18211,7 +17796,7 @@
                     "Gedung Sate in Bandung",
                     "Masjid Agung Jawa Tengah in Semarang"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -18225,7 +17810,7 @@
                     "Mesjid Raya Batam",
                     "Pavilion and Information Center of Kali Code Cultural Park in Yogyakarta"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -18275,11 +17860,7 @@
         "significance": 6,
         "Start_Year": "600 BCE",
         "End_Year": "600 CE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Joglo": 5,
             "Panggung": 1,
@@ -18398,7 +17979,7 @@
                     "Ho Chi Minh Mausoleum, Hanoi",
                     "Ho Chi Minh Museum, Hanoi"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18412,7 +17993,7 @@
                     "Vietnamese History Museum, Hanoi",
                     "Presidential Palace, Hanoi"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             },
             {
@@ -18426,7 +18007,7 @@
                     "Hoi An Ancient Town, Quang Nam Province",
                     "Citadel of Hue, Thua Thien-Hue Province"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -18467,11 +18048,7 @@
         "Start_Year": "600 CE",
         "End_Year": "present",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Pagoda": 9,
             "Temple": 8,
@@ -18582,7 +18159,7 @@
                     "Villa Savoye (Poissy, France)",
                     "Chandigarh Capitol Complex (Chandigarh, India)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18596,7 +18173,7 @@
                     "Dar al-Islam Mosque (Abiquiú, New Mexico, USA)",
                     "Korba Penthouse (Cairo, Egypt)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18610,7 +18187,7 @@
                     "Torcuato di Tella Institute (Buenos Aires, Argentina)",
                     "Casa Anacleto (Mar del Plata, Argentina)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -18657,11 +18234,7 @@
         "significance": 8,
         "Start_Year": "600 CE",
         "End_Year": "present",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "adobe": 2,
             "clay": 2,
@@ -18771,7 +18344,7 @@
                     "Dar al-Islam (United States)",
                     "New Baris Village (Egypt)"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -18784,7 +18357,7 @@
                     "Maison Nataal (Burkina Faso)",
                     "Institut African d'Architecture (Burkina Faso)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -18797,7 +18370,7 @@
                     "Nubia Museum (Egypt)",
                     "Nubian Cultural Center (Egypt)"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             }
         ],
@@ -18840,11 +18413,7 @@
         "significance": 8.5,
         "Start_Year": "3000 BCE",
         "End_Year": "1500 BCE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "pyramids": 4,
             "temples": 4,
@@ -18957,7 +18526,7 @@
                     "Hussain-Doshi Gufa, Ahmedabad",
                     "Sangath, Ahmedabad"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -18971,7 +18540,7 @@
                     "National Crafts Museum, New Delhi",
                     "Mahatma Gandhi Memorial Museum, Ahmedabad"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -18985,7 +18554,7 @@
                     "Asian Games Village, New Delhi",
                     "National Institute of Immunology, New Delhi"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -19033,11 +18602,7 @@
         "Start_Year": "300 BCE",
         "End_Year": "present",
         "significance": 7,
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Temple": 8,
             "Palace": 7,
@@ -19133,7 +18698,7 @@
                     "Baltimore Basilica, Baltimore, Maryland",
                     "Bank of Pennsylvania, Philadelphia, Pennsylvania"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -19147,7 +18712,7 @@
                     "U.S. Capitol Building (Wings), Washington, D.C.",
                     "King's Chapel, Boston, Massachusetts"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -19161,7 +18726,7 @@
                     "Gardner-Pingree House, Salem, Massachusetts",
                     "Hamilton Hall, Salem, Massachusetts"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -19207,11 +18772,7 @@
         "Start_Year": "1790 CE",
         "End_Year": "1850 CE",
         "icon": "federal.png",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Columns": 7,
             "Porticos": 3,
@@ -19301,7 +18862,7 @@
                     "Unité d'habitation",
                     "Chandigarh Capitol Complex"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -19315,7 +18876,7 @@
                     "Seagram Building",
                     "Farnsworth House"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             },
             {
@@ -19329,7 +18890,7 @@
                     "Palace of Labour",
                     "The Pirelli Tower"
                 ],
-                "valid": 3,
+                "valid": 1.0,
                 "quality": -1
             }
         ],
@@ -19369,11 +18930,7 @@
         "significance": 7.5,
         "Start_Year": "1924 CE",
         "End_Year": "1980 CE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Geometry": 6,
             "Logic": 4,
@@ -19463,7 +19020,7 @@
                     "Step Pyramid of Djoser",
                     "Mastaba of Mereruka"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -19476,7 +19033,7 @@
                     "Etemenanki (Tower of Babel)",
                     "Ziggurat of Ur"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -19489,7 +19046,7 @@
                     "Ziggurat of Ur",
                     "Courtyard of the Royal Palace in Ur"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -19531,11 +19088,7 @@
         "short": "Sumerian architecture involved the use of mud-brick constructions, ziggurats, and monumental city walls, reflecting their advanced civilization in ancient Mesopotamia.",
         "Start_Year": "5000 BCE",
         "End_Year": " 2004 BCE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "ziggurat": 2,
             "temple": 2,
@@ -19643,7 +19196,7 @@
                     "Dar al-Islam, Abiquiú, New Mexico, USA",
                     "Fisherman's Village, Rashid, Egypt"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -19657,7 +19210,7 @@
                     "Guggenheim Museum, New York City, USA",
                     "Taliesin West, Scottsdale, Arizona, USA"
                 ],
-                "valid": 0,
+                "valid": 0.0,
                 "quality": -1
             },
             {
@@ -19671,7 +19224,7 @@
                     "Guangzhou Opera House, Guangzhou, China",
                     "MAXXI National Museum of the 21st Century Arts, Rome, Italy"
                 ],
-                "valid": 1,
+                "valid": 0.33,
                 "quality": -1
             }
         ],
@@ -19710,11 +19263,7 @@
         "short": "Uruk architecture style was characterized by massive mud-brick structures, complex city planning with walls, temples, and ziggurats in ancient Mesopotamia.",
         "Start_Year": " 4000 BCE",
         "End_Year": " 3100 BCE",
-        "valid": [
-            "No",
-            "No",
-            "No"
-        ],
+        "valid": 0.0,
         "termsV2": {
             "Ziggurat": 7,
             "Temple": 6,
