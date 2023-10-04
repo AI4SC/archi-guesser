@@ -58,6 +58,7 @@
                 "Tikal"
             ],
             "example_quality": 1.0,
+            "existence": 0.66,
             "continent": "North America",
             "country": [
                 "Mexico",
@@ -160,7 +161,8 @@
             "Jaguars": 1
         },
         "style_area": "C. & S. America",
-        "name": "Mesoamerican"
+        "name": "Mesoamerican",
+        "valid2": 0.6666666666666666
     },
     "Stilt House": {
         "architects": [
@@ -224,6 +226,7 @@
                 "North America (Louisiana Florida)."
             ],
             "example_quality": 0.0,
+            "existence": 0.33,
             "continent": [
                 "Asia",
                 "Africa",
@@ -340,7 +343,8 @@
             "Wood": 1
         },
         "style_area": "C. & S. America",
-        "name": "Stilt House"
+        "name": "Stilt House",
+        "valid2": 1.0
     },
     "Colonial Revival": {
         "architects": [
@@ -401,6 +405,7 @@
                 "The Biltmore Estate in Asheville, North Carolina"
             ],
             "example_quality": 0.33,
+            "existence": 0.66,
             "quality": 1.0,
             "continent": "North America",
             "country": "United States of America",
@@ -504,7 +509,8 @@
             "err1": 1
         },
         "style_area": "Anglo World",
-        "name": "Colonial Revival"
+        "name": "Colonial Revival",
+        "valid2": 1.0
     },
     "Victorian": {
         "architects": [
@@ -565,6 +571,7 @@
                 "The Victoria and Albert Museum in London"
             ],
             "example_quality": 1.0,
+            "existence": 0.66,
             "quality": 1.0,
             "continent": "Europe",
             "country": "United Kingdom",
@@ -655,7 +662,8 @@
         },
         "valid": 0.66,
         "style_area": "Anglo World",
-        "name": "Victorian"
+        "name": "Victorian",
+        "valid2": 1.0
     },
     "Art Deco": {
         "architects": [
@@ -732,6 +740,7 @@
             ],
             "example_quality": 1.0,
             "quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Chrysler Building in New York City": 3,
                 "The Daily Express Building in Manchester, UK": 3,
@@ -831,7 +840,8 @@
         },
         "valid": 1.0,
         "style_area": "Anglo World",
-        "name": "Art Deco"
+        "name": "Art Deco",
+        "valid2": 1.0
     },
     "Colonial": {
         "architects": [
@@ -910,6 +920,7 @@
                 "Vietnam"
             ],
             "example_quality": 0.33,
+            "existence": 0.66,
             "quality": 0.66,
             "example_validity": {
                 "Spanish Colonial Revival architecture in California": 3,
@@ -1020,7 +1031,8 @@
             "Historical": 1
         },
         "style_area": "Intercultural",
-        "name": "Colonial"
+        "name": "Colonial",
+        "valid2": 1.0
     },
     "Brutalism": {
         "architects": [
@@ -1127,6 +1139,7 @@
                 "USA"
             ],
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "National Theatre in London, UK": 3,
@@ -1215,7 +1228,8 @@
         },
         "valid": 1.0,
         "style_area": "Intercultural",
-        "name": "Brutalism"
+        "name": "Brutalism",
+        "valid2": 1.0
     },
     "Contemporary": {
         "architects": [
@@ -1309,6 +1323,7 @@
             "continent": "Multiple",
             "country": "Various",
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "Guggenheim Museum Bilbao in Spain": 3,
@@ -1395,7 +1410,160 @@
             "Industrial": 1
         },
         "style_area": "Intercultural",
-        "name": "Contemporary"
+        "name": "Contemporary",
+        "valid2": 1.0
+    },
+    "Ancient Greek": {
+        "architects": [
+            {
+                "name": "Phidias",
+                "birth_date": "c. 480 BCE",
+                "nationality": "Greek",
+                "description": "A celebrated sculptor, architect, and master builder who worked primarily in Athens. He is best known for his monumental statues and reliefs, including the statue of Athena Parthenos in the Parthenon.",
+                "notable_buildings": [
+                    "Parthenon"
+                ],
+                "valid": 0.33,
+                "quality": 1.0
+            },
+            {
+                "name": "Iktinos",
+                "birth_date": "c. 480 BCE",
+                "nationality": "Greek",
+                "description": "A Greek architect who designed the Parthenon together with Callicrates. Although very little is known about his life, Iktinos' contribution to the Parthenon is considered one of the finest examples of classical Greek architecture.",
+                "notable_buildings": [
+                    "Parthenon"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Mnesicles",
+                "birth_date": "5th century BCE",
+                "nationality": "Greek",
+                "description": "A notable Greek architect who was responsible for the design of the Propylaea, the gateway to the Acropolis. Mnesicles' was known for his use of curved walls and his ability to create dramatic and imposing entrances to important buildings.",
+                "notable_buildings": [
+                    "Propylaea"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Callicrates",
+                "birth_date": "5th century BC",
+                "nationality": "Greek",
+                "description": "One of the two main architects who designed the Parthenon",
+                "notable_buildings": [
+                    "Parthenon"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            }
+        ],
+        "style": {
+            "time_range": "5th century BCE to 4th century BCE",
+            "period": "Classical",
+            "description": "Greek Classical architecture is characterized by its simplicity, harmony, and order. Buildings were designed to be functional and aesthetically pleasing, with a focus on proportion and balance. The style is known for its use of columns, capitals, and friezes, as well as pediments, cornices, and entablatures. The Greek Classical style influenced architecture throughout Europe and continues to be a major influence in modern architecture.",
+            "characteristics": [
+                "Symmetry and proportion",
+                "Use of columns, capitals, and friezes",
+                "Pediments, cornices, and entablatures",
+                "Simple, elegant designs"
+            ],
+            "examples": [
+                "Parthenon in Athens",
+                "Temple of Apollo at Delphi",
+                "Temple of Hephaestus in Athens"
+            ],
+            "continent": "Europe",
+            "country": "Greece",
+            "example_validity": {
+                "Parthenon in Athens": 3,
+                "Temple of Apollo at Delphi": 3,
+                "Temple of Hephaestus in Athens": 3
+            },
+            "example_quality": 1.0,
+            "existence": 1.0,
+            "quality": 1.0
+        },
+        "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style",
+        "Start_Year": "900 BCE",
+        "End_Year": "146 BCE",
+        "icon": "ancient_greek.png",
+        "character": [
+            "Ancient Greek architecture is recognized for its elegant columns, mainly the Doric, Ionic, and Corinthian orders. These columns were the main support system for buildings, with distinctive features and proportions.",
+            "Pediments are triangular elements that were often found at the gable ends of Greek temples. They were adorned with sculptures and played an important role in adding artistic and decorative elements to the architecture.",
+            "Ancient Greek architecture placed great importance on symmetry and balance. Buildings were designed with harmonious proportions, such as having an equal number of columns on each side, creating a sense of visual equilibrium."
+        ],
+        "short": "Ancient Greek architecture style is characterized by harmonious proportions, use of columns, symmetry, and iconic structures like the Parthenon.",
+        "significance": 9,
+        "termsV2": {
+            "Temple": 6,
+            "Column": 7,
+            "Dome": 1,
+            "Pediment": 10,
+            "Frieze": 10,
+            "Acropolis": 4,
+            "Entablature": 10,
+            "Stoa": 3,
+            "Peristyle": 4,
+            "Agora": 1,
+            "c": 20,
+            "Harmonious": 9,
+            "Symmetrical": 10,
+            "Elegant": 10,
+            "Proportional": 9,
+            "Majestic": 1,
+            "Rational": 1,
+            "Timeless": 10,
+            "Balanced": 5,
+            "Durable": 2,
+            "Refined": 9,
+            "Doric column": 2,
+            "Ionic column": 2,
+            "Corinthian column": 2,
+            "Portico": 4,
+            "Enduring": 1,
+            "Simple": 1,
+            "Graceful": 5,
+            "Orderly": 4,
+            "Colonnade": 1,
+            "Doric order": 3,
+            "Ionic order": 3,
+            "Corinthian order": 3,
+            "Caryatid": 3,
+            "Monumental": 3,
+            "Classic": 2,
+            "Metope": 5,
+            "Doric": 3,
+            "Ionic": 3,
+            "Corinthian": 3,
+            "Sculptural": 1,
+            "Parthenon": 1,
+            "Stele": 1,
+            "Classical": 2,
+            "Doric Order": 1,
+            "Ionic Order": 1,
+            "Corinthian Order": 1,
+            "Theater": 1,
+            "Harmonic": 1,
+            "Structural": 1,
+            "Stately": 2,
+            "Precise": 1,
+            "Idealized": 2,
+            "Proportionate": 1,
+            "Ornate": 1,
+            "Gracious": 1,
+            "Capital": 1,
+            "Innovative": 2,
+            "Influential": 1,
+            "Purposeful": 1,
+            "Stylized": 1
+        },
+        "valid": 0.0,
+        "name": "Ancient Greek",
+        "style_area": "Europe",
+        "valid2": 1.0
     },
     "Ancient Roman": {
         "architects": [
@@ -1447,6 +1615,7 @@
             "continent": "Europe",
             "country": "Italy",
             "example_quality": 1.0,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "Colosseum": 3,
@@ -1527,7 +1696,8 @@
         },
         "valid": 0.33,
         "style_area": "Europe",
-        "name": "Ancient Roman"
+        "name": "Ancient Roman",
+        "valid2": 1.0
     },
     "Romanesque": {
         "architects": [
@@ -1594,6 +1764,7 @@
                 "Italy"
             ],
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "St. Sernin, Toulouse": 3,
@@ -1686,7 +1857,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Romanesque"
+        "name": "Romanesque",
+        "valid2": 1.0
     },
     "Gothic": {
         "architects": [
@@ -1761,6 +1933,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Notre-Dame de Paris": 3,
                 "Westminster Abbey": 3,
@@ -1865,7 +2038,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Gothic"
+        "name": "Gothic",
+        "valid2": 1.0
     },
     "Baroque": {
         "architects": [
@@ -1935,6 +2109,7 @@
             ],
             "quality": 1.0,
             "example_quality": 0.75,
+            "existence": 1.0,
             "example_validity": {
                 "Palace of Versailles, France": 3,
                 "St. Peter's Basilica, Vatican City": 3,
@@ -2039,7 +2214,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Baroque"
+        "name": "Baroque",
+        "valid2": 1.0
     },
     "Renaissance": {
         "architects": [
@@ -2106,6 +2282,7 @@
             "country": "Italy",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "St. Peter's Basilica in Vatican City": 3,
                 "Palazzo Rucellai in Florence, Italy": 3,
@@ -2212,7 +2389,8 @@
         },
         "valid": 0.0,
         "style_area": "Europe",
-        "name": "Renaissance"
+        "name": "Renaissance",
+        "valid2": 1.0
     },
     "Neoclassical": {
         "architects": [
@@ -2276,6 +2454,7 @@
             "country": "France",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "The White House in Washington D.C.": 3,
                 "The École Militaire in Paris": 3,
@@ -2351,7 +2530,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Neoclassical"
+        "name": "Neoclassical",
+        "valid2": 1.0
     },
     "Art Nouveau": {
         "architects": [
@@ -2425,6 +2605,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Hôtel Tassel in Brussels, Belgium": 3,
                 "Majolikahaus in Vienna, Austria": 3,
@@ -2517,7 +2698,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Art Nouveau"
+        "name": "Art Nouveau",
+        "valid2": 1.0
     },
     "Bauhaus": {
         "architects": [
@@ -2580,6 +2762,7 @@
             "country": "Germany",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Bauhaus building in Dessau": 3,
                 "Fagus Factory in Alfeld": 0,
@@ -2676,7 +2859,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Bauhaus"
+        "name": "Bauhaus",
+        "valid2": 1.0
     },
     "Muscovite": {
         "architects": [
@@ -2741,6 +2925,7 @@
             "country": "Russia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "St. Basil's Cathedral": 3,
                 "The Cathedral of the Assumption": 3,
@@ -2883,7 +3068,8 @@
             "Grandiose": 1
         },
         "style_area": "Eurasia",
-        "name": "Muscovite"
+        "name": "Muscovite",
+        "valid2": 0.6666666666666666
     },
     "Constructivism": {
         "architects": [
@@ -2954,6 +3140,7 @@
             "country": "Russia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Narkomfin Building in Moscow, Russia": 3,
                 "Tsentrosoyuz Building in Moscow, Russia": 3,
@@ -3056,7 +3243,8 @@
             "Nonconformist": 1
         },
         "style_area": "Eurasia",
-        "name": "Constructivism"
+        "name": "Constructivism",
+        "valid2": 0.6666666666666666
     },
     "Mud Brick": {
         "architects": [
@@ -3142,6 +3330,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.33,
             "example_validity": {
                 "The ancient city of Jericho in Palestine": 3,
                 "The Great Mosque of Djenne in Mali": 3,
@@ -3251,7 +3440,8 @@
             "Charming": 1
         },
         "style_area": "C. & S. Africa",
-        "name": "Mud Brick"
+        "name": "Mud Brick",
+        "valid2": 0.6666666666666666
     },
     "Swahili": {
         "architects": [
@@ -3323,6 +3513,7 @@
             "country": "Kenya and Tanzania",
             "quality": 1.0,
             "example_quality": 0.6,
+            "existence": 0.0,
             "example_validity": {
                 "Fort Jesus in Mombasa, Kenya": 3,
                 "Old Town of Lamu, Kenya": 3,
@@ -3448,7 +3639,8 @@
             "Symbolic": 1
         },
         "style_area": "C. & S. Africa",
-        "name": "Swahili"
+        "name": "Swahili",
+        "valid2": 1.0
     },
     "Ancient Egyptian": {
         "architects": [
@@ -3510,6 +3702,7 @@
             "country": "Egypt",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Great Pyramids of Giza": 3,
                 "Karnak Temple": 3,
@@ -3619,7 +3812,8 @@
         },
         "valid": 0.66,
         "style_area": "M. East & N. Africa",
-        "name": "Ancient Egyptian"
+        "name": "Ancient Egyptian",
+        "valid2": 1.0
     },
     "Modern Islamic": {
         "architects": [
@@ -3685,6 +3879,7 @@
             "country": "Various countries in the Middle East and Southeast Asia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "The Abraj Al Bait Clock Tower in Mecca, Saudi Arabia": 2,
                 "The Petronas Towers in Kuala Lumpur, Malaysia": 1,
@@ -3797,7 +3992,8 @@
             "Culturally-sensitive": 1
         },
         "style_area": "M. East & N. Africa",
-        "name": "Modern Islamic"
+        "name": "Modern Islamic",
+        "valid2": 1.0
     },
     "Gupta": {
         "architects": [
@@ -3863,6 +4059,7 @@
             "country": "India",
             "quality": 1.0,
             "example_quality": 0.33,
+            "existence": 0.66,
             "example_validity": {
                 "Ajanta Caves": 1,
                 "Ellora Caves": 0,
@@ -3970,7 +4167,8 @@
             "Palace": 1
         },
         "style_area": "S. Asia",
-        "name": "Gupta"
+        "name": "Gupta",
+        "valid2": 1.0
     },
     "Indo-Saracenic": {
         "architects": [
@@ -4041,6 +4239,7 @@
             "country": "India",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India": 3,
                 "Mysore Palace in Mysore, India": 3,
@@ -4166,7 +4365,8 @@
             "Mix-and-match": 1
         },
         "style_area": "S. Asia",
-        "name": "Indo-Saracenic"
+        "name": "Indo-Saracenic",
+        "valid2": 1.0
     },
     "Chinese Imperial": {
         "architects": [
@@ -4236,6 +4436,7 @@
             "country": "China",
             "quality": 1.0,
             "example_quality": 0.6,
+            "existence": 1.0,
             "example_validity": {
                 "The Forbidden City in Beijing": 3,
                 "The Temple of Heaven in Beijing": 3,
@@ -4329,7 +4530,8 @@
             "Grandiose": 1
         },
         "style_area": "E. Asia",
-        "name": "Chinese Imperial"
+        "name": "Chinese Imperial",
+        "valid2": 1.0
     },
     "Edo Period": {
         "architects": [
@@ -4394,6 +4596,7 @@
             "country": "Japan",
             "quality": 1.0,
             "example_quality": 0.33,
+            "existence": 0.66,
             "example_validity": {
                 "Katsura Imperial Villa in Kyoto": 3,
                 "Toshogu Shrine in Nikko": 3,
@@ -4502,7 +4705,8 @@
             "Modest": 1
         },
         "style_area": "E. Asia",
-        "name": "Edo Period"
+        "name": "Edo Period",
+        "valid2": 0.0
     },
     "Khmer Empire": {
         "architects": [
@@ -4571,6 +4775,7 @@
             "country": "Cambodia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "Angkor Wat": 3,
                 "Bayon Temple": 2,
@@ -4698,7 +4903,8 @@
             "Regal": 1
         },
         "style_area": "SE. Asia",
-        "name": "Khmer Empire"
+        "name": "Khmer Empire",
+        "valid2": 1.0
     },
     "Thai": {
         "architects": [
@@ -4766,6 +4972,7 @@
             "country": "Thailand",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "Wat Arun": 3,
                 "Wat Phra Kaew": 3,
@@ -4887,7 +5094,8 @@
             "authentic": 1
         },
         "style_area": "SE. Asia",
-        "name": "Thai"
+        "name": "Thai",
+        "valid2": 1.0
     },
     "Timurid Period": {
         "architects": [
@@ -4948,6 +5156,7 @@
             "country": "Uzbekistan",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.33,
             "example_validity": {
                 "Gur-e-Amir Mausoleum in Samarkand, Uzbekistan": 3,
                 "Registan Square in Samarkand, Uzbekistan": 3,
@@ -5049,7 +5258,8 @@
             "Vibrant": 1
         },
         "style_area": "C. Asia",
-        "name": "Timurid Period"
+        "name": "Timurid Period",
+        "valid2": 1.0
     },
     "Persian": {
         "architects": [
@@ -5136,6 +5346,7 @@
             "country": "Iran",
             "quality": 0.8,
             "example_quality": 0.66,
+            "existence": 1.0,
             "example_validity": {
                 "Persepolis": 2,
                 "Pasargadae": 3,
@@ -5233,6 +5444,7 @@
             "Distinctive": 1
         },
         "style_area": "C. Asia",
-        "name": "Persian"
+        "name": "Persian",
+        "valid2": 1.0
     }
 }
