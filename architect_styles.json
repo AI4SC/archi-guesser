@@ -64,6 +64,7 @@
             "country": "Italy",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "St. Peter's Basilica in Vatican City": 3,
                 "Palazzo Rucellai in Florence, Italy": 3,
@@ -170,7 +171,8 @@
         },
         "valid": 0.0,
         "style_area": "Europe",
-        "name": "Renaissance"
+        "name": "Renaissance",
+        "valid2": 1.0
     },
     "Bauhaus": {
         "architects": [
@@ -233,6 +235,7 @@
             "country": "Germany",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Bauhaus building in Dessau": 3,
                 "Fagus Factory in Alfeld": 0,
@@ -329,7 +332,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Bauhaus"
+        "name": "Bauhaus",
+        "valid2": 1.0
     },
     "Neoclassical": {
         "architects": [
@@ -393,6 +397,7 @@
             "country": "France",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "The White House in Washington D.C.": 3,
                 "The École Militaire in Paris": 3,
@@ -468,7 +473,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Neoclassical"
+        "name": "Neoclassical",
+        "valid2": 1.0
     },
     "Gothic": {
         "architects": [
@@ -543,6 +549,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Notre-Dame de Paris": 3,
                 "Westminster Abbey": 3,
@@ -647,7 +654,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Gothic"
+        "name": "Gothic",
+        "valid2": 1.0
     },
     "Art Deco": {
         "architects": [
@@ -724,6 +732,7 @@
             ],
             "example_quality": 1.0,
             "quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Chrysler Building in New York City": 3,
                 "The Daily Express Building in Manchester, UK": 3,
@@ -823,7 +832,8 @@
         },
         "valid": 1.0,
         "style_area": "Anglo World",
-        "name": "Art Deco"
+        "name": "Art Deco",
+        "valid2": 1.0
     },
     "Italianate": {
         "architects": [
@@ -894,7 +904,8 @@
                 "Palace of Fine Arts (San Francisco, California)": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "popular, mid-19th century, United States and Europe, derived, Renaissance architecture, ornamental, decorative, flat roofs, wide eaves, brackets and cornices, symmetrical, towers, campaniles, arcaded windows, rounded arches, rusticated stonework, terraces.",
         "Start_Year": "1830 CE",
@@ -995,7 +1006,8 @@
             "Charming": 1,
             "Whimsical": 1
         },
-        "name": "Italianate"
+        "name": "Italianate",
+        "valid2": 1.0
     },
     "Deconstructivism": {
         "architects": [
@@ -1069,7 +1081,8 @@
                 "Seattle Central Library": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture, deconstruction, fragmentation, complexity, ambiguity, non-rectilinear shapes, angles, diagonal lines, interlocking spaces. non-linear, disorienting, angular, fragmented, complex, provocative, abstract.",
         "Start_Year": "1980 CE",
@@ -1168,7 +1181,8 @@
             "Innovative": 1
         },
         "valid": 1.0,
-        "name": "Deconstructivism"
+        "name": "Deconstructivism",
+        "valid2": 1.0
     },
     "Shingle Style": {
         "architects": [
@@ -1240,7 +1254,8 @@
                 "Peabody and Stearns House": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture, houses, design, style, wood, eaves, porches, chimneys, gables, shingles, windows, asymmetrical, rustic, informal, coastal. unique, American, historic, Victorian-influenced, iconic, weathered, sprawling, low-pitched roofs, open floor plans, informal, relaxed, rustic, large projecting eaves, extensive use of wood, irregular shapes, irregular roof lines, horizontal proportions.",
         "Start_Year": "1880 CE",
@@ -1342,7 +1357,8 @@
             "Columns": 1,
             "Historic": 1
         },
-        "name": "Shingle Style"
+        "name": "Shingle Style",
+        "valid2": 1.0
     },
     "Ranch-style house": {
         "architects": [
@@ -1413,7 +1429,8 @@
                 "Palos Verdes homes": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "house, architecture, ranch-style",
         "Start_Year": "1930 CE",
@@ -1488,7 +1505,8 @@
             "Wide footprint": 1,
             "Indoor-outdoor": 1
         },
-        "name": "Ranch-style house"
+        "name": "Ranch-style house",
+        "valid2": 1.0
     },
     "Colonial Revival": {
         "architects": [
@@ -1549,6 +1567,7 @@
                 "The Biltmore Estate in Asheville, North Carolina"
             ],
             "example_quality": 0.33,
+            "existence": 0.66,
             "quality": 1.0,
             "continent": "North America",
             "country": "United States of America",
@@ -1652,7 +1671,8 @@
             "err1": 1
         },
         "style_area": "Anglo World",
-        "name": "Colonial Revival"
+        "name": "Colonial Revival",
+        "valid2": 1.0
     },
     "Mesoamerican": {
         "architects": [
@@ -1713,6 +1733,7 @@
                 "Tikal"
             ],
             "example_quality": 1.0,
+            "existence": 0.66,
             "continent": "North America",
             "country": [
                 "Mexico",
@@ -1815,7 +1836,8 @@
             "Jaguars": 1
         },
         "style_area": "C. & S. America",
-        "name": "Mesoamerican"
+        "name": "Mesoamerican",
+        "valid2": 0.6666666666666666
     },
     "Baroque": {
         "architects": [
@@ -1885,6 +1907,7 @@
             ],
             "quality": 1.0,
             "example_quality": 0.75,
+            "existence": 1.0,
             "example_validity": {
                 "Palace of Versailles, France": 3,
                 "St. Peter's Basilica, Vatican City": 3,
@@ -1926,7 +1949,6 @@
             "Palace": 2,
             "Theatre": 1,
             "Staircase": 1,
-            "ornate": 5,
             "dramatic": 5,
             "grand": 3,
             "rich": 1,
@@ -1943,7 +1965,7 @@
             "Columns": 6,
             "Frescoes": 6,
             "Pediment": 1,
-            "Ornate": 2,
+            "Ornate": 7,
             "Grand": 2,
             "Dramatic": 2,
             "Elaborate": 3,
@@ -1989,7 +2011,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Baroque"
+        "name": "Baroque",
+        "valid2": 1.0
     },
     "Romanesque": {
         "architects": [
@@ -2056,6 +2079,7 @@
                 "Italy"
             ],
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "St. Sernin, Toulouse": 3,
@@ -2148,7 +2172,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Romanesque"
+        "name": "Romanesque",
+        "valid2": 1.0
     },
     "Rococo": {
         "architects": [
@@ -2226,7 +2251,8 @@
                 "Hofburg Palace": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "decorative, ornate, asymmetrical, curvaceous, delicate, elegance, excess, lavishness, theatricality playful, whimsical, feminine, light-hearted, ostentatious, baroque-esque, indulgent, fanciful, opulent.",
         "Start_Year": "1730 CE",
@@ -2261,7 +2287,6 @@
             "Gilded elements": 1,
             "Chateau": 1,
             "Folly": 1,
-            "ornate": 7,
             "elegant": 5,
             "lavish": 3,
             "playful": 7,
@@ -2302,7 +2327,7 @@
             "Femininity": 1,
             "Romanticism": 1,
             "Ornate detailing": 1,
-            "Ornate": 2,
+            "Ornate": 9,
             "Elaborate": 1,
             "Elegant": 2,
             "Curvaceous": 2,
@@ -2331,7 +2356,8 @@
             "romantic": 1
         },
         "valid": 1.0,
-        "name": "Rococo"
+        "name": "Rococo",
+        "valid2": 1.0
     },
     "Art Nouveau": {
         "architects": [
@@ -2405,6 +2431,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Hôtel Tassel in Brussels, Belgium": 3,
                 "Majolikahaus in Vienna, Austria": 3,
@@ -2497,7 +2524,8 @@
         },
         "valid": 1.0,
         "style_area": "Europe",
-        "name": "Art Nouveau"
+        "name": "Art Nouveau",
+        "valid2": 1.0
     },
     "Greek Revival": {
         "architects": [
@@ -2570,7 +2598,8 @@
                 "The Bank of England": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Classical, symmetrical, columns, pediments, domes, temples, proportioned, grand, monumental, linear, order.",
         "character": [
@@ -2659,7 +2688,8 @@
             "Graceful": 1,
             "Proportional": 1
         },
-        "name": "Greek Revival"
+        "name": "Greek Revival",
+        "valid2": 1.0
     },
     "Georgian": {
         "architects": [
@@ -2730,7 +2760,8 @@
                 "City Hall in Savannah, Georgia, USA": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "style, period, tradition, building, design, symmetry, proportions, elegance, refinement, ornamentation, façade, porticos, cornices, pediments, fenestration, balconies, chimneys, mansard roofs, brick, stone. neoclassical, grand, graceful, imposing, dignified, balanced, harmonious, proportional, intricate, detailed, ornate, decorative, iconic, timeless, prestigious, stately, elegant.",
         "Start_Year": "1714 CE",
@@ -2814,7 +2845,8 @@
             "Porticos": 1
         },
         "valid": 1.0,
-        "name": "Georgian"
+        "name": "Georgian",
+        "valid2": 1.0
     },
     "International Style": {
         "architects": [
@@ -2891,7 +2923,8 @@
                 "UNESCO headquarters in France": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "buildings, glass, steel, concrete, boxy forms, functionalism, minimalism, geometric shapes, open spaces, technology, simplicity, modular designs. modern, sleek, clean, simple, efficient, industrial, machine-like, angular, asymmetrical, impersonal, rational.",
         "character": [
@@ -2975,7 +3008,8 @@
             "Innovative": 1
         },
         "valid": 1.0,
-        "name": "International Style"
+        "name": "International Style",
+        "valid2": 0.6666666666666666
     },
     "Postmodernism": {
         "architects": [
@@ -3054,7 +3088,8 @@
                 "Vitra Design Museum in Germany": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "movement, architecture, art, design, history, innovation, identity, diversity, deconstruction, pastiche, context, urbanism, consumerism, media, technology  eclectic, experimental, fragmented, self-referential, playful, ironic, subversive, non-linear, anti-establishment, contextual, inclusive, global, commercial, digital",
         "Start_Year": "1960 CE",
@@ -3138,7 +3173,8 @@
             "Recontextualized": 1
         },
         "valid": 1.0,
-        "name": "Postmodernism"
+        "name": "Postmodernism",
+        "valid2": 1.0
     },
     "Tudor": {
         "architects": [
@@ -3212,7 +3248,8 @@
                 "Anne Hathaway's Cottage": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "buildings, structures, palaces, mansions, churches, castles, houses, gardens ornate, symmetrical, asymmetrical, grand, dramatic, imposing, prestigious, historic, decorative, elaborate",
         "Start_Year": "1485 CE",
@@ -3330,7 +3367,8 @@
             "Timeless": 1,
             "Regal": 1
         },
-        "name": "Tudor"
+        "name": "Tudor",
+        "valid2": 1.0
     },
     "Colonial": {
         "architects": [
@@ -3409,6 +3447,7 @@
                 "Vietnam"
             ],
             "example_quality": 0.33,
+            "existence": 0.66,
             "quality": 0.66,
             "example_validity": {
                 "Spanish Colonial Revival architecture in California": 3,
@@ -3519,7 +3558,8 @@
             "Historical": 1
         },
         "style_area": "Intercultural",
-        "name": "Colonial"
+        "name": "Colonial",
+        "valid2": 1.0
     },
     "Contemporary": {
         "architects": [
@@ -3613,6 +3653,7 @@
             "continent": "Multiple",
             "country": "Various",
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "Guggenheim Museum Bilbao in Spain": 3,
@@ -3699,7 +3740,8 @@
             "Industrial": 1
         },
         "style_area": "Intercultural",
-        "name": "Contemporary"
+        "name": "Contemporary",
+        "valid2": 1.0
     },
     "Byzantine": {
         "architects": [
@@ -3773,7 +3815,8 @@
                 "Church of the Nativity, Bethlehem": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "dome, mosaic, intricate, opulent, grand, basilica, vault, ornate, complex, timeless.",
         "Start_Year": "330 CE",
@@ -3863,7 +3906,8 @@
             "Architectural": 1
         },
         "valid": 0.66,
-        "name": "Byzantine"
+        "name": "Byzantine",
+        "valid2": 1.0
     },
     "Ancient Egyptian": {
         "architects": [
@@ -3925,6 +3969,7 @@
             "country": "Egypt",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Great Pyramids of Giza": 3,
                 "Karnak Temple": 3,
@@ -4034,7 +4079,8 @@
         },
         "valid": 0.66,
         "style_area": "M. East & N. Africa",
-        "name": "Ancient Egyptian"
+        "name": "Ancient Egyptian",
+        "valid2": 1.0
     },
     "Arts and Crafts": {
         "architects": [
@@ -4104,7 +4150,8 @@
                 "Greene and Greene's Gamble House": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture, movement, style, houses, buildings traditional, handmade, detailed, simple, natural, organic, functional, decorative, accessible.",
         "Start_Year": "1890 CE",
@@ -4198,7 +4245,8 @@
             "Natural materials": 1
         },
         "valid": 0.33,
-        "name": "Arts and Crafts"
+        "name": "Arts and Crafts",
+        "valid2": 1.0
     },
     "Victorian": {
         "architects": [
@@ -4259,6 +4307,7 @@
                 "The Victoria and Albert Museum in London"
             ],
             "example_quality": 1.0,
+            "existence": 0.66,
             "quality": 1.0,
             "continent": "Europe",
             "country": "United Kingdom",
@@ -4349,7 +4398,8 @@
         },
         "valid": 0.66,
         "style_area": "Anglo World",
-        "name": "Victorian"
+        "name": "Victorian",
+        "valid2": 1.0
     },
     "Ancient Roman": {
         "architects": [
@@ -4401,6 +4451,7 @@
             "continent": "Europe",
             "country": "Italy",
             "example_quality": 1.0,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "Colosseum": 3,
@@ -4481,7 +4532,8 @@
         },
         "valid": 0.33,
         "style_area": "Europe",
-        "name": "Ancient Roman"
+        "name": "Ancient Roman",
+        "valid2": 1.0
     },
     "Ancient Greek": {
         "architects": [
@@ -4494,7 +4546,7 @@
                     "Parthenon"
                 ],
                 "valid": 0.33,
-                "quality": -1
+                "quality": 1.0
             },
             {
                 "name": "Iktinos",
@@ -4505,7 +4557,7 @@
                     "Parthenon"
                 ],
                 "valid": 1.0,
-                "quality": -1
+                "quality": 1.0
             },
             {
                 "name": "Mnesicles",
@@ -4516,7 +4568,7 @@
                     "Propylaea"
                 ],
                 "valid": 1.0,
-                "quality": -1
+                "quality": 1.0
             },
             {
                 "name": "Callicrates",
@@ -4527,7 +4579,7 @@
                     "Parthenon"
                 ],
                 "valid": 1.0,
-                "quality": -1
+                "quality": 1.0
             }
         ],
         "style": {
@@ -4552,8 +4604,9 @@
                 "Temple of Apollo at Delphi": 3,
                 "Temple of Hephaestus in Athens": 3
             },
-            "example_quality": -1,
-            "quality": -1
+            "example_quality": 1.0,
+            "existence": 1.0,
+            "quality": 1.0
         },
         "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style",
         "Start_Year": "900 BCE",
@@ -4630,7 +4683,9 @@
             "Stylized": 1
         },
         "valid": 0.0,
-        "name": "Ancient Greek"
+        "name": "Ancient Greek",
+        "style_area": "Europe",
+        "valid2": 1.0
     },
     "Islamic": {
         "architects": [
@@ -4709,7 +4764,8 @@
                 "Shah Mosque, Iran": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Arabic, geometric, intricate, repetitive, domes, arches, minarets, colorful, ornate, symmetrical, calligraphy, courtyards, mosaic, tile work, light, spirituality.",
         "Start_Year": "622 CE",
@@ -4794,7 +4850,8 @@
             "Proportional": 1
         },
         "valid": 0.0,
-        "name": "Islamic"
+        "name": "Islamic",
+        "valid2": 1.0
     },
     "Gothic Revival": {
         "architects": [
@@ -4855,7 +4912,8 @@
                 "St. Patrick's Cathedral in New York City": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "pointed arches, gargoyles, stained glass windows, buttresses, spires, tracery, spookiness, ornamental, medieval, dark, mysterious, dramatic, romantic, eerie",
         "Start_Year": "1840 CE",
@@ -4945,7 +5003,8 @@
             "Peculiar": 1
         },
         "valid": 1.0,
-        "name": "Gothic Revival"
+        "name": "Gothic Revival",
+        "valid2": 1.0
     },
     "Beaux-Arts": {
         "architects": [
@@ -5014,7 +5073,8 @@
                 "Victoria Memorial in Calcutta, India": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "classical, grandeur, symmetry, stone, marble, columns, pediments, domes, arches  ornate, opulent, lavish, monumental, impressive, monumental, majestic, dignified",
         "Start_Year": "1830 CE",
@@ -5104,7 +5164,8 @@
             "Atrium": 1
         },
         "valid": 1.0,
-        "name": "Beaux-Arts"
+        "name": "Beaux-Arts",
+        "valid2": 1.0
     },
     "Brutalism": {
         "architects": [
@@ -5211,6 +5272,7 @@
                 "USA"
             ],
             "example_quality": 0.66,
+            "existence": 1.0,
             "quality": 1.0,
             "example_validity": {
                 "National Theatre in London, UK": 3,
@@ -5299,7 +5361,8 @@
         },
         "valid": 1.0,
         "style_area": "Intercultural",
-        "name": "Brutalism"
+        "name": "Brutalism",
+        "valid2": 1.0
     },
     "High-Tech": {
         "architects": [
@@ -5378,7 +5441,8 @@
                 "Walt Disney Concert Hall in Los Angeles, USA": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "technology, innovation, functionality, steel, glass, concrete, energy efficiency.  sleek, modern, dynamic, efficient, futuristic, industrial, minimalist.",
         "Start_Year": "1960 CE",
@@ -5466,7 +5530,8 @@
             "Highly automated": 1
         },
         "valid": 0.0,
-        "name": "High-Tech"
+        "name": "High-Tech",
+        "valid2": 1.0
     },
     "Neo-Futurism": {
         "architects": [
@@ -5537,7 +5602,8 @@
                 "The Dancing House in Czech Republic": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Dynamic, asymmetrical, unconventional, innovative, sustainable, minimalistic, interactive, experiential, adaptable.",
         "Start_Year": "1960 CE",
@@ -5639,7 +5705,8 @@
             "Non-conventional": 1
         },
         "valid": 1.0,
-        "name": "Neo-Futurism"
+        "name": "Neo-Futurism",
+        "valid2": 0.6666666666666666
     },
     "Sustainable (Green)": {
         "architects": [
@@ -5711,7 +5778,8 @@
                 "Bullitt Center, Seattle": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "buildings, design, materials, energy, environment, community, water, waste. eco-friendly, renewable, efficient, responsible, low-impact, sustainable, natural, resilient.",
         "Start_Year": "1970 CE",
@@ -5823,7 +5891,8 @@
             "Environmentally responsible": 1
         },
         "valid": 0.0,
-        "name": "Sustainable (Green)"
+        "name": "Sustainable (Green)",
+        "valid2": 1.0
     },
     "Parametricism": {
         "architects": [
@@ -5891,7 +5960,8 @@
                 "UNStudio's Ardmore Residence in Singapore": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Parametricism, architecture style innovative, adaptive, flexible, computational, digitized, organic, interconnected, complex, efficient, aesthetic",
         "Start_Year": "1998 CE",
@@ -5983,7 +6053,8 @@
             "Curvilinear": 1
         },
         "valid": 1.0,
-        "name": "Parametricism"
+        "name": "Parametricism",
+        "valid2": 1.0
     },
     "New Formalism": {
         "architects": [
@@ -6056,7 +6127,8 @@
                 "Sainsbury Wing of the National Gallery, London": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Classicism, symmetry, proportion, ornamentation, traditionalism, human scale, craftsmanship, historical references Orderly, balanced, elegant, refined, subdued, restrained, timeless, dignified, harmonious, understated.",
         "Start_Year": "1950 CE",
@@ -6145,7 +6217,8 @@
             "err1": 1
         },
         "valid": 1.0,
-        "name": "New Formalism"
+        "name": "New Formalism",
+        "valid2": 0.0
     },
     "Late Modernism": {
         "architects": [
@@ -6214,7 +6287,8 @@
                 "TWA Terminal at John F. Kennedy International Airport in New York City, USA": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "late, modernist, abstract expressionist, bold, angular, minimalist, experimental, functionalist, simplistic, geometric, sleek, asymmetrical, industrial, glassy, towering, sculptural, brutalist.",
         "Start_Year": "1960 CE",
@@ -6305,7 +6379,8 @@
             "Experimentative": 1,
             "Expressionistic": 1
         },
-        "name": "Late Modernism"
+        "name": "Late Modernism",
+        "valid2": 1.0
     },
     "Neo-Expressionism": {
         "architects": [
@@ -6376,7 +6451,8 @@
                 "Dancing House, Prague, Czech Republic": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "Start_Year": "1970 CE",
         "End_Year": "present",
@@ -6472,7 +6548,8 @@
             "Emotional expression": 1,
             "Unpredictable": 1
         },
-        "name": "Neo-Expressionism"
+        "name": "Neo-Expressionism",
+        "valid2": 0.0
     },
     "Critical Regionalism": {
         "architects": [
@@ -6545,7 +6622,8 @@
                 "Museum of Islamic Art in Doha, Qatar by I.M. Pei": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Critical Regionalism is a architectural style that emphasizes the use of local materials, craftsmanship, and cultural references, while rejecting the homogenizing effects of modern technology and globalized design trends. It is characterized by a focus on social, environmental, and economic sustainability, and a sensitivity to the unique context and history of each place. The style seeks to create a sense of place by integrating local traditions and vernacular architecture with contemporary design principles.",
         "Start_Year": "1980 CE",
@@ -6624,7 +6702,8 @@
             "Minimalistic": 1,
             "Material-driven": 1
         },
-        "name": "Critical Regionalism"
+        "name": "Critical Regionalism",
+        "valid2": 1.0
     },
     "Post-Structuralism": {
         "architects": [
@@ -6696,7 +6775,8 @@
                 "The Institute of Contemporary Art by Diller Scofidio + Renfro": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "deconstruction, fragmentation, discourse, ambiguity, multiplicity non-linear, subjective, anti-totalitarian, anti-essentialist, anti-hierarchical",
         "Start_Year": "1980 CE",
@@ -6789,7 +6869,8 @@
             "Discontinuous": 1,
             "Challenging": 1
         },
-        "name": "Post-Structuralism"
+        "name": "Post-Structuralism",
+        "valid2": 0.0
     },
     "De Stijl": {
         "architects": [
@@ -6853,7 +6934,8 @@
                 "Van Doesburg House in Meudon, France": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "geometric shapes, primary colors, simplicity, functionality clean, precise, minimalistic, abstract",
         "Start_Year": "1917 CE",
@@ -6954,7 +7036,8 @@
             "Uniformity": 1,
             "Balanced": 1
         },
-        "name": "De Stijl"
+        "name": "De Stijl",
+        "valid2": 0.6666666666666666
     },
     "Expressionism": {
         "architects": [
@@ -7016,7 +7099,8 @@
                 "Haus des Lehrers, Berlin, Germany": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Emotion, distortion, abstraction, angularity, vibrant colors, rawness, wood, brick, steel.",
         "Start_Year": "1905 CE",
@@ -7121,7 +7205,8 @@
             "Experimental": 1,
             "Evocative": 1
         },
-        "name": "Expressionism"
+        "name": "Expressionism",
+        "valid2": 1.0
     },
     "Structural Expressionism": {
         "architects": [
@@ -7189,7 +7274,8 @@
                 "Toronto City Hall, Canada": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "structure, form, function, geometry, steel, concrete bold, industrial, dynamic, angular, angular, geometric, expressive",
         "Start_Year": "1950 CE",
@@ -7292,7 +7378,8 @@
             "Robust": 1
         },
         "valid": 0.33,
-        "name": "Structural Expressionism"
+        "name": "Structural Expressionism",
+        "valid2": 1.0
     },
     "Pre-Romanesque": {
         "architects": [
@@ -7355,7 +7442,8 @@
                 "The Aachen Cathedral in Germany": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Pre-Romanesque arches, monasteries, churches, palaces, vaults, towers, sculptures  simple, primitive, angular, massive, ornate, decorative, regional, symmetrical",
         "Start_Year": "300 CE",
@@ -7437,7 +7525,8 @@
             "Intricate": 1
         },
         "valid": 1.0,
-        "name": "Pre-Romanesque"
+        "name": "Pre-Romanesque",
+        "valid2": 0.0
     },
     "Constructivism": {
         "architects": [
@@ -7508,6 +7597,7 @@
             "country": "Russia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Narkomfin Building in Moscow, Russia": 3,
                 "Tsentrosoyuz Building in Moscow, Russia": 3,
@@ -7610,7 +7700,8 @@
             "Nonconformist": 1
         },
         "style_area": "Eurasia",
-        "name": "Constructivism"
+        "name": "Constructivism",
+        "valid2": 0.6666666666666666
     },
     "Neolithic": {
         "architects": [
@@ -7687,7 +7778,8 @@
                 "Çatalhöyük in Turkey": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "simple, functional, monumental, communal, stone walls, mud bricks, thatched roofs, roundhouses, megalithic structures",
         "Start_Year": "10000 BCE",
@@ -7819,7 +7911,8 @@
             "Chambered Tomb": 1,
             "Temporal": 1
         },
-        "name": "Neolithic"
+        "name": "Neolithic",
+        "valid2": 1.0
     },
     "Mesopotamia": {
         "architects": [
@@ -7892,7 +7985,8 @@
                 "Palace of Sargon II": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "ziggurats, mud bricks, crenellations, arched doorways, decorative tiles, monumental, ancient, pragmatic, utilitarian",
         "Start_Year": "10000 BCE",
@@ -8000,7 +8094,8 @@
             "Structurally advanced": 1,
             "Influential": 1
         },
-        "name": "Mesopotamia"
+        "name": "Mesopotamia",
+        "valid2": 1.0
     },
     "Ancient Persian": {
         "architects": [
@@ -8072,7 +8167,8 @@
                 "The Apadana Palace in Persepolis": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "elaborate, colorful, geometric, intricate, domes, arches, mosaics, minarets, Islamic, ornate.",
         "Start_Year": "550 BCE",
@@ -8178,7 +8274,8 @@
             "Exquisite": 1,
             "Awe-inspiring": 1
         },
-        "name": "Ancient Persian"
+        "name": "Ancient Persian",
+        "valid2": 1.0
     },
     "Muscovite": {
         "architects": [
@@ -8243,6 +8340,7 @@
             "country": "Russia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "St. Basil's Cathedral": 3,
                 "The Cathedral of the Assumption": 3,
@@ -8385,7 +8483,8 @@
             "Grandiose": 1
         },
         "style_area": "Eurasia",
-        "name": "Muscovite"
+        "name": "Muscovite",
+        "valid2": 0.6666666666666666
     },
     "Chinese Imperial": {
         "architects": [
@@ -8455,6 +8554,7 @@
             "country": "China",
             "quality": 1.0,
             "example_quality": 0.6,
+            "existence": 1.0,
             "example_validity": {
                 "The Forbidden City in Beijing": 3,
                 "The Temple of Heaven in Beijing": 3,
@@ -8548,7 +8648,8 @@
             "Grandiose": 1
         },
         "style_area": "E. Asia",
-        "name": "Chinese Imperial"
+        "name": "Chinese Imperial",
+        "valid2": 1.0
     },
     "Gupta": {
         "architects": [
@@ -8614,6 +8715,7 @@
             "country": "India",
             "quality": 1.0,
             "example_quality": 0.33,
+            "existence": 0.66,
             "example_validity": {
                 "Ajanta Caves": 1,
                 "Ellora Caves": 0,
@@ -8721,7 +8823,8 @@
             "Palace": 1
         },
         "style_area": "S. Asia",
-        "name": "Gupta"
+        "name": "Gupta",
+        "valid2": 1.0
     },
     "Nagara": {
         "architects": [
@@ -8790,7 +8893,8 @@
                 "Kandariya Mahadeva Temple in Khajuraho": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "traditional, Hindu, symmetrical, geometric, ornate, temple, rectangular, courtyards, verandas, domes, spires.",
         "Start_Year": "1000 CE",
@@ -8902,7 +9006,8 @@
             "Understated": 1,
             "Zen-like": 1
         },
-        "name": "Nagara"
+        "name": "Nagara",
+        "valid2": 1.0
     },
     "Dravidian": {
         "architects": [
@@ -8976,7 +9081,8 @@
                 "Lothal in modern-day India": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "temples, palaces, shrines, columns, mandapas, carvings  ornate, intricate, colorful, tall, towering, elaborate, grand, symmetrical, geometric, patterned",
         "Start_Year": "2500 BCE",
@@ -8990,7 +9096,7 @@
         "significance": 8,
         "valid": 0.0,
         "termsV2": {
-            "Temple": 6,
+            "Temple": 7,
             "Sculpture": 5,
             "Tower": 4,
             "Pillar": 6,
@@ -9011,7 +9117,6 @@
             "Decorative": 4,
             "Spacious": 2,
             "Temple-like": 2,
-            "Temples": 1,
             "Gopurams": 1,
             "Pillars": 1,
             "Sculptures": 1,
@@ -9079,7 +9184,8 @@
             "Exquisite": 1,
             "Temple-focused": 1
         },
-        "name": "Dravidian"
+        "name": "Dravidian",
+        "valid2": 0.0
     },
     "Vesara": {
         "architects": [
@@ -9144,7 +9250,8 @@
                 "Kedareshwara Temple in Balligavi": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Vesara Hindu temple, tower, sanctum, vestibule, shrine, pavilion, mandapa, gopuram  Ornate, intricate, elaborate, grand, majestic, opulent, decorative, impressive, monumental, regal.",
         "Start_Year": "603 CE",
@@ -9163,7 +9270,7 @@
             "Pillars": 4,
             "Sculptures": 4,
             "Ceilings": 2,
-            "Temples": 3,
+            "Temples": 5,
             "Reliefs": 1,
             "Monasteries": 1,
             "Deities": 1,
@@ -9179,7 +9286,6 @@
             "Grand": 5,
             "Blend of styles": 3,
             "Experimental": 1,
-            "temples": 2,
             "shrines": 2,
             "sculptures": 2,
             "pillars": 2,
@@ -9260,7 +9366,8 @@
             "Opulent": 1,
             "Impressive": 1
         },
-        "name": "Vesara"
+        "name": "Vesara",
+        "valid2": 1.0
     },
     "Jain": {
         "architects": [
@@ -9328,7 +9435,8 @@
                 "Ranakpur Temple in Rajasthan": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "temples, shrines, pillars, domes, sculptures, courtyards ornate, intricate, geometric, symmetrical, colorful, detailed, spiritual",
         "Start_Year": "1000 CE",
@@ -9420,7 +9528,8 @@
             "Cell": 1,
             "Exquisite": 1
         },
-        "name": "Jain"
+        "name": "Jain",
+        "valid2": 0.0
     },
     "Māru-Gurjara": {
         "architects": [
@@ -9486,7 +9595,8 @@
                 "Patan Laxmi Temple in Gujarat": 1
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Architecture style, Māru-Gurjara Traditional, Indigenous, Striking, Ornate, Elaborate, Unique, Decorative, Symmetrical",
         "Start_Year": "600 CE",
@@ -9594,7 +9704,8 @@
             "Artistic": 1,
             "Stately": 1
         },
-        "name": "Māru-Gurjara"
+        "name": "Māru-Gurjara",
+        "valid2": 1.0
     },
     "Asuka and Nara": {
         "architects": [
@@ -9659,7 +9770,8 @@
                 "Todai-ji Temple": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Japanese, style, architecture, Asuka, Nara ancient, wooden, ornate, Buddhist, symmetrical",
         "Start_Year": "592 CE",
@@ -9762,7 +9874,8 @@
             "lantern": 1,
             "arch": 1
         },
-        "name": "Asuka and Nara"
+        "name": "Asuka and Nara",
+        "valid2": 1.0
     },
     "Heian period": {
         "architects": [
@@ -9830,7 +9943,8 @@
                 "Sanjusangendo Hall": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "wooden, symmetrical, curved roofs, inner gardens, sliding doors, tatami mats, Buddhist temples, imperial palaces. ornate, elegant, refined, decorative, minimalist.",
         "Start_Year": "794 CE",
@@ -9939,7 +10053,8 @@
             "Simple": 1,
             "Immersive": 1
         },
-        "name": "Heian period"
+        "name": "Heian period",
+        "valid2": 0.6666666666666666
     },
     "Azuchi–Momoyama": {
         "architects": [
@@ -10026,7 +10141,8 @@
                 "Katsura Imperial Villa": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Castles, palaces, tea ceremony rooms, gardens, Ornate, extravagant, symmetrical, practical, functional",
         "Start_Year": "1568 CE",
@@ -10137,7 +10253,8 @@
             "Moat": 1,
             "Intricate": 1
         },
-        "name": "Azuchi–Momoyama"
+        "name": "Azuchi–Momoyama",
+        "valid2": 0.0
     },
     "Edo Period": {
         "architects": [
@@ -10202,6 +10319,7 @@
             "country": "Japan",
             "quality": 1.0,
             "example_quality": 0.33,
+            "existence": 0.66,
             "example_validity": {
                 "Katsura Imperial Villa in Kyoto": 3,
                 "Toshogu Shrine in Nikko": 3,
@@ -10310,7 +10428,8 @@
             "Modest": 1
         },
         "style_area": "E. Asia",
-        "name": "Edo Period"
+        "name": "Edo Period",
+        "valid2": 0.0
     },
     "Meiji and Taishō": {
         "architects": [
@@ -10383,7 +10502,8 @@
                 "Kyoto Imperial Palace (1855)": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Traditional Japanese, Western, fusion, wood, brick, concrete, modernism, craftsmanship, functionalism. Minimalistic, geometric, ornamental, symmetrical, innovative, practical, simplistic, textured, elegant.",
         "Start_Year": "1868 CE",
@@ -10488,7 +10608,8 @@
             "Porch": 1,
             "Timeless": 1
         },
-        "name": "Meiji and Taishō"
+        "name": "Meiji and Taishō",
+        "valid2": 0.6666666666666666
     },
     "Showa": {
         "architects": [
@@ -10557,7 +10678,8 @@
                 "Osaka Station City": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Art Deco, Streamlined, Geometric, Bold, Dramatic, Ornate, Opulent, Splendid, Luxurious, Innovative, Progressive, Extravagant.",
         "Start_Year": "1947 CE",
@@ -10681,7 +10803,8 @@
             "Enveloping": 1
         },
         "significance": -1,
-        "name": "Showa"
+        "name": "Showa",
+        "valid2": 1.0
     },
     "Kamakura and Muromachi": {
         "architects": [
@@ -10751,7 +10874,8 @@
                 "Nijo Castle": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Zen Buddhist, minimalistic, elegant, wooden, asymmetrical, simplistic, serene, naturalistic, rustic.",
         "Start_Year": "1185 CE",
@@ -10864,7 +10988,8 @@
             "architecture": 1,
             "sculptures": 1
         },
-        "name": "Kamakura and Muromachi"
+        "name": "Kamakura and Muromachi",
+        "valid2": 1.0
     },
     "Khmer Empire": {
         "architects": [
@@ -10933,6 +11058,7 @@
             "country": "Cambodia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "Angkor Wat": 3,
                 "Bayon Temple": 2,
@@ -11060,7 +11186,8 @@
             "Regal": 1
         },
         "style_area": "SE. Asia",
-        "name": "Khmer Empire"
+        "name": "Khmer Empire",
+        "valid2": 1.0
     },
     "Mughal Empire": {
         "architects": [
@@ -11125,7 +11252,8 @@
                 "Fatehpur Sikri": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Grand, ornate, elegant, Islamic, Persian, Indian, domes, arches, minarets, symmetrical, detailed, monumental, majestic, intricate, colorful, grandiose.",
         "Start_Year": "1526 CE",
@@ -11233,7 +11361,8 @@
             "Diwan-i-Khas": 1,
             "Artistic": 1
         },
-        "name": "Mughal Empire"
+        "name": "Mughal Empire",
+        "valid2": 1.0
     },
     "Joseon Dynasty": {
         "architects": [
@@ -11309,7 +11438,8 @@
                 "Hwaseong Fortress": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Traditional, wooden, curved, ornate, grand, and intricate architecture characterized the Joseon Dynasty.",
         "Start_Year": "1392 CE",
@@ -11409,7 +11539,8 @@
             "Gracious": 1
         },
         "significance": -1,
-        "name": "Joseon Dynasty"
+        "name": "Joseon Dynasty",
+        "valid2": 0.0
     },
     "Safavid Dynasty": {
         "architects": [
@@ -11479,7 +11610,8 @@
                 "Chehel Sotoun palace in Isfahan, Iran": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "colorful, ornate tiles, domes, arches, intricate patterns, grand halls, impressive courtyards, Islamic designs, symmetrical layouts, majestic minarets, impressive iwans.",
         "Start_Year": "1501 CE",
@@ -11581,7 +11713,8 @@
             "Expressive": 1,
             "Flamboyant": 1
         },
-        "name": "Safavid Dynasty"
+        "name": "Safavid Dynasty",
+        "valid2": 0.3333333333333333
     },
     "Nguyen Dynasty": {
         "architects": [
@@ -11650,7 +11783,8 @@
                 "Hoi An Ancient Town": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Ornate, colorfully glazed, tiered, grand, monumental  Temples, pagodas, imperial tombs, palaces, gateways",
         "Start_Year": "1802 CE",
@@ -11748,7 +11882,8 @@
             "Gates": 1,
             "Ancestral Houses": 1
         },
-        "name": "Nguyen Dynasty"
+        "name": "Nguyen Dynasty",
+        "valid2": 1.0
     },
     "Mauryan Period": {
         "architects": [
@@ -11817,7 +11952,8 @@
                 "Chandragupta Maurya's palace at Kumhrar": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Sturdy, grand, monumental, polished, and ornate stone structures with intricate carvings, towering columns, and arched gateways characterized the Mauryan Period architecture.",
         "Start_Year": "322 BCE",
@@ -11899,7 +12035,8 @@
             "Palatial": 1,
             "Terraces": 1
         },
-        "name": "Mauryan Period"
+        "name": "Mauryan Period",
+        "valid2": 1.0
     },
     "Tang Dynasty": {
         "architects": [
@@ -11968,7 +12105,8 @@
                 "The Giant Wild Goose Pagoda in Shaanxi": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "grand, ornate, colorful, elaborate pagodas, palaces, temples, caves, gardens, pavilions, towers, bridges, city walls",
         "Start_Year": "618 CE",
@@ -12050,7 +12188,8 @@
             "Towers": 1,
             "Monuments": 1
         },
-        "name": "Tang Dynasty"
+        "name": "Tang Dynasty",
+        "valid2": 0.6666666666666666
     },
     "Mid-Century Modern": {
         "architects": [
@@ -12126,7 +12265,8 @@
                 "The Stahl House by Pierre Koenig": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "simplicity, function, minimalism, clean lines, open spaces.  sleek, futuristic, industrial, understated, angular.",
         "Start_Year": "1940 CE",
@@ -12219,7 +12359,8 @@
             "Walls of windows": 1,
             "Ranch-style": 1
         },
-        "name": "Mid-Century Modern"
+        "name": "Mid-Century Modern",
+        "valid2": 1.0
     },
     "Umayyad Period": {
         "architects": [
@@ -12293,7 +12434,8 @@
                 "Alhambra Palace, Granada, Spain": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "mosques, domes, arches, glazed, decorative, ornate, geometric patterns, extravagant, monumental, lavish, grandiose.",
         "Start_Year": "661 CE",
@@ -12401,7 +12543,8 @@
             "Sculptural": 1,
             "Rich": 1
         },
-        "name": "Umayyad Period"
+        "name": "Umayyad Period",
+        "valid2": 1.0
     },
     "Abbasid Period": {
         "architects": [
@@ -12475,7 +12618,8 @@
                 "The Mosque of Ibn Tulun, Cairo, Egypt": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Islamic, ornate, geometric, domes, minarets, mosaics, intricate, luxurious, symmetrical, grand, courtyards, symmetrical, calligraphy, brick.",
         "Start_Year": "750 CE",
@@ -12572,7 +12716,8 @@
             "Mausoleums": 1,
             "Majestic": 1
         },
-        "name": "Abbasid Period"
+        "name": "Abbasid Period",
+        "valid2": 1.0
     },
     "Fatimid Period": {
         "architects": [
@@ -12643,7 +12788,8 @@
                 "Al-Atiq Mosque in Cairo": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Islamic, ornate, geometric, limestone, caliphate, arches, domes, intricate, intricate stucco, enameled, glazed, arabesque, calligraphy, muqarnas, surah, medallions, minarets, courtyards, vaulted, mihrab, towers, porticos, serenity, symmetry.",
         "Start_Year": "909 CE",
@@ -12731,7 +12877,8 @@
             "Gardens": 1,
             "Diverse": 1
         },
-        "name": "Fatimid Period"
+        "name": "Fatimid Period",
+        "valid2": 0.6666666666666666
     },
     "Andalusian Period": {
         "architects": [
@@ -12803,7 +12950,8 @@
                 "Aljaferia Palace": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Moorish, Islamic, ornate, intricate, geometric, colorful, grand, arched, domed, tiled, courtyarded, fountains, gardens.",
         "Start_Year": "711 CE",
@@ -12889,7 +13037,8 @@
             "Distinctive": 1,
             "Influential": 1
         },
-        "name": "Andalusian Period"
+        "name": "Andalusian Period",
+        "valid2": 1.0
     },
     "Seljuk Period": {
         "architects": [
@@ -12956,7 +13105,8 @@
                 "Tomb of Ahmed Sanjar (Uzbekistan)": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "ornate, intricate, geometric, dome-shaped, pointed, arches and columns, glazed tiles, mosaics, sturdy, monumental, Islamic-inspired, minarets, embellished, decorative, courtyards, caravanserais.",
         "Start_Year": "1037 CE",
@@ -13043,7 +13193,8 @@
             "Carpets": 1,
             "Bold": 1
         },
-        "name": "Seljuk Period"
+        "name": "Seljuk Period",
+        "valid2": 1.0
     },
     "Mamluk Period": {
         "architects": [
@@ -13111,7 +13262,8 @@
                 "Bab Zuweila and Bab al-Barqiyya, gates in Cairo, Egypt": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Towering minarets, intricate arabesque patterns, opulent palaces, majestic domes, decorative muqarnas, elegant courtyards, ornate mausoleums, stately arches, grand gateways, rich stone carvings, sprawling madrasas, vibrant tilework, colorful stained-glass windows, refined calligraphy, lavish marble floors, monumental fortifications, sophisticated irrigation systems.",
         "Start_Year": "1250 CE",
@@ -13217,7 +13369,8 @@
             "Stately": 1,
             "Ornamental": 1
         },
-        "name": "Mamluk Period"
+        "name": "Mamluk Period",
+        "valid2": 1.0
     },
     "Ottoman Period": {
         "architects": [
@@ -13292,7 +13445,8 @@
                 "Sultan Ahmed Mosque": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "exquisite, grandiose, Islamic, ornate, domes, arches, calligraphy, tiles, geometric patterns, mosques, palaces, minarets.",
         "Start_Year": "1299 CE",
@@ -13383,7 +13537,8 @@
             "Influential": 1,
             "Distinctive": 1
         },
-        "name": "Ottoman Period"
+        "name": "Ottoman Period",
+        "valid2": 1.0
     },
     "Timurid Period": {
         "architects": [
@@ -13444,6 +13599,7 @@
             "country": "Uzbekistan",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.33,
             "example_validity": {
                 "Gur-e-Amir Mausoleum in Samarkand, Uzbekistan": 3,
                 "Registan Square in Samarkand, Uzbekistan": 3,
@@ -13545,7 +13701,8 @@
             "Vibrant": 1
         },
         "style_area": "C. Asia",
-        "name": "Timurid Period"
+        "name": "Timurid Period",
+        "valid2": 1.0
     },
     "Modern Islamic": {
         "architects": [
@@ -13611,6 +13768,7 @@
             "country": "Various countries in the Middle East and Southeast Asia",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "The Abraj Al Bait Clock Tower in Mecca, Saudi Arabia": 2,
                 "The Petronas Towers in Kuala Lumpur, Malaysia": 1,
@@ -13723,7 +13881,8 @@
             "Culturally-sensitive": 1
         },
         "style_area": "M. East & N. Africa",
-        "name": "Modern Islamic"
+        "name": "Modern Islamic",
+        "valid2": 1.0
     },
     "Indigenous Australian": {
         "architects": [
@@ -13793,7 +13952,8 @@
                 "The Warrnambool City Council Offices in Victoria, Australia": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "earthen, organic, circular, thatched, bark, intricate, woven, intricately-carved, natural, sustainable, spiritual, harmonious.",
         "Start_Year": "10000 BCE",
@@ -13908,7 +14068,8 @@
             "Bush tucker": 1,
             "Traditional dance": 1
         },
-        "name": "Indigenous Australian"
+        "name": "Indigenous Australian",
+        "valid2": 1.0
     },
     "Polynesian": {
         "architects": [
@@ -13981,7 +14142,8 @@
                 "Pa, Maori fortified settlements": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Roof thatch, wood carvings, natural materials, open-air spaces, canoes Bold, organic, rustic, airy, tropical",
         "Start_Year": "1000 BCE",
@@ -14101,7 +14263,8 @@
             "Repetitive": 1,
             "Extravagant": 1
         },
-        "name": "Polynesian"
+        "name": "Polynesian",
+        "valid2": 1.0
     },
     "Pacific Islander": {
         "architects": [
@@ -14174,7 +14337,8 @@
                 "Bale (Papua New Guinea)": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Organic, tropical, wooden, airy, high-pitched roof, post-and-beam construction, symmetrical, traditional, culturally significant, simplistic.",
         "Start_Year": "10000 BCE",
@@ -14305,7 +14469,8 @@
             "Maritime": 1,
             "Traditional canoes": 1
         },
-        "name": "Pacific Islander"
+        "name": "Pacific Islander",
+        "valid2": 1.0
     },
     "Contemporary Oceania": {
         "architects": [
@@ -14377,7 +14542,8 @@
                 "National Museum of Australia": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Minimalist, organic, sustainable, tropical, traditional, indigenous-inspired, open, airy, geometric, innovative.",
         "Start_Year": "1990 CE",
@@ -14477,7 +14643,8 @@
             "Vernacular": 1,
             "Honest": 1
         },
-        "name": "Contemporary Oceania"
+        "name": "Contemporary Oceania",
+        "valid2": 0.3333333333333333
     },
     "Indigenous Contemporary": {
         "architects": [
@@ -14555,7 +14722,8 @@
                 "Guna Yala Congress Hall (Panama)": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Indigenous, Contemporary, Architecture Style Unique, Traditional, Modern, Culturally Sensitive, Sustainable, Connected to Nature.",
         "Start_Year": "1980 CE",
@@ -14637,7 +14805,8 @@
             "expressive": 1,
             "timeless": 1
         },
-        "name": "Indigenous Contemporary"
+        "name": "Indigenous Contemporary",
+        "valid2": 1.0
     },
     "Mud Brick": {
         "architects": [
@@ -14723,6 +14892,7 @@
             ],
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.33,
             "example_validity": {
                 "The ancient city of Jericho in Palestine": 3,
                 "The Great Mosque of Djenne in Mali": 3,
@@ -14832,7 +15002,8 @@
             "Charming": 1
         },
         "style_area": "C. & S. Africa",
-        "name": "Mud Brick"
+        "name": "Mud Brick",
+        "valid2": 0.6666666666666666
     },
     "Stilt House": {
         "architects": [
@@ -14896,6 +15067,7 @@
                 "North America (Louisiana Florida)."
             ],
             "example_quality": 0.0,
+            "existence": 0.33,
             "continent": [
                 "Asia",
                 "Africa",
@@ -15012,7 +15184,8 @@
             "Wood": 1
         },
         "style_area": "C. & S. America",
-        "name": "Stilt House"
+        "name": "Stilt House",
+        "valid2": 1.0
     },
     "Blobitecture": {
         "architects": [
@@ -15085,7 +15258,8 @@
                 "Experience Music Project (United States)": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Blobitecture is a contemporary architectural style characterized by curvilinear forms, fluid shapes, and amorphous structures.",
         "character": [
@@ -15156,7 +15330,8 @@
             "Undulating": 1,
             "Non-traditional": 1
         },
-        "name": "Blobitecture"
+        "name": "Blobitecture",
+        "valid2": 1.0
     },
     "Googie": {
         "architects": [
@@ -15232,7 +15407,8 @@
                 "The Stardust Hotel and Casino in Las Vegas": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architectural style, mid-century modern design, futuristic elements, space age aesthetic, optimistic vision, commercial buildings, coffee shops, gas stations, motels, diners bold, dynamic, playful, exaggerated, flamboyant, vibrant, iconic, distinctive, forward-thinking, innovative",
         "character": [
@@ -15321,7 +15497,8 @@
             "Optimistic": 1
         },
         "significance": -1,
-        "name": "Googie"
+        "name": "Googie",
+        "valid2": 1.0
     },
     "Igloo": {
         "architects": [
@@ -15390,7 +15567,8 @@
                 "Ice bricks Igloo": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "distributed, scalable, modular, seamless, abstracted, adaptable, resilient, fault-tolerant.",
         "character": [
@@ -15486,7 +15664,8 @@
             "robust": 1,
             "arctic": 1
         },
-        "name": "Igloo"
+        "name": "Igloo",
+        "valid2": 1.0
     },
     "Indo-Islamic": {
         "architects": [
@@ -15559,7 +15738,8 @@
                 "Charminar in Hyderabad, India": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "blend, fusion, influence, mosque, minaret, dome, arch, courtyard, unique, intricate, ornate, grand, impressive, harmonious, symmetrical, graceful",
         "character": [
@@ -15642,7 +15822,8 @@
             "err1": 1,
             "Inclusive": 1
         },
-        "name": "Indo-Islamic"
+        "name": "Indo-Islamic",
+        "valid2": 1.0
     },
     "Indo-Saracenic": {
         "architects": [
@@ -15713,6 +15894,7 @@
             "country": "India",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 1.0,
             "example_validity": {
                 "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India": 3,
                 "Mysore Palace in Mysore, India": 3,
@@ -15838,7 +16020,8 @@
             "Mix-and-match": 1
         },
         "style_area": "S. Asia",
-        "name": "Indo-Saracenic"
+        "name": "Indo-Saracenic",
+        "valid2": 1.0
     },
     "Palladian": {
         "architects": [
@@ -15912,7 +16095,8 @@
                 "Monticello, United States": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architectural style, Palladio, symmetry, proportions, classical influences, unity, harmony, elegance, grandeur, influence, classical, symmetrical, proportional, cohesive, monumental, harmonious, elegant, grand, influential.",
         "character": [
@@ -15988,7 +16172,8 @@
             "Façade": 1,
             "Pilaster": 1
         },
-        "name": "Palladian"
+        "name": "Palladian",
+        "valid2": 1.0
     },
     "Prairie": {
         "architects": [
@@ -16059,7 +16244,8 @@
                 "Dana-Thomas House (Springfield, Illinois, USA)": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "minimalist design, open spaces, horizontal lines, natural materials, prairie landscape, functional, low-pitched roofs, long and extended floor plans, geometric forms, organic integration, harmonious, spacious interiors, abundant windows, earthy color palette, unadorned façade, seamless indoor-outdoor connection, timeless elegance, innovative, Frank Lloyd Wright",
         "character": [
@@ -16163,7 +16349,8 @@
             "Harmony": 1,
             "Efficient": 1
         },
-        "name": "Prairie"
+        "name": "Prairie",
+        "valid2": 1.0
     },
     "Regency": {
         "architects": [
@@ -16235,7 +16422,8 @@
                 "The Custom House, Dublin": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "elegant, classical, grandiose, symmetrical, refined, neoclassical",
         "character": [
@@ -16335,7 +16523,8 @@
             "Mansions": 1,
             "Crescents": 1
         },
-        "name": "Regency"
+        "name": "Regency",
+        "valid2": 1.0
     },
     "Moorish": {
         "architects": [
@@ -16411,7 +16600,8 @@
                 "Qarawiyyin Mosque in Fes, Morocco": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture style Moorish",
         "character": [
@@ -16506,7 +16696,8 @@
             "Influential": 1,
             "Timeless": 1
         },
-        "name": "Moorish"
+        "name": "Moorish",
+        "valid2": 1.0
     },
     "Moorish Revival": {
         "architects": [
@@ -16589,7 +16780,8 @@
                 "Pavilion of Spain at the World's Columbian Exposition, Chicago (USA)": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture style, Moorish, Revival",
         "character": [
@@ -16692,7 +16884,8 @@
             "stucco": 1,
             "fountain": 1
         },
-        "name": "Moorish Revival"
+        "name": "Moorish Revival",
+        "valid2": 1.0
     },
     "Ottoman": {
         "architects": [
@@ -16767,7 +16960,8 @@
                 "Plovdiv Ancient Theatre - Plovdiv, Bulgaria": 0
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture, style, Ottoman",
         "character": [
@@ -16865,7 +17059,8 @@
             "Hamam": 1,
             "Hypnotic": 1
         },
-        "name": "Ottoman"
+        "name": "Ottoman",
+        "valid2": 1.0
     },
     "Thai": {
         "architects": [
@@ -16933,6 +17128,7 @@
             "country": "Thailand",
             "quality": 1.0,
             "example_quality": 1.0,
+            "existence": 0.66,
             "example_validity": {
                 "Wat Arun": 3,
                 "Wat Phra Kaew": 3,
@@ -17054,7 +17250,8 @@
             "authentic": 1
         },
         "style_area": "SE. Asia",
-        "name": "Thai"
+        "name": "Thai",
+        "valid2": 1.0
     },
     "Persian": {
         "architects": [
@@ -17141,6 +17338,7 @@
             "country": "Iran",
             "quality": 0.8,
             "example_quality": 0.66,
+            "existence": 1.0,
             "example_validity": {
                 "Persepolis": 2,
                 "Pasargadae": 3,
@@ -17238,7 +17436,8 @@
             "Distinctive": 1
         },
         "style_area": "C. Asia",
-        "name": "Persian"
+        "name": "Persian",
+        "valid2": 1.0
     },
     "Swahili": {
         "architects": [
@@ -17310,6 +17509,7 @@
             "country": "Kenya and Tanzania",
             "quality": 1.0,
             "example_quality": 0.6,
+            "existence": 0.0,
             "example_validity": {
                 "Fort Jesus in Mombasa, Kenya": 3,
                 "Old Town of Lamu, Kenya": 3,
@@ -17435,7 +17635,8 @@
             "Symbolic": 1
         },
         "style_area": "C. & S. Africa",
-        "name": "Swahili"
+        "name": "Swahili",
+        "valid2": 1.0
     },
     "Federation": {
         "architects": [
@@ -17509,7 +17710,8 @@
                 "Decentralized social networks": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Distributed, Collaborative, Modular, Interconnected, Autonomous, Scalable.",
         "character": [
@@ -17574,7 +17776,8 @@
             "Cooperation": 1
         },
         "significance": -1,
-        "name": "Federation"
+        "name": "Federation",
+        "valid2": 0.0
     },
     "Korean": {
         "architects": [
@@ -17649,7 +17852,8 @@
                 "Namsangol Hanok Village": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Traditional elements, wooden framework, angled roofs, courtyard, hanok (traditional Korean house), Buddhism influence, palaces, temples, gateways Elegant, minimalist, harmonious, earthy, rustic, symbolic, intricate, ornamental, timeless, culturally significant",
         "character": [
@@ -17767,7 +17971,8 @@
             "Embellished": 1,
             "Timeless": 1
         },
-        "name": "Korean"
+        "name": "Korean",
+        "valid2": 1.0
     },
     "Indonesian": {
         "architects": [
@@ -17848,7 +18053,8 @@
                 "Traditional Balinese temples and compounds": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Traditional Indonesian architecture can be described as ornate, intricate, and spiritual. It features elements such as thatched roofs, wooden structures, and complex carving. The style also incorporates vibrant colors, slim pillars, and graceful curves, showcasing a harmonious blend of cultural heritage and natural surroundings.",
         "character": [
@@ -17964,7 +18170,8 @@
             "Vibrant": 1,
             "Light-filled": 1
         },
-        "name": "Indonesian"
+        "name": "Indonesian",
+        "valid2": 1.0
     },
     "Vietnamese": {
         "architects": [
@@ -18036,7 +18243,8 @@
                 "Hue Imperial City": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Pagodas, temples, wooden structures, stone carving, courtyards, houses Ornate, elegant, symmetrical, traditional, influenced, harmonious, colorful.",
         "character": [
@@ -18144,7 +18352,8 @@
             "Artistic": 1,
             "Verdant": 1
         },
-        "name": "Vietnamese"
+        "name": "Vietnamese",
+        "valid2": 1.0
     },
     "Berber": {
         "architects": [
@@ -18222,7 +18431,8 @@
                 "Kasbah of Algiers in Algiers, Algeria": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Berber architecture, traditional, vernacular, organic, earthy, sustainable, functional, harmonious",
         "character": [
@@ -18329,7 +18539,8 @@
             "spatial": 1,
             "harmonious": 1
         },
-        "name": "Berber"
+        "name": "Berber",
+        "valid2": 0.6666666666666666
     },
     "Nubian": {
         "architects": [
@@ -18401,7 +18612,8 @@
                 "Nubian fortress at Buhen": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "timeless, grandiose, sturdy, monumental, earthen, geometric patterns, arched doorways, domed roofs, dense, mudbrick construction, ornate carvings, vibrant colors",
         "character": [
@@ -18511,7 +18723,8 @@
             "Gateways": 1,
             "Sphinxes": 1
         },
-        "name": "Nubian"
+        "name": "Nubian",
+        "valid2": 1.0
     },
     "Indian": {
         "architects": [
@@ -18590,7 +18803,8 @@
                 "Modern structures like Lotus Temple (1986 CE)": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Temples, palaces, gateways, minarets, courtyards, arches, domes, columns. Ornate, vibrant, colorful, intricate, symmetrical, grand, majestic, ancient, sacred, spiritual, diverse.",
         "character": [
@@ -18683,7 +18897,8 @@
             "Jharokha": 1,
             "Awe-inspiring": 1
         },
-        "name": "Indian"
+        "name": "Indian",
+        "valid2": 1.0
     },
     "Federal": {
         "architects": [
@@ -18760,7 +18975,8 @@
                 "Old City Hall (Boston)": 2
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "architecture style, federal",
         "character": [
@@ -18847,7 +19063,8 @@
             "Roof": 1
         },
         "significance": -1,
-        "name": "Federal"
+        "name": "Federal",
+        "valid2": 1.0
     },
     "Rationalism": {
         "architects": [
@@ -18918,7 +19135,8 @@
                 "Claude Perrault's east facade of the Louvre in Paris": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "Logic, reason, geometry, order, Rational, symmetrical",
         "character": [
@@ -19006,7 +19224,8 @@
             "Ordered": 1,
             "Reasoned": 1
         },
-        "name": "Rationalism"
+        "name": "Rationalism",
+        "valid2": 1.0
     },
     "Sumerian": {
         "architects": [
@@ -19077,7 +19296,8 @@
                 "White Temple of Uruk": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": " Ziggurats, temples, palaces, city walls, canals Monumental, impressive, grand, advanced, innovative.",
         "character": [
@@ -19181,7 +19401,8 @@
             "Mesmerizing": 1
         },
         "significance": -1,
-        "name": "Sumerian"
+        "name": "Sumerian",
+        "valid2": 1.0
     },
     "Uruk": {
         "architects": [
@@ -19252,7 +19473,8 @@
                 "The Eanna District in Uruk": 3
             },
             "example_quality": -1,
-            "quality": -1
+            "quality": -1,
+            "existence": -1
         },
         "terms": "noun: Uruk, architecture styleadjectives: monumental, massive, fortified, elaborate, influential",
         "character": [
@@ -19370,6 +19592,7 @@
             "Roofs": 1
         },
         "significance": -1,
-        "name": "Uruk"
+        "name": "Uruk",
+        "valid2": 0.6666666666666666
     }
 }
