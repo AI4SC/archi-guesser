@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import plotly.graph_objects as go
+import plotly
 
 pd.options.display.max_colwidth = 150
 
@@ -273,6 +274,7 @@ if __name__ == "__main__":
   df_misattributions = pd.DataFrame(misattribution_matrix)
   
   custom_color_scale = ["#E5ECF5", "Purple"] ##512A8C
+  custom_color_scale = ["#E5ECF5", plotly.colors.carto.Bold[0]]
   fig = px.imshow(df_misattributions.T,
     labels=dict(x="Mistaken For", y="True Style", color="Count"),
     x=df_misattributions.index,
