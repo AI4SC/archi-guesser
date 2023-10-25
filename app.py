@@ -129,7 +129,7 @@ demo_steps = [{
 }]
 
 try:
-  with open("architect_styles.json", 'tr') as fi:
+  with open("architect_styles_sub.json", 'tr') as fi:
     architects_by_style = json.load(fi)
 except:
   architects_by_style = {}
