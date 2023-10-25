@@ -252,7 +252,7 @@ app.layout = dbc.Container(
                   "background-color": "rgba(34, 34, 34, 0.8)"
                 },
                 hidden=mask_map,
-                id="style-msg")
+                id="style-mask")
             ],
             style={
               "width": "100%",
@@ -300,7 +300,7 @@ app.layout = dbc.Container(
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
             hidden=mask_map,
-            id="map-msg"),
+            id="map-mask"),
           dbc.Label("EPOCHE"),
           dcc.Slider(0,
                      2025,
@@ -342,7 +342,7 @@ app.layout = dbc.Container(
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
             hidden=mask_map,
-            id="epoche-msg"),
+            id="epoche-mask"),
           dbc.Row([
             dbc.Col(
               dbc.Button(
