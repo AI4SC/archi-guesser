@@ -11,122 +11,6 @@ from flask import Flask
 import flask
 
 demo_mode = False
-demo_step = 0
-demo_sub = 0
-
-demo_steps = [{
-  "sel_style": "Gothic Revival",
-  "sel_location": [45.43162972000005, 2.8125],
-  "sel_epoche": 1884,
-  "rnd_style": "Gothic Revival",
-  "points": 1000,
-  "rnd_img": "Neuschwanstein"
-}, {
-  "sel_style": "Gothic Revival",
-  "sel_location": [45.43162972000005, 2.8125],
-  "sel_epoche": 1884,
-  "rnd_style": "Gothic Revival",
-  "points": 1000,
-  "rnd_img": "Neuschwanstein"
-}, {
-  "sel_style": "Parametricism",
-  "sel_location": [47.040182144806664, 25.312500000000004],
-  "sel_epoche": 1990,
-  "rnd_style": "Parametricism",
-  "points": 2000,
-  "rnd_img": "Neuschwanstein_Parametric"
-}, {
-  "sel_style": "Chinese",
-  "sel_location": [49.38237278700955, 16.875000000000004],
-  "sel_epoche": 1600,
-  "rnd_style": "Chinese Imperial",
-  "points": 1000,
-  "rnd_img": "Neuschwanstein_Chinese_Imperial"
-}, {
-  "sel_style": "Chinese",
-  "sel_location": [33.7243396617476, 135.70312500000003],
-  "sel_epoche": 1600,
-  "rnd_style": "Chinese Imperial",
-  "points": 1000,
-  "rnd_img": "Pagoda"
-}, {
-  "sel_style": "Bauhaus",
-  "sel_location": [36.59788913307022, 111.79687500000001],
-  "sel_epoche": 1930,
-  "rnd_style": "Bauhaus",
-  "points": 1000,
-  "rnd_img": "Pagoda_Bauhaus"
-}, {
-  "sel_style": "Mud Brick",
-  "sel_location": [19.973348786110613, 101.25000000000001],
-  "sel_epoche": 1400,
-  "rnd_style": "Mud Brick",
-  "points": 1000,
-  "rnd_img": "Pagoda_MudBrickHouse"
-}, {
-  "sel_style": "Mud Brick",
-  "sel_location": [11.938881539525834, 5.625],
-  "sel_epoche": 1884,
-  "rnd_style": "Mud Brick",
-  "points": 1000,
-  "rnd_img": "MudBrickHouse"
-}, {
-  "sel_style": "Art Nouveau",
-  "sel_location": [7.710991655433217, 33.75000000000001],
-  "sel_epoche": 1920,
-  "rnd_style": "Art Nouveau",
-  "points": 2000,
-  "rnd_img": "MudBrickHouse_Art_Nouveau"
-}, {
-  "sel_style": "Art Deco",
-  "sel_location": [19.973348786110613, -11.25],
-  "sel_epoche": 1930,
-  "rnd_style": "Art Deco",
-  "points": 1000,
-  "rnd_img": "MudBrickHouse_Art_Deco"
-}, {
-  "sel_style": "Art Deco",
-  "sel_location": [41.50857729743935, -76.640625],
-  "sel_epoche": 1930,
-  "rnd_style": "Art Deco",
-  "points": 1000,
-  "rnd_img": "NewYorkArtDeco"
-}, {
-  "sel_style": "Georgian",
-  "sel_location": [50.736455137010665, -66.09375000000001],
-  "sel_epoche": 1750,
-  "rnd_style": "Georgian",
-  "points": 2000,
-  "rnd_img": "NewYorkArtDeco_Georgian"
-}, {
-  "sel_style": "Indoislamic",
-  "sel_location": [29.53522956294847, 27.421875000000004],
-  "sel_epoche": 1930,
-  "rnd_style": "Ancient Persian",
-  "points": 1000,
-  "rnd_img": "NewYorkArtDeco_Persian"
-}, {
-  "sel_style": "Indoislamic",
-  "sel_location": [25.25320751294064, 41.48437500000001],
-  "sel_epoche": 1884,
-  "rnd_style": "Ancient Persian",
-  "points": 1000,
-  "rnd_img": "qom-art-monument"
-}, {
-  "sel_style": "Stilt House",
-  "sel_location": [15.961329081596647, 103.35937500000001],
-  "sel_epoche": 1920,
-  "rnd_style": "Stilt House",
-  "points": 2000,
-  "rnd_img": "qom-art-monument_stilt_house"
-}, {
-  "sel_style": "Expressionism",
-  "sel_location": [-27.059125784374054, 135.00000000000003],
-  "sel_epoche": 1970,
-  "rnd_style": "Neo-Expressionism",
-  "points": 1000,
-  "rnd_img": "qom-art-monument_sidney_opera"
-}]
 
 try:
   with open("architect_styles_sub.json", 'tr') as fi:
@@ -163,10 +47,6 @@ for fn in os.listdir('styles120'):
     style_img[fn.replace('.png', '').replace('_', ' ').title()] = img
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
-
-if demo_mode:
-  demo_keys = list(set([s["sel_style"] for s in demo_steps]))
-  style_img = {k: style_img[k] for k in demo_keys}
 
 examples_img = {}
 for fn in os.listdir('examples'):
@@ -509,185 +389,99 @@ def tostr(obj):
     return str(obj)
 
 
-if demo_mode:
+@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+              Output("layer", "children"),
+              Input('map', 'click_lat_lng'),
+              prevent_initial_call=True)
+def display_selected_data(click_lat_lng):
+  global sel_location
+  if click_lat_lng is None: return True, []
+  sel_location = click_lat_lng
+  print(sel_location, sel_style, sel_epoche)
+  return sel_location is None or sel_style is None or sel_epoche is None, [
+    dl.Marker(position=click_lat_lng,
+              children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)))
+  ]
 
-  @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
-                Output("example_img", "src"),
-                Output("style_body", "children"),
-                Output("resultmodal", "is_open", allow_duplicate=True),
-                Output("points", "children"),
-                Output({
-                  'type': "style-selection",
-                  'index': ALL
-                },
-                       'color',
-                       allow_duplicate=True),
-                Output("style-msg", "hidden"),
-                Output("map-msg", "hidden"),
-                Output("epoche-msg", "hidden"),
-                Output('epoche', 'value'),
-                Output("layer", "children"),
-                Input('interval1', 'n_intervals'),
-                State({
-                  "type": "style-selection",
-                  "index": ALL
-                }, "name"),
-                prevent_initial_call=True)
-  def demo_mode_cnt(cnt, names):
-    global rnd_style, sel_style, sel_epoche, sel_location, demo_step, demo_sub
-    #print(cnt, demo_step, demo_sub)
-    demostep = demo_steps[demo_step]
-    if demo_sub == 0:
-      print(
-        f"DEMO {demo_step}: {demostep['rnd_style']} ({demostep['rnd_img']})")
-      demo_step += 1
-      if demo_step >= len(demo_steps): demo_step = 0
-      sel_style, sel_location, sel_epoche = None, None, 0
-    elif demo_sub == 2:
-      sel_style = demostep['sel_style']
-    elif demo_sub == 3:
-      sel_location = demostep['sel_location']
-    elif demo_sub == 4:
-      sel_epoche = demostep['sel_epoche']
-    elif demo_sub == 5:
-      result_modal_open = True
-    hide_style = demo_sub >= 2
-    hide_map = demo_sub >= 3
-    hide_epoche = demo_sub >= 4
-    guess_btn_disabled = demo_sub < 4
-    result_modal_open = demo_sub >= 5
+@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+              Input('epoche', 'value'),
+              prevent_initial_call=True)
+def display_selected_epoche(value):
+  global sel_epoche
+  if value is None: return True
+  sel_epoche = value
+  return sel_location is None or sel_style is None or sel_epoche is None
 
-    rnd_img = examples_img[demostep['rnd_img']]
-    rnd_style = demostep['rnd_style']
-    astyle = architects_by_style[rnd_style]["style"]
-    aarch = architects_by_style[rnd_style]["architects"]
-    styles = ['primary' if sel_style == n else None for n in names]
-    print(rnd_style, astyle, aarch)
+@app.callback(Output('GUESS', 'active', allow_duplicate=True),
+              Output({
+                'type': "style-selection",
+                'index': ALL
+              },
+              'color',
+              allow_duplicate=True),
+              Input({
+                "type": "style-selection",
+                "index": ALL
+              }, "n_clicks"),
+              State({
+                "type": "style-selection",
+                "index": ALL
+              }, "name"),
+              prevent_initial_call=True)
+def select_style(n, names):
+  global sel_style
+  if callback_context.triggered_prop_ids:
+    for v in callback_context.triggered_prop_ids.values():
+      sel_style = v['index']
+      styles = ['primary' if sel_style == n else None for n in names]
+      return sel_location is None or sel_style is None or sel_epoche is None, styles
+  else:
+    return True, style_ccc
 
-    demo_sub += 1
-    if demo_sub == 6: demo_sub = 0
+@app.callback(
+  Output('GUESS', 'disabled', allow_duplicate=True),
+  Output("example_img", "src"),
+  Output("style_body", "children"),
+  Input("new_run", "disabled"),  # used as event notifier
+  prevent_initial_call=True)
+def select_random_style(new_run):
+  global rnd_style, sel_style, sel_epoche, sel_location
+  rnd_style = random.choice(list(architects_by_style.keys()))
+  rnd_img = random.choice(list(examples_img.values()))
+  print(rnd_style)
+  astyle = architects_by_style[rnd_style]["style"]
+  aarch = architects_by_style[rnd_style]["architects"]
+  print(rnd_style, astyle, aarch)
+  sel_style, sel_epoche, sel_location = None, None, None
+  return True, rnd_img, [
+    html.H3(rnd_style),
+    html.Label("Epoche"),
+    html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
+    html.Label("Location"),
+    html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
+    html.Label("Description"),
+    html.P(astyle["description"]),
+    html.Label("Characteristics"),
+    html.Ul([html.Li(c) for c in astyle["characteristics"]]),
+    html.Label("Examples"),
+    html.Ul([html.Li(c) for c in astyle["examples"]]),
+    html.Label("Architects"),
+    html.Ul([html.Li(c["name"]) for c in aarch]),
+  ]
 
-    return guess_btn_disabled, \
-           rnd_img, \
-           [
-               html.H3(rnd_style),
-               html.Label("Epoche"),
-               html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
-               html.Label("Location"),
-               html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
-               html.Label("Description"),
-               html.P(astyle["description"]),
-               html.Label("Characteristics"),
-               html.Ul([html.Li(c) for c in astyle["characteristics"]]),
-               html.Label("Examples"),
-               html.Ul([html.Li(c) for c in astyle["examples"]]),
-               html.Label("Architects"),
-               html.Ul([html.Li(c["name"]) for c in aarch]),
-           ], \
-           result_modal_open, \
-           f"You got {demostep['points']} points", \
-           styles, \
-           hide_style, \
-           hide_map, \
-           hide_epoche, \
-           sel_epoche, \
-           [dl.Marker(position=sel_location, children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_location)))] if sel_location else []
+@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+              Output("resultmodal", "is_open", allow_duplicate=True),
+              Input('GUESS', 'n_clicks'),
+              prevent_initial_call=True)
+def evaluate_run(n):
+  return [True, True, False]
 
-else:
-
-  @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
-                Output("layer", "children"),
-                Input('map', 'click_lat_lng'),
-                prevent_initial_call=True)
-  def display_selected_data(click_lat_lng):
-    global sel_location
-    if click_lat_lng is None: return True, []
-    sel_location = click_lat_lng
-    print(sel_location, sel_style, sel_epoche)
-    return sel_location is None or sel_style is None or sel_epoche is None, [
-      dl.Marker(position=click_lat_lng,
-                children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)))
-    ]
-
-  @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
-                Input('epoche', 'value'),
-                prevent_initial_call=True)
-  def display_selected_epoche(value):
-    global sel_epoche
-    if value is None: return True
-    sel_epoche = value
-    return sel_location is None or sel_style is None or sel_epoche is None
-
-  @app.callback(Output('GUESS', 'active', allow_duplicate=True),
-                Output({
-                  'type': "style-selection",
-                  'index': ALL
-                },
-                'color',
-                allow_duplicate=True),
-                Input({
-                  "type": "style-selection",
-                  "index": ALL
-                }, "n_clicks"),
-                State({
-                  "type": "style-selection",
-                  "index": ALL
-                }, "name"),
-                prevent_initial_call=True)
-  def select_style(n, names):
-    global sel_style
-    if callback_context.triggered_prop_ids:
-      for v in callback_context.triggered_prop_ids.values():
-        sel_style = v['index']
-        styles = ['primary' if sel_style == n else None for n in names]
-        return sel_location is None or sel_style is None or sel_epoche is None, styles
-    else:
-      return True, style_ccc
-
-  @app.callback(
-    Output('GUESS', 'disabled', allow_duplicate=True),
-    Output("example_img", "src"),
-    Output("style_body", "children"),
-    Input("new_run", "disabled"),  # used as event notifier
-    prevent_initial_call=True)
-  def select_random_style(new_run):
-    global rnd_style, sel_style, sel_epoche, sel_location
-    rnd_style = random.choice(list(architects_by_style.keys()))
-    rnd_img = random.choice(list(examples_img.values()))
-    print(rnd_style)
-    astyle = architects_by_style[rnd_style]["style"]
-    aarch = architects_by_style[rnd_style]["architects"]
-    print(rnd_style, astyle, aarch)
-    sel_style, sel_epoche, sel_location = None, None, None
-    return True, rnd_img, [
-      html.H3(rnd_style),
-      html.Label("Epoche"),
-      html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
-      html.Label("Location"),
-      html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
-      html.Label("Description"),
-      html.P(astyle["description"]),
-      html.Label("Characteristics"),
-      html.Ul([html.Li(c) for c in astyle["characteristics"]]),
-      html.Label("Examples"),
-      html.Ul([html.Li(c) for c in astyle["examples"]]),
-      html.Label("Architects"),
-      html.Ul([html.Li(c["name"]) for c in aarch]),
-    ]
-
-  @app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
-                Output("resultmodal", "is_open", allow_duplicate=True),
-                Input('GUESS', 'n_clicks'),
-                prevent_initial_call=True)
-  def evaluate_run(n):
-    return [True, True, False]
-
-  @app.callback(#Output("setup_modal", "is_open"),
-                Output("video_body", "style"),
-                Input('SETUP', 'n_clicks'),
-                prevent_initial_call=True)
-  def display_setup_modall(n):
-    return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
+@app.callback(#Output("setup_modal", "is_open"),
+              Output("video_body", "style"),
+              Input('SETUP', 'n_clicks'),
+              prevent_initial_call=True)
+def display_setup_modall(n):
+  return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
 
 
 @app.server.route("/marker")
