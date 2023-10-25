@@ -10,7 +10,7 @@ import random
 from flask import Flask
 import flask
 
-demo_mode = False
+mask_map = True
 
 try:
   with open("architect_styles_sub.json", 'tr') as fi:
@@ -251,7 +251,7 @@ app.layout = dbc.Container(
                   "z-index": "10",
                   "background-color": "rgba(34, 34, 34, 0.8)"
                 },
-                hidden=demo_mode,
+                hidden=mask_map,
                 id="style-msg")
             ],
             style={
@@ -299,7 +299,7 @@ app.layout = dbc.Container(
               "z-index": "20",
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
-            hidden=demo_mode,
+            hidden=mask_map,
             id="map-msg"),
           dbc.Label("EPOCHE"),
           dcc.Slider(0,
@@ -341,7 +341,7 @@ app.layout = dbc.Container(
               "z-index": "20",
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
-            hidden=demo_mode,
+            hidden=mask_map,
             id="epoche-msg"),
           dbc.Row([
             dbc.Col(
