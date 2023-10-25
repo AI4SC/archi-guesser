@@ -10,7 +10,7 @@ import random
 from flask import Flask
 import flask
 
-mask_map = True
+mask = False
 
 try:
   with open("architect_styles_sub.json", 'tr') as fi:
@@ -49,11 +49,14 @@ for fn in os.listdir('styles120'):
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 
 examples_img = {}
-for fn in os.listdir('examples'):
-  if fn.endswith(".png"):
-    img = Image.open(os.path.join('examples', fn))
-    examples_img[fn.replace('.png', '')] = img
-    pil_image = img
+for fn in os.listdir('style_generated'):
+  if os.path.isdir(os.path.join('style_generated', fn)):
+    for fni in os.listdir(os.path.join('style_generated', fn)):
+      if fni.endswith(".png"):
+        img = Image.open(os.path.join('style_generated', fn, fni))
+        examples_img[fn+'_'+fni.replace(".png","")] = img
+
+pil_image = random.choice(list(examples_img.values()))
 
 # print(examples_img.keys())
 
@@ -62,14 +65,6 @@ sel_style = None
 sel_location = None
 sel_epoche = None
 rnd_style = "Bauhaus architecture"
-
-for demostep in demo_steps:
-  if demostep['rnd_style'] not in architects_by_style:
-    print("MISSING rnd_style", demostep['rnd_style'])
-  if demostep['sel_style'] not in style_img:
-    print("MISSING sel_style", demostep['sel_style'])
-  if demostep['rnd_img'] not in examples_img:
-    print("MISSING rnd_img", demostep['rnd_img'])
 
 # Open region GeoJSON
 with open("cultural_regions_simplified.geojson", 'tr') as fi:
@@ -228,8 +223,7 @@ app.layout = dbc.Container(
                                "type": "style-selection",
                                "index": n
                              })) for n, img in style_img.items()
-              ],
-                      className="no-gutters no-padders"),
+              ], className="no-gutters no-padders"),
               html.Div(
                 [
                   html.H3(
@@ -251,7 +245,7 @@ app.layout = dbc.Container(
                   "z-index": "10",
                   "background-color": "rgba(34, 34, 34, 0.8)"
                 },
-                hidden=mask_map,
+                hidden=True,#mask,
                 id="style-mask")
             ],
             style={
@@ -299,7 +293,7 @@ app.layout = dbc.Container(
               "z-index": "20",
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
-            hidden=mask_map,
+            hidden=mask,
             id="map-mask"),
           dbc.Label("EPOCHE"),
           dcc.Slider(0,
@@ -341,14 +335,14 @@ app.layout = dbc.Container(
               "z-index": "20",
               "background-color": "rgba(34, 34, 34, 0.8)"
             },
-            hidden=mask_map,
+            hidden=mask,
             id="epoche-mask"),
           dbc.Row([
             dbc.Col(
               dbc.Button(
                 "GUESS",
                 style={'height': '40px'}, 
-                id="GUESS", 
+                id="SUBMIT_GUESS", 
                 disabled=True)
               ),
           ]),
@@ -389,21 +383,22 @@ def tostr(obj):
     return str(obj)
 
 
-@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+@app.callback(Output('epoche-mask', 'hidden', allow_duplicate=True),
+              Output('SUBMIT_GUESS', 'disabled', allow_duplicate=True),
               Output("layer", "children"),
               Input('map', 'click_lat_lng'),
               prevent_initial_call=True)
-def display_selected_data(click_lat_lng):
+def display_selected_map_position(click_lat_lng):
   global sel_location
   if click_lat_lng is None: return True, []
   sel_location = click_lat_lng
   print(sel_location, sel_style, sel_epoche)
-  return sel_location is None or sel_style is None or sel_epoche is None, [
+  return True, sel_location is None or sel_style is None or sel_epoche is None, [
     dl.Marker(position=click_lat_lng,
               children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)))
   ]
 
-@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+@app.callback(Output('SUBMIT_GUESS', 'disabled', allow_duplicate=True),
               Input('epoche', 'value'),
               prevent_initial_call=True)
 def display_selected_epoche(value):
@@ -412,7 +407,8 @@ def display_selected_epoche(value):
   sel_epoche = value
   return sel_location is None or sel_style is None or sel_epoche is None
 
-@app.callback(Output('GUESS', 'active', allow_duplicate=True),
+@app.callback(Output('map-mask', 'hidden', allow_duplicate=True),
+              Output('SUBMIT_GUESS', 'active', allow_duplicate=True),
               Output({
                 'type': "style-selection",
                 'index': ALL
@@ -434,12 +430,15 @@ def select_style(n, names):
     for v in callback_context.triggered_prop_ids.values():
       sel_style = v['index']
       styles = ['primary' if sel_style == n else None for n in names]
-      return sel_location is None or sel_style is None or sel_epoche is None, styles
+      return False, sel_location is None or sel_style is None or sel_epoche is None, styles
   else:
-    return True, style_ccc
+    return True, True, style_ccc
 
 @app.callback(
-  Output('GUESS', 'disabled', allow_duplicate=True),
+  Output('style-mask', 'hidden', allow_duplicate=True),
+  Output('map-mask', 'hidden', allow_duplicate=True),
+  Output('epoche-mask', 'hidden', allow_duplicate=True),
+  Output('SUBMIT_GUESS', 'disabled', allow_duplicate=True),
   Output("example_img", "src"),
   Output("style_body", "children"),
   Input("new_run", "disabled"),  # used as event notifier
@@ -453,7 +452,7 @@ def select_random_style(new_run):
   aarch = architects_by_style[rnd_style]["architects"]
   print(rnd_style, astyle, aarch)
   sel_style, sel_epoche, sel_location = None, None, None
-  return True, rnd_img, [
+  return True, mask, mask, True, rnd_img, [
     html.H3(rnd_style),
     html.Label("Epoche"),
     html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
@@ -469,11 +468,12 @@ def select_random_style(new_run):
     html.Ul([html.Li(c["name"]) for c in aarch]),
   ]
 
-@app.callback(Output('GUESS', 'disabled', allow_duplicate=True),
+@app.callback(Output('SUBMIT_GUESS', 'disabled', allow_duplicate=True),
               Output("resultmodal", "is_open", allow_duplicate=True),
-              Input('GUESS', 'n_clicks'),
+              Input('SUBMIT_GUESS', 'n_clicks'),
               prevent_initial_call=True)
 def evaluate_run(n):
+  # TODO: Compute final score and update modal
   return [True, True, False]
 
 @app.callback(#Output("setup_modal", "is_open"),
