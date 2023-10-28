@@ -3677,7 +3677,12 @@
         "style_area": "Intercultural",
         "name": "Contemporary",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "Colors bold and sleek,\nLines sharp and precise,\nA fusion of space and light,\nInnovative and precise.\n\nGlass meets steel,\nSymmetry entwined,\nOpen spaces, air unconfined,\nArtistry redefined.\n\nClean simplicity,\nFunctionality meets grace,\nMinimalistic yet grand,\nElegant in every place.\n\nEfficiency in every corner,\nForm and function unified,\nTechnology drives design,\nA vision in every stride.\n\nRefined and modern,\nOvercoming the mundane,\nPushing boundaries and norms,\nArchitecture at its finest reigns.",
+            "Where steel meets glass, a bold creation gleams,\nA symphony of lines and geometric dreams.\nWith sleek exteriors, cutting through the sky,\nA marriage of simplicity and wonders fly.\n\nBraving traditional norms, it defies the past,\nMinimalist elegance, every line cast.\nInnovative spaces, open and free,\nA dialogue of light and shadow, we see.\n\nAn embrace of technology, it takes the lead,\nSustainability and function it does feed.\nFluid designs, abstract beauty it evokes,\nA canvas for emotions, like art that provokes.\n\nThe harmony of nature and urban demands,\nA dance of contrasts, creation expands.\nEnveloping us, it whispers tales untold,\nA contemporary tale, forever bold.",
+            "Sleek lines bending, shapes transforming,\nModern visions, old norms reforming.\nLight floods in through windows vast,\nCreating spaces, harmonies that last.\n\nGeometry dances, structures defy,\nUnconventional beauty enticing the eye.\nInnovation blooms, traditions relinquished,\nMaterials melded, old limits demolished.\n\nA fusion of function and art's enchantment,\nMinimalist yet bold, a visual statement.\nNo frills, no excess, just elegant precision,\nReflecting a world in constant transition.\n\nEmbracing technology, a symphony of glass,\nSteel and concrete, where forms contrast.\nThe present incarnate, in each steel beam,\nCrafting stories anew, in this contemporary dream."
+        ]
     },
     "Byzantine": {
         "architects": [
@@ -17000,7 +17005,12 @@
         "style_area": "SE. Asia",
         "name": "Thai",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In lands where vibrant sunsets kiss the ground,\nWhere wisdom echoes in temples profound,\nHomes painted in hues of nature’s embrace,\nA symphony of forms, an architectural grace.\n\nEaves that soar like wings of birds in flight,\nCurves and lines like dancers swaying with delight,\nSplendid pavilions poised with utmost allure,\nWhispering tales of tradition, strong and pure.\n\nBeneath tiled roofs, the spirit finds solace,\nCrafted pillars, strong foundations that promise,\nOrnate carvings of mythical life events,\nA blend of art and culture, true testament.\n\nWindows adorned with delicate lattice work,\nAn invitation for gentle breezes to murk,\nWith sacred ponds, serene and mirror-like,\nRespite for weary souls, a peaceful strike.\n\nArchitecture that echoes land's harmony,\nNature and spirituality, a symphony,\nThis living heritage, a visual delight,\nAn embrace of cultures, a radiant light.",
+            "In golden lands where ancient secrets dwell,\nA symphony of beauty gracefully tells.\nOrnate rooftops soar, pointing to the sky,\nUnfolding tales of culture, whispered oh so shy.\n\nStately pillars stand strong, like guardian souls,\nCarved intricacies, where stories uphold.\nExquisite colors compete, vibrant and bright,\nWhispers of harmony from morn until night.\n\nElegant arches curve, in reverence they bow,\nTo nature's embrace, a tranquil vow.\nGarden courtyards bloom, embraced by sweet scents,\nNature and man entwined, their love immense.\n\nFrom glistening pagodas to serpents entwined,\nAncestral treasures in each curve we find.\nA delicate dance of grace, form and line,\nA woven masterpiece of heritage divine.\n\nThis artistry weaves, a tapestry of dreams,\nThrough time it resonates, forever it gleams.\nThe enchanting allure of a distant realm,\nWhere magic and beauty eternally overwhelm.",
+            "Amidst vibrant lands, a mystical grace,\nWhere colors dazzle, and legends embrace.\nOrnate curvatures dance on walls so grand,\nA tapestry of culture, adored in this land.\n\nStately pavilions, rooftops that touch the sky,\nSecluded alcoves under heavens high.\nLustrous eaves whisper secrets untold,\nGuarding ancient treasures, stories of old.\n\nColumns rise tall, with strength and esteem,\nGuardians of beauty in an intricate dream.\nCarvings unfurl, delicate as Zephyr's breath,\nTelling tales of the past, conquering death.\n\nGilded in gold, revered celestial beams,\nBathing the halls in warm, opulent gleams.\nLattice windows frame the world outside,\nMerging nature and art with seamless pride.\n\nLotus ponds mirror, the moonlight's sweet tune,\nReflecting grace, like petals beneath the moon.\nSilken patterns entwined on murals, so fine,\nWhispering sagas of empires divine.\n\nA breathtaking fusion, where visions ignite,\nElegant harmony, where shadows take flight.\nUnveiling enchantment, a rich cultural blend,\nAn architecture style, beloved without end."
+        ]
     },
     "Persian": {
         "architects": [
@@ -17174,7 +17184,12 @@
         "style_area": "C. Asia",
         "name": "Persian",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In timeless halls of splendor high,\nWhere sunbeams dance upon blue sky,\nA regal grace begins to bloom,\nIn every arch and vaulted tomb.\n\nWhispers of distant lands entwined,\nIn patterns intricate, refined,\nMosaic tales, a vivid play,\nOf artful wonders on display.\n\nGolden hues adorn the walls,\nWhere light cascades through latticed halls,\nCarved pillars stretch towards the stars,\nLike guardian palms from afar.\n\nSpires reaching, heavens touch,\nA sanctuary that means so much,\nSymmetry weaves a graceful spell,\nIn every detail, stories dwell.\n\nFrom ancient tales, this treasure springs,\nA timeless symphony that sings,\nA testament to cultured bliss,\nIn every corner, reminisced.",
+            "In lands adorned by sunlit beams,\nA legacy in stone, it gleams,\nWhere arches soar to skies above,\nWhere beauty resides, eternal love.\n\nUnyielding grandeur, ornate design,\nEmbracing magnificence, oh so fine,\nMosaics woven with colors diverse,\nWhispering tales, an ancient verse.\n\nColumns stand proud, graceful and sleek,\nOf splendor's dreams, a humble tweak,\nA symphony of patterns, floral and true,\nCrafted by hands, with care imbued.\n\nEmbracing portals, adorned with grace,\nA testament to time, a sacred embrace,\nCourtyards adorned with splashing delight,\nWith gentle fountains, calming the night.\n\nStarry domes suspended with pride,\nHousing celestial gazes inside,\nIlluminated by light's gentle hold,\nRevealing secrets, stories untold.\n\nIntricate ruins, remnants of a tale,\nAncient whispers in the dusty gale,\nA legacy cherished, forever alive,\nAn architectural marvel, thriving and thrive.",
+            "In sunlit lands where domes appear,\nImprinted tales of art and cheer.\nCarved arches soar to touch the sky,\nCreating realms that never die.\n\nStones poised with intricate designs,\nWhispering secrets from ancient times.\nColorful tiles grace every wall,\nUnveiling tales of kings enthralled.\n\nIntricate gardens, lush and grand,\nHarmony in every blade of sand.\nWater flowing with gentle grace,\nReflecting beauty, a sacred space.\n\nClustered ceilings, hushed and wide,\nHolding dreams from a painter's ride.\nColumns stand tall, like proud sentries,\nGuarding stories, sweet mysteries.\n\nA symphony of light and shade,\nCourtyards framed where fountains cascade.\nSilent echoes, a song of souls,\nRadiating warmth, as culture unfolds.\n\nThrough art's embrace, a rich flair,\nWhispers of culture fill the air.\nA legacy treasured, forever true,\nIn every sight, a masterpiece anew."
+        ]
     },
     "Swahili": {
         "architects": [
@@ -17370,7 +17385,12 @@
         "style_area": "C. & S. Africa",
         "name": "Swahili",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In distant lands where palms sway,\nA vibrant spirit takes its sway,\nThe tapestry of art unfolds,\nIn arches, curves, tales untold.\n\nMud and coral, blending true,\nCrafting homes with colors new,\nWhispers of Africa abound,\nWithin each dwelling, stories found.\n\nEnchanting rooftops gently rise,\nAdorned with ornaments, worldly ties,\nA dance of sun and shadows play,\nOn walls where art finds its way.\n\nCourtyards blooming with life's embrace,\nA tranquil haven, filled with grace,\nThrough intricate doors, secrets hide,\nIntriguing worlds waiting inside.\n\nCarved with grace in every beam,\nA symphony of culture, it seems,\nAwakening senses, harmonies old,\nIn this architecture, tales unfold.",
+            "Amidst the golden coast, a tale is spun,\nArchitecture whispered by equatorial sun.\nA dance of symmetry, where curves embrace,\nWithin slender frames, a timeless grace.\n\nAdorned in vibrant hues, earthly and bright,\nGathered by hands, skilled, in artistic flight.\nVaulted arches, like arms open wide,\nWelcoming strangers, with warmth, beside.\n\nIntricate patterns, etched in every wall,\nStories unfold, whispers with each footfall.\nLatticed screens, crafted in woven delight,\nShielding from the heat, with patterns so tight.\n\nVerandas extending to the gentle sea breeze,\nA haven of solace, where time's ceased.\nCourtyards adorned with plants and blooms,\nNature's sanctuary, where life resumes.\n\nShady rooftops, with mangrove crowns,\nPeering down, as history resounds.\nPrecious history, etched within these walls,\nCulture celebrated, as grandeur installs.\n\nSo, let us marvel at this coastal treasure,\nAn architecture style, woven with pleasure.\nA tribute to heritage, standing tall and free,\nThis enchanting design, forever to be.",
+            "Amidst a tapestry woven by cultural delight,\nWhere walls rise to sing songs of ancient might,\nTimber and thatch blend in harmonious blend,\nForms emboldened with stories, without end.\n\nSplendidly adorned, vibrant colors cascade,\nCarved patterns that whisper tales, long forbade,\nCourtyards invite, with cool shade they lace,\nA sanctuary in heat, a comforting embrace.\n\nMajestic archways, divine in their grace,\nSun's tender glow kisses each sculpted face,\nCarvings tell a tale of strength and ancestry,\nA symphony of tradition, an artistry.\n\nBreezes embraced, through dainty lattice they sigh,\nAs palm leaves sway, under an azure sky,\nRooftops crowned, soaring high in pride,\nPreserving heritage, where time cannot hide.\n\nWith every brick laid, history unfolds,\nResilient whispers, stories yet untold,\nIn this symphony, an architectural soul,\nResonating through time, a treasure untold."
+        ]
     },
     "Federation": {
         "architects": [
