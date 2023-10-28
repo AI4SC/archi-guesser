@@ -161,7 +161,12 @@
         "style_area": "Europe",
         "name": "Renaissance",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In days of art's rebirth, arches ascend,\nGraceful columns, lofty and grand.\nSymmetry embraces each carved stone,\nAn era's mark, its elegance shone.\n\nEmbracing history's ancient design,\nMarvelous windows, sunlight divine.\nVaulted ceilings, a celestial embrace,\nA blend of classic and modern in space.\n\nExpertly crafted, details so fine,\nWhispering tales from a bygone rhyme.\nSculptures and statues, tales they do tell,\nOf god and man, forever they dwell.\n\nGolden proportions, harmony's blend,\nCourtyards enchanted, tranquility lend.\nAesthetic balance, order restored,\nMonuments to an age richly adored.",
+            "Marvelous structures rise, adorned with grace,\nCarved from the past, a reborn embrace.\nMajestic arches in heavenly proportion,\nColumns stretching high, a grand transformation.\n\nElegant symmetry, a symphony of lines,\nIntricate details intertwine, their beauty shines.\nMonumental facades, timeless allure,\nWhispering tales of artisans so pure.\n\nFlourishes of ornament, a delicate display,\nStained glass windows, casting vibrant rays,\nFrescoes dancing above, celestial scenes,\nWith every brushstroke, a heavenly dream.\n\nCourtyards and gardens, nature's sanctuary,\nMelding with art, an enchanting auxiliary.\nPristine fountains gushing, with waters serene,\nWhispering tranquility, in every pristine sheen.\n\nFrom Italy it emerged, a cultural rebirth,\nExpanding horizons, shaping the Earth.\nA period of enlightenment, humanity's call,\nThe essence of beauty, igniting for all.",
+            "In golden light, majestic they stand tall,\nBearing witness to an age that did enthrall.\nColumns reach towards a cerulean sky,\nSymmetry, harmony manifesting high.\n\nArches and domes, graceful curves embrace,\nWhispering tales of an era's lavish grace.\nFrescoes come alive on every wall,\nIn vivid colors, stories they install.\n\nMarble facades with intricate detail,\nCarved reliefs, artisans' pride prevail.\nPalatial windows, ornate and grand,\nTranslucent panes, casting light on land.\n\nA celebration of knowledge profound,\nClassical influences marvelously crowned.\nA testament to human spirit's fire,\nInspiring minds, raising spirits higher.\n\nThrough time's embrace, their allure remains,\nGlorious beacons, enduring through all strains.\nRepresenting rebirth, innovation's might,\nA true testament to human's creative fight."
+        ]
     },
     "Bauhaus": {
         "architects": [
@@ -613,7 +618,12 @@
         "style_area": "Europe",
         "name": "Gothic",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "Towers stretch towards the sky so high,\nPointed arches grazing heavenly light.\nStained glass windows shimmer with hues,\nWhispering ancient tales they imbue.\n\nMajestic spires piercing the clouds,\nStone ribbed vaults echoing divine sounds.\nIntricate carvings, mythical beasts entwined,\nOverwhelming, grandeur of an era behind.\n\nCloistered halls, cloaked in shadows' dance,\nExquisite craftsmanship in every glance.\nColumns rise, supporting a sacred space,\nAn ode to history, time cannot erase.\n\nA symphony of stone, a haunting grace,\nWhispering secrets of a forgotten place.\nSilent guardians of an age long gone,\nA legacy of beauty, eternally drawn.",
+            "In stony grace, the great castles rise, \nTheir arches reach for endless skies.\nWindows tall in intricate designs, \nStained glass glowing, colors that bind.\n\nCathedrals soar, with spires so high,\nPinnacles that seem to touch the sky.\nRays of light, through vaulted halls, \nWhisper secrets of ancient walls.\n\nFlying buttresses, like branches spread,\nThey hold the weight, no words unsaid.\nGargoyles guard, on the towers' edge,\nSilent sentinels, darkly etched.\n\nMystery dwells within each nook,\nIn hidden corners, stories they took.\nMajestic forms, of grandeur and might,\nAwe and wonder in every sight.\n\nA solemn beauty, an air of gloom,\nYet captivating, like an ancient tomb.\nThis architecture, a romantic tale,\nOf shadows and light, forever prevail.",
+            "In shadows cast by spires tall, \nWhere ancient stones embrace the skies,\nA symphony of lines enthralls,\nIn sublime grace, secrets arise.\n\nVictories carved in arching arcs,\nStone lace that weaves the heavens tight,\nPillars strong like ancient oak barks,\nVaults whisper secrets in the night.\n\nStained glass dreams in colors bleed,\nCelestial stories, truths unfold,\nMajestic windows, treasures freed,\nIn kaleidoscopic tales enfold.\n\nCloisters winding, through time's embrace,\nA labyrinth where souls find solace,\nWhispered echoes, a sacred space,\nAs stone and air fuse in one place.\n\nA grandeur born from age and strife,\nCathedral hymns that pierce the soul,\nA testament to endless life,\nIn darkened beauty, dreams unfold."
+        ]
     },
     "Art Deco": {
         "architects": [
@@ -1933,7 +1943,12 @@
         "style_area": "Europe",
         "name": "Baroque",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In sweeping curves, a symphony of form arose,\nA realm where grandeur and opulence would disclose,\nWith towering spires, heavenward they aspire,\nSculptures and frescoes, marvels to admire.\n\nOrnate façades, a theater of delight,\nWhispering tales of an era shining bright,\nWhimsical details, intricate and sublime,\nAn ode to excess in every design.\n\nGilded Châteaus, resplendent and proud,\nCathedrals adorned with a celestial shroud,\nMajestic palaces, statuesque and supreme,\nA scene of splendor, like a vivid dream.\n\nCarved in stone, the stories of time unfold,\nSerene gardens, where secrets shall be told,\nElaborate domes piercing the azure sky,\nA soaring dance with clouds, never to deny.\n\nIn this lavish world, where beauty finds its reign,\nWhere magnificence spins a timeless refrain,\nA style so distinctive, it leaves hearts aglow,\nThe essence of artistry that the ages shall show.",
+            "In regal halls, an opulence graced,\nEthereal curves, a dance interlaced.\nGilded swirls, with colors so profound,\nA symphony of grandeur, architecture renowned.\n\nCathedral arches, reaching for heavens above,\nEvery intricate detail, a work of love.\nSculpted in stone, a spectacle divine,\nWhere artistry and splendor intertwine.\n\nCarved cherubs adorn the grand façades,\nExuding grace in every stuccoed applaud.\nOrnate altars, ablaze with golden light,\nMajestic domes soaring to celestial heights.\n\nIntriguing complexities, abundant and bold,\nSpiraling columns, tales of tales so told.\nWhimsical Rococo, with playful indulgence,\nA baroque tapestry, weaving opulent elegance.\n\nIn palaces resplendent, a feast for the eyes,\nCeilings painted, mirroring the skies.\nFlourishes of beauty, with drama and flair,\nAn architectural marvel, beyond compare.\n\nSo let us marvel, at this timeless creation,\nA style that stands, a testament to dedication.\nA chapter in history, forever engraved,\nAn ode to beauty, in each arch and each wave.",
+            "In grandeur's embrace, swirling lines unfold,\nA symphony of shapes in sculptures bold.\nWhere heavens touch the earthly realm with grace,\nAn opulent dance in ornate embrace.\n\nCurves cascade, embellishments adorned,\nA tale of splendor, timeless and reborn.\nGolden orbs of light, cascading in beams,\nReflecting tapestries of cherished dreams.\n\nColumns soar high, reaching heavens above,\nIntricate details, a testament of love.\nGargoyles, guardians, adorning the walls,\nWhispering secrets in majestic halls.\n\nRococo curls embrace every corner,\nFrescoes breathe life, in brushstrokes we wander.\nExquisite textures, textured displays,\nCapture the eyes in their enchanting ways.\n\nCherubs and nymphs, their playfulness untold,\nA bustling symphony, harmonious and bold.\nEach arch and niche, a story to unfold,\nIn this timeless world, we're forever enthralled."
+        ]
     },
     "Romanesque": {
         "architects": [
@@ -2082,7 +2097,12 @@
         "style_area": "Europe",
         "name": "Romanesque",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In stone, a grand story is portrayed,\nA tapestry of strength and art displayed.\nBold arches soar, delicate details traced,\nA symphony of craftsmanship, finely embraced.\n\nCloaked in time's gentle touch, they stand tall,\nGuardians of history, past voices recall.\nProud buttresses, like arms embracing the sky,\nDefiance against gravity, built strong, never to deny.\n\nCircular windows, roseate blooms of light,\nCreating kaleidoscopic patterns, pure and bright.\nRibbed vaults, in every turn and curve appear,\nLifting spirits higher, dispelling all fears.\n\nA fortress of grace, solidity intertwined,\nEmbodying a heritage, eternally enshrined.\nFrom altar to spire, a sanctuary's grace,\nWhispering whispers of a time, a sacred place.\n\nWith columns firm, pillars rooted deep,\nArchitectural marvels, secrets they keep.\nEmbodying an era of passion and zeal,\nAesthetics rooted in the stories they reveal.",
+            "In stony grandeur, arches rise and fall,\nMajestic strength reaches for the sky tall.\nVaulted ceilings embrace a sacred hush,\nAs sunlight filters through stained glass's blush.\n\nSolid columns stand, sturdy and proud,\nCarved capitals, each a story allowed.\nRound and heavy, like nature's ancient thrones,\nThey bear the weight of history's undertones.\n\nEndless mosaics dance upon the walls,\nVivid colors in intricate install.\nRugged textures speak of a rugged age,\nA testament to human will, stage by stage.\n\nTowers and turrets, guardians of old,\nSurvey the land, secrets they unfold.\nDefying time with their fortress-like might,\nA living homage to an era's might.\n\nSo, when you witness these structures strong,\nBehold their beauty where they belong.\nFor in their forms, a chapter's portrayed,\nA testament of an age, time can't fade.",
+            "In ancient realms of stone and grand design,\nWhere sturdy walls of history still shine,\nA regal symphony of shapes arise,\nBold arches reach for limitless skies.\n\nEchoes of power reverberate here,\nCathedrals standing tall, defiant and clear,\nWith rounded windows, guardians of light,\nUnyielding pillars, a poetic might.\n\nByzantine wonders captured in each stone,\nVivid murals, biblical stories prone,\nA fortress-like structure of solid grace,\nImposing strength, a visual embrace.\n\nFrom towering castles to monastic halls,\nA fusion of cultures, a bond that enthralls,\nThrough intricate carvings, tales unfold,\nOf kings and queens, their stories untold.\n\nA fusion of beauty, a timeless art,\nWhere faith and craftsmanship intertwine, impart\nA sense of awe, a sacred serenade,\nIn every arch and curve, an era displayed."
+        ]
     },
     "Rococo": {
         "architects": [
@@ -3788,7 +3808,8 @@
         },
         "valid": 0.66,
         "name": "Byzantine",
-        "valid2": 1.0
+        "valid2": 1.0,
+        "poems": []
     },
     "Ancient Egyptian": {
         "architects": [
@@ -3938,7 +3959,12 @@
         "style_area": "M. East & N. Africa",
         "name": "Ancient Egyptian",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In golden sands where time resides,\nWhere pyramids reach towards the skies,\nA majestic realm of treasures once thrived,\nIntricate tales carved in stone, revived.\n\nColumns tall like towering palms,\nEmbracing sun rays in golden charms.\nLabyrinths of halls, mysterious and vast,\nWhispering secrets of a glorious past.\n\nObelisks, proud and regal, stand tall,\nMarking the path to the celestial call.\nHieroglyphs etched on temple walls,\nNarrating history, enchanted halls.\n\nStatues with faces serene and wise,\nGazing beyond into the distant skies.\nIntricate carvings, intricately told,\nOf gods and pharaohs, forever bold.\n\nMajestic gates, adorned with grandeur,\nGuarding realms with an allure.\nSphinxes watch with unwavering grace,\nSilent witnesses of a time and place.\n\nA sacred architecture, a timeless art,\nResonating ancient wisdom through the heart.\nA legacy embraced by light and sand,\nThe marvels of a mesmerizing land.",
+            "Amid vast deserts, structures rise,\nWhispers of civilization's guise.\nPyramids piercing the endless skies,\nCenturies woven with timeless ties.\n\nMajestic columns, etched in stone,\nSturdy pillars, a beauty they own.\nCarved reliefs, stories of life unknown,\nMysteries hidden, yet to be shown.\n\nObelisks proud, pointing to the stars,\nGuardians of knowledge, near and far.\nTemples adorned, with light that jars,\nA glimpse of gods, in shadows bizarre.\n\nHieroglyphs, symbols of wisdom's thread,\nSacred secrets that time can't shred.\nGolden hues, where the sun has tread,\nCreating splendor, where legends are bred.\n\nA legacy of artistry and grace,\nEchoing through time's embrace.\nA symphony, where past and present trace,\nAn architectural marvel, leaving none to efface.",
+            "Amidst sands that stretch, a wondrous sight,\nTheir structures stand, kissed by golden light.\nMajestic columns rise, heavenward bound,\nA testament to craftsmanship renowned.\n\nPillars, like palms in ancient oasis,\nElongated necks, touching celestial spaces.\nCarved reliefs, tales etched in stone,\nUnveiling histories of a world unknown.\n\nLimestone walls, an ivory embrace,\nTracing hieroglyphs, secrets interlace.\nPyramids crowned, hidden tombs unfold,\nWhispers of pharaohs, untold stories told.\n\nObelisks, rising like sun's first gleam,\nGuiding seekers, connecting realms it seems.\nGrand halls adorned with lotus and reed,\nSacred temples nurturing divine creed.\n\nA labyrinth of courtyards, narrow and vast,\nMysteries whispered amidst a desert's contrast.\nArchways symbolize triumph over time's sway,\nHarbingers of wisdom, eternal treasures they portray.\n\nCalm, poised statues, embracing sacred ground,\nGuardians and goddesses, forever renowned.\nA tapestry of art, sculpted by gifted hands,\nReflecting a legacy that forever stands."
+        ]
     },
     "Arts and Crafts": {
         "architects": [
@@ -4365,7 +4391,12 @@
         "style_area": "Europe",
         "name": "Ancient Roman",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In lands of marble and swirling grace,\nWhere mighty columns touch the sky's embrace.\nPillars stretch tall, adorning the scene,\nA timeless beauty, regal and serene.\n\nArches spring forth, with gentle curve,\nSymmetry reigning, never to swerve.\nMajestic domes, proud and vast,\nEmbracing heavens, holding the past.\n\nMosaics dance, colorful and refined,\nStories woven, capturing the mind.\nCourtyards unfold, with playful light,\nWhispering secrets, echoing delight.\n\nGrand amphitheatres rise in commanding might,\nTheatrical spectacles captivating the night.\nSturdy walls stand, fortresses unyielding,\nDefending a vision with strength and shielding.\n\nEmbracing harmony, beauty's true lover,\nStoic monuments that time can't smother.\nMarking an era of grandeur and grace,\nOh, the legacy left by this remarkable place.",
+            "In stately forms, columns reach the sky,\nMajestic structures, centuries gone by.\nInspired by gods, timeless grace they hold,\nWith marble strength, legends untold.\n\nArtistry etched in each graceful arch,\nPillars standing tall, timeless march.\nSymmetry adorns meticulous design,\nWhere gods once dwelt, in every shrine.\n\nEmbracing light, through grand windows framed,\nArchitraves and friezes proudly named.\nCourtyards whisper secrets of grandeur past,\nCraftsmen's skill woven, forever to last.\n\nMosaic tales dance upon the floors,\nA thousand stories told in vibrant pores.\nAtriums breathe life, inviting embrace,\nA rendezvous of beauty and elegant space.\n\nOh, how these buildings sow the seeds,\nOf an empire's triumphs and noble deeds.\nNow, remnants remain, standing in awe,\nWitnesses to a world we forever adore.",
+            "In grandeur birthed by marble's might,\nA timeless tale unfolds in sight.\nColumns soaring, reaching skies,\nEmbracing strength, where pioneers arise.\n\nWhere arches gracefully intertwine,\nWhispering secrets, tales of time.\nPillars stand proud, exuding grace,\nA symphony of columns we embrace.\n\nVivid frescoes paint celestial hues,\nGlimpses of heavens, an artist's muse.\nMosaics dance with colors bright,\nUnveiling stories, bathing in light.\n\nA triumph declared with every arch,\nIn sculpted details, a lasting march.\nSanctuaries vast, inviting all,\nWelcoming visitors to realms enthralled.\n\nBridging eras with timeless might,\nCreating realms where dreams alight.\nFrom golden temples to grand forums,\nA legacy etched in eternal forms."
+        ]
     },
     "Ancient Greek": {
         "architects": [
@@ -4514,7 +4545,12 @@
         "name": "Ancient Greek",
         "style_area": "Europe",
         "valid2": 1.0,
-        "selected": true
+        "selected": true,
+        "poems": [
+            "In shadows they rise, timeless creations of sublime,\nColumns tall and proud, bearing stories of distant clime.\nPediments, graceful curves, embellishments untold,\nUnveiling marble narratives, echoing legends of old.\n\nA symphony of harmony, order chiseled in stone,\nPerfection etched on walls, a testament yet unknown.\nSymmetry the cornerstone, balance our guiding light,\nCapturing nature's poise, casting awe to celestial height.\n\nFlowing friezes whisper tales, gods and heroes interweave,\nTemples reaching for heavens, where divinity does cleave.\nPorticos, sheltering embrace, invite all mortal souls,\nShaping sheltered sanctuaries, where solace unrolls.\n\nArchitects of antiquity, visionaries we revere,\nCrafting dreams with precision, every detail sincere.\nTheir influence enduring, an everlasting spark,\nInspiring dreamers, artists, to embark on a new embark.\n\nA feast for timeless eyes, a testament of pure art,\nTheir architectural prowess, a masterful impart.\nUntouched by time's embrace, they dwell in our core,\nThe reign of elegance, which shall forever endure.",
+            "In timeless realms where marble stands tall,\nA symphony of lines with grace enthralls.\nColumns rise to reach the sky above,\nA legacy of beauty, a testament to love.\n\nStatues carved in frozen perfection,\nGods and heroes, with spirits a connection.\nSymmetry and harmony, their guiding light,\nAesthetics embraced in every sight.\n\nPediments adorned with tales untold,\nFriezes whisper ancient legends bold.\nPorticoes invite with open embrace,\nDrawing one into a sacred space.\n\nDoric, Ionic, elegant support,\nCapital crowned, both simple and wrought.\nOrderly precision, a classic blend,\nArchitectural poetry without end.\n\nPillars standing as guardians strong,\nBalancing strength with delicate song.\nA gift to humankind, this architectural gift,\nEternally inspiring, in minds it will persist.",
+            "Majestic columns rise, embracing the sky,\nA symphony of marble, captivating the eye.\nStately temples, harmonious in design,\nEchoing tales of gods, whispers of time.\n\nStrength in precision, a balanced embrace,\nDoric, Ionic, Corinthian, gracing each space.\nIn sturdy stone, pillars stand tall and true,\nUnyielding beauty, an eternal view.\n\nLayers of history etched in every facade,\nPortraying myths woven by skilled hand,\nCarvings depict heroes, their triumphs renowned,\nRelics of a legacy forever renowned.\n\nHarmony in proportions, perfection achieved,\nGeometry and grace elegantly conceived.\nThrough grand archways, light pours unhindered,\nInspiring awe and reverence, leaving minds bewildered.\n\nA gift to civilization, this timeless style,\nOf a golden era, ever worthy of a smile.\nThough ancient in origin, its spirit alive,\nAn architectural marvel that continues to thrive."
+        ]
     },
     "Islamic": {
         "architects": [
