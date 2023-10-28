@@ -5,19 +5,19 @@ function onLoad(){
   canvas = document.getElementById("canvas");
   info = document.getElementById("info");
   if ( video == null || canvas == null || info == null ) {
-    console.log("loading ...")
-    setTimeout(onLoad, 1000)
+    console.log("loading ...");
+    setTimeout(onLoad, 1000);
     return;
   }
   context = canvas.getContext("2d");
 
   canvas.width = parseInt(canvas.style.width);
   canvas.height = parseInt(canvas.style.height);
-  
+
   if (navigator.mediaDevices === undefined) {
     navigator.mediaDevices = {};
   }
-  
+
   if (navigator.mediaDevices.getUserMedia === undefined) {
     navigator.mediaDevices.getUserMedia = function(constraints) {
       var getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
