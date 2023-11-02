@@ -2,7 +2,15 @@ import os
 
 import dash_bootstrap_components as dbc
 import json
-from dash import dcc, html, Dash, ALL, callback_context
+from dash import (
+    dcc,
+    html,
+    Dash,
+    ALL,
+    callback_context,
+    clientside_callback,
+    ClientsideFunction,
+)
 from dash.dependencies import Input, Output, State
 from PIL import Image
 import dash_leaflet as dl
@@ -572,8 +580,21 @@ app.layout = dbc.Container(
             "", id="new_run", style={"visibility": "hidden"}, disabled=True
         ),  # used as event notifier
         dcc.Interval(id="interval1", interval=5000),
+        dcc.Interval(id="camera-update", interval=100, n_intervals=0),
+        html.Div(
+            id="clientside-output",
+            children="""
+        Dash: A web application framework for your data.
+    """,
+        ),
     ],
     fluid=True,
+)
+
+clientside_callback(
+    ClientsideFunction(namespace="clientside", function_name="test_client_side"),
+    Output("clientside-output", "children"),
+    Input("camera-update", "n_intervals"),
 )
 
 
