@@ -598,6 +598,15 @@ clientside_callback(
 )
 
 
+# @app.callback(
+#     Output("epoche-mask", "hidden"),
+#     Input("clientside-output", "children"),
+# )
+# def display_selected_map_position(data):
+#     print(data)
+#     return ()
+
+
 def tostr(obj):
     if isinstance(obj, str):
         return obj
