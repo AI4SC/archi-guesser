@@ -580,7 +580,8 @@ app.layout = dbc.Container(
             "", id="new_run", style={"visibility": "hidden"}, disabled=True
         ),  # used as event notifier
         dcc.Interval(id="interval1", interval=5000),
-        dcc.Interval(id="camera-update", interval=100, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=3000, n_intervals=0),
+        dcc.Store(id="guess-data"),
         html.Div(
             id="clientside-output",
             children="""
@@ -593,18 +594,18 @@ app.layout = dbc.Container(
 
 clientside_callback(
     ClientsideFunction(namespace="clientside", function_name="test_client_side"),
-    Output("clientside-output", "children"),
+    Output("guess-data", "data"),
     Input("camera-update", "n_intervals"),
+    # State("guess-data", "data"),
 )
 
 
-# @app.callback(
-#     Output("epoche-mask", "hidden"),
-#     Input("clientside-output", "children"),
-# )
-# def display_selected_map_position(data):
-#     print(data)
-#     return ()
+@app.callback(
+    Output("clientside-output", "children"),
+    Input("guess-data", "data"),
+)
+def print_guess_data(data):
+    return str(data)
 
 
 def tostr(obj):
