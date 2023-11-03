@@ -283,8 +283,7 @@ def init_webpage():
         html.Button(
             "", id="new_run", style={"visibility": "hidden"}, disabled=True
         ),  # used as event notifier
-        dcc.Interval(id="interval1", interval=5000),
-        dcc.Interval(id="camera-update", interval=3000, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=1000, n_intervals=0),
         dcc.Store(id="guess-data"),
         html.Div(
             id="clientside-output",
