@@ -153,7 +153,7 @@ if demo_mode:
         Output("epoche-msg", "hidden"),
         Output('epoche', 'value'),
         Output("layer", "children"),
-        Input('interval1', 'n_intervals'),
+        Input('demo-interval', 'n_intervals'),
         State({
             "type": "style-selection",
             "index": ALL
