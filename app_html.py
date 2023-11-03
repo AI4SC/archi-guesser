@@ -286,12 +286,7 @@ def init_webpage():
         dcc.Interval(id="demo-interval", interval=5000),
         dcc.Interval(id="camera-update", interval=1000, n_intervals=0),
         dcc.Store(id="guess-data"),
-        html.Div(
-            id="clientside-output",
-            children="""
-        Dash: A web application framework for your data.
-    """,
-        ),
+        html.Div(id="clientside-output", children="Dash: A web application framework for your data.")
     ],
     fluid=True,
 )
