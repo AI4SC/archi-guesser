@@ -226,6 +226,7 @@ function drawGrid(markers){
         statusobj['lat']=Math.round(dstPt[1]);
         statusobj['lon']=Math.round(dstPt[0]);
         statusobj['obj']=index;
+        found=true;
       }
     }
     if (!found) missing.add("place");
