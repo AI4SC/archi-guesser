@@ -1,9 +1,9 @@
-var video, canvas, context, info, imageData, detector, mpos={}, postimeout=5000;
+var video, canvas, context, info, imageData, detector, mpos={}, postimeout=5000, statusobj={};
   
 function onLoad(){
   video = document.getElementById("video");
   canvas = document.getElementById("canvas");
-  info = document.getElementById("info");
+  //info = document.getElementById("info");
   if ( video == null || canvas == null || info == null ) {
     console.log("loading ...");
     setTimeout(onLoad, 1000);
@@ -58,11 +58,11 @@ function onLoad(){
     
   detector = new AR.Detector();
 
-  requestAnimationFrame(tick);
+  //requestAnimationFrame(tick);
 }
 
 function tick(){
-  requestAnimationFrame(tick);
+  //requestAnimationFrame(tick);
   
   if (video.readyState === video.HAVE_ENOUGH_DATA){
     snapshot();
@@ -74,11 +74,16 @@ function tick(){
   }
 }
 
+function ticktick() {
+  requestAnimationFrame(tick);
+  return statusobj;
+}
+
 function snapshot(){
   context.drawImage(video, 0, 0, canvas.width, canvas.height);
   imageData = context.getImageData(0, 0, canvas.width, canvas.height);
 }
-      
+
 function drawCorners(markers){
   var corners, corner, i, j;
 
@@ -132,6 +137,7 @@ function drawId(markers){
 
 function drawGrid(markers){
   var corners, corner, x, y, i, j, pS, pE, okcnt=0, tnow=Date.now(), statustxt, missing=new Set();
+  statusobj={};
 
   for (i = 0; i !== markers.length; ++ i){
     markers[i].tstamp=tnow;
@@ -174,22 +180,12 @@ function drawGrid(markers){
   })
   context.stroke();
 
-  // plot time marker
   if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
     timemarker=mpos["0"];
     cS=timemarker.corners[0];
     cE=timemarker.corners[2];
     context.strokeStyle = "orange";
     context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
-  }
-
-  // plot place marker
-  if ("20" in mpos && tnow-mpos["20"].tstamp<postimeout) {
-    timemarker=mpos["20"];
-    cS=timemarker.corners[0];
-    cE=timemarker.corners[2];
-    context.strokeStyle = "orange";
-    context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
   }
 
   // map perspective correction
@@ -200,13 +196,7 @@ function drawGrid(markers){
   if (!("13" in mpos)) missing.add("13");
   if (!("16" in mpos)) missing.add("16");
   if (!("0" in mpos)) missing.add("timestamp");
-  if (!("20" in mpos)) missing.add("place");
-  if (missing.size==0){
-    statustxt="OK";
-  }else{
-    statustxt ="Err: "+Array.from(missing).join(', ');
-  }
-
+  
   if (("1" in mpos) && ("4" in mpos) && ("9" in mpos) && ("12" in mpos)) {
     pTL=mpos["1"]; pTR=mpos["4"]; pBL=mpos["9"]; pBR=mpos["12"];
 
@@ -216,13 +206,21 @@ function drawGrid(markers){
 
     // deal with place marker
     if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-      timemarker=mpos["0"]; cS=timemarker.corners[0]; cE=timemarker.corners[2];
+      timemarker=mpos["0"]; 
+      cS=timemarker.corners[0]; 
+      cE=timemarker.corners[2];
+
+      // plot time marker
+      context.strokeStyle = "orange";
+      context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
+
       var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
       var dstPt = perspT.transform(srcPt[0], srcPt[1]);
       //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
       //console.log(srcPt, dstPt);
       //statustxt += " " + srcPt + "=>" + dstPt;
-      statustxt += "; Loc: " + Math.round(dstPt[1]) + " lat, " + Math.round(dstPt[0]) + " lon";
+      statusobj['lat']=Math.round(dstPt[1]);
+      statusobj['lon']=Math.round(dstPt[0]);
     }
   }
 
@@ -234,17 +232,34 @@ function drawGrid(markers){
     var perspT = PerspT(srcCorners, dstCorners);
 
     // deal with time marker
-    if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-      timemarker=mpos["0"]; cS=timemarker.corners[0]; cE=timemarker.corners[2];
-      var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
-      var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-      //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
-      //console.log(srcPt, dstPt);
-      statustxt += "; Year: " + Math.round(dstPt[0]);
+    found = false;
+    for (let index = 20; index < 31; index++) {
+      if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
+        timemarker=mpos[(""+index)];
+        cS=timemarker.corners[0];
+        cE=timemarker.corners[2];
+
+        // plot place marker
+        context.strokeStyle = "orange";
+        context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
+        found =true;
+        
+        var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
+        var dstPt = perspT.transform(srcPt[0], srcPt[1]);
+        //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
+        statusobj['year']=Math.round(dstPt[0]);
+      }
     }
+    if (!found) missing.add("place");
   }
 
-  info.innerHTML = statustxt;
+  if (missing.size==0){
+    statusobj['state']="OK"
+  }else{
+    statusobj['state']="Err: "+Array.from(missing).join(', ');
+  }
+
+  //info.innerHTML = statustxt;
 }
 
 
