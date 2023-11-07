@@ -75,6 +75,7 @@ function tick(){
 }
 
 function ticktick() {
+  if ( video == null || canvas == null || info == null ) return {};
   requestAnimationFrame(tick);
   return statusobj;
 }
