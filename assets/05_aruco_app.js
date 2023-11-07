@@ -4,7 +4,7 @@ function onLoad(){
   video = document.getElementById("video");
   canvas = document.getElementById("canvas");
   //info = document.getElementById("info");
-  if ( video == null || canvas == null || info == null ) {
+  if ( video == null || canvas == null) {
     console.log("loading ...");
     setTimeout(onLoad, 1000);
     return;
@@ -43,8 +43,8 @@ function onLoad(){
       console.log('Camera: ' + settings.deviceId);
       console.log('Camera width: ' + settings.width + 'px');
       console.log('Camera height:' + settings.height + 'px');
-      canvas.width = 640 || settings.width;
-      canvas.height= 480 || settings.height;
+      canvas.width = 1920 || settings.width;
+      canvas.height= 1080 || settings.height;
       if ("srcObject" in video) {
         video.srcObject = stream;
       } else {
@@ -75,7 +75,7 @@ function tick(){
 }
 
 function ticktick() {
-  if ( video == null || canvas == null || info == null ) return {};
+  if ( video == null || canvas == null ) return {};
   requestAnimationFrame(tick);
   return statusobj;
 }
