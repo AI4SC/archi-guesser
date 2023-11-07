@@ -206,23 +206,29 @@ function drawGrid(markers){
     var perspT = PerspT(srcCorners, dstCorners);
 
     // deal with place marker
-    if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-      timemarker=mpos["0"]; 
-      cS=timemarker.corners[0]; 
-      cE=timemarker.corners[2];
+    // deal with time marker
+    found = false;
+    for (let index = 20; index < 31; index++) {
+      if ((""+index) in mpos && tnow-mpos[(""+index)].tstamp<postimeout) {
+        var marker=mpos[(""+index)];
+        cS=marker.corners[0];
+        cE=marker.corners[2];
 
-      // plot time marker
-      context.strokeStyle = "orange";
-      context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
+        // plot time marker
+        context.strokeStyle = "orange";
+        context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
 
-      var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
-      var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-      //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
-      //console.log(srcPt, dstPt);
-      //statustxt += " " + srcPt + "=>" + dstPt;
-      statusobj['lat']=Math.round(dstPt[1]);
-      statusobj['lon']=Math.round(dstPt[0]);
+        var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
+        var dstPt = perspT.transform(srcPt[0], srcPt[1]);
+        //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
+        //console.log(srcPt, dstPt);
+        //statustxt += " " + srcPt + "=>" + dstPt;
+        statusobj['lat']=Math.round(dstPt[1]);
+        statusobj['lon']=Math.round(dstPt[0]);
+        statusobj['obj']=index;
+      }
     }
+    if (!found) missing.add("place");
   }
 
   if (("9" in mpos) && ("12" in mpos) && ("13" in mpos) && ("16" in mpos)) {
@@ -233,25 +239,21 @@ function drawGrid(markers){
     var perspT = PerspT(srcCorners, dstCorners);
 
     // deal with time marker
-    found = false;
-    for (let index = 20; index < 31; index++) {
-      if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-        timemarker=mpos[(""+index)];
-        cS=timemarker.corners[0];
-        cE=timemarker.corners[2];
+    if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
+      timemarker=mpos["0"]; 
+      cS=timemarker.corners[0];
+      cE=timemarker.corners[2];
 
-        // plot place marker
-        context.strokeStyle = "orange";
-        context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
-        found =true;
-        
-        var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
-        var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-        //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
-        statusobj['year']=Math.round(dstPt[0]);
-      }
+      // plot place marker
+      context.strokeStyle = "orange";
+      context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
+      found =true;
+      
+      var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
+      var dstPt = perspT.transform(srcPt[0], srcPt[1]);
+      //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
+      statusobj['year']=Math.round(dstPt[0]);
     }
-    if (!found) missing.add("place");
   }
 
   if (missing.size==0){
