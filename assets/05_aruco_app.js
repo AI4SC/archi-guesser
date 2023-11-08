@@ -192,7 +192,7 @@ function drawGrid(markers){
 
       // deal with place marker
       let found = false;
-      for (let index = 20; index < 31; index++) {
+      for (let i = 20; i < 31; i++) {
         let marker=mposget(""+index);
         if (marker!=null) {
           cS=marker.corners[0];
@@ -206,7 +206,7 @@ function drawGrid(markers){
           var dstPt = perspT.transform(srcPt[0], srcPt[1]);
           statusobj['lat']=Math.round(dstPt[1]);
           statusobj['lon']=Math.round(dstPt[0]);
-          statusobj['obj']=index;
+          statusobj['obj']=i;
           found=true;
         }
       }
