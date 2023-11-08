@@ -13,6 +13,7 @@ from dash import (
 from dash.dependencies import Input, Output, State
 import random
 import flask
+import shapely
 
 mask = False
 demo_mode = False
@@ -125,9 +126,19 @@ def tostr(obj):
 def compute_map_score(data):
     if not data or 'lat' not in data or 'lon' not in data:
         return 0
-    multipoly=regions[correct_style["style_area"]]
-    # TODO: compute distance to multipoly
-    return 0
+    guess_coord = shapely.Point(data['lon'], data['lat'])
+    #Find correct polygon, convert to shapely geometry
+    region_poly = None
+    for reg in regions["features"]:
+        if reg["properties"]["Region"] == correct_style["style_area"]:
+            region_poly = shapely.geometry.shape(reg["geometry"])
+            break
+    if guess_coord and region_poly:
+        #Map score: Ten times the angular error
+        return shapely.distance(guess_coord, region_poly)*10
+    else:
+        #Upon error, return maximum distance
+        return 180*10
 
 
 def compute_time_score(data):
