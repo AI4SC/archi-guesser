@@ -154,7 +154,7 @@ def compute_style_score(data):
 def display_selected_map_position(click_lat_lng):
     global sel_location
     if click_lat_lng is None:
-        return True, []
+        return True, True, []
     sel_location = click_lat_lng
     print(sel_location, sel_style, sel_epoche)
     return (
