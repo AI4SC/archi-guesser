@@ -43,8 +43,8 @@
         "Romania",
         "Albania"
     ],
-    "North Eurasia": ["Russia", "Ukraine", "Belarus", "Georgia", "Armenia", "Moldova"],
-    "Central & South America": [
+    "Eurasia": ["Russia", "Ukraine", "Belarus", "Georgia", "Armenia", "Moldova"],
+    "C. & S. America": [
         "Jamaica",
         "Trinidad & Tobago",
         "Bahamas",
@@ -76,7 +76,7 @@
         "Mauritius",
         "Reunion"
     ],
-    "Middle East & North Africa": [
+    "M. East & N. Africa": [
         "Saudi Arabia",
         "U.A.E.",
         "Kuwait",
@@ -99,7 +99,7 @@
         "Afghanistan",
         "Pakistan"
     ],
-    "Sahel & Sub-Saharan Africa": [
+    "C. & S. Africa": [
         "Sudan",
         "Mauritania",
         "Niger",
@@ -146,8 +146,8 @@
         "Ethiopia",
         "Eritrea"
     ],
-    "South Asia": ["India", "Nepal", "Bhutan", "Bangladesh", "Sri Lanka"],
-    "Central Asia": [
+    "S. Asia": ["India", "Nepal", "Bhutan", "Bangladesh", "Sri Lanka"],
+    "C. Asia": [
         "Uzbekistan",
         "Kazakhstan",
         "Kyrgyzstan",
@@ -157,8 +157,8 @@
         "Tajikistan",
         "Mongolia"
     ],
-    "East Asia": ["China", "Taiwan", "Japan", "South Korea", "North Korea"],
-    "Southeast Asia & South Pacific": [
+    "E. Asia": ["China", "Taiwan", "Japan", "South Korea", "North Korea"],
+    "SE Asia": [
         "Cambodia",
         "Laos",
         "Myanmar",
