@@ -16,6 +16,9 @@ import flask
 
 mask = False
 demo_mode = False
+weight_time_score  = 1.0 # max 2600
+weight_map_score   = 1.0 # 
+weight_style_score = 1.0 # max 2000
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr") as fi:
@@ -98,7 +101,9 @@ def print_guess_data(data, n_clicks):
         data['map_score'] = compute_map_score(data)
         data['time_score'] = compute_time_score(data)
         data['style_score'] = compute_style_score(data)
-        data['total_score'] = data['map_score']+data['time_score']+data['style_score']
+        data['total_score'] = weight_map_score * data['map_score']
+        data['total_score'] += weight_time_score * data['time_score']
+        data['total_score'] += weight_style_score * data['style_score']
         return str(data), n_clicks+1
     elif data['state'] == "STOP" and lastdata['state'] != "STOP" and not data['err']:
         pass
