@@ -94,11 +94,13 @@ def init_webpage():
                                                     html.Br(),
                                                     html.P(n, style={}),
                                                 ],
-                                                color=None,
+                                                color=None,#"dark"
                                                 name=n,
                                                 style={
-                                                    "width": "130px",
+                                                    "width": "140px",
                                                     "height": "160px",
+                                                    "border-radius": "0px",
+                                                    #"background-color":"black"
                                                 },
                                                 id={
                                                     "type": "style-selection",
