@@ -165,7 +165,7 @@ def compute_style_score(data):
 def display_selected_map_position(click_lat_lng):
     global sel_location
     if click_lat_lng is None:
-        return True, []
+        return True, True, []
     sel_location = click_lat_lng
     print(sel_location, sel_style, sel_epoche)
     return (
@@ -223,7 +223,8 @@ def select_style(n, names):
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output("example_img", "src"),
     Output("style_body", "children"),
-    Input("new_run", "disabled"),  # used as event notifier
+    #Input("new_run", "disabled"),  # used as event notifier
+    Input("new_run_btn", "n_clicks"),  # used as event notifier
     prevent_initial_call=True,
 )
 def select_random_style(new_run):
@@ -262,6 +263,7 @@ def select_random_style(new_run):
 @app.callback(
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output("resultmodal", "is_open", allow_duplicate=True),
+    Output("points", "children"),
     Input("SUBMIT_GUESS", "n_clicks"),
     prevent_initial_call=True,
 )
@@ -269,9 +271,9 @@ def evaluate_run(n):
     global last_submit_n_clicks
     if n and n > last_submit_n_clicks:
         # TODO: Compute final score and update modal
-        return [True, True]
+        return [True, True, "You got 0 points"]
     last_submit_n_clicks = n
-    return [False, False]  #False
+    return [False, False, f"You got {lastdata.get('total_score')} points"]
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
