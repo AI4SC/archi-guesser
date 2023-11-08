@@ -61,16 +61,19 @@ sel_style = None
 sel_location = None
 sel_epoche = None
 rnd_style = "Bauhaus architecture"
+lastdata = None
 
 # Build App
 server = flask.Flask(__name__)
 app = Dash(
     server=server, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.BOOTSTRAP]
 )  # , dbc.icons.FONT_AWESOME
-app.title = "ArchiGuessr"
+app.title = "ArchiGuesser"
 
+# layout from app_html
 app.layout = init_webpage()
 
+# marker callback
 clientside_callback(
     ClientsideFunction(namespace="clientside", function_name="test_client_side"),
     Output("guess-data", "data"),
@@ -78,13 +81,20 @@ clientside_callback(
     # State("guess-data", "data"),
 )
 
-
 @app.callback(
     Output("clientside-output", "children"),
     Input("guess-data", "data"),
 )
 def print_guess_data(data):
-    return str(data)
+    global lastdata
+    if data['state'] == "GO" and lastdata['state'] != "GO":
+        res = ""
+    elif data['state'] == "STOP" and lastdata['state'] != "STOP":
+        res = ""
+    else:  # ERR
+        res = str(data)
+    lastdata = data
+    return res
 
 
 def tostr(obj):
@@ -94,6 +104,14 @@ def tostr(obj):
         return ", ".join(obj)
     else:
         return str(obj)
+
+
+def compute_map_score():
+    return 0
+
+
+def compute_time_score():
+    return 0
 
 
 @app.callback(
