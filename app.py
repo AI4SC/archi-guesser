@@ -18,7 +18,7 @@ mask = False
 demo_mode = False
 weight_time_score  = 1.0 # max 2600
 weight_map_score   = 1.0 # 
-weight_style_score = 1.0 # max 2000
+weight_style_score = 2000.0 # max 2000
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr") as fi:
@@ -123,7 +123,6 @@ def tostr(obj):
 
 
 def compute_map_score(data):
-    global correct_style
     if not data or 'lat' not in data or 'lon' not in data:
         return 0
     multipoly=regions[correct_style["style_area"]]
@@ -132,22 +131,17 @@ def compute_map_score(data):
 
 
 def compute_time_score(data):
-    global correct_style
     if not data or 'year' not in data:
         return 0
     if data['year'] < correct_style["Start_Year"]:
-        return correct_style["Start_Year"]-data['year']
+        return correct_style["Start_Year"] - data['year']
     if data['year'] > correct_style["End_Year"]:
-        return data['year']-correct_style["End_Year"]
+        return data['year'] - correct_style["End_Year"]
     return 0
 
 
 def compute_style_score(data):
-    global correct_style
-    if data['style'] == correct_style["name"]:
-        return 2000
-    else:
-        return 0
+    return correct_style["style_similarity"][data['style']]["weighted"]
 
 
 @app.callback(
