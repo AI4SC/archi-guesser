@@ -14,12 +14,13 @@ from dash.dependencies import Input, Output, State
 import random
 import flask
 import shapely
+import math
 
 mask = False
 demo_mode = False
 weight_time_score  = 1.0 # max 2600
-weight_map_score   = 1.0 # 
-weight_style_score = 2000.0 # max 2000
+weight_map_score   = 10.0 # max 180
+weight_style_score = 2000.0 # max 1.0
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr") as fi:
@@ -134,11 +135,11 @@ def compute_map_score(data):
             region_poly = shapely.geometry.shape(reg["geometry"])
             break
     if guess_coord and region_poly:
-        #Map score: Ten times the angular error
-        return shapely.distance(guess_coord, region_poly)*10
+        #Map score: angular error
+        return shapely.distance(guess_coord, region_poly)
     else:
         #Upon error, return maximum distance
-        return 180*10
+        return 180
 
 
 def compute_time_score(data):
