@@ -1,4 +1,4 @@
-var video, canvas, context, info, imageData, detector, mpos={}, postimeout=5000, statusobj={};
+var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={};
   
 function onLoad(){
   video = document.getElementById("video");
@@ -86,26 +86,21 @@ function snapshot(){
 }
 
 function drawCorners(markers){
-  var corners, corner, i, j;
-
-  context.lineWidth = 3;
-
-  for (i = 0; i !== markers.length; ++ i){
-    corners = markers[i].corners;
-    
-    context.strokeStyle = "red";
-    context.beginPath();
-    
-    for (j = 0; j !== corners.length; ++ j){
-      corner = corners[j];
+  for (let i = 0; i !== markers.length; ++ i){
+    let corners = markers[i].corners;
+    for (let j = 0; j !== corners.length; ++ j){
+      let corner = corners[j];
       context.moveTo(corner.x, corner.y);
       corner = corners[(j + 1) % corners.length];
       context.lineTo(corner.x, corner.y);
     }
 
+    context.lineWidth = 3;
+    context.strokeStyle = "red";
+    context.beginPath();
     context.stroke();
     context.closePath();
-    
+
     context.strokeRect((corners[0].x+corners[1].x+corners[2].x+corners[3].x)/4, (corners[0].y+corners[1].y+corners[2].y+corners[3].y)/4, 1, 1);
     
     context.strokeStyle = "green";
@@ -114,41 +109,34 @@ function drawCorners(markers){
 }
 
 function drawId(markers){
-  var corners, corner, x, y, i, j;
-  
-  context.strokeStyle = "blue";
-  context.lineWidth = 1;
-  
-  for (i = 0; i !== markers.length; ++ i){
-    corners = markers[i].corners;
+  for (let i = 0; i !== markers.length; ++ i){
+    var x = Infinity, y = Infinity;
     
-    x = Infinity;
-    y = Infinity;
-    
-    for (j = 0; j !== corners.length; ++ j){
-      corner = corners[j];
-      
+    let corners = markers[i].corners;
+    for (let j = 0; j !== corners.length; ++ j){
+      let corner = corners[j];
       x = Math.min(x, corner.x);
       y = Math.min(y, corner.y);
     }
 
+    context.strokeStyle = "blue";
+    context.lineWidth = 1;
     context.strokeText(markers[i].id, x, y)
   }
 }
 
 function drawGrid(markers){
-  var corners, corner, x, y, i, j, pS, pE, okcnt=0, tnow=Date.now(), statustxt, missing=new Set();
-  statusobj={};
+  var tnow=Date.now(), missing=new Set(), statusobj={};
 
-  for (i = 0; i !== markers.length; ++ i){
+  for (let i = 0; i !== markers.length; ++ i){
     markers[i].tstamp=tnow;
     mpos[""+markers[i].id]=markers[i];
   }
-  
+
   context.strokeStyle = "green";
   context.lineWidth = 1;
 
-  maplines=[ // grid
+  maplines=[ // old grid 
     ["1","2"], ["2","3"], ["3","4"],
     ["5","6"], ["6","7"], ["7","8"],
     ["9","10"], ["10","11"], ["11","12"],
@@ -169,8 +157,8 @@ function drawGrid(markers){
     if (!(p[0] in mpos)) missing.add(p[0]);
     if (!(p[1] in mpos)) missing.add(p[0]);
     if ((p[0] in mpos) && (p[1] in mpos)) {
-      pS=mpos[p[0]];
-      pE=mpos[p[1]];
+      let pS=mpos[p[0]];
+      let pE=mpos[p[1]];
       if (tnow-pS.tstamp>=postimeout) missing.add("to "+p[0]);
       if (tnow-pE.tstamp>=postimeout) missing.add("to "+p[1]);
       if ((tnow-pS.tstamp<postimeout) && (tnow-pE.tstamp<postimeout)){
@@ -190,14 +178,16 @@ function drawGrid(markers){
   }
 
   // map perspective correction
-  if (!("1" in mpos)) missing.add("1");
-  if (!("4" in mpos)) missing.add("4");
-  if (!("9" in mpos)) missing.add("9");
-  if (!("12" in mpos)) missing.add("12");
-  if (!("13" in mpos)) missing.add("13");
-  if (!("16" in mpos)) missing.add("16");
-  if (!("0" in mpos)) missing.add("timestamp");
+  if (!("0" in mpos)) missing.add("TimeMarker 0");
+  if (!("1" in mpos)) missing.add("MapCorner 1");
+  if (!("4" in mpos)) missing.add("MapCorner 4");
+  if (!("9" in mpos)) missing.add("MapCorner 9");
+  if (!("12" in mpos)) missing.add("MapCorner 12");
+  if (!("13" in mpos)) missing.add("TimeCorner 13");
+  if (!("16" in mpos)) missing.add("TimeCorner 16");
+  if (!("18" in mpos) && !("19" in mpos)) {missing.add("GoMarker 18");missing.add("StopMarker 19")}
   
+  // geographic map projection
   if (("1" in mpos) && ("4" in mpos) && ("9" in mpos) && ("12" in mpos)) {
     pTL=mpos["1"]; pTR=mpos["4"]; pBL=mpos["9"]; pBR=mpos["12"];
 
@@ -232,6 +222,7 @@ function drawGrid(markers){
     if (!found) missing.add("place");
   }
 
+  // time projection
   if (("9" in mpos) && ("12" in mpos) && ("13" in mpos) && ("16" in mpos)) {
     pTL=mpos["9"]; pTR=mpos["12"]; pBL=mpos["13"]; pBR=mpos["16"];
 
@@ -257,13 +248,17 @@ function drawGrid(markers){
     }
   }
 
-  if (missing.size==0){
-    statusobj['state']="OK"
-  }else{
-    statusobj['state']="Err: "+Array.from(missing).join(', ');
+  // deal with GO and STOP marker
+  if ("18" in mpos && tnow-mpos["18"].tstamp<postimeout) {
+    statusobj['state']="GO"
+  }else if ("19" in mpos && tnow-mpos["19"].tstamp<postimeout) {
+    statusobj['state']="STOP"; // deal with STOP marker
+  } else {
+    statusobj['state']="ERR";
   }
 
-  //info.innerHTML = statustxt;
+  // err log
+  statusobj['err']=missing;
 }
 
 
