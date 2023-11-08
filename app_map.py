@@ -18,14 +18,14 @@ import dash_leaflet as dl
 region_colors = {
     "Anglo World": "#b3de69",
     "Europe": "#8dd3c7",
-    "North Eurasia": "#80b1d3",
-    "Central & South America": "#fb8072",
-    "Middle East & North Africa": "#ffed6f",
-    "Sahel & Sub-Saharan Africa": "#fdb462",
-    "South Asia": "#ffffb3",
-    "Central Asia": "#B3B9FF",
-    "East Asia": "#bc80bd",
-    "Southeast Asia & South Pacific": "#fccde5",
+    "Eurasia": "#80b1d3",
+    "C. & S. America": "#fb8072",
+    "M. East & N. Africa": "#ffed6f",
+    "C. & S. Africa": "#fdb462",
+    "S. Asia": "#ffffb3",
+    "C. Asia": "#B3B9FF",
+    "E. Asia": "#bc80bd",
+    "SE Asia": "#fccde5",
     "Antarctica": "#000000",
 }
 
