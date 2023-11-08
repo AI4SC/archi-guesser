@@ -159,7 +159,7 @@
             "Serpents": 1,
             "Jaguars": 1
         },
-        "style_area": "C. & S. America",
+        "style_area": "Central & South America",
         "name": "Mesoamerican",
         "valid2": 0.6666666666666666,
         "selected": true,
@@ -329,7 +329,7 @@
             "Scenic": 1,
             "Balanced": 1
         },
-        "style_area": "C. & S. America",
+        "style_area": "Central & South America",
         "name": "Stilt House",
         "valid2": 1.0,
         "selected": true,
@@ -2953,7 +2953,7 @@
             "Dome-shaped": 1,
             "Grandiose": 1
         },
-        "style_area": "Eurasia",
+        "style_area": "North Eurasia",
         "name": "Muscovite",
         "valid2": 0.6666666666666666,
         "selected": true,
@@ -3119,7 +3119,7 @@
             "Dynamic forms": 1,
             "Nonconformist": 1
         },
-        "style_area": "Eurasia",
+        "style_area": "North Eurasia",
         "name": "Constructivism",
         "valid2": 0.6666666666666666,
         "selected": true,
@@ -3301,7 +3301,7 @@
             "Bamboo": 1,
             "Charming": 1
         },
-        "style_area": "C. & S. Africa",
+        "style_area": "Sahel & Sub-Saharan Africa",
         "name": "Mud Brick",
         "valid2": 0.6666666666666666,
         "selected": true,
@@ -3502,7 +3502,7 @@
             "Fluid": 1,
             "Symbolic": 1
         },
-        "style_area": "C. & S. Africa",
+        "style_area": "Sahel & Sub-Saharan Africa",
         "name": "Swahili",
         "valid2": 1.0,
         "selected": true,
@@ -3657,7 +3657,7 @@
             "Majestic": 1
         },
         "valid": 0.66,
-        "style_area": "M. East & N. Africa",
+        "style_area": "Middle East & North Africa",
         "name": "Ancient Egyptian",
         "valid2": 1.0,
         "selected": true,
@@ -3825,7 +3825,7 @@
             "Functionally-oriented": 1,
             "Culturally-sensitive": 1
         },
-        "style_area": "M. East & N. Africa",
+        "style_area": "Middle East & North Africa",
         "name": "Modern Islamic",
         "valid2": 1.0,
         "selected": true,
@@ -3986,7 +3986,7 @@
             "Detailed": 1,
             "Arch": 1
         },
-        "style_area": "S. Asia",
+        "style_area": "South Asia",
         "name": "Gupta",
         "valid2": 1.0,
         "selected": true,
@@ -4167,7 +4167,7 @@
             "Flamboyant": 1,
             "Mix-and-match": 1
         },
-        "style_area": "S. Asia",
+        "style_area": "South Asia",
         "name": "Indo-Saracenic",
         "valid2": 1.0,
         "selected": true,
@@ -4325,7 +4325,7 @@
             "Arcade": 1,
             "Grandiose": 1
         },
-        "style_area": "E. Asia",
+        "style_area": "East Asia",
         "name": "Chinese Imperial",
         "valid2": 1.0,
         "selected": true,
@@ -4503,7 +4503,7 @@
             "Innovative": 1,
             "Modest": 1
         },
-        "style_area": "E. Asia",
+        "style_area": "East Asia",
         "name": "Edo Period",
         "valid2": 0.0,
         "selected": true,
@@ -4687,7 +4687,7 @@
             "Sophisticated": 1,
             "Regal": 1
         },
-        "style_area": "SE. Asia",
+        "style_area": "Southeast Asia & South Pacific",
         "name": "Khmer Empire",
         "valid2": 1.0,
         "selected": true,
@@ -4862,7 +4862,7 @@
             "Gate": 1,
             "Authentic": 1
         },
-        "style_area": "SE. Asia",
+        "style_area": "Southeast Asia & South Pacific",
         "name": "Thai",
         "valid2": 1.0,
         "selected": true,
@@ -5010,7 +5010,7 @@
             "Intriguing": 1,
             "Vibrant": 1
         },
-        "style_area": "C. Asia",
+        "style_area": "Central Asia",
         "name": "Timurid Period",
         "valid2": 1.0,
         "selected": true,
@@ -5189,7 +5189,7 @@
             "Windcatchers": 1,
             "Distinctive": 1
         },
-        "style_area": "C. Asia",
+        "style_area": "Central Asia",
         "name": "Persian",
         "valid2": 1.0,
         "selected": true,
