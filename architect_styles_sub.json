@@ -170,9 +170,9 @@
         ],
         "icon": "mesoamerican.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.09243697478991597,
-                "weighted": 0.27877237851662406
+            "Mesoamerican": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Stilt House": {
                 "unweighted": 0.016,
@@ -289,6 +289,10 @@
             "Timurid Period": {
                 "unweighted": 0.09482758620689655,
                 "weighted": 0.30512820512820515
+            },
+            "Persian": {
+                "unweighted": 0.09243697478991597,
+                "weighted": 0.27877237851662406
             }
         }
     },
@@ -462,9 +466,9 @@
             "In realm of air, where horizons stretch,\nTimbers dance in an ethereal sketch.\nAbove the realms where waters sigh,\nA dream abode rests with grace on high.\n\nWith artistry born from nature's hands,\nA dwelling above aqua's tranquil lands.\nOn slender pillars, it gracefully stands,\nA marvel sculpted by skilled demands.\n\nElevated whispers from gentle breeze,\nCaress foundations adorned with ease.\nA kinetic portrait etched in the sky,\nWhere elegance soars, enchanting the eye.\n\nAmidst serene rivers and murmuring streams,\nThis floating haven reflects vibrant dreams.\nAn aerial symphony, where life takes flight,\nUnveiling beauty from morning to night.\n\nEmbracing vistas with panoramic guise,\nThis vision finds solace in lofty skies.\nA haven where harmony and nature unite,\nIn this architectural marvel of sheer delight."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.02586206896551724,
-                "weighted": 0.03494623655913978
+            "Stilt House": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.016,
@@ -581,6 +585,10 @@
             "Timurid Period": {
                 "unweighted": 0.008695652173913044,
                 "weighted": 0.0215633423180593
+            },
+            "Persian": {
+                "unweighted": 0.02586206896551724,
+                "weighted": 0.03494623655913978
             }
         }
     },
@@ -737,9 +745,9 @@
             "In tranquil land where nature thrives,\nAmidst lush fields where the sun derives,\nA humble abode, with charm and grace,\nStands basking in tranquil solace's embrace.\n\nLow to the ground, humble and serene,\nSerenity's haven, a vision pristine,\nWith wide-span windows, inviting the light,\nWarmth infiltrating from dawn till night.\n\nOn open horizons, its lines extend,\nHorizontally stretched, oh, what a blend,\nA dwelling so coined by simplicity's allure,\nAn epitome of comfort, that's for sure.\n\nA sprawling haven on earth's gentle plain,\nA dwelling captivated by harmony's reign,\nWhere family bonds and friendships unfold,\nA timeless retreat, a story untold.\n\nRoaming eaves shelter, offering respite,\nFrom blazing sun's glare, at day or night,\nWide porches beckon, to share stories afar,\nUnder golden awnings, beneath twinkling stars.\n\nWith an aura of nostalgia, the past it recalls,\nMemories treasured within these sacred walls,\nA testament to craftsmanship, resolute and true,\nBearing witness to cherished moments, both old and new.\n\nEmbracing the essence of simpler days gone by,\nEnduring through seasons, beneath vast open sky,\nThis dwelling of elegance, with grace so aligned,\nWhispers tales of family, eternally entwined."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.00847457627118644,
-                "weighted": 0.023622047244094488
+            "Ranch-style house": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.007936507936507936,
@@ -856,6 +864,10 @@
             "Timurid Period": {
                 "unweighted": 0.008695652173913044,
                 "weighted": 0.015789473684210527
+            },
+            "Persian": {
+                "unweighted": 0.00847457627118644,
+                "weighted": 0.023622047244094488
             }
         }
     },
@@ -1007,9 +1019,9 @@
         ],
         "icon": "victorian.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.07547169811320754,
-                "weighted": 0.23785166240409208
+            "Victorian": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.03389830508474576,
@@ -1126,6 +1138,10 @@
             "Timurid Period": {
                 "unweighted": 0.09900990099009901,
                 "weighted": 0.2794871794871795
+            },
+            "Persian": {
+                "unweighted": 0.07547169811320754,
+                "weighted": 0.23785166240409208
             }
         }
     },
@@ -1302,9 +1318,9 @@
             "Lines so sleek and bold, they dance in light,\nGeometry embraced, a captivating sight.\nA symphony of curves and angular grace,\nEmbracing modernity, leaving no trace.\n\nFrom towering skyscrapers to opulent halls,\nA tapestry weaves, enchanting one and all.\nSunbursts adorn facades, casting playful glow,\nAn era's spirit breathed into every row.\n\nMosiacs shimmer, glimmers of glass,\nEmbodying glamour from a bygone brass.\nZigzag patterns woven, a rhythmic refrain,\nElegance and precision, forever to remain.\n\nStreamlined elegance, evoking an age,\nEffortless symmetry, turned each page.\nA celebration of progress, where details meet,\nA story of design, etched concrete to concrete.\n\nSo let us cherish this style's vibrant song,\nWhere each line and flourish tenderly belong,\nAn architectural journey, where dreams wake,\nIn every structure built, an ode to its own sake."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.07692307692307693,
-                "weighted": 0.2440944881889764
+            "Art Deco": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.06349206349206349,
@@ -1421,6 +1437,10 @@
             "Timurid Period": {
                 "unweighted": 0.06956521739130435,
                 "weighted": 0.23684210526315788
+            },
+            "Persian": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2440944881889764
             }
         }
     },
@@ -1606,9 +1626,9 @@
         ],
         "icon": "colonial.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.06956521739130435,
-                "weighted": 0.2071611253196931
+            "Colonial": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.007692307692307693,
@@ -1725,6 +1745,10 @@
             "Timurid Period": {
                 "unweighted": 0.05263157894736842,
                 "weighted": 0.18717948717948718
+            },
+            "Persian": {
+                "unweighted": 0.06956521739130435,
+                "weighted": 0.2071611253196931
             }
         }
     },
@@ -1910,9 +1934,9 @@
             "In concrete giants, strength revealed,\nUnyielding structures, they are sealed.\nA symphony of angles, bold and stark,\nA whispered homage to the past, so dark.\n\nThrough towering walls, shadows dance,\nBlocks stacked high, in striking stance.\nMajestic presence, unadorned,\nA confident beauty, harshly born.\n\nHarsh edges cut against the sky,\nBare essence, no secrets lie.\nGrit and power, in every line,\nA timeless tale, where forms entwine.\n\nThe weight of history, etched in stone,\nA statement bold, to all ears known.\nRaw and honest, yet holding grace,\nA legacy, standing in its rightful place.\n\nTranscending time, this style withstands,\nA testament to ingenious hands.\nAn ode to strength, both fierce and grand,\nThis architectural legacy will forever stand."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.009523809523809525,
-                "weighted": 0.029649595687331536
+            "Brutalism": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.017857142857142856,
@@ -2029,6 +2053,10 @@
             "Timurid Period": {
                 "unweighted": 0.0,
                 "weighted": 0.0
+            },
+            "Persian": {
+                "unweighted": 0.009523809523809525,
+                "weighted": 0.029649595687331536
             }
         }
     },
@@ -2208,9 +2236,9 @@
         ],
         "icon": "contemporary.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.04716981132075472,
-                "weighted": 0.07329842931937172
+            "Contemporary": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.034782608695652174,
@@ -2327,6 +2355,10 @@
             "Timurid Period": {
                 "unweighted": 0.02857142857142857,
                 "weighted": 0.07349081364829396
+            },
+            "Persian": {
+                "unweighted": 0.04716981132075472,
+                "weighted": 0.07329842931937172
             }
         }
     },
@@ -2484,9 +2516,9 @@
             "Majestic columns rise, embracing the sky,\nA symphony of marble, captivating the eye.\nStately temples, harmonious in design,\nEchoing tales of gods, whispers of time.\n\nStrength in precision, a balanced embrace,\nDoric, Ionic, Corinthian, gracing each space.\nIn sturdy stone, pillars stand tall and true,\nUnyielding beauty, an eternal view.\n\nLayers of history etched in every facade,\nPortraying myths woven by skilled hand,\nCarvings depict heroes, their triumphs renowned,\nRelics of a legacy forever renowned.\n\nHarmony in proportions, perfection achieved,\nGeometry and grace elegantly conceived.\nThrough grand archways, light pours unhindered,\nInspiring awe and reverence, leaving minds bewildered.\n\nA gift to civilization, this timeless style,\nOf a golden era, ever worthy of a smile.\nThough ancient in origin, its spirit alive,\nAn architectural marvel that continues to thrive."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.09259259259259259,
-                "weighted": 0.2531969309462916
+            "Ancient Greek": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.08620689655172414,
@@ -2603,6 +2635,10 @@
             "Timurid Period": {
                 "unweighted": 0.08490566037735849,
                 "weighted": 0.2230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.09259259259259259,
+                "weighted": 0.2531969309462916
             }
         }
     },
@@ -2730,9 +2766,9 @@
             "In grandeur birthed by marble's might,\nA timeless tale unfolds in sight.\nColumns soaring, reaching skies,\nEmbracing strength, where pioneers arise.\n\nWhere arches gracefully intertwine,\nWhispering secrets, tales of time.\nPillars stand proud, exuding grace,\nA symphony of columns we embrace.\n\nVivid frescoes paint celestial hues,\nGlimpses of heavens, an artist's muse.\nMosaics dance with colors bright,\nUnveiling stories, bathing in light.\n\nA triumph declared with every arch,\nIn sculpted details, a lasting march.\nSanctuaries vast, inviting all,\nWelcoming visitors to realms enthralled.\n\nBridging eras with timeless might,\nCreating realms where dreams alight.\nFrom golden temples to grand forums,\nA legacy etched in eternal forms."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.13333333333333333,
-                "weighted": 0.29923273657289
+            "Ancient Roman": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.0784313725490196,
@@ -2849,6 +2885,10 @@
             "Timurid Period": {
                 "unweighted": 0.11235955056179775,
                 "weighted": 0.3230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.13333333333333333,
+                "weighted": 0.29923273657289
             }
         }
     },
@@ -3006,9 +3046,9 @@
             "In ancient realms of stone and grand design,\nWhere sturdy walls of history still shine,\nA regal symphony of shapes arise,\nBold arches reach for limitless skies.\n\nEchoes of power reverberate here,\nCathedrals standing tall, defiant and clear,\nWith rounded windows, guardians of light,\nUnyielding pillars, a poetic might.\n\nByzantine wonders captured in each stone,\nVivid murals, biblical stories prone,\nA fortress-like structure of solid grace,\nImposing strength, a visual embrace.\n\nFrom towering castles to monastic halls,\nA fusion of cultures, a bond that enthralls,\nThrough intricate carvings, tales unfold,\nOf kings and queens, their stories untold.\n\nA fusion of beauty, a timeless art,\nWhere faith and craftsmanship intertwine, impart\nA sense of awe, a sacred serenade,\nIn every arch and curve, an era displayed."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.044642857142857144,
-                "weighted": 0.12073490813648294
+            "Romanesque": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.059322033898305086,
@@ -3125,6 +3165,10 @@
             "Timurid Period": {
                 "unweighted": 0.05555555555555555,
                 "weighted": 0.1394736842105263
+            },
+            "Persian": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.12073490813648294
             }
         }
     },
@@ -3299,9 +3343,9 @@
             "In shadows cast by spires tall, \nWhere ancient stones embrace the skies,\nA symphony of lines enthralls,\nIn sublime grace, secrets arise.\n\nVictories carved in arching arcs,\nStone lace that weaves the heavens tight,\nPillars strong like ancient oak barks,\nVaults whisper secrets in the night.\n\nStained glass dreams in colors bleed,\nCelestial stories, truths unfold,\nMajestic windows, treasures freed,\nIn kaleidoscopic tales enfold.\n\nCloisters winding, through time's embrace,\nA labyrinth where souls find solace,\nWhispered echoes, a sacred space,\nAs stone and air fuse in one place.\n\nA grandeur born from age and strife,\nCathedral hymns that pierce the soul,\nA testament to endless life,\nIn darkened beauty, dreams unfold."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.041666666666666664,
-                "weighted": 0.1483375959079284
+            "Gothic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.031007751937984496,
@@ -3418,6 +3462,10 @@
             "Timurid Period": {
                 "unweighted": 0.07017543859649122,
                 "weighted": 0.20256410256410257
+            },
+            "Persian": {
+                "unweighted": 0.041666666666666664,
+                "weighted": 0.1483375959079284
             }
         }
     },
@@ -3586,9 +3634,9 @@
             "In grandeur's embrace, swirling lines unfold,\nA symphony of shapes in sculptures bold.\nWhere heavens touch the earthly realm with grace,\nAn opulent dance in ornate embrace.\n\nCurves cascade, embellishments adorned,\nA tale of splendor, timeless and reborn.\nGolden orbs of light, cascading in beams,\nReflecting tapestries of cherished dreams.\n\nColumns soar high, reaching heavens above,\nIntricate details, a testament of love.\nGargoyles, guardians, adorning the walls,\nWhispering secrets in majestic halls.\n\nRococo curls embrace every corner,\nFrescoes breathe life, in brushstrokes we wander.\nExquisite textures, textured displays,\nCapture the eyes in their enchanting ways.\n\nCherubs and nymphs, their playfulness untold,\nA bustling symphony, harmonious and bold.\nEach arch and niche, a story to unfold,\nIn this timeless world, we're forever enthralled."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.06779661016949153,
-                "weighted": 0.1772853185595568
+            "Baroque": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.03076923076923077,
@@ -3705,6 +3753,10 @@
             "Timurid Period": {
                 "unweighted": 0.07894736842105263,
                 "weighted": 0.21944444444444444
+            },
+            "Persian": {
+                "unweighted": 0.06779661016949153,
+                "weighted": 0.1772853185595568
             }
         }
     },
@@ -3877,9 +3929,9 @@
             "In golden light, majestic they stand tall,\nBearing witness to an age that did enthrall.\nColumns reach towards a cerulean sky,\nSymmetry, harmony manifesting high.\n\nArches and domes, graceful curves embrace,\nWhispering tales of an era's lavish grace.\nFrescoes come alive on every wall,\nIn vivid colors, stories they install.\n\nMarble facades with intricate detail,\nCarved reliefs, artisans' pride prevail.\nPalatial windows, ornate and grand,\nTranslucent panes, casting light on land.\n\nA celebration of knowledge profound,\nClassical influences marvelously crowned.\nA testament to human spirit's fire,\nInspiring minds, raising spirits higher.\n\nThrough time's embrace, their allure remains,\nGlorious beacons, enduring through all strains.\nRepresenting rebirth, innovation's might,\nA true testament to human's creative fight."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.15789473684210525,
-                "weighted": 0.46547314578005117
+            "Renaissance": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.09375,
@@ -3996,6 +4048,10 @@
             "Timurid Period": {
                 "unweighted": 0.15178571428571427,
                 "weighted": 0.4564102564102564
+            },
+            "Persian": {
+                "unweighted": 0.15789473684210525,
+                "weighted": 0.46547314578005117
             }
         }
     },
@@ -4143,9 +4199,9 @@
             "Columns strong and elegant, standing tall,\nGraceful arches, ne’er to crack or fall.\nAncient ideals, reborn with pride,\nSymmetry and balance, side by side.\n\nInspired by days of mighty Rome,\nGlowing splendor, a golden dome.\nGrecian influence, gods revered,\nSerene beauty, refined and cleared.\n\nLines clean and crisp, precision art,\nHarmony of elements, a perfect part.\nFinest craftsmanship, attention paid,\nHistory revived, ancient wisdom displayed.\n\nGraceful pediments, adorned and grand,\nNoble facades, a majestic brand.\nEmbracing order, tranquil and serene,\nBeauty timeless, forever to be seen.\n\nOh, architecture, your glory proclaimed,\nA timeless style, revered and acclaimed.\nFusing worlds old and new, refined embrace,\nAn architectural masterpiece, resplendent grace."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.1,
-                "weighted": 0.30708661417322836
+            "Neoclassical": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.03508771929824561,
@@ -4262,6 +4318,10 @@
             "Timurid Period": {
                 "unweighted": 0.08080808080808081,
                 "weighted": 0.22631578947368422
+            },
+            "Persian": {
+                "unweighted": 0.1,
+                "weighted": 0.30708661417322836
             }
         }
     },
@@ -4437,9 +4497,9 @@
             "Elegant curves, nature's embrace,\nIntricate grace, a timeless space.\nFluid lines caress, like vines that flow,\nOrnate details, a mesmerizing show.\n\nCurved windows, inviting light to dance,\nGently swaying forms, in harmonious trance.\nWhiplash curves, a delicate delight,\nAn ode to beauty, both unique and bright.\n\nRhythmic patterns, a symphony of design,\nGilded embellishments, so refined.\nFloral motifs, in every carved embrace,\nA celebration of nature's endless grace.\n\nStained glass, a kaleidoscope of hue,\nStreaming colors, the world anew.\nOrganic fusion, where structure meets art,\nA captivating dance, touching every heart.\n\nOh, architectural poetry, so divine,\nArtistic expression, forever entwined.\nAesthetically radiant, forever it gleams,\nThis wondrous style, born from dreams."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.05785123966942149,
-                "weighted": 0.1778975741239892
+            "Art Nouveau": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.046153846153846156,
@@ -4556,6 +4616,10 @@
             "Timurid Period": {
                 "unweighted": 0.06837606837606838,
                 "weighted": 0.21621621621621623
+            },
+            "Persian": {
+                "unweighted": 0.05785123966942149,
+                "weighted": 0.1778975741239892
             }
         }
     },
@@ -4711,9 +4775,9 @@
             "Lines clean and pure, \nGeometry's allure, \nBalance in every form, \nInnovation taking form. \n\nSpaces that harmonize, \nLines that mesmerize, \nFunction as the guide, \nBeauty with nothing to hide. \n\nBold simplicity in design, \nMinimalism so refined, \nMaterials raw and true, \nUnity in all they pursue. \n\nWindows a seamless frame, \nLight as an artist's aim, \nForm follows function's lead, \nBoldness in every deed. \n\nRebel spirits pave the way, \nA movement here to stay, \nModernism at its core, \nForever influencing more."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.025423728813559324,
-                "weighted": 0.0741687979539642
+            "Bauhaus": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.023809523809523808,
@@ -4830,6 +4894,10 @@
             "Timurid Period": {
                 "unweighted": 0.017241379310344827,
                 "weighted": 0.06153846153846154
+            },
+            "Persian": {
+                "unweighted": 0.025423728813559324,
+                "weighted": 0.0741687979539642
             }
         }
     },
@@ -5035,9 +5103,9 @@
             "Where domes ascend, in hues of glory,\nPiercing heavens with tales untold,\nAncient art, dreams transitory,\nIn stone and gold, a sight behold.\n\nSpires wrap skies in intricate dance,\nAs time embraces bygone days,\nAdorned with gems, a joyful trance,\nWhispering secrets, ancient ways.\n\nCurved arches grace each noble gate,\nUshering echoes from world's embrace,\nWindows bear legends, intricate fate,\nFeats of men, history's serene face.\n\nMajestic columns stand tall and proud,\nSupporting structures, age-old guise,\nEternal guardians, hallowed shroud,\nHistory's symphony that never dies.\n\nThe streets come alive, enchanted maze,\nLining echoes of noble past,\nA tapestry woven across the haze,\nA testament that forever shall last."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.08974358974358974,
-                "weighted": 0.3171355498721228
+            "Muscovite": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.07878787878787878,
@@ -5154,6 +5222,10 @@
             "Timurid Period": {
                 "unweighted": 0.10596026490066225,
                 "weighted": 0.36666666666666664
+            },
+            "Persian": {
+                "unweighted": 0.08974358974358974,
+                "weighted": 0.3171355498721228
             }
         }
     },
@@ -5323,9 +5395,9 @@
             "In angles bold and lines pristine,\nA symphony of structure gleams,\nWhere forms converge, in perfected rhyme,\nA realm of order withstands the test of time.\n\nIndustrial wonders, soaring high and wide,\nA dance of steel and glass, side by side,\nWith geometric precision, they embrace,\nA world reimagined, bound by strength and grace.\n\nFrom factory floors to cities' embrace,\nBold vision carved with purpose and grace,\nUnified masses, unified dreams,\nA testament of progress, it surely seems.\n\nThe spirit of innovation takes its flight,\nBoundaries challenged under daylight,\nBalance of function, aesthetics intertwined,\nAs modern marvels, they boldly define.\n\nWith each foundation laid, a story untold,\nA tribute to progress, ever bold,\nFor hidden within each structured design,\nThe human spirit soars, rooted in time."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.03278688524590164,
-                "weighted": 0.06451612903225806
+            "Constructivism": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.03076923076923077,
@@ -5442,6 +5514,10 @@
             "Timurid Period": {
                 "unweighted": 0.01652892561983471,
                 "weighted": 0.0646900269541779
+            },
+            "Persian": {
+                "unweighted": 0.03278688524590164,
+                "weighted": 0.06451612903225806
             }
         }
     },
@@ -5627,9 +5703,9 @@
             "In earth's embrace, strong dwellings rise,\nCrafted with soil beneath the skies.\nNature's secret, a humble art,\nUnyielding shelters formed by heart.\n\nBaked by sun's fervor, kissed by fire,\nA union whole, inspired desire.\nArchitecture true, from humble hives,\nBearing tales of old, where life thrives.\n\nWalls shaped by hands, rough and bold,\nResilient structures, stories untold.\nOrganic strength, a lasting frame,\nSilent echoes of ancestral fame.\n\nEarthy tones blend with warmth and grace,\nNurturing sanctuary, humble space.\nWithin their walls, traditions reside,\nA tapestry of dreams, magic inside.\n\nFrom ancient lands to modern grace,\nA tribute to time, in every place.\nOh, marvel at the wonder they convey,\nLoam's secret dance, enduring each day."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.04132231404958678,
-                "weighted": 0.10498687664041995
+            "Mud Brick": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.022900763358778626,
@@ -5746,6 +5822,10 @@
             "Timurid Period": {
                 "unweighted": 0.025,
                 "weighted": 0.042105263157894736
+            },
+            "Persian": {
+                "unweighted": 0.04132231404958678,
+                "weighted": 0.10498687664041995
             }
         }
     },
@@ -5950,9 +6030,9 @@
             "Amidst a tapestry woven by cultural delight,\nWhere walls rise to sing songs of ancient might,\nTimber and thatch blend in harmonious blend,\nForms emboldened with stories, without end.\n\nSplendidly adorned, vibrant colors cascade,\nCarved patterns that whisper tales, long forbade,\nCourtyards invite, with cool shade they lace,\nA sanctuary in heat, a comforting embrace.\n\nMajestic archways, divine in their grace,\nSun's tender glow kisses each sculpted face,\nCarvings tell a tale of strength and ancestry,\nA symphony of tradition, an artistry.\n\nBreezes embraced, through dainty lattice they sigh,\nAs palm leaves sway, under an azure sky,\nRooftops crowned, soaring high in pride,\nPreserving heritage, where time cannot hide.\n\nWith every brick laid, history unfolds,\nResilient whispers, stories yet untold,\nIn this symphony, an architectural soul,\nResonating through time, a treasure untold."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.10344827586206896,
-                "weighted": 0.35958005249343833
+            "Swahili": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.07006369426751592,
@@ -6069,6 +6149,10 @@
             "Timurid Period": {
                 "unweighted": 0.09027777777777778,
                 "weighted": 0.32894736842105265
+            },
+            "Persian": {
+                "unweighted": 0.10344827586206896,
+                "weighted": 0.35958005249343833
             }
         }
     },
@@ -6227,9 +6311,9 @@
             "Amidst sands that stretch, a wondrous sight,\nTheir structures stand, kissed by golden light.\nMajestic columns rise, heavenward bound,\nA testament to craftsmanship renowned.\n\nPillars, like palms in ancient oasis,\nElongated necks, touching celestial spaces.\nCarved reliefs, tales etched in stone,\nUnveiling histories of a world unknown.\n\nLimestone walls, an ivory embrace,\nTracing hieroglyphs, secrets interlace.\nPyramids crowned, hidden tombs unfold,\nWhispers of pharaohs, untold stories told.\n\nObelisks, rising like sun's first gleam,\nGuiding seekers, connecting realms it seems.\nGrand halls adorned with lotus and reed,\nSacred temples nurturing divine creed.\n\nA labyrinth of courtyards, narrow and vast,\nMysteries whispered amidst a desert's contrast.\nArchways symbolize triumph over time's sway,\nHarbingers of wisdom, eternal treasures they portray.\n\nCalm, poised statues, embracing sacred ground,\nGuardians and goddesses, forever renowned.\nA tapestry of art, sculpted by gifted hands,\nReflecting a legacy that forever stands."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.10810810810810811,
-                "weighted": 0.3045822102425876
+            "Ancient Egyptian": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.19090909090909092,
@@ -6346,6 +6430,10 @@
             "Timurid Period": {
                 "unweighted": 0.12149532710280374,
                 "weighted": 0.32432432432432434
+            },
+            "Persian": {
+                "unweighted": 0.10810810810810811,
+                "weighted": 0.3045822102425876
             }
         }
     },
@@ -6517,9 +6605,9 @@
             "Innovative structures, where sleek lines unite,\nA nod to heritage, a vision taking flight.\nSymmetric wonders rising, reaching for the sky,\nRevealing timeless beauty, ever soaring high.\n\nBold geometric patterns, adornments so precise,\nEmbedded in the walls, they speak of rich advice.\nIntricate mosaics, harmoniously entwined,\nWhisper tales of triumphs, customs intertwined.\n\nLight filters gently, through vast arches soaring,\nIlluminating spaces, ethereal and exploring.\nCourtyards bathed in serenity, tranquil and serene,\nInviting prayers and contemplation, amidst a peaceful scene.\n\nScents of cedar and sandalwood, linger in the air,\nAs gentle breezes carry whispers of prayers in prayer.\nTextures find balance, concrete and stone in grace,\nUnveiling masterpieces, in every inch and space.\n\nInnovative, yet rooted in historical embrace,\nAn elegance arising, from ancient times and place.\nModern hues and materials, merge with ancient art,\nCreating visions that captivate, emotions they impart.\n\nIn this majestic fusion, past and future intertwine,\nA testament to faith, heritage beautifully defined.\nEach edifice an ode, to the spirit of the land,\nUnveiling beauty and passion, crafted by skillful hand."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.17142857142857143,
-                "weighted": 0.45268542199488493
+            "Modern Islamic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.03968253968253968,
@@ -6636,6 +6724,10 @@
             "Timurid Period": {
                 "unweighted": 0.10091743119266056,
                 "weighted": 0.3153846153846154
+            },
+            "Persian": {
+                "unweighted": 0.17142857142857143,
+                "weighted": 0.45268542199488493
             }
         }
     },
@@ -6801,9 +6893,9 @@
         ],
         "icon": "gupta.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.15315315315315314,
-                "weighted": 0.3910761154855643
+            "Gupta": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.11475409836065574,
@@ -6920,6 +7012,10 @@
             "Timurid Period": {
                 "unweighted": 0.12612612612612611,
                 "weighted": 0.41842105263157897
+            },
+            "Persian": {
+                "unweighted": 0.15315315315315314,
+                "weighted": 0.3910761154855643
             }
         }
     },
@@ -7104,9 +7200,9 @@
             "In lands where cultures intertwine,\nA fusion of beauty, grand design.\nEastern charm meets Western grace,\nCreating structures that amaze.\n\nEthereal domes reach for the sky,\nCarved arches, mesmerizing the eye.\nImpressive minarets, tall and proud,\nEchoing prayers, clear and loud.\n\nMajestic palaces, adorned with art,\nBlend Moorish patterns, playing their part.\nIntricate details, intricate lace,\nWhispering tales of an ancient place.\n\nWhitewashed walls, shimmering in light,\nGardens blooming, colors ignite.\nColonial grandeur, embraced with care,\nRoyal elegance, beyond compare.\n\nIntriguing symphony of past and now,\nWhere history whispers, secrets endow.\nA tribute to unity, cultures entwined,\nIn this architectural marvel, an ode defined."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.175,
-                "weighted": 0.45144356955380577
+            "Indo-Saracenic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.07194244604316546,
@@ -7223,6 +7319,10 @@
             "Timurid Period": {
                 "unweighted": 0.15966386554621848,
                 "weighted": 0.4605263157894737
+            },
+            "Persian": {
+                "unweighted": 0.175,
+                "weighted": 0.45144356955380577
             }
         }
     },
@@ -7384,9 +7484,9 @@
             "In the realm of ancient majesty,\nWhere halls of splendor rise with grace,\nKeen artistry tells a timeless tale,\nBathed in an aura of spirit and embrace.\n\nEthereal roofs kiss the heavens' arc,\nWith sweeping curves, they dance and soar,\nGuarding secrets and tales untold,\nUnveiling tales of chimerical folklore.\n\nPalatial gates stand proud and tall,\nSymbolic guardians of ancient ground,\nWhispers of vibrant hues enchant,\nAs ageless walls echo a melodic sound.\n\nExquisite elegance, poised and refined,\nCarved motifs weave a symphony complete,\nMeticulous details pay homage to harmony,\nA harmonious symphony, a masterpiece replete.\n\nWithin tranquil courtyards, nature unites,\nMan-made landscapes blend with earthly might,\nSerenity floats on delicate ponds,\nReflecting life’s essence, tranquil and bright.\n\nThrough ornate lattice, light softly cascades,\nPainting shadows on ornamental screens,\nAn interplay of shadows and light serene,\nUnveiling beauty through enchanting means.\n\nResplendent gardens, in perfect bloom,\nWhispering jasmine, coral peonies so rare,\nNature's emerald tapestry, a serene escape,\nWhere dreams and tranquility graciously share.\n\nSeekers of grandeur, indulge your sight,\nIn a style celestial, tales unfurl,\nWhere whispers of ancient mystique reside,\nTo beguile your soul in a harmonious swirl."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.16831683168316833,
-                "weighted": 0.5157068062827225
+            "Chinese Imperial": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.09565217391304348,
@@ -7503,6 +7603,10 @@
             "Timurid Period": {
                 "unweighted": 0.13861386138613863,
                 "weighted": 0.48556430446194226
+            },
+            "Persian": {
+                "unweighted": 0.16831683168316833,
+                "weighted": 0.5157068062827225
             }
         }
     },
@@ -7684,9 +7788,9 @@
             "In ancient realm, where cherry blossoms sway,\nBuilt by masters, with craftsmanship they display.\nTimber frames stretching tall in symphony,\nHumble abodes, painted, proud and free.\n\nTranslucent shoji screens invite soft light,\nPaper wings fluttering through twilight.\nLandscape gardens, serene and refined,\nContained beauty, a peaceful design.\n\nSliding doors, whispers of secrets heard,\nThrough wooden halls, a tale softly stirred.\nEarthen walls, curved roofs that gently bow,\nHarmony with nature, each structure endowed.\n\nWooden eaves with intricate carvings seen,\nGuardian statues gracing entrance serene. \nDelicate bridges, arching over streams,\nReflections scattered, rippling like dreams.\n\nTraditional charm, preserved with great care,\nSilent whispers of a timeless affair.\nHonoring the past, where history thrives,\nElegance embodied, forever alive."
         ],
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.06716417910447761,
-                "weighted": 0.23529411764705882
+            "Edo Period": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.041379310344827586,
@@ -7803,6 +7907,10 @@
             "Timurid Period": {
                 "unweighted": 0.05263157894736842,
                 "weighted": 0.2230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.23529411764705882
             }
         }
     },
@@ -7991,9 +8099,9 @@
         ],
         "icon": "khmer_empire.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.125,
-                "weighted": 0.35294117647058826
+            "Khmer Empire": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.11764705882352941,
@@ -8110,6 +8218,10 @@
             "Timurid Period": {
                 "unweighted": 0.11904761904761904,
                 "weighted": 0.3871794871794872
+            },
+            "Persian": {
+                "unweighted": 0.125,
+                "weighted": 0.35294117647058826
             }
         }
     },
@@ -8289,9 +8401,9 @@
         ],
         "icon": "thai.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.09448818897637795,
-                "weighted": 0.340153452685422
+            "Thai": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.08888888888888889,
@@ -8408,6 +8520,10 @@
             "Timurid Period": {
                 "unweighted": 0.10569105691056911,
                 "weighted": 0.36153846153846153
+            },
+            "Persian": {
+                "unweighted": 0.09448818897637795,
+                "weighted": 0.340153452685422
             }
         }
     },
@@ -8560,9 +8676,9 @@
         ],
         "icon": "timurid_period.png",
         "style_similarity": {
-            "Persian": {
-                "unweighted": 0.27956989247311825,
-                "weighted": 0.6614173228346457
+            "Timurid Period": {
+                "unweighted": 1.0,
+                "weighted": 1.0
             },
             "Mesoamerican": {
                 "unweighted": 0.09482758620689655,
@@ -8679,6 +8795,10 @@
             "Thai": {
                 "unweighted": 0.10569105691056911,
                 "weighted": 0.36153846153846153
+            },
+            "Persian": {
+                "unweighted": 0.27956989247311825,
+                "weighted": 0.6614173228346457
             }
         }
     },
