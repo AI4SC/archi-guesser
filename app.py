@@ -90,7 +90,7 @@ clientside_callback(
     Input("guess-data", "data"),
     State("SUBMIT_GUESS", "n_clicks"),
 )
-def print_guess_data(data, submit_n_clicks):
+def print_guess_data(data, n_clicks):
     global lastdata
     if not data or not lastdata or 'state' not in data or 'state' not in lastdata:
         pass
@@ -99,13 +99,13 @@ def print_guess_data(data, submit_n_clicks):
         data['time_score'] = compute_time_score(data)
         data['style_score'] = compute_style_score(data)
         data['total_score'] = data['map_score']+data['time_score']+data['style_score']
-        return str(data), submit_n_clicks+1
+        return str(data), n_clicks+1
     elif data['state'] == "STOP" and lastdata['state'] != "STOP" and not data['err']:
         pass
     else:  # ERR
         pass
     lastdata = data
-    return str(data), submit_n_clicks
+    return str(data), n_clicks
 
 
 def tostr(obj):
@@ -256,11 +256,11 @@ def select_random_style(new_run):
     prevent_initial_call=True,
 )
 def evaluate_run(n):
-    global submit_n_clicks
-    if n > submit_n_clicks:
+    global last_submit_n_clicks
+    if n and n > last_submit_n_clicks:
         # TODO: Compute final score and update modal
         return [True, True]
-    submit_n_clicks = n
+    last_submit_n_clicks = n
     return [False, False]  #False
 
 
