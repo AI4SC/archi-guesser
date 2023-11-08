@@ -193,7 +193,7 @@ function drawGrid(markers){
       // deal with place marker
       let found = false;
       for (let i = 20; i < 31; i++) {
-        let marker=mposget(""+index);
+        let marker=mposget(""+i);
         if (marker!=null) {
           cS=marker.corners[0];
           cE=marker.corners[2];
