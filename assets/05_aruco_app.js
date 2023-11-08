@@ -1,4 +1,4 @@
-var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={};
+var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={}, tnow=Date.now();
   
 function onLoad(){
   video = document.getElementById("video");
@@ -125,8 +125,19 @@ function drawId(markers){
   }
 }
 
+function mposget(id){
+  if (!(id in mpos)) return null;
+  if ((tnow-mpos[id].tstamp)>postimeout) return null;
+  return mpos[id];
+}
+
+function mposex(id){
+  return mposget(id) != null;
+}
+
 function drawGrid(markers){
-  var tnow=Date.now(), missing=new Set(), statusobj={};
+  var missing=new Set(), statusobj={};
+  tnow=Date.now();
 
   for (let i = 0; i !== markers.length; ++ i){
     markers[i].tstamp=tnow;
@@ -154,104 +165,84 @@ function drawGrid(markers){
     ["13","16"],
   ]
   maplines.forEach(p => {
-    if (!(p[0] in mpos)) missing.add(p[0]);
-    if (!(p[1] in mpos)) missing.add(p[0]);
-    if ((p[0] in mpos) && (p[1] in mpos)) {
-      let pS=mpos[p[0]];
-      let pE=mpos[p[1]];
-      if (tnow-pS.tstamp>=postimeout) missing.add("to "+p[0]);
-      if (tnow-pE.tstamp>=postimeout) missing.add("to "+p[1]);
-      if ((tnow-pS.tstamp<postimeout) && (tnow-pE.tstamp<postimeout)){
-        context.moveTo(pS.corners[0].x, pS.corners[0].y);
-        context.lineTo(pE.corners[0].x, pE.corners[0].y);
-      }
+    let pS=mposget(p[0]), pE=mposget(p[1]);
+    if (pS != null && pE != null) {
+      context.moveTo(pS.corners[0].x, pS.corners[0].y);
+      context.lineTo(pE.corners[0].x, pE.corners[0].y);
     }
   })
   context.stroke();
 
-  if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-    timemarker=mpos["0"];
-    cS=timemarker.corners[0];
-    cE=timemarker.corners[2];
-    context.strokeStyle = "orange";
-    context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
-  }
-
-  // map perspective correction
-  if (!("0" in mpos)) missing.add("TimeMarker 0");
-  if (!("1" in mpos)) missing.add("MapCorner 1");
-  if (!("4" in mpos)) missing.add("MapCorner 4");
-  if (!("9" in mpos)) missing.add("MapCorner 9");
-  if (!("12" in mpos)) missing.add("MapCorner 12");
-  if (!("13" in mpos)) missing.add("TimeCorner 13");
-  if (!("16" in mpos)) missing.add("TimeCorner 16");
-  if (!("18" in mpos) && !("19" in mpos)) {missing.add("GoMarker 18");missing.add("StopMarker 19")}
+  if (!mposex("0")) missing.add("TimeMarker 0");
+  if (!mposex("1")) missing.add("MapCorner 1");
+  if (!mposex("4")) missing.add("MapCorner 4");
+  if (!mposex("9")) missing.add("MapCorner 9");
+  if (!mposex("12")) missing.add("MapCorner 12");
+  if (!mposex("13")) missing.add("TimeCorner 13");
+  if (!mposex("16")) missing.add("TimeCorner 16");
+  if (!mposex("18") && !mposex("19")) {missing.add("GoMarker 18");missing.add("StopMarker 19")}
   
-  // geographic map projection
-  if (("1" in mpos) && ("4" in mpos) && ("9" in mpos) && ("12" in mpos)) {
-    pTL=mpos["1"]; pTR=mpos["4"]; pBL=mpos["9"]; pBR=mpos["12"];
+  // map perspective correction
+  {
+    let pTL=mposget("1"); pTR=mposget("4"); pBL=mposget("9"); pBR=mposget("12");
+    if ((pTL!=null) && (pTR!=null) && (pBL!=null) && (pBR!=null)) {
+      var srcCorners = [pTL.corners[0].x, pTL.corners[0].y, pTR.corners[0].x, pTR.corners[0].y, pBR.corners[0].x, pBR.corners[0].y, pBL.corners[0].x, pBL.corners[0].y];
+      var dstCorners = [90, -180, 90, 180, -90, 180, -90, -180];
+      var perspT = PerspT(srcCorners, dstCorners);
 
-    var srcCorners = [pTL.corners[0].x, pTL.corners[0].y, pTR.corners[0].x, pTR.corners[0].y, pBR.corners[0].x, pBR.corners[0].y, pBL.corners[0].x, pBL.corners[0].y];
-    var dstCorners = [90, -180, 90, 180, -90, 180, -90, -180];
-    var perspT = PerspT(srcCorners, dstCorners);
+      // deal with place marker
+      let found = false;
+      for (let index = 20; index < 31; index++) {
+        let marker=mposget(""+index);
+        if (marker!=null) {
+          cS=marker.corners[0];
+          cE=marker.corners[2];
 
-    // deal with place marker
-    // deal with time marker
-    found = false;
-    for (let index = 20; index < 31; index++) {
-      if ((""+index) in mpos && tnow-mpos[(""+index)].tstamp<postimeout) {
-        var marker=mpos[(""+index)];
-        cS=marker.corners[0];
-        cE=marker.corners[2];
+          // plot marker
+          context.strokeStyle = "purple";
+          context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
 
-        // plot time marker
-        context.strokeStyle = "orange";
-        context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
-
-        var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
-        var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-        //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
-        //console.log(srcPt, dstPt);
-        //statustxt += " " + srcPt + "=>" + dstPt;
-        statusobj['lat']=Math.round(dstPt[1]);
-        statusobj['lon']=Math.round(dstPt[0]);
-        statusobj['obj']=index;
-        found=true;
+          var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
+          var dstPt = perspT.transform(srcPt[0], srcPt[1]);
+          statusobj['lat']=Math.round(dstPt[1]);
+          statusobj['lon']=Math.round(dstPt[0]);
+          statusobj['obj']=index;
+          found=true;
+        }
       }
+      if (!found) missing.add("place");
     }
-    if (!found) missing.add("place");
   }
 
   // time projection
-  if (("9" in mpos) && ("12" in mpos) && ("13" in mpos) && ("16" in mpos)) {
-    pTL=mpos["9"]; pTR=mpos["12"]; pBL=mpos["13"]; pBR=mpos["16"];
+  {
+    let pTL=mposget("9"); pTR=mposget("12"); pBL=mposget("13"); pBR=mposget("16");
+    if ((pTL!=null) && (pTR!=null) && (pBL!=null) && (pBR!=null)) {
+      var srcCorners = [pTL.corners[0].x, pTL.corners[0].y, pTR.corners[0].x, pTR.corners[0].y, pBR.corners[0].x, pBR.corners[0].y, pBL.corners[0].x, pBL.corners[0].y];
+      var dstCorners = [-200, 0, 2100, 0, 2100, 500, -200, 500];
+      var perspT = PerspT(srcCorners, dstCorners);
 
-    var srcCorners = [pTL.corners[0].x, pTL.corners[0].y, pTR.corners[0].x, pTR.corners[0].y, pBR.corners[0].x, pBR.corners[0].y, pBL.corners[0].x, pBL.corners[0].y];
-    var dstCorners = [-200, 0, 2100, 0, 2100, 500, -200, 500];
-    var perspT = PerspT(srcCorners, dstCorners);
+      // deal with time marker
+      let timemarker=mposget("0");
+      if (timemarker != null) {
+        cS=timemarker.corners[0];
+        cE=timemarker.corners[2];
 
-    // deal with time marker
-    if ("0" in mpos && tnow-mpos["0"].tstamp<postimeout) {
-      timemarker=mpos["0"]; 
-      cS=timemarker.corners[0];
-      cE=timemarker.corners[2];
-
-      // plot place marker
-      context.strokeStyle = "orange";
-      context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
-      found =true;
-      
-      var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
-      var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-      //var dstPt = [Math.round(dstPt[0]), Math.round(dstPt[1])]
-      statusobj['year']=Math.round(dstPt[0]);
+        // plot place marker
+        context.strokeStyle = "orange";
+        context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
+        
+        var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
+        var dstPt = perspT.transform(srcPt[0], srcPt[1]);
+        statusobj['year']=Math.round(dstPt[0]);
+      }
     }
   }
 
   // deal with GO and STOP marker
-  if ("18" in mpos && tnow-mpos["18"].tstamp<postimeout) {
+  if (mposex("18")) {
     statusobj['state']="GO"
-  }else if ("19" in mpos && tnow-mpos["19"].tstamp<postimeout) {
+  } else if (mposex("19")) {
     statusobj['state']="STOP"; // deal with STOP marker
   } else {
     statusobj['state']="ERR";
