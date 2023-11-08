@@ -78,8 +78,8 @@
             }
         },
         "terms": "pyramids, temples, palaces, courtyards, terraces, intricate, hierarchical, symbolic, monumental, impressive, powerful, colorful, geometrical, ornate, religious, cultural",
-        "Start_Year": "2000 BCE",
-        "End_Year": "1519 CE",
+        "Start_Year": -2000,
+        "End_Year": 1519,
         "character": [
             "Pyramid-like structures: Mesoamerican architecture is characterized by the construction of large pyramid-like structures, often with stepped sides. These structures served as temples, palaces, or ceremonial platforms.",
             "Elaborate stone carvings: Mesoamerican architecture is renowned for its intricate and detailed stone carvings. These carvings often depict mythological stories, gods, animals, or important historical events.",
@@ -265,8 +265,8 @@
             "Open design with large, flowing spaces"
         ],
         "short": "Stilt House architecture is characterized by houses built on stilts or posts above the ground, often seen in coastal areas or regions prone to flooding.",
-        "Start_Year": "6000 BCE",
-        "End_Year": "present",
+        "Start_Year": -6000,
+        "End_Year": 2023,
         "significance": 8,
         "valid": 0.0,
         "termsV2": {
@@ -409,8 +409,8 @@
             }
         },
         "terms": "traditional, ornate, symmetrical, grandiose, nostalgic, historicist, symmetrical, classical, neoclassical, Georgian, Victorian, iconic, popular, influential, Americanized, patriotic, revivalist.",
-        "Start_Year": "1880 CE",
-        "End_Year": "1930 CE",
+        "Start_Year": 1880,
+        "End_Year": 1930,
         "character": [
             "Symmetrical façade",
             "Pedimented entryway",
@@ -570,8 +570,8 @@
             }
         },
         "terms": "style, period, motifs, elements, details, buildings, mansions, houses, churches, town halls, universities, Gothic revival, symmetry, ornamentation, floor plans  ornate, elaborate, decorative, grandiose, majestic, symmetrical, intricate, detailed, refined, classical, elegant, historic",
-        "Start_Year": "1837 CE",
-        "End_Year": "1901 CE",
+        "Start_Year": 1837,
+        "End_Year": 1901,
         "character": [
             "Elaborate ornamentation: Victorian architecture is known for its intricate detailing and ornamentation. This includes decorative scrollwork, intricate moldings, and ornate columns.",
             "Steep rooflines and asymmetrical designs: Victorian buildings typically have steeply pitched roofs, often with multiple gables and dormers. The designs are often asymmetrical, with different architectural elements on each side of the building.",
@@ -730,8 +730,8 @@
             }
         },
         "terms": "geometric shapes, bold colors, luxurious materials, streamlined forms, symmetrical patterns, decorative motifs, plush interiors, lavish embellishments, glamorous aesthetics, modernist design.",
-        "Start_Year": "1920 CE",
-        "End_Year": "1939 CE",
+        "Start_Year": 1920,
+        "End_Year": 1939,
         "icon": "art_deco.png",
         "character": [
             "Geometric shapes and angular forms",
@@ -906,8 +906,8 @@
             }
         },
         "terms": "buildings, structures, landmarks, styles, materials, columns, arches, windows, doors, roofs, grand, ornate, symmetrical, decorative, practical, sturdy, historical, impressive, colonial, cultural",
-        "Start_Year": "1600 CE",
-        "End_Year": "1947 CE",
+        "Start_Year": 1600,
+        "End_Year": 1947,
         "character": [
             {
                 "element": "Symmetry",
@@ -1113,8 +1113,8 @@
             }
         },
         "terms": "Concrete, angular, functional, large-scale, monolithic, unornamented, linear, geometric. Brutal, stark, industrial, raw, austere, minimalistic, impersonal, oppressive, utilitarian.",
-        "Start_Year": "1950 CE",
-        "End_Year": "1970 CE",
+        "Start_Year": 1950,
+        "End_Year": 1970,
         "icon": "brutalism.png",
         "character": [
             "Raw concrete construction",
@@ -1290,8 +1290,8 @@
             "Integration with the surrounding environment: Contemporary architecture strives to seamlessly blend with the natural surroundings, often incorporating large windows, terraces, and outdoor spaces to connect the indoor and outdoor areas."
         ],
         "short": "Contemporary architecture embodies innovative design concepts, blends modern materials and technologies, and prioritizes functionality and sustainability.",
-        "Start_Year": "1950 CE",
-        "End_Year": "present",
+        "Start_Year": 1950,
+        "End_Year": 2023,
         "significance": 6,
         "valid": 1.0,
         "termsV2": {
@@ -1430,8 +1430,8 @@
             "quality": 1.0
         },
         "terms": "marble columns, symmetrical design, Doric order, Ionic order, pediments, entablatures, elegant proportions, eternal beauty, harmonious balance, mythological sculptures, grandeur, mathematical precision, white purity, timeless style",
-        "Start_Year": "900 BCE",
-        "End_Year": "146 BCE",
+        "Start_Year": -900,
+        "End_Year": -146,
         "icon": "ancient_greek.png",
         "character": [
             "Ancient Greek architecture is recognized for its elegant columns, mainly the Doric, Ionic, and Corinthian orders. These columns were the main support system for buildings, with distinctive features and proportions.",
@@ -1570,8 +1570,8 @@
             }
         },
         "terms": "Columns, symmetrical, pediments, arches, vaults, Doric, Ionic, Corinthian, elegant, influential, enduring.",
-        "Start_Year": "300 BCE",
-        "End_Year": "476 CE",
+        "Start_Year": -300,
+        "End_Year": 476,
         "icon": "ancient_roman.png",
         "character": [
             "Use of arches and vaults: Ancient Roman architecture is characterized by its innovative use of arches and vaults which provided structural integrity and enabled the construction of monumental buildings such as the Colosseum and the Pantheon.",
@@ -1709,8 +1709,8 @@
             }
         },
         "terms": "rounded arches, sturdy pillars, thick walls, decorative carvings, symmetrical design, simplistic aesthetic",
-        "Start_Year": "800 CE",
-        "End_Year": "1200 CE",
+        "Start_Year": 800,
+        "End_Year": 1200,
         "icon": "romanesque.png",
         "character": [
             "Thick, massive walls",
@@ -1872,8 +1872,8 @@
             }
         },
         "terms": "pointed arches, ribbed vaults, flying buttresses, ornate decoration, verticality, dramatic light and shade, towering spires, intricate tracery, majestic cathedrals.",
-        "Start_Year": "1100 CE",
-        "End_Year": "1500 CE",
+        "Start_Year": 1100,
+        "End_Year": 1500,
         "icon": "gothic.png",
         "character": [
             "Pointed arches: Gothic architecture is known for its use of pointed arches. These arches give a sense of height and verticality to the structures, creating a dramatic visual impact.",
@@ -2036,8 +2036,8 @@
             }
         },
         "terms": "ornate, extravagant architecture characterized by ornamental detail, curved lines, grandeur, drama, opulence, drama, elaborate ornamentation",
-        "Start_Year": "1584 CE",
-        "End_Year": "1750 CE",
+        "Start_Year": 1584,
+        "End_Year": 1750,
         "icon": "baroque.png",
         "character": [
             "Dramatic and theatrical style",
@@ -2199,8 +2199,8 @@
             }
         },
         "terms": "buildings, structures, domes, arches, columns, symmetry, proportion, harmony elegant, extravagant, ornate, classical, monumental, grand, sophisticated",
-        "Start_Year": "1400 CE",
-        "End_Year": "1600 CE",
+        "Start_Year": 1400,
+        "End_Year": 1600,
         "icon": "renaissance.png",
         "character": [
             "Symmetry: Renaissance architecture is known for its strong emphasis on symmetry. Buildings were often designed with balanced proportions, creating a sense of harmony and order.",
@@ -2365,8 +2365,8 @@
             }
         },
         "terms": "classical forms, symmetry, columns, domes, pediments, porticos, arches, friezes, balustrades simple, elegant, restrained, balanced, ordered, harmonious, timeless",
-        "Start_Year": "1740 CE",
-        "End_Year": "1909 CE",
+        "Start_Year": 1740,
+        "End_Year": 1909,
         "icon": "neoclassical.png",
         "character": [
             "Symmetry: Neoclassical architecture emphasizes balanced and harmonious designs, often featuring symmetrical facades and layouts.",
@@ -2519,8 +2519,8 @@
             }
         },
         "terms": "decorative, ornate, elaborate, asymmetrical, organic, curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves, 19th century decorative arts, nature, Japanese art",
-        "Start_Year": "1890 CE",
-        "End_Year": "1914 CE",
+        "Start_Year": 1890,
+        "End_Year": 1914,
         "icon": "art_nouveau.png",
         "character": [
             "Organic shapes and motifs inspired by nature",
@@ -2686,8 +2686,8 @@
         ],
         "short": "Bauhaus architecture is a modernist style that focuses on simplicity, functionality, and the integration of art and technology.",
         "significance": 8,
-        "Start_Year": "1919 CE",
-        "End_Year": "1933 CE",
+        "Start_Year": 1919,
+        "End_Year": 1933,
         "termsV2": {
             "Functionality": 10,
             "Simplicity": 10,
@@ -2832,8 +2832,8 @@
             }
         },
         "terms": "Moscovite, architecture, style, onion domes, Kremlin, palaces, churches, monasteries ornate, colorful, lavish, intricate, traditional, medieval, grandiose, iconic, distinctive, symbolically rich",
-        "Start_Year": "1407 CE",
-        "End_Year": "1692 CE",
+        "Start_Year": 1407,
+        "End_Year": 1692,
         "character": [
             "Onion domes: One of the most distinctive features of Muscovite architecture is the presence of onion-shaped domes on the top of buildings, especially on churches and cathedrals.",
             "Bright colors: Muscovite architecture is known for its vibrant and colorful exteriors. Buildings are often adorned with intricate patterns, geometric designs, and intricate frescoes.",
@@ -3041,8 +3041,8 @@
                 "Bauhaus School in Dessau, Germany": 3
             }
         },
-        "Start_Year": "1917 CE",
-        "End_Year": "1930 CE",
+        "Start_Year": 1917,
+        "End_Year": 1930,
         "icon": "constructivism.png",
         "character": [
             "Use of raw and industrial materials",
@@ -3223,8 +3223,8 @@
             }
         },
         "terms": "architecture style, primitive, ancient, sustainable, mud-based, vernacular, low-tech, earthy, regional, organic, cyclical, renewable, community-oriented, traditional.",
-        "Start_Year": "4000 BCE",
-        "End_Year": "present",
+        "Start_Year": -4000,
+        "End_Year": 2023,
         "icon": "mud_brick.png",
         "character": [
             "Use of mud bricks as the primary building material",
@@ -3398,8 +3398,8 @@
         ],
         "short": "Swahili architecture is a unique blend of Arab, Persian, and Indian influences, characterized by intricately carved wooden doors, coral stone buildings, and rooftop terraces.",
         "significance": 7,
-        "Start_Year": "800 CE",
-        "End_Year": "1800 CE",
+        "Start_Year": 800,
+        "End_Year": 1800,
         "valid": 0.0,
         "termsV2": {
             "Coast": 1,
@@ -3582,8 +3582,8 @@
             }
         },
         "terms": "pyramids, temples, tombs, monumental, grandiose, ornate, columns, hieroglyphics, sandstone, limestone, monumentalism, symmetry, vast, elaborate, impressive.",
-        "Start_Year": "3100 BCE",
-        "End_Year": "30 BCE",
+        "Start_Year": -3100,
+        "End_Year": -30,
         "icon": "ancient_egyptian.png",
         "character": [
             "Pyramids: Ancient Egyptian architecture is famous for its pyramid structures, which served as magnificent tombs for pharaohs and their families. These massive structures were made of limestone or granite and had a square base with four triangular sides, symbolizing the rays of the sun.",
@@ -3739,8 +3739,8 @@
             }
         },
         "terms": "Clean lines, minimal ornamentation, geometric shapes, innovative materials, functional, spacious, contemporary, sustainable, energy-efficient, culturally influenced.",
-        "Start_Year": "1922 CE",
-        "End_Year": "present",
+        "Start_Year": 1922,
+        "End_Year": 2023,
         "character": [
             {
                 "element": "Geometry",
@@ -3907,8 +3907,8 @@
             }
         },
         "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent.",
-        "Start_Year": "320 CE",
-        "End_Year": "550 CE",
+        "Start_Year": 320,
+        "End_Year": 550,
         "character": [
             "Elaborate stone carvings and sculptures",
             "Pillared halls and domed roofs",
@@ -4081,8 +4081,8 @@
         ],
         "short": "Indo-Saracenic architecture combines Indian and Islamic elements in a fusion style marked by intricate detailing, grandeur, and diverse influences.",
         "significance": 7,
-        "Start_Year": "1795 CE",
-        "End_Year": "1947 CE",
+        "Start_Year": 1795,
+        "End_Year": 1947,
         "icon": "indo-saracenic.png",
         "valid": 1.0,
         "termsV2": {
@@ -4255,8 +4255,8 @@
             }
         },
         "terms": "Roof tiles, eaves, columns, courtyards, gardens, screens, pavilions, bridges, gateways.  Colorful, intricate, ornate, symmetric, grand, traditional, symbolic, spiritual.",
-        "Start_Year": "618 CE",
-        "End_Year": "1912 CE",
+        "Start_Year": 618,
+        "End_Year": 1912,
         "icon": "chinese_imperial.png",
         "character": [
             "Brilliant colors: Chinese Imperial architecture is known for its vibrant colors, with red, yellow, and green being the most commonly used. These colors symbolize power, wealth, and good luck.",
@@ -4408,8 +4408,8 @@
             }
         },
         "terms": "wooden, traditional, minimalist, asymmetrical, sliding doors, tatami mats, shoji screens, exposed beam, high-pitched, curved roof, lanterns, open-air courtyard.",
-        "Start_Year": "1603 CE",
-        "End_Year": "1657 CE",
+        "Start_Year": 1603,
+        "End_Year": 1657,
         "character": [
             "Wooden Structures: Edo Period architecture primarily featured wooden structures, with buildings constructed using traditional Japanese architectural techniques such as post-and-beam construction.",
             "Sliding Doors and Screens: Edo Period architecture commonly incorporated sliding doors, known as fusuma, and screens, known as shoji. These allowed for flexible and customizable interior spaces.",
@@ -4592,8 +4592,8 @@
             }
         },
         "terms": "temples, step pyramids, reservoirs, irrigation systems, roadways, moats ornate, intricate, symbolic, religious, grandiose, imposing, monumental, timeless, mystical, awe-inspiring.",
-        "Start_Year": "825 CE",
-        "End_Year": "1431 CE",
+        "Start_Year": 825,
+        "End_Year": 1431,
         "character": [
             "Angkor Wat: Iconic temple complex and the largest religious monument in the world",
             "Hydraulic System: Utilization of complex water management systems such as canals, reservoirs, and waterways",
@@ -4778,8 +4778,8 @@
             "Raised Platform and Pillars: Traditional Thai buildings are typically elevated on a raised platform supported by wooden or stone pillars. This design element serves various purposes, including protection from floods, ventilation, and providing a sense of grandeur. The raised platform also creates a shaded area underneath the building."
         ],
         "short": "Thai architecture blends intricate ornamentation, steep roofs, and prominent decorative elements to showcase the country's rich cultural heritage.",
-        "Start_Year": "1000 CE",
-        "End_Year": "present",
+        "Start_Year": 1000,
+        "End_Year": 2023,
         "significance": 8.5,
         "valid": 0.0,
         "termsV2": {
@@ -4940,8 +4940,8 @@
             }
         },
         "terms": "Timurid Period architecture style was characterized by intricate details, vibrant tiles, glazed bricks, geometric motifs, blue and turquoise coloring, majestic domes, grand entrances, and monumental structures.",
-        "Start_Year": "1370 CE",
-        "End_Year": "1507 CE",
+        "Start_Year": 1370,
+        "End_Year": 1507,
         "character": [
             "Influence of Persian and Central Asian architectural styles",
             "Use of vibrant and intricate decorative motifs",
@@ -5122,8 +5122,8 @@
             "Tilework: Intricate and colorful tile designs are a signature element of Persian architecture. They are often used to decorate the facades, domes, and interior spaces of buildings, featuring complex geometric patterns, floral motifs, and calligraphy."
         ],
         "short": "Persian architecture is characterized by intricate geometric patterns, vibrant colors, and the use of domes and arches in monumental structures.",
-        "Start_Year": "600 BCE",
-        "End_Year": "600 CE",
+        "Start_Year": -600,
+        "End_Year": 600,
         "significance": 9,
         "valid": 0.0,
         "termsV2": {
