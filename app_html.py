@@ -27,12 +27,13 @@ style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 examples_img = {}
 for fn in os.listdir("style_generated"):
     if os.path.isdir(os.path.join("style_generated", fn)):
+        examples_img[fn] = []
         for fni in os.listdir(os.path.join("style_generated", fn)):
             if fni.endswith(".png"):
                 img = Image.open(os.path.join("style_generated", fn, fni))
-                examples_img[fn + "_" + fni.replace(".png", "")] = img
+                examples_img[fn].append(img)
 
-pil_image = random.choice(list(examples_img.values()))
+pil_image = random.choice(random.choice(list(examples_img.values())))
 
 def init_webpage():
     return dbc.Container(
