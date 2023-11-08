@@ -18,11 +18,13 @@ import flask
 mask = False
 demo_mode = False
 
-try:
-    with open("architect_styles_sub.json", "tr") as fi:
-        architects_by_style = json.load(fi)
-except:
-    architects_by_style = {}
+# Load architect styles
+with open("architect_styles_sub.json", "tr") as fi:
+    architects_by_style = json.load(fi)
+
+# Load region GeoJSON
+with open("cultural_regions_simplified.geojson", "tr") as fi:
+    regions = json.load(fi)
 
 for k, v in architects_by_style.items():
     if "architects" not in v:
@@ -61,6 +63,7 @@ sel_style = None
 sel_location = None
 sel_epoche = None
 rnd_style = "Bauhaus architecture"
+correct_style= architects_by_style[rnd_style]
 lastdata = None
 
 # Build App
@@ -83,18 +86,24 @@ clientside_callback(
 
 @app.callback(
     Output("clientside-output", "children"),
+    Output("SUBMIT_GUESS", "n_clicks"),
     Input("guess-data", "data"),
+    State("SUBMIT_GUESS", "n_clicks"),
 )
-def print_guess_data(data):
+def print_guess_data(data, submit_n_clicks):
     global lastdata
-    if data['state'] == "GO" and lastdata['state'] != "GO":
-        res = ""
-    elif data['state'] == "STOP" and lastdata['state'] != "STOP":
-        res = ""
+    if data['state'] == "GO" and lastdata['state'] != "GO" and not data['err']:
+        data['map_score'] = compute_map_score(data)
+        data['time_score'] = compute_time_score(data)
+        data['style_score'] = compute_style_score(data)
+        data['total_score'] = data['map_score']+data['time_score']+data['style_score']
+        return str(data), submit_n_clicks+1
+    elif data['state'] == "STOP" and lastdata['state'] != "STOP" and not data['err']:
+        pass
     else:  # ERR
-        res = str(data)
+        pass
     lastdata = data
-    return res
+    return str(data), submit_n_clicks
 
 
 def tostr(obj):
@@ -106,12 +115,32 @@ def tostr(obj):
         return str(obj)
 
 
-def compute_map_score():
+def compute_map_score(data):
+    global correct_style
+    if not data or 'lat' not in data or 'lon' not in data:
+        return 0
+    multipoly=regions[correct_style["style_area"]]
+    # TODO: compute distance to multipoly
     return 0
 
 
-def compute_time_score():
+def compute_time_score(data):
+    global correct_style
+    if not data or 'year' not in data:
+        return 0
+    if data['year'] < correct_style["Start_Year"]:
+        return correct_style["Start_Year"]-data['year']
+    if data['year'] > correct_style["End_Year"]:
+        return data['year']-correct_style["End_Year"]
     return 0
+
+
+def compute_style_score(data):
+    global correct_style
+    if data['style'] == correct_style["name"]:
+        return 2000
+    else:
+        return 0
 
 
 @app.callback(
@@ -154,7 +183,7 @@ def display_selected_epoche(value):
 
 @app.callback(
     Output("map-mask", "hidden", allow_duplicate=True),
-    Output("SUBMIT_GUESS", "active", allow_duplicate=True),
+    Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output({"type": "style-selection", "index": ALL}, "color", allow_duplicate=True),
     Input({"type": "style-selection", "index": ALL}, "n_clicks"),
     State({"type": "style-selection", "index": ALL}, "name"),
@@ -186,12 +215,13 @@ def select_style(n, names):
     prevent_initial_call=True,
 )
 def select_random_style(new_run):
-    global rnd_style, sel_style, sel_epoche, sel_location
+    global rnd_style, sel_style, sel_epoche, sel_location, correct_style
     rnd_style = random.choice(list(architects_by_style.keys()))
     rnd_img = random.choice(list(examples_img.values()))
+    correct_style= architects_by_style[rnd_style]
     print(rnd_style)
-    astyle = architects_by_style[rnd_style]["style"]
-    aarch = architects_by_style[rnd_style]["architects"]
+    astyle = correct_style["style"]
+    aarch = correct_style["architects"]
     print(rnd_style, astyle, aarch)
     sel_style, sel_epoche, sel_location = None, None, None
     return (
