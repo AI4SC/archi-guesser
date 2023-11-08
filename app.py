@@ -11,7 +11,6 @@ from dash import (
     ClientsideFunction,
 )
 from dash.dependencies import Input, Output, State
-from PIL import Image
 import random
 import flask
 
@@ -62,8 +61,8 @@ style_ccc = [None for c in style_img.keys()]
 sel_style = None
 sel_location = None
 sel_epoche = None
-rnd_style = "Bauhaus architecture"
-correct_style= architects_by_style[rnd_style]
+rnd_style = random.choice(list(architects_by_style.keys()))
+correct_style = architects_by_style[rnd_style]
 lastdata = None
 
 # Build App
@@ -217,9 +216,8 @@ def select_style(n, names):
 def select_random_style(new_run):
     global rnd_style, sel_style, sel_epoche, sel_location, correct_style
     rnd_style = random.choice(list(architects_by_style.keys()))
-    rnd_img = random.choice(list(examples_img.values()))
-    correct_style= architects_by_style[rnd_style]
-    print(rnd_style)
+    rnd_img = random.choice(examples_img[rnd_style])
+    correct_style = architects_by_style[rnd_style]
     astyle = correct_style["style"]
     aarch = correct_style["architects"]
     print(rnd_style, astyle, aarch)
@@ -233,9 +231,9 @@ def select_random_style(new_run):
         [
             html.H3(rnd_style),
             html.Label("Epoche"),
-            html.P(f'{astyle["time_range"]} ({astyle["period"]})'),
+            html.P(f'{astyle["Start_Year"]}&mdash;{astyle["End_Year"]}'),
             html.Label("Location"),
-            html.P(f'{tostr(astyle["country"])} ({tostr(astyle["continent"])})'),
+            html.P(f'{astyle["style_area"]}'),
             html.Label("Description"),
             html.P(astyle["description"]),
             html.Label("Characteristics"),
