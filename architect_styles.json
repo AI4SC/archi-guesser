@@ -1479,7 +1479,9 @@
             "Indoor-outdoor": 1
         },
         "name": "Ranch-style house",
-        "valid2": 1.0
+        "valid2": 1.0,
+        "selected": true,
+        "style_area": "Anglo World"
     },
     "Colonial Revival": {
         "architects": [

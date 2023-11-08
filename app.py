@@ -61,9 +61,10 @@ style_ccc = [None for c in style_img.keys()]
 sel_style = None
 sel_location = None
 sel_epoche = None
+last_submit_n_clicks=0
 rnd_style = random.choice(list(architects_by_style.keys()))
 correct_style = architects_by_style[rnd_style]
-lastdata = None
+lastdata = {'state':"ERR"}
 
 # Build App
 server = flask.Flask(__name__)
@@ -91,7 +92,9 @@ clientside_callback(
 )
 def print_guess_data(data, submit_n_clicks):
     global lastdata
-    if data['state'] == "GO" and lastdata['state'] != "GO" and not data['err']:
+    if not data or not lastdata or 'state' not in data or 'state' not in lastdata:
+        pass
+    elif data['state'] == "GO" and lastdata['state'] != "GO" and not data['err']:
         data['map_score'] = compute_map_score(data)
         data['time_score'] = compute_time_score(data)
         data['style_score'] = compute_style_score(data)
@@ -253,8 +256,12 @@ def select_random_style(new_run):
     prevent_initial_call=True,
 )
 def evaluate_run(n):
-    # TODO: Compute final score and update modal
-    return [True, True, False]
+    global submit_n_clicks
+    if n > submit_n_clicks:
+        # TODO: Compute final score and update modal
+        return [True, True]
+    submit_n_clicks = n
+    return [False, False]  #False
 
 
 @app.callback(  # Output("setup_modal", "is_open"),

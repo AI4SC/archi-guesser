@@ -16,11 +16,16 @@ style_image = Image.open("styles_crop.png")
 ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
 
+# Load architect styles
+with open("architect_styles_sub.json", "tr") as fi:
+    architects_by_style = json.load(fi)
+
 style_img = {}
 for fn in os.listdir("styles120"):
     if fn.endswith(".png"):
-        img = Image.open(os.path.join("styles120", fn))
-        style_img[fn.replace(".png", "").replace("_", " ").title()] = img
+        ifn = fn.replace(".png", "").replace("_", " ").title()
+        if ifn in architects_by_style:
+            style_img[ifn] = Image.open(os.path.join("styles120", fn))
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 
@@ -265,7 +270,7 @@ def init_webpage():
                 html.Canvas(
                     id="canvas", width=640, height=480
                 ),  # , style={"display":"none"}
-                html.Div(id="info", style={"margin": "15px"}),
+                html.Div(id="clientside-output", children="", style={"margin": "15px"})
             ],
             id="video_body",
             style={"visibility": "hidden"},
@@ -286,8 +291,7 @@ def init_webpage():
         ),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
         dcc.Interval(id="camera-update", interval=1000, n_intervals=0),
-        dcc.Store(id="guess-data"),
-        html.Div(id="clientside-output", children="Dash: A web application framework for your data.")
+        dcc.Store(id="guess-data")
     ],
     fluid=True,
 )
