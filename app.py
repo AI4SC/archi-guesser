@@ -258,11 +258,11 @@ def select_random_style(new_run):
 )
 def evaluate_run(n):
     global last_submit_n_clicks
-    if n and n > last_submit_n_clicks:
+    if not n or n <= last_submit_n_clicks:
         # TODO: Compute final score and update modal
-        return [True, True, "You got 0 points"]
+        return [False, False, "You got 0 points"]
     last_submit_n_clicks = n
-    return [False, False, f"You got {lastdata.get('total_score')} points"]
+    return [True, True, f"You got {lastdata.get('total_score')} points"]
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
