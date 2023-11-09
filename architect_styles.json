@@ -1333,13 +1333,13 @@
         "name": "Shingle Style",
         "valid2": 1.0
     },
-    "Ranch-style house": {
+    "Ranch-Style House": {
         "architects": [
             {
                 "name": "Cliff May",
                 "birth_date": "1909-05-21",
                 "nationality": "American",
-                "description": "Known as the father of the Ranch-style house, Cliff May was an American architect who popularized this style of design across the US in the post-WWII period.",
+                "description": "Known as the father of the Ranch-Style House, Cliff May was an American architect who popularized this style of design across the US in the post-WWII period.",
                 "notable_buildings": [
                     "The Robert Mondavi Winery in Oakville, California",
                     "The Malibu Market and Design in Malibu, California",
@@ -1378,7 +1378,7 @@
         "style": {
             "time_range": "1940s-1970s",
             "period": "20th century",
-            "description": "Ranch-style houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
+            "description": "Ranch-Style Houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
             "characteristics": [
                 "Single-story",
                 "Low-pitched roof",
@@ -1413,7 +1413,7 @@
             "Low-pitched roof with wide eaves",
             "Open floor plan with a strong connection to the outdoor space"
         ],
-        "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
+        "short": "A Ranch-Style house is a single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
         "significance": 8,
         "valid": 1.0,
         "termsV2": {
@@ -1428,7 +1428,7 @@
             "Horizontal": 10,
             "Flexible": 4,
             "c": 19,
-            "Ranch-style house": 1,
+            "Ranch-Style House": 1,
             "Wide overhanging eaves": 1,
             "Open floor plan": 4,
             "Single-story structure": 1,
@@ -1478,7 +1478,7 @@
             "Wide footprint": 1,
             "Indoor-outdoor": 1
         },
-        "name": "Ranch-style house",
+        "name": "Ranch-Style House",
         "valid2": 1.0,
         "selected": true,
         "style_area": "Anglo World",
@@ -12190,7 +12190,7 @@
             "Sputnik chandelier": 1,
             "Terrazzo flooring": 1,
             "Atomic light fixtures": 1,
-            "Ranch-style house": 1,
+            "Ranch-Style House": 1,
             "Minimalism": 3,
             "Indoor-outdoor living": 1,
             "Low-pitched roofs": 1,

@@ -178,7 +178,7 @@
                 "unweighted": 0.016,
                 "weighted": 0.05774278215223097
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.007936507936507936,
                 "weighted": 0.020512820512820513
             },
@@ -474,7 +474,7 @@
                 "unweighted": 0.016,
                 "weighted": 0.05774278215223097
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.08411214953271028,
                 "weighted": 0.2641509433962264
             },
@@ -592,13 +592,13 @@
             }
         }
     },
-    "Ranch-style house": {
+    "Ranch-Style House": {
         "architects": [
             {
                 "name": "Cliff May",
                 "birth_date": "1909-05-21",
                 "nationality": "American",
-                "description": "Known as the father of the Ranch-style house, Cliff May was an American architect who popularized this style of design across the US in the post-WWII period.",
+                "description": "Known as the father of the Ranch-Style House, Cliff May was an American architect who popularized this style of design across the US in the post-WWII period.",
                 "notable_buildings": [
                     "The Robert Mondavi Winery in Oakville, California",
                     "The Malibu Market and Design in Malibu, California",
@@ -637,7 +637,7 @@
         "style": {
             "time_range": "1940s-1970s",
             "period": "20th century",
-            "description": "Ranch-style houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
+            "description": "Ranch-Style Houses are single-story, low-pitched roof houses with an open floor plan and attached garage. They typically feature a simple and unadorned design with a horizontal orientation.",
             "characteristics": [
                 "Single-story",
                 "Low-pitched roof",
@@ -672,7 +672,7 @@
             "Low-pitched roof with wide eaves",
             "Open floor plan with a strong connection to the outdoor space"
         ],
-        "short": "Ranch-style house: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
+        "short": "Ranch-Style House: A single-story home characterized by a long, low profile, open floor plan, and simple design elements, popular in post-WWII America.",
         "significance": 8,
         "valid": 1.0,
         "termsV2": {
@@ -685,7 +685,7 @@
             "Low-pitched roof": 2,
             "Horizontal": 10,
             "Flexible": 4,
-            "Ranch-style house": 1,
+            "Ranch-Style House": 1,
             "Wide overhanging eaves": 1,
             "Open floor plan": 4,
             "Single-story structure": 1,
@@ -735,7 +735,7 @@
             "Wide footprint": 1,
             "Indoor-outdoor": 1
         },
-        "name": "Ranch-style house",
+        "name": "Ranch-Style House",
         "valid2": 1.0,
         "selected": true,
         "style_area": "Anglo World",
@@ -745,7 +745,7 @@
             "In tranquil land where nature thrives,\nAmidst lush fields where the sun derives,\nA humble abode, with charm and grace,\nStands basking in tranquil solace's embrace.\n\nLow to the ground, humble and serene,\nSerenity's haven, a vision pristine,\nWith wide-span windows, inviting the light,\nWarmth infiltrating from dawn till night.\n\nOn open horizons, its lines extend,\nHorizontally stretched, oh, what a blend,\nA dwelling so coined by simplicity's allure,\nAn epitome of comfort, that's for sure.\n\nA sprawling haven on earth's gentle plain,\nA dwelling captivated by harmony's reign,\nWhere family bonds and friendships unfold,\nA timeless retreat, a story untold.\n\nRoaming eaves shelter, offering respite,\nFrom blazing sun's glare, at day or night,\nWide porches beckon, to share stories afar,\nUnder golden awnings, beneath twinkling stars.\n\nWith an aura of nostalgia, the past it recalls,\nMemories treasured within these sacred walls,\nA testament to craftsmanship, resolute and true,\nBearing witness to cherished moments, both old and new.\n\nEmbracing the essence of simpler days gone by,\nEnduring through seasons, beneath vast open sky,\nThis dwelling of elegance, with grace so aligned,\nWhispers tales of family, eternally entwined."
         ],
         "style_similarity": {
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 1.0,
                 "weighted": 1.0
             },
@@ -1031,7 +1031,7 @@
                 "unweighted": 0.01834862385321101,
                 "weighted": 0.015748031496062992
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
@@ -1330,7 +1330,7 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
@@ -1638,7 +1638,7 @@
                 "unweighted": 0.034482758620689655,
                 "weighted": 0.10761154855643044
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.034482758620689655,
                 "weighted": 0.08974358974358974
             },
@@ -1946,7 +1946,7 @@
                 "unweighted": 0.00980392156862745,
                 "weighted": 0.0332409972299169
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.00980392156862745,
                 "weighted": 0.04864864864864865
             },
@@ -2248,7 +2248,7 @@
                 "unweighted": 0.09090909090909091,
                 "weighted": 0.17473118279569894
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.058823529411764705,
                 "weighted": 0.1942257217847769
             },
@@ -2528,7 +2528,7 @@
                 "unweighted": 0.026785714285714284,
                 "weighted": 0.05774278215223097
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.008771929824561403,
                 "weighted": 0.028205128205128206
             },
@@ -2778,7 +2778,7 @@
                 "unweighted": 0.03125,
                 "weighted": 0.05249343832020997
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.01020408163265306,
                 "weighted": 0.03333333333333333
             },
@@ -3058,7 +3058,7 @@
                 "unweighted": 0.017857142857142856,
                 "weighted": 0.0215633423180593
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.008849557522123894,
                 "weighted": 0.039473684210526314
             },
@@ -3355,7 +3355,7 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.008264462809917356,
                 "weighted": 0.020512820512820513
             },
@@ -3646,7 +3646,7 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
@@ -3941,7 +3941,7 @@
                 "unweighted": 0.015748031496062992,
                 "weighted": 0.03937007874015748
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0078125,
                 "weighted": 0.017948717948717947
             },
@@ -4211,7 +4211,7 @@
                 "unweighted": 0.01904761904761905,
                 "weighted": 0.06199460916442048
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.009433962264150943,
                 "weighted": 0.031578947368421054
             },
@@ -4509,7 +4509,7 @@
                 "unweighted": 0.016260162601626018,
                 "weighted": 0.0332409972299169
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
@@ -4787,7 +4787,7 @@
                 "unweighted": 0.02608695652173913,
                 "weighted": 0.07611548556430446
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.05357142857142857,
                 "weighted": 0.15384615384615385
             },
@@ -5115,7 +5115,7 @@
                 "unweighted": 0.006024096385542169,
                 "weighted": 0.015748031496062992
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.006024096385542169,
                 "weighted": 0.005128205128205128
             },
@@ -5407,7 +5407,7 @@
                 "unweighted": 0.01652892561983471,
                 "weighted": 0.03591160220994475
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.00819672131147541,
                 "weighted": 0.04582210242587601
             },
@@ -5715,7 +5715,7 @@
                 "unweighted": 0.10810810810810811,
                 "weighted": 0.29110512129380056
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0603448275862069,
                 "weighted": 0.14210526315789473
             },
@@ -6042,7 +6042,7 @@
                 "unweighted": 0.08275862068965517,
                 "weighted": 0.20754716981132076
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.03289473684210526,
                 "weighted": 0.13421052631578947
             },
@@ -6323,7 +6323,7 @@
                 "unweighted": 0.02564102564102564,
                 "weighted": 0.030470914127423823
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.008403361344537815,
                 "weighted": 0.010810810810810811
             },
@@ -6617,7 +6617,7 @@
                 "unweighted": 0.034482758620689655,
                 "weighted": 0.12598425196850394
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.02564102564102564,
                 "weighted": 0.1076923076923077
             },
@@ -6905,7 +6905,7 @@
                 "unweighted": 0.05042016806722689,
                 "weighted": 0.0862533692722372
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
@@ -7212,7 +7212,7 @@
                 "unweighted": 0.014705882352941176,
                 "weighted": 0.0215633423180593
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.014705882352941176,
                 "weighted": 0.02368421052631579
             },
@@ -7496,7 +7496,7 @@
                 "unweighted": 0.036036036036036036,
                 "weighted": 0.09946236559139784
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.017699115044247787,
                 "weighted": 0.04199475065616798
             },
@@ -7800,7 +7800,7 @@
                 "unweighted": 0.037037037037037035,
                 "weighted": 0.13910761154855644
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.021897810218978103,
                 "weighted": 0.08205128205128205
             },
@@ -8111,7 +8111,7 @@
                 "unweighted": 0.029197080291970802,
                 "weighted": 0.04199475065616798
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.007142857142857143,
                 "weighted": 0.005128205128205128
             },
@@ -8413,7 +8413,7 @@
                 "unweighted": 0.030303030303030304,
                 "weighted": 0.08136482939632546
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.007407407407407408,
                 "weighted": 0.023076923076923078
             },
@@ -8688,7 +8688,7 @@
                 "unweighted": 0.008695652173913044,
                 "weighted": 0.0215633423180593
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.008695652173913044,
                 "weighted": 0.015789473684210527
             },
@@ -8994,7 +8994,7 @@
                 "unweighted": 0.02586206896551724,
                 "weighted": 0.03494623655913978
             },
-            "Ranch-style house": {
+            "Ranch-Style House": {
                 "unweighted": 0.00847457627118644,
                 "weighted": 0.023622047244094488
             },
