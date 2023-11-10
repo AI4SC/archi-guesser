@@ -68,6 +68,7 @@ style_ccc = [None for c in style_img.keys()]
 sel_style = None
 sel_location = None
 sel_epoche = None
+submit_disabled = True
 last_submit_n_clicks=0
 rnd_style = random.choice(list(architects_by_style.keys()))
 correct_style = architects_by_style[rnd_style]
@@ -193,11 +194,12 @@ def display_selected_map_position(click_lat_lng):
     prevent_initial_call=True,
 )
 def display_selected_epoche(value):
-    global sel_epoche
+    global sel_epoche, submit_disabled
     if value is None:
         return True
     sel_epoche = value
-    return sel_location is None or sel_style is None or sel_epoche is None
+    submit_disabled=sel_location is None or sel_style is None or sel_epoche is None
+    return submit_disabled
 
 
 @app.callback(
@@ -209,18 +211,19 @@ def display_selected_epoche(value):
     prevent_initial_call=True,
 )
 def select_style(n, names):
-    global sel_style
+    global sel_style, submit_disabled
     if callback_context.triggered_prop_ids:
         for v in callback_context.triggered_prop_ids.values():
             sel_style = v["index"]
             styles = ["primary" if sel_style == n else None for n in names]
+            submit_disabled=sel_location is None or sel_style is None or sel_epoche is None
             return (
                 False,
-                sel_location is None or sel_style is None or sel_epoche is None,
+                submit_disabled,
                 styles,
             )
     else:
-        return True, True, style_ccc
+        return True, submit_disabled, style_ccc
 
 
 @app.callback(
@@ -273,18 +276,18 @@ def select_random_style(new_run):
     Output("resultmodal", "is_open", allow_duplicate=True),
     Output("points", "children"),
     Input("SUBMIT_GUESS", "n_clicks"),
-    State("SUBMIT_GUESS", "disabled"),
-    State("resultmodal", "is_open"),
-    State("points", "children"),
+    #State("resultmodal", "is_open"),
     prevent_initial_call=True,
 )
-def evaluate_run(n_clicks, submit, isopen, score):
-    global last_submit_n_clicks
-    #print("3", n_clicks, last_submit_n_clicks, submit, isopen, score)
+def evaluate_run(n_clicks):
+    global last_submit_n_clicks, submit_disabled
+    #print("3", n_clicks, last_submit_n_clicks, submit, isopen, #)
+    isopen = False
     if not n_clicks or n_clicks <= last_submit_n_clicks:
-        return [submit, isopen, score]
+        isopen = True
+        submit_disabled = True
     last_submit_n_clicks = n_clicks
-    return [True, True, f"You got {lastdata.get('total_score')} points"]
+    return [submit_disabled, isopen, f"You got {lastdata.get('total_score',0)} points"]
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
