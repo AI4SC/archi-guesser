@@ -204,9 +204,9 @@ function drawGrid(markers){
 
           var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
           var dstPt = perspT.transform(srcPt[0], srcPt[1]);
-          statusobj['lat']=Math.round(dstPt[1]);
-          statusobj['lon']=Math.round(dstPt[0]);
-          statusobj['obj']=i;
+          statusobj['lat'] = Math.round(dstPt[1]);
+          statusobj['lon'] = Math.round(dstPt[0]);
+          statusobj['obj'] = i;
           found=true;
         }
       }
