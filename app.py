@@ -69,7 +69,8 @@ sel_style = None
 sel_location = None
 sel_epoche = None
 submit_disabled = True
-last_submit_n_clicks=0
+last_submit_n_clicks = 0
+resultmodal_isopen = False
 rnd_style = random.choice(list(architects_by_style.keys()))
 correct_style = architects_by_style[rnd_style]
 lastdata = {'state':"ERR"}
@@ -239,7 +240,7 @@ def select_style(n, names):
 )
 def select_random_style(new_run):
     global rnd_style, sel_style, sel_epoche, sel_location, correct_style
-    print("2",new_run)
+    print("2", new_run)
     rnd_style = random.choice(list(architects_by_style.keys()))
     rnd_img = random.choice(examples_img[rnd_style])
     correct_style = architects_by_style[rnd_style]
@@ -280,14 +281,13 @@ def select_random_style(new_run):
     prevent_initial_call=True,
 )
 def evaluate_run(n_clicks):
-    global last_submit_n_clicks, submit_disabled
-    #print("3", n_clicks, last_submit_n_clicks, submit, isopen, #)
-    isopen = False
+    global last_submit_n_clicks, submit_disabled, resultmodal_isopen
     if not n_clicks or n_clicks <= last_submit_n_clicks:
-        isopen = True
+        resultmodal_isopen = True
         submit_disabled = True
+    print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
     last_submit_n_clicks = n_clicks
-    return [submit_disabled, isopen, f"You got {lastdata.get('total_score',0)} points"]
+    return [submit_disabled, resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
