@@ -19298,7 +19298,15 @@
                 "Ranches in Texas"
             ],
             "continent": "North America",
-            "country": "United States"
+            "country": "United States",
+            "quality": -1,
+            "existence": -1,
+            "example_quality": -1,
+            "example_validity": {
+                "Eichler homes in California": 1.0,
+                "Levittown homes in New York": 1.0,
+                "Ranches in Texas": 0.0
+            }
         },
         "valid": 3,
         "valid2": 1.0,
@@ -19381,6 +19389,11 @@
         "End_Year": 1970,
         "selected": true,
         "style_area": "Anglo World",
-        "marker": 22
+        "marker": 22,
+        "poems": [
+            "Amidst rolling land, a dwelling takes shape,\nA single-story haven, where memories drape.\nLow-lying silhouette blends with nature's grace,\nEmbracing the landscape, a harmonious embrace.\n\nIts sprawling facade whispers warmth and ease,\nUnderneath the sky's embrace it quietly appease.\nWide porches beckon, a comforting retreat,\nWelcoming all who seek tranquility sweet.\n\nUnassuming structure of modest grandeur,\nWith ample windows, inviting sunlight to stir.\nOpen floor plans flow, no barriers in sight,\nAn airy haven where shared moments take flight.\n\nPristine lines adorn this haven of repose,\nSubtle elegance, where classic beauty only grows.\nA fusion of function and style so true,\nAn architectural marvel, a dream come into view.\n\nLines blurred between indoors and outdoors fair,\nUnfolding vistas of green, like an artist's care.\nA dwelling that dances with nature's allure,\nExuding a charm, impeccable and pure.\n\nStories are woven within these humble walls,\nWhere families gather, and cherished times enthrall.\nA treasure trove of love, that forever will stand,\nThis dwelling of warmth, on serene, tranquil land.",
+            "Upon wide plains, a dwelling stands,\nEmbraced by nature's gentle hands.\nLow-lying structure, humble in its grace,\nWith one story, unpretentious in its pace.\n\nA symphony of elements, harmoniously aligned,\nCementing roots, a rustic charm enshrined.\nWide eaves proclaim protection from the sun,\nWhispering tales of a life well-spun.\n\nGabled roof, gently pitched, kisses the sky,\nInviting shelter where the heart can fly.\nWarm tones adorn sturdy walls with pride,\nCocoon of comfort, where dreams reside.\n\nWindows extend their gaze, embracing light,\nInviting golden rays to dance, so bright.\nStretching outward, a vista to behold,\nNature's beauty, cherished and untold.\n\nPorches serve as gateways, connecting land and soul,\nWelcoming kin and traditions, making one whole.\nSymbol of unity, gathering place so grand,\nWhere laughter echoes and memories command.\n\nSimple and unadorned, yet soulful and true,\nThe essence of the ranch, its spirit breaking through.\nIn each design, a love affair with nature unfolds,\nAs life unfurls, this architecture forever holds.",
+            "Upon sweeping earth, adorned with earthly hues,\nA dwelling rises with simplicity and grace.\nLow-slung roof, sheltering like protective muse,\nVisions of warmth within this tranquil space.\n\nWide eaves extend, offering cool respite,\nGently yearning for nature's gentle sway.\nWindows, vast and plentiful, bring forth light,\nEmbracing golden beams throughout the day.\n\nA single story, serene in stoic stance,\nNo towering presence, no grand façade.\nIts humble essence invites a second glance,\nA sanctuary blending harmonious and broad.\n\nDesigned for comfort, where memories thrive,\nWith hearth and hearthside tales in every nook.\nIn simplicity, a tranquil place to revive,\nA portrait of a life, inviting, untouched by rook.\n\nWithin these walls, dwellings find timeless embrace,\nRooted in nature's subtle, peaceful charm.\nA true abode where simplicity leaves no trace,\nA dwelling, a sanctuary, evoking tranquil calm."
+        ]
     }
 }

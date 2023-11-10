@@ -21,6 +21,7 @@ demo_mode = False
 weight_time_score  = 1.0 # max 2600
 weight_map_score   = 10.0 # max 180
 weight_style_score = 2000.0 # max 1.0
+marker_to_style={}
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr") as fi:
@@ -31,6 +32,7 @@ with open("cultural_regions_simplified.geojson", "tr") as fi:
     regions = json.load(fi)
 
 for k, v in architects_by_style.items():
+    marker_to_style[v["marker"]] = k
     if "architects" not in v:
         print("MISSING architects", k)
     for a in v["architects"]:
@@ -100,13 +102,16 @@ def print_guess_data(data, n_clicks):
     if not data or not lastdata or 'state' not in data or 'state' not in lastdata:
         pass
     elif data['state'] == "GO" and lastdata['state'] != "GO" and not data['err']:
+        data['style'] = marker_to_style[data['obj']]
         data['map_score'] = compute_map_score(data)
         data['time_score'] = compute_time_score(data)
         data['style_score'] = compute_style_score(data)
         data['total_score'] = weight_map_score * data['map_score']
         data['total_score'] += weight_time_score * data['time_score']
         data['total_score'] += weight_style_score * data['style_score']
-        return str(data), n_clicks+1
+        lastdata = data
+        print(data, lastdata, n_clicks)
+        return str(data), (n_clicks + 1) if n_clicks else 1
     elif data['state'] == "STOP" and lastdata['state'] != "STOP" and not data['err']:
         pass
     else:  # ERR
