@@ -112,7 +112,7 @@ def print_guess_data(data, n_clicks):
         data['total_score'] += weight_time_score * data['time_score']
         data['total_score'] += weight_style_score * data['style_score']
         data['total_score'] = round(data['total_score'])
-        print(data, ldata, n_clicks)
+        print("1", data, ldata, n_clicks)
         return str(data), (n_clicks + 1) if n_clicks else 1
     elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
         pass
@@ -236,6 +236,7 @@ def select_style(n, names):
 )
 def select_random_style(new_run):
     global rnd_style, sel_style, sel_epoche, sel_location, correct_style
+    print("2",new_run)
     rnd_style = random.choice(list(architects_by_style.keys()))
     rnd_img = random.choice(examples_img[rnd_style])
     correct_style = architects_by_style[rnd_style]
@@ -272,14 +273,17 @@ def select_random_style(new_run):
     Output("resultmodal", "is_open", allow_duplicate=True),
     Output("points", "children"),
     Input("SUBMIT_GUESS", "n_clicks"),
+    State("SUBMIT_GUESS", "disabled"),
+    State("resultmodal", "is_open"),
+    State("points", "children"),
     prevent_initial_call=True,
 )
-def evaluate_run(n):
+def evaluate_run(n_clicks, submit, isopen, score):
     global last_submit_n_clicks
-    if not n or n <= last_submit_n_clicks:
-        # TODO: Compute final score and update modal
-        return [False, False, "You got 0 points"]
-    last_submit_n_clicks = n
+    #print("3", n_clicks, last_submit_n_clicks, submit, isopen, score)
+    if not n_clicks or n_clicks <= last_submit_n_clicks:
+        return [submit, isopen, score]
+    last_submit_n_clicks = n_clicks
     return [True, True, f"You got {lastdata.get('total_score')} points"]
 
 

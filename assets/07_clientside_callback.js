@@ -1,4 +1,4 @@
-var DEBUG_MODE=true, DEBUG_OBJ={"err":[], "state":"STOP", 'tick':0};
+var DEBUG_MODE=false, DEBUG_OBJ={"err":[], "state":"STOP", 'tick':0};
 
 window.dash_clientside = Object.assign({}, window.dash_clientside, {
     clientside: {
