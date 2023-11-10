@@ -111,6 +111,7 @@ def print_guess_data(data, n_clicks):
         data['total_score'] = weight_map_score * data['map_score']
         data['total_score'] += weight_time_score * data['time_score']
         data['total_score'] += weight_style_score * data['style_score']
+        data['total_score'] = round(data['total_score'])
         print(data, ldata, n_clicks)
         return str(data), (n_clicks + 1) if n_clicks else 1
     elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
