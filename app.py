@@ -99,9 +99,11 @@ clientside_callback(
 )
 def print_guess_data(data, n_clicks):
     global lastdata
-    if not data or not lastdata or 'state' not in data or 'state' not in lastdata:
+    ldata=lastdata
+    lastdata = data
+    if not data or not ldata or 'state' not in data or 'state' not in ldata:
         pass
-    elif data['state'] == "GO" and lastdata['state'] != "GO" and not data['err']:
+    elif data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
         data['style'] = marker_to_style[data['obj']]
         data['map_score'] = compute_map_score(data)
         data['time_score'] = compute_time_score(data)
@@ -109,14 +111,12 @@ def print_guess_data(data, n_clicks):
         data['total_score'] = weight_map_score * data['map_score']
         data['total_score'] += weight_time_score * data['time_score']
         data['total_score'] += weight_style_score * data['style_score']
-        lastdata = data
-        print(data, lastdata, n_clicks)
+        print(data, ldata, n_clicks)
         return str(data), (n_clicks + 1) if n_clicks else 1
-    elif data['state'] == "STOP" and lastdata['state'] != "STOP" and not data['err']:
+    elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
         pass
     else:  # ERR
         pass
-    lastdata = data
     return str(data), n_clicks
 
 
