@@ -239,7 +239,7 @@ def select_style(n, names):
     prevent_initial_call=True,
 )
 def select_random_style(new_run):
-    global rnd_style, sel_style, sel_epoche, sel_location, correct_style
+    global rnd_style, sel_style, sel_epoche, sel_location, correct_style, resultmodal_isopen
     print("2", new_run)
     rnd_style = random.choice(list(architects_by_style.keys()))
     rnd_img = random.choice(examples_img[rnd_style])
@@ -248,6 +248,7 @@ def select_random_style(new_run):
     aarch = correct_style["architects"]
     print(rnd_style, astyle, aarch)
     sel_style, sel_epoche, sel_location = None, None, None
+    resultmodal_isopen = False
     return (
         True,
         mask,
@@ -283,7 +284,7 @@ def select_random_style(new_run):
 def evaluate_run(n_clicks):
     global last_submit_n_clicks, submit_disabled, resultmodal_isopen
     if not n_clicks or n_clicks <= last_submit_n_clicks:
-        resultmodal_isopen = True
+        #resultmodal_isopen = True
         submit_disabled = True
     print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
     last_submit_n_clicks = n_clicks
