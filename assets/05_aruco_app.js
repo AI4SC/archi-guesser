@@ -195,8 +195,8 @@ function drawGrid(markers){
       for (let i = 20; i < 31; i++) {
         let marker=mposget(""+i);
         if (marker!=null) {
-          cS=marker.corners[0];
-          cE=marker.corners[2];
+          let cS=marker.corners[0];
+          let cE=marker.corners[2];
 
           // plot marker
           context.strokeStyle = "purple";
@@ -225,8 +225,8 @@ function drawGrid(markers){
       // deal with time marker
       let timemarker=mposget("0");
       if (timemarker != null) {
-        cS=timemarker.corners[0];
-        cE=timemarker.corners[2];
+        let cS=timemarker.corners[0];
+        let cE=timemarker.corners[2];
 
         // plot place marker
         context.strokeStyle = "orange";
