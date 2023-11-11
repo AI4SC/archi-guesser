@@ -146,20 +146,14 @@ def compute_style_score(style):
     Output("style-mask", "hidden", allow_duplicate=True),
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
-    Output({
-        'type': "style-selection-col",
-        'index': ALL
-    }, 'className', allow_duplicate=True),
+    Output({'type': "style-selection-col",'index': ALL}, 'className'),
     Output("layer", "children", allow_duplicate=True),
     Output("epoche", "value"),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Input("guess-data", "data"),
     State("SUBMIT_GUESS", "n_clicks"),
-    State({
-        "type": "style-selection",
-        "index": ALL
-    }, "name"),
+    State({"type": "style-selection","index": ALL}, "name"),
     State("epoche", "value"),
     prevent_initial_call=True
 )
