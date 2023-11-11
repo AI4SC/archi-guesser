@@ -9,8 +9,8 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
                     DEBUG_OBJ["obj"]=20+Math.trunc(30*Math.random())
                 }
                 if (DEBUG_OBJ["tick"] == 2*DEBUG_STEP_TICK) {
-                    DEBUG_OBJ["lat"]=Math.random()*360-180;
-                    DEBUG_OBJ["lon"]=Math.random()*180-90;
+                    DEBUG_OBJ["lat"]=Math.random()*180-90;
+                    DEBUG_OBJ["lon"]=Math.random()*360-180;
                 }
                 if (DEBUG_OBJ["tick"] == 3*DEBUG_STEP_TICK) {
                     DEBUG_OBJ["year"]=Math.trunc(2025*Math.random());
