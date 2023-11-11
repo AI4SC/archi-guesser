@@ -62,7 +62,13 @@ from app_html import *
 if demo_mode:
     import app_demo
 
-# print(examples_img.keys())
+architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
+examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
+style_img = {k:style_img[k] for k in architects_by_style.keys()}
+
+#print(style_img.keys())
+#print(examples_img.keys())
+#print(architects_by_style.keys())
 
 style_ccc = [None for c in style_img.keys()]
 sel_style = None
@@ -107,15 +113,15 @@ def print_guess_data(data, n_clicks):
         return str(data), n_clicks
 
     data['total_score'] = 0
-    if 'obj' in data:
+    if data and 'obj' in data and correct_style:
         sel_style = data['style'] = marker_to_style[data['obj']]
         data['style_score'] = compute_style_score(sel_style)
         data['total_score'] += round(weight_style_score * data['style_score'])
-    if not data or 'lat' not in data or 'lon' not in data or not correct_style:
+    if data and 'lat' in data and 'lon' in data and correct_style:
         sel_location = [data['lat'], data['lon']]
         data['map_score'] = compute_map_score(sel_location[0], sel_location[1])
         data['total_score'] += round(weight_map_score * data['map_score'])
-    if not data or 'year' not in data or not correct_style:
+    if data and 'year' in data and correct_style:
         sel_epoche = data['year']
         data['time_score'] = compute_time_score(sel_epoche)
         data['total_score'] += round(weight_time_score * data['time_score'])
@@ -249,10 +255,10 @@ def select_style(n, names):
 )
 def select_random_style(new_run):
     global rnd_style, sel_style, sel_epoche, sel_location, correct_style, resultmodal_isopen
-    print("2", new_run)
     rnd_style = random.choice(list(architects_by_style.keys()))
+    print("2", new_run, rnd_style)
     rnd_img = random.choice(examples_img[rnd_style])
-    correct_style = architects_by_style[rnd_style]
+    style = correct_style = architects_by_style[rnd_style]
     astyle = correct_style["style"]
     aarch = correct_style["architects"]
     print(rnd_style, astyle, aarch)
@@ -267,9 +273,9 @@ def select_random_style(new_run):
         [
             html.H3(rnd_style),
             html.Label("Epoche"),
-            html.P(f'{astyle["Start_Year"]}&mdash;{astyle["End_Year"]}'),
+            html.P(f'{style["Start_Year"]}–{style["End_Year"]}'),
             html.Label("Location"),
-            html.P(f'{astyle["style_area"]}'),
+            html.P(f'{style["style_area"]}'),
             html.Label("Description"),
             html.P(astyle["description"]),
             html.Label("Characteristics"),
