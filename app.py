@@ -281,7 +281,7 @@ def select_random_style(new_run):
                         html.P(f'{style["style_area"]}'),
                         html.Label("Description"),
                     ]),
-                    dbc.Col(html.Img(src=rnd_img, style={"width":"50%"})),
+                    dbc.Col(html.Img(src=rnd_img, style={"width":"50%","margin-left":"auto","display":"block"})),
                 ]),
                 html.P(astyle["description"]),
                 html.Label("Characteristics"),
