@@ -147,22 +147,32 @@ def compute_style_score(style):
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
+    Output({
+        'type': "style-selection-col",
+        'index': ALL
+    }, 'className', allow_duplicate=True),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Input("guess-data", "data"),
     State("SUBMIT_GUESS", "n_clicks"),
+    State({
+        "type": "style-selection",
+        "index": ALL
+    }, "name"),
     prevent_initial_call=True
 )
-def print_guess_data(data, n_clicks):
+def print_guess_data(data, n_clicks, names):
     global lastdata, last_submit_n_clicks, resultmodal_isopen, sel_style, sel_map, sel_year
     ldata = lastdata
     lastdata = data
+    styles = ["" for n in names]
     if data and ldata and 'state' in data and 'state' in ldata:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
             sel_style = data['style'] = marker_to_style[data['obj']]
             data['style_score'] = compute_style_score(sel_style)
             data['total_score'] += round(weight_style_score * data['style_score'])
+            styles = ["" if sel_style == n else "hidden" for n in names]
         if data and 'lat' in data and 'lon' in data and correct_style:
             sel_map = [data['lat'], data['lon']]
             data['map_score'] = compute_map_score(sel_map[0], sel_map[1])
@@ -183,6 +193,7 @@ def print_guess_data(data, n_clicks):
             sel_map is not None,
             sel_year is not None,
             submit_disabled(),
+            styles,
             str(data), 
             n_clicks
     )
@@ -346,7 +357,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    if "DASH_DEBUG_MODE" in os.environ:
+    #if "DASH_DEBUG_MODE" in os.environ:
+    if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,
