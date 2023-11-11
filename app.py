@@ -8,62 +8,28 @@ from dash import (
     ALL,
     callback_context,
     clientside_callback,
-    ClientsideFunction,
+    ClientsideFunction, 
+    no_update
 )
 from dash.dependencies import Input, Output, State
 import random
 import flask
 import shapely
 import math
+from dash.exceptions import PreventUpdate
 
 demo_mode = False
 weight_time_score  = 1.0 # max 2600
 weight_map_score   = 10.0 # max 180
 weight_style_score = 2000.0 # max 1.0
-marker_to_style={}
-
-# Load architect styles
-with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
-    architects_by_style = json.load(fi)
 
 # Load region GeoJSON
 with open("cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
     regions = json.load(fi)
 
-for k, v in architects_by_style.items():
-    marker_to_style[v["marker"]] = k
-    if "architects" not in v:
-        print("MISSING architects", k)
-    for a in v["architects"]:
-        if "name" not in a:
-            print("MISSING architect name", k, a)
-    if "terms" not in v:
-        print("MISSING terms", k)
-    if "style" not in v:
-        print("MISSING style", k)
-    if "time_range" not in v["style"]:
-        print("MISSING time_range", k)
-    if "period" not in v["style"]:
-        print("MISSING period", k)
-    if "description" not in v["style"]:
-        print("MISSING description", k)
-    if "characteristics" not in v["style"]:
-        print("MISSING characteristics", k)
-    if "examples" not in v["style"]:
-        print("MISSING examples", k)
-    if "continent" not in v["style"]:
-        print("MISSING continent", k)
-    if "country" not in v["style"]:
-        print("MISSING country", k)
-    # print(k)
-
 from app_html import *
 if demo_mode:
     import app_demo
-
-architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
-examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
-style_img = {k:style_img[k] for k in architects_by_style.keys()}
 
 #print(style_img.keys())
 #print(examples_img.keys())
@@ -73,10 +39,10 @@ style_ccc = [None for c in style_img.keys()]
 sel_style = None
 sel_map = None
 sel_year = None
-last_submit_n_clicks = 0
-resultmodal_isopen = False
-rnd_style = random.choice(list(architects_by_style.keys()))
+submit_n_clicks = 0
+newrun_n_clicks = 0
 correct_style = architects_by_style[rnd_style]
+resultmodal_isopen = False
 rnd_img = None
 lastdata = {'state':"ERR"}
 
@@ -151,14 +117,15 @@ def compute_style_score(style):
     Output("epoche", "value"),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
+    Output("new_run_btn", "n_clicks"),  # used as event notifier
     Input("guess-data", "data"),
-    State("SUBMIT_GUESS", "n_clicks"),
     State({"type": "style-selection","index": ALL}, "name"),
-    State("epoche", "value"),
+    State("SUBMIT_GUESS", "n_clicks"),
+    State("new_run_btn", "n_clicks"),
     prevent_initial_call=True
 )
-def print_guess_data(data, n_clicks, names, epoche):
-    global lastdata, last_submit_n_clicks, resultmodal_isopen, sel_style, sel_map, sel_year
+def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
+    global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year
     ldata = lastdata
     lastdata = data
     styles = ["" for n in names]
@@ -179,22 +146,29 @@ def print_guess_data(data, n_clicks, names, epoche):
             sel_year = data['year']
             data['time_score'] = compute_time_score(sel_year)
             data['total_score'] += round(weight_time_score * data['time_score'])
+        else:
+            sel_year = None
 
         if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
             resultmodal_isopen = True
-            n_clicks = (n_clicks + 1) if n_clicks else 1
+            sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
         elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
             resultmodal_isopen = False
-            new_run()
+            new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
+            sub_n_clicks = no_update
+        else:
+            sub_n_clicks = no_update
+            new_n_clicks = no_update
     return (
-            sel_style is not None,
-            sel_map is not None,
-            sel_year is not None,
+            sel_style is not None or mask,
+            sel_map is not None or mask,
+            sel_year is not None or mask,
             styles,
             layers,
-            sel_year if sel_year else epoche,
+            sel_year,
             str(data), 
-            n_clicks
+            sub_n_clicks,
+            new_n_clicks
     )
 
 
@@ -210,10 +184,9 @@ def display_selected_map_position(click_lat_lng):
     if click_lat_lng is None:
         return True, True, []
     sel_map = click_lat_lng
-    print(sel_map, sel_style, sel_year)
     return (
         True,
-        sel_map is None or sel_style is None or sel_year is None,
+        submit_disabled(),
         [
             dl.Marker(
                 position=click_lat_lng,
@@ -230,9 +203,10 @@ def display_selected_map_position(click_lat_lng):
 )
 def display_selected_epoche(value):
     global sel_year
-    if value is None:
+    if value is None or value == 0:
         return True
-    sel_year = value
+    else:
+        sel_year = value
     return submit_disabled()
 
 
@@ -251,7 +225,7 @@ def select_style(n, names):
             sel_style = v["index"]
             styles = ["primary" if sel_style == n else None for n in names]
             return (
-                False,
+                mask,
                 submit_disabled(),
                 styles,
             )
@@ -313,16 +287,22 @@ def new_run():
     prevent_initial_call=True,
 )
 def select_random_style(n_clicks):
-    new_run()
-    return (
-        sel_style is not None,
-        sel_map is not None,
-        sel_year is not None,
-        submit_disabled(),
-        resultmodal_isopen,
-        rnd_img,
-        get_style_body(),
-    )
+    global newrun_n_clicks, resultmodal_isopen
+    new_n_clicks = newrun_n_clicks
+    newrun_n_clicks = n_clicks
+    if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
+        new_run()
+        return (
+            sel_style is not None or mask,
+            sel_map is not None or mask,
+            sel_year is not None or mask,
+            submit_disabled(),
+            resultmodal_isopen,
+            rnd_img,
+            get_style_body(),
+        )
+    else:
+        raise PreventUpdate
 
 
 @app.callback(
@@ -334,12 +314,15 @@ def select_random_style(n_clicks):
     prevent_initial_call=True,
 )
 def evaluate_run(n_clicks):
-    global last_submit_n_clicks, resultmodal_isopen
-    if n_clicks and last_submit_n_clicks and n_clicks > last_submit_n_clicks:
+    global submit_n_clicks, resultmodal_isopen
+    sub_n_clicks = submit_n_clicks
+    submit_n_clicks = n_clicks
+    if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
+        print("SUBMIT ", lastdata.get('total_score',0))
         resultmodal_isopen = True
-        print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
-    last_submit_n_clicks = n_clicks
-    return [submit_disabled(), resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
+        return [submit_disabled(), resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
+    else:
+        raise PreventUpdate
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
@@ -356,8 +339,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    #if "DASH_DEBUG_MODE" in os.environ:
-    if True:
+    if "DASH_DEBUG_MODE" in os.environ:
+    #if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,
