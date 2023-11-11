@@ -18,7 +18,7 @@
   display: none;
 }
 
-.map {
+#map {
   width: 100%;
   height: 40vh;
   margin: auto;
@@ -26,6 +26,10 @@
   display: block;
 }
 
-.map img {
+#map img {
   max-height: none;
+}
+
+#points {
+  color: yellow;
 }
