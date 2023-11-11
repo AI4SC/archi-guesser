@@ -253,7 +253,7 @@ def new_run():
     correct_style = architects_by_style[rnd_style]
     sel_style, sel_year, sel_map = None, None, None
     resultmodal_isopen = False
-    print("NEW Run", rnd_style)
+    print("NEW Run", rnd_style, resultmodal_isopen)
 
 
 @app.callback(
@@ -261,13 +261,14 @@ def new_run():
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
+    Output("resultmodal", "is_open", allow_duplicate=True),
     Output("example_img", "src"),
     #Input("new_run", "disabled"),  # used as event notifier
     Input("new_run_btn", "n_clicks"),  # used as event notifier
     prevent_initial_call=True,
 )
 def press_new_run(n_clicks):
-    global newrun_n_clicks
+    global newrun_n_clicks, resultmodal_isopen
     new_n_clicks = newrun_n_clicks
     newrun_n_clicks = n_clicks
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
@@ -277,7 +278,8 @@ def press_new_run(n_clicks):
             mask and sel_map is not None,
             mask and sel_year is not None,
             submit_disabled(),
-            rnd_img,
+            resultmodal_isopen,
+            rnd_img
         )
     else:
         raise PreventUpdate
@@ -353,11 +355,12 @@ def press_submit(n_clicks):
         update_scoreboard_hist("year", time_score*3)
         total_score = style_score + map_score + time_score
         update_scoreboard_hist("total", total_score)
-        print("SUBMIT Score: ", total_score)
         resultmodal_isopen = True
+        print("SUBMIT Score: ", total_score, resultmodal_isopen)
         # compute rank
         scoreboard.append(total_score)
-        ranks = [scoreboard.index(x)+1 for x in sorted(scoreboard, reverse=True)]
+        scoreboard.sort(reverse=True)
+        rank = scoreboard.index(total_score)
         # compute plot
         fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
         fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
@@ -365,7 +368,7 @@ def press_submit(n_clicks):
         return [
             submit_disabled(), 
             resultmodal_isopen, 
-            f"You got {total_score} points (Rank: {ranks[-1]} of {len(ranks)})",
+            f"You got {total_score} points (Rank: {rank} of {len(scoreboard)})",
             rnd_style,
             f'{startY} to {endY}',
             f'{style["style_area"]}',
