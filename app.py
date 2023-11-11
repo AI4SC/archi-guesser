@@ -99,42 +99,6 @@ clientside_callback(
     # State("guess-data", "data"),
 )
 
-@app.callback(
-    Output("clientside-output", "children"),
-    Output("SUBMIT_GUESS", "n_clicks"),
-    Input("guess-data", "data"),
-    State("SUBMIT_GUESS", "n_clicks"),
-)
-def print_guess_data(data, n_clicks):
-    global lastdata, last_submit_n_clicks, submit_disabled, resultmodal_isopen
-    ldata = lastdata
-    lastdata = data
-    if not data or not ldata or 'state' not in data or 'state' not in ldata:
-        return str(data), n_clicks
-
-    data['total_score'] = 0
-    if data and 'obj' in data and correct_style:
-        sel_style = data['style'] = marker_to_style[data['obj']]
-        data['style_score'] = compute_style_score(sel_style)
-        data['total_score'] += round(weight_style_score * data['style_score'])
-    if data and 'lat' in data and 'lon' in data and correct_style:
-        sel_location = [data['lat'], data['lon']]
-        data['map_score'] = compute_map_score(sel_location[0], sel_location[1])
-        data['total_score'] += round(weight_map_score * data['map_score'])
-    if data and 'year' in data and correct_style:
-        sel_epoche = data['year']
-        data['time_score'] = compute_time_score(sel_epoche)
-        data['total_score'] += round(weight_time_score * data['time_score'])
-
-    if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
-        resultmodal_isopen = True
-        print("1", data, ldata, n_clicks)
-        return str(data), (n_clicks + 1) if n_clicks else 1
-    elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
-        resultmodal_isopen = False
-        print("1", data, ldata, n_clicks)
-    return str(data), n_clicks
-
 
 def tostr(obj):
     if isinstance(obj, str):
@@ -177,6 +141,43 @@ def compute_style_score(style):
     if not correct_style or not style:
         return 0
     return correct_style["style_similarity"][style]["weighted"]
+
+
+@app.callback(
+    Output("clientside-output", "children"),
+    Output("SUBMIT_GUESS", "n_clicks"),
+    Input("guess-data", "data"),
+    State("SUBMIT_GUESS", "n_clicks"),
+)
+def print_guess_data(data, n_clicks):
+    global lastdata, last_submit_n_clicks, submit_disabled, resultmodal_isopen
+    ldata = lastdata
+    lastdata = data
+    if not data or not ldata or 'state' not in data or 'state' not in ldata:
+        return str(data), n_clicks
+
+    data['total_score'] = 0
+    if data and 'obj' in data and correct_style:
+        sel_style = data['style'] = marker_to_style[data['obj']]
+        data['style_score'] = compute_style_score(sel_style)
+        data['total_score'] += round(weight_style_score * data['style_score'])
+    if data and 'lat' in data and 'lon' in data and correct_style:
+        sel_location = [data['lat'], data['lon']]
+        data['map_score'] = compute_map_score(sel_location[0], sel_location[1])
+        data['total_score'] += round(weight_map_score * data['map_score'])
+    if data and 'year' in data and correct_style:
+        sel_epoche = data['year']
+        data['time_score'] = compute_time_score(sel_epoche)
+        data['total_score'] += round(weight_time_score * data['time_score'])
+
+    if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
+        resultmodal_isopen = True
+        print("1", data, ldata, n_clicks)
+        return str(data), (n_clicks + 1) if n_clicks else 1
+    elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
+        resultmodal_isopen = False
+        print("1", data, ldata, n_clicks)
+    return str(data), n_clicks
 
 
 @app.callback(
