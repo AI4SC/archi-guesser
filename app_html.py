@@ -99,7 +99,7 @@ def init_webpage():
                                                     name=n,
                                                     style={
                                                         "width": "140px",
-                                                        "height": "160px",
+                                                        "height": "180px",
                                                         "border-radius": "0px",
                                                         #"background-color":"black"
                                                     },
