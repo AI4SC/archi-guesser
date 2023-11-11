@@ -31,7 +31,7 @@ style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 
 examples_img = {}
 for fn in os.listdir("style_generated"):
-    if os.path.isdir(os.path.join("style_generated", fn)):
+    if os.path.isdir(os.path.join("style_generated", fn)) and fn in architects_by_style and fn in style_img:
         examples_img[fn] = []
         for fni in os.listdir(os.path.join("style_generated", fn)):
             if fni.endswith(".png"):
@@ -283,9 +283,9 @@ def init_webpage():
             [
                 dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
                 dbc.ModalBody([], id="style_body"),
-                dbc.ModalFooter(
-                    [dbc.Button("New Run", id="new_run_btn", class_name="ms-auto")] # style_body_close
-                ),
+                dbc.ModalFooter([
+                    dbc.Button("New Run", id="new_run_btn", class_name="ms-auto")
+                ]),
             ],
             id="resultmodal",
         ),
