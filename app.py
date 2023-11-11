@@ -100,26 +100,33 @@ clientside_callback(
     State("SUBMIT_GUESS", "n_clicks"),
 )
 def print_guess_data(data, n_clicks):
-    global lastdata
-    ldata=lastdata
+    global lastdata, last_submit_n_clicks, submit_disabled, resultmodal_isopen
+    ldata = lastdata
     lastdata = data
     if not data or not ldata or 'state' not in data or 'state' not in ldata:
-        pass
-    elif data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
-        data['style'] = marker_to_style[data['obj']]
-        data['map_score'] = compute_map_score(data)
-        data['time_score'] = compute_time_score(data)
-        data['style_score'] = compute_style_score(data)
-        data['total_score'] = weight_map_score * data['map_score']
-        data['total_score'] += weight_time_score * data['time_score']
-        data['total_score'] += weight_style_score * data['style_score']
-        data['total_score'] = round(data['total_score'])
+        return str(data), n_clicks
+
+    data['total_score'] = 0
+    if 'obj' in data:
+        sel_style = data['style'] = marker_to_style[data['obj']]
+        data['style_score'] = compute_style_score(sel_style)
+        data['total_score'] += round(weight_style_score * data['style_score'])
+    if not data or 'lat' not in data or 'lon' not in data or not correct_style:
+        sel_location = [data['lat'], data['lon']]
+        data['map_score'] = compute_map_score(sel_location[0], sel_location[1])
+        data['total_score'] += round(weight_map_score * data['map_score'])
+    if not data or 'year' not in data or not correct_style:
+        sel_epoche = data['year']
+        data['time_score'] = compute_time_score(sel_epoche)
+        data['total_score'] += round(weight_time_score * data['time_score'])
+
+    if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
+        resultmodal_isopen = True
         print("1", data, ldata, n_clicks)
         return str(data), (n_clicks + 1) if n_clicks else 1
     elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
-        pass
-    else:  # ERR
-        pass
+        resultmodal_isopen = False
+        print("1", data, ldata, n_clicks)
     return str(data), n_clicks
 
 
@@ -132,10 +139,10 @@ def tostr(obj):
         return str(obj)
 
 
-def compute_map_score(data):
-    if not data or 'lat' not in data or 'lon' not in data:
+def compute_map_score(lat, lon):
+    if not correct_style or not lat or not lon:
         return 0
-    guess_coord = shapely.Point(data['lon'], data['lat'])
+    guess_coord = shapely.Point(lon, lat)
     #Find correct polygon, convert to shapely geometry
     region_poly = None
     for reg in regions["features"]:
@@ -150,18 +157,20 @@ def compute_map_score(data):
         return 180
 
 
-def compute_time_score(data):
-    if not data or 'year' not in data:
+def compute_time_score(year):
+    if not correct_style or not year:
         return 0
-    if data['year'] < correct_style["Start_Year"]:
-        return correct_style["Start_Year"] - data['year']
-    if data['year'] > correct_style["End_Year"]:
-        return data['year'] - correct_style["End_Year"]
+    if year < correct_style["Start_Year"]:
+        return correct_style["Start_Year"] - year
+    if year > correct_style["End_Year"]:
+        return year - correct_style["End_Year"]
     return 0
 
 
-def compute_style_score(data):
-    return correct_style["style_similarity"][data['style']]["weighted"]
+def compute_style_score(style):
+    if not correct_style or not style:
+        return 0
+    return correct_style["style_similarity"][style]["weighted"]
 
 
 @app.callback(
@@ -284,10 +293,10 @@ def select_random_style(new_run):
 def evaluate_run(n_clicks):
     global last_submit_n_clicks, submit_disabled, resultmodal_isopen
     if not n_clicks or n_clicks <= last_submit_n_clicks:
-        #resultmodal_isopen = True
+        resultmodal_isopen = True
         submit_disabled = True
         last_submit_n_clicks = n_clicks
-    print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
+        print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
     return [submit_disabled, resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
 
 
