@@ -45,6 +45,7 @@ correct_style = architects_by_style[rnd_style]
 resultmodal_isopen = False
 rnd_img = None
 lastdata = {'state':"ERR"}
+scoreboard = []
 
 # Build App
 server = flask.Flask(__name__)
@@ -315,7 +316,7 @@ def press_new_run(n_clicks):
     prevent_initial_call=True,
 )
 def press_submit(n_clicks):
-    global submit_n_clicks, resultmodal_isopen
+    global submit_n_clicks, resultmodal_isopen, scoreboard
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
@@ -325,7 +326,9 @@ def press_submit(n_clicks):
         total_score += round(weight_time_score * compute_time_score(sel_year))
         print("SUBMIT Score: ", total_score)
         resultmodal_isopen = True
-        return [submit_disabled(), resultmodal_isopen, f"You got {total_score} points"]
+        scoreboard.append(total_score)
+        ranks = [scoreboard.index(x)+1 for x in sorted(scoreboard, reverse=True)]
+        return [submit_disabled(), resultmodal_isopen, f"You got {total_score} points (Rank: {ranks[-1]} of {len(ranks)})"]
     else:
         raise PreventUpdate
 
