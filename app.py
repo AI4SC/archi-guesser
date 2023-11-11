@@ -161,9 +161,9 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             sub_n_clicks = no_update
             new_n_clicks = no_update
     return (
-            sel_style is not None or mask,
-            sel_map is not None or mask,
-            sel_year is not None or mask,
+            mask and sel_style is not None,
+            mask and sel_map is not None,
+            mask and sel_year is not None,
             styles,
             layers,
             sel_year,
@@ -295,9 +295,9 @@ def press_new_run(n_clicks):
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
         new_run()
         return (
-            sel_style is not None or mask,
-            sel_map is not None or mask,
-            sel_year is not None or mask,
+            mask and sel_style is None,
+            mask and sel_map is None,
+            mask and sel_year is None,
             submit_disabled(),
             resultmodal_isopen,
             rnd_img,
