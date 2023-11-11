@@ -74,10 +74,10 @@ def tostr(obj):
         return str(obj)
 
 
-def compute_map_score(lat, lon):
-    if not correct_style or not lat or not lon:
+def compute_map_score(lat_lon):
+    if not correct_style or not lat_lon:
         return 0
-    guess_coord = shapely.Point(lon, lat)
+    guess_coord = shapely.Point(lat_lon[1], lat_lon[0])
     #Find correct polygon, convert to shapely geometry
     region_poly = None
     for reg in regions["features"]:
@@ -138,10 +138,10 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             data['total_score'] += round(weight_style_score * data['style_score'])
             styles = ["" if sel_style == n else "hidden" for n in names]
         if data and 'lat' in data and 'lon' in data and correct_style:
-            sel_map = [data['lon'], data['lat']]
-            data['map_score'] = compute_map_score(sel_map[0], sel_map[1])
+            sel_map = [data['lat'],data['lon']]
+            data['map_score'] = compute_map_score(sel_map)
             data['total_score'] += round(weight_map_score * data['map_score'])
-            layers.append(dl.Marker(position=sel_map, children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
+            layers.append(dl.Marker(position=(sel_map[1], sel_map[0]), children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
         if data and 'year' in data and correct_style:
             sel_year = data['year']
             data['time_score'] = compute_time_score(sel_year)
@@ -179,17 +179,18 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     Input("map", "click_lat_lng"),
     prevent_initial_call=True,
 )
-def display_selected_map_position(click_lat_lng):
+def select_map_update(click_lat_lng):
     global sel_map
+    print(click_lat_lng)
     if click_lat_lng is None:
         return True, True, []
     sel_map = click_lat_lng
     return (
-        True,
+        False,
         submit_disabled(),
         [
             dl.Marker(
-                position=click_lat_lng,
+                position=(sel_map[1], sel_map[0]),
                 children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)),
             )
         ],
@@ -201,7 +202,7 @@ def display_selected_map_position(click_lat_lng):
     Input("epoche", "value"),
     prevent_initial_call=True,
 )
-def display_selected_epoche(value):
+def select_year_update(value):
     global sel_year
     if value is None or value == 0:
         return True
@@ -218,7 +219,7 @@ def display_selected_epoche(value):
     State({"type": "style-selection", "index": ALL}, "name"),
     prevent_initial_call=True,
 )
-def select_style(n, names):
+def select_style_update(n, names):
     global sel_style
     if callback_context.triggered_prop_ids:
         for v in callback_context.triggered_prop_ids.values():
@@ -286,7 +287,7 @@ def new_run():
     Input("new_run_btn", "n_clicks"),  # used as event notifier
     prevent_initial_call=True,
 )
-def select_random_style(n_clicks):
+def press_new_run(n_clicks):
     global newrun_n_clicks, resultmodal_isopen
     new_n_clicks = newrun_n_clicks
     newrun_n_clicks = n_clicks
@@ -313,14 +314,18 @@ def select_random_style(n_clicks):
     #State("resultmodal", "is_open"),
     prevent_initial_call=True,
 )
-def evaluate_run(n_clicks):
+def press_submit(n_clicks):
     global submit_n_clicks, resultmodal_isopen
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
-        print("SUBMIT ", lastdata.get('total_score',0))
+        total_score = 0
+        total_score += round(weight_style_score * compute_style_score(sel_style))
+        total_score += round(weight_map_score * compute_map_score(sel_map))
+        total_score += round(weight_time_score * compute_time_score(sel_year))
+        print("SUBMIT Score: ", total_score)
         resultmodal_isopen = True
-        return [submit_disabled(), resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
+        return [submit_disabled(), resultmodal_isopen, f"You got {total_score} points"]
     else:
         raise PreventUpdate
 
