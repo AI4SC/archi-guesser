@@ -9,16 +9,44 @@ import random
 import dash_leaflet as dl
 from app_map import *
 
-mask = False
+mask = True
 
 archig_image = Image.open("archiguesser_logo.png")
 style_image = Image.open("styles_crop.png")
 ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
+marker_to_style={}
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
     architects_by_style = json.load(fi)
+
+for k, v in architects_by_style.items():
+    marker_to_style[v["marker"]] = k
+    if "architects" not in v:
+        print("MISSING architects", k)
+    for a in v["architects"]:
+        if "name" not in a:
+            print("MISSING architect name", k, a)
+    if "terms" not in v:
+        print("MISSING terms", k)
+    if "style" not in v:
+        print("MISSING style", k)
+    if "Start_Year" not in v:
+        print("MISSING Start_Year", k)
+    if "End_Year" not in v:
+        print("MISSING End_Year", k)
+    if "description" not in v["style"]:
+        print("MISSING description", k)
+    if "characteristics" not in v["style"]:
+        print("MISSING characteristics", k)
+    if "examples" not in v["style"]:
+        print("MISSING examples", k)
+    if "style_area" not in v:
+        print("MISSING style_area", k)
+    if "name" not in v:
+        print("MISSING name", k)
+    # print(k)
 
 style_img = {}
 for fn in os.listdir("styles120"):
@@ -38,7 +66,13 @@ for fn in os.listdir("style_generated"):
                 img = Image.open(os.path.join("style_generated", fn, fni))
                 examples_img[fn].append(img)
 
-pil_image = random.choice(random.choice(list(examples_img.values())))
+# Remove missing
+architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
+examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
+style_img = {k:style_img[k] for k in architects_by_style.keys()}
+
+rnd_style = random.choice(list(architects_by_style.keys()))
+rnd_img = random.choice(examples_img[rnd_style])
 
 def init_webpage():
     return dbc.Container(
@@ -73,7 +107,7 @@ def init_webpage():
                 dbc.Col(
                     [
                         html.Img(
-                            src=pil_image,
+                            src=rnd_img,
                             style={"width": "100%", "padding-left": "20px"},
                             id="example_img",
                         )
@@ -154,7 +188,7 @@ def init_webpage():
                                 id="map",
                                 className="map",
                                 maxZoom=4,
-                                zoom=1,
+                                zoom=2,
                                 center=[40,0],
                             ),
                             html.Div(
