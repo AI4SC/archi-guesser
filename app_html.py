@@ -263,6 +263,7 @@ def init_webpage():
         # ], id="setup_modal", is_open=True, size="lg"),
         html.Div(
             [
+                html.Div(id="clientside-output", children="", style={"margin": "15px"}),
                 html.Video(
                     id="video",
                     autoPlay=True,
@@ -272,8 +273,7 @@ def init_webpage():
                 ),  #
                 html.Canvas(
                     id="canvas", width=640, height=480
-                ),  # , style={"display":"none"}
-                html.Div(id="clientside-output", children="", style={"margin": "15px"})
+                )  # , style={"display":"none"}
             ],
             id="video_body",
             style={"visibility": "hidden"},
