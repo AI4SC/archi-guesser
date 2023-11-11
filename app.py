@@ -17,10 +17,16 @@ import flask
 import shapely
 import math
 from dash.exceptions import PreventUpdate
+import plotly.express as px
+import pandas as pd
+from collections import defaultdict
 
 demo_mode = False
-weight_time_score  = 1.0 # max 2600
+max_time_score  = 2025 # max 2600
+weight_time_score  = 1.0 # max 2025
+max_map_score = 1800
 weight_map_score   = 10.0 # max 180
+max_style_score = 2000
 weight_style_score = 2000.0 # max 1.0
 
 # Load region GeoJSON
@@ -46,6 +52,7 @@ resultmodal_isopen = False
 rnd_img = None
 lastdata = {'state':"ERR"}
 scoreboard = []
+scoreboard_hist = defaultdict(int)
 
 # Build App
 server = flask.Flask(__name__)
@@ -136,27 +143,29 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
         if data and 'obj' in data and correct_style:
             sel_style = data['style'] = marker_to_style[data['obj']]
             data['style_score'] = compute_style_score(sel_style)
-            data['total_score'] += round(weight_style_score * data['style_score'])
+            data['total_score'] += max_style_score-round(weight_style_score * data['style_score'])
             styles = ["" if sel_style == n else "hidden" for n in names]
         if data and 'lat' in data and 'lon' in data and correct_style:
             sel_map = [data['lat'],data['lon']]
             data['map_score'] = compute_map_score(sel_map)
-            data['total_score'] += round(weight_map_score * data['map_score'])
+            data['total_score'] += max_map_score-round(weight_map_score * data['map_score'])
             layers.append(dl.Marker(position=(sel_map[1], sel_map[0]), children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
         if data and 'year' in data and correct_style:
             sel_year = data['year']
             data['time_score'] = compute_time_score(sel_year)
-            data['total_score'] += round(weight_time_score * data['time_score'])
+            data['total_score'] += max_time_score-round(weight_time_score * data['time_score'])
         else:
             sel_year = None
 
         if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
             resultmodal_isopen = True
             sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
+            print("Init Submit")
         elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
             resultmodal_isopen = False
             new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
             sub_n_clicks = no_update
+            print("Init New Run")
         else:
             sub_n_clicks = no_update
             new_n_clicks = no_update
@@ -237,35 +246,6 @@ def select_style_update(n, names):
 def submit_disabled():
     return sel_map is None or sel_style is None or sel_year is None or resultmodal_isopen
 
-def get_style_body():
-    style = correct_style
-    astyle = style["style"]
-    aarch = style["architects"]
-    startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
-    endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
-    return [
-            dbc.Container([
-                dbc.Row([
-                    dbc.Col([
-                        html.H3(rnd_style),
-                        html.Label("Epoche"),
-                        html.P(f'{startY} to {endY}'),
-                        html.Label("Location"),
-                        html.P(f'{style["style_area"]}'),
-                        html.Label("Description"),
-                    ]),
-                    dbc.Col(html.Img(src=rnd_img, style={"width":"50%","margin-left":"auto","display":"block"})),
-                ]),
-                html.P(astyle["description"]),
-                html.Label("Characteristics"),
-                html.Ul([html.Li(c) for c in astyle["characteristics"]]),
-                html.Label("Examples"),
-                html.Ul([html.Li(c) for c in astyle["examples"]]),
-                html.Label("Architects"),
-                html.Ul([html.Li(c["name"]) for c in aarch]),
-            ])
-        ]
-
 def new_run():
     global rnd_style, rnd_img, correct_style, sel_style, sel_year, sel_map, resultmodal_isopen
     rnd_style = random.choice(list(architects_by_style.keys()))
@@ -281,54 +261,120 @@ def new_run():
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
-    Output("resultmodal", "is_open", allow_duplicate=True),
     Output("example_img", "src"),
-    Output("style_body", "children"),
     #Input("new_run", "disabled"),  # used as event notifier
     Input("new_run_btn", "n_clicks"),  # used as event notifier
     prevent_initial_call=True,
 )
 def press_new_run(n_clicks):
-    global newrun_n_clicks, resultmodal_isopen
+    global newrun_n_clicks
     new_n_clicks = newrun_n_clicks
     newrun_n_clicks = n_clicks
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
         new_run()
         return (
-            mask and sel_style is None,
-            mask and sel_map is None,
-            mask and sel_year is None,
+            mask and sel_style is not None,
+            mask and sel_map is not None,
+            mask and sel_year is not None,
             submit_disabled(),
-            resultmodal_isopen,
             rnd_img,
-            get_style_body(),
         )
     else:
         raise PreventUpdate
 
+def update_scoreboard_hist(cat, value):
+    global scoreboard_hist
+    scoreboard_hist[cat+"_last"]=value
+    scoreboard_hist[cat+"_sum"]+=value
+    if value < scoreboard_hist[cat+"_min"]:
+        scoreboard_hist[cat+"_min"]=value
+    if value > scoreboard_hist[cat+"_max"]:
+        scoreboard_hist[cat+"_max"]=value
+
+def get_scoreboard_pd():
+    global scoreboard_hist, scoreboard
+    run=len(scoreboard)
+    scoreboard_pd=[]
+
+    scoreboard_pd.append({ "score":"total", "cat":"max", "value":scoreboard_hist["total_max"]})
+    scoreboard_pd.append({ "score":"style", "cat":"max", "value":scoreboard_hist["style_max"]})
+    scoreboard_pd.append({ "score":"map", "cat":"max", "value":scoreboard_hist["map_max"]})
+    scoreboard_pd.append({ "score":"year", "cat":"max", "value":scoreboard_hist["year_max"]})
+
+    scoreboard_pd.append({ "score":"total", "cat":"mean", "value":scoreboard_hist["total_sum"]/run})
+    scoreboard_pd.append({ "score":"style", "cat":"mean", "value":scoreboard_hist["style_sum"]/run})
+    scoreboard_pd.append({ "score":"map", "cat":"mean", "value":scoreboard_hist["map_sum"]/run})
+    scoreboard_pd.append({ "score":"year", "cat":"mean", "value":scoreboard_hist["year_sum"]/run})
+    
+    scoreboard_pd.append({ "score":"total", "cat":"min", "value":scoreboard_hist["total_min"]})
+    scoreboard_pd.append({ "score":"style", "cat":"min", "value":scoreboard_hist["style_min"]})
+    scoreboard_pd.append({ "score":"map", "cat":"min", "value":scoreboard_hist["map_min"]})
+    scoreboard_pd.append({ "score":"year", "cat":"min", "value":scoreboard_hist["year_min"]})
+
+    scoreboard_pd.append({ "score":"total", "cat":"current", "value":scoreboard_hist["total_last"]})
+    scoreboard_pd.append({ "score":"style", "cat":"current", "value":scoreboard_hist["style_last"]})
+    scoreboard_pd.append({ "score":"map", "cat":"current", "value":scoreboard_hist["map_last"]})
+    scoreboard_pd.append({ "score":"year", "cat":"current", "value":scoreboard_hist["year_last"]})
+
+    return pd.DataFrame(scoreboard_pd)
 
 @app.callback(
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output("resultmodal", "is_open", allow_duplicate=True),
     Output("points", "children"),
+    Output("res_style", "children"),
+    Output("res_year", "children"),
+    Output("res_loc", "children"),
+    Output("res_plot", "figure"),
+    Output("res_desc", "children"),
+    Output("res_char", "children"),
+    Output("res_examp", "children"),
+    Output("res_arch", "children"),
     Input("SUBMIT_GUESS", "n_clicks"),
     #State("resultmodal", "is_open"),
     prevent_initial_call=True,
 )
 def press_submit(n_clicks):
-    global submit_n_clicks, resultmodal_isopen, scoreboard
+    global submit_n_clicks, resultmodal_isopen, scoreboard, scoreboard_hist
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
-        total_score = 0
-        total_score += round(weight_style_score * compute_style_score(sel_style))
-        total_score += round(weight_map_score * compute_map_score(sel_map))
-        total_score += round(weight_time_score * compute_time_score(sel_year))
+        style = correct_style
+        astyle = style["style"]
+        aarch = style["architects"]
+        startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
+        endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
+        # compute scores
+        style_score = round(weight_style_score * compute_style_score(sel_style))
+        update_scoreboard_hist("style", style_score*3)
+        map_score = round(weight_map_score * compute_map_score(sel_map))
+        update_scoreboard_hist("map", map_score*3)
+        time_score = round(weight_time_score * compute_time_score(sel_year))
+        update_scoreboard_hist("year", time_score*3)
+        total_score = style_score + map_score + time_score
+        update_scoreboard_hist("total", total_score)
         print("SUBMIT Score: ", total_score)
         resultmodal_isopen = True
+        # compute rank
         scoreboard.append(total_score)
         ranks = [scoreboard.index(x)+1 for x in sorted(scoreboard, reverse=True)]
-        return [submit_disabled(), resultmodal_isopen, f"You got {total_score} points (Rank: {ranks[-1]} of {len(ranks)})"]
+        # compute plot
+        fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
+        fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
+        fig.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01 ))
+        return [
+            submit_disabled(), 
+            resultmodal_isopen, 
+            f"You got {total_score} points (Rank: {ranks[-1]} of {len(ranks)})",
+            rnd_style,
+            f'{startY} to {endY}',
+            f'{style["style_area"]}',
+            fig,
+            astyle["description"],
+            [html.Li(c) for c in astyle["characteristics"]],
+            [html.Li(c) for c in astyle["examples"]],
+            [html.Li(c["name"]) for c in aarch]
+        ]
     else:
         raise PreventUpdate
 
