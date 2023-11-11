@@ -9,7 +9,7 @@ import random
 import dash_leaflet as dl
 from app_map import *
 
-mask = True
+mask = False
 
 archig_image = Image.open("archiguesser_logo.png")
 style_image = Image.open("styles_crop.png")
