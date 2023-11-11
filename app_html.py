@@ -17,7 +17,7 @@ ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
 
 # Load architect styles
-with open("architect_styles_sub.json", "tr") as fi:
+with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
     architects_by_style = json.load(fi)
 
 style_img = {}
