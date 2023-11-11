@@ -13,7 +13,7 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
                     DEBUG_OBJ["lon"]=Math.random()*180-90;
                 }
                 if (DEBUG_OBJ["tick"] == 3*DEBUG_STEP_TICK) {
-                    DEBUG_OBJ["year"]=Math.trunc(2500*Math.random()-500);
+                    DEBUG_OBJ["year"]=Math.trunc(2025*Math.random());
                 }
                 if (DEBUG_OBJ["tick"] == 4*DEBUG_STEP_TICK) {
                     DEBUG_OBJ["state"]="GO";
