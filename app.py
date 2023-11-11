@@ -16,7 +16,6 @@ import flask
 import shapely
 import math
 
-mask = True
 demo_mode = False
 weight_time_score  = 1.0 # max 2600
 weight_map_score   = 10.0 # max 180
