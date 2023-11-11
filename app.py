@@ -364,7 +364,7 @@ def press_submit(n_clicks):
         # compute plot
         fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
         fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
-        fig.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01 ))
+        fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
         return [
             submit_disabled(), 
             resultmodal_isopen, 
