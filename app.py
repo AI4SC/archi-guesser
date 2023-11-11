@@ -146,11 +146,12 @@ def compute_style_score(style):
     Output("style-mask", "hidden", allow_duplicate=True),
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
-    Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output({
         'type': "style-selection-col",
         'index': ALL
     }, 'className', allow_duplicate=True),
+    Output("layer", "children", allow_duplicate=True),
+    Output("epoche", "value"),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Input("guess-data", "data"),
@@ -159,13 +160,15 @@ def compute_style_score(style):
         "type": "style-selection",
         "index": ALL
     }, "name"),
+    State("epoche", "value"),
     prevent_initial_call=True
 )
-def print_guess_data(data, n_clicks, names):
+def print_guess_data(data, n_clicks, names, epoche):
     global lastdata, last_submit_n_clicks, resultmodal_isopen, sel_style, sel_map, sel_year
     ldata = lastdata
     lastdata = data
     styles = ["" for n in names]
+    layers = []
     if data and ldata and 'state' in data and 'state' in ldata:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
@@ -174,9 +177,10 @@ def print_guess_data(data, n_clicks, names):
             data['total_score'] += round(weight_style_score * data['style_score'])
             styles = ["" if sel_style == n else "hidden" for n in names]
         if data and 'lat' in data and 'lon' in data and correct_style:
-            sel_map = [data['lat'], data['lon']]
+            sel_map = [data['lon'], data['lat']]
             data['map_score'] = compute_map_score(sel_map[0], sel_map[1])
             data['total_score'] += round(weight_map_score * data['map_score'])
+            layers.append(dl.Marker(position=sel_map, children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
         if data and 'year' in data and correct_style:
             sel_year = data['year']
             data['time_score'] = compute_time_score(sel_year)
@@ -192,8 +196,9 @@ def print_guess_data(data, n_clicks, names):
             sel_style is not None,
             sel_map is not None,
             sel_year is not None,
-            submit_disabled(),
             styles,
+            layers,
+            sel_year if sel_year else epoche,
             str(data), 
             n_clicks
     )
@@ -202,7 +207,7 @@ def print_guess_data(data, n_clicks, names):
 @app.callback(
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
-    Output("layer", "children"),
+    Output("layer", "children", allow_duplicate=True),
     Input("map", "click_lat_lng"),
     prevent_initial_call=True,
 )
