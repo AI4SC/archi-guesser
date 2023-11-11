@@ -71,9 +71,8 @@ style_img = {k:style_img[k] for k in architects_by_style.keys()}
 
 style_ccc = [None for c in style_img.keys()]
 sel_style = None
-sel_location = None
-sel_epoche = None
-submit_disabled = True
+sel_map = None
+sel_year = None
 last_submit_n_clicks = 0
 resultmodal_isopen = False
 rnd_style = random.choice(list(architects_by_style.keys()))
@@ -150,7 +149,7 @@ def compute_style_score(style):
     State("SUBMIT_GUESS", "n_clicks"),
 )
 def print_guess_data(data, n_clicks):
-    global lastdata, last_submit_n_clicks, submit_disabled, resultmodal_isopen
+    global lastdata, last_submit_n_clicks, resultmodal_isopen
     ldata = lastdata
     lastdata = data
     if not data or not ldata or 'state' not in data or 'state' not in ldata:
@@ -162,12 +161,12 @@ def print_guess_data(data, n_clicks):
         data['style_score'] = compute_style_score(sel_style)
         data['total_score'] += round(weight_style_score * data['style_score'])
     if data and 'lat' in data and 'lon' in data and correct_style:
-        sel_location = [data['lat'], data['lon']]
-        data['map_score'] = compute_map_score(sel_location[0], sel_location[1])
+        sel_map = [data['lat'], data['lon']]
+        data['map_score'] = compute_map_score(sel_map[0], sel_map[1])
         data['total_score'] += round(weight_map_score * data['map_score'])
     if data and 'year' in data and correct_style:
-        sel_epoche = data['year']
-        data['time_score'] = compute_time_score(sel_epoche)
+        sel_year = data['year']
+        data['time_score'] = compute_time_score(sel_year)
         data['total_score'] += round(weight_time_score * data['time_score'])
 
     if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
@@ -186,14 +185,14 @@ def print_guess_data(data, n_clicks):
     prevent_initial_call=True,
 )
 def display_selected_map_position(click_lat_lng):
-    global sel_location
+    global sel_map
     if click_lat_lng is None:
         return True, True, []
-    sel_location = click_lat_lng
-    print(sel_location, sel_style, sel_epoche)
+    sel_map = click_lat_lng
+    print(sel_map, sel_style, sel_year)
     return (
         True,
-        sel_location is None or sel_style is None or sel_epoche is None,
+        sel_map is None or sel_style is None or sel_year is None,
         [
             dl.Marker(
                 position=click_lat_lng,
@@ -209,12 +208,11 @@ def display_selected_map_position(click_lat_lng):
     prevent_initial_call=True,
 )
 def display_selected_epoche(value):
-    global sel_epoche, submit_disabled
+    global sel_year
     if value is None:
         return True
-    sel_epoche = value
-    submit_disabled = sel_location is None or sel_style is None or sel_epoche is None
-    return submit_disabled
+    sel_year = value
+    return submit_disabled()
 
 
 @app.callback(
@@ -226,20 +224,21 @@ def display_selected_epoche(value):
     prevent_initial_call=True,
 )
 def select_style(n, names):
-    global sel_style, submit_disabled
+    global sel_style
     if callback_context.triggered_prop_ids:
         for v in callback_context.triggered_prop_ids.values():
             sel_style = v["index"]
             styles = ["primary" if sel_style == n else None for n in names]
-            submit_disabled=sel_location is None or sel_style is None or sel_epoche is None
             return (
                 False,
-                submit_disabled,
+                submit_disabled(),
                 styles,
             )
     else:
-        return True, submit_disabled, style_ccc
+        return True, submit_disabled(), style_ccc
 
+def submit_disabled():
+    return sel_map is None or sel_style is None or sel_year is None or resultmodal_isopen
 
 def get_style_body():
     style = correct_style
@@ -270,6 +269,15 @@ def get_style_body():
             ])
         ]
 
+def new_run():
+    global rnd_style, rnd_img, correct_style, sel_style, sel_year, sel_map, resultmodal_isopen
+    rnd_style = random.choice(list(architects_by_style.keys()))
+    rnd_img = random.choice(examples_img[rnd_style])
+    correct_style = architects_by_style[rnd_style]
+    sel_style, sel_year, sel_map = None, None, None
+    resultmodal_isopen = False
+    print("NEW Run", rnd_style)
+
 
 @app.callback(
     Output("style-mask", "hidden", allow_duplicate=True),
@@ -284,18 +292,12 @@ def get_style_body():
     prevent_initial_call=True,
 )
 def select_random_style(new_run):
-    global rnd_style, sel_style, sel_epoche, sel_location, correct_style, resultmodal_isopen, rnd_img
-    rnd_style = random.choice(list(architects_by_style.keys()))
-    print("2", new_run, rnd_style)
-    rnd_img = random.choice(examples_img[rnd_style])
-    correct_style = architects_by_style[rnd_style]
-    sel_style, sel_epoche, sel_location = None, None, None
-    resultmodal_isopen = False
+    new_run()
     return (
-        True,
-        mask,
-        mask,
-        True,
+        sel_style is not None,
+        sel_map is not None,
+        sel_year is not None,
+        submit_disabled(),
         resultmodal_isopen,
         rnd_img,
         get_style_body(),
@@ -311,13 +313,12 @@ def select_random_style(new_run):
     prevent_initial_call=True,
 )
 def evaluate_run(n_clicks):
-    global last_submit_n_clicks, submit_disabled, resultmodal_isopen
+    global last_submit_n_clicks, resultmodal_isopen
     if n_clicks and last_submit_n_clicks and n_clicks > last_submit_n_clicks:
         resultmodal_isopen = True
-        submit_disabled = True
         print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
     last_submit_n_clicks = n_clicks
-    return [submit_disabled, resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
+    return [submit_disabled(), resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
 
 
 @app.callback(  # Output("setup_modal", "is_open"),
