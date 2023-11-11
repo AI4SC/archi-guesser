@@ -16,7 +16,7 @@ import flask
 import shapely
 import math
 
-mask = False
+mask = True
 demo_mode = False
 weight_time_score  = 1.0 # max 2600
 weight_map_score   = 10.0 # max 180
@@ -79,6 +79,7 @@ last_submit_n_clicks = 0
 resultmodal_isopen = False
 rnd_style = random.choice(list(architects_by_style.keys()))
 correct_style = architects_by_style[rnd_style]
+rnd_img = None
 lastdata = {'state':"ERR"}
 
 # Build App
@@ -172,11 +173,9 @@ def print_guess_data(data, n_clicks):
 
     if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
         resultmodal_isopen = True
-        print("1", data, ldata, n_clicks)
-        return str(data), (n_clicks + 1) if n_clicks else 1
+        n_clicks = (n_clicks + 1) if n_clicks else 1
     elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
         resultmodal_isopen = False
-        print("1", data, ldata, n_clicks)
     return str(data), n_clicks
 
 
@@ -215,7 +214,7 @@ def display_selected_epoche(value):
     if value is None:
         return True
     sel_epoche = value
-    submit_disabled=sel_location is None or sel_style is None or sel_epoche is None
+    submit_disabled = sel_location is None or sel_style is None or sel_epoche is None
     return submit_disabled
 
 
@@ -243,39 +242,13 @@ def select_style(n, names):
         return True, submit_disabled, style_ccc
 
 
-@app.callback(
-    Output("style-mask", "hidden", allow_duplicate=True),
-    Output("map-mask", "hidden", allow_duplicate=True),
-    Output("epoche-mask", "hidden", allow_duplicate=True),
-    Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
-    Output("resultmodal", "is_open", allow_duplicate=True),
-    Output("example_img", "src"),
-    Output("style_body", "children"),
-    #Input("new_run", "disabled"),  # used as event notifier
-    Input("new_run_btn", "n_clicks"),  # used as event notifier
-    prevent_initial_call=True,
-)
-def select_random_style(new_run):
-    global rnd_style, sel_style, sel_epoche, sel_location, correct_style, resultmodal_isopen
-    rnd_style = random.choice(list(architects_by_style.keys()))
-    print("2", new_run, rnd_style)
-    rnd_img = random.choice(examples_img[rnd_style])
-    style = correct_style = architects_by_style[rnd_style]
-    astyle = correct_style["style"]
-    aarch = correct_style["architects"]
-    print(rnd_style, astyle, aarch)
-    sel_style, sel_epoche, sel_location = None, None, None
-    resultmodal_isopen = False
+def get_style_body():
+    style = correct_style
+    astyle = style["style"]
+    aarch = style["architects"]
     startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
     endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
-    return (
-        True,
-        mask,
-        mask,
-        True,
-        resultmodal_isopen,
-        rnd_img,
-        [
+    return [
             dbc.Container([
                 dbc.Row([
                     dbc.Col([
@@ -296,9 +269,38 @@ def select_random_style(new_run):
                 html.Label("Architects"),
                 html.Ul([html.Li(c["name"]) for c in aarch]),
             ])
-        ],
-    )
+        ]
 
+
+@app.callback(
+    Output("style-mask", "hidden", allow_duplicate=True),
+    Output("map-mask", "hidden", allow_duplicate=True),
+    Output("epoche-mask", "hidden", allow_duplicate=True),
+    Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
+    Output("resultmodal", "is_open", allow_duplicate=True),
+    Output("example_img", "src"),
+    Output("style_body", "children"),
+    #Input("new_run", "disabled"),  # used as event notifier
+    Input("new_run_btn", "n_clicks"),  # used as event notifier
+    prevent_initial_call=True,
+)
+def select_random_style(new_run):
+    global rnd_style, sel_style, sel_epoche, sel_location, correct_style, resultmodal_isopen, rnd_img
+    rnd_style = random.choice(list(architects_by_style.keys()))
+    print("2", new_run, rnd_style)
+    rnd_img = random.choice(examples_img[rnd_style])
+    correct_style = architects_by_style[rnd_style]
+    sel_style, sel_epoche, sel_location = None, None, None
+    resultmodal_isopen = False
+    return (
+        True,
+        mask,
+        mask,
+        True,
+        resultmodal_isopen,
+        rnd_img,
+        get_style_body(),
+    )
 
 
 @app.callback(
