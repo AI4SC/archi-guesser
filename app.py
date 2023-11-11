@@ -24,11 +24,11 @@ weight_style_score = 2000.0 # max 1.0
 marker_to_style={}
 
 # Load architect styles
-with open("architect_styles_sub.json", "tr") as fi:
+with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
     architects_by_style = json.load(fi)
 
 # Load region GeoJSON
-with open("cultural_regions_simplified.geojson", "tr") as fi:
+with open("cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
     regions = json.load(fi)
 
 for k, v in architects_by_style.items():
