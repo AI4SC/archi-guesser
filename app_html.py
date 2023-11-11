@@ -97,17 +97,16 @@ def init_webpage():
                                                     ],
                                                     color=None,  #"dark"
                                                     name=n,
-                                                    style={
-                                                        "width": "140px",
-                                                        "height": "180px",
-                                                        "border-radius": "0px",
-                                                        #"background-color":"black"
-                                                    },
+                                                    className="stylebtn",
                                                     id={
                                                         "type": "style-selection",
                                                         "index": n,
                                                     },
-                                                )
+                                                ),
+                                                id={
+                                                    "type": "style-selection-col",
+                                                    "index": n,
+                                                }
                                             )
                                             for n, img in style_img.items()
                                         ],
@@ -144,7 +143,7 @@ def init_webpage():
                                         "z-index": "10",
                                         "background-color": "rgba(34, 34, 34, 0.8)",
                                     },
-                                    hidden = ~mask,
+                                    hidden = mask,
                                     id = "style-mask",
                                 )
                         ],style={"position": "relative"}),
@@ -153,15 +152,10 @@ def init_webpage():
                             dl.Map(
                                 children=layers,  # url=bwtileurl
                                 id="map",
-                                style={
-                                    "width": "100%",
-                                    "height": "40vh",
-                                    "margin": "auto",
-                                    "z-index": "10",
-                                    "display": "block",
-                                },
+                                className="map",
                                 maxZoom=4,
                                 zoom=1,
+                                center=[40,0],
                             ),
                             html.Div(
                                 [
@@ -185,7 +179,7 @@ def init_webpage():
                                     "z-index": "20",
                                     "background-color": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = ~mask,
+                                hidden = mask,
                                 id = "map-mask",
                             ),
                         ],style={"position": "relative"}),
@@ -231,7 +225,7 @@ def init_webpage():
                                     "z-index": "20",
                                     "background-color": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = ~mask,
+                                hidden = mask,
                                 id = "epoche-mask",
                             ),
                         ],style={"position": "relative"}),
