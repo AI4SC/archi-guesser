@@ -286,8 +286,8 @@ def evaluate_run(n_clicks):
     if not n_clicks or n_clicks <= last_submit_n_clicks:
         #resultmodal_isopen = True
         submit_disabled = True
+        last_submit_n_clicks = n_clicks
     print("3", n_clicks, last_submit_n_clicks, resultmodal_isopen)
-    last_submit_n_clicks = n_clicks
     return [submit_disabled, resultmodal_isopen, f"You got {lastdata.get('total_score',0)} points"]
 
 
