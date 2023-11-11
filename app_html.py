@@ -186,7 +186,6 @@ def init_webpage():
                             dl.Map(
                                 children=layers,  # url=bwtileurl
                                 id="map",
-                                className="map",
                                 maxZoom=4,
                                 zoom=2,
                                 center=[40,0],
@@ -321,7 +320,7 @@ def init_webpage():
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
-        dcc.Interval(id="camera-update", interval=1000, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=500, n_intervals=0),
         dcc.Store(id="guess-data")
     ],
     fluid=True,
