@@ -247,6 +247,7 @@ def select_style(n, names):
     Output("map-mask", "hidden", allow_duplicate=True),
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
+    Output("resultmodal", "is_open", allow_duplicate=True),
     Output("example_img", "src"),
     Output("style_body", "children"),
     #Input("new_run", "disabled"),  # used as event notifier
@@ -264,11 +265,14 @@ def select_random_style(new_run):
     print(rnd_style, astyle, aarch)
     sel_style, sel_epoche, sel_location = None, None, None
     resultmodal_isopen = False
+    startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
+    endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
     return (
         True,
         mask,
         mask,
         True,
+        resultmodal_isopen,
         rnd_img,
         [
             dbc.Container([
@@ -276,7 +280,7 @@ def select_random_style(new_run):
                     dbc.Col([
                         html.H3(rnd_style),
                         html.Label("Epoche"),
-                        html.P(f'{style["Start_Year"]}–{style["End_Year"]}'),
+                        html.P(f'{startY} to {endY}'),
                         html.Label("Location"),
                         html.P(f'{style["style_area"]}'),
                         html.Label("Description"),
