@@ -326,7 +326,133 @@
             "In golden sands where time resides,\nWhere pyramids reach towards the skies,\nA majestic realm of treasures once thrived,\nIntricate tales carved in stone, revived.\n\nColumns tall like towering palms,\nEmbracing sun rays in golden charms.\nLabyrinths of halls, mysterious and vast,\nWhispering secrets of a glorious past.\n\nObelisks, proud and regal, stand tall,\nMarking the path to the celestial call.\nHieroglyphs etched on temple walls,\nNarrating history, enchanted halls.\n\nStatues with faces serene and wise,\nGazing beyond into the distant skies.\nIntricate carvings, intricately told,\nOf gods and pharaohs, forever bold.\n\nMajestic gates, adorned with grandeur,\nGuarding realms with an allure.\nSphinxes watch with unwavering grace,\nSilent witnesses of a time and place.\n\nA sacred architecture, a timeless art,\nResonating ancient wisdom through the heart.\nA legacy embraced by light and sand,\nThe marvels of a mesmerizing land.",
             "Amid vast deserts, structures rise,\nWhispers of civilization's guise.\nPyramids piercing the endless skies,\nCenturies woven with timeless ties.\n\nMajestic columns, etched in stone,\nSturdy pillars, a beauty they own.\nCarved reliefs, stories of life unknown,\nMysteries hidden, yet to be shown.\n\nObelisks proud, pointing to the stars,\nGuardians of knowledge, near and far.\nTemples adorned, with light that jars,\nA glimpse of gods, in shadows bizarre.\n\nHieroglyphs, symbols of wisdom's thread,\nSacred secrets that time can't shred.\nGolden hues, where the sun has tread,\nCreating splendor, where legends are bred.\n\nA legacy of artistry and grace,\nEchoing through time's embrace.\nA symphony, where past and present trace,\nAn architectural marvel, leaving none to efface.",
             "Amidst sands that stretch, a wondrous sight,\nTheir structures stand, kissed by golden light.\nMajestic columns rise, heavenward bound,\nA testament to craftsmanship renowned.\n\nPillars, like palms in ancient oasis,\nElongated necks, touching celestial spaces.\nCarved reliefs, tales etched in stone,\nUnveiling histories of a world unknown.\n\nLimestone walls, an ivory embrace,\nTracing hieroglyphs, secrets interlace.\nPyramids crowned, hidden tombs unfold,\nWhispers of pharaohs, untold stories told.\n\nObelisks, rising like sun's first gleam,\nGuiding seekers, connecting realms it seems.\nGrand halls adorned with lotus and reed,\nSacred temples nurturing divine creed.\n\nA labyrinth of courtyards, narrow and vast,\nMysteries whispered amidst a desert's contrast.\nArchways symbolize triumph over time's sway,\nHarbingers of wisdom, eternal treasures they portray.\n\nCalm, poised statues, embracing sacred ground,\nGuardians and goddesses, forever renowned.\nA tapestry of art, sculpted by gifted hands,\nReflecting a legacy that forever stands."
-        ]
+        ],
+        "style_similarity": {
+            "Ancient Egyptian": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.19090909090909092,
+                "weighted": 0.4631578947368421
+            },
+            "Stilt House": {
+                "unweighted": 0.02564102564102564,
+                "weighted": 0.030470914127423823
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.05504587155963303,
+                "weighted": 0.15526315789473685
+            },
+            "Art Deco": {
+                "unweighted": 0.040983606557377046,
+                "weighted": 0.10270270270270271
+            },
+            "Colonial": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.14210526315789473
+            },
+            "Brutalism": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.058333333333333334
+            },
+            "Contemporary": {
+                "unweighted": 0.01818181818181818,
+                "weighted": 0.03504043126684636
+            },
+            "Ancient Greek": {
+                "unweighted": 0.13333333333333333,
+                "weighted": 0.33157894736842103
+            },
+            "Ancient Roman": {
+                "unweighted": 0.14444444444444443,
+                "weighted": 0.3763157894736842
+            },
+            "Romanesque": {
+                "unweighted": 0.08256880733944955,
+                "weighted": 0.20540540540540542
+            },
+            "Gothic": {
+                "unweighted": 0.06779661016949153,
+                "weighted": 0.16052631578947368
+            },
+            "Baroque": {
+                "unweighted": 0.058333333333333334,
+                "weighted": 0.18571428571428572
+            },
+            "Renaissance": {
+                "unweighted": 0.11764705882352941,
+                "weighted": 0.31842105263157894
+            },
+            "Neoclassical": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.21351351351351353
+            },
+            "Art Nouveau": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.11388888888888889
+            },
+            "Bauhaus": {
+                "unweighted": 0.016666666666666666,
+                "weighted": 0.06315789473684211
+            },
+            "Muscovite": {
+                "unweighted": 0.062111801242236024,
+                "weighted": 0.19736842105263158
+            },
+            "Constructivism": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.030470914127423823
+            },
+            "Mud Brick": {
+                "unweighted": 0.032520325203252036,
+                "weighted": 0.08648648648648649
+            },
+            "Swahili": {
+                "unweighted": 0.06622516556291391,
+                "weighted": 0.25405405405405407
+            },
+            "Modern Islamic": {
+                "unweighted": 0.03333333333333333,
+                "weighted": 0.11315789473684211
+            },
+            "Gupta": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4135135135135135
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.09230769230769231,
+                "weighted": 0.2891891891891892
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.12264150943396226,
+                "weighted": 0.39622641509433965
+            },
+            "Edo Period": {
+                "unweighted": 0.051094890510948905,
+                "weighted": 0.15526315789473685
+            },
+            "Khmer Empire": {
+                "unweighted": 0.1693548387096774,
+                "weighted": 0.45789473684210524
+            },
+            "Thai": {
+                "unweighted": 0.08527131782945736,
+                "weighted": 0.26052631578947366
+            },
+            "Timurid Period": {
+                "unweighted": 0.12149532710280374,
+                "weighted": 0.32432432432432434
+            },
+            "Persian": {
+                "unweighted": 0.10810810810810811,
+                "weighted": 0.3045822102425876
+            }
+        }
     },
     "Ancient Greek": {
         "architects": [
@@ -481,7 +607,133 @@
             "In timeless realms where marble stands tall,\nA symphony of lines with grace enthralls.\nColumns rise to reach the sky above,\nA legacy of beauty, a testament to love.\n\nStatues carved in frozen perfection,\nGods and heroes, with spirits a connection.\nSymmetry and harmony, their guiding light,\nAesthetics embraced in every sight.\n\nPediments adorned with tales untold,\nFriezes whisper ancient legends bold.\nPorticoes invite with open embrace,\nDrawing one into a sacred space.\n\nDoric, Ionic, elegant support,\nCapital crowned, both simple and wrought.\nOrderly precision, a classic blend,\nArchitectural poetry without end.\n\nPillars standing as guardians strong,\nBalancing strength with delicate song.\nA gift to humankind, this architectural gift,\nEternally inspiring, in minds it will persist.",
             "Majestic columns rise, embracing the sky,\nA symphony of marble, captivating the eye.\nStately temples, harmonious in design,\nEchoing tales of gods, whispers of time.\n\nStrength in precision, a balanced embrace,\nDoric, Ionic, Corinthian, gracing each space.\nIn sturdy stone, pillars stand tall and true,\nUnyielding beauty, an eternal view.\n\nLayers of history etched in every facade,\nPortraying myths woven by skilled hand,\nCarvings depict heroes, their triumphs renowned,\nRelics of a legacy forever renowned.\n\nHarmony in proportions, perfection achieved,\nGeometry and grace elegantly conceived.\nThrough grand archways, light pours unhindered,\nInspiring awe and reverence, leaving minds bewildered.\n\nA gift to civilization, this timeless style,\nOf a golden era, ever worthy of a smile.\nThough ancient in origin, its spirit alive,\nAn architectural marvel that continues to thrive."
         ],
-        "marker": 21
+        "marker": 21,
+        "style_similarity": {
+            "Ancient Greek": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.08620689655172414,
+                "weighted": 0.2
+            },
+            "Stilt House": {
+                "unweighted": 0.026785714285714284,
+                "weighted": 0.05774278215223097
+            },
+            "Ranch-style house": {
+                "unweighted": 0.008771929824561403,
+                "weighted": 0.01818181818181818
+            },
+            "Victorian": {
+                "unweighted": 0.057692307692307696,
+                "weighted": 0.1375
+            },
+            "Art Deco": {
+                "unweighted": 0.042735042735042736,
+                "weighted": 0.12564102564102564
+            },
+            "Colonial": {
+                "unweighted": 0.14423076923076922,
+                "weighted": 0.41
+            },
+            "Brutalism": {
+                "unweighted": 0.009900990099009901,
+                "weighted": 0.02894736842105263
+            },
+            "Contemporary": {
+                "unweighted": 0.028846153846153848,
+                "weighted": 0.0639386189258312
+            },
+            "Ancient Roman": {
+                "unweighted": 0.18072289156626506,
+                "weighted": 0.35
+            },
+            "Romanesque": {
+                "unweighted": 0.056074766355140186,
+                "weighted": 0.12564102564102564
+            },
+            "Gothic": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.085
+            },
+            "Baroque": {
+                "unweighted": 0.05172413793103448,
+                "weighted": 0.13783783783783785
+            },
+            "Renaissance": {
+                "unweighted": 0.20754716981132076,
+                "weighted": 0.46
+            },
+            "Neoclassical": {
+                "unweighted": 0.21839080459770116,
+                "weighted": 0.5282051282051282
+            },
+            "Art Nouveau": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.11842105263157894
+            },
+            "Bauhaus": {
+                "unweighted": 0.035398230088495575,
+                "weighted": 0.075
+            },
+            "Muscovite": {
+                "unweighted": 0.031055900621118012,
+                "weighted": 0.105
+            },
+            "Constructivism": {
+                "unweighted": 0.025210084033613446,
+                "weighted": 0.04461942257217848
+            },
+            "Mud Brick": {
+                "unweighted": 0.042735042735042736,
+                "weighted": 0.11025641025641025
+            },
+            "Swahili": {
+                "unweighted": 0.05405405405405406,
+                "weighted": 0.2128205128205128
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.13333333333333333,
+                "weighted": 0.33157894736842103
+            },
+            "Modern Islamic": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.1425
+            },
+            "Gupta": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3128205128205128
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.06201550387596899,
+                "weighted": 0.15897435897435896
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.07547169811320754,
+                "weighted": 0.27877237851662406
+            },
+            "Edo Period": {
+                "unweighted": 0.06923076923076923,
+                "weighted": 0.2825
+            },
+            "Khmer Empire": {
+                "unweighted": 0.06870229007633588,
+                "weighted": 0.2375
+            },
+            "Thai": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.2375
+            },
+            "Timurid Period": {
+                "unweighted": 0.08490566037735849,
+                "weighted": 0.2230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.09259259259259259,
+                "weighted": 0.2531969309462916
+            }
+        }
     },
     "Ancient Persian": {
         "architects": [
@@ -786,7 +1038,133 @@
             "In stately forms, columns reach the sky,\nMajestic structures, centuries gone by.\nInspired by gods, timeless grace they hold,\nWith marble strength, legends untold.\n\nArtistry etched in each graceful arch,\nPillars standing tall, timeless march.\nSymmetry adorns meticulous design,\nWhere gods once dwelt, in every shrine.\n\nEmbracing light, through grand windows framed,\nArchitraves and friezes proudly named.\nCourtyards whisper secrets of grandeur past,\nCraftsmen's skill woven, forever to last.\n\nMosaic tales dance upon the floors,\nA thousand stories told in vibrant pores.\nAtriums breathe life, inviting embrace,\nA rendezvous of beauty and elegant space.\n\nOh, how these buildings sow the seeds,\nOf an empire's triumphs and noble deeds.\nNow, remnants remain, standing in awe,\nWitnesses to a world we forever adore.",
             "In grandeur birthed by marble's might,\nA timeless tale unfolds in sight.\nColumns soaring, reaching skies,\nEmbracing strength, where pioneers arise.\n\nWhere arches gracefully intertwine,\nWhispering secrets, tales of time.\nPillars stand proud, exuding grace,\nA symphony of columns we embrace.\n\nVivid frescoes paint celestial hues,\nGlimpses of heavens, an artist's muse.\nMosaics dance with colors bright,\nUnveiling stories, bathing in light.\n\nA triumph declared with every arch,\nIn sculpted details, a lasting march.\nSanctuaries vast, inviting all,\nWelcoming visitors to realms enthralled.\n\nBridging eras with timeless might,\nCreating realms where dreams alight.\nFrom golden temples to grand forums,\nA legacy etched in eternal forms."
         ],
-        "marker": 22
+        "marker": 22,
+        "style_similarity": {
+            "Ancient Roman": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.0784313725490196,
+                "weighted": 0.22
+            },
+            "Stilt House": {
+                "unweighted": 0.03125,
+                "weighted": 0.05249343832020997
+            },
+            "Ranch-style house": {
+                "unweighted": 0.01020408163265306,
+                "weighted": 0.02857142857142857
+            },
+            "Victorian": {
+                "unweighted": 0.06818181818181818,
+                "weighted": 0.1925
+            },
+            "Art Deco": {
+                "unweighted": 0.0392156862745098,
+                "weighted": 0.14102564102564102
+            },
+            "Colonial": {
+                "unweighted": 0.061855670103092786,
+                "weighted": 0.1775
+            },
+            "Brutalism": {
+                "unweighted": 0.03614457831325301,
+                "weighted": 0.06315789473684211
+            },
+            "Contemporary": {
+                "unweighted": 0.03409090909090909,
+                "weighted": 0.0792838874680307
+            },
+            "Ancient Greek": {
+                "unweighted": 0.18072289156626506,
+                "weighted": 0.35
+            },
+            "Romanesque": {
+                "unweighted": 0.10227272727272728,
+                "weighted": 0.2282051282051282
+            },
+            "Gothic": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.1975
+            },
+            "Baroque": {
+                "unweighted": 0.04950495049504951,
+                "weighted": 0.12432432432432433
+            },
+            "Renaissance": {
+                "unweighted": 0.16666666666666666,
+                "weighted": 0.435
+            },
+            "Neoclassical": {
+                "unweighted": 0.0975609756097561,
+                "weighted": 0.2205128205128205
+            },
+            "Art Nouveau": {
+                "unweighted": 0.038461538461538464,
+                "weighted": 0.11578947368421053
+            },
+            "Bauhaus": {
+                "unweighted": 0.030612244897959183,
+                "weighted": 0.0975
+            },
+            "Muscovite": {
+                "unweighted": 0.06382978723404255,
+                "weighted": 0.2175
+            },
+            "Constructivism": {
+                "unweighted": 0.02912621359223301,
+                "weighted": 0.07611548556430446
+            },
+            "Mud Brick": {
+                "unweighted": 0.0392156862745098,
+                "weighted": 0.08205128205128205
+            },
+            "Swahili": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2358974358974359
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.14444444444444443,
+                "weighted": 0.3763157894736842
+            },
+            "Modern Islamic": {
+                "unweighted": 0.05102040816326531,
+                "weighted": 0.145
+            },
+            "Gupta": {
+                "unweighted": 0.16129032258064516,
+                "weighted": 0.4230769230769231
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.08035714285714286,
+                "weighted": 0.24871794871794872
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.12643678160919541,
+                "weighted": 0.35805626598465473
+            },
+            "Edo Period": {
+                "unweighted": 0.0603448275862069,
+                "weighted": 0.205
+            },
+            "Khmer Empire": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3225
+            },
+            "Thai": {
+                "unweighted": 0.05309734513274336,
+                "weighted": 0.1725
+            },
+            "Timurid Period": {
+                "unweighted": 0.11235955056179775,
+                "weighted": 0.3230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.13333333333333333,
+                "weighted": 0.29923273657289
+            }
+        }
     },
     "Andalusian Period": {
         "architects": [
@@ -1120,7 +1498,133 @@
             "In lines and angles, bold and sleek,\nA vision of the past we seek.\nGeometry and symmetry entwined,\nArchitectural marvels we find.\n\nElongated towers reach the sky,\nWith metal accents, oh, so high.\nA lavish blend of bronze and gold,\nBold statements of an era old.\n\nCurved façades with elegant grace,\nEmbracing time, they leave their trace.\nOrnate motifs, a dazzling sight,\nIlluminated by neon light.\n\nJazz Age whispers in the wind,\nAs glistening details draw us in.\nMarble grandeur, polished and pure,\nA testament to dreams secure.\n\nFrom New York to Paris, cities shine,\nAesthetic journey, transcending time.\nWith elegance and opulence so rare,\nIn every building, stories ensnare.\n\nIn reverence, we gaze upon,\nAn architectural epoch now gone.\nArtistry forged in each design,\nThe epitome of a bygone shrine.",
             "Bridges that soar, reaching the sky,\nGeometry intertwines, now awry,\nLines in motion, sleek and bold,\nA symphony of shapes, an allure untold.\n\nSkyscrapers ascend, proud and grand,\nSymmetrical façades, where dreams expand.\nInterlocking patterns, intricate design,\nAn era's embrace, forever enshrined.\n\nEmbellished by symbols, ornamental grace,\nSunbursts ignite, illuminating each space.\nTextures unite, their echoes intertwine,\nA tribute to progress, a continuous climb.\n\nGleaming metal accents, shining bright,\nLustrous surfaces, reflecting light.\nEtched glass, cascading sunbeams through,\nA glimpse of tomorrow, a vision, anew.\n\nTimeless elegance, a testament to age,\nAesthetic whispers from a bygone stage.\nA fusion of eras, past and future merge,\nA story of creativity, on every architectural urge.\n\nIn this enchanted world, innovation unfurled,\nArtistry transcends, defying the mundane and dull.\nBeneath this spell, structures rise to tell,\nAn ode to an era, forever enchanting, spellbinding the soul.",
             "Lines so sleek and bold, they dance in light,\nGeometry embraced, a captivating sight.\nA symphony of curves and angular grace,\nEmbracing modernity, leaving no trace.\n\nFrom towering skyscrapers to opulent halls,\nA tapestry weaves, enchanting one and all.\nSunbursts adorn facades, casting playful glow,\nAn era's spirit breathed into every row.\n\nMosiacs shimmer, glimmers of glass,\nEmbodying glamour from a bygone brass.\nZigzag patterns woven, a rhythmic refrain,\nElegance and precision, forever to remain.\n\nStreamlined elegance, evoking an age,\nEffortless symmetry, turned each page.\nA celebration of progress, where details meet,\nA story of design, etched concrete to concrete.\n\nSo let us cherish this style's vibrant song,\nWhere each line and flourish tenderly belong,\nAn architectural journey, where dreams wake,\nIn every structure built, an ode to its own sake."
-        ]
+        ],
+        "style_similarity": {
+            "Art Deco": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.06349206349206349,
+                "weighted": 0.1794871794871795
+            },
+            "Stilt House": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.05357142857142857,
+                "weighted": 0.1794871794871795
+            },
+            "Colonial": {
+                "unweighted": 0.016,
+                "weighted": 0.09487179487179487
+            },
+            "Brutalism": {
+                "unweighted": 0.028037383177570093,
+                "weighted": 0.10540540540540541
+            },
+            "Contemporary": {
+                "unweighted": 0.10576923076923077,
+                "weighted": 0.2572178477690289
+            },
+            "Ancient Greek": {
+                "unweighted": 0.042735042735042736,
+                "weighted": 0.12564102564102564
+            },
+            "Ancient Roman": {
+                "unweighted": 0.0392156862745098,
+                "weighted": 0.14102564102564102
+            },
+            "Romanesque": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.10263157894736842
+            },
+            "Gothic": {
+                "unweighted": 0.032,
+                "weighted": 0.09230769230769231
+            },
+            "Baroque": {
+                "unweighted": 0.1016949152542373,
+                "weighted": 0.29444444444444445
+            },
+            "Renaissance": {
+                "unweighted": 0.0625,
+                "weighted": 0.18974358974358974
+            },
+            "Neoclassical": {
+                "unweighted": 0.06542056074766354,
+                "weighted": 0.20789473684210527
+            },
+            "Art Nouveau": {
+                "unweighted": 0.1092436974789916,
+                "weighted": 0.24864864864864866
+            },
+            "Bauhaus": {
+                "unweighted": 0.07758620689655173,
+                "weighted": 0.2717948717948718
+            },
+            "Muscovite": {
+                "unweighted": 0.05454545454545454,
+                "weighted": 0.19230769230769232
+            },
+            "Constructivism": {
+                "unweighted": 0.08333333333333333,
+                "weighted": 0.23180592991913745
+            },
+            "Mud Brick": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Swahili": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.2
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.040983606557377046,
+                "weighted": 0.10270270270270271
+            },
+            "Modern Islamic": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.2128205128205128
+            },
+            "Gupta": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.22631578947368422
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.050724637681159424,
+                "weighted": 0.16842105263157894
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.06086956521739131,
+                "weighted": 0.2020997375328084
+            },
+            "Edo Period": {
+                "unweighted": 0.027972027972027972,
+                "weighted": 0.11282051282051282
+            },
+            "Khmer Empire": {
+                "unweighted": 0.03496503496503497,
+                "weighted": 0.11794871794871795
+            },
+            "Thai": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.15897435897435896
+            },
+            "Timurid Period": {
+                "unweighted": 0.06956521739130435,
+                "weighted": 0.23684210526315788
+            },
+            "Persian": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2440944881889764
+            }
+        }
     },
     "Art Nouveau": {
         "architects": [
@@ -1293,7 +1797,133 @@
             "A dance of graceful lines, fluid and alive,\nNature's tendrils embracing the sky.\nCurved like blossoms adrift on a breeze,\nA symphony of beauty in each edifice.\n\nOrnate motifs, nature's secrets unfurled,\nIntricate curves like a painter's brush swirls.\nWhispering curves, a delicate refrain,\nUnveiling elegance where creativity reigns.\n\nGargoyles and nymphs, a mysterious embrace,\nGuarding grand entryways with mythical grace.\nStained glass cascades in vivid arrays,\nShimmering sunlight weaving enchanting displays.\n\nOrganic forms flourish with timeless appeal,\nSculpted iron tendrils, a blossoming zeal.\nFrom floor to ceiling, opulence brought to light,\nA celebration of nature, an exquisite sight.\n\nArtistry entwined with architecture's domain,\nA captivating revolution in every chic frame.\nA poetic fusion of tradition and new,\nAn architectural era, forever imbued.",
             "In a world where lines know how to dance,\nCurved and flowing, in a captivating trance.\nOrnamented like nature's graceful whisper,\nA symphony of iron, glass, and plaster.\n\nOrganic forms, with flowers in bloom,\nGentle curves embracing each room.\nMajestic entrances, adorned with finesse,\nAn invitation to marvel, to be caressed.\n\nStained glass windows, a vivid delight,\nSunlight woven, casting hues so bright.\nFlourishing motifs in every nook and space,\nAn ode to beauty, a heavenly embrace.\n\nFluidity triumphs o'er rigid design,\nA celebration of elegance, so divine.\nSculptures and sculptures, everywhere to be found,\nFlourishing, blossoming, without a bound.\n\nFrom Paris to Brussels, its legacy thrives,\nAn era of artistry that vividly survives.\nAn architectural tale, unwavering and bold,\nAn everlasting masterpiece, eternally told.",
             "Elegant curves, nature's embrace,\nIntricate grace, a timeless space.\nFluid lines caress, like vines that flow,\nOrnate details, a mesmerizing show.\n\nCurved windows, inviting light to dance,\nGently swaying forms, in harmonious trance.\nWhiplash curves, a delicate delight,\nAn ode to beauty, both unique and bright.\n\nRhythmic patterns, a symphony of design,\nGilded embellishments, so refined.\nFloral motifs, in every carved embrace,\nA celebration of nature's endless grace.\n\nStained glass, a kaleidoscope of hue,\nStreaming colors, the world anew.\nOrganic fusion, where structure meets art,\nA captivating dance, touching every heart.\n\nOh, architectural poetry, so divine,\nArtistic expression, forever entwined.\nAesthetically radiant, forever it gleams,\nThis wondrous style, born from dreams."
-        ]
+        ],
+        "style_similarity": {
+            "Art Nouveau": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.046153846153846156,
+                "weighted": 0.12894736842105264
+            },
+            "Stilt House": {
+                "unweighted": 0.016260162601626018,
+                "weighted": 0.0332409972299169
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.21842105263157896
+            },
+            "Art Deco": {
+                "unweighted": 0.1092436974789916,
+                "weighted": 0.24864864864864866
+            },
+            "Colonial": {
+                "unweighted": 0.0078125,
+                "weighted": 0.05
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.09703504043126684
+            },
+            "Ancient Greek": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.11842105263157894
+            },
+            "Ancient Roman": {
+                "unweighted": 0.038461538461538464,
+                "weighted": 0.11578947368421053
+            },
+            "Romanesque": {
+                "unweighted": 0.025,
+                "weighted": 0.08108108108108109
+            },
+            "Gothic": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.10263157894736842
+            },
+            "Baroque": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2714285714285714
+            },
+            "Renaissance": {
+                "unweighted": 0.06976744186046512,
+                "weighted": 0.19473684210526315
+            },
+            "Neoclassical": {
+                "unweighted": 0.03571428571428571,
+                "weighted": 0.10810810810810811
+            },
+            "Bauhaus": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.03684210526315789
+            },
+            "Muscovite": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.20789473684210527
+            },
+            "Constructivism": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.15789473684210525
+            },
+            "Mud Brick": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.06756756756756757
+            },
+            "Swahili": {
+                "unweighted": 0.07792207792207792,
+                "weighted": 0.26756756756756755
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.11388888888888889
+            },
+            "Modern Islamic": {
+                "unweighted": 0.04032258064516129,
+                "weighted": 0.12894736842105264
+            },
+            "Gupta": {
+                "unweighted": 0.072,
+                "weighted": 0.21351351351351353
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0425531914893617,
+                "weighted": 0.17027027027027028
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.05084745762711865,
+                "weighted": 0.18328840970350405
+            },
+            "Edo Period": {
+                "unweighted": 0.027586206896551724,
+                "weighted": 0.10789473684210527
+            },
+            "Khmer Empire": {
+                "unweighted": 0.056338028169014086,
+                "weighted": 0.16578947368421051
+            },
+            "Thai": {
+                "unweighted": 0.058394160583941604,
+                "weighted": 0.2
+            },
+            "Timurid Period": {
+                "unweighted": 0.06837606837606838,
+                "weighted": 0.21621621621621623
+            },
+            "Persian": {
+                "unweighted": 0.05785123966942149,
+                "weighted": 0.1778975741239892
+            }
+        }
     },
     "Arts and Crafts": {
         "architects": [
@@ -1995,7 +2625,133 @@
             "In sweeping curves, a symphony of form arose,\nA realm where grandeur and opulence would disclose,\nWith towering spires, heavenward they aspire,\nSculptures and frescoes, marvels to admire.\n\nOrnate façades, a theater of delight,\nWhispering tales of an era shining bright,\nWhimsical details, intricate and sublime,\nAn ode to excess in every design.\n\nGilded Châteaus, resplendent and proud,\nCathedrals adorned with a celestial shroud,\nMajestic palaces, statuesque and supreme,\nA scene of splendor, like a vivid dream.\n\nCarved in stone, the stories of time unfold,\nSerene gardens, where secrets shall be told,\nElaborate domes piercing the azure sky,\nA soaring dance with clouds, never to deny.\n\nIn this lavish world, where beauty finds its reign,\nWhere magnificence spins a timeless refrain,\nA style so distinctive, it leaves hearts aglow,\nThe essence of artistry that the ages shall show.",
             "In regal halls, an opulence graced,\nEthereal curves, a dance interlaced.\nGilded swirls, with colors so profound,\nA symphony of grandeur, architecture renowned.\n\nCathedral arches, reaching for heavens above,\nEvery intricate detail, a work of love.\nSculpted in stone, a spectacle divine,\nWhere artistry and splendor intertwine.\n\nCarved cherubs adorn the grand façades,\nExuding grace in every stuccoed applaud.\nOrnate altars, ablaze with golden light,\nMajestic domes soaring to celestial heights.\n\nIntriguing complexities, abundant and bold,\nSpiraling columns, tales of tales so told.\nWhimsical style, with playful indulgence,\nA golden tapestry, weaving opulent elegance.\n\nIn palaces resplendent, a feast for the eyes,\nCeilings painted, mirroring the skies.\nFlourishes of beauty, with drama and flair,\nAn architectural marvel, beyond compare.\n\nSo let us marvel, at this timeless creation,\nA style that stands, a testament to dedication.\nA chapter in history, forever engraved,\nAn ode to beauty, in each arch and each wave.",
             "In grandeur's embrace, swirling lines unfold,\nA symphony of shapes in sculptures bold.\nWhere heavens touch the earthly realm with grace,\nAn opulent dance in ornate embrace.\n\nCurves cascade, embellishments adorned,\nA tale of splendor, timeless and reborn.\nGolden orbs of light, cascading in beams,\nReflecting tapestries of cherished dreams.\n\nColumns soar high, reaching heavens above,\nIntricate details, a testament of love.\nGargoyles, guardians, adorning the walls,\nWhispering secrets in majestic halls.\n\nRococo curls embrace every corner,\nFrescoes breathe life, in brushstrokes we wander.\nExquisite textures, textured displays,\nCapture the eyes in their enchanting ways.\n\nCherubs and nymphs, their playfulness untold,\nA bustling symphony, harmonious and bold.\nEach arch and niche, a story to unfold,\nIn this timeless world, we're forever enthralled."
-        ]
+        ],
+        "style_similarity": {
+            "Baroque": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.03076923076923077,
+                "weighted": 0.12162162162162163
+            },
+            "Stilt House": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.07272727272727272,
+                "weighted": 0.21891891891891893
+            },
+            "Art Deco": {
+                "unweighted": 0.1016949152542373,
+                "weighted": 0.29444444444444445
+            },
+            "Colonial": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.13243243243243244
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.017699115044247787,
+                "weighted": 0.0332409972299169
+            },
+            "Ancient Greek": {
+                "unweighted": 0.05172413793103448,
+                "weighted": 0.13783783783783785
+            },
+            "Ancient Roman": {
+                "unweighted": 0.04950495049504951,
+                "weighted": 0.12432432432432433
+            },
+            "Romanesque": {
+                "unweighted": 0.09009009009009009,
+                "weighted": 0.17777777777777778
+            },
+            "Gothic": {
+                "unweighted": 0.06611570247933884,
+                "weighted": 0.2
+            },
+            "Renaissance": {
+                "unweighted": 0.1623931623931624,
+                "weighted": 0.37567567567567567
+            },
+            "Neoclassical": {
+                "unweighted": 0.06542056074766354,
+                "weighted": 0.19166666666666668
+            },
+            "Art Nouveau": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2714285714285714
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.10126582278481013,
+                "weighted": 0.3027027027027027
+            },
+            "Constructivism": {
+                "unweighted": 0.023622047244094488,
+                "weighted": 0.07122507122507123
+            },
+            "Mud Brick": {
+                "unweighted": 0.023622047244094488,
+                "weighted": 0.03888888888888889
+            },
+            "Swahili": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.09722222222222222
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.058333333333333334,
+                "weighted": 0.18571428571428572
+            },
+            "Modern Islamic": {
+                "unweighted": 0.024193548387096774,
+                "weighted": 0.08378378378378379
+            },
+            "Gupta": {
+                "unweighted": 0.07317073170731707,
+                "weighted": 0.20833333333333334
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.25555555555555554
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.07964601769911504,
+                "weighted": 0.19113573407202217
+            },
+            "Edo Period": {
+                "unweighted": 0.00684931506849315,
+                "weighted": 0.008108108108108109
+            },
+            "Khmer Empire": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.1810810810810811
+            },
+            "Thai": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.1891891891891892
+            },
+            "Timurid Period": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.21944444444444444
+            },
+            "Persian": {
+                "unweighted": 0.06779661016949153,
+                "weighted": 0.1772853185595568
+            }
+        }
     },
     "Bauhaus": {
         "architects": [
@@ -2148,7 +2904,133 @@
             "In lines clean and sleek, foundations laid,\nA symphony of form, where art never fades.\nGeometry’s embrace, harmony entwined,\nMinimalist palette, elegance defined.\n\nBlank canvases of space, light flows with ease,\nWindows reaching skywards, nature's tranquil tease.\nFunction and beauty embrace hand in hand,\nCraftsmanship and design, an exceptional demand.\n\nSteel, glass, and concrete shape the world anew,\nRevolutionary ideas, forward and true.\nSimplicity reigning supreme, avant-garde’s delight,\nWhere functionality guides, in every design fight.\n\nMerging art and life, a utopian quest,\nCreating for the masses, timeless and blessed.\nArchitecture reborn, a vision so grand,\nUnveiling a new era, foundations firmly planned.",
             "Where form embraces its utility,\nGeometry's symphony in harmony.\nClean lines that frame practicality,\nBlurring boundaries of artistry.\n\nGlass panes expand horizons wide,\nTransparency, light's trusted guide.\nMinimalism breathe midst vast space,\nSerenity embraced, elegance traced.\n\nMaterials dance, a balanced blend,\nFunctionality and beauty condescend.\nSteel whispers strength, concrete holds,\nUniting solidity, a tale unfolds.\n\nColors subtle, palette controlled,\nMonochrome's grace, never bold.\nStillness captures each delicate curve,\nModern design finds its steady nerve.\n\nInnovative minds united in quest,\nFor a timeless vision, they invest.\nA movement that forever etches,\nBeauty in architecture's stitches.",
             "Lines clean and pure, \nGeometry's allure, \nBalance in every form, \nInnovation taking form. \n\nSpaces that harmonize, \nLines that mesmerize, \nFunction as the guide, \nBeauty with nothing to hide. \n\nBold simplicity in design, \nMinimalism so refined, \nMaterials raw and true, \nUnity in all they pursue. \n\nWindows a seamless frame, \nLight as an artist's aim, \nForm follows function's lead, \nBoldness in every deed. \n\nRebel spirits pave the way, \nA movement here to stay, \nModernism at its core, \nForever influencing more."
-        ]
+        ],
+        "style_similarity": {
+            "Bauhaus": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.023809523809523808,
+                "weighted": 0.0525
+            },
+            "Stilt House": {
+                "unweighted": 0.02608695652173913,
+                "weighted": 0.07611548556430446
+            },
+            "Ranch-style house": {
+                "unweighted": 0.05357142857142857,
+                "weighted": 0.14805194805194805
+            },
+            "Victorian": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Art Deco": {
+                "unweighted": 0.07758620689655173,
+                "weighted": 0.2717948717948718
+            },
+            "Colonial": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.03
+            },
+            "Brutalism": {
+                "unweighted": 0.11702127659574468,
+                "weighted": 0.26052631578947366
+            },
+            "Contemporary": {
+                "unweighted": 0.25,
+                "weighted": 0.5856777493606138
+            },
+            "Ancient Greek": {
+                "unweighted": 0.035398230088495575,
+                "weighted": 0.075
+            },
+            "Ancient Roman": {
+                "unweighted": 0.030612244897959183,
+                "weighted": 0.0975
+            },
+            "Romanesque": {
+                "unweighted": 0.017543859649122806,
+                "weighted": 0.038461538461538464
+            },
+            "Gothic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Baroque": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Renaissance": {
+                "unweighted": 0.015503875968992248,
+                "weighted": 0.0325
+            },
+            "Neoclassical": {
+                "unweighted": 0.06862745098039216,
+                "weighted": 0.12307692307692308
+            },
+            "Art Nouveau": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.03684210526315789
+            },
+            "Muscovite": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Constructivism": {
+                "unweighted": 0.2376237623762376,
+                "weighted": 0.5564304461942258
+            },
+            "Mud Brick": {
+                "unweighted": 0.02459016393442623,
+                "weighted": 0.041025641025641026
+            },
+            "Swahili": {
+                "unweighted": 0.032467532467532464,
+                "weighted": 0.11025641025641025
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.016666666666666666,
+                "weighted": 0.06315789473684211
+            },
+            "Modern Islamic": {
+                "unweighted": 0.07017543859649122,
+                "weighted": 0.225
+            },
+            "Gupta": {
+                "unweighted": 0.016,
+                "weighted": 0.06666666666666667
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.008620689655172414,
+                "weighted": 0.017902813299232736
+            },
+            "Edo Period": {
+                "unweighted": 0.05185185185185185,
+                "weighted": 0.1475
+            },
+            "Khmer Empire": {
+                "unweighted": 0.007042253521126761,
+                "weighted": 0.0175
+            },
+            "Thai": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Timurid Period": {
+                "unweighted": 0.017241379310344827,
+                "weighted": 0.06153846153846154
+            },
+            "Persian": {
+                "unweighted": 0.025423728813559324,
+                "weighted": 0.0741687979539642
+            }
+        }
     },
     "Beaux-Arts": {
         "architects": [
@@ -2825,7 +3707,133 @@
             "Behold the essence of unity and strength,\nA bold expression, rising walls at length.\nRaw concrete foundations, sturdy and bare,\nA mighty fortress, solid as the air.\n\nAngular, fierce shapes, devoid of pretense,\nForm follows function, in pure coherence.\nNo embellishments, no needless excess,\nSimplicity reigning, in its starkness.\n\nUnyielding lines, commanding each space,\nA symphony of balance, devoid of grace.\nMonolithic masses, steadfast and grand,\nA testament of will, forever to stand.\n\nHarsh yet honest, evoking raw emotion,\nLeaving no soul untouched by its devotion.\nA testament to days of old reborn,\nIn this fortress of strength, we find our own.",
             "In concrete giants, strength revealed,\nUnyielding structures, they are sealed.\nA symphony of angles, bold and stark,\nA whispered homage to the past, so dark.\n\nThrough towering walls, shadows dance,\nBlocks stacked high, in striking stance.\nMajestic presence, unadorned,\nA confident beauty, harshly born.\n\nHarsh edges cut against the sky,\nBare essence, no secrets lie.\nGrit and power, in every line,\nA timeless tale, where forms entwine.\n\nThe weight of history, etched in stone,\nA statement bold, to all ears known.\nRaw and honest, yet holding grace,\nA legacy, standing in its rightful place.\n\nTranscending time, this style withstands,\nA testament to ingenious hands.\nAn ode to strength, both fierce and grand,\nThis architectural legacy will forever stand."
         ],
-        "marker": 27
+        "marker": 27,
+        "style_similarity": {
+            "Brutalism": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.017857142857142856,
+                "weighted": 0.07105263157894737
+            },
+            "Stilt House": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.0332409972299169
+            },
+            "Ranch-style house": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.043835616438356165
+            },
+            "Victorian": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Art Deco": {
+                "unweighted": 0.028037383177570093,
+                "weighted": 0.10540540540540541
+            },
+            "Colonial": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.10465116279069768,
+                "weighted": 0.29380053908355797
+            },
+            "Ancient Greek": {
+                "unweighted": 0.009900990099009901,
+                "weighted": 0.02894736842105263
+            },
+            "Ancient Roman": {
+                "unweighted": 0.03614457831325301,
+                "weighted": 0.06315789473684211
+            },
+            "Romanesque": {
+                "unweighted": 0.041237113402061855,
+                "weighted": 0.12162162162162163
+            },
+            "Gothic": {
+                "unweighted": 0.009259259259259259,
+                "weighted": 0.02631578947368421
+            },
+            "Baroque": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Renaissance": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Neoclassical": {
+                "unweighted": 0.010752688172043012,
+                "weighted": 0.024324324324324326
+            },
+            "Art Nouveau": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Bauhaus": {
+                "unweighted": 0.11702127659574468,
+                "weighted": 0.26052631578947366
+            },
+            "Muscovite": {
+                "unweighted": 0.006535947712418301,
+                "weighted": 0.039473684210526314
+            },
+            "Constructivism": {
+                "unweighted": 0.1,
+                "weighted": 0.2631578947368421
+            },
+            "Mud Brick": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Swahili": {
+                "unweighted": 0.006993006993006993,
+                "weighted": 0.03513513513513514
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.058333333333333334
+            },
+            "Modern Islamic": {
+                "unweighted": 0.049019607843137254,
+                "weighted": 0.10526315789473684
+            },
+            "Gupta": {
+                "unweighted": 0.009009009009009009,
+                "weighted": 0.032432432432432434
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.008064516129032258,
+                "weighted": 0.02972972972972973
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Edo Period": {
+                "unweighted": 0.032520325203252036,
+                "weighted": 0.09736842105263158
+            },
+            "Khmer Empire": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Thai": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Timurid Period": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Persian": {
+                "unweighted": 0.009523809523809525,
+                "weighted": 0.029649595687331536
+            }
+        }
     },
     "Byzantine": {
         "architects": [
@@ -3151,7 +4159,133 @@
             "Intricate rooftops, adorned with grace,\nMarvels in structure, standing tall with haste.\nElegant latticework, a fusion so grand,\nWhispers of history, vast secrets in hand.\n\nCurved and tiered, these buildings secure,\nGuardians of culture, stories endure.\nOrnate columns, each carved with care,\nSilent guardians, wisdom they bear.\n\nVibrant hues paint each dwelling's face,\nEchoes of opulence, a visual embrace.\nSymmetry reigns, precise angles in view,\nWhispers of power, a regal tableau.\n\nMajestic courtyards, tranquil and serene,\nWhere harmony thrives, an enchanting scene.\nWhispering winds tell tales of the past,\nPalaces and temples, a journey amassed.\n\nWithin these walls, a reflection profound,\nA legacy cherished, forever renowned.\nAn architectural marvel, a cultural blend,\nA masterpiece cherished from end to end.",
             "In the realm of ancient majesty,\nWhere halls of splendor rise with grace,\nKeen artistry tells a timeless tale,\nBathed in an aura of spirit and embrace.\n\nEthereal roofs kiss the heavens' arc,\nWith sweeping curves, they dance and soar,\nGuarding secrets and tales untold,\nUnveiling tales of chimerical folklore.\n\nPalatial gates stand proud and tall,\nSymbolic guardians of ancient ground,\nWhispers of vibrant hues enchant,\nAs ageless walls echo a melodic sound.\n\nExquisite elegance, poised and refined,\nCarved motifs weave a symphony complete,\nMeticulous details pay homage to harmony,\nA harmonious symphony, a masterpiece replete.\n\nWithin tranquil courtyards, nature unites,\nMan-made landscapes blend with earthly might,\nSerenity floats on delicate ponds,\nReflecting life’s essence, tranquil and bright.\n\nThrough ornate lattice, light softly cascades,\nPainting shadows on ornamental screens,\nAn interplay of shadows and light serene,\nUnveiling beauty through enchanting means.\n\nResplendent gardens, in perfect bloom,\nWhispering jasmine, coral peonies so rare,\nNature's emerald tapestry, a serene escape,\nWhere dreams and tranquility graciously share.\n\nSeekers of grandeur, indulge your sight,\nIn a style celestial, tales unfurl,\nWhere whispers of ancient mystique reside,\nTo beguile your soul in a harmonious swirl."
         ],
-        "marker": 28
+        "marker": 28,
+        "style_similarity": {
+            "Chinese Imperial": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.09565217391304348,
+                "weighted": 0.329923273657289
+            },
+            "Stilt House": {
+                "unweighted": 0.036036036036036036,
+                "weighted": 0.09946236559139784
+            },
+            "Ranch-style house": {
+                "unweighted": 0.017699115044247787,
+                "weighted": 0.031914893617021274
+            },
+            "Victorian": {
+                "unweighted": 0.0784313725490196,
+                "weighted": 0.2710997442455243
+            },
+            "Art Deco": {
+                "unweighted": 0.06086956521739131,
+                "weighted": 0.2020997375328084
+            },
+            "Colonial": {
+                "unweighted": 0.10185185185185185,
+                "weighted": 0.27877237851662406
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.034031413612565446
+            },
+            "Ancient Greek": {
+                "unweighted": 0.07547169811320754,
+                "weighted": 0.27877237851662406
+            },
+            "Ancient Roman": {
+                "unweighted": 0.12643678160919541,
+                "weighted": 0.35805626598465473
+            },
+            "Romanesque": {
+                "unweighted": 0.056074766355140186,
+                "weighted": 0.14173228346456693
+            },
+            "Gothic": {
+                "unweighted": 0.06140350877192982,
+                "weighted": 0.1969309462915601
+            },
+            "Baroque": {
+                "unweighted": 0.07964601769911504,
+                "weighted": 0.19113573407202217
+            },
+            "Renaissance": {
+                "unweighted": 0.12280701754385964,
+                "weighted": 0.4322250639386189
+            },
+            "Neoclassical": {
+                "unweighted": 0.0707070707070707,
+                "weighted": 0.24671916010498687
+            },
+            "Art Nouveau": {
+                "unweighted": 0.05084745762711865,
+                "weighted": 0.18328840970350405
+            },
+            "Bauhaus": {
+                "unweighted": 0.008620689655172414,
+                "weighted": 0.017902813299232736
+            },
+            "Muscovite": {
+                "unweighted": 0.12162162162162163,
+                "weighted": 0.3734015345268542
+            },
+            "Constructivism": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.005376344086021506
+            },
+            "Mud Brick": {
+                "unweighted": 0.05172413793103448,
+                "weighted": 0.13648293963254593
+            },
+            "Swahili": {
+                "unweighted": 0.0684931506849315,
+                "weighted": 0.2992125984251969
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.12264150943396226,
+                "weighted": 0.39622641509433965
+            },
+            "Modern Islamic": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.15089514066496162
+            },
+            "Gupta": {
+                "unweighted": 0.1588785046728972,
+                "weighted": 0.4566929133858268
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15126050420168066,
+                "weighted": 0.4540682414698163
+            },
+            "Edo Period": {
+                "unweighted": 0.12096774193548387,
+                "weighted": 0.34782608695652173
+            },
+            "Khmer Empire": {
+                "unweighted": 0.1864406779661017,
+                "weighted": 0.5115089514066496
+            },
+            "Thai": {
+                "unweighted": 0.19469026548672566,
+                "weighted": 0.5089514066496164
+            },
+            "Timurid Period": {
+                "unweighted": 0.13861386138613863,
+                "weighted": 0.48556430446194226
+            },
+            "Persian": {
+                "unweighted": 0.16831683168316833,
+                "weighted": 0.5157068062827225
+            }
+        }
     },
     "Colonial": {
         "architects": [
@@ -3334,7 +4468,133 @@
             "In time's embrace, structures stand tall and grand,\nSummoning echoes from a distant land.\nSymmetry and grace upon each facade,\nBygone elegance, a tribute to applaud.\n\nPillars rise, sturdy and proud as the sun,\nHeralding stories of days long undone.\nWindows, like guardians, sparkling in the light,\nInviting warmth, embracing day and night.\n\nRoofs steeped in traditions of an age past,\nSheltering dreams of a history vast.\nWhispers of empire, whispers of old,\nPreserved in facades, stories yet untold.\n\nLines, crisp and clean, carve pathways to explore,\nGuiding wandering souls through rich folklore.\nFor in this style's embrace, time does stand,\nA testament to a gracious, noble land.",
             "Beneath the gentle sun's warm embrace,\nAn era's grace, a timeless trace.\nPillars tall, standing proud and bold,\nWhisper stories, secrets yet untold.\n\nWhite-washed walls, like memories true,\nMajestic windows, framing skies of blue.\nCraftsmanship refined, by hand they're carved,\nHeritage preserved, a legacy preserved.\n\nRoofs of sloping beauty, effortlessly serene,\nSheltering stories, sheltering dreams.\nSymmetry and balance, harmony imbued,\nA testament to those who once pursued.\n\nAcross vast lands, this style did spread,\nFrom shores afar, its influence widespread.\nEchoes of the past, a tranquil sight,\nIntricate details, a beacon of light.\n\nThough words may fail to truly embrace,\nThe grandeur of this architectural grace,\nLet us admire, with hearts that keen,\nThe charm of a style, time can't demean."
         ],
-        "icon": "colonial.png"
+        "icon": "colonial.png",
+        "style_similarity": {
+            "Colonial": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.007692307692307693,
+                "weighted": 0.045
+            },
+            "Stilt House": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.10761154855643044
+            },
+            "Ranch-style house": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.07792207792207792
+            },
+            "Victorian": {
+                "unweighted": 0.05504587155963303,
+                "weighted": 0.1675
+            },
+            "Art Deco": {
+                "unweighted": 0.016,
+                "weighted": 0.09487179487179487
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Ancient Greek": {
+                "unweighted": 0.14423076923076922,
+                "weighted": 0.41
+            },
+            "Ancient Roman": {
+                "unweighted": 0.061855670103092786,
+                "weighted": 0.1775
+            },
+            "Romanesque": {
+                "unweighted": 0.04424778761061947,
+                "weighted": 0.11282051282051282
+            },
+            "Gothic": {
+                "unweighted": 0.04132231404958678,
+                "weighted": 0.0725
+            },
+            "Baroque": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.13243243243243244
+            },
+            "Renaissance": {
+                "unweighted": 0.16666666666666666,
+                "weighted": 0.425
+            },
+            "Neoclassical": {
+                "unweighted": 0.15625,
+                "weighted": 0.4282051282051282
+            },
+            "Art Nouveau": {
+                "unweighted": 0.0078125,
+                "weighted": 0.05
+            },
+            "Bauhaus": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.03
+            },
+            "Muscovite": {
+                "unweighted": 0.030120481927710843,
+                "weighted": 0.0925
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Mud Brick": {
+                "unweighted": 0.07627118644067797,
+                "weighted": 0.14358974358974358
+            },
+            "Swahili": {
+                "unweighted": 0.05228758169934641,
+                "weighted": 0.17692307692307693
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.14210526315789473
+            },
+            "Modern Islamic": {
+                "unweighted": 0.008130081300813009,
+                "weighted": 0.045
+            },
+            "Gupta": {
+                "unweighted": 0.05737704918032787,
+                "weighted": 0.19487179487179487
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.11794871794871795
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.10185185185185185,
+                "weighted": 0.27877237851662406
+            },
+            "Edo Period": {
+                "unweighted": 0.051094890510948905,
+                "weighted": 0.2225
+            },
+            "Khmer Empire": {
+                "unweighted": 0.04316546762589928,
+                "weighted": 0.15
+            },
+            "Thai": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.21
+            },
+            "Timurid Period": {
+                "unweighted": 0.05263157894736842,
+                "weighted": 0.18717948717948718
+            },
+            "Persian": {
+                "unweighted": 0.06956521739130435,
+                "weighted": 0.2071611253196931
+            }
+        }
     },
     "Colonial Revival": {
         "architects": [
@@ -3660,7 +4920,133 @@
             "In piercing angles, steel embraced,\nA symphony of forms woven with care,\nBold lines and shapes with purpose traced,\nA realm where visions daringly share.\n\nFierce geometric patterns unfold,\nAs concrete bathes in sunlight's gleam,\nA harmony between strength and bold,\nWhere fragments unite, a vibrant theme.\n\nStructured chaos, a tapestry grand,\nUtility infused in every thread,\nA modern marvel, forever planned,\nAs function and artistry wed.\n\nGrit and passion etched in each line,\nManifesting dreams, hopes entwined,\nConstructing futures, visionary design,\nA testament to human's boundless mind.",
             "In angles bold and lines pristine,\nA symphony of structure gleams,\nWhere forms converge, in perfected rhyme,\nA realm of order withstands the test of time.\n\nIndustrial wonders, soaring high and wide,\nA dance of steel and glass, side by side,\nWith geometric precision, they embrace,\nA world reimagined, bound by strength and grace.\n\nFrom factory floors to cities' embrace,\nBold vision carved with purpose and grace,\nUnified masses, unified dreams,\nA testament of progress, it surely seems.\n\nThe spirit of innovation takes its flight,\nBoundaries challenged under daylight,\nBalance of function, aesthetics intertwined,\nAs modern marvels, they boldly define.\n\nWith each foundation laid, a story untold,\nA tribute to progress, ever bold,\nFor hidden within each structured design,\nThe human spirit soars, rooted in time."
         ],
-        "marker": 30
+        "marker": 30,
+        "style_similarity": {
+            "Constructivism": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.03076923076923077,
+                "weighted": 0.09186351706036745
+            },
+            "Stilt House": {
+                "unweighted": 0.01652892561983471,
+                "weighted": 0.03591160220994475
+            },
+            "Ranch-style house": {
+                "unweighted": 0.00819672131147541,
+                "weighted": 0.040983606557377046
+            },
+            "Victorian": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.005249343832020997
+            },
+            "Art Deco": {
+                "unweighted": 0.08333333333333333,
+                "weighted": 0.23180592991913745
+            },
+            "Colonial": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Brutalism": {
+                "unweighted": 0.1,
+                "weighted": 0.2631578947368421
+            },
+            "Contemporary": {
+                "unweighted": 0.19791666666666666,
+                "weighted": 0.5080645161290323
+            },
+            "Ancient Greek": {
+                "unweighted": 0.025210084033613446,
+                "weighted": 0.04461942257217848
+            },
+            "Ancient Roman": {
+                "unweighted": 0.02912621359223301,
+                "weighted": 0.07611548556430446
+            },
+            "Romanesque": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Gothic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Baroque": {
+                "unweighted": 0.023622047244094488,
+                "weighted": 0.07122507122507123
+            },
+            "Renaissance": {
+                "unweighted": 0.014925373134328358,
+                "weighted": 0.03674540682414698
+            },
+            "Neoclassical": {
+                "unweighted": 0.02702702702702703,
+                "weighted": 0.05660377358490566
+            },
+            "Art Nouveau": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.15789473684210525
+            },
+            "Bauhaus": {
+                "unweighted": 0.2376237623762376,
+                "weighted": 0.5564304461942258
+            },
+            "Muscovite": {
+                "unweighted": 0.005780346820809248,
+                "weighted": 0.005249343832020997
+            },
+            "Mud Brick": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Swahili": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.14285714285714285
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.030470914127423823
+            },
+            "Modern Islamic": {
+                "unweighted": 0.08547008547008547,
+                "weighted": 0.24934383202099739
+            },
+            "Gupta": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.05660377358490566
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.006944444444444444,
+                "weighted": 0.008086253369272238
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.005376344086021506
+            },
+            "Edo Period": {
+                "unweighted": 0.020833333333333332,
+                "weighted": 0.09186351706036745
+            },
+            "Khmer Empire": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Thai": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Timurid Period": {
+                "unweighted": 0.01652892561983471,
+                "weighted": 0.0646900269541779
+            },
+            "Persian": {
+                "unweighted": 0.03278688524590164,
+                "weighted": 0.06451612903225806
+            }
+        }
     },
     "Contemporary": {
         "architects": [
@@ -3837,7 +5223,133 @@
             "Where steel meets glass, a bold creation gleams,\nA symphony of lines and geometric dreams.\nWith sleek exteriors, cutting through the sky,\nA marriage of simplicity and wonders fly.\n\nBraving traditional norms, it defies the past,\nMinimalist elegance, every line cast.\nInnovative spaces, open and free,\nA dialogue of light and shadow, we see.\n\nAn embrace of technology, it takes the lead,\nSustainability and function it does feed.\nFluid designs, abstract beauty it evokes,\nA canvas for emotions, like art that provokes.\n\nThe harmony of nature and urban demands,\nA dance of contrasts, creation expands.\nEnveloping us, it whispers tales untold,\nA modern tale, forever bold.",
             "Sleek lines bending, shapes transforming,\nModern visions, old norms reforming.\nLight floods in through windows vast,\nCreating spaces, harmonies that last.\n\nGeometry dances, structures defy,\nUnconventional beauty enticing the eye.\nInnovation blooms, traditions relinquished,\nMaterials melded, old limits demolished.\n\nA fusion of function and art's enchantment,\nMinimalist yet bold, a visual statement.\nNo frills, no excess, just elegant precision,\nReflecting a world in constant transition.\n\nEmbracing technology, a symphony of glass,\nSteel and concrete, where forms contrast.\nThe present incarnate, in each steel beam,\nCrafting stories anew, in this modern dream."
         ],
-        "icon": "contemporary.png"
+        "icon": "contemporary.png",
+        "style_similarity": {
+            "Contemporary": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.056265984654731455
+            },
+            "Stilt House": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.17473118279569894
+            },
+            "Ranch-style house": {
+                "unweighted": 0.04854368932038835,
+                "weighted": 0.15159574468085107
+            },
+            "Victorian": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.0076726342710997444
+            },
+            "Art Deco": {
+                "unweighted": 0.10576923076923077,
+                "weighted": 0.2572178477690289
+            },
+            "Colonial": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Brutalism": {
+                "unweighted": 0.10465116279069768,
+                "weighted": 0.29380053908355797
+            },
+            "Ancient Greek": {
+                "unweighted": 0.028846153846153848,
+                "weighted": 0.0639386189258312
+            },
+            "Ancient Roman": {
+                "unweighted": 0.03409090909090909,
+                "weighted": 0.0792838874680307
+            },
+            "Romanesque": {
+                "unweighted": 0.019230769230769232,
+                "weighted": 0.026246719160104987
+            },
+            "Gothic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Baroque": {
+                "unweighted": 0.017699115044247787,
+                "weighted": 0.0332409972299169
+            },
+            "Renaissance": {
+                "unweighted": 0.01680672268907563,
+                "weighted": 0.058823529411764705
+            },
+            "Neoclassical": {
+                "unweighted": 0.05319148936170213,
+                "weighted": 0.09711286089238845
+            },
+            "Art Nouveau": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.09703504043126684
+            },
+            "Bauhaus": {
+                "unweighted": 0.25,
+                "weighted": 0.5856777493606138
+            },
+            "Muscovite": {
+                "unweighted": 0.012738853503184714,
+                "weighted": 0.02557544757033248
+            },
+            "Constructivism": {
+                "unweighted": 0.19791666666666666,
+                "weighted": 0.5080645161290323
+            },
+            "Mud Brick": {
+                "unweighted": 0.036036036036036036,
+                "weighted": 0.08398950131233596
+            },
+            "Swahili": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.18635170603674542
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.01818181818181818,
+                "weighted": 0.03504043126684636
+            },
+            "Modern Islamic": {
+                "unweighted": 0.14285714285714285,
+                "weighted": 0.3631713554987212
+            },
+            "Gupta": {
+                "unweighted": 0.017391304347826087,
+                "weighted": 0.06036745406824147
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.007751937984496124,
+                "weighted": 0.005249343832020997
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.034031413612565446
+            },
+            "Edo Period": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.15601023017902813
+            },
+            "Khmer Empire": {
+                "unweighted": 0.015267175572519083,
+                "weighted": 0.015345268542199489
+            },
+            "Thai": {
+                "unweighted": 0.007874015748031496,
+                "weighted": 0.020460358056265986
+            },
+            "Timurid Period": {
+                "unweighted": 0.02857142857142857,
+                "weighted": 0.07349081364829396
+            },
+            "Persian": {
+                "unweighted": 0.04716981132075472,
+                "weighted": 0.07329842931937172
+            }
+        }
     },
     "Contemporary Oceania": {
         "architects": [
@@ -4864,7 +6376,133 @@
             "In a graceful realm, tradition embraced,\nElegant strokes, craftsmanship displayed,\nWooden structures, reaching for the skies,\nWhispers of a past, where beauty lies.\n\nLattice doors, with secrets gently veiled,\nQuiet gardens, tranquil beauty unveiled,\nTatami mats, where stories were woven,\nWhispered tales of a world once cloven.\n\nRoofs curved, like a dancer in motion,\nA symphony of serenity, an ancient notion,\nPaper walls, translucent and serene,\nSoftened sunlight, casting a gentle scene.\n\nHigh-rising walls enclose a precious air,\nBridging past and present with utmost care,\nZen gardens, designed with mindful poise,\nReflecting harmony, awakening inner joys.\n\nPristine bridges, crossing waters serene,\nWhile gentle ripples mirror heavens seen,\nA refuge of calm in a world forlorn,\nWhere tranquility reigns from dusk to morn.\n\nThis architecture whispers tales untold,\nOf a time when honor and grace took hold,\nBeneath intricate roofs, stories unfold,\nA timeless beauty in architecture's mold.",
             "In ancient realm, where cherry blossoms sway,\nBuilt by masters, with craftsmanship they display.\nTimber frames stretching tall in symphony,\nHumble abodes, painted, proud and free.\n\nTranslucent shoji screens invite soft light,\nPaper wings fluttering through twilight.\nLandscape gardens, serene and refined,\nContained beauty, a peaceful design.\n\nSliding doors, whispers of secrets heard,\nThrough wooden halls, a tale softly stirred.\nEarthen walls, curved roofs that gently bow,\nHarmony with nature, each structure endowed.\n\nWooden eaves with intricate carvings seen,\nGuardian statues gracing entrance serene. \nDelicate bridges, arching over streams,\nReflections scattered, rippling like dreams.\n\nTraditional charm, preserved with great care,\nSilent whispers of a timeless affair.\nHonoring the past, where history thrives,\nElegance embodied, forever alive."
         ],
-        "marker": 32
+        "marker": 32,
+        "style_similarity": {
+            "Edo Period": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.041379310344827586,
+                "weighted": 0.165
+            },
+            "Stilt House": {
+                "unweighted": 0.037037037037037035,
+                "weighted": 0.13910761154855644
+            },
+            "Ranch-style house": {
+                "unweighted": 0.021897810218978103,
+                "weighted": 0.07532467532467532
+            },
+            "Victorian": {
+                "unweighted": 0.022727272727272728,
+                "weighted": 0.1
+            },
+            "Art Deco": {
+                "unweighted": 0.027972027972027972,
+                "weighted": 0.11282051282051282
+            },
+            "Colonial": {
+                "unweighted": 0.051094890510948905,
+                "weighted": 0.2225
+            },
+            "Brutalism": {
+                "unweighted": 0.032520325203252036,
+                "weighted": 0.09736842105263158
+            },
+            "Contemporary": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.15601023017902813
+            },
+            "Ancient Greek": {
+                "unweighted": 0.06923076923076923,
+                "weighted": 0.2825
+            },
+            "Ancient Roman": {
+                "unweighted": 0.0603448275862069,
+                "weighted": 0.205
+            },
+            "Romanesque": {
+                "unweighted": 0.029850746268656716,
+                "weighted": 0.09230769230769231
+            },
+            "Gothic": {
+                "unweighted": 0.02097902097902098,
+                "weighted": 0.0375
+            },
+            "Baroque": {
+                "unweighted": 0.00684931506849315,
+                "weighted": 0.008108108108108109
+            },
+            "Renaissance": {
+                "unweighted": 0.04794520547945205,
+                "weighted": 0.1875
+            },
+            "Neoclassical": {
+                "unweighted": 0.056451612903225805,
+                "weighted": 0.24358974358974358
+            },
+            "Art Nouveau": {
+                "unweighted": 0.027586206896551724,
+                "weighted": 0.10789473684210527
+            },
+            "Bauhaus": {
+                "unweighted": 0.05185185185185185,
+                "weighted": 0.1475
+            },
+            "Muscovite": {
+                "unweighted": 0.026881720430107527,
+                "weighted": 0.09
+            },
+            "Constructivism": {
+                "unweighted": 0.020833333333333332,
+                "weighted": 0.09186351706036745
+            },
+            "Mud Brick": {
+                "unweighted": 0.05,
+                "weighted": 0.16666666666666666
+            },
+            "Swahili": {
+                "unweighted": 0.046242774566473986,
+                "weighted": 0.2205128205128205
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.051094890510948905,
+                "weighted": 0.15526315789473685
+            },
+            "Modern Islamic": {
+                "unweighted": 0.043478260869565216,
+                "weighted": 0.2025
+            },
+            "Gupta": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.25384615384615383
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.03184713375796178,
+                "weighted": 0.1
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.12096774193548387,
+                "weighted": 0.34782608695652173
+            },
+            "Khmer Empire": {
+                "unweighted": 0.057692307692307696,
+                "weighted": 0.18
+            },
+            "Thai": {
+                "unweighted": 0.0958904109589041,
+                "weighted": 0.2875
+            },
+            "Timurid Period": {
+                "unweighted": 0.05263157894736842,
+                "weighted": 0.2230769230769231
+            },
+            "Persian": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.23529411764705882
+            }
+        }
     },
     "Expressionism": {
         "architects": [
@@ -5997,7 +7635,133 @@
             "Towers stretch towards the sky so high,\nPointed arches grazing heavenly light.\nStained glass windows shimmer with hues,\nWhispering ancient tales they imbue.\n\nMajestic spires piercing the clouds,\nStone ribbed vaults echoing divine sounds.\nIntricate carvings, mythical beasts entwined,\nOverwhelming, grandeur of an era behind.\n\nCloistered halls, cloaked in shadows' dance,\nExquisite craftsmanship in every glance.\nColumns rise, supporting a sacred space,\nAn ode to history, time cannot erase.\n\nA symphony of stone, a haunting grace,\nWhispering secrets of a forgotten place.\nSilent guardians of an age long gone,\nA legacy of beauty, eternally drawn.",
             "In stony grace, the great castles rise, \nTheir arches reach for endless skies.\nWindows tall in intricate designs, \nStained glass glowing, colors that bind.\n\nCathedrals soar, with spires so high,\nPinnacles that seem to touch the sky.\nRays of light, through vaulted halls, \nWhisper secrets of ancient walls.\n\nFlying buttresses, like branches spread,\nThey hold the weight, no words unsaid.\nGargoyles guard, on the towers' edge,\nSilent sentinels, darkly etched.\n\nMystery dwells within each nook,\nIn hidden corners, stories they took.\nMajestic forms, of grandeur and might,\nAwe and wonder in every sight.\n\nA solemn beauty, an air of gloom,\nYet captivating, like an ancient tomb.\nThis architecture, a romantic tale,\nOf shadows and light, forever prevail.",
             "In shadows cast by spires tall, \nWhere ancient stones embrace the skies,\nA symphony of lines enthralls,\nIn sublime grace, secrets arise.\n\nVictories carved in arching arcs,\nStone lace that weaves the heavens tight,\nPillars strong like ancient oak barks,\nVaults whisper secrets in the night.\n\nStained glass dreams in colors bleed,\nCelestial stories, truths unfold,\nMajestic windows, treasures freed,\nIn kaleidoscopic tales enfold.\n\nCloisters winding, through time's embrace,\nA labyrinth where souls find solace,\nWhispered echoes, a sacred space,\nAs stone and air fuse in one place.\n\nA grandeur born from age and strife,\nCathedral hymns that pierce the soul,\nA testament to endless life,\nIn darkened beauty, dreams unfold."
-        ]
+        ],
+        "style_similarity": {
+            "Gothic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.031007751937984496,
+                "weighted": 0.1225
+            },
+            "Stilt House": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Ranch-style house": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.01818181818181818
+            },
+            "Victorian": {
+                "unweighted": 0.06363636363636363,
+                "weighted": 0.1925
+            },
+            "Art Deco": {
+                "unweighted": 0.032,
+                "weighted": 0.09230769230769231
+            },
+            "Colonial": {
+                "unweighted": 0.04132231404958678,
+                "weighted": 0.0725
+            },
+            "Brutalism": {
+                "unweighted": 0.009259259259259259,
+                "weighted": 0.02631578947368421
+            },
+            "Contemporary": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Ancient Greek": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.085
+            },
+            "Ancient Roman": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.1975
+            },
+            "Romanesque": {
+                "unweighted": 0.1320754716981132,
+                "weighted": 0.35128205128205126
+            },
+            "Baroque": {
+                "unweighted": 0.06611570247933884,
+                "weighted": 0.2
+            },
+            "Renaissance": {
+                "unweighted": 0.10655737704918032,
+                "weighted": 0.2625
+            },
+            "Neoclassical": {
+                "unweighted": 0.02727272727272727,
+                "weighted": 0.06923076923076923
+            },
+            "Art Nouveau": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.10263157894736842
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.07453416149068323,
+                "weighted": 0.2325
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Mud Brick": {
+                "unweighted": 0.0078125,
+                "weighted": 0.023076923076923078
+            },
+            "Swahili": {
+                "unweighted": 0.03164556962025317,
+                "weighted": 0.10256410256410256
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.06779661016949153,
+                "weighted": 0.16052631578947368
+            },
+            "Modern Islamic": {
+                "unweighted": 0.008,
+                "weighted": 0.0225
+            },
+            "Gupta": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.2128205128205128
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07462686567164178,
+                "weighted": 0.23333333333333334
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.06140350877192982,
+                "weighted": 0.1969309462915601
+            },
+            "Edo Period": {
+                "unweighted": 0.02097902097902098,
+                "weighted": 0.0375
+            },
+            "Khmer Empire": {
+                "unweighted": 0.072992700729927,
+                "weighted": 0.2225
+            },
+            "Thai": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.1375
+            },
+            "Timurid Period": {
+                "unweighted": 0.07017543859649122,
+                "weighted": 0.20256410256410257
+            },
+            "Persian": {
+                "unweighted": 0.041666666666666664,
+                "weighted": 0.1483375959079284
+            }
+        }
     },
     "Gothic Revival": {
         "architects": [
@@ -6477,7 +8241,133 @@
             "In ages past, a realm emerged,\nWhere marvels of time were soon unearthed.\nSterling temples with grandeur untold,\nThe journey to an era of gold.\n\nPillars rise, majestic and tall,\nEmbracing heavens, standing proud and enthralled.\nIntricate carvings grace every stone,\nTales from the past, eternally shown.\n\nArcs and domes, a symphony in grace,\nCaptivating vistas, flourishing space.\nDynamic sculptures, alive in stance,\nFusion of art, a divine romance.\n\nSplendid archways, like gateways to dreams,\nGuarding secrets as ancient rivers stream.\nPerfect harmony of symmetry and curves,\nImbued with passion, this legacy preserves.\n\nDiverse cultures blend, a tapestry is weaved,\nWhispering stories, of love and beliefs.\nAn era revered, where history was made,\nThrough this poem, its essence conveyed."
         ],
         "icon": "gupta.png",
-        "marker": 34
+        "marker": 34,
+        "style_similarity": {
+            "Gupta": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.11475409836065574,
+                "weighted": 0.36666666666666664
+            },
+            "Stilt House": {
+                "unweighted": 0.05042016806722689,
+                "weighted": 0.0862533692722372
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2948717948717949
+            },
+            "Art Deco": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.22631578947368422
+            },
+            "Colonial": {
+                "unweighted": 0.05737704918032787,
+                "weighted": 0.19487179487179487
+            },
+            "Brutalism": {
+                "unweighted": 0.009009009009009009,
+                "weighted": 0.032432432432432434
+            },
+            "Contemporary": {
+                "unweighted": 0.017391304347826087,
+                "weighted": 0.06036745406824147
+            },
+            "Ancient Greek": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3128205128205128
+            },
+            "Ancient Roman": {
+                "unweighted": 0.16129032258064516,
+                "weighted": 0.4230769230769231
+            },
+            "Romanesque": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.18157894736842106
+            },
+            "Gothic": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.2128205128205128
+            },
+            "Baroque": {
+                "unweighted": 0.07317073170731707,
+                "weighted": 0.20833333333333334
+            },
+            "Renaissance": {
+                "unweighted": 0.13114754098360656,
+                "weighted": 0.37435897435897436
+            },
+            "Neoclassical": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.2394736842105263
+            },
+            "Art Nouveau": {
+                "unweighted": 0.072,
+                "weighted": 0.21351351351351353
+            },
+            "Bauhaus": {
+                "unweighted": 0.016,
+                "weighted": 0.06666666666666667
+            },
+            "Muscovite": {
+                "unweighted": 0.1069182389937107,
+                "weighted": 0.31794871794871793
+            },
+            "Constructivism": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.05660377358490566
+            },
+            "Mud Brick": {
+                "unweighted": 0.03937007874015748,
+                "weighted": 0.0868421052631579
+            },
+            "Swahili": {
+                "unweighted": 0.11409395973154363,
+                "weighted": 0.3447368421052632
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4135135135135135
+            },
+            "Modern Islamic": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.15128205128205127
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.13076923076923078,
+                "weighted": 0.35789473684210527
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.1588785046728972,
+                "weighted": 0.4566929133858268
+            },
+            "Edo Period": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.25384615384615383
+            },
+            "Khmer Empire": {
+                "unweighted": 0.18110236220472442,
+                "weighted": 0.4897435897435897
+            },
+            "Thai": {
+                "unweighted": 0.14173228346456693,
+                "weighted": 0.4256410256410256
+            },
+            "Timurid Period": {
+                "unweighted": 0.12612612612612611,
+                "weighted": 0.41842105263157897
+            },
+            "Persian": {
+                "unweighted": 0.15315315315315314,
+                "weighted": 0.3910761154855643
+            }
+        }
     },
     "Heian period": {
         "architects": [
@@ -7855,7 +9745,133 @@
             "Intricate arches soar towards the skies,\nWhere East and West intertwine with grace,\nEchoing tales of diverse heritage,\nA symphony of cultures interlace.\n\nBorrowed wonders from a bygone age,\nFrom India's sun-kissed realms they take,\nEmbracing Islamic flourishes,\nA fusion of beauty starts to wake.\n\nOpulence drips from every ornate wall,\nMajestic domes and minarets stand tall,\nEnchanting patterns like stories unfold,\nIntriguing travelers' eyes with their enthrall.\n\nPalatial elegance takes its stance,\nMerging Mughal, Gothic, hints of grace,\nLeaving beholders in awe-struck trance,\nA testament of artistry's embrace.\n\nWhispers of history fill the air,\nAs vibrant hues adorn the landscape,\nEast and West's love affair found its heir,\nIn this amalgamation, our past takes shape.",
             "In lands where cultures intertwine,\nA fusion of beauty, grand design.\nEastern charm meets Western grace,\nCreating structures that amaze.\n\nEthereal domes reach for the sky,\nCarved arches, mesmerizing the eye.\nImpressive minarets, tall and proud,\nEchoing prayers, clear and loud.\n\nMajestic palaces, adorned with art,\nBlend Moorish patterns, playing their part.\nIntricate details, intricate lace,\nWhispering tales of an ancient place.\n\nWhitewashed walls, shimmering in light,\nGardens blooming, colors ignite.\nColonial grandeur, embraced with care,\nRoyal elegance, beyond compare.\n\nIntriguing symphony of past and now,\nWhere history whispers, secrets endow.\nA tribute to unity, cultures entwined,\nIn this architectural marvel, an ode defined."
         ],
-        "marker": 35
+        "marker": 35,
+        "style_similarity": {
+            "Indo-Saracenic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.24358974358974358
+            },
+            "Stilt House": {
+                "unweighted": 0.014705882352941176,
+                "weighted": 0.0215633423180593
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0072992700729927005,
+                "weighted": 0.008
+            },
+            "Victorian": {
+                "unweighted": 0.10833333333333334,
+                "weighted": 0.34102564102564104
+            },
+            "Art Deco": {
+                "unweighted": 0.050724637681159424,
+                "weighted": 0.16842105263157894
+            },
+            "Colonial": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.11794871794871795
+            },
+            "Brutalism": {
+                "unweighted": 0.008064516129032258,
+                "weighted": 0.02972972972972973
+            },
+            "Contemporary": {
+                "unweighted": 0.007751937984496124,
+                "weighted": 0.005249343832020997
+            },
+            "Ancient Greek": {
+                "unweighted": 0.06201550387596899,
+                "weighted": 0.15897435897435896
+            },
+            "Ancient Roman": {
+                "unweighted": 0.08035714285714286,
+                "weighted": 0.24871794871794872
+            },
+            "Romanesque": {
+                "unweighted": 0.0625,
+                "weighted": 0.15263157894736842
+            },
+            "Gothic": {
+                "unweighted": 0.07462686567164178,
+                "weighted": 0.23333333333333334
+            },
+            "Baroque": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.25555555555555554
+            },
+            "Renaissance": {
+                "unweighted": 0.15267175572519084,
+                "weighted": 0.4
+            },
+            "Neoclassical": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.16842105263157894
+            },
+            "Art Nouveau": {
+                "unweighted": 0.0425531914893617,
+                "weighted": 0.17027027027027028
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.125,
+                "weighted": 0.3769230769230769
+            },
+            "Constructivism": {
+                "unweighted": 0.006944444444444444,
+                "weighted": 0.008086253369272238
+            },
+            "Mud Brick": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.039473684210526314
+            },
+            "Swahili": {
+                "unweighted": 0.08484848484848485,
+                "weighted": 0.28421052631578947
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.09230769230769231,
+                "weighted": 0.2891891891891892
+            },
+            "Modern Islamic": {
+                "unweighted": 0.07575757575757576,
+                "weighted": 0.2282051282051282
+            },
+            "Gupta": {
+                "unweighted": 0.13076923076923078,
+                "weighted": 0.35789473684210527
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.15126050420168066,
+                "weighted": 0.4540682414698163
+            },
+            "Edo Period": {
+                "unweighted": 0.03184713375796178,
+                "weighted": 0.1
+            },
+            "Khmer Empire": {
+                "unweighted": 0.13194444444444445,
+                "weighted": 0.3564102564102564
+            },
+            "Thai": {
+                "unweighted": 0.0896551724137931,
+                "weighted": 0.2717948717948718
+            },
+            "Timurid Period": {
+                "unweighted": 0.15966386554621848,
+                "weighted": 0.4605263157894737
+            },
+            "Persian": {
+                "unweighted": 0.175,
+                "weighted": 0.45144356955380577
+            }
+        }
     },
     "Indonesian": {
         "architects": [
@@ -9268,7 +11284,133 @@
             "Intricate carvings grace ancient halls,\nA symphony of stories on each stone,\nMajestic spires piercing the sky,\nA testament to a kingdom's throne.\n\nColumns reach towards celestial heights,\nBathed in the glow of a golden sun,\nGuardians of beauty, strength, and might,\nWhere secrets lie, a treasure won.\n\nLotus blossoms adorn sacred shrines,\nTheir petals delicate, vibrant and wise,\nMystical bridges span tranquil ponds,\nReflecting serenity in tranquil skies.\n\nSilent whispers echo through the trees,\nAncient secrets hidden in the breeze,\nA dance of balance, harmony revealed,\nThrough art immortal, history concealed.\n\nMarvels of artistry, transcendent of time,\nMemories etched in temples divine,\nThe splendor of a bygone era, grand,\nAn architectural marvel, resplendent and unplanned."
         ],
         "icon": "khmer_empire.png",
-        "marker": 36
+        "marker": 36,
+        "style_similarity": {
+            "Khmer Empire": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.11764705882352941,
+                "weighted": 0.38
+            },
+            "Stilt House": {
+                "unweighted": 0.029197080291970802,
+                "weighted": 0.04199475065616798
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.07086614173228346,
+                "weighted": 0.235
+            },
+            "Art Deco": {
+                "unweighted": 0.03496503496503497,
+                "weighted": 0.11794871794871795
+            },
+            "Colonial": {
+                "unweighted": 0.04316546762589928,
+                "weighted": 0.15
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.015267175572519083,
+                "weighted": 0.015345268542199489
+            },
+            "Ancient Greek": {
+                "unweighted": 0.06870229007633588,
+                "weighted": 0.2375
+            },
+            "Ancient Roman": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3225
+            },
+            "Romanesque": {
+                "unweighted": 0.05303030303030303,
+                "weighted": 0.1641025641025641
+            },
+            "Gothic": {
+                "unweighted": 0.072992700729927,
+                "weighted": 0.2225
+            },
+            "Baroque": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.1810810810810811
+            },
+            "Renaissance": {
+                "unweighted": 0.11594202898550725,
+                "weighted": 0.3525
+            },
+            "Neoclassical": {
+                "unweighted": 0.056,
+                "weighted": 0.18974358974358974
+            },
+            "Art Nouveau": {
+                "unweighted": 0.056338028169014086,
+                "weighted": 0.16578947368421051
+            },
+            "Bauhaus": {
+                "unweighted": 0.007042253521126761,
+                "weighted": 0.0175
+            },
+            "Muscovite": {
+                "unweighted": 0.0847457627118644,
+                "weighted": 0.3
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Mud Brick": {
+                "unweighted": 0.03496503496503497,
+                "weighted": 0.05128205128205128
+            },
+            "Swahili": {
+                "unweighted": 0.06432748538011696,
+                "weighted": 0.24358974358974358
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.1693548387096774,
+                "weighted": 0.45789473684210524
+            },
+            "Modern Islamic": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.1025
+            },
+            "Gupta": {
+                "unweighted": 0.18110236220472442,
+                "weighted": 0.4897435897435897
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.13194444444444445,
+                "weighted": 0.3564102564102564
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.1864406779661017,
+                "weighted": 0.5115089514066496
+            },
+            "Edo Period": {
+                "unweighted": 0.057692307692307696,
+                "weighted": 0.18
+            },
+            "Thai": {
+                "unweighted": 0.13380281690140844,
+                "weighted": 0.3925
+            },
+            "Timurid Period": {
+                "unweighted": 0.11904761904761904,
+                "weighted": 0.3871794871794872
+            },
+            "Persian": {
+                "unweighted": 0.125,
+                "weighted": 0.35294117647058826
+            }
+        }
     },
     "Korean": {
         "architects": [
@@ -10306,7 +12448,133 @@
             "In lands where ancient sun gods reside,\nStructures stand, towering with pride.\nEmbracing stars and nature’s might,\nTemples raised to enthrall with their sight.\n\nPyramids reach towards a boundless sky,\nSteps leading where souls long to fly.\nCarved glyphs recount stories untold,\nSymbolic tales in stone, precious gold.\n\nArcades, arches, and columns unite,\nAligning dreams, folklores ignite.\nWhitewashed walls in patterns adorned,\nCrafts of skilled hands, praised and reborn.\n\nWhispering winds dance through courtyards fair,\nWhere gods are worshipped with heartfelt prayer,\nA blend of cultures, beliefs entwined,\nCarved beneath sun’s warmth, deeply enshrined.\n\nNature and cosmos in harmony blend,\nA symphony of creation, without end.\nThe anchor of cultures, a testament grand,\nMesmerizing treasures of a sacred land.",
             "Beneath the sun's golden embrace they rise,\nStructures of ancient tales 'neath azure skies.\nAdorned with intricate patterns, stories unfold,\nWhere gods and mortals once intertwined, we're told.\n\nPyramids, proud and towering, reach the clouds,\nSteps leading upward where history enshrouds.\nWith steep slopes carved, ascending fields so steep,\nBreeding reverence as they vigilantly keep.\n\nCarved statues, guardian sentinels stand strong,\nEmbracing tradition, where spirits belong.\nIntricate details etched in stone, telling tales,\nOf mighty empires, their triumphs and travails.\n\nResplendent palaces, echoes of grandeur,\nWhispers of monarchs, once regal allure.\nWalls adorned with glyphs, secrets they retain,\nUnraveling mysteries that history sustains.\n\nThrough time's patient hands, they've weathered each storm,\nWitnessing epochs, civilization's true form.\nSplendors of ancient grace,\nTestaments to a world that time can't erase."
         ],
-        "icon": "mesoamerican.png"
+        "icon": "mesoamerican.png",
+        "style_similarity": {
+            "Mesoamerican": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Stilt House": {
+                "unweighted": 0.016,
+                "weighted": 0.05774278215223097
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.03389830508474576,
+                "weighted": 0.1225
+            },
+            "Art Deco": {
+                "unweighted": 0.06349206349206349,
+                "weighted": 0.1794871794871795
+            },
+            "Colonial": {
+                "unweighted": 0.007692307692307693,
+                "weighted": 0.045
+            },
+            "Brutalism": {
+                "unweighted": 0.017857142857142856,
+                "weighted": 0.07105263157894737
+            },
+            "Contemporary": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.056265984654731455
+            },
+            "Ancient Greek": {
+                "unweighted": 0.08620689655172414,
+                "weighted": 0.2
+            },
+            "Ancient Roman": {
+                "unweighted": 0.0784313725490196,
+                "weighted": 0.22
+            },
+            "Romanesque": {
+                "unweighted": 0.059322033898305086,
+                "weighted": 0.14615384615384616
+            },
+            "Gothic": {
+                "unweighted": 0.031007751937984496,
+                "weighted": 0.1225
+            },
+            "Baroque": {
+                "unweighted": 0.03076923076923077,
+                "weighted": 0.12162162162162163
+            },
+            "Renaissance": {
+                "unweighted": 0.09375,
+                "weighted": 0.2875
+            },
+            "Neoclassical": {
+                "unweighted": 0.03508771929824561,
+                "weighted": 0.1
+            },
+            "Art Nouveau": {
+                "unweighted": 0.046153846153846156,
+                "weighted": 0.12894736842105264
+            },
+            "Bauhaus": {
+                "unweighted": 0.023809523809523808,
+                "weighted": 0.0525
+            },
+            "Muscovite": {
+                "unweighted": 0.07878787878787878,
+                "weighted": 0.2725
+            },
+            "Constructivism": {
+                "unweighted": 0.03076923076923077,
+                "weighted": 0.09186351706036745
+            },
+            "Mud Brick": {
+                "unweighted": 0.022900763358778626,
+                "weighted": 0.038461538461538464
+            },
+            "Swahili": {
+                "unweighted": 0.07006369426751592,
+                "weighted": 0.24871794871794872
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.19090909090909092,
+                "weighted": 0.4631578947368421
+            },
+            "Modern Islamic": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.13
+            },
+            "Gupta": {
+                "unweighted": 0.11475409836065574,
+                "weighted": 0.36666666666666664
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.24358974358974358
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.09565217391304348,
+                "weighted": 0.329923273657289
+            },
+            "Edo Period": {
+                "unweighted": 0.041379310344827586,
+                "weighted": 0.165
+            },
+            "Khmer Empire": {
+                "unweighted": 0.11764705882352941,
+                "weighted": 0.38
+            },
+            "Thai": {
+                "unweighted": 0.08888888888888889,
+                "weighted": 0.32
+            },
+            "Timurid Period": {
+                "unweighted": 0.09482758620689655,
+                "weighted": 0.30512820512820515
+            },
+            "Persian": {
+                "unweighted": 0.09243697478991597,
+                "weighted": 0.27877237851662406
+            }
+        }
     },
     "Mesopotamia": {
         "architects": [
@@ -10830,7 +13098,133 @@
             "Innovative structures, where sleek lines unite,\nA nod to heritage, a vision taking flight.\nSymmetric wonders rising, reaching for the sky,\nRevealing timeless beauty, ever soaring high.\n\nBold geometric patterns, adornments so precise,\nEmbedded in the walls, they speak of rich advice.\nIntricate mosaics, harmoniously entwined,\nWhisper tales of triumphs, customs intertwined.\n\nLight filters gently, through vast arches soaring,\nIlluminating spaces, ethereal and exploring.\nCourtyards bathed in serenity, tranquil and serene,\nInviting prayers and contemplation, amidst a peaceful scene.\n\nScents of cedar and sandalwood, linger in the air,\nAs gentle breezes carry whispers of prayers in prayer.\nTextures find balance, concrete and stone in grace,\nUnveiling masterpieces, in every inch and space.\n\nInnovative, yet rooted in historical embrace,\nAn elegance arising, from ancient times and place.\nModern hues and materials, merge with ancient art,\nCreating visions that captivate, emotions they impart.\n\nIn this majestic fusion, past and future intertwine,\nA testament to faith, heritage beautifully defined.\nEach edifice an ode, to the spirit of the land,\nUnveiling beauty and passion, crafted by skillful hand."
         ],
         "icon": "modern_islamic.png",
-        "marker": 38
+        "marker": 38,
+        "style_similarity": {
+            "Modern Islamic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.13
+            },
+            "Stilt House": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.12598425196850394
+            },
+            "Ranch-style house": {
+                "unweighted": 0.01694915254237288,
+                "weighted": 0.07012987012987013
+            },
+            "Victorian": {
+                "unweighted": 0.008771929824561403,
+                "weighted": 0.0425
+            },
+            "Art Deco": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.2128205128205128
+            },
+            "Colonial": {
+                "unweighted": 0.008130081300813009,
+                "weighted": 0.045
+            },
+            "Brutalism": {
+                "unweighted": 0.049019607843137254,
+                "weighted": 0.10526315789473684
+            },
+            "Contemporary": {
+                "unweighted": 0.14285714285714285,
+                "weighted": 0.3631713554987212
+            },
+            "Ancient Greek": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.1425
+            },
+            "Ancient Roman": {
+                "unweighted": 0.05102040816326531,
+                "weighted": 0.145
+            },
+            "Romanesque": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.02564102564102564
+            },
+            "Gothic": {
+                "unweighted": 0.008,
+                "weighted": 0.0225
+            },
+            "Baroque": {
+                "unweighted": 0.024193548387096774,
+                "weighted": 0.08378378378378379
+            },
+            "Renaissance": {
+                "unweighted": 0.05555555555555555,
+                "weighted": 0.235
+            },
+            "Neoclassical": {
+                "unweighted": 0.0673076923076923,
+                "weighted": 0.19230769230769232
+            },
+            "Art Nouveau": {
+                "unweighted": 0.04032258064516129,
+                "weighted": 0.12894736842105264
+            },
+            "Bauhaus": {
+                "unweighted": 0.07017543859649122,
+                "weighted": 0.225
+            },
+            "Muscovite": {
+                "unweighted": 0.030120481927710843,
+                "weighted": 0.085
+            },
+            "Constructivism": {
+                "unweighted": 0.08547008547008547,
+                "weighted": 0.24934383202099739
+            },
+            "Mud Brick": {
+                "unweighted": 0.040983606557377046,
+                "weighted": 0.15384615384615385
+            },
+            "Swahili": {
+                "unweighted": 0.11805555555555555,
+                "weighted": 0.3641025641025641
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.03333333333333333,
+                "weighted": 0.11315789473684211
+            },
+            "Gupta": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.15128205128205127
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07575757575757576,
+                "weighted": 0.2282051282051282
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.034782608695652174,
+                "weighted": 0.15089514066496162
+            },
+            "Edo Period": {
+                "unweighted": 0.043478260869565216,
+                "weighted": 0.2025
+            },
+            "Khmer Empire": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.1025
+            },
+            "Thai": {
+                "unweighted": 0.029411764705882353,
+                "weighted": 0.085
+            },
+            "Timurid Period": {
+                "unweighted": 0.10091743119266056,
+                "weighted": 0.3153846153846154
+            },
+            "Persian": {
+                "unweighted": 0.17142857142857143,
+                "weighted": 0.45268542199488493
+            }
+        }
     },
     "Moorish": {
         "architects": [
@@ -11374,7 +13768,133 @@
             "In sun-drenched warmth, a home emerges,\nFrom nature's embrace, its essence surges.\nEarth's embrace, patient and strong,\nCreates dwellings, where we belong.\n\nThrough hands that mold, with love and care,\nA sanctuary rises, one that shall bear\nThe test of time, with grace and pride,\nRooted in the earth, yet reaching wide.\n\nWalls, adorning curves of blended hues,\nSerenely stand, crafted with ancient clues.\nWith rustic charm they proudly stand,\nEchoing the art of a seasoned land.\n\nBathed in light, these structures breathe,\nWhispering tales, as spirits beneath.\nTheir ancient rhythm, a timeless dance,\nA sheltering haven, where dreams advance.\n\nOh, harmony crafted by hands so deft,\nAn architecture style, in nature's breadth.\nFar from mere loam or bricks alone,\nA creation imbued with stories unknown.",
             "In earth's embrace, strong dwellings rise,\nCrafted with soil beneath the skies.\nNature's secret, a humble art,\nUnyielding shelters formed by heart.\n\nBaked by sun's fervor, kissed by fire,\nA union whole, inspired desire.\nArchitecture true, from humble hives,\nBearing tales of old, where life thrives.\n\nWalls shaped by hands, rough and bold,\nResilient structures, stories untold.\nOrganic strength, a lasting frame,\nSilent echoes of ancestral fame.\n\nEarthy tones blend with warmth and grace,\nNurturing sanctuary, humble space.\nWithin their walls, traditions reside,\nA tapestry of dreams, magic inside.\n\nFrom ancient lands to modern grace,\nA tribute to time, in every place.\nOh, marvel at the wonder they convey,\nLoam's secret dance, enduring each day."
         ],
-        "marker": 39
+        "marker": 39,
+        "style_similarity": {
+            "Mud Brick": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.022900763358778626,
+                "weighted": 0.038461538461538464
+            },
+            "Stilt House": {
+                "unweighted": 0.10810810810810811,
+                "weighted": 0.29110512129380056
+            },
+            "Ranch-style house": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.14133333333333334
+            },
+            "Victorian": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.02564102564102564
+            },
+            "Art Deco": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Colonial": {
+                "unweighted": 0.07627118644067797,
+                "weighted": 0.14358974358974358
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.036036036036036036,
+                "weighted": 0.08398950131233596
+            },
+            "Ancient Greek": {
+                "unweighted": 0.042735042735042736,
+                "weighted": 0.11025641025641025
+            },
+            "Ancient Roman": {
+                "unweighted": 0.0392156862745098,
+                "weighted": 0.08205128205128205
+            },
+            "Romanesque": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.09736842105263158
+            },
+            "Gothic": {
+                "unweighted": 0.0078125,
+                "weighted": 0.023076923076923078
+            },
+            "Baroque": {
+                "unweighted": 0.023622047244094488,
+                "weighted": 0.03888888888888889
+            },
+            "Renaissance": {
+                "unweighted": 0.03816793893129771,
+                "weighted": 0.09230769230769231
+            },
+            "Neoclassical": {
+                "unweighted": 0.03636363636363636,
+                "weighted": 0.10789473684210527
+            },
+            "Art Nouveau": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.06756756756756757
+            },
+            "Bauhaus": {
+                "unweighted": 0.02459016393442623,
+                "weighted": 0.041025641025641026
+            },
+            "Muscovite": {
+                "unweighted": 0.029585798816568046,
+                "weighted": 0.04358974358974359
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Swahili": {
+                "unweighted": 0.09333333333333334,
+                "weighted": 0.3078947368421053
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.032520325203252036,
+                "weighted": 0.08648648648648649
+            },
+            "Modern Islamic": {
+                "unweighted": 0.040983606557377046,
+                "weighted": 0.15384615384615385
+            },
+            "Gupta": {
+                "unweighted": 0.03937007874015748,
+                "weighted": 0.0868421052631579
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.039473684210526314
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.05172413793103448,
+                "weighted": 0.13648293963254593
+            },
+            "Edo Period": {
+                "unweighted": 0.05,
+                "weighted": 0.16666666666666666
+            },
+            "Khmer Empire": {
+                "unweighted": 0.03496503496503497,
+                "weighted": 0.05128205128205128
+            },
+            "Thai": {
+                "unweighted": 0.043795620437956206,
+                "weighted": 0.10512820512820513
+            },
+            "Timurid Period": {
+                "unweighted": 0.025,
+                "weighted": 0.042105263157894736
+            },
+            "Persian": {
+                "unweighted": 0.04132231404958678,
+                "weighted": 0.10498687664041995
+            }
+        }
     },
     "Mughal Empire": {
         "architects": [
@@ -11753,7 +14273,133 @@
             "Where domes ascend, in hues of glory,\nPiercing heavens with tales untold,\nAncient art, dreams transitory,\nIn stone and gold, a sight behold.\n\nSpires wrap skies in intricate dance,\nAs time embraces bygone days,\nAdorned with gems, a joyful trance,\nWhispering secrets, ancient ways.\n\nCurved arches grace each noble gate,\nUshering echoes from world's embrace,\nWindows bear legends, intricate fate,\nFeats of men, history's serene face.\n\nMajestic columns stand tall and proud,\nSupporting structures, age-old guise,\nEternal guardians, hallowed shroud,\nHistory's symphony that never dies.\n\nThe streets come alive, enchanted maze,\nLining echoes of noble past,\nA tapestry woven across the haze,\nA testament that forever shall last."
         ],
         "icon": "muscovite.png",
-        "marker": 40
+        "marker": 40,
+        "style_similarity": {
+            "Muscovite": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.07878787878787878,
+                "weighted": 0.2725
+            },
+            "Stilt House": {
+                "unweighted": 0.006024096385542169,
+                "weighted": 0.015748031496062992
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.0945945945945946,
+                "weighted": 0.32
+            },
+            "Art Deco": {
+                "unweighted": 0.05454545454545454,
+                "weighted": 0.19230769230769232
+            },
+            "Colonial": {
+                "unweighted": 0.030120481927710843,
+                "weighted": 0.0925
+            },
+            "Brutalism": {
+                "unweighted": 0.006535947712418301,
+                "weighted": 0.039473684210526314
+            },
+            "Contemporary": {
+                "unweighted": 0.012738853503184714,
+                "weighted": 0.02557544757033248
+            },
+            "Ancient Greek": {
+                "unweighted": 0.031055900621118012,
+                "weighted": 0.105
+            },
+            "Ancient Roman": {
+                "unweighted": 0.06382978723404255,
+                "weighted": 0.2175
+            },
+            "Romanesque": {
+                "unweighted": 0.09271523178807947,
+                "weighted": 0.23076923076923078
+            },
+            "Gothic": {
+                "unweighted": 0.07453416149068323,
+                "weighted": 0.2325
+            },
+            "Baroque": {
+                "unweighted": 0.10126582278481013,
+                "weighted": 0.3027027027027027
+            },
+            "Renaissance": {
+                "unweighted": 0.11801242236024845,
+                "weighted": 0.3225
+            },
+            "Neoclassical": {
+                "unweighted": 0.039473684210526314,
+                "weighted": 0.11794871794871795
+            },
+            "Art Nouveau": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.20789473684210527
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Constructivism": {
+                "unweighted": 0.005780346820809248,
+                "weighted": 0.005249343832020997
+            },
+            "Mud Brick": {
+                "unweighted": 0.029585798816568046,
+                "weighted": 0.04358974358974359
+            },
+            "Swahili": {
+                "unweighted": 0.06666666666666667,
+                "weighted": 0.2358974358974359
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.062111801242236024,
+                "weighted": 0.19736842105263158
+            },
+            "Modern Islamic": {
+                "unweighted": 0.030120481927710843,
+                "weighted": 0.085
+            },
+            "Gupta": {
+                "unweighted": 0.1069182389937107,
+                "weighted": 0.31794871794871793
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.125,
+                "weighted": 0.3769230769230769
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.12162162162162163,
+                "weighted": 0.3734015345268542
+            },
+            "Edo Period": {
+                "unweighted": 0.026881720430107527,
+                "weighted": 0.09
+            },
+            "Khmer Empire": {
+                "unweighted": 0.0847457627118644,
+                "weighted": 0.3
+            },
+            "Thai": {
+                "unweighted": 0.08092485549132948,
+                "weighted": 0.305
+            },
+            "Timurid Period": {
+                "unweighted": 0.10596026490066225,
+                "weighted": 0.36666666666666664
+            },
+            "Persian": {
+                "unweighted": 0.08974358974358974,
+                "weighted": 0.3171355498721228
+            }
+        }
     },
     "Māru-Gurjara": {
         "architects": [
@@ -12601,7 +15247,133 @@
             "In grandeur revealed, a symphony of stone,\nLines and curves, harmonious yet bold,\nWhispers of ancient grace in every fold,\nIn this, a style where history is sown.\n\nColumns reaching skyward, a heavenly delight,\nInspired by the temples of ancient lore,\nA tribute to wisdom and culture once more,\nStanding proud, a beacon in the night.\n\nBalance and order guide the soaring dome,\nEvery element meticulously placed and adorned,\nGraceful arches embrace, pillars firm and strong,\nEchoing eras past, creating a timeless home.\n\nA revival of elegance, ne'er out of vogue,\nCaptivating hearts, transcending time's hold,\nWith love for the classics, eternal stories told,\nA beauty reborn, in this architectural rogue.",
             "In grandeur rising, columns stand tall,\nA harmony of grace, revered by all.\nAncient echoes whisper on the breeze,\nA revival of antiquity, meant to appease.\n\nSculpted sculptures adorn the facade,\nEchoes of gods in a timeless charade.\nSymmetry and balance, a visual feast,\nGeometry unleashed, its vision released.\n\nPediments gaze upon an azure sky,\nEntrances marked, inviting each passerby.\nAn ode to Rome, Greece's ancient might,\nCaptivating minds, recreating the light.\n\nMajestic archways tell stories untold,\nArcades of elegance, in marble cold.\nGlorious domes, aspiring to the divine,\nAn era reborn, in beauty's defined.\n\nColumns, keystones, friezes carved with care,\nArchitectural splendor, beyond compare.\nWith purity and purity, it stands enthralled,\nA resplendent dance, admired by all.",
             "Columns strong and elegant, standing tall,\nGraceful arches, ne’er to crack or fall.\nAncient ideals, reborn with pride,\nSymmetry and balance, side by side.\n\nInspired by days of mighty Rome,\nGlowing splendor, a golden dome.\nGrecian influence, gods revered,\nSerene beauty, refined and cleared.\n\nLines clean and crisp, precision art,\nHarmony of elements, a perfect part.\nFinest craftsmanship, attention paid,\nHistory revived, ancient wisdom displayed.\n\nGraceful pediments, adorned and grand,\nNoble facades, a majestic brand.\nEmbracing order, tranquil and serene,\nBeauty timeless, forever to be seen.\n\nOh, architecture, your glory proclaimed,\nA timeless style, revered and acclaimed.\nFusing worlds old and new, refined embrace,\nAn architectural masterpiece, resplendent grace."
-        ]
+        ],
+        "style_similarity": {
+            "Neoclassical": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.03508771929824561,
+                "weighted": 0.1
+            },
+            "Stilt House": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.06199460916442048
+            },
+            "Ranch-style house": {
+                "unweighted": 0.009433962264150943,
+                "weighted": 0.021333333333333333
+            },
+            "Victorian": {
+                "unweighted": 0.0625,
+                "weighted": 0.16923076923076924
+            },
+            "Art Deco": {
+                "unweighted": 0.06542056074766354,
+                "weighted": 0.20789473684210527
+            },
+            "Colonial": {
+                "unweighted": 0.15625,
+                "weighted": 0.4282051282051282
+            },
+            "Brutalism": {
+                "unweighted": 0.010752688172043012,
+                "weighted": 0.024324324324324326
+            },
+            "Contemporary": {
+                "unweighted": 0.05319148936170213,
+                "weighted": 0.09711286089238845
+            },
+            "Ancient Greek": {
+                "unweighted": 0.21839080459770116,
+                "weighted": 0.5282051282051282
+            },
+            "Ancient Roman": {
+                "unweighted": 0.0975609756097561,
+                "weighted": 0.2205128205128205
+            },
+            "Romanesque": {
+                "unweighted": 0.05,
+                "weighted": 0.14473684210526316
+            },
+            "Gothic": {
+                "unweighted": 0.02727272727272727,
+                "weighted": 0.06923076923076923
+            },
+            "Baroque": {
+                "unweighted": 0.06542056074766354,
+                "weighted": 0.19166666666666668
+            },
+            "Renaissance": {
+                "unweighted": 0.2,
+                "weighted": 0.517948717948718
+            },
+            "Art Nouveau": {
+                "unweighted": 0.03571428571428571,
+                "weighted": 0.10810810810810811
+            },
+            "Bauhaus": {
+                "unweighted": 0.06862745098039216,
+                "weighted": 0.12307692307692308
+            },
+            "Muscovite": {
+                "unweighted": 0.039473684210526314,
+                "weighted": 0.11794871794871795
+            },
+            "Constructivism": {
+                "unweighted": 0.02702702702702703,
+                "weighted": 0.05660377358490566
+            },
+            "Mud Brick": {
+                "unweighted": 0.03636363636363636,
+                "weighted": 0.10789473684210527
+            },
+            "Swahili": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.22631578947368422
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.21351351351351353
+            },
+            "Modern Islamic": {
+                "unweighted": 0.0673076923076923,
+                "weighted": 0.19230769230769232
+            },
+            "Gupta": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.2394736842105263
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.16842105263157894
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.0707070707070707,
+                "weighted": 0.24671916010498687
+            },
+            "Edo Period": {
+                "unweighted": 0.056451612903225805,
+                "weighted": 0.24358974358974358
+            },
+            "Khmer Empire": {
+                "unweighted": 0.056,
+                "weighted": 0.18974358974358974
+            },
+            "Thai": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.2230769230769231
+            },
+            "Timurid Period": {
+                "unweighted": 0.08080808080808081,
+                "weighted": 0.22631578947368422
+            },
+            "Persian": {
+                "unweighted": 0.1,
+                "weighted": 0.30708661417322836
+            }
+        }
     },
     "Neolithic": {
         "architects": [
@@ -14373,7 +17145,133 @@
             "In sunlit lands where domes appear,\nImprinted tales of art and cheer.\nCarved arches soar to touch the sky,\nCreating realms that never die.\n\nStones poised with intricate designs,\nWhispering secrets from ancient times.\nColorful tiles grace every wall,\nUnveiling tales of kings enthralled.\n\nIntricate gardens, lush and grand,\nHarmony in every blade of sand.\nWater flowing with gentle grace,\nReflecting beauty, a sacred space.\n\nClustered ceilings, hushed and wide,\nHolding dreams from a painter's ride.\nColumns stand tall, like proud sentries,\nGuarding stories, sweet mysteries.\n\nA symphony of light and shade,\nCourtyards framed where fountains cascade.\nSilent echoes, a song of souls,\nRadiating warmth, as culture unfolds.\n\nThrough art's embrace, a rich flair,\nWhispers of culture fill the air.\nA legacy treasured, forever true,\nIn every sight, a masterpiece anew."
         ],
         "icon": "persian.png",
-        "marker": 42
+        "marker": 42,
+        "style_similarity": {
+            "Persian": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.09243697478991597,
+                "weighted": 0.27877237851662406
+            },
+            "Stilt House": {
+                "unweighted": 0.02586206896551724,
+                "weighted": 0.03494623655913978
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.07547169811320754,
+                "weighted": 0.23785166240409208
+            },
+            "Art Deco": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2440944881889764
+            },
+            "Colonial": {
+                "unweighted": 0.06956521739130435,
+                "weighted": 0.2071611253196931
+            },
+            "Brutalism": {
+                "unweighted": 0.009523809523809525,
+                "weighted": 0.029649595687331536
+            },
+            "Contemporary": {
+                "unweighted": 0.04716981132075472,
+                "weighted": 0.07329842931937172
+            },
+            "Ancient Greek": {
+                "unweighted": 0.09259259259259259,
+                "weighted": 0.2531969309462916
+            },
+            "Ancient Roman": {
+                "unweighted": 0.13333333333333333,
+                "weighted": 0.29923273657289
+            },
+            "Romanesque": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.12073490813648294
+            },
+            "Gothic": {
+                "unweighted": 0.041666666666666664,
+                "weighted": 0.1483375959079284
+            },
+            "Baroque": {
+                "unweighted": 0.06779661016949153,
+                "weighted": 0.1772853185595568
+            },
+            "Renaissance": {
+                "unweighted": 0.15789473684210525,
+                "weighted": 0.46547314578005117
+            },
+            "Neoclassical": {
+                "unweighted": 0.1,
+                "weighted": 0.30708661417322836
+            },
+            "Art Nouveau": {
+                "unweighted": 0.05785123966942149,
+                "weighted": 0.1778975741239892
+            },
+            "Bauhaus": {
+                "unweighted": 0.025423728813559324,
+                "weighted": 0.0741687979539642
+            },
+            "Muscovite": {
+                "unweighted": 0.08974358974358974,
+                "weighted": 0.3171355498721228
+            },
+            "Constructivism": {
+                "unweighted": 0.03278688524590164,
+                "weighted": 0.06451612903225806
+            },
+            "Mud Brick": {
+                "unweighted": 0.04132231404958678,
+                "weighted": 0.10498687664041995
+            },
+            "Swahili": {
+                "unweighted": 0.10344827586206896,
+                "weighted": 0.35958005249343833
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.10810810810810811,
+                "weighted": 0.3045822102425876
+            },
+            "Modern Islamic": {
+                "unweighted": 0.17142857142857143,
+                "weighted": 0.45268542199488493
+            },
+            "Gupta": {
+                "unweighted": 0.15315315315315314,
+                "weighted": 0.3910761154855643
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.175,
+                "weighted": 0.45144356955380577
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.16831683168316833,
+                "weighted": 0.5157068062827225
+            },
+            "Edo Period": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.23529411764705882
+            },
+            "Khmer Empire": {
+                "unweighted": 0.125,
+                "weighted": 0.35294117647058826
+            },
+            "Thai": {
+                "unweighted": 0.09448818897637795,
+                "weighted": 0.340153452685422
+            },
+            "Timurid Period": {
+                "unweighted": 0.27956989247311825,
+                "weighted": 0.6614173228346457
+            }
+        }
     },
     "Polynesian": {
         "architects": [
@@ -15305,7 +18203,6 @@
             "Interior": 2,
             "Layout": 1,
             "Design": 5,
-            "c": 19,
             "Single-story": 14,
             "Low-pitched": 7,
             "Long": 5,
@@ -15316,7 +18213,6 @@
             "Simple": 6,
             "Practical": 6,
             "Spacious": 6,
-            "err1": 1,
             "Casual": 4,
             "Open floor plan": 7,
             "L-shaped": 1,
@@ -15338,13 +18234,12 @@
             "Blend of indoor and outdoor spaces": 1,
             "Long, low profile": 1,
             "Simple exterior": 2,
-            "Sliding glass doors": 2,
-            "true": 5,
-            "false": 5,
+            "Sliding glass doors": 3,
+            "False": 5,
             "Unfussy": 1,
             "Ranch-style house": 1,
             "Long, asymmetrical facade": 1,
-            "L-shaped or U-shaped layout": 1,
+            "L-shaped or u-shaped layout": 1,
             "Suburban": 1,
             "Structure": 1,
             "Wide front porch": 1,
@@ -15354,9 +18249,8 @@
             "Versatile": 1,
             "Traditional": 1,
             "Doors": 1,
-            "Floor Plan": 1,
-            "Open Layout": 1,
-            "Sliding Glass Doors": 1
+            "Floor plan": 1,
+            "Open layout": 1
         },
         "character": {
             "Characteristic Elements": [
@@ -15377,7 +18271,133 @@
             "Amidst rolling land, a dwelling takes shape,\nA single-story haven, where memories drape.\nLow-lying silhouette blends with nature's grace,\nEmbracing the landscape, a harmonious embrace.\n\nIts sprawling facade whispers warmth and ease,\nUnderneath the sky's embrace it quietly appease.\nWide porches beckon, a comforting retreat,\nWelcoming all who seek tranquility sweet.\n\nUnassuming structure of modest grandeur,\nWith ample windows, inviting sunlight to stir.\nOpen floor plans flow, no barriers in sight,\nAn airy haven where shared moments take flight.\n\nPristine lines adorn this haven of repose,\nSubtle elegance, where classic beauty only grows.\nA fusion of function and style so true,\nAn architectural marvel, a dream come into view.\n\nLines blurred between indoors and outdoors fair,\nUnfolding vistas of green, like an artist's care.\nA dwelling that dances with nature's allure,\nExuding a charm, impeccable and pure.\n\nStories are woven within these humble walls,\nWhere families gather, and cherished times enthrall.\nA treasure trove of love, that forever will stand,\nThis dwelling of warmth, on serene, tranquil land.",
             "Upon wide plains, a dwelling stands,\nEmbraced by nature's gentle hands.\nLow-lying structure, humble in its grace,\nWith one story, unpretentious in its pace.\n\nA symphony of elements, harmoniously aligned,\nCementing roots, a rustic charm enshrined.\nWide eaves proclaim protection from the sun,\nWhispering tales of a life well-spun.\n\nGabled roof, gently pitched, kisses the sky,\nInviting shelter where the heart can fly.\nWarm tones adorn sturdy walls with pride,\nCocoon of comfort, where dreams reside.\n\nWindows extend their gaze, embracing light,\nInviting golden rays to dance, so bright.\nStretching outward, a vista to behold,\nNature's beauty, cherished and untold.\n\nPorches serve as gateways, connecting land and soul,\nWelcoming kin and traditions, making one whole.\nSymbol of unity, gathering place so grand,\nWhere laughter echoes and memories command.\n\nSimple and unadorned, yet soulful and true,\nThe essence of the farm, its spirit breaking through.\nIn each design, a love affair with nature unfolds,\nAs life unfurls, this architecture forever holds.",
             "Upon sweeping earth, adorned with earthly hues,\nA dwelling rises with simplicity and grace.\nLow-slung roof, sheltering like protective muse,\nVisions of warmth within this tranquil space.\n\nWide eaves extend, offering cool respite,\nGently yearning for nature's gentle sway.\nWindows, vast and plentiful, bring forth light,\nEmbracing golden beams throughout the day.\n\nA single story, serene in stoic stance,\nNo towering presence, no grand façade.\nIts humble essence invites a second glance,\nA sanctuary blending harmonious and broad.\n\nDesigned for comfort, where memories thrive,\nWith hearth and hearthside tales in every nook.\nIn simplicity, a tranquil place to revive,\nA portrait of a life, inviting, untouched by rook.\n\nWithin these walls, dwellings find timeless embrace,\nRooted in nature's subtle, peaceful charm.\nA true abode where simplicity leaves no trace,\nA dwelling, a sanctuary, evoking tranquil calm."
-        ]
+        ],
+        "style_similarity": {
+            "Ranch-style house": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Stilt House": {
+                "unweighted": 0.08411214953271028,
+                "weighted": 0.2568306010928962
+            },
+            "Victorian": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Art Deco": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Colonial": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.07792207792207792
+            },
+            "Brutalism": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.043835616438356165
+            },
+            "Contemporary": {
+                "unweighted": 0.04854368932038835,
+                "weighted": 0.15159574468085107
+            },
+            "Ancient Greek": {
+                "unweighted": 0.008771929824561403,
+                "weighted": 0.01818181818181818
+            },
+            "Ancient Roman": {
+                "unweighted": 0.01020408163265306,
+                "weighted": 0.02857142857142857
+            },
+            "Romanesque": {
+                "unweighted": 0.008849557522123894,
+                "weighted": 0.029333333333333333
+            },
+            "Gothic": {
+                "unweighted": 0.008264462809917356,
+                "weighted": 0.01818181818181818
+            },
+            "Baroque": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Renaissance": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Neoclassical": {
+                "unweighted": 0.009433962264150943,
+                "weighted": 0.021333333333333333
+            },
+            "Art Nouveau": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Bauhaus": {
+                "unweighted": 0.05357142857142857,
+                "weighted": 0.14805194805194805
+            },
+            "Muscovite": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Constructivism": {
+                "unweighted": 0.00819672131147541,
+                "weighted": 0.040983606557377046
+            },
+            "Mud Brick": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.14133333333333334
+            },
+            "Swahili": {
+                "unweighted": 0.03289473684210526,
+                "weighted": 0.09866666666666667
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Modern Islamic": {
+                "unweighted": 0.01694915254237288,
+                "weighted": 0.07012987012987013
+            },
+            "Gupta": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0072992700729927005,
+                "weighted": 0.008
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.017699115044247787,
+                "weighted": 0.031914893617021274
+            },
+            "Edo Period": {
+                "unweighted": 0.021897810218978103,
+                "weighted": 0.07532467532467532
+            },
+            "Khmer Empire": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Thai": {
+                "unweighted": 0.014925373134328358,
+                "weighted": 0.033766233766233764
+            },
+            "Timurid Period": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Persian": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            }
+        }
     },
     "Rationalism": {
         "architects": [
@@ -15882,7 +18902,133 @@
             "In days of art's rebirth, arches ascend,\nGraceful columns, lofty and grand.\nSymmetry embraces each carved stone,\nAn era's mark, its elegance shone.\n\nEmbracing history's ancient design,\nMarvelous windows, sunlight divine.\nVaulted ceilings, a celestial embrace,\nA blend of classic and modern in space.\n\nExpertly crafted, details so fine,\nWhispering tales from a bygone rhyme.\nSculptures and statues, tales they do tell,\nOf god and man, forever they dwell.\n\nGolden proportions, harmony's blend,\nCourtyards enchanted, tranquility lend.\nAesthetic balance, order restored,\nMonuments to an age richly adored.",
             "Marvelous structures rise, adorned with grace,\nCarved from the past, a reborn embrace.\nMajestic arches in heavenly proportion,\nColumns stretching high, a grand transformation.\n\nElegant symmetry, a symphony of lines,\nIntricate details intertwine, their beauty shines.\nMonumental facades, timeless allure,\nWhispering tales of artisans so pure.\n\nFlourishes of ornament, a delicate display,\nStained glass windows, casting vibrant rays,\nFrescoes dancing above, celestial scenes,\nWith every brushstroke, a heavenly dream.\n\nCourtyards and gardens, nature's sanctuary,\nMelding with art, an enchanting auxiliary.\nPristine fountains gushing, with waters serene,\nWhispering tranquility, in every pristine sheen.\n\nFrom Italy it emerged, a cultural rebirth,\nExpanding horizons, shaping the Earth.\nA period of enlightenment, humanity's call,\nThe essence of beauty, igniting for all.",
             "In golden light, majestic they stand tall,\nBearing witness to an age that did enthrall.\nColumns reach towards a cerulean sky,\nSymmetry, harmony manifesting high.\n\nArches and domes, graceful curves embrace,\nWhispering tales of an era's lavish grace.\nFrescoes come alive on every wall,\nIn vivid colors, stories they install.\n\nMarble facades with intricate detail,\nCarved reliefs, artisans' pride prevail.\nPalatial windows, ornate and grand,\nTranslucent panes, casting light on land.\n\nA celebration of knowledge profound,\nClassical influences marvelously crowned.\nA testament to human spirit's fire,\nInspiring minds, raising spirits higher.\n\nThrough time's embrace, their allure remains,\nGlorious beacons, enduring through all strains.\nRepresenting rebirth, innovation's might,\nA true testament to human's creative fight."
-        ]
+        ],
+        "style_similarity": {
+            "Renaissance": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.09375,
+                "weighted": 0.2875
+            },
+            "Stilt House": {
+                "unweighted": 0.015748031496062992,
+                "weighted": 0.03937007874015748
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.2925
+            },
+            "Art Deco": {
+                "unweighted": 0.0625,
+                "weighted": 0.18974358974358974
+            },
+            "Colonial": {
+                "unweighted": 0.16666666666666666,
+                "weighted": 0.425
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.01680672268907563,
+                "weighted": 0.058823529411764705
+            },
+            "Ancient Greek": {
+                "unweighted": 0.20754716981132076,
+                "weighted": 0.46
+            },
+            "Ancient Roman": {
+                "unweighted": 0.16666666666666666,
+                "weighted": 0.435
+            },
+            "Romanesque": {
+                "unweighted": 0.12389380530973451,
+                "weighted": 0.33076923076923076
+            },
+            "Gothic": {
+                "unweighted": 0.10655737704918032,
+                "weighted": 0.2625
+            },
+            "Baroque": {
+                "unweighted": 0.1623931623931624,
+                "weighted": 0.37567567567567567
+            },
+            "Neoclassical": {
+                "unweighted": 0.2,
+                "weighted": 0.517948717948718
+            },
+            "Art Nouveau": {
+                "unweighted": 0.06976744186046512,
+                "weighted": 0.19473684210526315
+            },
+            "Bauhaus": {
+                "unweighted": 0.015503875968992248,
+                "weighted": 0.0325
+            },
+            "Muscovite": {
+                "unweighted": 0.11801242236024845,
+                "weighted": 0.3225
+            },
+            "Constructivism": {
+                "unweighted": 0.014925373134328358,
+                "weighted": 0.03674540682414698
+            },
+            "Mud Brick": {
+                "unweighted": 0.03816793893129771,
+                "weighted": 0.09230769230769231
+            },
+            "Swahili": {
+                "unweighted": 0.06918238993710692,
+                "weighted": 0.2846153846153846
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.11764705882352941,
+                "weighted": 0.31842105263157894
+            },
+            "Modern Islamic": {
+                "unweighted": 0.05555555555555555,
+                "weighted": 0.235
+            },
+            "Gupta": {
+                "unweighted": 0.13114754098360656,
+                "weighted": 0.37435897435897436
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15267175572519084,
+                "weighted": 0.4
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.12280701754385964,
+                "weighted": 0.4322250639386189
+            },
+            "Edo Period": {
+                "unweighted": 0.04794520547945205,
+                "weighted": 0.1875
+            },
+            "Khmer Empire": {
+                "unweighted": 0.11594202898550725,
+                "weighted": 0.3525
+            },
+            "Thai": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.275
+            },
+            "Timurid Period": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4564102564102564
+            },
+            "Persian": {
+                "unweighted": 0.15789473684210525,
+                "weighted": 0.46547314578005117
+            }
+        }
     },
     "Rococo": {
         "architects": [
@@ -16221,7 +19367,133 @@
             "In stone, a grand story is portrayed,\nA tapestry of strength and art displayed.\nBold arches soar, delicate details traced,\nA symphony of craftsmanship, finely embraced.\n\nCloaked in time's gentle touch, they stand tall,\nGuardians of history, past voices recall.\nProud buttresses, like arms embracing the sky,\nDefiance against gravity, built strong, never to deny.\n\nCircular windows, roseate blooms of light,\nCreating kaleidoscopic patterns, pure and bright.\nRibbed vaults, in every turn and curve appear,\nLifting spirits higher, dispelling all fears.\n\nA fortress of grace, solidity intertwined,\nEmbodying a heritage, eternally enshrined.\nFrom altar to spire, a sanctuary's grace,\nWhispering whispers of a time, a sacred place.\n\nWith columns firm, pillars rooted deep,\nArchitectural marvels, secrets they keep.\nEmbodying an era of passion and zeal,\nAesthetics rooted in the stories they reveal.",
             "In stony grandeur, arches rise and fall,\nMajestic strength reaches for the sky tall.\nVaulted ceilings embrace a sacred hush,\nAs sunlight filters through stained glass's blush.\n\nSolid columns stand, sturdy and proud,\nCarved capitals, each a story allowed.\nRound and heavy, like nature's ancient thrones,\nThey bear the weight of history's undertones.\n\nEndless mosaics dance upon the walls,\nVivid colors in intricate install.\nRugged textures speak of a rugged age,\nA testament to human will, stage by stage.\n\nTowers and turrets, guardians of old,\nSurvey the land, secrets they unfold.\nDefying time with their fortress-like might,\nA living homage to an era's might.\n\nSo, when you witness these structures strong,\nBehold their beauty where they belong.\nFor in their forms, a chapter's portrayed,\nA testament of an age, time can't fade.",
             "In ancient realms of stone and grand design,\nWhere sturdy walls of history still shine,\nA regal symphony of shapes arise,\nBold arches reach for limitless skies.\n\nEchoes of power reverberate here,\nCathedrals standing tall, defiant and clear,\nWith rounded windows, guardians of light,\nUnyielding pillars, a poetic might.\n\nByzantine wonders captured in each stone,\nVivid murals, biblical stories prone,\nA fortress-like structure of solid grace,\nImposing strength, a visual embrace.\n\nFrom towering castles to monastic halls,\nA fusion of cultures, a bond that enthralls,\nThrough intricate carvings, tales unfold,\nOf kings and queens, their stories untold.\n\nA fusion of beauty, a timeless art,\nWhere faith and craftsmanship intertwine, impart\nA sense of awe, a sacred serenade,\nIn every arch and curve, an era displayed."
-        ]
+        ],
+        "style_similarity": {
+            "Romanesque": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.059322033898305086,
+                "weighted": 0.14615384615384616
+            },
+            "Stilt House": {
+                "unweighted": 0.017857142857142856,
+                "weighted": 0.0215633423180593
+            },
+            "Ranch-style house": {
+                "unweighted": 0.008849557522123894,
+                "weighted": 0.029333333333333333
+            },
+            "Victorian": {
+                "unweighted": 0.0380952380952381,
+                "weighted": 0.10512820512820513
+            },
+            "Art Deco": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.10263157894736842
+            },
+            "Colonial": {
+                "unweighted": 0.04424778761061947,
+                "weighted": 0.11282051282051282
+            },
+            "Brutalism": {
+                "unweighted": 0.041237113402061855,
+                "weighted": 0.12162162162162163
+            },
+            "Contemporary": {
+                "unweighted": 0.019230769230769232,
+                "weighted": 0.026246719160104987
+            },
+            "Ancient Greek": {
+                "unweighted": 0.056074766355140186,
+                "weighted": 0.12564102564102564
+            },
+            "Ancient Roman": {
+                "unweighted": 0.10227272727272728,
+                "weighted": 0.2282051282051282
+            },
+            "Gothic": {
+                "unweighted": 0.1320754716981132,
+                "weighted": 0.35128205128205126
+            },
+            "Baroque": {
+                "unweighted": 0.09009009009009009,
+                "weighted": 0.17777777777777778
+            },
+            "Renaissance": {
+                "unweighted": 0.12389380530973451,
+                "weighted": 0.33076923076923076
+            },
+            "Neoclassical": {
+                "unweighted": 0.05,
+                "weighted": 0.14473684210526316
+            },
+            "Art Nouveau": {
+                "unweighted": 0.025,
+                "weighted": 0.08108108108108109
+            },
+            "Bauhaus": {
+                "unweighted": 0.017543859649122806,
+                "weighted": 0.038461538461538464
+            },
+            "Muscovite": {
+                "unweighted": 0.09271523178807947,
+                "weighted": 0.23076923076923078
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Mud Brick": {
+                "unweighted": 0.03418803418803419,
+                "weighted": 0.09736842105263158
+            },
+            "Swahili": {
+                "unweighted": 0.040268456375838924,
+                "weighted": 0.12368421052631579
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.08256880733944955,
+                "weighted": 0.20540540540540542
+            },
+            "Modern Islamic": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.02564102564102564
+            },
+            "Gupta": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.18157894736842106
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0625,
+                "weighted": 0.15263157894736842
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.056074766355140186,
+                "weighted": 0.14173228346456693
+            },
+            "Edo Period": {
+                "unweighted": 0.029850746268656716,
+                "weighted": 0.09230769230769231
+            },
+            "Khmer Empire": {
+                "unweighted": 0.05303030303030303,
+                "weighted": 0.1641025641025641
+            },
+            "Thai": {
+                "unweighted": 0.046875,
+                "weighted": 0.1282051282051282
+            },
+            "Timurid Period": {
+                "unweighted": 0.05555555555555555,
+                "weighted": 0.1394736842105263
+            },
+            "Persian": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.12073490813648294
+            }
+        }
     },
     "Safavid Dynasty": {
         "architects": [
@@ -17093,7 +20365,133 @@
             "Where serenity meets nature's embrace,\nElevated abode, with foundations traced.\nLike graceful stokes, sturdy pillars stand,\nA symphony of balance, crafted by hand.\n\nAbove earth's reach, this structure defies,\nNestled amidst verdant landscapes, it lies.\nIn harmony with rivers, lakes, or sea,\nA tranquil dwelling, floating with glee.\n\nWooden beams like limbs, stretching towards skies,\nEmbracing breezes that softly sigh.\nHigh realms of solace, where view unfurls,\nThrough vast windows, nature paints its pearls.\n\nA refuge from floods, an escape from strife,\nThis artful haven, where tranquility thrives.\nA dance with elements, earth and water,\nUnified essence where dreams find shelter.\n\nWithin these walls, a haven is born,\nA sanctuary, where peace is sworn.\nA form of architecture, born out of grace,\nAn elevated masterpiece - nature's tight embrace.",
             "In realm of air, where horizons stretch,\nTimbers dance in an ethereal sketch.\nAbove the realms where waters sigh,\nA dream abode rests with grace on high.\n\nWith artistry born from nature's hands,\nA dwelling above aqua's tranquil lands.\nOn slender pillars, it gracefully stands,\nA marvel sculpted by skilled demands.\n\nElevated whispers from gentle breeze,\nCaress foundations adorned with ease.\nA kinetic portrait etched in the sky,\nWhere elegance soars, enchanting the eye.\n\nAmidst serene rivers and murmuring streams,\nThis floating haven reflects vibrant dreams.\nAn aerial symphony, where life takes flight,\nUnveiling beauty from morning to night.\n\nEmbracing vistas with panoramic guise,\nThis vision finds solace in lofty skies.\nA haven where harmony and nature unite,\nIn this architectural marvel of sheer delight."
         ],
-        "marker": 46
+        "marker": 46,
+        "style_similarity": {
+            "Stilt House": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.016,
+                "weighted": 0.05774278215223097
+            },
+            "Ranch-style house": {
+                "unweighted": 0.08411214953271028,
+                "weighted": 0.2568306010928962
+            },
+            "Victorian": {
+                "unweighted": 0.01834862385321101,
+                "weighted": 0.015748031496062992
+            },
+            "Art Deco": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Colonial": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.10761154855643044
+            },
+            "Brutalism": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.0332409972299169
+            },
+            "Contemporary": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.17473118279569894
+            },
+            "Ancient Greek": {
+                "unweighted": 0.026785714285714284,
+                "weighted": 0.05774278215223097
+            },
+            "Ancient Roman": {
+                "unweighted": 0.03125,
+                "weighted": 0.05249343832020997
+            },
+            "Romanesque": {
+                "unweighted": 0.017857142857142856,
+                "weighted": 0.0215633423180593
+            },
+            "Gothic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Baroque": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Renaissance": {
+                "unweighted": 0.015748031496062992,
+                "weighted": 0.03937007874015748
+            },
+            "Neoclassical": {
+                "unweighted": 0.01904761904761905,
+                "weighted": 0.06199460916442048
+            },
+            "Art Nouveau": {
+                "unweighted": 0.016260162601626018,
+                "weighted": 0.0332409972299169
+            },
+            "Bauhaus": {
+                "unweighted": 0.02608695652173913,
+                "weighted": 0.07611548556430446
+            },
+            "Muscovite": {
+                "unweighted": 0.006024096385542169,
+                "weighted": 0.015748031496062992
+            },
+            "Constructivism": {
+                "unweighted": 0.01652892561983471,
+                "weighted": 0.03591160220994475
+            },
+            "Mud Brick": {
+                "unweighted": 0.10810810810810811,
+                "weighted": 0.29110512129380056
+            },
+            "Swahili": {
+                "unweighted": 0.08275862068965517,
+                "weighted": 0.20754716981132076
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.02564102564102564,
+                "weighted": 0.030470914127423823
+            },
+            "Modern Islamic": {
+                "unweighted": 0.034482758620689655,
+                "weighted": 0.12598425196850394
+            },
+            "Gupta": {
+                "unweighted": 0.05042016806722689,
+                "weighted": 0.0862533692722372
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.014705882352941176,
+                "weighted": 0.0215633423180593
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.036036036036036036,
+                "weighted": 0.09946236559139784
+            },
+            "Edo Period": {
+                "unweighted": 0.037037037037037035,
+                "weighted": 0.13910761154855644
+            },
+            "Khmer Empire": {
+                "unweighted": 0.029197080291970802,
+                "weighted": 0.04199475065616798
+            },
+            "Thai": {
+                "unweighted": 0.030303030303030304,
+                "weighted": 0.08136482939632546
+            },
+            "Timurid Period": {
+                "unweighted": 0.008695652173913044,
+                "weighted": 0.0215633423180593
+            },
+            "Persian": {
+                "unweighted": 0.02586206896551724,
+                "weighted": 0.03494623655913978
+            }
+        }
     },
     "Structural Expressionism": {
         "architects": [
@@ -17832,7 +21230,133 @@
             "Amidst a tapestry woven by cultural delight,\nWhere walls rise to sing songs of ancient might,\nTimber and thatch blend in harmonious blend,\nForms emboldened with stories, without end.\n\nSplendidly adorned, vibrant colors cascade,\nCarved patterns that whisper tales, long forbade,\nCourtyards invite, with cool shade they lace,\nA sanctuary in heat, a comforting embrace.\n\nMajestic archways, divine in their grace,\nSun's tender glow kisses each sculpted face,\nCarvings tell a tale of strength and ancestry,\nA symphony of tradition, an artistry.\n\nBreezes embraced, through dainty lattice they sigh,\nAs palm leaves sway, under an azure sky,\nRooftops crowned, soaring high in pride,\nPreserving heritage, where time cannot hide.\n\nWith every brick laid, history unfolds,\nResilient whispers, stories yet untold,\nIn this symphony, an architectural soul,\nResonating through time, a treasure untold."
         ],
         "icon": "swahili.png",
-        "marker": 47
+        "marker": 47,
+        "style_similarity": {
+            "Swahili": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.07006369426751592,
+                "weighted": 0.24871794871794872
+            },
+            "Stilt House": {
+                "unweighted": 0.08275862068965517,
+                "weighted": 0.20754716981132076
+            },
+            "Ranch-style house": {
+                "unweighted": 0.03289473684210526,
+                "weighted": 0.09866666666666667
+            },
+            "Victorian": {
+                "unweighted": 0.06293706293706294,
+                "weighted": 0.2128205128205128
+            },
+            "Art Deco": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.2
+            },
+            "Colonial": {
+                "unweighted": 0.05228758169934641,
+                "weighted": 0.17692307692307693
+            },
+            "Brutalism": {
+                "unweighted": 0.006993006993006993,
+                "weighted": 0.03513513513513514
+            },
+            "Contemporary": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.18635170603674542
+            },
+            "Ancient Greek": {
+                "unweighted": 0.05405405405405406,
+                "weighted": 0.2128205128205128
+            },
+            "Ancient Roman": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2358974358974359
+            },
+            "Romanesque": {
+                "unweighted": 0.040268456375838924,
+                "weighted": 0.12368421052631579
+            },
+            "Gothic": {
+                "unweighted": 0.03164556962025317,
+                "weighted": 0.10256410256410256
+            },
+            "Baroque": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.09722222222222222
+            },
+            "Renaissance": {
+                "unweighted": 0.06918238993710692,
+                "weighted": 0.2846153846153846
+            },
+            "Neoclassical": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.22631578947368422
+            },
+            "Art Nouveau": {
+                "unweighted": 0.07792207792207792,
+                "weighted": 0.26756756756756755
+            },
+            "Bauhaus": {
+                "unweighted": 0.032467532467532464,
+                "weighted": 0.11025641025641025
+            },
+            "Muscovite": {
+                "unweighted": 0.06666666666666667,
+                "weighted": 0.2358974358974359
+            },
+            "Constructivism": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.14285714285714285
+            },
+            "Mud Brick": {
+                "unweighted": 0.09333333333333334,
+                "weighted": 0.3078947368421053
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.06622516556291391,
+                "weighted": 0.25405405405405407
+            },
+            "Modern Islamic": {
+                "unweighted": 0.11805555555555555,
+                "weighted": 0.3641025641025641
+            },
+            "Gupta": {
+                "unweighted": 0.11409395973154363,
+                "weighted": 0.3447368421052632
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.08484848484848485,
+                "weighted": 0.28421052631578947
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.0684931506849315,
+                "weighted": 0.2992125984251969
+            },
+            "Edo Period": {
+                "unweighted": 0.046242774566473986,
+                "weighted": 0.2205128205128205
+            },
+            "Khmer Empire": {
+                "unweighted": 0.06432748538011696,
+                "weighted": 0.24358974358974358
+            },
+            "Thai": {
+                "unweighted": 0.09937888198757763,
+                "weighted": 0.29743589743589743
+            },
+            "Timurid Period": {
+                "unweighted": 0.09027777777777778,
+                "weighted": 0.32894736842105265
+            },
+            "Persian": {
+                "unweighted": 0.10344827586206896,
+                "weighted": 0.35958005249343833
+            }
+        }
     },
     "Tang Dynasty": {
         "architects": [
@@ -18162,7 +21686,133 @@
             "Amidst vibrant lands, a mystical grace,\nWhere colors dazzle, and legends embrace.\nOrnate curvatures dance on walls so grand,\nA tapestry of culture, adored in this land.\n\nStately pavilions, rooftops that touch the sky,\nSecluded alcoves under heavens high.\nLustrous eaves whisper secrets untold,\nGuarding ancient treasures, stories of old.\n\nColumns rise tall, with strength and esteem,\nGuardians of beauty in an intricate dream.\nCarvings unfurl, delicate as Zephyr's breath,\nTelling tales of the past, conquering death.\n\nGilded in gold, revered celestial beams,\nBathing the halls in warm, opulent gleams.\nLattice windows frame the world outside,\nMerging nature and art with seamless pride.\n\nLotus ponds mirror, the moonlight's sweet tune,\nReflecting grace, like petals beneath the moon.\nSilken patterns entwined on murals, so fine,\nWhispering sagas of empires divine.\n\nA breathtaking fusion, where visions ignite,\nElegant harmony, where shadows take flight.\nUnveiling enchantment, a rich cultural blend,\nAn architecture style, beloved without end."
         ],
         "icon": "thai.png",
-        "marker": 48
+        "marker": 48,
+        "style_similarity": {
+            "Thai": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.08888888888888889,
+                "weighted": 0.32
+            },
+            "Stilt House": {
+                "unweighted": 0.030303030303030304,
+                "weighted": 0.08136482939632546
+            },
+            "Ranch-style house": {
+                "unweighted": 0.014925373134328358,
+                "weighted": 0.033766233766233764
+            },
+            "Victorian": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.215
+            },
+            "Art Deco": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.15897435897435896
+            },
+            "Colonial": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.21
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.007874015748031496,
+                "weighted": 0.020460358056265986
+            },
+            "Ancient Greek": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.2375
+            },
+            "Ancient Roman": {
+                "unweighted": 0.05309734513274336,
+                "weighted": 0.1725
+            },
+            "Romanesque": {
+                "unweighted": 0.046875,
+                "weighted": 0.1282051282051282
+            },
+            "Gothic": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.1375
+            },
+            "Baroque": {
+                "unweighted": 0.06716417910447761,
+                "weighted": 0.1891891891891892
+            },
+            "Renaissance": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.275
+            },
+            "Neoclassical": {
+                "unweighted": 0.06722689075630252,
+                "weighted": 0.2230769230769231
+            },
+            "Art Nouveau": {
+                "unweighted": 0.058394160583941604,
+                "weighted": 0.2
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.08092485549132948,
+                "weighted": 0.305
+            },
+            "Constructivism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Mud Brick": {
+                "unweighted": 0.043795620437956206,
+                "weighted": 0.10512820512820513
+            },
+            "Swahili": {
+                "unweighted": 0.09937888198757763,
+                "weighted": 0.29743589743589743
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.08527131782945736,
+                "weighted": 0.26052631578947366
+            },
+            "Modern Islamic": {
+                "unweighted": 0.029411764705882353,
+                "weighted": 0.085
+            },
+            "Gupta": {
+                "unweighted": 0.14173228346456693,
+                "weighted": 0.4256410256410256
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0896551724137931,
+                "weighted": 0.2717948717948718
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.19469026548672566,
+                "weighted": 0.5089514066496164
+            },
+            "Edo Period": {
+                "unweighted": 0.0958904109589041,
+                "weighted": 0.2875
+            },
+            "Khmer Empire": {
+                "unweighted": 0.13380281690140844,
+                "weighted": 0.3925
+            },
+            "Timurid Period": {
+                "unweighted": 0.10569105691056911,
+                "weighted": 0.36153846153846153
+            },
+            "Persian": {
+                "unweighted": 0.09448818897637795,
+                "weighted": 0.340153452685422
+            }
+        }
     },
     "Timurid Period": {
         "architects": [
@@ -18312,7 +21962,133 @@
             "In lands where sun kissed deserts breathe,\nA tapestry of grandeur weaved,\nIntricate patterns, rich with delight,\nAdorned our cities, a splendid sight.\n\nArchways soaring, like wings in flight,\nCarved pillars reaching for heavens' height,\nEach curve, each line, a majestic embrace,\nCrafted by skilled hands, a masterpiece.\n\nMosques, bathhouses, and temples arise,\nWhispering tales under starlit skies,\nGlistening turquoise, vibrant and bold,\nReflecting stories of heroes of old.\n\nMinarets piercing the cerulean blue,\nEchoing calls to prayers anew,\nCourtyards adorned with fragrant blooms,\nWhere scholars gather in tranquil rooms.\n\nThrough azure tiles, tales of love unfold,\nEnchanting gazes of maidens untold,\nSplashes of gold grace ceilings with grace,\nA symphony of colors, an ode to this place.\n\nFrom Samarkand to Herat, a legacy vast,\nPure opulence, forever to last,\nAn architectural journey, a soulful nod,\nWhispering tales of a bygone epoch."
         ],
         "icon": "timurid_period.png",
-        "marker": 49
+        "marker": 49,
+        "style_similarity": {
+            "Timurid Period": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.09482758620689655,
+                "weighted": 0.30512820512820515
+            },
+            "Stilt House": {
+                "unweighted": 0.008695652173913044,
+                "weighted": 0.0215633423180593
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.09900990099009901,
+                "weighted": 0.2794871794871795
+            },
+            "Art Deco": {
+                "unweighted": 0.06956521739130435,
+                "weighted": 0.23684210526315788
+            },
+            "Colonial": {
+                "unweighted": 0.05263157894736842,
+                "weighted": 0.18717948717948718
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.02857142857142857,
+                "weighted": 0.07349081364829396
+            },
+            "Ancient Greek": {
+                "unweighted": 0.08490566037735849,
+                "weighted": 0.2230769230769231
+            },
+            "Ancient Roman": {
+                "unweighted": 0.11235955056179775,
+                "weighted": 0.3230769230769231
+            },
+            "Romanesque": {
+                "unweighted": 0.05555555555555555,
+                "weighted": 0.1394736842105263
+            },
+            "Gothic": {
+                "unweighted": 0.07017543859649122,
+                "weighted": 0.20256410256410257
+            },
+            "Baroque": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.21944444444444444
+            },
+            "Renaissance": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4564102564102564
+            },
+            "Neoclassical": {
+                "unweighted": 0.08080808080808081,
+                "weighted": 0.22631578947368422
+            },
+            "Art Nouveau": {
+                "unweighted": 0.06837606837606838,
+                "weighted": 0.21621621621621623
+            },
+            "Bauhaus": {
+                "unweighted": 0.017241379310344827,
+                "weighted": 0.06153846153846154
+            },
+            "Muscovite": {
+                "unweighted": 0.10596026490066225,
+                "weighted": 0.36666666666666664
+            },
+            "Constructivism": {
+                "unweighted": 0.01652892561983471,
+                "weighted": 0.0646900269541779
+            },
+            "Mud Brick": {
+                "unweighted": 0.025,
+                "weighted": 0.042105263157894736
+            },
+            "Swahili": {
+                "unweighted": 0.09027777777777778,
+                "weighted": 0.32894736842105265
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.12149532710280374,
+                "weighted": 0.32432432432432434
+            },
+            "Modern Islamic": {
+                "unweighted": 0.10091743119266056,
+                "weighted": 0.3153846153846154
+            },
+            "Gupta": {
+                "unweighted": 0.12612612612612611,
+                "weighted": 0.41842105263157897
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15966386554621848,
+                "weighted": 0.4605263157894737
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.13861386138613863,
+                "weighted": 0.48556430446194226
+            },
+            "Edo Period": {
+                "unweighted": 0.05263157894736842,
+                "weighted": 0.2230769230769231
+            },
+            "Khmer Empire": {
+                "unweighted": 0.11904761904761904,
+                "weighted": 0.3871794871794872
+            },
+            "Thai": {
+                "unweighted": 0.10569105691056911,
+                "weighted": 0.36153846153846153
+            },
+            "Persian": {
+                "unweighted": 0.27956989247311825,
+                "weighted": 0.6614173228346457
+            }
+        }
     },
     "Tudor": {
         "architects": [
@@ -19212,7 +22988,133 @@
             "Noble grandeur in structure's embrace,\nOrnate adornments, a timeless grace.\nGothic charm, arches reaching high,\nElegant symmetry pleases the eye.\n\nTall windows like mirrors, gently reflect,\nWhispering stories of an era unchecked.\nIntricate fretwork, delicate curves,\nWhimsical detailing that truly deserves.\n\nSteep pitched roofs with iron-clad pride,\nGuarding secrets, where history hides.\nDormer windows casting shadowed delight,\nPolished exteriors, polished just right.\n\nFrom turrets to gables, a stately display,\nExquisite craftsmanship, a life in each ray.\nMajestic presence, a tale to be told,\nThe spirit of past glories, forever bold.",
             "Intricate curlicues dance along the eaves,\nOrnate splendor from a bygone age it weaves.\nTowers and turrets scrape the endless sky,\nA symphony of intricate details up high.\n\nGothic spires, reaching towards heaven's embrace,\nAesthetics crafted with elegance and grace.\nStained glass windows, like kaleidoscopic dreams,\nCast soft-hued light on timeless, regal themes.\n\nPorches adorned with delicate lattice work,\nWhimsical balconies, where spirits may lurk.\nOrnamental brackets, a touch of grandeur,\nAdorning every corner with a captivating allure.\n\nBay windows project like eyes that long to see,\nThe world outside, through panes of reverie.\nScalloped shingles, cascading patterns unfold,\nA visual feast for the eyes, as stories are told.\n\nA singular charm that permeates the air,\nElegant and refined, a jewel so rare.\nUnmistakable beauty, a timeless embrace,\nThe architecture of an era, leaving its trace."
         ],
-        "icon": "victorian.png"
+        "icon": "victorian.png",
+        "style_similarity": {
+            "Victorian": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.03389830508474576,
+                "weighted": 0.1225
+            },
+            "Stilt House": {
+                "unweighted": 0.01834862385321101,
+                "weighted": 0.015748031496062992
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Art Deco": {
+                "unweighted": 0.05357142857142857,
+                "weighted": 0.1794871794871795
+            },
+            "Colonial": {
+                "unweighted": 0.05504587155963303,
+                "weighted": 0.1675
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.00980392156862745,
+                "weighted": 0.0076726342710997444
+            },
+            "Ancient Greek": {
+                "unweighted": 0.057692307692307696,
+                "weighted": 0.1375
+            },
+            "Ancient Roman": {
+                "unweighted": 0.06818181818181818,
+                "weighted": 0.1925
+            },
+            "Romanesque": {
+                "unweighted": 0.0380952380952381,
+                "weighted": 0.10512820512820513
+            },
+            "Gothic": {
+                "unweighted": 0.06363636363636363,
+                "weighted": 0.1925
+            },
+            "Baroque": {
+                "unweighted": 0.07272727272727272,
+                "weighted": 0.21891891891891893
+            },
+            "Renaissance": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.2925
+            },
+            "Neoclassical": {
+                "unweighted": 0.0625,
+                "weighted": 0.16923076923076924
+            },
+            "Art Nouveau": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.21842105263157896
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.0945945945945946,
+                "weighted": 0.32
+            },
+            "Constructivism": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.005249343832020997
+            },
+            "Mud Brick": {
+                "unweighted": 0.008547008547008548,
+                "weighted": 0.02564102564102564
+            },
+            "Swahili": {
+                "unweighted": 0.06293706293706294,
+                "weighted": 0.2128205128205128
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.05504587155963303,
+                "weighted": 0.15526315789473685
+            },
+            "Modern Islamic": {
+                "unweighted": 0.008771929824561403,
+                "weighted": 0.0425
+            },
+            "Gupta": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2948717948717949
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.10833333333333334,
+                "weighted": 0.34102564102564104
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.0784313725490196,
+                "weighted": 0.2710997442455243
+            },
+            "Edo Period": {
+                "unweighted": 0.022727272727272728,
+                "weighted": 0.1
+            },
+            "Khmer Empire": {
+                "unweighted": 0.07086614173228346,
+                "weighted": 0.235
+            },
+            "Thai": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.215
+            },
+            "Timurid Period": {
+                "unweighted": 0.09900990099009901,
+                "weighted": 0.2794871794871795
+            },
+            "Persian": {
+                "unweighted": 0.07547169811320754,
+                "weighted": 0.23785166240409208
+            }
+        }
     },
     "Vietnamese": {
         "architects": [
