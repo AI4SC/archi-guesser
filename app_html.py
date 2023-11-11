@@ -281,13 +281,16 @@ def init_webpage():
         ),
         dbc.Modal(
             [
-                dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
+                dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points"), close_button=False),
                 dbc.ModalBody([], id="style_body"),
                 dbc.ModalFooter([
                     dbc.Button("New Run", id="new_run_btn", class_name="ms-auto")
                 ]),
             ],
             id="resultmodal",
+            size="lg",
+            keyboard=False,
+            backdrop="static"
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
