@@ -161,6 +161,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
         if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
             resultmodal_isopen = True
             sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
+            new_n_clicks = no_update
             print("Init Submit")
         elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
             resultmodal_isopen = False
