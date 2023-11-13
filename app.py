@@ -117,12 +117,12 @@ def compute_style_score(style):
 
 
 @app.callback(
-    #Output("style-mask", "hidden", allow_duplicate=True),
-    #Output("map-mask", "hidden", allow_duplicate=True),
-    #Output("epoche-mask", "hidden", allow_duplicate=True),
-    #Output({'type': "style-selection-col",'index': ALL}, 'className'),
-    #Output("layer", "children", allow_duplicate=True),
-    #Output("epoche", "value"),
+    Output("style-mask", "hidden", allow_duplicate=True),
+    Output("map-mask", "hidden", allow_duplicate=True),
+    Output("epoche-mask", "hidden", allow_duplicate=True),
+    Output({'type': "style-selection-col",'index': ALL}, 'className'),
+    Output("layer", "children", allow_duplicate=True),
+    Output("epoche", "value"),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Output("new_run_btn", "n_clicks"),  # used as event notifier
@@ -141,10 +141,11 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     if data and ldata and 'state' in data and 'state' in ldata:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
-            sel_style = data['style'] = marker_to_style[data['obj']]
-            data['style_score'] = compute_style_score(sel_style)
-            data['total_score'] += max_style_score-round(weight_style_score * data['style_score'])
-            styles = ["" if sel_style == n else "hidden" for n in names]
+            sel_style = data['style'] = marker_to_style.get(data['obj'])
+            if sel_style:
+                data['style_score'] = compute_style_score(sel_style)
+                data['total_score'] += max_style_score-round(weight_style_score * data['style_score'])
+                styles = ["" if sel_style == n else "hidden" for n in names]
         if data and 'lat' in data and 'lon' in data and correct_style:
             sel_map = [data['lat'],data['lon']]
             data['map_score'] = compute_map_score(sel_map)
@@ -170,12 +171,12 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             sub_n_clicks = no_update
             new_n_clicks = no_update
     return (
-            #mask and sel_style is not None,
-            #mask and sel_map is not None,
-            #mask and sel_year is not None,
-            #styles,
-            #layers,
-            #sel_year,
+            mask and sel_style is not None,
+            mask and sel_map is not None,
+            mask and sel_year is not None,
+            styles,
+            layers,
+            sel_year,
             str(data), 
             sub_n_clicks,
             new_n_clicks
@@ -295,8 +296,8 @@ def update_scoreboard_hist(cat, value):
 
 def get_scoreboard_pd():
     global scoreboard_hist, scoreboard
-    run=len(scoreboard)
-    scoreboard_pd=[]
+    run = len(scoreboard)
+    scoreboard_pd = []
 
     scoreboard_pd.append({ "score":"total", "cat":"max", "value":scoreboard_hist["total_max"]})
     scoreboard_pd.append({ "score":"style", "cat":"max", "value":scoreboard_hist["style_max"]})
@@ -362,9 +363,9 @@ def press_submit(n_clicks):
         scoreboard.sort(reverse=True)
         rank = scoreboard.index(total_score) + 1
         # compute plot
-        # fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
-        # fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
-        # fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
+        #fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
+        #fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
+        #fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
         return [
             submit_disabled(), 
             resultmodal_isopen, 
