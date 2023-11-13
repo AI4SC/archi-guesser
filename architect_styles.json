@@ -392,10 +392,6 @@
                 "unweighted": 0.05714285714285714,
                 "weighted": 0.21351351351351353
             },
-            "Art Nouveau": {
-                "unweighted": 0.04878048780487805,
-                "weighted": 0.11388888888888889
-            },
             "Bauhaus": {
                 "unweighted": 0.016666666666666666,
                 "weighted": 0.06315789473684211
@@ -412,21 +408,9 @@
                 "unweighted": 0.032520325203252036,
                 "weighted": 0.08648648648648649
             },
-            "Swahili": {
-                "unweighted": 0.06622516556291391,
-                "weighted": 0.25405405405405407
-            },
             "Modern Islamic": {
                 "unweighted": 0.03333333333333333,
                 "weighted": 0.11315789473684211
-            },
-            "Gupta": {
-                "unweighted": 0.15178571428571427,
-                "weighted": 0.4135135135135135
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.09230769230769231,
-                "weighted": 0.2891891891891892
             },
             "Chinese Imperial": {
                 "unweighted": 0.12264150943396226,
@@ -669,10 +653,6 @@
                 "unweighted": 0.21839080459770116,
                 "weighted": 0.5282051282051282
             },
-            "Art Nouveau": {
-                "unweighted": 0.04201680672268908,
-                "weighted": 0.11842105263157894
-            },
             "Bauhaus": {
                 "unweighted": 0.035398230088495575,
                 "weighted": 0.075
@@ -689,10 +669,6 @@
                 "unweighted": 0.042735042735042736,
                 "weighted": 0.11025641025641025
             },
-            "Swahili": {
-                "unweighted": 0.05405405405405406,
-                "weighted": 0.2128205128205128
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.13333333333333333,
                 "weighted": 0.33157894736842103
@@ -700,14 +676,6 @@
             "Modern Islamic": {
                 "unweighted": 0.034782608695652174,
                 "weighted": 0.1425
-            },
-            "Gupta": {
-                "unweighted": 0.10714285714285714,
-                "weighted": 0.3128205128205128
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.06201550387596899,
-                "weighted": 0.15897435897435896
             },
             "Chinese Imperial": {
                 "unweighted": 0.07547169811320754,
@@ -1100,10 +1068,6 @@
                 "unweighted": 0.0975609756097561,
                 "weighted": 0.2205128205128205
             },
-            "Art Nouveau": {
-                "unweighted": 0.038461538461538464,
-                "weighted": 0.11578947368421053
-            },
             "Bauhaus": {
                 "unweighted": 0.030612244897959183,
                 "weighted": 0.0975
@@ -1120,10 +1084,6 @@
                 "unweighted": 0.0392156862745098,
                 "weighted": 0.08205128205128205
             },
-            "Swahili": {
-                "unweighted": 0.07692307692307693,
-                "weighted": 0.2358974358974359
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.14444444444444443,
                 "weighted": 0.3763157894736842
@@ -1131,14 +1091,6 @@
             "Modern Islamic": {
                 "unweighted": 0.05102040816326531,
                 "weighted": 0.145
-            },
-            "Gupta": {
-                "unweighted": 0.16129032258064516,
-                "weighted": 0.4230769230769231
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.08035714285714286,
-                "weighted": 0.24871794871794872
             },
             "Chinese Imperial": {
                 "unweighted": 0.12643678160919541,
@@ -1560,10 +1512,6 @@
                 "unweighted": 0.06542056074766354,
                 "weighted": 0.20789473684210527
             },
-            "Art Nouveau": {
-                "unweighted": 0.1092436974789916,
-                "weighted": 0.24864864864864866
-            },
             "Bauhaus": {
                 "unweighted": 0.07758620689655173,
                 "weighted": 0.2717948717948718
@@ -1580,10 +1528,6 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Swahili": {
-                "unweighted": 0.05128205128205128,
-                "weighted": 0.2
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.10270270270270271
@@ -1591,14 +1535,6 @@
             "Modern Islamic": {
                 "unweighted": 0.06722689075630252,
                 "weighted": 0.2128205128205128
-            },
-            "Gupta": {
-                "unweighted": 0.06451612903225806,
-                "weighted": 0.22631578947368422
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.050724637681159424,
-                "weighted": 0.16842105263157894
             },
             "Chinese Imperial": {
                 "unweighted": 0.06086956521739131,
@@ -2687,10 +2623,6 @@
                 "unweighted": 0.06542056074766354,
                 "weighted": 0.19166666666666668
             },
-            "Art Nouveau": {
-                "unweighted": 0.09090909090909091,
-                "weighted": 0.2714285714285714
-            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -2707,10 +2639,6 @@
                 "unweighted": 0.023622047244094488,
                 "weighted": 0.03888888888888889
             },
-            "Swahili": {
-                "unweighted": 0.031446540880503145,
-                "weighted": 0.09722222222222222
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.058333333333333334,
                 "weighted": 0.18571428571428572
@@ -2718,14 +2646,6 @@
             "Modern Islamic": {
                 "unweighted": 0.024193548387096774,
                 "weighted": 0.08378378378378379
-            },
-            "Gupta": {
-                "unweighted": 0.07317073170731707,
-                "weighted": 0.20833333333333334
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.07407407407407407,
-                "weighted": 0.25555555555555554
             },
             "Chinese Imperial": {
                 "unweighted": 0.07964601769911504,
@@ -2970,10 +2890,6 @@
                 "unweighted": 0.06862745098039216,
                 "weighted": 0.12307692307692308
             },
-            "Art Nouveau": {
-                "unweighted": 0.007936507936507936,
-                "weighted": 0.03684210526315789
-            },
             "Muscovite": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -2986,10 +2902,6 @@
                 "unweighted": 0.02459016393442623,
                 "weighted": 0.041025641025641026
             },
-            "Swahili": {
-                "unweighted": 0.032467532467532464,
-                "weighted": 0.11025641025641025
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.016666666666666666,
                 "weighted": 0.06315789473684211
@@ -2997,14 +2909,6 @@
             "Modern Islamic": {
                 "unweighted": 0.07017543859649122,
                 "weighted": 0.225
-            },
-            "Gupta": {
-                "unweighted": 0.016,
-                "weighted": 0.06666666666666667
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.0,
-                "weighted": 0.0
             },
             "Chinese Imperial": {
                 "unweighted": 0.008620689655172414,
@@ -3769,10 +3673,6 @@
                 "unweighted": 0.010752688172043012,
                 "weighted": 0.024324324324324326
             },
-            "Art Nouveau": {
-                "unweighted": 0.0,
-                "weighted": 0.0
-            },
             "Bauhaus": {
                 "unweighted": 0.11702127659574468,
                 "weighted": 0.26052631578947366
@@ -3789,10 +3689,6 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Swahili": {
-                "unweighted": 0.006993006993006993,
-                "weighted": 0.03513513513513514
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.01904761904761905,
                 "weighted": 0.058333333333333334
@@ -3800,14 +3696,6 @@
             "Modern Islamic": {
                 "unweighted": 0.049019607843137254,
                 "weighted": 0.10526315789473684
-            },
-            "Gupta": {
-                "unweighted": 0.009009009009009009,
-                "weighted": 0.032432432432432434
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.008064516129032258,
-                "weighted": 0.02972972972972973
             },
             "Chinese Imperial": {
                 "unweighted": 0.0,
@@ -4225,10 +4113,6 @@
                 "unweighted": 0.0707070707070707,
                 "weighted": 0.24671916010498687
             },
-            "Art Nouveau": {
-                "unweighted": 0.05084745762711865,
-                "weighted": 0.18328840970350405
-            },
             "Bauhaus": {
                 "unweighted": 0.008620689655172414,
                 "weighted": 0.017902813299232736
@@ -4245,10 +4129,6 @@
                 "unweighted": 0.05172413793103448,
                 "weighted": 0.13648293963254593
             },
-            "Swahili": {
-                "unweighted": 0.0684931506849315,
-                "weighted": 0.2992125984251969
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.12264150943396226,
                 "weighted": 0.39622641509433965
@@ -4256,14 +4136,6 @@
             "Modern Islamic": {
                 "unweighted": 0.034782608695652174,
                 "weighted": 0.15089514066496162
-            },
-            "Gupta": {
-                "unweighted": 0.1588785046728972,
-                "weighted": 0.4566929133858268
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.15126050420168066,
-                "weighted": 0.4540682414698163
             },
             "Edo Period": {
                 "unweighted": 0.12096774193548387,
@@ -4530,10 +4402,6 @@
                 "unweighted": 0.15625,
                 "weighted": 0.4282051282051282
             },
-            "Art Nouveau": {
-                "unweighted": 0.0078125,
-                "weighted": 0.05
-            },
             "Bauhaus": {
                 "unweighted": 0.008264462809917356,
                 "weighted": 0.03
@@ -4550,10 +4418,6 @@
                 "unweighted": 0.07627118644067797,
                 "weighted": 0.14358974358974358
             },
-            "Swahili": {
-                "unweighted": 0.05228758169934641,
-                "weighted": 0.17692307692307693
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.04201680672268908,
                 "weighted": 0.14210526315789473
@@ -4561,14 +4425,6 @@
             "Modern Islamic": {
                 "unweighted": 0.008130081300813009,
                 "weighted": 0.045
-            },
-            "Gupta": {
-                "unweighted": 0.05737704918032787,
-                "weighted": 0.19487179487179487
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.0364963503649635,
-                "weighted": 0.11794871794871795
             },
             "Chinese Imperial": {
                 "unweighted": 0.10185185185185185,
@@ -4986,10 +4842,6 @@
                 "unweighted": 0.02702702702702703,
                 "weighted": 0.05660377358490566
             },
-            "Art Nouveau": {
-                "unweighted": 0.06451612903225806,
-                "weighted": 0.15789473684210525
-            },
             "Bauhaus": {
                 "unweighted": 0.2376237623762376,
                 "weighted": 0.5564304461942258
@@ -5002,10 +4854,6 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Swahili": {
-                "unweighted": 0.031446540880503145,
-                "weighted": 0.14285714285714285
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.007936507936507936,
                 "weighted": 0.030470914127423823
@@ -5013,14 +4861,6 @@
             "Modern Islamic": {
                 "unweighted": 0.08547008547008547,
                 "weighted": 0.24934383202099739
-            },
-            "Gupta": {
-                "unweighted": 0.015384615384615385,
-                "weighted": 0.05660377358490566
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.006944444444444444,
-                "weighted": 0.008086253369272238
             },
             "Chinese Imperial": {
                 "unweighted": 0.008264462809917356,
@@ -5285,10 +5125,6 @@
                 "unweighted": 0.05319148936170213,
                 "weighted": 0.09711286089238845
             },
-            "Art Nouveau": {
-                "unweighted": 0.044642857142857144,
-                "weighted": 0.09703504043126684
-            },
             "Bauhaus": {
                 "unweighted": 0.25,
                 "weighted": 0.5856777493606138
@@ -5305,10 +5141,6 @@
                 "unweighted": 0.036036036036036036,
                 "weighted": 0.08398950131233596
             },
-            "Swahili": {
-                "unweighted": 0.07194244604316546,
-                "weighted": 0.18635170603674542
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.01818181818181818,
                 "weighted": 0.03504043126684636
@@ -5316,14 +5148,6 @@
             "Modern Islamic": {
                 "unweighted": 0.14285714285714285,
                 "weighted": 0.3631713554987212
-            },
-            "Gupta": {
-                "unweighted": 0.017391304347826087,
-                "weighted": 0.06036745406824147
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.007751937984496124,
-                "weighted": 0.005249343832020997
             },
             "Chinese Imperial": {
                 "unweighted": 0.01904761904761905,
@@ -6442,10 +6266,6 @@
                 "unweighted": 0.056451612903225805,
                 "weighted": 0.24358974358974358
             },
-            "Art Nouveau": {
-                "unweighted": 0.027586206896551724,
-                "weighted": 0.10789473684210527
-            },
             "Bauhaus": {
                 "unweighted": 0.05185185185185185,
                 "weighted": 0.1475
@@ -6462,10 +6282,6 @@
                 "unweighted": 0.05,
                 "weighted": 0.16666666666666666
             },
-            "Swahili": {
-                "unweighted": 0.046242774566473986,
-                "weighted": 0.2205128205128205
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.051094890510948905,
                 "weighted": 0.15526315789473685
@@ -6473,14 +6289,6 @@
             "Modern Islamic": {
                 "unweighted": 0.043478260869565216,
                 "weighted": 0.2025
-            },
-            "Gupta": {
-                "unweighted": 0.07971014492753623,
-                "weighted": 0.25384615384615383
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.03184713375796178,
-                "weighted": 0.1
             },
             "Chinese Imperial": {
                 "unweighted": 0.12096774193548387,
@@ -7697,10 +7505,6 @@
                 "unweighted": 0.02727272727272727,
                 "weighted": 0.06923076923076923
             },
-            "Art Nouveau": {
-                "unweighted": 0.03968253968253968,
-                "weighted": 0.10263157894736842
-            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -7717,10 +7521,6 @@
                 "unweighted": 0.0078125,
                 "weighted": 0.023076923076923078
             },
-            "Swahili": {
-                "unweighted": 0.03164556962025317,
-                "weighted": 0.10256410256410256
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.06779661016949153,
                 "weighted": 0.16052631578947368
@@ -7728,14 +7528,6 @@
             "Modern Islamic": {
                 "unweighted": 0.008,
                 "weighted": 0.0225
-            },
-            "Gupta": {
-                "unweighted": 0.06504065040650407,
-                "weighted": 0.2128205128205128
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.07462686567164178,
-                "weighted": 0.23333333333333334
             },
             "Chinese Imperial": {
                 "unweighted": 0.06140350877192982,
@@ -11350,10 +11142,6 @@
                 "unweighted": 0.056,
                 "weighted": 0.18974358974358974
             },
-            "Art Nouveau": {
-                "unweighted": 0.056338028169014086,
-                "weighted": 0.16578947368421051
-            },
             "Bauhaus": {
                 "unweighted": 0.007042253521126761,
                 "weighted": 0.0175
@@ -11370,10 +11158,6 @@
                 "unweighted": 0.03496503496503497,
                 "weighted": 0.05128205128205128
             },
-            "Swahili": {
-                "unweighted": 0.06432748538011696,
-                "weighted": 0.24358974358974358
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.1693548387096774,
                 "weighted": 0.45789473684210524
@@ -11381,14 +11165,6 @@
             "Modern Islamic": {
                 "unweighted": 0.028368794326241134,
                 "weighted": 0.1025
-            },
-            "Gupta": {
-                "unweighted": 0.18110236220472442,
-                "weighted": 0.4897435897435897
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.13194444444444445,
-                "weighted": 0.3564102564102564
             },
             "Chinese Imperial": {
                 "unweighted": 0.1864406779661017,
@@ -12510,10 +12286,6 @@
                 "unweighted": 0.03508771929824561,
                 "weighted": 0.1
             },
-            "Art Nouveau": {
-                "unweighted": 0.046153846153846156,
-                "weighted": 0.12894736842105264
-            },
             "Bauhaus": {
                 "unweighted": 0.023809523809523808,
                 "weighted": 0.0525
@@ -12530,10 +12302,6 @@
                 "unweighted": 0.022900763358778626,
                 "weighted": 0.038461538461538464
             },
-            "Swahili": {
-                "unweighted": 0.07006369426751592,
-                "weighted": 0.24871794871794872
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.19090909090909092,
                 "weighted": 0.4631578947368421
@@ -12541,14 +12309,6 @@
             "Modern Islamic": {
                 "unweighted": 0.03968253968253968,
                 "weighted": 0.13
-            },
-            "Gupta": {
-                "unweighted": 0.11475409836065574,
-                "weighted": 0.36666666666666664
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.07194244604316546,
-                "weighted": 0.24358974358974358
             },
             "Chinese Imperial": {
                 "unweighted": 0.09565217391304348,
@@ -13164,10 +12924,6 @@
                 "unweighted": 0.0673076923076923,
                 "weighted": 0.19230769230769232
             },
-            "Art Nouveau": {
-                "unweighted": 0.04032258064516129,
-                "weighted": 0.12894736842105264
-            },
             "Bauhaus": {
                 "unweighted": 0.07017543859649122,
                 "weighted": 0.225
@@ -13184,21 +12940,9 @@
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.15384615384615385
             },
-            "Swahili": {
-                "unweighted": 0.11805555555555555,
-                "weighted": 0.3641025641025641
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.03333333333333333,
                 "weighted": 0.11315789473684211
-            },
-            "Gupta": {
-                "unweighted": 0.04878048780487805,
-                "weighted": 0.15128205128205127
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.07575757575757576,
-                "weighted": 0.2282051282051282
             },
             "Chinese Imperial": {
                 "unweighted": 0.034782608695652174,
@@ -13834,10 +13578,6 @@
                 "unweighted": 0.03636363636363636,
                 "weighted": 0.10789473684210527
             },
-            "Art Nouveau": {
-                "unweighted": 0.015384615384615385,
-                "weighted": 0.06756756756756757
-            },
             "Bauhaus": {
                 "unweighted": 0.02459016393442623,
                 "weighted": 0.041025641025641026
@@ -13850,10 +13590,6 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
-            "Swahili": {
-                "unweighted": 0.09333333333333334,
-                "weighted": 0.3078947368421053
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.032520325203252036,
                 "weighted": 0.08648648648648649
@@ -13861,14 +13597,6 @@
             "Modern Islamic": {
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.15384615384615385
-            },
-            "Gupta": {
-                "unweighted": 0.03937007874015748,
-                "weighted": 0.0868421052631579
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.028368794326241134,
-                "weighted": 0.039473684210526314
             },
             "Chinese Imperial": {
                 "unweighted": 0.05172413793103448,
@@ -14339,10 +14067,6 @@
                 "unweighted": 0.039473684210526314,
                 "weighted": 0.11794871794871795
             },
-            "Art Nouveau": {
-                "unweighted": 0.047619047619047616,
-                "weighted": 0.20789473684210527
-            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -14355,10 +14079,6 @@
                 "unweighted": 0.029585798816568046,
                 "weighted": 0.04358974358974359
             },
-            "Swahili": {
-                "unweighted": 0.06666666666666667,
-                "weighted": 0.2358974358974359
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.062111801242236024,
                 "weighted": 0.19736842105263158
@@ -14366,14 +14086,6 @@
             "Modern Islamic": {
                 "unweighted": 0.030120481927710843,
                 "weighted": 0.085
-            },
-            "Gupta": {
-                "unweighted": 0.1069182389937107,
-                "weighted": 0.31794871794871793
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.125,
-                "weighted": 0.3769230769230769
             },
             "Chinese Imperial": {
                 "unweighted": 0.12162162162162163,
@@ -15309,10 +15021,6 @@
                 "unweighted": 0.2,
                 "weighted": 0.517948717948718
             },
-            "Art Nouveau": {
-                "unweighted": 0.03571428571428571,
-                "weighted": 0.10810810810810811
-            },
             "Bauhaus": {
                 "unweighted": 0.06862745098039216,
                 "weighted": 0.12307692307692308
@@ -15329,10 +15037,6 @@
                 "unweighted": 0.03636363636363636,
                 "weighted": 0.10789473684210527
             },
-            "Swahili": {
-                "unweighted": 0.05714285714285714,
-                "weighted": 0.22631578947368422
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.05714285714285714,
                 "weighted": 0.21351351351351353
@@ -15340,14 +15044,6 @@
             "Modern Islamic": {
                 "unweighted": 0.0673076923076923,
                 "weighted": 0.19230769230769232
-            },
-            "Gupta": {
-                "unweighted": 0.07407407407407407,
-                "weighted": 0.2394736842105263
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.04878048780487805,
-                "weighted": 0.16842105263157894
             },
             "Chinese Imperial": {
                 "unweighted": 0.0707070707070707,
@@ -17211,10 +16907,6 @@
                 "unweighted": 0.1,
                 "weighted": 0.30708661417322836
             },
-            "Art Nouveau": {
-                "unweighted": 0.05785123966942149,
-                "weighted": 0.1778975741239892
-            },
             "Bauhaus": {
                 "unweighted": 0.025423728813559324,
                 "weighted": 0.0741687979539642
@@ -17231,10 +16923,6 @@
                 "unweighted": 0.04132231404958678,
                 "weighted": 0.10498687664041995
             },
-            "Swahili": {
-                "unweighted": 0.10344827586206896,
-                "weighted": 0.35958005249343833
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.10810810810810811,
                 "weighted": 0.3045822102425876
@@ -17242,14 +16930,6 @@
             "Modern Islamic": {
                 "unweighted": 0.17142857142857143,
                 "weighted": 0.45268542199488493
-            },
-            "Gupta": {
-                "unweighted": 0.15315315315315314,
-                "weighted": 0.3910761154855643
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.175,
-                "weighted": 0.45144356955380577
             },
             "Chinese Imperial": {
                 "unweighted": 0.16831683168316833,
@@ -18333,10 +18013,6 @@
                 "unweighted": 0.009433962264150943,
                 "weighted": 0.021333333333333333
             },
-            "Art Nouveau": {
-                "unweighted": 0.0,
-                "weighted": 0.0
-            },
             "Bauhaus": {
                 "unweighted": 0.05357142857142857,
                 "weighted": 0.14805194805194805
@@ -18353,10 +18029,6 @@
                 "unweighted": 0.05128205128205128,
                 "weighted": 0.14133333333333334
             },
-            "Swahili": {
-                "unweighted": 0.03289473684210526,
-                "weighted": 0.09866666666666667
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -18364,14 +18036,6 @@
             "Modern Islamic": {
                 "unweighted": 0.01694915254237288,
                 "weighted": 0.07012987012987013
-            },
-            "Gupta": {
-                "unweighted": 0.0,
-                "weighted": 0.0
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.0072992700729927005,
-                "weighted": 0.008
             },
             "Chinese Imperial": {
                 "unweighted": 0.017699115044247787,
@@ -18964,10 +18628,6 @@
                 "unweighted": 0.2,
                 "weighted": 0.517948717948718
             },
-            "Art Nouveau": {
-                "unweighted": 0.06976744186046512,
-                "weighted": 0.19473684210526315
-            },
             "Bauhaus": {
                 "unweighted": 0.015503875968992248,
                 "weighted": 0.0325
@@ -18984,10 +18644,6 @@
                 "unweighted": 0.03816793893129771,
                 "weighted": 0.09230769230769231
             },
-            "Swahili": {
-                "unweighted": 0.06918238993710692,
-                "weighted": 0.2846153846153846
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.11764705882352941,
                 "weighted": 0.31842105263157894
@@ -18995,14 +18651,6 @@
             "Modern Islamic": {
                 "unweighted": 0.05555555555555555,
                 "weighted": 0.235
-            },
-            "Gupta": {
-                "unweighted": 0.13114754098360656,
-                "weighted": 0.37435897435897436
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.15267175572519084,
-                "weighted": 0.4
             },
             "Chinese Imperial": {
                 "unweighted": 0.12280701754385964,
@@ -19429,10 +19077,6 @@
                 "unweighted": 0.05,
                 "weighted": 0.14473684210526316
             },
-            "Art Nouveau": {
-                "unweighted": 0.025,
-                "weighted": 0.08108108108108109
-            },
             "Bauhaus": {
                 "unweighted": 0.017543859649122806,
                 "weighted": 0.038461538461538464
@@ -19449,10 +19093,6 @@
                 "unweighted": 0.03418803418803419,
                 "weighted": 0.09736842105263158
             },
-            "Swahili": {
-                "unweighted": 0.040268456375838924,
-                "weighted": 0.12368421052631579
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.08256880733944955,
                 "weighted": 0.20540540540540542
@@ -19460,14 +19100,6 @@
             "Modern Islamic": {
                 "unweighted": 0.008547008547008548,
                 "weighted": 0.02564102564102564
-            },
-            "Gupta": {
-                "unweighted": 0.07894736842105263,
-                "weighted": 0.18157894736842106
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.0625,
-                "weighted": 0.15263157894736842
             },
             "Chinese Imperial": {
                 "unweighted": 0.056074766355140186,
@@ -20427,10 +20059,6 @@
                 "unweighted": 0.01904761904761905,
                 "weighted": 0.06199460916442048
             },
-            "Art Nouveau": {
-                "unweighted": 0.016260162601626018,
-                "weighted": 0.0332409972299169
-            },
             "Bauhaus": {
                 "unweighted": 0.02608695652173913,
                 "weighted": 0.07611548556430446
@@ -20447,10 +20075,6 @@
                 "unweighted": 0.10810810810810811,
                 "weighted": 0.29110512129380056
             },
-            "Swahili": {
-                "unweighted": 0.08275862068965517,
-                "weighted": 0.20754716981132076
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.02564102564102564,
                 "weighted": 0.030470914127423823
@@ -20458,14 +20082,6 @@
             "Modern Islamic": {
                 "unweighted": 0.034482758620689655,
                 "weighted": 0.12598425196850394
-            },
-            "Gupta": {
-                "unweighted": 0.05042016806722689,
-                "weighted": 0.0862533692722372
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.014705882352941176,
-                "weighted": 0.0215633423180593
             },
             "Chinese Imperial": {
                 "unweighted": 0.036036036036036036,
@@ -21752,10 +21368,6 @@
                 "unweighted": 0.06722689075630252,
                 "weighted": 0.2230769230769231
             },
-            "Art Nouveau": {
-                "unweighted": 0.058394160583941604,
-                "weighted": 0.2
-            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -21772,10 +21384,6 @@
                 "unweighted": 0.043795620437956206,
                 "weighted": 0.10512820512820513
             },
-            "Swahili": {
-                "unweighted": 0.09937888198757763,
-                "weighted": 0.29743589743589743
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.08527131782945736,
                 "weighted": 0.26052631578947366
@@ -21783,14 +21391,6 @@
             "Modern Islamic": {
                 "unweighted": 0.029411764705882353,
                 "weighted": 0.085
-            },
-            "Gupta": {
-                "unweighted": 0.14173228346456693,
-                "weighted": 0.4256410256410256
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.0896551724137931,
-                "weighted": 0.2717948717948718
             },
             "Chinese Imperial": {
                 "unweighted": 0.19469026548672566,
@@ -22028,10 +21628,6 @@
                 "unweighted": 0.08080808080808081,
                 "weighted": 0.22631578947368422
             },
-            "Art Nouveau": {
-                "unweighted": 0.06837606837606838,
-                "weighted": 0.21621621621621623
-            },
             "Bauhaus": {
                 "unweighted": 0.017241379310344827,
                 "weighted": 0.06153846153846154
@@ -22048,10 +21644,6 @@
                 "unweighted": 0.025,
                 "weighted": 0.042105263157894736
             },
-            "Swahili": {
-                "unweighted": 0.09027777777777778,
-                "weighted": 0.32894736842105265
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.12149532710280374,
                 "weighted": 0.32432432432432434
@@ -22059,14 +21651,6 @@
             "Modern Islamic": {
                 "unweighted": 0.10091743119266056,
                 "weighted": 0.3153846153846154
-            },
-            "Gupta": {
-                "unweighted": 0.12612612612612611,
-                "weighted": 0.41842105263157897
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.15966386554621848,
-                "weighted": 0.4605263157894737
             },
             "Chinese Imperial": {
                 "unweighted": 0.13861386138613863,
@@ -23050,10 +22634,6 @@
                 "unweighted": 0.0625,
                 "weighted": 0.16923076923076924
             },
-            "Art Nouveau": {
-                "unweighted": 0.07142857142857142,
-                "weighted": 0.21842105263157896
-            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -23070,10 +22650,6 @@
                 "unweighted": 0.008547008547008548,
                 "weighted": 0.02564102564102564
             },
-            "Swahili": {
-                "unweighted": 0.06293706293706294,
-                "weighted": 0.2128205128205128
-            },
             "Ancient Egyptian": {
                 "unweighted": 0.05504587155963303,
                 "weighted": 0.15526315789473685
@@ -23081,14 +22657,6 @@
             "Modern Islamic": {
                 "unweighted": 0.008771929824561403,
                 "weighted": 0.0425
-            },
-            "Gupta": {
-                "unweighted": 0.09090909090909091,
-                "weighted": 0.2948717948717949
-            },
-            "Indo-Saracenic": {
-                "unweighted": 0.10833333333333334,
-                "weighted": 0.34102564102564104
             },
             "Chinese Imperial": {
                 "unweighted": 0.0784313725490196,
