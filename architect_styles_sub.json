@@ -231,6 +231,10 @@
                 "unweighted": 0.03508771929824561,
                 "weighted": 0.1
             },
+            "Art Nouveau": {
+                "unweighted": 0.046153846153846156,
+                "weighted": 0.12894736842105264
+            },
             "Bauhaus": {
                 "unweighted": 0.023809523809523808,
                 "weighted": 0.0525
@@ -247,6 +251,10 @@
                 "unweighted": 0.022900763358778626,
                 "weighted": 0.038461538461538464
             },
+            "Swahili": {
+                "unweighted": 0.07006369426751592,
+                "weighted": 0.24871794871794872
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.19090909090909092,
                 "weighted": 0.4631578947368421
@@ -254,6 +262,14 @@
             "Modern Islamic": {
                 "unweighted": 0.03968253968253968,
                 "weighted": 0.13
+            },
+            "Gupta": {
+                "unweighted": 0.11475409836065574,
+                "weighted": 0.36666666666666664
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.24358974358974358
             },
             "Chinese Imperial": {
                 "unweighted": 0.09565217391304348,
@@ -512,6 +528,10 @@
                 "unweighted": 0.01904761904761905,
                 "weighted": 0.06199460916442048
             },
+            "Art Nouveau": {
+                "unweighted": 0.016260162601626018,
+                "weighted": 0.0332409972299169
+            },
             "Bauhaus": {
                 "unweighted": 0.02608695652173913,
                 "weighted": 0.07611548556430446
@@ -528,6 +548,10 @@
                 "unweighted": 0.10810810810810811,
                 "weighted": 0.29110512129380056
             },
+            "Swahili": {
+                "unweighted": 0.08275862068965517,
+                "weighted": 0.20754716981132076
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.02564102564102564,
                 "weighted": 0.030470914127423823
@@ -535,6 +559,14 @@
             "Modern Islamic": {
                 "unweighted": 0.034482758620689655,
                 "weighted": 0.12598425196850394
+            },
+            "Gupta": {
+                "unweighted": 0.05042016806722689,
+                "weighted": 0.0862533692722372
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.014705882352941176,
+                "weighted": 0.0215633423180593
             },
             "Chinese Imperial": {
                 "unweighted": 0.036036036036036036,
@@ -771,6 +803,10 @@
                 "unweighted": 0.009433962264150943,
                 "weighted": 0.021333333333333333
             },
+            "Art Nouveau": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
             "Bauhaus": {
                 "unweighted": 0.05357142857142857,
                 "weighted": 0.14805194805194805
@@ -787,6 +823,10 @@
                 "unweighted": 0.05128205128205128,
                 "weighted": 0.14133333333333334
             },
+            "Swahili": {
+                "unweighted": 0.03289473684210526,
+                "weighted": 0.09866666666666667
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -794,6 +834,14 @@
             "Modern Islamic": {
                 "unweighted": 0.01694915254237288,
                 "weighted": 0.07012987012987013
+            },
+            "Gupta": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0072992700729927005,
+                "weighted": 0.008
             },
             "Chinese Imperial": {
                 "unweighted": 0.017699115044247787,
@@ -1030,6 +1078,10 @@
                 "unweighted": 0.0625,
                 "weighted": 0.16923076923076924
             },
+            "Art Nouveau": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.21842105263157896
+            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -1046,6 +1098,10 @@
                 "unweighted": 0.008547008547008548,
                 "weighted": 0.02564102564102564
             },
+            "Swahili": {
+                "unweighted": 0.06293706293706294,
+                "weighted": 0.2128205128205128
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.05504587155963303,
                 "weighted": 0.15526315789473685
@@ -1053,6 +1109,14 @@
             "Modern Islamic": {
                 "unweighted": 0.008771929824561403,
                 "weighted": 0.0425
+            },
+            "Gupta": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2948717948717949
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.10833333333333334,
+                "weighted": 0.34102564102564104
             },
             "Chinese Imperial": {
                 "unweighted": 0.0784313725490196,
@@ -1314,6 +1378,10 @@
                 "unweighted": 0.06542056074766354,
                 "weighted": 0.20789473684210527
             },
+            "Art Nouveau": {
+                "unweighted": 0.1092436974789916,
+                "weighted": 0.24864864864864866
+            },
             "Bauhaus": {
                 "unweighted": 0.07758620689655173,
                 "weighted": 0.2717948717948718
@@ -1330,6 +1398,10 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
+            "Swahili": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.2
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.10270270270270271
@@ -1337,6 +1409,14 @@
             "Modern Islamic": {
                 "unweighted": 0.06722689075630252,
                 "weighted": 0.2128205128205128
+            },
+            "Gupta": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.22631578947368422
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.050724637681159424,
+                "weighted": 0.16842105263157894
             },
             "Chinese Imperial": {
                 "unweighted": 0.06086956521739131,
@@ -1607,6 +1687,10 @@
                 "unweighted": 0.15625,
                 "weighted": 0.4282051282051282
             },
+            "Art Nouveau": {
+                "unweighted": 0.0078125,
+                "weighted": 0.05
+            },
             "Bauhaus": {
                 "unweighted": 0.008264462809917356,
                 "weighted": 0.03
@@ -1623,6 +1707,10 @@
                 "unweighted": 0.07627118644067797,
                 "weighted": 0.14358974358974358
             },
+            "Swahili": {
+                "unweighted": 0.05228758169934641,
+                "weighted": 0.17692307692307693
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.04201680672268908,
                 "weighted": 0.14210526315789473
@@ -1630,6 +1718,14 @@
             "Modern Islamic": {
                 "unweighted": 0.008130081300813009,
                 "weighted": 0.045
+            },
+            "Gupta": {
+                "unweighted": 0.05737704918032787,
+                "weighted": 0.19487179487179487
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.11794871794871795
             },
             "Chinese Imperial": {
                 "unweighted": 0.10185185185185185,
@@ -1900,6 +1996,10 @@
                 "unweighted": 0.010752688172043012,
                 "weighted": 0.024324324324324326
             },
+            "Art Nouveau": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
             "Bauhaus": {
                 "unweighted": 0.11702127659574468,
                 "weighted": 0.26052631578947366
@@ -1916,6 +2016,10 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
+            "Swahili": {
+                "unweighted": 0.006993006993006993,
+                "weighted": 0.03513513513513514
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.01904761904761905,
                 "weighted": 0.058333333333333334
@@ -1923,6 +2027,14 @@
             "Modern Islamic": {
                 "unweighted": 0.049019607843137254,
                 "weighted": 0.10526315789473684
+            },
+            "Gupta": {
+                "unweighted": 0.009009009009009009,
+                "weighted": 0.032432432432432434
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.008064516129032258,
+                "weighted": 0.02972972972972973
             },
             "Chinese Imperial": {
                 "unweighted": 0.0,
@@ -2187,6 +2299,10 @@
                 "unweighted": 0.05319148936170213,
                 "weighted": 0.09711286089238845
             },
+            "Art Nouveau": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.09703504043126684
+            },
             "Bauhaus": {
                 "unweighted": 0.25,
                 "weighted": 0.5856777493606138
@@ -2203,6 +2319,10 @@
                 "unweighted": 0.036036036036036036,
                 "weighted": 0.08398950131233596
             },
+            "Swahili": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.18635170603674542
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.01818181818181818,
                 "weighted": 0.03504043126684636
@@ -2210,6 +2330,14 @@
             "Modern Islamic": {
                 "unweighted": 0.14285714285714285,
                 "weighted": 0.3631713554987212
+            },
+            "Gupta": {
+                "unweighted": 0.017391304347826087,
+                "weighted": 0.06036745406824147
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.007751937984496124,
+                "weighted": 0.005249343832020997
             },
             "Chinese Imperial": {
                 "unweighted": 0.01904761904761905,
@@ -2452,6 +2580,10 @@
                 "unweighted": 0.21839080459770116,
                 "weighted": 0.5282051282051282
             },
+            "Art Nouveau": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.11842105263157894
+            },
             "Bauhaus": {
                 "unweighted": 0.035398230088495575,
                 "weighted": 0.075
@@ -2468,6 +2600,10 @@
                 "unweighted": 0.042735042735042736,
                 "weighted": 0.11025641025641025
             },
+            "Swahili": {
+                "unweighted": 0.05405405405405406,
+                "weighted": 0.2128205128205128
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.13333333333333333,
                 "weighted": 0.33157894736842103
@@ -2475,6 +2611,14 @@
             "Modern Islamic": {
                 "unweighted": 0.034782608695652174,
                 "weighted": 0.1425
+            },
+            "Gupta": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3128205128205128
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.06201550387596899,
+                "weighted": 0.15897435897435896
             },
             "Chinese Imperial": {
                 "unweighted": 0.07547169811320754,
@@ -2687,6 +2831,10 @@
                 "unweighted": 0.0975609756097561,
                 "weighted": 0.2205128205128205
             },
+            "Art Nouveau": {
+                "unweighted": 0.038461538461538464,
+                "weighted": 0.11578947368421053
+            },
             "Bauhaus": {
                 "unweighted": 0.030612244897959183,
                 "weighted": 0.0975
@@ -2703,6 +2851,10 @@
                 "unweighted": 0.0392156862745098,
                 "weighted": 0.08205128205128205
             },
+            "Swahili": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2358974358974359
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.14444444444444443,
                 "weighted": 0.3763157894736842
@@ -2710,6 +2862,14 @@
             "Modern Islamic": {
                 "unweighted": 0.05102040816326531,
                 "weighted": 0.145
+            },
+            "Gupta": {
+                "unweighted": 0.16129032258064516,
+                "weighted": 0.4230769230769231
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.08035714285714286,
+                "weighted": 0.24871794871794872
             },
             "Chinese Imperial": {
                 "unweighted": 0.12643678160919541,
@@ -2952,6 +3112,10 @@
                 "unweighted": 0.05,
                 "weighted": 0.14473684210526316
             },
+            "Art Nouveau": {
+                "unweighted": 0.025,
+                "weighted": 0.08108108108108109
+            },
             "Bauhaus": {
                 "unweighted": 0.017543859649122806,
                 "weighted": 0.038461538461538464
@@ -2968,6 +3132,10 @@
                 "unweighted": 0.03418803418803419,
                 "weighted": 0.09736842105263158
             },
+            "Swahili": {
+                "unweighted": 0.040268456375838924,
+                "weighted": 0.12368421052631579
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.08256880733944955,
                 "weighted": 0.20540540540540542
@@ -2975,6 +3143,14 @@
             "Modern Islamic": {
                 "unweighted": 0.008547008547008548,
                 "weighted": 0.02564102564102564
+            },
+            "Gupta": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.18157894736842106
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0625,
+                "weighted": 0.15263157894736842
             },
             "Chinese Imperial": {
                 "unweighted": 0.056074766355140186,
@@ -3234,6 +3410,10 @@
                 "unweighted": 0.02727272727272727,
                 "weighted": 0.06923076923076923
             },
+            "Art Nouveau": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.10263157894736842
+            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -3250,6 +3430,10 @@
                 "unweighted": 0.0078125,
                 "weighted": 0.023076923076923078
             },
+            "Swahili": {
+                "unweighted": 0.03164556962025317,
+                "weighted": 0.10256410256410256
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.06779661016949153,
                 "weighted": 0.16052631578947368
@@ -3257,6 +3441,14 @@
             "Modern Islamic": {
                 "unweighted": 0.008,
                 "weighted": 0.0225
+            },
+            "Gupta": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.2128205128205128
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07462686567164178,
+                "weighted": 0.23333333333333334
             },
             "Chinese Imperial": {
                 "unweighted": 0.06140350877192982,
@@ -3510,6 +3702,10 @@
                 "unweighted": 0.06542056074766354,
                 "weighted": 0.19166666666666668
             },
+            "Art Nouveau": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2714285714285714
+            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -3526,6 +3722,10 @@
                 "unweighted": 0.023622047244094488,
                 "weighted": 0.03888888888888889
             },
+            "Swahili": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.09722222222222222
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.058333333333333334,
                 "weighted": 0.18571428571428572
@@ -3533,6 +3733,14 @@
             "Modern Islamic": {
                 "unweighted": 0.024193548387096774,
                 "weighted": 0.08378378378378379
+            },
+            "Gupta": {
+                "unweighted": 0.07317073170731707,
+                "weighted": 0.20833333333333334
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.25555555555555554
             },
             "Chinese Imperial": {
                 "unweighted": 0.07964601769911504,
@@ -3790,6 +3998,10 @@
                 "unweighted": 0.2,
                 "weighted": 0.517948717948718
             },
+            "Art Nouveau": {
+                "unweighted": 0.06976744186046512,
+                "weighted": 0.19473684210526315
+            },
             "Bauhaus": {
                 "unweighted": 0.015503875968992248,
                 "weighted": 0.0325
@@ -3806,6 +4018,10 @@
                 "unweighted": 0.03816793893129771,
                 "weighted": 0.09230769230769231
             },
+            "Swahili": {
+                "unweighted": 0.06918238993710692,
+                "weighted": 0.2846153846153846
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.11764705882352941,
                 "weighted": 0.31842105263157894
@@ -3813,6 +4029,14 @@
             "Modern Islamic": {
                 "unweighted": 0.05555555555555555,
                 "weighted": 0.235
+            },
+            "Gupta": {
+                "unweighted": 0.13114754098360656,
+                "weighted": 0.37435897435897436
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15267175572519084,
+                "weighted": 0.4
             },
             "Chinese Imperial": {
                 "unweighted": 0.12280701754385964,
@@ -4045,6 +4269,10 @@
                 "unweighted": 0.2,
                 "weighted": 0.517948717948718
             },
+            "Art Nouveau": {
+                "unweighted": 0.03571428571428571,
+                "weighted": 0.10810810810810811
+            },
             "Bauhaus": {
                 "unweighted": 0.06862745098039216,
                 "weighted": 0.12307692307692308
@@ -4061,6 +4289,10 @@
                 "unweighted": 0.03636363636363636,
                 "weighted": 0.10789473684210527
             },
+            "Swahili": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.22631578947368422
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.05714285714285714,
                 "weighted": 0.21351351351351353
@@ -4068,6 +4300,14 @@
             "Modern Islamic": {
                 "unweighted": 0.0673076923076923,
                 "weighted": 0.19230769230769232
+            },
+            "Gupta": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.2394736842105263
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.16842105263157894
             },
             "Chinese Imperial": {
                 "unweighted": 0.0707070707070707,
@@ -4092,6 +4332,305 @@
             "Persian": {
                 "unweighted": 0.1,
                 "weighted": 0.30708661417322836
+            }
+        }
+    },
+    "Art Nouveau": {
+        "architects": [
+            {
+                "name": "Hector Guimard",
+                "birthDate": "March 10, 1867",
+                "nationality": "French",
+                "description": "Hector Guimard was a French architect, designer and decorator who is famous for his Art Nouveau style.",
+                "notableBuildings": [
+                    "Castel Béranger",
+                    "Maison Coilliot",
+                    "Cité Monthiers",
+                    "Metro entrances"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Victor Horta",
+                "birthDate": "January 6, 1861",
+                "nationality": "Belgian",
+                "description": "Victor Horta was a Belgian architect and designer who is famous for his Art Nouveau buildings and interior designs.",
+                "notableBuildings": [
+                    "Horta Museum",
+                    "Hotel Tassel",
+                    "Hotel Solvay",
+                    "House and Studio of Victor Horta"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Antoni Gaudí",
+                "birthDate": "June 25, 1852",
+                "nationality": "Spanish",
+                "description": "Antoni Gaudí was a Spanish architect and designer who is famous for his Art Nouveau buildings and unique style.",
+                "notableBuildings": [
+                    "Sagrada Familia",
+                    "Park Güell",
+                    "Casa Batlló",
+                    "La Pedrera"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            }
+        ],
+        "style": {
+            "time_range": "1890s - 1910s",
+            "period": "19th century",
+            "description": "Art Nouveau is an artistic style that emerged in the late 19th century characterized by organic and curved lines, asymmetry, and the use of natural elements such as flowers, plants, and insects. It was a reaction against the academic art of the 19th century and aimed to create a new style that was modern and original.",
+            "characteristics": [
+                "Organic and curved lines",
+                "Asymmetry",
+                "Natural elements such as flowers, plants, and insects",
+                "Emphasis on decorative details",
+                "Use of new materials and techniques"
+            ],
+            "examples": [
+                "Hôtel Tassel in Brussels, Belgium",
+                "Majolikahaus in Vienna, Austria",
+                "Casa Batlló in Barcelona, Spain",
+                "Horta Museum in Brussels, Belgium",
+                "École de Nancy in Nancy, France"
+            ],
+            "continent": "Europe",
+            "country": [
+                "Belgium",
+                "Austria",
+                "Spain",
+                "France"
+            ],
+            "quality": 1.0,
+            "example_quality": 1.0,
+            "existence": 1.0,
+            "example_validity": {
+                "Hôtel Tassel in Brussels, Belgium": 3,
+                "Majolikahaus in Vienna, Austria": 3,
+                "Casa Batlló in Barcelona, Spain": 3,
+                "Horta Museum in Brussels, Belgium": 3,
+                "École de Nancy in Nancy, France": 3
+            }
+        },
+        "terms": "decorative, ornate, elaborate, asymmetrical, organic, curved lines, floral motifs, stained glass windows, wrought ironwork, sinuous curves, 19th century decorative arts, nature, Japanese art",
+        "Start_Year": 1890,
+        "End_Year": 1914,
+        "icon": "art_nouveau.png",
+        "character": [
+            "Organic shapes and motifs inspired by nature",
+            "Whiplash curves and flowing lines",
+            "Intricate and decorative ornamentation"
+        ],
+        "short": "Art Nouveau architecture style emerged in the late 19th century, characterized by ornate and curvilinear designs, inspired by nature and stylized forms.",
+        "significance": 8,
+        "termsV2": {
+            "Flower": 1,
+            "Curve": 6,
+            "Ornamentation": 2,
+            "Whiplash": 5,
+            "Nature": 5,
+            "Organic": 12,
+            "Dynamic": 1,
+            "Elegance": 3,
+            "Free-flowing": 1,
+            "Decorative": 10,
+            "Ornate": 5,
+            "Elegant": 9,
+            "Whimsical": 9,
+            "Curvilinear": 8,
+            "Fluid": 5,
+            "Intricate": 3,
+            "Asymmetrical": 5,
+            "Nature-inspired": 6,
+            "Floral motifs": 4,
+            "Whiplash curves": 3,
+            "Organic forms": 3,
+            "Stylized nature": 1,
+            "Ornamental ironwork": 1,
+            "Glasswork": 2,
+            "Mosaic": 1,
+            "Ceramics": 1,
+            "Gypsum decorations": 1,
+            "Floral": 4,
+            "Opulent": 1,
+            "Elaborate": 2,
+            "Fantastical": 1,
+            "Ornamental": 5,
+            "Sensual": 5,
+            "Sculpture": 2,
+            "Symbolism": 1,
+            "Ironwork": 5,
+            "Stylization": 1,
+            "Curvaceous": 2,
+            "Sinuous": 2,
+            "Innovative": 5,
+            "Unconventional": 1,
+            "Flowers": 2,
+            "Ornaments": 2,
+            "Stylized": 1,
+            "Feminine": 1,
+            "Glass": 2,
+            "Flowing": 1,
+            "Harmonious": 2,
+            "Leaves": 1,
+            "Curling vines": 1,
+            "Stylized foliage": 1,
+            "Serpentine lines": 1,
+            "Ornate ironwork": 1,
+            "Glass panels": 1,
+            "Intricate mosaics": 1,
+            "Exotic creatures": 1,
+            "Detailed": 1,
+            "Whiplash lines": 1,
+            "Stained glass": 1,
+            "Goddesses": 1,
+            "Flowing lines": 1,
+            "Curved lines": 1,
+            "Stylized plant forms": 1,
+            "Ornamental details": 1,
+            "Asymmetry": 1,
+            "Organic shapes": 1,
+            "Emphasis on craftsmanship": 1
+        },
+        "valid": 1.0,
+        "style_area": "Europe",
+        "name": "Art Nouveau",
+        "valid2": 1.0,
+        "selected": true,
+        "marker": 24,
+        "poems": [
+            "A dance of graceful lines, fluid and alive,\nNature's tendrils embracing the sky.\nCurved like blossoms adrift on a breeze,\nA symphony of beauty in each edifice.\n\nOrnate motifs, nature's secrets unfurled,\nIntricate curves like a painter's brush swirls.\nWhispering curves, a delicate refrain,\nUnveiling elegance where creativity reigns.\n\nGargoyles and nymphs, a mysterious embrace,\nGuarding grand entryways with mythical grace.\nStained glass cascades in vivid arrays,\nShimmering sunlight weaving enchanting displays.\n\nOrganic forms flourish with timeless appeal,\nSculpted iron tendrils, a blossoming zeal.\nFrom floor to ceiling, opulence brought to light,\nA celebration of nature, an exquisite sight.\n\nArtistry entwined with architecture's domain,\nA captivating revolution in every chic frame.\nA poetic fusion of tradition and new,\nAn architectural era, forever imbued.",
+            "In a world where lines know how to dance,\nCurved and flowing, in a captivating trance.\nOrnamented like nature's graceful whisper,\nA symphony of iron, glass, and plaster.\n\nOrganic forms, with flowers in bloom,\nGentle curves embracing each room.\nMajestic entrances, adorned with finesse,\nAn invitation to marvel, to be caressed.\n\nStained glass windows, a vivid delight,\nSunlight woven, casting hues so bright.\nFlourishing motifs in every nook and space,\nAn ode to beauty, a heavenly embrace.\n\nFluidity triumphs o'er rigid design,\nA celebration of elegance, so divine.\nSculptures and sculptures, everywhere to be found,\nFlourishing, blossoming, without a bound.\n\nFrom Paris to Brussels, its legacy thrives,\nAn era of artistry that vividly survives.\nAn architectural tale, unwavering and bold,\nAn everlasting masterpiece, eternally told.",
+            "Elegant curves, nature's embrace,\nIntricate grace, a timeless space.\nFluid lines caress, like vines that flow,\nOrnate details, a mesmerizing show.\n\nCurved windows, inviting light to dance,\nGently swaying forms, in harmonious trance.\nWhiplash curves, a delicate delight,\nAn ode to beauty, both unique and bright.\n\nRhythmic patterns, a symphony of design,\nGilded embellishments, so refined.\nFloral motifs, in every carved embrace,\nA celebration of nature's endless grace.\n\nStained glass, a kaleidoscope of hue,\nStreaming colors, the world anew.\nOrganic fusion, where structure meets art,\nA captivating dance, touching every heart.\n\nOh, architectural poetry, so divine,\nArtistic expression, forever entwined.\nAesthetically radiant, forever it gleams,\nThis wondrous style, born from dreams."
+        ],
+        "style_similarity": {
+            "Art Nouveau": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.046153846153846156,
+                "weighted": 0.12894736842105264
+            },
+            "Stilt House": {
+                "unweighted": 0.016260162601626018,
+                "weighted": 0.0332409972299169
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.07142857142857142,
+                "weighted": 0.21842105263157896
+            },
+            "Art Deco": {
+                "unweighted": 0.1092436974789916,
+                "weighted": 0.24864864864864866
+            },
+            "Colonial": {
+                "unweighted": 0.0078125,
+                "weighted": 0.05
+            },
+            "Brutalism": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Contemporary": {
+                "unweighted": 0.044642857142857144,
+                "weighted": 0.09703504043126684
+            },
+            "Ancient Greek": {
+                "unweighted": 0.04201680672268908,
+                "weighted": 0.11842105263157894
+            },
+            "Ancient Roman": {
+                "unweighted": 0.038461538461538464,
+                "weighted": 0.11578947368421053
+            },
+            "Romanesque": {
+                "unweighted": 0.025,
+                "weighted": 0.08108108108108109
+            },
+            "Gothic": {
+                "unweighted": 0.03968253968253968,
+                "weighted": 0.10263157894736842
+            },
+            "Baroque": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2714285714285714
+            },
+            "Renaissance": {
+                "unweighted": 0.06976744186046512,
+                "weighted": 0.19473684210526315
+            },
+            "Neoclassical": {
+                "unweighted": 0.03571428571428571,
+                "weighted": 0.10810810810810811
+            },
+            "Bauhaus": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.03684210526315789
+            },
+            "Muscovite": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.20789473684210527
+            },
+            "Constructivism": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.15789473684210525
+            },
+            "Mud Brick": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.06756756756756757
+            },
+            "Swahili": {
+                "unweighted": 0.07792207792207792,
+                "weighted": 0.26756756756756755
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.11388888888888889
+            },
+            "Modern Islamic": {
+                "unweighted": 0.04032258064516129,
+                "weighted": 0.12894736842105264
+            },
+            "Gupta": {
+                "unweighted": 0.072,
+                "weighted": 0.21351351351351353
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0425531914893617,
+                "weighted": 0.17027027027027028
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.05084745762711865,
+                "weighted": 0.18328840970350405
+            },
+            "Edo Period": {
+                "unweighted": 0.027586206896551724,
+                "weighted": 0.10789473684210527
+            },
+            "Khmer Empire": {
+                "unweighted": 0.056338028169014086,
+                "weighted": 0.16578947368421051
+            },
+            "Thai": {
+                "unweighted": 0.058394160583941604,
+                "weighted": 0.2
+            },
+            "Timurid Period": {
+                "unweighted": 0.06837606837606838,
+                "weighted": 0.21621621621621623
+            },
+            "Persian": {
+                "unweighted": 0.05785123966942149,
+                "weighted": 0.1778975741239892
             }
         }
     },
@@ -4312,6 +4851,10 @@
                 "unweighted": 0.06862745098039216,
                 "weighted": 0.12307692307692308
             },
+            "Art Nouveau": {
+                "unweighted": 0.007936507936507936,
+                "weighted": 0.03684210526315789
+            },
             "Muscovite": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -4324,6 +4867,10 @@
                 "unweighted": 0.02459016393442623,
                 "weighted": 0.041025641025641026
             },
+            "Swahili": {
+                "unweighted": 0.032467532467532464,
+                "weighted": 0.11025641025641025
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.016666666666666666,
                 "weighted": 0.06315789473684211
@@ -4331,6 +4878,14 @@
             "Modern Islamic": {
                 "unweighted": 0.07017543859649122,
                 "weighted": 0.225
+            },
+            "Gupta": {
+                "unweighted": 0.016,
+                "weighted": 0.06666666666666667
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0,
+                "weighted": 0.0
             },
             "Chinese Imperial": {
                 "unweighted": 0.008620689655172414,
@@ -4626,6 +5181,10 @@
                 "unweighted": 0.039473684210526314,
                 "weighted": 0.11794871794871795
             },
+            "Art Nouveau": {
+                "unweighted": 0.047619047619047616,
+                "weighted": 0.20789473684210527
+            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -4638,6 +5197,10 @@
                 "unweighted": 0.029585798816568046,
                 "weighted": 0.04358974358974359
             },
+            "Swahili": {
+                "unweighted": 0.06666666666666667,
+                "weighted": 0.2358974358974359
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.062111801242236024,
                 "weighted": 0.19736842105263158
@@ -4645,6 +5208,14 @@
             "Modern Islamic": {
                 "unweighted": 0.030120481927710843,
                 "weighted": 0.085
+            },
+            "Gupta": {
+                "unweighted": 0.1069182389937107,
+                "weighted": 0.31794871794871793
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.125,
+                "weighted": 0.3769230769230769
             },
             "Chinese Imperial": {
                 "unweighted": 0.12162162162162163,
@@ -4903,6 +5474,10 @@
                 "unweighted": 0.02702702702702703,
                 "weighted": 0.05660377358490566
             },
+            "Art Nouveau": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.15789473684210525
+            },
             "Bauhaus": {
                 "unweighted": 0.2376237623762376,
                 "weighted": 0.5564304461942258
@@ -4915,6 +5490,10 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
+            "Swahili": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.14285714285714285
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.007936507936507936,
                 "weighted": 0.030470914127423823
@@ -4922,6 +5501,14 @@
             "Modern Islamic": {
                 "unweighted": 0.08547008547008547,
                 "weighted": 0.24934383202099739
+            },
+            "Gupta": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.05660377358490566
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.006944444444444444,
+                "weighted": 0.008086253369272238
             },
             "Chinese Imperial": {
                 "unweighted": 0.008264462809917356,
@@ -5196,6 +5783,10 @@
                 "unweighted": 0.03636363636363636,
                 "weighted": 0.10789473684210527
             },
+            "Art Nouveau": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.06756756756756757
+            },
             "Bauhaus": {
                 "unweighted": 0.02459016393442623,
                 "weighted": 0.041025641025641026
@@ -5208,6 +5799,10 @@
                 "unweighted": 0.0,
                 "weighted": 0.0
             },
+            "Swahili": {
+                "unweighted": 0.09333333333333334,
+                "weighted": 0.3078947368421053
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.032520325203252036,
                 "weighted": 0.08648648648648649
@@ -5215,6 +5810,14 @@
             "Modern Islamic": {
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.15384615384615385
+            },
+            "Gupta": {
+                "unweighted": 0.03937007874015748,
+                "weighted": 0.0868421052631579
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.039473684210526314
             },
             "Chinese Imperial": {
                 "unweighted": 0.05172413793103448,
@@ -5239,6 +5842,335 @@
             "Persian": {
                 "unweighted": 0.04132231404958678,
                 "weighted": 0.10498687664041995
+            }
+        }
+    },
+    "Swahili": {
+        "architects": [
+            {
+                "name": "Abdulrahman Sharif",
+                "birthdate": "January 12, 1940",
+                "deathdate": "March 18, 2005",
+                "nationality": "Tanzanian",
+                "description": "Abdulrahman Sharif was a renowned Tanzanian architect known for his contributions to Swahili architecture. He played a key role in preserving and reviving traditional architectural elements of the Swahili people.",
+                "notable_buildings": [
+                    "House of Wonders",
+                    "Fort Jesus",
+                    "Old Dispensary"
+                ],
+                "valid": 0.0,
+                "quality": 0.0
+            },
+            {
+                "name": "Ali Mbarouk Vuga",
+                "birthdate": "September 27, 1955",
+                "deathdate": "N/A",
+                "nationality": "Kenyan",
+                "description": "Ali Mbarouk Vuga is a prominent Kenyan architect specializing in Swahili architecture. He has dedicated his career to promoting sustainable and culturally significant designs that reflect the rich heritage and traditions of the Swahili people.",
+                "notable_buildings": [
+                    "Lamu Fort",
+                    "Gede Ruins Visitor Center",
+                    "Shela Village Mosque"
+                ],
+                "valid": 0.33,
+                "quality": 0.0
+            },
+            {
+                "name": "Mariam Kamara",
+                "birthdate": "July 30, 1979",
+                "deathdate": "N/A",
+                "nationality": "Nigerien",
+                "description": "Mariam Kamara, originally from Niger, is an architect and designer who has shown a deep interest in Swahili architecture and its principles. Through her innovative designs, she explores the fusion of modern and traditional elements, paying homage to the Swahili architectural style.",
+                "notable_buildings": [
+                    "Mizengo Pinda Stadium",
+                    "Da Na Awa Mosque",
+                    "Yacine Cultural Center"
+                ],
+                "valid": 0.0,
+                "quality": 0.33
+            }
+        ],
+        "style": {
+            "timeRange": "9th to 19th centuries",
+            "period": "Medieval to Early Modern",
+            "description": "Swahili architecture is an architectural style that developed along the east coast of Africa, particularly in the Swahili coastal cities. It is a unique fusion of various influences including Islamic, Arabic, Persian, Indian, and African cultures. Swahili architecture is known for its distinctive coral stone buildings, intricate carvings, and decorative elements.",
+            "characteristics": [
+                "Use of coral stone for construction",
+                "Intricate geometric patterns and carvings",
+                "Arched doorways and windows",
+                "Courtyard-based architecture",
+                "Flat roofs with wide eaves for shade",
+                "Open and airy interior spaces",
+                "Verandas and rooftop terraces",
+                "Integration of traditional African building techniques with Islamic architectural elements"
+            ],
+            "examples": [
+                "Fort Jesus in Mombasa, Kenya",
+                "Old Town of Lamu, Kenya",
+                "Gede Ruins in Kilifi, Kenya",
+                "Zanzibar Stone Town, Tanzania",
+                "Songo Mnara, Tanzania"
+            ],
+            "continent": "Africa",
+            "country": "Kenya and Tanzania",
+            "quality": 1.0,
+            "example_quality": 0.6,
+            "existence": 0.0,
+            "example_validity": {
+                "Fort Jesus in Mombasa, Kenya": 3,
+                "Old Town of Lamu, Kenya": 3,
+                "Gede Ruins in Kilifi, Kenya": 3,
+                "Zanzibar Stone Town, Tanzania": 3,
+                "Songo Mnara, Tanzania": 3
+            }
+        },
+        "terms": "Swahili, architecture, style   traditional, coastal, ornate, intricate, Arabic-influenced, vibrant, cultural",
+        "character": [
+            "Influenced by African, Islamic, and Indian architectural styles",
+            "Use of coral stone in construction",
+            "Distinctive architectural features such as curved arches, intricate wooden carvings, and rooftop terraces"
+        ],
+        "short": "Swahili architecture is a unique blend of Arab, Persian, and Indian influences, characterized by intricately carved wooden doors, coral stone buildings, and rooftop terraces.",
+        "significance": 7,
+        "Start_Year": 800,
+        "End_Year": 1800,
+        "valid": 0.0,
+        "termsV2": {
+            "Coast": 1,
+            "Coral": 2,
+            "Arche": 3,
+            "Verandas": 6,
+            "Courtyard": 10,
+            "Mashrabiya": 1,
+            "Lime": 2,
+            "Woodcarvings": 1,
+            "Mud": 7,
+            "Thatch": 6,
+            "Makuti": 4,
+            "Coral stone": 5,
+            "Wood": 3,
+            "Veranda": 2,
+            "Vaulted roofs": 1,
+            "Ornate carvings": 1,
+            "Intricate": 8,
+            "Ornate": 8,
+            "Symmetrical": 8,
+            "Elegant": 5,
+            "Vibrant": 4,
+            "Harmonious": 8,
+            "Distinctive": 2,
+            "Functional": 6,
+            "Durable": 2,
+            "Sustainable": 3,
+            "Makuti (palm thatch)": 2,
+            "Corals": 1,
+            "Coral rag": 1,
+            "Cannons": 1,
+            "Arab-influenced": 1,
+            "Islamic elements": 1,
+            "Craftsmanship-focused": 1,
+            "Multi-story": 1,
+            "Courtyard-centered": 1,
+            "Verandah-lined": 1,
+            "Ventilated": 1,
+            "Earth-toned": 2,
+            "Coral stones": 2,
+            "Wood carvings": 1,
+            "Mosaic": 1,
+            "Verandah": 2,
+            "Arched windows": 1,
+            "Pillar": 1,
+            "Swahili doors": 1,
+            "Innovative": 1,
+            "Eclectic": 1,
+            "Versatile": 1,
+            "Beautiful": 1,
+            "Organic": 1,
+            "Coconut wood": 1,
+            "Mortar": 1,
+            "Woodcarving": 1,
+            "Sturdy": 1,
+            "Coastal": 1,
+            "Open": 3,
+            "Breezy": 1,
+            "Makuti (thatched) roofs": 1,
+            "Arab-style arches": 1,
+            "Mud plaster": 1,
+            "Gabled roofs": 1,
+            "Latticework screens": 1,
+            "Open-air spaces": 1,
+            "Stucco decoration": 1,
+            "Elaborate": 1,
+            "Decorative": 3,
+            "Makuti (thatched roof)": 1,
+            "Mud walls": 1,
+            "Archways": 1,
+            "Mashrabiya (wooden lattice screens)": 1,
+            "Maji-ya-kwetu (traditional water well)": 1,
+            "Zidaka (decorative plasterwork)": 1,
+            "Cupolas": 1,
+            "Palm leaves": 1,
+            "Carvings": 1,
+            "Islamic influences": 1,
+            "Ornamental": 1,
+            "Spacious": 1,
+            "Dynamic": 1,
+            "Traditional": 1,
+            "Makuti roofs": 1,
+            "Arched doorways": 1,
+            "Islamic designs": 1,
+            "Minaret": 1,
+            "Lattice-work windows": 1,
+            "Palm wood furniture": 1,
+            "Zanzibar-style balconies": 1,
+            "Balanced": 1,
+            "Geometric": 1,
+            "Cultural": 1,
+            "Authentic": 1,
+            "Timeless": 1,
+            "Stone": 1,
+            "Lattice": 1,
+            "Arch": 1,
+            "Colourful": 1,
+            "Abstract": 1,
+            "Fluid": 1,
+            "Symbolic": 1
+        },
+        "style_area": "Sahel & Sub-Saharan Africa",
+        "name": "Swahili",
+        "valid2": 1.0,
+        "selected": true,
+        "poems": [
+            "In distant lands where palms sway,\nA vibrant spirit takes its sway,\nThe tapestry of art unfolds,\nIn arches, curves, tales untold.\n\nMud and coral, blending true,\nCrafting homes with colors new,\nWhispers of Africa abound,\nWithin each dwelling, stories found.\n\nEnchanting rooftops gently rise,\nAdorned with ornaments, worldly ties,\nA dance of sun and shadows play,\nOn walls where art finds its way.\n\nCourtyards blooming with life's embrace,\nA tranquil haven, filled with grace,\nThrough intricate doors, secrets hide,\nIntriguing worlds waiting inside.\n\nCarved with grace in every beam,\nA symphony of culture, it seems,\nAwakening senses, harmonies old,\nIn this architecture, tales unfold.",
+            "Amidst the golden coast, a tale is spun,\nArchitecture whispered by equatorial sun.\nA dance of symmetry, where curves embrace,\nWithin slender frames, a timeless grace.\n\nAdorned in vibrant hues, earthly and bright,\nGathered by hands, skilled, in artistic flight.\nVaulted arches, like arms open wide,\nWelcoming strangers, with warmth, beside.\n\nIntricate patterns, etched in every wall,\nStories unfold, whispers with each footfall.\nLatticed screens, crafted in woven delight,\nShielding from the heat, with patterns so tight.\n\nVerandas extending to the gentle sea breeze,\nA haven of solace, where time's ceased.\nCourtyards adorned with plants and blooms,\nNature's sanctuary, where life resumes.\n\nShady rooftops, with mangrove crowns,\nPeering down, as history resounds.\nPrecious history, etched within these walls,\nCulture celebrated, as grandeur installs.\n\nSo, let us marvel at this coastal treasure,\nAn architecture style, woven with pleasure.\nA tribute to heritage, standing tall and free,\nThis enchanting design, forever to be.",
+            "Amidst a tapestry woven by cultural delight,\nWhere walls rise to sing songs of ancient might,\nTimber and thatch blend in harmonious blend,\nForms emboldened with stories, without end.\n\nSplendidly adorned, vibrant colors cascade,\nCarved patterns that whisper tales, long forbade,\nCourtyards invite, with cool shade they lace,\nA sanctuary in heat, a comforting embrace.\n\nMajestic archways, divine in their grace,\nSun's tender glow kisses each sculpted face,\nCarvings tell a tale of strength and ancestry,\nA symphony of tradition, an artistry.\n\nBreezes embraced, through dainty lattice they sigh,\nAs palm leaves sway, under an azure sky,\nRooftops crowned, soaring high in pride,\nPreserving heritage, where time cannot hide.\n\nWith every brick laid, history unfolds,\nResilient whispers, stories yet untold,\nIn this symphony, an architectural soul,\nResonating through time, a treasure untold."
+        ],
+        "icon": "swahili.png",
+        "marker": 47,
+        "style_similarity": {
+            "Swahili": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.07006369426751592,
+                "weighted": 0.24871794871794872
+            },
+            "Stilt House": {
+                "unweighted": 0.08275862068965517,
+                "weighted": 0.20754716981132076
+            },
+            "Ranch-style house": {
+                "unweighted": 0.03289473684210526,
+                "weighted": 0.09866666666666667
+            },
+            "Victorian": {
+                "unweighted": 0.06293706293706294,
+                "weighted": 0.2128205128205128
+            },
+            "Art Deco": {
+                "unweighted": 0.05128205128205128,
+                "weighted": 0.2
+            },
+            "Colonial": {
+                "unweighted": 0.05228758169934641,
+                "weighted": 0.17692307692307693
+            },
+            "Brutalism": {
+                "unweighted": 0.006993006993006993,
+                "weighted": 0.03513513513513514
+            },
+            "Contemporary": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.18635170603674542
+            },
+            "Ancient Greek": {
+                "unweighted": 0.05405405405405406,
+                "weighted": 0.2128205128205128
+            },
+            "Ancient Roman": {
+                "unweighted": 0.07692307692307693,
+                "weighted": 0.2358974358974359
+            },
+            "Romanesque": {
+                "unweighted": 0.040268456375838924,
+                "weighted": 0.12368421052631579
+            },
+            "Gothic": {
+                "unweighted": 0.03164556962025317,
+                "weighted": 0.10256410256410256
+            },
+            "Baroque": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.09722222222222222
+            },
+            "Renaissance": {
+                "unweighted": 0.06918238993710692,
+                "weighted": 0.2846153846153846
+            },
+            "Neoclassical": {
+                "unweighted": 0.05714285714285714,
+                "weighted": 0.22631578947368422
+            },
+            "Art Nouveau": {
+                "unweighted": 0.07792207792207792,
+                "weighted": 0.26756756756756755
+            },
+            "Bauhaus": {
+                "unweighted": 0.032467532467532464,
+                "weighted": 0.11025641025641025
+            },
+            "Muscovite": {
+                "unweighted": 0.06666666666666667,
+                "weighted": 0.2358974358974359
+            },
+            "Constructivism": {
+                "unweighted": 0.031446540880503145,
+                "weighted": 0.14285714285714285
+            },
+            "Mud Brick": {
+                "unweighted": 0.09333333333333334,
+                "weighted": 0.3078947368421053
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.06622516556291391,
+                "weighted": 0.25405405405405407
+            },
+            "Modern Islamic": {
+                "unweighted": 0.11805555555555555,
+                "weighted": 0.3641025641025641
+            },
+            "Gupta": {
+                "unweighted": 0.11409395973154363,
+                "weighted": 0.3447368421052632
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.08484848484848485,
+                "weighted": 0.28421052631578947
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.0684931506849315,
+                "weighted": 0.2992125984251969
+            },
+            "Edo Period": {
+                "unweighted": 0.046242774566473986,
+                "weighted": 0.2205128205128205
+            },
+            "Khmer Empire": {
+                "unweighted": 0.06432748538011696,
+                "weighted": 0.24358974358974358
+            },
+            "Thai": {
+                "unweighted": 0.09937888198757763,
+                "weighted": 0.29743589743589743
+            },
+            "Timurid Period": {
+                "unweighted": 0.09027777777777778,
+                "weighted": 0.32894736842105265
+            },
+            "Persian": {
+                "unweighted": 0.10344827586206896,
+                "weighted": 0.35958005249343833
             }
         }
     },
@@ -5462,6 +6394,10 @@
                 "unweighted": 0.05714285714285714,
                 "weighted": 0.21351351351351353
             },
+            "Art Nouveau": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.11388888888888889
+            },
             "Bauhaus": {
                 "unweighted": 0.016666666666666666,
                 "weighted": 0.06315789473684211
@@ -5478,9 +6414,21 @@
                 "unweighted": 0.032520325203252036,
                 "weighted": 0.08648648648648649
             },
+            "Swahili": {
+                "unweighted": 0.06622516556291391,
+                "weighted": 0.25405405405405407
+            },
             "Modern Islamic": {
                 "unweighted": 0.03333333333333333,
                 "weighted": 0.11315789473684211
+            },
+            "Gupta": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4135135135135135
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.09230769230769231,
+                "weighted": 0.2891891891891892
             },
             "Chinese Imperial": {
                 "unweighted": 0.12264150943396226,
@@ -5742,6 +6690,10 @@
                 "unweighted": 0.0673076923076923,
                 "weighted": 0.19230769230769232
             },
+            "Art Nouveau": {
+                "unweighted": 0.04032258064516129,
+                "weighted": 0.12894736842105264
+            },
             "Bauhaus": {
                 "unweighted": 0.07017543859649122,
                 "weighted": 0.225
@@ -5758,9 +6710,21 @@
                 "unweighted": 0.040983606557377046,
                 "weighted": 0.15384615384615385
             },
+            "Swahili": {
+                "unweighted": 0.11805555555555555,
+                "weighted": 0.3641025641025641
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.03333333333333333,
                 "weighted": 0.11315789473684211
+            },
+            "Gupta": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.15128205128205127
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.07575757575757576,
+                "weighted": 0.2282051282051282
             },
             "Chinese Imperial": {
                 "unweighted": 0.034782608695652174,
@@ -5785,6 +6749,603 @@
             "Persian": {
                 "unweighted": 0.17142857142857143,
                 "weighted": 0.45268542199488493
+            }
+        }
+    },
+    "Gupta": {
+        "architects": [
+            {
+                "name": "Chandragupta II",
+                "birthDate": "c. 376 AD",
+                "deathDate": "c. 415 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Dasavatara Temple",
+                    "Dashavatara Vishnu Temple",
+                    "Bhitargaon Temple"
+                ],
+                "valid": 0.0,
+                "quality": 0.33
+            },
+            {
+                "name": "Skandagupta",
+                "birthDate": "c. 455 AD",
+                "deathDate": "c. 467 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Bodh Gaya Temple",
+                    "Udayagiri Caves",
+                    "Ajanta Caves"
+                ],
+                "valid": 0.0,
+                "quality": 0.33
+            },
+            {
+                "name": "Kumara Gupta",
+                "birthDate": "c. 415 AD",
+                "deathDate": "c. 455 AD",
+                "nationality": "Indian",
+                "description": "Emperor of the Gupta Empire and a patron of the arts, including architecture",
+                "notableBuildings": [
+                    "Dashavatara Temple",
+                    "Udayagiri Caves",
+                    "Ajanta Caves"
+                ],
+                "valid": 0.0,
+                "quality": 0.33
+            }
+        ],
+        "style": {
+            "time_range": "320-550 AD",
+            "period": "Medieval",
+            "description": "The Gupta style of architecture is characterized by its intricate carving and elaborate decoration. It is known for its use of stone and brick, and the use of pillars, domes, and arches. The Gupta period is often considered the golden age of Indian art and architecture.",
+            "characteristics": [
+                "Intricate carving",
+                "Elaborate decoration",
+                "Use of stone and brick",
+                "Use of pillars, domes, and arches"
+            ],
+            "examples": [
+                "Ajanta Caves",
+                "Ellora Caves",
+                "Taj Mahal"
+            ],
+            "continent": "Asia",
+            "country": "India",
+            "quality": 1.0,
+            "example_quality": 0.33,
+            "existence": 0.66,
+            "example_validity": {
+                "Ajanta Caves": 1,
+                "Ellora Caves": 0,
+                "Taj Mahal": 0
+            }
+        },
+        "terms": "ornate, intricate, majestic, symmetrical, elaborate, exquisite, grandiose, opulent, regal, lavish, Sanskritized, Indian, Hindu, Buddhist, Jain, ancient, magnificent.",
+        "Start_Year": 320,
+        "End_Year": 550,
+        "character": [
+            "Elaborate stone carvings and sculptures",
+            "Pillared halls and domed roofs",
+            "Three-tiered roof structures"
+        ],
+        "short": "The Gupta architecture style is a blend of Hindu and Buddhist influences, known for its elaborate and ornate structures, including temples and palaces.",
+        "significance": 5,
+        "valid": 0.0,
+        "termsV2": {
+            "Stupas": 5,
+            "Temple": 8,
+            "Pillar": 9,
+            "Sculptures": 5,
+            "Monasteries": 3,
+            "Caves": 5,
+            "Toranas": 4,
+            "Shrines": 1,
+            "Palace": 2,
+            "Gateways": 1,
+            "Intricate": 10,
+            "Ornate": 11,
+            "Elegant": 6,
+            "Sculptural": 2,
+            "Symmetrical": 8,
+            "Monumental": 6,
+            "Grand": 8,
+            "Harmonious": 5,
+            "Innovative": 7,
+            "Timeless": 5,
+            "Elaborate": 6,
+            "Sophisticated": 4,
+            "Aesthetic": 3,
+            "Indigenous": 1,
+            "Buddha": 2,
+            "Deities": 1,
+            "Monuments": 3,
+            "Sturdy": 1,
+            "Stone": 2,
+            "Carving": 1,
+            "Cave": 3,
+            "Stupa": 4,
+            "Monastery": 4,
+            "Sculpture": 2,
+            "Fresco": 1,
+            "Inscription": 1,
+            "Exquisite": 3,
+            "Majestic": 2,
+            "Symbolic": 2,
+            "Carvings": 2,
+            "Frescoes": 1,
+            "Arche": 2,
+            "Expansive": 1,
+            "Ritualistic": 1,
+            "Durable": 1,
+            "Cave temples": 1,
+            "Rock-cut architecture": 1,
+            "Buddha statues": 1,
+            "Lintels": 1,
+            "Chaitya": 2,
+            "Vihaara": 1,
+            "Opulent": 1,
+            "Buddhist art": 1,
+            "Vaulted roofs": 1,
+            "Stone carvings": 1,
+            "Imposing": 2,
+            "Artifacts": 1,
+            "Stylish": 1,
+            "Ingenious": 1,
+            "Torana": 2,
+            "Vihara": 1,
+            "Gateway": 1,
+            "Shrine": 1,
+            "Sculpted": 1,
+            "Graceful": 1,
+            "Detailed": 1,
+            "Arch": 1
+        },
+        "style_area": "South Asia",
+        "name": "Gupta",
+        "valid2": 1.0,
+        "selected": true,
+        "poems": [
+            "In timeless echoes of ancient tales,\nStones crafted to form majestic trails.\nMarvels rising from Earth's very core,\nHeeding whispers of a glorious lore.\n\nOrnate pillars sculpted with meticulous art,\nCarved with grace, a testament from the heart.\nArcades adorned in splendid grandeur,\nHolding stories of an era's endeavor.\n\nIntricate friezes dance along the walls,\nA symphony of forms, as history recalls.\nSymmetry and balance reign supreme,\nBoundless beauty, as in a dream.\n\nTemples soaring towards an azure sky,\nWorshiping gods with devotion held high.\nRising spires reaching for heaven's gate,\nA celestial realm, divinely innate.\n\nA fusion of styles, East and West,\nHarmony within, a timeless zest.\nA palatial era, ancient whispers unfold,\nA legacy told, with every stone it holds.",
+            "In ancient lore, \nA symphony of stones,\nWhisper tales of grandeur and grace behold.\nPillared halls, regal carvings trace,\nEnchanting arches embrace,\nA masterpiece of time, forever praised.\n\nInspired by gods, divine creations bloom,\nMarvels of art, transcending gloom.\nLotus motifs dance, in intricate grace,\nAn ode to harmony, an ethereal embrace.\nEvery curve speaks, tales untold,\nAn empire's legacy, precious gold.\n\nStone guardians stand tall, silent amid the years,\nA testimony to architectural pioneers.\nThe sun's golden touch, upon each wall's embrace,\nUnveils a universe, boundless space.\nMajestic temples rise, a celestial ode,\nAn epitome of art, where mortals abode.\n\nIntricate lattice screens, a play of light and shade,\nAs if celestial souls, ancient secrets cascade.\nBeneath the sky's gaze, timeless splendor thrives,\nResilient and resplendent, where spirits revive.\nThis architectural wonder, a treasure untold,\nA testament to a civilization of old.",
+            "In ages past, a realm emerged,\nWhere marvels of time were soon unearthed.\nSterling temples with grandeur untold,\nThe journey to an era of gold.\n\nPillars rise, majestic and tall,\nEmbracing heavens, standing proud and enthralled.\nIntricate carvings grace every stone,\nTales from the past, eternally shown.\n\nArcs and domes, a symphony in grace,\nCaptivating vistas, flourishing space.\nDynamic sculptures, alive in stance,\nFusion of art, a divine romance.\n\nSplendid archways, like gateways to dreams,\nGuarding secrets as ancient rivers stream.\nPerfect harmony of symmetry and curves,\nImbued with passion, this legacy preserves.\n\nDiverse cultures blend, a tapestry is weaved,\nWhispering stories, of love and beliefs.\nAn era revered, where history was made,\nThrough this poem, its essence conveyed."
+        ],
+        "icon": "gupta.png",
+        "marker": 34,
+        "style_similarity": {
+            "Gupta": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.11475409836065574,
+                "weighted": 0.36666666666666664
+            },
+            "Stilt House": {
+                "unweighted": 0.05042016806722689,
+                "weighted": 0.0862533692722372
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Victorian": {
+                "unweighted": 0.09090909090909091,
+                "weighted": 0.2948717948717949
+            },
+            "Art Deco": {
+                "unweighted": 0.06451612903225806,
+                "weighted": 0.22631578947368422
+            },
+            "Colonial": {
+                "unweighted": 0.05737704918032787,
+                "weighted": 0.19487179487179487
+            },
+            "Brutalism": {
+                "unweighted": 0.009009009009009009,
+                "weighted": 0.032432432432432434
+            },
+            "Contemporary": {
+                "unweighted": 0.017391304347826087,
+                "weighted": 0.06036745406824147
+            },
+            "Ancient Greek": {
+                "unweighted": 0.10714285714285714,
+                "weighted": 0.3128205128205128
+            },
+            "Ancient Roman": {
+                "unweighted": 0.16129032258064516,
+                "weighted": 0.4230769230769231
+            },
+            "Romanesque": {
+                "unweighted": 0.07894736842105263,
+                "weighted": 0.18157894736842106
+            },
+            "Gothic": {
+                "unweighted": 0.06504065040650407,
+                "weighted": 0.2128205128205128
+            },
+            "Baroque": {
+                "unweighted": 0.07317073170731707,
+                "weighted": 0.20833333333333334
+            },
+            "Renaissance": {
+                "unweighted": 0.13114754098360656,
+                "weighted": 0.37435897435897436
+            },
+            "Neoclassical": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.2394736842105263
+            },
+            "Art Nouveau": {
+                "unweighted": 0.072,
+                "weighted": 0.21351351351351353
+            },
+            "Bauhaus": {
+                "unweighted": 0.016,
+                "weighted": 0.06666666666666667
+            },
+            "Muscovite": {
+                "unweighted": 0.1069182389937107,
+                "weighted": 0.31794871794871793
+            },
+            "Constructivism": {
+                "unweighted": 0.015384615384615385,
+                "weighted": 0.05660377358490566
+            },
+            "Mud Brick": {
+                "unweighted": 0.03937007874015748,
+                "weighted": 0.0868421052631579
+            },
+            "Swahili": {
+                "unweighted": 0.11409395973154363,
+                "weighted": 0.3447368421052632
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.15178571428571427,
+                "weighted": 0.4135135135135135
+            },
+            "Modern Islamic": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.15128205128205127
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.13076923076923078,
+                "weighted": 0.35789473684210527
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.1588785046728972,
+                "weighted": 0.4566929133858268
+            },
+            "Edo Period": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.25384615384615383
+            },
+            "Khmer Empire": {
+                "unweighted": 0.18110236220472442,
+                "weighted": 0.4897435897435897
+            },
+            "Thai": {
+                "unweighted": 0.14173228346456693,
+                "weighted": 0.4256410256410256
+            },
+            "Timurid Period": {
+                "unweighted": 0.12612612612612611,
+                "weighted": 0.41842105263157897
+            },
+            "Persian": {
+                "unweighted": 0.15315315315315314,
+                "weighted": 0.3910761154855643
+            }
+        }
+    },
+    "Indo-Saracenic": {
+        "architects": [
+            {
+                "name": "George Wittet",
+                "birth_date": "1878-01-20",
+                "death_date": "1926-12-27",
+                "nationality": "Scottish",
+                "description": "George Wittet was a Scottish architect who played a significant role in promoting Indo-Saracenic architecture in India.",
+                "notable_buildings": [
+                    "Gateway of India, Mumbai",
+                    "Prince of Wales Museum, Mumbai",
+                    "Maharaja's Palace, Kolhapur"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Robert Fellowes Chisholm",
+                "birth_date": "1840-10-18",
+                "death_date": "1915-02-21",
+                "nationality": "British",
+                "description": "Robert Fellowes Chisholm was a British architect known for his works in the Indo-Saracenic style during the British Raj in India.",
+                "notable_buildings": [
+                    "Madras High Court, Chennai",
+                    "Victoria Memorial Hall, Kolkata",
+                    "Athens of the East, Madurai"
+                ],
+                "valid": 0.0,
+                "quality": 1.0
+            },
+            {
+                "name": "Henry Irwin",
+                "birth_date": "1841-08-03",
+                "death_date": "1922-11-02",
+                "nationality": "British",
+                "description": "Henry Irwin was a British architect renowned for his expertise in the Indo-Saracenic architectural style.",
+                "notable_buildings": [
+                    "Mysore Palace, Mysuru",
+                    "Bangalore Palace, Bengaluru",
+                    "Government Museum, Chennai"
+                ],
+                "valid": 1.0,
+                "quality": 1.0
+            }
+        ],
+        "style": {
+            "time_range": "Late 19th to early 20th century",
+            "period": "Colonial period",
+            "description": "Indo-Saracenic architecture is a blend of Indian and Islamic architectural styles that emerged during the British colonial rule in India. It combines elements of Indo-Islamic architecture with Gothic, Renaissance, and other Western architectural styles.",
+            "characteristics": [
+                "Features of Indo-Saracenic architecture include the use of Indian architectural elements like domes",
+                " arches",
+                " and minarets",
+                " combined with Western features such as symmetrical layouts",
+                " pointed arches",
+                " and stained glass windows. The buildings often incorporate intricate carvings",
+                " decorative motifs",
+                " and ornate detailing."
+            ],
+            "examples": [
+                "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India",
+                "Mysore Palace in Mysore, India",
+                "Gateway of India in Mumbai, India",
+                "Lahore Museum in Lahore, Pakistan"
+            ],
+            "continent": "Asia",
+            "country": "India",
+            "quality": 1.0,
+            "example_quality": 1.0,
+            "existence": 1.0,
+            "example_validity": {
+                "Victoria Terminus (now Chhatrapati Shivaji Terminus) in Mumbai, India": 3,
+                "Mysore Palace in Mysore, India": 3,
+                "Gateway of India in Mumbai, India": 3,
+                "Lahore Museum in Lahore, Pakistan": 3
+            }
+        },
+        "terms": "combination of Indian, Islamic, British colonial, Mughal, Gothic, Hindu, Victorian, revival, ornate, grand, opulent, magnificent, fusion",
+        "character": [
+            "Fusion of Indian and Islamic architectural styles",
+            "Use of intricate detailing and ornamental features",
+            "Blend of traditional and European architectural elements"
+        ],
+        "short": "Indo-Saracenic architecture combines Indian and Islamic elements in a fusion style marked by intricate detailing, grandeur, and diverse influences.",
+        "significance": 7,
+        "Start_Year": 1795,
+        "End_Year": 1947,
+        "icon": "indo-saracenic.png",
+        "valid": 1.0,
+        "termsV2": {
+            "Mosque": 3,
+            "Palace": 4,
+            "Temple": 4,
+            "Fort": 2,
+            "Tombs": 1,
+            "Arch": 2,
+            "Minaret": 5,
+            "Dome": 5,
+            "Courtyard": 3,
+            "Pavilion": 3,
+            "Grand": 10,
+            "Ornate": 10,
+            "Extravagant": 4,
+            "Opulent": 8,
+            "Majestic": 9,
+            "Intricate": 10,
+            "Elegant": 3,
+            "Distinctive": 1,
+            "Blend of cultures": 2,
+            "Symbolic": 1,
+            "Arche": 3,
+            "Colonnades": 1,
+            "Verandas": 2,
+            "Mosaics": 2,
+            "Jalis": 1,
+            "Turrets": 2,
+            "Chhatris": 1,
+            "Pavilions": 2,
+            "Eclectic": 8,
+            "Fusion": 5,
+            "Rich": 1,
+            "Detailed": 1,
+            "Vibrant": 3,
+            "Magnificent": 1,
+            "Pristine": 1,
+            "Imposing": 3,
+            "Exquisite": 1,
+            "Tomb": 1,
+            "Mausoleum": 2,
+            "University": 2,
+            "Church": 1,
+            "Bungalow": 1,
+            "Influential": 1,
+            "Jali": 1,
+            "Column": 1,
+            "Towers": 1,
+            "Terraces": 1,
+            "Sculptural": 1,
+            "Exotic": 3,
+            "Palatial": 1,
+            "Tower": 1,
+            "Gateway": 1,
+            "Bazaar": 1,
+            "Mix of styles": 1,
+            "Towered": 1,
+            "Decorative": 2,
+            "Mughal": 3,
+            "Islamic": 3,
+            "Hindu": 3,
+            "British": 3,
+            "Rajput": 2,
+            "Gothic": 3,
+            "Victorian": 3,
+            "Melting pot": 1,
+            "Unique": 1,
+            "Dramatic": 1,
+            "Revival": 1,
+            "Indian": 1,
+            "Colonial": 2,
+            "Architectural": 1,
+            "Multicultural": 1,
+            "Artistic": 1,
+            "Moorish": 1,
+            "Arabic": 1,
+            "Blend of styles": 1,
+            "Carvings": 1,
+            "Verandahs": 1,
+            "Windows": 1,
+            "Flamboyant": 1,
+            "Mix-and-match": 1
+        },
+        "style_area": "South Asia",
+        "name": "Indo-Saracenic",
+        "valid2": 1.0,
+        "selected": true,
+        "poems": [
+            "In lands where East meets West's embrace,\nA splendid fusion of cultures we trace.\nIlluminated domes pierce the sky,\nWhere harmony reigns, none can deny.\n\nTales of grandeur whisper through each arch,\nA symphony of shapes and colors embark.\nMajestic wonders in intricate design,\nSplendor and heritage gracefully entwine.\n\nA marriage of Indian and Arabian essence,\nAwakening beauty with subtle presence.\nCarved with eloquence, structures arise,\nEchoing legends and sagas in disguise.\n\nSpacious courtyards adorned with grace,\nWhere fragrant gardens find their space.\nMosaic tiles reflect the sun's warm kiss,\nWhispering tales of an ethereal bliss.\n\nBeyond each pillar, history unfolds,\nA tapestry of secrets and stories untold.\nWith minarets that touch the heavens above,\nA testament to triumph and eternal love.\n\nA celebration of heritage divine,\nIntricate patterns woven through time.\nEach archway echoes a cultural embrace,\nIn a language of magnificence and grace.",
+            "Intricate arches soar towards the skies,\nWhere East and West intertwine with grace,\nEchoing tales of diverse heritage,\nA symphony of cultures interlace.\n\nBorrowed wonders from a bygone age,\nFrom India's sun-kissed realms they take,\nEmbracing Islamic flourishes,\nA fusion of beauty starts to wake.\n\nOpulence drips from every ornate wall,\nMajestic domes and minarets stand tall,\nEnchanting patterns like stories unfold,\nIntriguing travelers' eyes with their enthrall.\n\nPalatial elegance takes its stance,\nMerging Mughal, Gothic, hints of grace,\nLeaving beholders in awe-struck trance,\nA testament of artistry's embrace.\n\nWhispers of history fill the air,\nAs vibrant hues adorn the landscape,\nEast and West's love affair found its heir,\nIn this amalgamation, our past takes shape.",
+            "In lands where cultures intertwine,\nA fusion of beauty, grand design.\nEastern charm meets Western grace,\nCreating structures that amaze.\n\nEthereal domes reach for the sky,\nCarved arches, mesmerizing the eye.\nImpressive minarets, tall and proud,\nEchoing prayers, clear and loud.\n\nMajestic palaces, adorned with art,\nBlend Moorish patterns, playing their part.\nIntricate details, intricate lace,\nWhispering tales of an ancient place.\n\nWhitewashed walls, shimmering in light,\nGardens blooming, colors ignite.\nColonial grandeur, embraced with care,\nRoyal elegance, beyond compare.\n\nIntriguing symphony of past and now,\nWhere history whispers, secrets endow.\nA tribute to unity, cultures entwined,\nIn this architectural marvel, an ode defined."
+        ],
+        "marker": 35,
+        "style_similarity": {
+            "Indo-Saracenic": {
+                "unweighted": 1.0,
+                "weighted": 1.0
+            },
+            "Mesoamerican": {
+                "unweighted": 0.07194244604316546,
+                "weighted": 0.24358974358974358
+            },
+            "Stilt House": {
+                "unweighted": 0.014705882352941176,
+                "weighted": 0.0215633423180593
+            },
+            "Ranch-style house": {
+                "unweighted": 0.0072992700729927005,
+                "weighted": 0.008
+            },
+            "Victorian": {
+                "unweighted": 0.10833333333333334,
+                "weighted": 0.34102564102564104
+            },
+            "Art Deco": {
+                "unweighted": 0.050724637681159424,
+                "weighted": 0.16842105263157894
+            },
+            "Colonial": {
+                "unweighted": 0.0364963503649635,
+                "weighted": 0.11794871794871795
+            },
+            "Brutalism": {
+                "unweighted": 0.008064516129032258,
+                "weighted": 0.02972972972972973
+            },
+            "Contemporary": {
+                "unweighted": 0.007751937984496124,
+                "weighted": 0.005249343832020997
+            },
+            "Ancient Greek": {
+                "unweighted": 0.06201550387596899,
+                "weighted": 0.15897435897435896
+            },
+            "Ancient Roman": {
+                "unweighted": 0.08035714285714286,
+                "weighted": 0.24871794871794872
+            },
+            "Romanesque": {
+                "unweighted": 0.0625,
+                "weighted": 0.15263157894736842
+            },
+            "Gothic": {
+                "unweighted": 0.07462686567164178,
+                "weighted": 0.23333333333333334
+            },
+            "Baroque": {
+                "unweighted": 0.07407407407407407,
+                "weighted": 0.25555555555555554
+            },
+            "Renaissance": {
+                "unweighted": 0.15267175572519084,
+                "weighted": 0.4
+            },
+            "Neoclassical": {
+                "unweighted": 0.04878048780487805,
+                "weighted": 0.16842105263157894
+            },
+            "Art Nouveau": {
+                "unweighted": 0.0425531914893617,
+                "weighted": 0.17027027027027028
+            },
+            "Bauhaus": {
+                "unweighted": 0.0,
+                "weighted": 0.0
+            },
+            "Muscovite": {
+                "unweighted": 0.125,
+                "weighted": 0.3769230769230769
+            },
+            "Constructivism": {
+                "unweighted": 0.006944444444444444,
+                "weighted": 0.008086253369272238
+            },
+            "Mud Brick": {
+                "unweighted": 0.028368794326241134,
+                "weighted": 0.039473684210526314
+            },
+            "Swahili": {
+                "unweighted": 0.08484848484848485,
+                "weighted": 0.28421052631578947
+            },
+            "Ancient Egyptian": {
+                "unweighted": 0.09230769230769231,
+                "weighted": 0.2891891891891892
+            },
+            "Modern Islamic": {
+                "unweighted": 0.07575757575757576,
+                "weighted": 0.2282051282051282
+            },
+            "Gupta": {
+                "unweighted": 0.13076923076923078,
+                "weighted": 0.35789473684210527
+            },
+            "Chinese Imperial": {
+                "unweighted": 0.15126050420168066,
+                "weighted": 0.4540682414698163
+            },
+            "Edo Period": {
+                "unweighted": 0.03184713375796178,
+                "weighted": 0.1
+            },
+            "Khmer Empire": {
+                "unweighted": 0.13194444444444445,
+                "weighted": 0.3564102564102564
+            },
+            "Thai": {
+                "unweighted": 0.0896551724137931,
+                "weighted": 0.2717948717948718
+            },
+            "Timurid Period": {
+                "unweighted": 0.15966386554621848,
+                "weighted": 0.4605263157894737
+            },
+            "Persian": {
+                "unweighted": 0.175,
+                "weighted": 0.45144356955380577
             }
         }
     },
@@ -6011,6 +7572,10 @@
                 "unweighted": 0.0707070707070707,
                 "weighted": 0.24671916010498687
             },
+            "Art Nouveau": {
+                "unweighted": 0.05084745762711865,
+                "weighted": 0.18328840970350405
+            },
             "Bauhaus": {
                 "unweighted": 0.008620689655172414,
                 "weighted": 0.017902813299232736
@@ -6027,6 +7592,10 @@
                 "unweighted": 0.05172413793103448,
                 "weighted": 0.13648293963254593
             },
+            "Swahili": {
+                "unweighted": 0.0684931506849315,
+                "weighted": 0.2992125984251969
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.12264150943396226,
                 "weighted": 0.39622641509433965
@@ -6034,6 +7603,14 @@
             "Modern Islamic": {
                 "unweighted": 0.034782608695652174,
                 "weighted": 0.15089514066496162
+            },
+            "Gupta": {
+                "unweighted": 0.1588785046728972,
+                "weighted": 0.4566929133858268
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15126050420168066,
+                "weighted": 0.4540682414698163
             },
             "Edo Period": {
                 "unweighted": 0.12096774193548387,
@@ -6300,6 +7877,10 @@
                 "unweighted": 0.056451612903225805,
                 "weighted": 0.24358974358974358
             },
+            "Art Nouveau": {
+                "unweighted": 0.027586206896551724,
+                "weighted": 0.10789473684210527
+            },
             "Bauhaus": {
                 "unweighted": 0.05185185185185185,
                 "weighted": 0.1475
@@ -6316,6 +7897,10 @@
                 "unweighted": 0.05,
                 "weighted": 0.16666666666666666
             },
+            "Swahili": {
+                "unweighted": 0.046242774566473986,
+                "weighted": 0.2205128205128205
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.051094890510948905,
                 "weighted": 0.15526315789473685
@@ -6323,6 +7908,14 @@
             "Modern Islamic": {
                 "unweighted": 0.043478260869565216,
                 "weighted": 0.2025
+            },
+            "Gupta": {
+                "unweighted": 0.07971014492753623,
+                "weighted": 0.25384615384615383
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.03184713375796178,
+                "weighted": 0.1
             },
             "Chinese Imperial": {
                 "unweighted": 0.12096774193548387,
@@ -6596,6 +8189,10 @@
                 "unweighted": 0.056,
                 "weighted": 0.18974358974358974
             },
+            "Art Nouveau": {
+                "unweighted": 0.056338028169014086,
+                "weighted": 0.16578947368421051
+            },
             "Bauhaus": {
                 "unweighted": 0.007042253521126761,
                 "weighted": 0.0175
@@ -6612,6 +8209,10 @@
                 "unweighted": 0.03496503496503497,
                 "weighted": 0.05128205128205128
             },
+            "Swahili": {
+                "unweighted": 0.06432748538011696,
+                "weighted": 0.24358974358974358
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.1693548387096774,
                 "weighted": 0.45789473684210524
@@ -6619,6 +8220,14 @@
             "Modern Islamic": {
                 "unweighted": 0.028368794326241134,
                 "weighted": 0.1025
+            },
+            "Gupta": {
+                "unweighted": 0.18110236220472442,
+                "weighted": 0.4897435897435897
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.13194444444444445,
+                "weighted": 0.3564102564102564
             },
             "Chinese Imperial": {
                 "unweighted": 0.1864406779661017,
@@ -6883,6 +8492,10 @@
                 "unweighted": 0.06722689075630252,
                 "weighted": 0.2230769230769231
             },
+            "Art Nouveau": {
+                "unweighted": 0.058394160583941604,
+                "weighted": 0.2
+            },
             "Bauhaus": {
                 "unweighted": 0.0,
                 "weighted": 0.0
@@ -6899,6 +8512,10 @@
                 "unweighted": 0.043795620437956206,
                 "weighted": 0.10512820512820513
             },
+            "Swahili": {
+                "unweighted": 0.09937888198757763,
+                "weighted": 0.29743589743589743
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.08527131782945736,
                 "weighted": 0.26052631578947366
@@ -6906,6 +8523,14 @@
             "Modern Islamic": {
                 "unweighted": 0.029411764705882353,
                 "weighted": 0.085
+            },
+            "Gupta": {
+                "unweighted": 0.14173228346456693,
+                "weighted": 0.4256410256410256
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.0896551724137931,
+                "weighted": 0.2717948717948718
             },
             "Chinese Imperial": {
                 "unweighted": 0.19469026548672566,
@@ -7143,6 +8768,10 @@
                 "unweighted": 0.08080808080808081,
                 "weighted": 0.22631578947368422
             },
+            "Art Nouveau": {
+                "unweighted": 0.06837606837606838,
+                "weighted": 0.21621621621621623
+            },
             "Bauhaus": {
                 "unweighted": 0.017241379310344827,
                 "weighted": 0.06153846153846154
@@ -7159,6 +8788,10 @@
                 "unweighted": 0.025,
                 "weighted": 0.042105263157894736
             },
+            "Swahili": {
+                "unweighted": 0.09027777777777778,
+                "weighted": 0.32894736842105265
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.12149532710280374,
                 "weighted": 0.32432432432432434
@@ -7166,6 +8799,14 @@
             "Modern Islamic": {
                 "unweighted": 0.10091743119266056,
                 "weighted": 0.3153846153846154
+            },
+            "Gupta": {
+                "unweighted": 0.12612612612612611,
+                "weighted": 0.41842105263157897
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.15966386554621848,
+                "weighted": 0.4605263157894737
             },
             "Chinese Imperial": {
                 "unweighted": 0.13861386138613863,
@@ -7434,6 +9075,10 @@
                 "unweighted": 0.1,
                 "weighted": 0.30708661417322836
             },
+            "Art Nouveau": {
+                "unweighted": 0.05785123966942149,
+                "weighted": 0.1778975741239892
+            },
             "Bauhaus": {
                 "unweighted": 0.025423728813559324,
                 "weighted": 0.0741687979539642
@@ -7450,6 +9095,10 @@
                 "unweighted": 0.04132231404958678,
                 "weighted": 0.10498687664041995
             },
+            "Swahili": {
+                "unweighted": 0.10344827586206896,
+                "weighted": 0.35958005249343833
+            },
             "Ancient Egyptian": {
                 "unweighted": 0.10810810810810811,
                 "weighted": 0.3045822102425876
@@ -7457,6 +9106,14 @@
             "Modern Islamic": {
                 "unweighted": 0.17142857142857143,
                 "weighted": 0.45268542199488493
+            },
+            "Gupta": {
+                "unweighted": 0.15315315315315314,
+                "weighted": 0.3910761154855643
+            },
+            "Indo-Saracenic": {
+                "unweighted": 0.175,
+                "weighted": 0.45144356955380577
             },
             "Chinese Imperial": {
                 "unweighted": 0.16831683168316833,
