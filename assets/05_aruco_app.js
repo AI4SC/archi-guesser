@@ -250,6 +250,7 @@ function drawGrid(markers){
 
   // err log
   statusobj['err']=missing;
+  console.log("A",statusobj)
 }
 
 
