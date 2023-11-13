@@ -77,6 +77,7 @@ function tick(){
 function ticktick() {
   if ( video == null || canvas == null ) return {};
   requestAnimationFrame(tick);
+  console.log("C:", statusobj)
   return statusobj;
 }
 
@@ -136,7 +137,8 @@ function mposex(id){
 }
 
 function drawGrid(markers){
-  var missing=new Set(), statusobj={};
+  var missing=new Set();
+  statusobj={};
   tnow=Date.now();
 
   for (let i = 0; i !== markers.length; ++ i){
@@ -192,7 +194,7 @@ function drawGrid(markers){
 
       // deal with place marker
       let found = false;
-      for (let i = 20; i < 31; i++) {
+      for (let i = 20; i < 55; i++) {
         let marker=mposget(""+i);
         if (marker!=null) {
           let cS=marker.corners[0];
