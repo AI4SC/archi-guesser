@@ -242,9 +242,9 @@ function drawGrid(markers){
   }
 
   // deal with GO and STOP marker
-  if (mposex("18")) {
+  if (mposex("19")) {
     statusobj['state']="GO"
-  } else if (mposex("19")) {
+  } else if (mposex("18")) {
     statusobj['state']="STOP"; // deal with STOP marker
   } else {
     statusobj['state']="ERR";
