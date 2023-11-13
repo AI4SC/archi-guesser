@@ -350,11 +350,11 @@ def press_submit(n_clicks):
         startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
         endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
         # compute scores
-        style_score = round(weight_style_score * compute_style_score(sel_style))
+        style_score = max_style_score-round(weight_style_score * compute_style_score(sel_style))
         update_scoreboard_hist("style", style_score*3)
-        map_score = round(weight_map_score * compute_map_score(sel_map))
+        map_score = max_map_score-round(weight_map_score * compute_map_score(sel_map))
         update_scoreboard_hist("map", map_score*3)
-        time_score = round(weight_time_score * compute_time_score(sel_year))
+        time_score = max_time_score-round(weight_time_score * compute_time_score(sel_year))
         update_scoreboard_hist("year", time_score*3)
         total_score = style_score + map_score + time_score
         update_scoreboard_hist("total", total_score)
