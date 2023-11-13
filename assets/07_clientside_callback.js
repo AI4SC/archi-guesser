@@ -6,7 +6,7 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
             if (DEBUG_MODE) {
                 DEBUG_OBJ["tick"] += 1
                 if (DEBUG_OBJ["tick"] == 1*DEBUG_STEP_TICK) {
-                    DEBUG_OBJ["obj"]=20+Math.trunc(30*Math.random())
+                    DEBUG_OBJ["obj"]=25//+Math.trunc(30*Math.random())
                 }
                 if (DEBUG_OBJ["tick"] == 2*DEBUG_STEP_TICK) {
                     DEBUG_OBJ["lat"]=Math.random()*180-90;
