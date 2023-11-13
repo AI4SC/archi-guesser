@@ -113,7 +113,7 @@ def init_webpage():
                     [
                         html.Img(
                             src=rnd_img,
-                            style={"width": "100%", "padding-left": "20px"},
+                            style={"width": "100%", "paddingLeft": "20px"},
                             id="example_img",
                         )
                     ],
@@ -165,7 +165,7 @@ def init_webpage():
                                         html.H3(
                                             "Please select a 3D object that represents the style",
                                             style={
-                                                "text-align": "center",
+                                                "textAlign": "center",
                                                 "width": "100%",
                                                 "height": "50px",
                                                 "position": "absolute",
@@ -179,8 +179,8 @@ def init_webpage():
                                         "width": "100%",
                                         "height": "100%",
                                         "position": "absolute",
-                                        "z-index": "10",
-                                        "background-color": "rgba(34, 34, 34, 0.8)",
+                                        "zIndex": "10",
+                                        "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                     },
                                     hidden = mask,
                                     id = "style-mask",
@@ -192,7 +192,7 @@ def init_webpage():
                                 children=layers,  # url=bwtileurl
                                 id="map",
                                 maxZoom=4,
-                                zoom=2,
+                                zoom=1,
                                 center=[40,0],
                             ),
                             html.Div(
@@ -200,7 +200,7 @@ def init_webpage():
                                     html.H3(
                                         "Please place the 3D object on the map",
                                         style={
-                                            "text-align": "center",
+                                            "textAlign": "center",
                                             "width": "100%",
                                             "height": "50px",
                                             "position": "absolute",
@@ -214,8 +214,8 @@ def init_webpage():
                                     "width": "100%",
                                     "height": "100%",
                                     "position": "absolute",
-                                    "z-index": "20",
-                                    "background-color": "rgba(34, 34, 34, 0.8)",
+                                    "zIndex": "20",
+                                    "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
                                 hidden = mask,
                                 id = "map-mask",
@@ -245,7 +245,7 @@ def init_webpage():
                                     html.H3(
                                         "Please select an epoche",
                                         style={
-                                            "text-align": "center",
+                                            "textAlign": "center",
                                             "width": "100%",
                                             "height": "50px",
                                             "position": "absolute",
@@ -259,8 +259,8 @@ def init_webpage():
                                     "width": "100%",
                                     "height": "100%",
                                     "position": "absolute",
-                                    "z-index": "20",
-                                    "background-color": "rgba(34, 34, 34, 0.8)",
+                                    "zIndex": "20",
+                                    "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
                                 hidden = mask,
                                 id = "epoche-mask",

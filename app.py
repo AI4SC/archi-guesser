@@ -117,12 +117,12 @@ def compute_style_score(style):
 
 
 @app.callback(
-    Output("style-mask", "hidden", allow_duplicate=True),
-    Output("map-mask", "hidden", allow_duplicate=True),
-    Output("epoche-mask", "hidden", allow_duplicate=True),
-    Output({'type': "style-selection-col",'index': ALL}, 'className'),
-    Output("layer", "children", allow_duplicate=True),
-    Output("epoche", "value"),
+    #Output("style-mask", "hidden", allow_duplicate=True),
+    #Output("map-mask", "hidden", allow_duplicate=True),
+    #Output("epoche-mask", "hidden", allow_duplicate=True),
+    #Output({'type': "style-selection-col",'index': ALL}, 'className'),
+    #Output("layer", "children", allow_duplicate=True),
+    #Output("epoche", "value"),
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Output("new_run_btn", "n_clicks"),  # used as event notifier
@@ -170,12 +170,12 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             sub_n_clicks = no_update
             new_n_clicks = no_update
     return (
-            mask and sel_style is not None,
-            mask and sel_map is not None,
-            mask and sel_year is not None,
-            styles,
-            layers,
-            sel_year,
+            #mask and sel_style is not None,
+            #mask and sel_map is not None,
+            #mask and sel_year is not None,
+            #styles,
+            #layers,
+            #sel_year,
             str(data), 
             sub_n_clicks,
             new_n_clicks
@@ -396,8 +396,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    if "DASH_DEBUG_MODE" in os.environ:
-    #if True:
+    #if "DASH_DEBUG_MODE" in os.environ:
+    if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,

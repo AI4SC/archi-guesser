@@ -24,7 +24,7 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
               return DEBUG_OBJ
             } else {
                 sobj=ticktick()
-                console.log("B",sobj)
+                //console.log("B",sobj)
                 return sobj;
             }
         }

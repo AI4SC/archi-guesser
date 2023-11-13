@@ -77,7 +77,7 @@ function tick(){
 function ticktick() {
   if ( video == null || canvas == null ) return {};
   requestAnimationFrame(tick);
-  console.log("C:", statusobj)
+  //console.log("C:", statusobj)
   return statusobj;
 }
 
@@ -252,7 +252,7 @@ function drawGrid(markers){
 
   // err log
   statusobj['err']=missing;
-  console.log("A",statusobj)
+  //console.log("A",statusobj)
 }
 
 
