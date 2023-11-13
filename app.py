@@ -362,9 +362,9 @@ def press_submit(n_clicks):
         scoreboard.sort(reverse=True)
         rank = scoreboard.index(total_score) + 1
         # compute plot
-        fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
-        fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
-        fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
+        # fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
+        # fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
+        # fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
         return [
             submit_disabled(), 
             resultmodal_isopen, 
@@ -372,7 +372,7 @@ def press_submit(n_clicks):
             rnd_style,
             f'{startY} to {endY}',
             f'{style["style_area"]}',
-            fig,
+            None, #fig,
             astyle["description"],
             [html.Li(c) for c in astyle["characteristics"]],
             [html.Li(c) for c in astyle["examples"]],
