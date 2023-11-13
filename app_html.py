@@ -15,10 +15,38 @@ archig_image = Image.open("archiguesser_logo.png")
 style_image = Image.open("styles_crop.png")
 ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
+marker_to_style={}
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
     architects_by_style = json.load(fi)
+
+for k, v in architects_by_style.items():
+    marker_to_style[v["marker"]] = k
+    if "architects" not in v:
+        print("MISSING architects", k)
+    for a in v["architects"]:
+        if "name" not in a:
+            print("MISSING architect name", k, a)
+    if "terms" not in v:
+        print("MISSING terms", k)
+    if "style" not in v:
+        print("MISSING style", k)
+    if "Start_Year" not in v:
+        print("MISSING Start_Year", k)
+    if "End_Year" not in v:
+        print("MISSING End_Year", k)
+    if "description" not in v["style"]:
+        print("MISSING description", k)
+    if "characteristics" not in v["style"]:
+        print("MISSING characteristics", k)
+    if "examples" not in v["style"]:
+        print("MISSING examples", k)
+    if "style_area" not in v:
+        print("MISSING style_area", k)
+    if "name" not in v:
+        print("MISSING name", k)
+    # print(k)
 
 style_img = {}
 for fn in os.listdir("styles120"):
@@ -31,14 +59,25 @@ style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 
 examples_img = {}
 for fn in os.listdir("style_generated"):
-    if os.path.isdir(os.path.join("style_generated", fn)):
+    if os.path.isdir(os.path.join("style_generated", fn)) and fn in architects_by_style and fn in style_img:
         examples_img[fn] = []
         for fni in os.listdir(os.path.join("style_generated", fn)):
             if fni.endswith(".png"):
                 img = Image.open(os.path.join("style_generated", fn, fni))
                 examples_img[fn].append(img)
 
-pil_image = random.choice(random.choice(list(examples_img.values())))
+# Remove missing
+architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
+examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
+style_img = {k:style_img[k] for k in architects_by_style.keys()}
+
+rnd_style = random.choice(list(architects_by_style.keys()))
+rnd_img = random.choice(examples_img[rnd_style])
+style = architects_by_style[rnd_style]
+astyle = style["style"]
+aarch = style["architects"]
+startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
+endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
 
 def init_webpage():
     return dbc.Container(
@@ -73,7 +112,7 @@ def init_webpage():
                 dbc.Col(
                     [
                         html.Img(
-                            src=pil_image,
+                            src=rnd_img,
                             style={"width": "100%", "padding-left": "20px"},
                             id="example_img",
                         )
@@ -97,17 +136,16 @@ def init_webpage():
                                                     ],
                                                     color=None,  #"dark"
                                                     name=n,
-                                                    style={
-                                                        "width": "140px",
-                                                        "height": "160px",
-                                                        "border-radius": "0px",
-                                                        #"background-color":"black"
-                                                    },
+                                                    className="stylebtn",
                                                     id={
                                                         "type": "style-selection",
                                                         "index": n,
                                                     },
-                                                )
+                                                ),
+                                                id={
+                                                    "type": "style-selection-col",
+                                                    "index": n,
+                                                }
                                             )
                                             for n, img in style_img.items()
                                         ],
@@ -144,8 +182,8 @@ def init_webpage():
                                         "z-index": "10",
                                         "background-color": "rgba(34, 34, 34, 0.8)",
                                     },
-                                    hidden=~mask,
-                                    id="style-mask",
+                                    hidden = mask,
+                                    id = "style-mask",
                                 )
                         ],style={"position": "relative"}),
                         dbc.Label("LOCATION"),
@@ -153,15 +191,9 @@ def init_webpage():
                             dl.Map(
                                 children=layers,  # url=bwtileurl
                                 id="map",
-                                style={
-                                    "width": "100%",
-                                    "height": "40vh",
-                                    "margin": "auto",
-                                    "z-index": "10",
-                                    "display": "block",
-                                },
                                 maxZoom=4,
-                                zoom=1,
+                                zoom=2,
+                                center=[40,0],
                             ),
                             html.Div(
                                 [
@@ -185,8 +217,8 @@ def init_webpage():
                                     "z-index": "20",
                                     "background-color": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden=~mask,
-                                id="map-mask",
+                                hidden = mask,
+                                id = "map-mask",
                             ),
                         ],style={"position": "relative"}),
                         dbc.Label("EPOCHE"),
@@ -196,13 +228,12 @@ def init_webpage():
                                 2025,
                                 step=5,
                                 marks={
-                                    500: "Ancient and Classical Periods",
+                                    500: "Ancient Periods",
                                     1500: "Medieval Period",
                                     1700: "Renaissance",
                                     1800: "18th",
                                     1900: "19th",
                                     2000: "20th",
-                                    2025: "21th",
                                 },
                                 value=1200,
                                 included=False,
@@ -231,8 +262,8 @@ def init_webpage():
                                     "z-index": "20",
                                     "background-color": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden=~mask,
-                                id="epoche-mask",
+                                hidden = mask,
+                                id = "epoche-mask",
                             ),
                         ],style={"position": "relative"}),
                         dbc.Row(
@@ -263,6 +294,7 @@ def init_webpage():
         # ], id="setup_modal", is_open=True, size="lg"),
         html.Div(
             [
+                html.Div(id="clientside-output", children="", style={"margin": "15px"}),
                 html.Video(
                     id="video",
                     autoPlay=True,
@@ -272,8 +304,7 @@ def init_webpage():
                 ),  #
                 html.Canvas(
                     id="canvas", width=640, height=480
-                ),  # , style={"display":"none"}
-                html.Div(id="clientside-output", children="", style={"margin": "15px"})
+                )  # , style={"display":"none"}
             ],
             id="video_body",
             style={"visibility": "hidden"},
@@ -281,17 +312,39 @@ def init_webpage():
         ),
         dbc.Modal(
             [
-                dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points")),
-                dbc.ModalBody([], id="style_body"),
-                dbc.ModalFooter(
-                    [dbc.Button("New Run", id="new_run_btn", class_name="ms-auto")] # style_body_close
-                ),
+                dbc.ModalHeader(dbc.ModalTitle("You got 0 points", id="points"), close_button=False),
+                dbc.ModalBody(dbc.Container([
+                    dbc.Row([
+                        dbc.Col([
+                            html.H3(rnd_style, id="res_style"),
+                            html.Label("Epoche"),
+                            html.P(f'{startY} to {endY}', id="res_year"),
+                            html.Label("Location"),
+                            html.P(f'{rnd_style}', id="res_loc"),
+                            html.Label("Architects"),
+                            html.Ul([html.Li(c["name"]) for c in aarch], id="res_arch"),
+                        ]),
+                        dbc.Col(dcc.Graph(style={"width":"100%","height":"100%","margin-left":"auto","display":"block"}, id="res_plot")),
+                    ]),
+                    html.Label("Description"),
+                    html.P(astyle["description"], id="res_desc"),
+                    html.Label("Characteristics"),
+                    html.Ul([html.Li(c) for c in astyle["characteristics"]], id="res_char"),
+                    html.Label("Examples"),
+                    html.Ul([html.Li(c) for c in astyle["examples"]], id="res_examp"),
+                ]), id="style_body"),
+                dbc.ModalFooter([
+                    dbc.Button("New Run", id="new_run_btn", class_name="ms-auto")
+                ]),
             ],
             id="resultmodal",
+            size="lg",
+            keyboard=False,
+            backdrop="static"
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
-        dcc.Interval(id="camera-update", interval=1000, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=500, n_intervals=0),
         dcc.Store(id="guess-data")
     ],
     fluid=True,
