@@ -116,6 +116,7 @@ def compute_style_score(style):
     return correct_style["style_similarity"][style]["weighted"]
 
 
+
 @app.callback(
     Output("style-mask", "hidden", allow_duplicate=True),
     Output("map-mask", "hidden", allow_duplicate=True),
@@ -126,6 +127,10 @@ def compute_style_score(style):
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Output("new_run_btn", "n_clicks"),  # used as event notifier
+    Output("state_style", "className"),
+    Output("state_map", "className"),
+    Output("state_time", "className"),
+    Output("state_on", "className"),
     Input("guess-data", "data"),
     State({"type": "style-selection","index": ALL}, "name"),
     State("SUBMIT_GUESS", "n_clicks"),
@@ -138,39 +143,56 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     lastdata = data
     styles = ["" for n in names]
     layers = []
+    sub_n_clicks = no_update
+    new_n_clicks = no_update
+    map_state = "col_gray"
+    time_state = "col_gray"
+    style_state = "col_gray"
+    run_state = "col_gray"
     if data and ldata and 'state' in data and 'state' in ldata:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
-            sel_style = data['style'] = marker_to_style.get(data['obj'])
-            if sel_style:
-                data['style_score'] = compute_style_score(sel_style)
-                data['total_score'] += max_style_score-round(weight_style_score * data['style_score'])
-                styles = ["" if sel_style == n else "hidden" for n in names]
+            if data['obj'] in marker_to_style:
+                sel_style = data['style'] = marker_to_style.get(data['obj'])
+                if sel_style:
+                    data['style_score'] = compute_style_score(sel_style)
+                    data['total_score'] += max_style_score-round(weight_style_score * data['style_score'])
+                    styles = ["" if sel_style == n else "hidden" for n in names]
+                    style_state = "col_green"
+            else:
+                print(f"Error marker id {data['obj']} not found")
+                style_state = "col_yellow"
         if data and 'lat' in data and 'lon' in data and correct_style:
             sel_map = [data['lat'],data['lon']]
             data['map_score'] = compute_map_score(sel_map)
             data['total_score'] += max_map_score-round(weight_map_score * data['map_score'])
             layers.append(dl.Marker(position=(sel_map[1], sel_map[0]), children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
+            map_state = "col_green"
         if data and 'year' in data and correct_style:
             sel_year = data['year']
             data['time_score'] = compute_time_score(sel_year)
             data['total_score'] += max_time_score-round(weight_time_score * data['time_score'])
+            time_state = "col_green"
         else:
             sel_year = None
+            time_state = "col_yellow"
 
+        run_state = "col_green" if data['state'] == "GO" else "col_yellow" if data['state'] == "STOP" else "col_red"
         if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
             resultmodal_isopen = True
             sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
-            new_n_clicks = no_update
             print("Init Submit")
         elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
             resultmodal_isopen = False
             new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
-            sub_n_clicks = no_update
             print("Init New Run")
-        else:
-            sub_n_clicks = no_update
-            new_n_clicks = no_update
+    if data and "err" in data:
+        if "MapCorner" in data['err']:
+            map_state = "col_red"
+        if "TimeCorner" in data['err'] or "TimeMarker" in data['err']:
+            time_state = "col_red"
+        if "place" in data['err']:
+            style_state = "col_red"
     return (
             mask and sel_style is not None,
             mask and sel_map is not None,
@@ -180,7 +202,11 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             sel_year,
             str(data), 
             sub_n_clicks,
-            new_n_clicks
+            new_n_clicks,
+            style_state,
+            map_state,
+            time_state,
+            run_state,
     )
 
 
@@ -390,7 +416,6 @@ def press_submit(n_clicks):
 )
 def display_setup_modall(n):
     return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
-
 
 @app.server.route("/marker")
 def get_marker():
