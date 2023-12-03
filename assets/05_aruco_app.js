@@ -1,4 +1,4 @@
-var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={}, tnow=Date.now();
+var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={}, tnow=Date.now(), lastkey=null;
   
 function onLoad(){
   video = document.getElementById("video");
@@ -137,7 +137,7 @@ function mposex(id){
 }
 
 function drawGrid(markers){
-  var missing=new Set();
+  var missing="";
   statusobj={};
   tnow=Date.now();
 
@@ -174,15 +174,14 @@ function drawGrid(markers){
     }
   })
   context.stroke();
-
-  if (!mposex("0")) missing.add("TimeMarker 0");
-  if (!mposex("1")) missing.add("MapCorner 1");
-  if (!mposex("4")) missing.add("MapCorner 4");
-  if (!mposex("9")) missing.add("MapCorner 9");
-  if (!mposex("12")) missing.add("MapCorner 12");
-  if (!mposex("13")) missing.add("TimeCorner 13");
-  if (!mposex("16")) missing.add("TimeCorner 16");
-  if (!mposex("18") && !mposex("19")) {missing.add("GoMarker 18");missing.add("StopMarker 19")}
+  if (!mposex("0")) missing +="TimeMarker 0";
+  if (!mposex("1")) missing +="MapCorner 1";
+  if (!mposex("4")) missing +="MapCorner 4";
+  if (!mposex("9")) missing +="MapCorner 9";
+  if (!mposex("12")) missing +="MapCorner 12";
+  if (!mposex("13")) missing +="TimeCorner 13";
+  if (!mposex("16")) missing +="TimeCorner 16";
+  if (!mposex("18") && !mposex("19") && lastkey==null) {missing +="GoMarker 18";missing +="StopMarker 19";}
   
   // map perspective correction
   {
@@ -212,8 +211,8 @@ function drawGrid(markers){
           found=true;
         }
       }
-      if (!found) missing.add("place");
-    }
+      if (!found) missing +="place";
+    } else missing +="place";
   }
 
   // time projection
@@ -246,16 +245,32 @@ function drawGrid(markers){
     statusobj['state']="GO"
   } else if (mposex("18")) {
     statusobj['state']="STOP"; // deal with STOP marker
+  } else if (lastkey!=null && missing==""){
+    statusobj['state']=lastkey;
   } else {
     statusobj['state']="ERR";
   }
 
   // err log
   statusobj['err']=missing;
-  //console.log("A",statusobj)
 }
 
 
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(onLoad, 1000)
 })
+
+// Add event listener on keydown
+document.addEventListener('keydown', (event) => {
+  var name = event.key;
+  var code = event.code;
+  if (code=='Enter') {
+    if (lastkey=="STOP") {
+      lastkey="GO";
+    } else {
+      lastkey="STOP";
+    }
+  }
+  // Alert the key name and key code on keydown
+  console.log(`Key pressed ${name} \r\n Key code value: ${code}`, lastkey);
+}, false);
