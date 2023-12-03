@@ -53,6 +53,7 @@ rnd_img = None
 lastdata = {'state':"ERR"}
 scoreboard = []
 scoreboard_hist = defaultdict(int)
+dot_state = "col_gray"
 
 # Build App
 server = flask.Flask(__name__)
@@ -127,6 +128,7 @@ def compute_style_score(style):
     Output("clientside-output", "children"),
     Output("SUBMIT_GUESS", "n_clicks"),
     Output("new_run_btn", "n_clicks"),  # used as event notifier
+    Output("state_dot", "className"),
     Output("state_style", "className"),
     Output("state_map", "className"),
     Output("state_time", "className"),
@@ -138,17 +140,16 @@ def compute_style_score(style):
     prevent_initial_call=True
 )
 def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
-    global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year
+    global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year, dot_state
     ldata = lastdata
     lastdata = data
     styles = ["" for n in names]
     layers = []
-    sub_n_clicks = no_update
-    new_n_clicks = no_update
     map_state = "col_gray"
     time_state = "col_gray"
     style_state = "col_gray"
     run_state = "col_gray"
+    dot_state = "col_green" if dot_state == "col_gray" else "col_gray"
     if data and ldata and 'state' in data and 'state' in ldata:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
@@ -181,11 +182,19 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
         if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
             resultmodal_isopen = True
             sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
+            new_n_clicks = no_update
             print("Init Submit")
         elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
             resultmodal_isopen = False
             new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
+            sub_n_clicks = no_update
             print("Init New Run")
+        else:
+            sub_n_clicks = no_update
+            new_n_clicks = no_update
+    else:
+        sub_n_clicks = no_update
+        new_n_clicks = no_update
     if data and "err" in data:
         if "MapCorner" in data['err']:
             map_state = "col_red"
@@ -203,6 +212,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             str(data), 
             sub_n_clicks,
             new_n_clicks,
+            dot_state,
             style_state,
             map_state,
             time_state,
@@ -424,8 +434,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    #if "DASH_DEBUG_MODE" in os.environ:
-    if True:
+    if "DASH_DEBUG_MODE" in os.environ:
+    #if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,
