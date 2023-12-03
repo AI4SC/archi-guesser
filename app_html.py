@@ -56,6 +56,7 @@ for fn in os.listdir("styles120"):
             style_img[ifn] = Image.open(os.path.join("styles120", fn))
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
+#print(sorted(list(style_img.keys())))
 
 examples_img = {}
 for fn in os.listdir("style_generated"):
@@ -66,10 +67,17 @@ for fn in os.listdir("style_generated"):
                 img = Image.open(os.path.join("style_generated", fn, fni))
                 examples_img[fn].append(img)
 
+#print(sorted(list(examples_img.keys())))
+
 # Remove missing
 architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
 examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
 style_img = {k:style_img[k] for k in architects_by_style.keys()}
+
+#print(sorted(list(architects_by_style.keys())))
+#print(sorted(list(style_img.keys())))
+#print(sorted(list(examples_img.keys())))
+#print(marker_to_style)
 
 rnd_style = random.choice(list(architects_by_style.keys()))
 rnd_img = random.choice(examples_img[rnd_style])
@@ -95,14 +103,20 @@ def init_webpage():
                 dbc.Col(html.Img(src=ai4sc_image, style={"height": "60px"}), width=2),
                 dbc.Col(html.Img(src=urost_image, style={"height": "60px"}), width=2),
                 dbc.Col(
-                    dbc.Button(
-                        html.I(className="bi bi-gear"),
-                        style={"height": "60px"},
-                        id="SETUP",
-                        color="dark",
-                        outline=True,
-                        className="border-0",
-                    ),
+                    [
+                        html.Span("⌂", id="state_style", className="col_gray"),
+                        html.Span("✛", id="state_map", className="col_gray"),
+                        html.Span("◷", id="state_time", className="col_gray"),
+                        html.Span("▶", id="state_on", className="col_gray"),
+                        dbc.Button(
+                            html.I(className="bi bi-gear"),
+                            style={"height": "60px"},
+                            id="SETUP",
+                            color="dark",
+                            outline=True,
+                            className="border-0",
+                        )
+                    ],
                     width=1,
                 ),
             ]
