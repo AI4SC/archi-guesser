@@ -253,6 +253,7 @@ function drawGrid(markers){
 
   // err log
   statusobj['err']=missing;
+  statusobj['ts0']=Date.now()-tnow;
 }
 
 
@@ -265,11 +266,8 @@ document.addEventListener('keydown', (event) => {
   var name = event.key;
   var code = event.code;
   if (code=='Enter') {
-    if (lastkey=="STOP") {
-      lastkey="GO";
-    } else {
-      lastkey="STOP";
-    }
+    lastkey=(lastkey=="STOP") ? "GO" : "STOP";
+    DEBUG_MODE = false;
   }
   if (code=="ShiftLeft"){
     lastkey="GO";
@@ -279,7 +277,12 @@ document.addEventListener('keydown', (event) => {
   }
   if (code=="Escape") {
     lastkey=null;
+    DEBUG_MODE = false;
+  }
+  if (code=="KeyD") {
+    DEBUG_MODE = !DEBUG_MODE;
+    lastkey=null;
   }
   // Alert the key name and key code on keydown
-  console.log(`Key pressed ${name} \r\n Key code value: ${code}`, lastkey);
+  console.log(`Key pressed ${name} \r\n Key code value: ${code}`, lastkey, DEBUG_MODE);
 }, false);
