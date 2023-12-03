@@ -271,6 +271,15 @@ document.addEventListener('keydown', (event) => {
       lastkey="STOP";
     }
   }
+  if (code=="ShiftLeft"){
+    lastkey="GO";
+  }
+  if (code=="ShiftRight"){
+    lastkey="STOP";
+  }
+  if (code=="Escape") {
+    lastkey=null;
+  }
   // Alert the key name and key code on keydown
   console.log(`Key pressed ${name} \r\n Key code value: ${code}`, lastkey);
 }, false);
