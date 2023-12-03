@@ -30,6 +30,18 @@
   max-height: none;
 }
 
-#points {
+#points, .col_yellow {
   color: yellow;
+}
+
+.col_red {
+  color: red;
+}
+
+.col_green {
+  color: green;
+}
+
+.col_gray {
+  color: gray;
 }
