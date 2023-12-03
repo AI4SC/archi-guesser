@@ -1,4 +1,4 @@
-var DEBUG_MODE=false, DEBUG_OBJ={"err":[], "state":"STOP", "tick":0}, DEBUG_STEP_TICK=5;
+var DEBUG_MODE=false, DEBUG_OBJ={"err":"", "state":"STOP", "tick":0}, DEBUG_STEP_TICK=10;
 
 window.dash_clientside = Object.assign({}, window.dash_clientside, {
     clientside: {
@@ -6,7 +6,7 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
             if (DEBUG_MODE) {
                 DEBUG_OBJ["tick"] += 1
                 if (DEBUG_OBJ["tick"] == 1*DEBUG_STEP_TICK) {
-                    DEBUG_OBJ["obj"]=25//+Math.trunc(30*Math.random())
+                    DEBUG_OBJ["obj"]=20+Math.trunc(30*Math.random())
                 }
                 if (DEBUG_OBJ["tick"] == 2*DEBUG_STEP_TICK) {
                     DEBUG_OBJ["lat"]=Math.random()*180-90;
@@ -19,11 +19,13 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
                     DEBUG_OBJ["state"]="GO";
                 }
                 if (DEBUG_OBJ["tick"] == 5*DEBUG_STEP_TICK) {
-                    DEBUG_OBJ = {"err":[], "state":"STOP", "tick":0};
+                    DEBUG_OBJ = {"err":"", "state":"STOP", "tick":0};
                 }
               return DEBUG_OBJ
             } else {
+                const tic=Date.now();
                 sobj=ticktick()
+                sobj['ts1']=Date.now()-tic;
                 //console.log("B",sobj)
                 return sobj;
             }
