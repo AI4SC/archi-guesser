@@ -104,8 +104,9 @@ def init_webpage():
                 dbc.Col(html.Img(src=urost_image, style={"height": "60px"}), width=2),
                 dbc.Col(
                     [
+                        html.Span("•", id="state_dot", className="col_gray"),
                         html.Span("⌂", id="state_style", className="col_gray"),
-                        html.Span("✛", id="state_map", className="col_gray"),
+                        html.Span("⚐", id="state_map", className="col_gray"),
                         html.Span("◷", id="state_time", className="col_gray"),
                         html.Span("▶", id="state_on", className="col_gray"),
                         dbc.Button(
@@ -358,7 +359,7 @@ def init_webpage():
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
-        dcc.Interval(id="camera-update", interval=500, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=200, n_intervals=0),
         dcc.Store(id="guess-data")
     ],
     fluid=True,
