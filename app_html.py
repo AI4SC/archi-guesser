@@ -8,6 +8,7 @@ import os
 import random
 import dash_leaflet as dl
 from app_map import *
+import uuid
 
 mask = True
 
@@ -46,7 +47,10 @@ for k, v in architects_by_style.items():
         print("MISSING style_area", k)
     if "name" not in v:
         print("MISSING name", k)
-    # print(k)
+    if "poems" not in v:
+        print("MISSING poems", k)
+    else:
+        v['poems_uuid']=[str(uuid.uuid3(uuid.NAMESPACE_X500, p)) for p in v['poems']] # compute hash for poem
 
 style_img = {}
 for fn in os.listdir("styles120"):
@@ -79,8 +83,23 @@ style_img = {k:style_img[k] for k in architects_by_style.keys()}
 #print(sorted(list(examples_img.keys())))
 #print(marker_to_style)
 
+def select_audio(rnd_style):
+    poem=""
+    phtml=[]
+    pcnt=len(architects_by_style[rnd_style]["poems"])
+    for i in range(5):
+        rp=random.randint(0,pcnt-1)
+        verses=architects_by_style[rnd_style]["poems"][rp].split("\n\n")
+        phash=architects_by_style[rnd_style]["poems_uuid"][rp]
+        if len(verses) >= i and os.path.exists(f"assets/poems/{rnd_style}/{phash}_{i}.mp3"):
+            poem += verses[i]+"\n\n"
+            phtml.append(html.Audio(src=f"assets/poems/{rnd_style}/{phash}_{i}.mp3", controls=True, autoPlay=(i == 0))) # , onloadeddata="var ap = this; setTimeout(function() { ap.play(); }, "+str(i*17000)+")"
+    phtml.insert(0,html.P(poem))
+    return phtml
+
 rnd_style = random.choice(list(architects_by_style.keys()))
 rnd_img = random.choice(examples_img[rnd_style])
+rnd_poem = select_audio(rnd_style)
 style = architects_by_style[rnd_style]
 astyle = style["style"]
 aarch = style["architects"]
@@ -105,10 +124,18 @@ def init_webpage():
                 dbc.Col(
                     [
                         html.Span("•", id="state_dot", className="col_gray"),
-                        html.Span("⌂", id="state_style", className="col_gray"),
-                        html.Span("⚐", id="state_map", className="col_gray"),
-                        html.Span("◷", id="state_time", className="col_gray"),
-                        html.Span("▶", id="state_on", className="col_gray"),
+                        html.Span(html.I(className="bi bi-house"), id="state_style", className="col_gray"),
+                        html.Span(html.I(className="bi bi-geo-alt"), id="state_map", className="col_gray"),
+                        html.Span(html.I(className="bi bi-clock"), id="state_time", className="col_gray"),
+                        html.Span(html.I(className="bi bi-play"), id="state_on", className="col_gray"),
+                        dbc.Button(
+                            html.I(className="bi bi-image"),
+                            style={"height": "60px"},
+                            id="MODE",
+                            color="dark",
+                            outline=True,
+                            className="border-0",
+                        ),
                         dbc.Button(
                             html.I(className="bi bi-gear"),
                             style={"height": "60px"},
@@ -125,13 +152,16 @@ def init_webpage():
         dbc.Row(
             [
                 dbc.Col(
-                    [
+                    html.Div([
                         html.Img(
                             src=rnd_img,
-                            style={"width": "100%", "paddingLeft": "20px"},
                             id="example_img",
-                        )
-                    ],
+                            hidden = False,
+                        ),
+                        html.Div(rnd_poem, 
+                            id="example_poem",
+                            hidden = True)
+                    ], className="center"),
                     width=6,
                 ),
                 dbc.Col(
