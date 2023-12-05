@@ -28,6 +28,7 @@ max_map_score = 1800
 weight_map_score   = 10.0 # max 180
 max_style_score = 2000
 weight_style_score = 2000.0 # max 1.0
+game_mode_img = True
 
 # Load region GeoJSON
 with open("cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
@@ -301,6 +302,7 @@ def new_run():
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output("resultmodal", "is_open", allow_duplicate=True),
     Output("example_img", "src"),
+    Output("example_poem", "children"),
     #Input("new_run", "disabled"),  # used as event notifier
     Input("new_run_btn", "n_clicks"),  # used as event notifier
     prevent_initial_call=True,
@@ -318,7 +320,8 @@ def press_new_run(n_clicks):
             mask and sel_year is not None,
             submit_disabled(),
             resultmodal_isopen,
-            rnd_img
+            rnd_img,
+            select_audio(rnd_style)
         )
     else:
         raise PreventUpdate
@@ -427,6 +430,16 @@ def press_submit(n_clicks):
 def display_setup_modall(n):
     return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
 
+@app.callback(
+    Output("example_img", "hidden"), 
+    Output("example_poem", "hidden"), 
+    Input("MODE", "n_clicks"), prevent_initial_call=True
+)
+def mode_switch(n):
+    global game_mode_img
+    game_mode_img = not game_mode_img
+    return [game_mode_img, not game_mode_img]
+
 @app.server.route("/marker")
 def get_marker():
     return flask.send_from_directory("assets", "index.html")
@@ -434,8 +447,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    if "DASH_DEBUG_MODE" in os.environ:
-    #if True:
+    #if "DASH_DEBUG_MODE" in os.environ:
+    if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,
