@@ -68,3 +68,9 @@
   font-size: 14px;
   text-align: left;
 }
+
+.leaflet-container {
+  background-color: rgb(34, 34, 34);
+  background: rgb(34, 34, 34);
+  outline: 0;
+}
