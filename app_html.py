@@ -17,6 +17,7 @@ style_image = Image.open("styles_crop.png")
 ai4sc_image = Image.open("ai4sc_logo.png")
 urost_image = Image.open("uni-rostock.png.webp")
 marker_to_style={}
+game_mode_img = True
 
 # Load architect styles
 with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
@@ -84,6 +85,7 @@ style_img = {k:style_img[k] for k in architects_by_style.keys()}
 #print(marker_to_style)
 
 def select_audio(rnd_style):
+    global game_mode_img
     poem=""
     phtml=[]
     pcnt=len(architects_by_style[rnd_style]["poems"])
@@ -93,7 +95,7 @@ def select_audio(rnd_style):
         phash=architects_by_style[rnd_style]["poems_uuid"][rp]
         if len(verses) >= i and os.path.exists(f"assets/poems/{rnd_style}/{phash}_{i}.mp3"):
             poem += verses[i]+"\n\n"
-            phtml.append(html.Audio(src=f"assets/poems/{rnd_style}/{phash}_{i}.mp3", controls=True, autoPlay=(i == 0))) # , onloadeddata="var ap = this; setTimeout(function() { ap.play(); }, "+str(i*17000)+")"
+            phtml.append(html.Audio(src=f"assets/poems/{rnd_style}/{phash}_{i}.mp3", controls=True, autoPlay=game_mode_img and i == 0)) # , onloadeddata="var ap = this; setTimeout(function() { ap.play(); }, "+str(i*17000)+")"
     phtml.insert(0,html.P(poem))
     return phtml
 
