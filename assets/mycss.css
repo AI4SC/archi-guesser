@@ -45,3 +45,26 @@
 .col_gray {
   color: gray;
 }
+
+.center {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* If the text has multiple lines, add the following: */
+.center div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: pre-wrap;
+  line-height: 1.5;
+  /*margin: auto;*/
+  /*padding: 10px 0;*/
+  font-family: Baskerville;
+  font-size: 14px;
+  text-align: left;
+}
