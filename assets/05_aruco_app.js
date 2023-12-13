@@ -239,10 +239,10 @@ function drawGrid(markers){
         // plot place marker
         //context.strokeStyle = "orange";
         context.strokeStyle = timemarker.col;
-        context.strokeRect(cE.x+2*(cS.x-cE.x)-1, cE.y+2*(cS.y-cE.y)-1, 3, 3);
+        context.strokeRect(cE.x+1.5*(cS.x-cE.x)-1, cE.y+1.5*(cS.y-cE.y)-1, 3, 3);
         //console.log(timemarker,(cS.x+cE.x)/2, (cS.y+cE.y)/2)
         
-        var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
+        var srcPt = [cE.x+1.5*(cS.x-cE.x), cE.y+1.5*(cS.y-cE.y)];
         var dstPt = perspT.transform(srcPt[0], srcPt[1]);
         statusobj['year']=Math.round(dstPt[0]);
       }

@@ -86,19 +86,29 @@ def tostr(obj):
 def compute_map_score(lat_lon):
     if not correct_style or not lat_lon:
         return 0
-    guess_coord = shapely.Point(lat_lon[1], lat_lon[0])
+    guess_coord = shapely.Point(lat_lon[0], lat_lon[1])
     #Find correct polygon, convert to shapely geometry
     region_poly = None
+    closest_region = None
+    closest_region_dist = 999
     for reg in regions["features"]:
+        if "shape" not in reg:
+            reg['shape'] = shapely.geometry.shape(reg["geometry"])
         if reg["properties"]["Region"] == correct_style["style_area"]:
-            region_poly = shapely.geometry.shape(reg["geometry"])
-            break
+            region_poly = reg['shape']
+        dist = shapely.distance(guess_coord, reg['shape'])
+        if dist < closest_region_dist:
+            closest_region = reg["properties"]["Region"]
+            closest_region_dist = dist
+            print(closest_region, closest_region_dist)
+    if correct_style["style_area"]=="Intercultural":
+        return 0, closest_region, closest_region_dist
     if guess_coord and region_poly:
         #Map score: angular error
-        return shapely.distance(guess_coord, region_poly)
+        return shapely.distance(guess_coord, region_poly), closest_region, closest_region_dist
     else:
         #Upon error, return maximum distance
-        return 180
+        return 180, closest_region, closest_region_dist
 
 
 def compute_time_score(year):
@@ -163,7 +173,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
                 style_state = "col_yellow"
         if data and 'lat' in data and 'lon' in data and correct_style:
             sel_map = [data['lat'],data['lon']]
-            data['map_score'] = compute_map_score(sel_map)
+            data['map_score'], _, _ = compute_map_score(sel_map)
             data['total_score'] += max_map_score-round(weight_map_score * data['map_score'])
             layers.append(dl.Marker(position=(sel_map[1], sel_map[0]), children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map))))
             map_state = "col_green"
@@ -235,7 +245,7 @@ def select_map_update(click_lat_lng):
     global sel_map
     #print(click_lat_lng)
     if click_lat_lng is None:
-        return True, True, []
+        return True, submit_disabled(), []
     sel_map = click_lat_lng
     return (
         False,
@@ -260,7 +270,7 @@ def select_year_update(value):
         return True
     else:
         sel_year = value
-    return submit_disabled()
+        return submit_disabled()
 
 
 @app.callback(
@@ -378,6 +388,9 @@ def get_scoreboard_pd():
     Output("res_char", "children"),
     Output("res_examp", "children"),
     Output("res_arch", "children"),
+    Output("guess_style", "children"),
+    Output("guess_year", "children"),
+    Output("guess_loc", "children"),
     Input("SUBMIT_GUESS", "n_clicks"),
     #State("resultmodal", "is_open"),
     prevent_initial_call=True,
@@ -394,9 +407,11 @@ def press_submit(n_clicks):
         startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
         endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
         # compute scores
-        style_score = max_style_score-round(weight_style_score * compute_style_score(sel_style))
+        style_score = round(weight_style_score * compute_style_score(sel_style)) #max_style_score-
         update_scoreboard_hist("style", style_score*3)
-        map_score = max_map_score-round(weight_map_score * compute_map_score(sel_map))
+        map_score0, closest_reg, closest_reg_dist=compute_map_score(sel_map)
+        map_score = max_map_score - round(weight_map_score * map_score0)
+        print(map_score, map_score0, closest_reg, closest_reg_dist)
         update_scoreboard_hist("map", map_score*3)
         time_score = max_time_score-round(weight_time_score * compute_time_score(sel_year))
         update_scoreboard_hist("year", time_score*3)
@@ -423,7 +438,10 @@ def press_submit(n_clicks):
             astyle["description"],
             [html.Li(c) for c in astyle["characteristics"]],
             [html.Li(c) for c in astyle["examples"]],
-            [html.Li(c["name"]) for c in aarch]
+            [html.Li(c["name"]) for c in aarch],
+            f"  vs. {sel_style} ({style_score} Pt.)",
+            f"  vs. {sel_year} ({time_score} Pt.)",
+            f"  vs. {closest_reg} ({map_score} Pt.)"
         ]
     else:
         raise PreventUpdate

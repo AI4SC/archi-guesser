@@ -73,6 +73,11 @@ for fn in os.listdir("style_generated"):
                 examples_img[fn].append(img)
 
 #print(sorted(list(examples_img.keys())))
+#print(set(architects_by_style.keys())-set(style_img.keys()))
+#print(set(architects_by_style.keys())-set(examples_img.keys()))
+
+examples_img_cnt = {i:len(examples_img[i]) for i in sorted(list(examples_img.keys()))}
+print(examples_img_cnt)
 
 # Remove missing
 architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
@@ -82,7 +87,7 @@ style_img = {k:style_img[k] for k in architects_by_style.keys()}
 #print(sorted(list(architects_by_style.keys())))
 #print(sorted(list(style_img.keys())))
 #print(sorted(list(examples_img.keys())))
-#print(marker_to_style)
+#print(len(marker_to_style))
 
 def select_audio(rnd_style):
     global game_mode_img
@@ -363,11 +368,20 @@ def init_webpage():
                 dbc.ModalBody(dbc.Container([
                     dbc.Row([
                         dbc.Col([
-                            html.H3(rnd_style, id="res_style"),
+                            html.H3([
+                                html.Span(rnd_style, id="res_style"),
+                                html.Span(";  You: Any; Points: 100", id="guess_style"),
+                            ]),
                             html.Label("Epoche"),
-                            html.P(f'{startY} to {endY}', id="res_year"),
+                            html.P([
+                                html.Span(f'{startY} to {endY}', id="res_year"),
+                                html.Span(";  You: 0; Points: 100", id="guess_year"),
+                            ]),
                             html.Label("Location"),
-                            html.P(f'{rnd_style}', id="res_loc"),
+                            html.P([
+                                html.Span(f'{rnd_style}', id="res_loc"),
+                                html.Span(";  You: 0; Points: 100", id="guess_loc"),
+                            ]),
                             html.Label("Architects"),
                             html.Ul([html.Li(c["name"]) for c in aarch], id="res_arch"),
                         ]),
