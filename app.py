@@ -100,7 +100,7 @@ def compute_map_score(lat_lon):
         if dist < closest_region_dist:
             closest_region = reg["properties"]["Region"]
             closest_region_dist = dist
-            print(closest_region, closest_region_dist)
+            #print(closest_region, closest_region_dist)
     if correct_style["style_area"]=="Intercultural":
         return 0, closest_region, closest_region_dist
     if guess_coord and region_poly:
@@ -113,7 +113,7 @@ def compute_map_score(lat_lon):
 
 def compute_time_score(year):
     if not correct_style or not year:
-        return 0
+        return max_time_score
     if year < correct_style["Start_Year"]:
         return correct_style["Start_Year"] - year
     if year > correct_style["End_Year"]:
@@ -404,8 +404,8 @@ def press_submit(n_clicks):
         style = correct_style
         astyle = style["style"]
         aarch = style["architects"]
-        startY=f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
-        endY=f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
+        startY = f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
+        endY = f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
         # compute scores
         style_score = round(weight_style_score * compute_style_score(sel_style)) #max_style_score-
         update_scoreboard_hist("style", style_score*3)
@@ -427,6 +427,15 @@ def press_submit(n_clicks):
         fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
         fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
         fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
+        with open("game_stats.json","wt+") as fo:
+            json.dumps({'cor_style':astyle, "sel_style":sel_style, "style_score":style_score, "startY":style["Start_Year"],"endY":style["End_Year"], "sel_year":sel_year, 
+                        "time_score":time_score,
+                        "cor_region":correct_style["style_area"],
+                        "sel_region":closest_reg,
+                        "lat_lon":sel_map,
+                        "map_score":map_score,
+                        "total_score":style_score
+                        })
         return [
             submit_disabled(), 
             resultmodal_isopen, 

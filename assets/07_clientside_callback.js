@@ -18,7 +18,7 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
                 if (DEBUG_OBJ["tick"] == 4*DEBUG_STEP_TICK) {
                     DEBUG_OBJ["state"]="GO";
                 }
-                if (DEBUG_OBJ["tick"] == 5*DEBUG_STEP_TICK) {
+                if (DEBUG_OBJ["tick"] == 6*DEBUG_STEP_TICK) {
                     DEBUG_OBJ = {"err":"", "state":"STOP", "tick":0};
                 }
               return DEBUG_OBJ
