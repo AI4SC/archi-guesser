@@ -1,4 +1,4 @@
-var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=5000, statusobj={}, tnow=Date.now(), lastkey=null;
+var video=null, canvas=null, context, imageData, detector, mpos={}, postimeout=6000, statusobj={}, tnow=Date.now(), lastkey=null;
   
 function onLoad(){
   video = document.getElementById("video");
@@ -97,14 +97,14 @@ function drawCorners(markers){
     }
 
     context.lineWidth = 3;
-    context.strokeStyle = "red";
+    context.strokeStyle = "orange";
     context.beginPath();
     context.stroke();
     context.closePath();
 
     context.strokeRect((corners[0].x+corners[1].x+corners[2].x+corners[3].x)/4, (corners[0].y+corners[1].y+corners[2].y+corners[3].y)/4, 1, 1);
     
-    context.strokeStyle = "green";
+    context.strokeStyle = "yellow";
     context.strokeRect(corners[0].x - 2, corners[0].y - 2, 4, 4);
   }
 }
@@ -129,6 +129,7 @@ function drawId(markers){
 function mposget(id){
   if (!(id in mpos)) return null;
   if ((tnow-mpos[id].tstamp)>postimeout) return null;
+  //console.log(tnow,mpos[id].tstamp,tnow-mpos[id].tstamp)
   return mpos[id];
 }
 
@@ -139,10 +140,15 @@ function mposex(id){
 function drawGrid(markers){
   var missing="";
   statusobj={};
-  tnow=Date.now();
+  tnow = Date.now();
+
+  for (const [k, v] of Object.entries(mpos)) {
+    v.col="blue"
+  }
 
   for (let i = 0; i !== markers.length; ++ i){
     markers[i].tstamp=tnow;
+    markers[i].col="green";
     mpos[""+markers[i].id]=markers[i];
   }
 
@@ -200,8 +206,9 @@ function drawGrid(markers){
           let cE=marker.corners[2];
 
           // plot marker
-          context.strokeStyle = "purple";
-          context.strokeRect(cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y), 1, 1);
+          context.strokeStyle = marker.col;//"purple";
+          context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 10, 10);
+          //console.log(marker,cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y))
 
           var srcPt = [(cS.x+cE.x)/2, (cS.y+cE.y)/2];
           var dstPt = perspT.transform(srcPt[0], srcPt[1]);
@@ -226,12 +233,14 @@ function drawGrid(markers){
       // deal with time marker
       let timemarker=mposget("0");
       if (timemarker != null) {
-        let cS=timemarker.corners[0];
-        let cE=timemarker.corners[2];
+        let cS=timemarker.corners[1];
+        let cE=timemarker.corners[3];
 
         // plot place marker
-        context.strokeStyle = "orange";
-        context.strokeRect((cS.x+cE.x)/2, (cS.y+cE.y)/2, 1, 1);
+        //context.strokeStyle = "orange";
+        context.strokeStyle = timemarker.col;
+        context.strokeRect(cE.x+2*(cS.x-cE.x)-1, cE.y+2*(cS.y-cE.y)-1, 3, 3);
+        //console.log(timemarker,(cS.x+cE.x)/2, (cS.y+cE.y)/2)
         
         var srcPt = [cE.x+2*(cS.x-cE.x), cE.y+2*(cS.y-cE.y)];
         var dstPt = perspT.transform(srcPt[0], srcPt[1]);
@@ -242,14 +251,27 @@ function drawGrid(markers){
 
   // deal with GO and STOP marker
   if (mposex("19")) {
-    statusobj['state']="GO"
+    statusobj['state']="GO";
+    // plot marker
+    let marker=mposget("19");
+    let cS=marker.corners[0];
+    let cE=marker.corners[2];
+    context.strokeStyle = marker.col;
+    context.strokeRect((cS.x+cE.x)/2-1, (cS.y+cE.y)/2-1, 3, 3);
   } else if (mposex("18")) {
     statusobj['state']="STOP"; // deal with STOP marker
-  } else if (lastkey!=null && missing==""){
+    // plot marker
+    let marker=mposget("18");
+    let cS=marker.corners[0];
+    let cE=marker.corners[2];
+    context.strokeStyle = marker.col;
+    context.strokeRect((cS.x+cE.x)/2-1, (cS.y+cE.y)/2-1, 3, 3);
+  } else if (lastkey!=null) {
     statusobj['state']=lastkey;
   } else {
     statusobj['state']="ERR";
   }
+  if (lastkey!=null) statusobj['key']=lastkey;
 
   // err log
   statusobj['err']=missing;
@@ -265,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('keydown', (event) => {
   var name = event.key;
   var code = event.code;
-  if (code=='Enter') {
+  if (code=='Enter' || code=='Space') {
     lastkey=(lastkey=="STOP") ? "GO" : "STOP";
     DEBUG_MODE = false;
   }

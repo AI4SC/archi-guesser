@@ -95,7 +95,7 @@ def select_audio(rnd_style):
         phash=architects_by_style[rnd_style]["poems_uuid"][rp]
         if len(verses) >= i and os.path.exists(f"assets/poems/{rnd_style}/{phash}_{i}.mp3"):
             poem += verses[i]+"\n\n"
-            phtml.append(html.Audio(src=f"assets/poems/{rnd_style}/{phash}_{i}.mp3", controls=True, autoPlay=game_mode_img and i == 0)) # , onloadeddata="var ap = this; setTimeout(function() { ap.play(); }, "+str(i*17000)+")"
+            phtml.append(html.Audio(src=f"assets/poems/{rnd_style}/{phash}_{i}.mp3", controls=True, autoPlay= i == 0 and not game_mode_img)) # , onloadeddata="var ap = this; setTimeout(function() { ap.play(); }, "+str(i*17000)+")"
     phtml.insert(0,html.P(poem))
     return phtml
 
@@ -119,7 +119,7 @@ def init_webpage():
                             src=archig_image, style={"height": "80px"}
                         )  # , html.P("An AI Art Architecture Educational Game")
                     ],
-                    width=7,
+                    width=6,
                 ),
                 dbc.Col(html.Img(src=ai4sc_image, style={"height": "60px"}), width=2),
                 dbc.Col(html.Img(src=urost_image, style={"height": "60px"}), width=2),
@@ -147,7 +147,7 @@ def init_webpage():
                             className="border-0",
                         )
                     ],
-                    width=1,
+                    width=2,
                 ),
             ]
         ),
@@ -320,7 +320,7 @@ def init_webpage():
                                         "GUESS",
                                         style={"height": "40px"},
                                         id="SUBMIT_GUESS",
-                                        disabled=True,
+                                        disabled=False,
                                     )
                                 ),
                             ]
@@ -371,7 +371,7 @@ def init_webpage():
                             html.Label("Architects"),
                             html.Ul([html.Li(c["name"]) for c in aarch], id="res_arch"),
                         ]),
-                        dbc.Col(dcc.Graph(style={"width":"100%","height":"100%","margin-left":"auto","display":"block"}, id="res_plot")),
+                        dbc.Col(dcc.Graph(style={"width":"100%","height":"100%","marginLeft":"auto","display":"block"}, id="res_plot")),
                     ]),
                     html.Label("Description"),
                     html.P(astyle["description"], id="res_desc"),
@@ -391,7 +391,7 @@ def init_webpage():
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
         dcc.Interval(id="demo-interval", interval=5000),
-        dcc.Interval(id="camera-update", interval=200, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=500, n_intervals=0),
         dcc.Store(id="guess-data")
     ],
     fluid=True,

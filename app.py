@@ -28,7 +28,6 @@ max_map_score = 1800
 weight_map_score   = 10.0 # max 180
 max_style_score = 2000
 weight_style_score = 2000.0 # max 1.0
-game_mode_img = True
 
 # Load region GeoJSON
 with open("cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
@@ -142,8 +141,6 @@ def compute_style_score(style):
 )
 def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year, dot_state
-    ldata = lastdata
-    lastdata = data
     styles = ["" for n in names]
     layers = []
     map_state = "col_gray"
@@ -151,7 +148,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     style_state = "col_gray"
     run_state = "col_gray"
     dot_state = "col_green" if dot_state == "col_gray" else "col_gray"
-    if data and ldata and 'state' in data and 'state' in ldata:
+    if data and 'state' in data:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
             if data['obj'] in marker_to_style:
@@ -180,16 +177,22 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             time_state = "col_yellow"
 
         run_state = "col_green" if data['state'] == "GO" else "col_yellow" if data['state'] == "STOP" else "col_red"
-        if data['state'] == "GO" and ldata['state'] != "GO" and not data['err']:
-            resultmodal_isopen = True
-            sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
-            new_n_clicks = no_update
-            print("Init Submit")
-        elif data['state'] == "STOP" and ldata['state'] != "STOP" and not data['err']:
-            resultmodal_isopen = False
-            new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
-            sub_n_clicks = no_update
-            print("Init New Run")
+        if not data['err']:
+            ldata = lastdata
+            lastdata = data
+            if data['state'] == "GO" and ldata['state'] != "GO":
+                resultmodal_isopen = True
+                sub_n_clicks = (sub_n_clicks + 1) if sub_n_clicks else 1
+                new_n_clicks = no_update
+                print("Step 1: Detect Init Submit")
+            elif data['state'] == "STOP" and ldata['state'] != "STOP":
+                resultmodal_isopen = False
+                new_n_clicks = (new_n_clicks + 1) if new_n_clicks else 1
+                sub_n_clicks = no_update
+                print("Step 3: Detect Init New Run")
+            else:
+                sub_n_clicks = no_update
+                new_n_clicks = no_update
         else:
             sub_n_clicks = no_update
             new_n_clicks = no_update
@@ -230,7 +233,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
 )
 def select_map_update(click_lat_lng):
     global sel_map
-    print(click_lat_lng)
+    #print(click_lat_lng)
     if click_lat_lng is None:
         return True, True, []
     sel_map = click_lat_lng
@@ -283,7 +286,8 @@ def select_style_update(n, names):
         return True, submit_disabled(), style_ccc
 
 def submit_disabled():
-    return sel_map is None or sel_style is None or sel_year is None or resultmodal_isopen
+    #return sel_map is None or sel_style is None or sel_year is None or resultmodal_isopen
+    return False
 
 def new_run():
     global rnd_style, rnd_img, correct_style, sel_style, sel_year, sel_map, resultmodal_isopen
@@ -292,7 +296,7 @@ def new_run():
     correct_style = architects_by_style[rnd_style]
     sel_style, sel_year, sel_map = None, None, None
     resultmodal_isopen = False
-    print("NEW Run", rnd_style, resultmodal_isopen)
+    print("Step 5: NEW Run", rnd_style, resultmodal_isopen)
 
 
 @app.callback(
@@ -309,7 +313,7 @@ def new_run():
 )
 def press_new_run(n_clicks):
     global newrun_n_clicks, resultmodal_isopen
-    print("NEW RUN")
+    print("Step 4: NEW RUN")
     new_n_clicks = newrun_n_clicks
     newrun_n_clicks = n_clicks
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
@@ -382,6 +386,7 @@ def press_submit(n_clicks):
     global submit_n_clicks, resultmodal_isopen, scoreboard, scoreboard_hist
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
+    print(sub_n_clicks, n_clicks)
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
         style = correct_style
         astyle = style["style"]
@@ -398,7 +403,7 @@ def press_submit(n_clicks):
         total_score = style_score + map_score + time_score
         update_scoreboard_hist("total", total_score)
         resultmodal_isopen = True
-        print("SUBMIT Score: ", total_score, resultmodal_isopen)
+        print("Step 2: SUBMIT Score: ", total_score, resultmodal_isopen)
         # compute rank
         scoreboard.append(total_score)
         scoreboard.sort(reverse=True)
