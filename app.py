@@ -436,8 +436,8 @@ def display_setup_modall(n):
     return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
 
 @app.callback(
-    Output("example_img", "hidden"), 
-    Output("example_poem", "hidden"), 
+    Output("example_img", "hidden"),
+    Output("example_poem", "hidden"),
     Input("MODE", "n_clicks"), prevent_initial_call=True
 )
 def mode_switch(n):
