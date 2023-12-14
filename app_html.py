@@ -77,7 +77,7 @@ for fn in os.listdir("style_generated"):
 #print(set(architects_by_style.keys())-set(examples_img.keys()))
 
 examples_img_cnt = {i:len(examples_img[i]) for i in sorted(list(examples_img.keys()))}
-print(examples_img_cnt)
+##print(examples_img_cnt)
 
 # Remove missing
 architects_by_style = {k:architects_by_style[k] for k in architects_by_style.keys() if k in examples_img and k in style_img}
@@ -368,10 +368,8 @@ def init_webpage():
                 dbc.ModalBody(dbc.Container([
                     dbc.Row([
                         dbc.Col([
-                            html.H3([
-                                html.Span(rnd_style, id="res_style"),
-                                html.Span(";  You: Any; Points: 100", id="guess_style"),
-                            ]),
+                            html.H3(rnd_style, id="res_style"),
+                            html.H5(";  You: Any; Points: 100", id="guess_style"),
                             html.Label("Epoche"),
                             html.P([
                                 html.Span(f'{startY} to {endY}', id="res_year"),

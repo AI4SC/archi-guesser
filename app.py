@@ -53,6 +53,7 @@ rnd_img = None
 lastdata = {'state':"ERR"}
 scoreboard = []
 scoreboard_hist = defaultdict(int)
+scoreboard_hist_pd = []
 dot_state = "col_gray"
 
 # Build App
@@ -396,7 +397,7 @@ def get_scoreboard_pd():
     prevent_initial_call=True,
 )
 def press_submit(n_clicks):
-    global submit_n_clicks, resultmodal_isopen, scoreboard, scoreboard_hist
+    global submit_n_clicks, resultmodal_isopen, scoreboard, scoreboard_hist, scoreboard_hist_pd
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
     print(sub_n_clicks, n_clicks)
@@ -417,6 +418,14 @@ def press_submit(n_clicks):
         update_scoreboard_hist("year", time_score*3)
         total_score = style_score + map_score + time_score
         update_scoreboard_hist("total", total_score)
+        for h in scoreboard_hist_pd: 
+            h["col"]='old'
+        run=len(scoreboard_hist_pd)//4
+        scoreboard_hist_pd.extend([
+            {"score": "Total", "value": total_score, "run":run, "col":'new'},
+            {"score": "Style", "value": style_score, "run":run, "col":'new'},
+            {"score": "Time", "value": time_score, "run":run, "col":'new'},
+            {"score": "Map", "value": map_score, "run":run, "col":'new'}])
         resultmodal_isopen = True
         print("Step 2: SUBMIT Score: ", total_score, resultmodal_isopen)
         # compute rank
@@ -424,18 +433,26 @@ def press_submit(n_clicks):
         scoreboard.sort(reverse=True)
         rank = scoreboard.index(total_score) + 1
         # compute plot
-        fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
-        fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
-        fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
-        with open("game_stats.json","wt+") as fo:
-            json.dumps({'cor_style':astyle, "sel_style":sel_style, "style_score":style_score, "startY":style["Start_Year"],"endY":style["End_Year"], "sel_year":sel_year, 
-                        "time_score":time_score,
+        fig = px.line_polar(pd.DataFrame(scoreboard_hist_pd), r='value', theta='score', color="col", line_group="run", line_close=True, template="plotly_dark",color_discrete_map={"new": "rgba(255,105,180, 1)", "old":"rgba(100,136,234,0.5)"})
+        fig.update_layout(paper_bgcolor= "rgba(48,48,48, 0)",plot_bgcolor= "rgba(48,48,48, 0)", showlegend=False)
+        #fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
+        #fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
+        #fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
+        with open("game_stats.json", "at") as fo:
+            json.dump({"total_score":style_score,
+                       "style_score":style_score, 
+                       "time_score":time_score,
+                       "map_score":map_score,
+                       'cor_style':correct_style['name'], 
+                       "sel_style":sel_style, 
+                       "startY":style["Start_Year"],
+                       "endY":style["End_Year"], 
+                       "sel_year":sel_year,
                         "cor_region":correct_style["style_area"],
                         "sel_region":closest_reg,
-                        "lat_lon":sel_map,
-                        "map_score":map_score,
-                        "total_score":style_score
-                        })
+                        "sel_lat":sel_map[0],
+                        "sel_lon":sel_map[1]},fo)
+            fo.write("\n")
         return [
             submit_disabled(), 
             resultmodal_isopen, 
@@ -448,9 +465,9 @@ def press_submit(n_clicks):
             [html.Li(c) for c in astyle["characteristics"]],
             [html.Li(c) for c in astyle["examples"]],
             [html.Li(c["name"]) for c in aarch],
-            f"  vs. {sel_style} ({style_score} Pt.)",
-            f"  vs. {sel_year} ({time_score} Pt.)",
-            f"  vs. {closest_reg} ({map_score} Pt.)"
+            f"\n (You: {sel_style}, {style_score} Pt.)",
+            f"  (You: {sel_year}, {time_score} Pt.)",
+            f"  (You: {closest_reg}, {map_score} Pt.)"
         ]
     else:
         raise PreventUpdate
@@ -479,8 +496,8 @@ def get_marker():
 
 if __name__ == "__main__":
     # run application
-    #if "DASH_DEBUG_MODE" in os.environ:
-    if True:
+    if "DASH_DEBUG_MODE" in os.environ:
+    #if True:
         app.run_server(
             host="0.0.0.0",
             dev_tools_ui=True,
