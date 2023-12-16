@@ -12,9 +12,6 @@ import uuid
 
 mask = True
 
-archig_image = Image.open("assets/images/archiguesser_logo.png")
-ai4sc_image = Image.open("assets/images/ai4sc_logo.png")
-urost_image = Image.open("assets/images/uni-rostock.png.webp")
 marker_to_style={}
 game_mode_img = True
 
@@ -57,7 +54,7 @@ for fn in os.listdir("assets/icons120"):
     if fn.endswith(".png"):
         ifn = fn.replace(".png", "").replace("_", " ").title()
         if ifn in architects_by_style:
-            style_img[ifn] = Image.open(os.path.join("assets/icons120", fn))
+            style_img[ifn] = str(os.path.join("assets/icons120", fn))
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 #print(sorted(list(style_img.keys())))
@@ -68,7 +65,7 @@ for fn in os.listdir("assets/style_generated"):
         examples_img[fn] = []
         for fni in os.listdir(os.path.join("assets/style_generated", fn)):
             if fni.endswith(".png"):
-                img = Image.open(os.path.join("assets/style_generated", fn, fni))
+                img = str(os.path.join("assets/style_generated", fn, fni))
                 examples_img[fn].append(img)
 
 #print(sorted(list(examples_img.keys())))
@@ -83,6 +80,7 @@ architects_by_style = {k:architects_by_style[k] for k in architects_by_style.key
 examples_img = {k:examples_img[k] for k in architects_by_style.keys()}
 style_img = {k:style_img[k] for k in architects_by_style.keys()}
 
+# list final icons and images
 #print(sorted(list(architects_by_style.keys())))
 #print(sorted(list(style_img.keys())))
 #print(sorted(list(examples_img.keys())))
@@ -120,13 +118,13 @@ def init_webpage():
                 dbc.Col(
                     [
                         html.Img(
-                            src=archig_image, style={"height": "80px"}
+                            src="assets/images/archiguesser_logo.png", style={"height": "80px"}
                         )  # , html.P("An AI Art Architecture Educational Game")
                     ],
                     width=6,
                 ),
-                dbc.Col(html.Img(src=ai4sc_image, style={"height": "60px"}), width=2),
-                dbc.Col(html.Img(src=urost_image, style={"height": "60px"}), width=2),
+                dbc.Col(html.Img(src="assets/images/ai4sc_logo.png", style={"height": "60px"}), width=2),
+                dbc.Col(html.Img(src="assets/images/uni-rostock.png.webp", style={"height": "60px"}), width=2),
                 dbc.Col(
                     [
                         html.Span("•", id="state_dot", className="col_gray"),
