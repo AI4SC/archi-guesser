@@ -12,15 +12,14 @@ import uuid
 
 mask = True
 
-archig_image = Image.open("archiguesser_logo.png")
-style_image = Image.open("styles_crop.png")
-ai4sc_image = Image.open("ai4sc_logo.png")
-urost_image = Image.open("uni-rostock.png.webp")
+archig_image = Image.open("assets/images/archiguesser_logo.png")
+ai4sc_image = Image.open("assets/images/ai4sc_logo.png")
+urost_image = Image.open("assets/images/uni-rostock.png.webp")
 marker_to_style={}
 game_mode_img = True
 
 # Load architect styles
-with open("architect_styles_sub.json", "tr", encoding='utf-8') as fi:
+with open("datasets/architect_styles_sub.json", "tr", encoding='utf-8') as fi:
     architects_by_style = json.load(fi)
 
 for k, v in architects_by_style.items():
@@ -54,22 +53,22 @@ for k, v in architects_by_style.items():
         v['poems_uuid']=[str(uuid.uuid3(uuid.NAMESPACE_X500, p)) for p in v['poems']] # compute hash for poem
 
 style_img = {}
-for fn in os.listdir("styles120"):
+for fn in os.listdir("assets/icons120"):
     if fn.endswith(".png"):
         ifn = fn.replace(".png", "").replace("_", " ").title()
         if ifn in architects_by_style:
-            style_img[ifn] = Image.open(os.path.join("styles120", fn))
+            style_img[ifn] = Image.open(os.path.join("assets/icons120", fn))
 
 style_img = {i: style_img[i] for i in sorted(list(style_img.keys()))}
 #print(sorted(list(style_img.keys())))
 
 examples_img = {}
-for fn in os.listdir("style_generated"):
-    if os.path.isdir(os.path.join("style_generated", fn)) and fn in architects_by_style and fn in style_img:
+for fn in os.listdir("assets/style_generated"):
+    if os.path.isdir(os.path.join("assets/style_generated", fn)) and fn in architects_by_style and fn in style_img:
         examples_img[fn] = []
-        for fni in os.listdir(os.path.join("style_generated", fn)):
+        for fni in os.listdir(os.path.join("assets/style_generated", fn)):
             if fni.endswith(".png"):
-                img = Image.open(os.path.join("style_generated", fn, fni))
+                img = Image.open(os.path.join("assets/style_generated", fn, fni))
                 examples_img[fn].append(img)
 
 #print(sorted(list(examples_img.keys())))

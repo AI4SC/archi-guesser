@@ -31,11 +31,11 @@ region_colors = {
 
 # Load countries by region 
 # establishing which countries belong to which cultural region
-with open("countries_by_region.json", "tr") as fi:
+with open("datasets/countries_by_region.json", "tr") as fi:
     countries_by_region = json.load(fi)
 
 # Load region GeoJSON
-with open("cultural_regions_simplified.geojson", "tr") as fi:
+with open("datasets/cultural_regions_simplified.geojson", "tr") as fi:
     regions = json.load(fi)
 
 # Create a GeoJSON layer for each feature (polygon) in the GeoJSON file and assign the color from the dictionary

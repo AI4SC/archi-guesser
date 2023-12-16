@@ -6,3 +6,6 @@ dash-bootstrap-components
 dash-leaflet
 gunicorn
 shapely
+tqdm
+ray
+elevenlabs

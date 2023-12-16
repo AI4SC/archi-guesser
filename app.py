@@ -30,7 +30,7 @@ max_style_score = 2000
 weight_style_score = 2000.0 # max 1.0
 
 # Load region GeoJSON
-with open("cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
+with open("datasets/cultural_regions_simplified.geojson", "tr", encoding='utf-8') as fi:
     regions = json.load(fi)
 
 from app_html import *
