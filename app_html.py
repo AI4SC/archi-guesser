@@ -10,7 +10,7 @@ import dash_leaflet as dl
 from app_map import *
 import uuid
 
-manual_mode = False
+web_mode = False
 marker_to_style = {}
 game_mode_img = True
 
@@ -211,7 +211,7 @@ def init_webpage():
                                 html.Div(
                                     [
                                         html.H3(
-                                            "Please select a 3D object that represents the style",
+                                            "Please select the style" if web_mode else "Please select a 3D object that represents the style",
                                             style={
                                                 "textAlign": "center",
                                                 "width": "100%",
@@ -230,7 +230,7 @@ def init_webpage():
                                         "zIndex": "10",
                                         "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                     },
-                                    hidden = manual_mode,
+                                    hidden = web_mode,
                                     id = "style-mask",
                                 )
                         ],style={"position": "relative"}),
@@ -246,7 +246,7 @@ def init_webpage():
                             html.Div(
                                 [
                                     html.H3(
-                                        "Please place the 3D object on the map",
+                                        "Please select a location on the map" if web_mode else "Please place the 3D object on the map",
                                         style={
                                             "textAlign": "center",
                                             "width": "100%",
@@ -265,7 +265,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = manual_mode,
+                                hidden = web_mode,
                                 id = "map-mask",
                             ),
                         ],style={"position": "relative"}),
@@ -310,7 +310,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = manual_mode,
+                                hidden = web_mode,
                                 id = "epoche-mask",
                             ),
                         ],style={"position": "relative"}),
@@ -398,8 +398,7 @@ def init_webpage():
             backdrop="static"
         ),
         #html.Button("", id="new_run", style={"visibility": "hidden"}, disabled=True),  # used as event notifier
-        dcc.Interval(id="demo-interval", interval=5000),
-        dcc.Interval(id="camera-update", interval=500, n_intervals=0),
+        dcc.Interval(id="camera-update", interval=9999999999 if web_mode else 500, n_intervals=0),
         dcc.Store(id="guess-data")
     ],
     fluid=True,
