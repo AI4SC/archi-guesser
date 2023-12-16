@@ -265,7 +265,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = web_mode,
+                                hidden = False, #web_mode
                                 id = "map-mask",
                             ),
                         ],style={"position": "relative"}),
@@ -310,7 +310,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = web_mode,
+                                hidden =  False, #web_mode
                                 id = "epoche-mask",
                             ),
                         ],style={"position": "relative"}),
