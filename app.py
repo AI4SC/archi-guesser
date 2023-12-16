@@ -216,8 +216,8 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
             style_state = "col_red"
     return (
         web_mode or sel_style is not None,
-        web_mode or sel_map is not None,
-        web_mode or sel_year is not None,
+        sel_map is not None,
+        sel_year is not None,
         styles,
         layers,
         sel_year,
@@ -318,7 +318,7 @@ def new_run():
     correct_style = architects_by_style[rnd_style]
     sel_style, sel_year, sel_map = None, None, None
     resultmodal_isopen = False
-    print("Step 5: NEW Run", rnd_style, resultmodal_isopen)
+    print("Step 5: NEW RUN", rnd_style, resultmodal_isopen)
 
 
 @app.callback(
@@ -342,8 +342,8 @@ def press_new_run(n_clicks):
         new_run()
         return (
             web_mode or sel_style is not None,
-            web_mode or sel_map is not None,
-            web_mode or sel_year is not None,
+            sel_map is not None,
+            sel_year is not None,
             submit_disabled(),
             resultmodal_isopen,
             rnd_img,
