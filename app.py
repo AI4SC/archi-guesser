@@ -42,8 +42,8 @@ style_ccc = [None for c in style_img.keys()]
 sel_style = None
 sel_map = None
 sel_year = None
-submit_n_clicks = 0
-newrun_n_clicks = 0
+submit_n_clicks = -1
+newrun_n_clicks = -1
 correct_style = architects_by_style[rnd_style]
 resultmodal_isopen = False
 rnd_img = None
@@ -144,14 +144,18 @@ def compute_style_score(style):
     prevent_initial_call=True
 )
 def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
-    global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year, dot_state
-    styles = ["" for n in names]
+    global lastdata, resultmodal_isopen, sel_style, sel_map, sel_year, dot_state, web_mode
+    if web_mode:
+        return no_update
+    styles = ["" for _ in names]
     layers = []
+    print("Got Data")
     map_state = "col_gray"
     time_state = "col_gray"
     style_state = "col_gray"
     run_state = "col_gray"
     dot_state = "col_green" if dot_state == "col_gray" else "col_gray"
+    sel_year = no_update
     if data and 'state' in data:
         data['total_score'] = 0
         if data and 'obj' in data and correct_style:
@@ -211,20 +215,20 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
         if "place" in data['err']:
             style_state = "col_red"
     return (
-            manual_mode and sel_style is None,
-            manual_mode and sel_map is None,
-            manual_mode and sel_year is None,
-            styles,
-            layers,
-            sel_year,
-            str(data), 
-            sub_n_clicks,
-            new_n_clicks,
-            dot_state,
-            style_state,
-            map_state,
-            time_state,
-            run_state,
+        web_mode or sel_style is not None,
+        web_mode or sel_map is not None,
+        web_mode or sel_year is not None,
+        styles,
+        layers,
+        sel_year,
+        str(data), 
+        sub_n_clicks,
+        new_n_clicks,
+        dot_state,
+        style_state,
+        map_state,
+        time_state,
+        run_state,
     )
 
 
@@ -238,6 +242,7 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
 )
 def select_map_update(click_data):
     global sel_map
+    print("Map Update")
     #print(click_data)
     if click_data is None:
         sel_map = None
@@ -248,7 +253,11 @@ def select_map_update(click_data):
                 position=(sel_map[1], sel_map[0]),
                 children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map)),
             )]
-    return manual_mode and sel_map is None, submit_disabled(), marker
+    return (
+        sel_map is not None,
+        submit_disabled(),
+        marker
+    )
 
 
 @app.callback(
@@ -258,6 +267,7 @@ def select_map_update(click_data):
 )
 def select_year_update(value):
     global sel_year
+    print("Year Update")
     if value is None or value == 0:
         return True
     else:
@@ -275,19 +285,22 @@ def select_year_update(value):
 )
 def select_style_update(n, names):
     global sel_style
+    print("Style Update")
     if callback_context.triggered_prop_ids:
         for v in callback_context.triggered_prop_ids.values():
             sel_style = v["index"]
             styles = ["primary" if sel_style == n else None for n in names]
+            #styles = ["" if sel_style == n else "hidden" for n in names]
+            #print(sel_style,sel_style is None)
             return (
-                manual_mode and sel_style is None,
+                sel_style is not None,
                 submit_disabled(),
                 styles,
             )
     else:
         sel_style = None
         return (
-            manual_mode and sel_style is None,
+            sel_style is not None,
             submit_disabled(),
             style_ccc
         )
@@ -328,9 +341,9 @@ def press_new_run(n_clicks):
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
         new_run()
         return (
-            manual_mode and sel_style is None,
-            manual_mode and sel_map is None,
-            manual_mode and sel_year is None,
+            web_mode or sel_style is not None,
+            web_mode or sel_map is not None,
+            web_mode or sel_year is not None,
             submit_disabled(),
             resultmodal_isopen,
             rnd_img,
@@ -401,7 +414,7 @@ def press_submit(n_clicks):
     global submit_n_clicks, resultmodal_isopen, scoreboard, scoreboard_hist, scoreboard_hist_pd
     sub_n_clicks = submit_n_clicks
     submit_n_clicks = n_clicks
-    print(sub_n_clicks, n_clicks)
+    print("SUBMIT", sub_n_clicks, n_clicks)
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
         style = correct_style
         astyle = style["style"]
