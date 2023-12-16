@@ -10,9 +10,8 @@ import dash_leaflet as dl
 from app_map import *
 import uuid
 
-mask = True
-
-marker_to_style={}
+manual_mode = False
+marker_to_style = {}
 game_mode_img = True
 
 # Load architect styles
@@ -231,7 +230,7 @@ def init_webpage():
                                         "zIndex": "10",
                                         "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                     },
-                                    hidden = mask,
+                                    hidden = manual_mode,
                                     id = "style-mask",
                                 )
                         ],style={"position": "relative"}),
@@ -266,7 +265,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = mask,
+                                hidden = manual_mode,
                                 id = "map-mask",
                             ),
                         ],style={"position": "relative"}),
@@ -311,7 +310,7 @@ def init_webpage():
                                     "zIndex": "20",
                                     "backgroundColor": "rgba(34, 34, 34, 0.8)",
                                 },
-                                hidden = mask,
+                                hidden = manual_mode,
                                 id = "epoche-mask",
                             ),
                         ],style={"position": "relative"}),
