@@ -21,7 +21,6 @@ import plotly.express as px
 import pandas as pd
 from collections import defaultdict
 
-demo_mode = False
 max_time_score  = 2025 # max 2600
 weight_time_score  = 1.0 # max 2025
 max_map_score = 1800
@@ -34,8 +33,6 @@ with open("datasets/cultural_regions_simplified.geojson", "tr", encoding='utf-8'
     regions = json.load(fi)
 
 from app_html import *
-if demo_mode:
-    import app_demo
 
 #print(style_img.keys())
 #print(examples_img.keys())
@@ -58,9 +55,7 @@ dot_state = "col_gray"
 
 # Build App
 server = flask.Flask(__name__)
-app = Dash(
-    server=server, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.BOOTSTRAP]
-)  # , dbc.icons.FONT_AWESOME
+app = Dash(server=server, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.BOOTSTRAP])
 app.title = "ArchiGuesser"
 
 # layout from app_html
@@ -70,8 +65,7 @@ app.layout = init_webpage()
 clientside_callback(
     ClientsideFunction(namespace="clientside", function_name="test_client_side"),
     Output("guess-data", "data"),
-    Input("camera-update", "n_intervals"),
-    # State("guess-data", "data"),
+    Input("camera-update", "n_intervals")
 )
 
 
@@ -126,7 +120,6 @@ def compute_style_score(style):
     if not correct_style or not style:
         return 0
     return correct_style["style_similarity"][style]["weighted"]
-
 
 
 @app.callback(
@@ -218,9 +211,9 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
         if "place" in data['err']:
             style_state = "col_red"
     return (
-            mask and sel_style is not None,
-            mask and sel_map is not None,
-            mask and sel_year is not None,
+            manual_mode and sel_style is None,
+            manual_mode and sel_map is None,
+            manual_mode and sel_year is None,
             styles,
             layers,
             sel_year,
@@ -239,25 +232,23 @@ def print_guess_data(data, names, sub_n_clicks, new_n_clicks):
     Output("epoche-mask", "hidden", allow_duplicate=True),
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
     Output("layer", "children", allow_duplicate=True),
-    Input("map", "click_lat_lng"),
+    #Input("map", "click_lat_lng"),
+    Input("map", "clickData"),
     prevent_initial_call=True,
 )
-def select_map_update(click_lat_lng):
+def select_map_update(click_data):
     global sel_map
-    #print(click_lat_lng)
-    if click_lat_lng is None:
-        return True, submit_disabled(), []
-    sel_map = click_lat_lng
-    return (
-        False,
-        submit_disabled(),
-        [
-            dl.Marker(
+    #print(click_data)
+    if click_data is None:
+        sel_map = None
+        marker = None
+    else:
+        sel_map = [click_data['latlng']['lng'], click_data['latlng']['lat']]
+        marker=[dl.Marker(
                 position=(sel_map[1], sel_map[0]),
-                children=dl.Tooltip("({:.3f}, {:.3f})".format(*click_lat_lng)),
-            )
-        ],
-    )
+                children=dl.Tooltip("({:.3f}, {:.3f})".format(*sel_map)),
+            )]
+    return manual_mode and sel_map is None, submit_disabled(), marker
 
 
 @app.callback(
@@ -289,16 +280,23 @@ def select_style_update(n, names):
             sel_style = v["index"]
             styles = ["primary" if sel_style == n else None for n in names]
             return (
-                mask,
+                manual_mode and sel_style is None,
                 submit_disabled(),
                 styles,
             )
     else:
-        return True, submit_disabled(), style_ccc
+        sel_style = None
+        return (
+            manual_mode and sel_style is None,
+            submit_disabled(),
+            style_ccc
+        )
+
 
 def submit_disabled():
     #return sel_map is None or sel_style is None or sel_year is None or resultmodal_isopen
     return False
+
 
 def new_run():
     global rnd_style, rnd_img, correct_style, sel_style, sel_year, sel_map, resultmodal_isopen
@@ -330,9 +328,9 @@ def press_new_run(n_clicks):
     if n_clicks and new_n_clicks and n_clicks > new_n_clicks:
         new_run()
         return (
-            mask and sel_style is not None,
-            mask and sel_map is not None,
-            mask and sel_year is not None,
+            manual_mode and sel_style is None,
+            manual_mode and sel_map is None,
+            manual_mode and sel_year is None,
             submit_disabled(),
             resultmodal_isopen,
             rnd_img,
@@ -340,6 +338,7 @@ def press_new_run(n_clicks):
         )
     else:
         raise PreventUpdate
+
 
 def update_scoreboard_hist(cat, value):
     global scoreboard_hist
@@ -349,6 +348,7 @@ def update_scoreboard_hist(cat, value):
         scoreboard_hist[cat+"_min"]=value
     if value > scoreboard_hist[cat+"_max"]:
         scoreboard_hist[cat+"_max"]=value
+
 
 def get_scoreboard_pd():
     global scoreboard_hist, scoreboard
@@ -376,6 +376,7 @@ def get_scoreboard_pd():
     scoreboard_pd.append({ "score":"year", "cat":"current", "value":scoreboard_hist["year_last"]})
 
     return pd.DataFrame(scoreboard_pd)
+
 
 @app.callback(
     Output("SUBMIT_GUESS", "disabled", allow_duplicate=True),
@@ -478,6 +479,7 @@ def press_submit(n_clicks):
 )
 def display_setup_modall(n):
     return {"visibility": "hidden"} if n % 2 == 0 else {"visibility": "visible"}
+
 
 @app.callback(
     Output("example_img", "hidden"),
