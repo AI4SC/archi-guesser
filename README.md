@@ -27,7 +27,7 @@ We developed the game with the goal to create a multisensory experience that cat
 ![](assets/images/architectural_styles_process_white.drawio.png)
 
 
-The figure above shows the pipeline ArchiGuesser is using to combine various AI technologies. The main design principles behind the pipeline are: 
+The figure above shows the pipeline ArchiGuesser is using to combine various AI technologies. More details can be found in the papers. The main design principles behind the pipeline are: 
 - All content should be AI generated (style descriptions, images); 
 - The game should be interactive and engage the users;
 - The game should be multi-sensory to address multiple learning channels.
