@@ -20,7 +20,6 @@ The user receives points based on how close they are to the correct values (spat
 
 
 # Game architecture
-
 We developed the game with the goal to create a multisensory experience that caters to different learning channels to teach architectural styles and also helps students understand the capabilities and workings of generative AI. Therefore, we decided that the content for the game should be generated primarily by AI including style descriptions, images, and poems. 
 
 
@@ -32,6 +31,10 @@ The figure above shows the pipeline ArchiGuesser is using to combine various AI 
 - The game should be interactive and engage the users;
 - The game should be multi-sensory to address multiple learning channels.
 
+# Install
+ArchiGuesser is using cached images generated with Midjourney and poems generated with ChatGPT and ElevenLabs. It is possible to generate these datasets as explained below. However, we recommend to install a zipped release under github releases as it contains the code and data. 
+
+Please send us an email if someone wants to get the 3D models for the haptic interface.
 
 # Run
 ArchiGuesser is a webpage build on Python Dash. 
@@ -52,18 +55,6 @@ podman build . -t ai4sc/archiguesser
 podman run -p 8050:8050 ai4sc/archiguesser 
 ```
 
-
-# Data
-
-ArchiGuesser requires different datasets consisting of images generated with Midjourney and poems generated with ElevenLabs. We released the dataset as github release . Unzip it in the `assets` folder to retrieve a directory structure of:
-
-```
-assets/icons120
-assets/poems
-assets/style_generated
-```
-
-Please send us an email if someone wants to get the 3D models for the haptic interface.
 
 # Extend and recreate
 ## Collect style information from ChatGPT
@@ -91,7 +82,6 @@ The images are generated with prompts generated with the content extracted from 
 The icons for the various styles are also generated with Midjourney. We provided the macros `bw120.afmacro` and `invert120.afmacro` for Affinity Photo 2 to convert them into the 120x120 icon format used in the UI and on the game cards. The map `aruco_map4.pdf` and game cards `markers2.docx` can also be found in the `datasets` folder.
 
 # Cite
-
 We published and demoed the game at BuildSys and NeurIPS 2023, with an extended version at the latter.
 
 ```bibtex
