@@ -1,6 +1,6 @@
-# Introduction
 ![](assets/images/archiguesser_logo.png)
 
+# Introduction
 ArchiGuesser is an educational game that teaches our diverse architectural history across the globe using generative AI in various combinations. Using generative AIs is opening new possibilities to create content from text, speech, and images based on simple input prompts.
 
 We created an educational game that combines various AI technologies from large language models and image generation to computer vision, in order to serve a single purpose: Teach users about architecture in an entertaining way. We wanted to enable students to explore and learn the diversity of our architectural history in a playful and exploratory way and at the same time experience and understand what current AI technologies can achieve.
@@ -16,7 +16,7 @@ The user guesses by placing 3D-printed objects that represent the styles on a ma
 
 ![](assets/images/gameplay.png)
 
-The user receives points based on how close they are to the correct values and is then ranked on a leader board. This way the game can be played against oneself or against others.
+The user receives points based on how close they are to the correct values (spatial distance to the region, temporal distance to the time period, and semantic distance in style). We then present the corrent style information such that the user can learn over time to remember the facts. The games are ranked on a leader board. This way the game can be played against oneself or against others many times due to the random generated content.
 
 
 # Game architecture
@@ -62,6 +62,8 @@ assets/icons120
 assets/poems
 assets/style_generated
 ```
+
+Please send us an email if someone wants to get the 3D models for the haptic interface.
 
 # Extend and recreate
 ## Collect style information from ChatGPT
