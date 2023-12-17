@@ -7,9 +7,9 @@ We created an educational game that combines various AI technologies from large 
 
 
 # The Game
-The game principle is simple: Present an image of a randomly drawn architecture style to the user and let them guess:
-- What architectural style is presented? 
-- What region does it originate from? 
+The game concept is simple: Generate and present an image/poem for a randomly drawn architecture style to the user and let them guess:
+- What architectural style is presented?
+- What region does it originate from?
 - What time period does it stem from?
 
 The user guesses by placing 3D-printed objects that represent the styles on a map. We modelled the 3D objects to represent common characteristic elements of each style. This adds a haptic element to the experience, which can improve learning and memorization and also offers hints should users be unsure about a guess.
@@ -55,7 +55,7 @@ podman run -p 8050:8050 ai4sc/archiguesser
 
 # Data
 
-ArchiGuesser requires different datasets consisting of images generated with Midjourney and poems generated with ElevenLabs. We published the dataset separately here. Unzip it in the `assets` folder to retrieve a directory structure of:
+ArchiGuesser requires different datasets consisting of images generated with Midjourney and poems generated with ElevenLabs. We released the dataset as github release . Unzip it in the `assets` folder to retrieve a directory structure of:
 
 ```
 assets/icons120
