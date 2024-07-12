@@ -416,73 +416,77 @@ def press_submit(n_clicks):
     submit_n_clicks = n_clicks
     print("SUBMIT", sub_n_clicks, n_clicks)
     if n_clicks and sub_n_clicks and n_clicks > sub_n_clicks:
-        style = correct_style
-        astyle = style["style"]
-        aarch = style["architects"]
-        startY = f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
-        endY = f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
-        # compute scores
-        style_score = round(weight_style_score * compute_style_score(sel_style)) #max_style_score-
-        update_scoreboard_hist("style", style_score*3)
-        map_score0, closest_reg, closest_reg_dist=compute_map_score(sel_map)
-        map_score = max_map_score - round(weight_map_score * map_score0)
-        print(map_score, map_score0, closest_reg, closest_reg_dist)
-        update_scoreboard_hist("map", map_score*3)
-        time_score = max_time_score-round(weight_time_score * compute_time_score(sel_year))
-        update_scoreboard_hist("year", time_score*3)
-        total_score = style_score + map_score + time_score
-        update_scoreboard_hist("total", total_score)
-        for h in scoreboard_hist_pd: 
-            h["col"]='old'
-        run=len(scoreboard_hist_pd)//4
-        scoreboard_hist_pd.extend([
-            {"score": "Total", "value": total_score, "run":run, "col":'new'},
-            {"score": "Style", "value": style_score, "run":run, "col":'new'},
-            {"score": "Time", "value": time_score, "run":run, "col":'new'},
-            {"score": "Map", "value": map_score, "run":run, "col":'new'}])
-        resultmodal_isopen = True
-        print("Step 2: SUBMIT Score: ", total_score, resultmodal_isopen)
-        # compute rank
-        scoreboard.append(total_score)
-        scoreboard.sort(reverse=True)
-        rank = scoreboard.index(total_score) + 1
-        # compute plot
-        fig = px.line_polar(pd.DataFrame(scoreboard_hist_pd), r='value', theta='score', color="col", line_group="run", line_close=True, template="plotly_dark",color_discrete_map={"new": "rgba(255,105,180, 1)", "old":"rgba(100,136,234,0.5)"})
-        fig.update_layout(paper_bgcolor= "rgba(48,48,48, 0)",plot_bgcolor= "rgba(48,48,48, 0)", showlegend=False)
-        #fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
-        #fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
-        #fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
-        with open("game_stats.json", "at") as fo:
-            json.dump({"total_score":style_score,
-                       "style_score":style_score, 
-                       "time_score":time_score,
-                       "map_score":map_score,
-                       'cor_style':correct_style['name'], 
-                       "sel_style":sel_style, 
-                       "startY":style["Start_Year"],
-                       "endY":style["End_Year"], 
-                       "sel_year":sel_year,
-                        "cor_region":correct_style["style_area"],
-                        "sel_region":closest_reg,
-                        "sel_lat":sel_map[0],
-                        "sel_lon":sel_map[1]},fo)
-            fo.write("\n")
-        return [
-            submit_disabled(), 
-            resultmodal_isopen, 
-            f"You got {total_score} points (Rank: {rank} of {len(scoreboard)})",
-            rnd_style,
-            f'{startY} to {endY}',
-            f'{style["style_area"]}',
-            fig,
-            astyle["description"],
-            [html.Li(c) for c in astyle["characteristics"]],
-            [html.Li(c) for c in astyle["examples"]],
-            [html.Li(c["name"]) for c in aarch],
-            f"\n (You: {sel_style}, {style_score} Pt.)",
-            f"  (You: {sel_year}, {time_score} Pt.)",
-            f"  (You: {closest_reg}, {map_score} Pt.)"
-        ]
+        try:
+            style = correct_style
+            astyle = style["style"]
+            aarch = style["architects"]
+            startY = f"{style['Start_Year']} CE" if style["Start_Year"]>0 else f"{-style['Start_Year']} BCE"
+            endY = f"{style['End_Year']} CE" if style["End_Year"]>0 else f"{-style['End_Year']} BCE"
+            # compute scores
+            style_score = round(weight_style_score * compute_style_score(sel_style)) #max_style_score-
+            update_scoreboard_hist("style", style_score*3)
+            map_score0, closest_reg, closest_reg_dist=compute_map_score(sel_map)
+            map_score = max_map_score - round(weight_map_score * map_score0)
+            print(map_score, map_score0, closest_reg, closest_reg_dist)
+            update_scoreboard_hist("map", map_score*3)
+            time_score = max_time_score-round(weight_time_score * compute_time_score(sel_year))
+            update_scoreboard_hist("year", time_score*3)
+            total_score = style_score + map_score + time_score
+            update_scoreboard_hist("total", total_score)
+            for h in scoreboard_hist_pd: 
+                h["col"]='old'
+            run=len(scoreboard_hist_pd)//4
+            scoreboard_hist_pd.extend([
+                {"score": "Total", "value": total_score, "run":run, "col":'new'},
+                {"score": "Style", "value": style_score, "run":run, "col":'new'},
+                {"score": "Time", "value": time_score, "run":run, "col":'new'},
+                {"score": "Map", "value": map_score, "run":run, "col":'new'}])
+            resultmodal_isopen = True
+            print("Step 2: SUBMIT Score: ", total_score, resultmodal_isopen)
+            # compute rank
+            scoreboard.append(total_score)
+            scoreboard.sort(reverse=True)
+            rank = scoreboard.index(total_score) + 1
+            # compute plot
+            fig = px.line_polar(pd.DataFrame(scoreboard_hist_pd), r='value', theta='score', color="col", line_group="run", line_close=True, template="plotly_dark",color_discrete_map={"new": "rgba(255,105,180, 1)", "old":"rgba(100,136,234,0.5)"})
+            fig.update_layout(paper_bgcolor= "rgba(48,48,48, 0)",plot_bgcolor= "rgba(48,48,48, 0)", showlegend=False)
+            #fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
+            #fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
+            #fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
+            with open("game_stats.json", "at") as fo:
+                json.dump({"total_score":style_score,
+                        "style_score":style_score, 
+                        "time_score":time_score,
+                        "map_score":map_score,
+                        'cor_style':correct_style['name'], 
+                        "sel_style":sel_style, 
+                        "startY":style["Start_Year"],
+                        "endY":style["End_Year"], 
+                        "sel_year":sel_year,
+                            "cor_region":correct_style["style_area"],
+                            "sel_region":closest_reg,
+                            "sel_lat":sel_map[0],
+                            "sel_lon":sel_map[1]},fo)
+                fo.write("\n")
+            return [
+                submit_disabled(), 
+                resultmodal_isopen, 
+                f"You got {total_score} points (Rank: {rank} of {len(scoreboard)})",
+                rnd_style,
+                f'{startY} to {endY}',
+                f'{style["style_area"]}',
+                fig,
+                astyle["description"],
+                [html.Li(c) for c in astyle["characteristics"]],
+                [html.Li(c) for c in astyle["examples"]],
+                [html.Li(c["name"]) for c in aarch],
+                f"\n (You: {sel_style}, {style_score} Pt.)",
+                f"  (You: {sel_year}, {time_score} Pt.)",
+                f"  (You: {closest_reg}, {map_score} Pt.)"
+            ]
+        except Exception as e:
+            print("ERROR", e)
+            raise PreventUpdate
     else:
         raise PreventUpdate
 
