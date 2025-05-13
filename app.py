@@ -453,21 +453,21 @@ def press_submit(n_clicks):
             #fig = px.line_polar(get_scoreboard_pd(), r='value', theta='score', color="cat", line_close=True, template="plotly_dark")
             #fig.update_layout({"paper_bgcolor": "rgba(0, 0, 0, 0)","plot_bgcolor": "rgba(0, 0, 0, 0)"})
             #fig.update_layout(legend=dict(orientation= 'h', y=-0.15))
-            with open("game_stats.json", "at") as fo:
-                json.dump({"total_score":style_score,
-                        "style_score":style_score, 
-                        "time_score":time_score,
-                        "map_score":map_score,
-                        'cor_style':correct_style['name'], 
-                        "sel_style":sel_style, 
-                        "startY":style["Start_Year"],
-                        "endY":style["End_Year"], 
-                        "sel_year":sel_year,
-                            "cor_region":correct_style["style_area"],
-                            "sel_region":closest_reg,
-                            "sel_lat":sel_map[0],
-                            "sel_lon":sel_map[1]},fo)
-                fo.write("\n")
+            #with open("game_stats.json", "at") as fo:
+            #    json.dump({"total_score":style_score,
+            #            "style_score":style_score, 
+            #            "time_score":time_score,
+            #            "map_score":map_score,
+            #            'cor_style':correct_style['name'], 
+            #            "sel_style":sel_style, 
+            #            "startY":style["Start_Year"],
+            #            "endY":style["End_Year"], 
+            #            "sel_year":sel_year,
+            #                "cor_region":correct_style["style_area"],
+            #                "sel_region":closest_reg,
+            #                "sel_lat":sel_map[0],
+            #                "sel_lon":sel_map[1]},fo)
+            #    fo.write("\n")
             return [
                 submit_disabled(), 
                 resultmodal_isopen, 
@@ -522,7 +522,7 @@ if __name__ == "__main__":
             dev_tools_ui=True,
             dev_tools_hot_reload=True,
             debug=True,
-            threaded=True,
+            threaded=False,
         )
     else:
         app.run_server(host="0.0.0.0", debug=False, threaded=True)
